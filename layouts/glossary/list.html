@@ -211,6 +211,15 @@
     background-color: #ffffff !important;
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.9) !important;
   }
+
+  /* Nút chữ cái chưa có từ vựng */
+  .alpha-btn.is-disabled,
+  .alpha-btn:disabled {
+    opacity: 0.28 !important;
+    cursor: not-allowed !important;
+    pointer-events: none !important;
+    border-style: dashed !important;
+  }
 </style>
 
 <header class="page-header glossary-header">
@@ -242,13 +251,15 @@
       </div>
     </div>
 
-    <!-- Alphabet Quick Filter Bar -->
+    {{- $alphabet := slice "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" }}
+    <!-- Alphabet Quick Filter Bar (Full A-Z) -->
     <div class="glossary-alpha-row">
       <span class="alpha-label">Chữ cái A–Z:</span>
       <div class="glossary-alpha-bar" id="glossary-alpha-bar">
-        <button type="button" class="alpha-btn active" data-letter="all">TẤT CẢ</button>
-        {{- range $initials }}
-        <button type="button" class="alpha-btn" data-letter="{{ . }}">{{ . }}</button>
+        <button type="button" class="alpha-btn active" data-letter="all" title="Xem tất cả từ vựng">TẤT CẢ</button>
+        {{- range $alphabet }}
+          {{- $hasWords := in $initials . }}
+          <button type="button" class="alpha-btn{{ if not $hasWords }} is-disabled{{ end }}" data-letter="{{ . }}"{{ if not $hasWords }} disabled title="Chưa có từ vựng bắt đầu bằng chữ {{ . }}"{{ else }} title="Lọc các từ bắt đầu bằng chữ {{ . }}"{{ end }}>{{ . }}</button>
         {{- end }}
       </div>
     </div>
@@ -326,6 +337,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const matchCount = document.getElementById("glossary-match-count");
   const noResults = document.getElementById("glossary-no-results");
   const resetBtn = document.getElementById("glossary-reset-btn");
+  const tableWrapper = document.querySelector(".glossary-table-wrapper");
   const totalCount = rows.length;
 
   let activeBand = "all";
@@ -339,7 +351,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const lemma = (row.getAttribute("data-lemma") || "").toLowerCase();
       const meaning = (row.getAttribute("data-meaning") || "").toLowerCase();
       const band = row.getAttribute("data-band") || "";
-      const letter = row.getAttribute("data-letter") || "";
+      const letter = (row.getAttribute("data-letter") || "").toUpperCase();
 
       const matchesSearch = !searchKeyword || lemma.includes(searchKeyword) || meaning.includes(searchKeyword);
       const matchesBand = activeBand === "all" || band === activeBand;
@@ -354,39 +366,78 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     if (matchCount) {
-      matchCount.textContent = `Hiển thị ${visibleCount}/${totalCount} từ`;
+      let info = `Hiển thị ${visibleCount}/${totalCount} từ`;
+      if (activeLetter !== "all") {
+        info += ` (Chữ ${activeLetter})`;
+      }
+      matchCount.textContent = info;
     }
 
     if (noResults) {
       noResults.style.display = visibleCount === 0 ? "block" : "none";
     }
+
+    // Luôn cuộn bảng lên đầu mỗi khi lọc để người dùng thấy kết quả ngay
+    if (tableWrapper) {
+      tableWrapper.scrollTop = 0;
+    }
   }
 
+  // Khi gõ tìm kiếm: tự động bỏ lọc chữ cái đơn lẻ để tìm trên toàn bộ từ điển
   if (searchInput) {
     searchInput.addEventListener("input", function() {
       searchKeyword = this.value.toLowerCase().trim();
+      if (searchKeyword && activeLetter !== "all") {
+        activeLetter = "all";
+        alphaBtns.forEach(b => b.classList.toggle("active", b.getAttribute("data-letter") === "all"));
+      }
       filterTable();
     });
   }
 
+  // Lọc theo phân cấp TOEIC
   filterBtns.forEach(function(btn) {
     btn.addEventListener("click", function() {
-      filterBtns.forEach(b => b.classList.remove("active"));
-      this.classList.add("active");
-      activeBand = this.getAttribute("data-band");
+      const targetBand = this.getAttribute("data-band");
+      if (targetBand === activeBand && targetBand !== "all") {
+        activeBand = "all";
+        filterBtns.forEach(b => b.classList.toggle("active", b.getAttribute("data-band") === "all"));
+      } else {
+        filterBtns.forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+        activeBand = targetBand;
+      }
       filterTable();
     });
   });
 
+  // Lọc theo Chữ cái A-Z
   alphaBtns.forEach(function(btn) {
     btn.addEventListener("click", function() {
-      alphaBtns.forEach(b => b.classList.remove("active"));
-      this.classList.add("active");
-      activeLetter = this.getAttribute("data-letter");
+      if (this.disabled || this.classList.contains("is-disabled")) return;
+      const targetLetter = this.getAttribute("data-letter");
+
+      // Nếu bấm lại chữ đang active thì toggle về TẤT CẢ
+      if (targetLetter === activeLetter && targetLetter !== "all") {
+        activeLetter = "all";
+        alphaBtns.forEach(b => b.classList.toggle("active", b.getAttribute("data-letter") === "all"));
+      } else {
+        alphaBtns.forEach(b => b.classList.remove("active"));
+        this.classList.add("active");
+        activeLetter = targetLetter;
+      }
+
+      // Xóa từ khóa ô tìm kiếm khi click nút chữ cái để lọc trọn vẹn theo chữ cái đó
+      if (searchInput && searchInput.value) {
+        searchInput.value = "";
+        searchKeyword = "";
+      }
+
       filterTable();
     });
   });
 
+  // Nút xóa bộ lọc
   if (resetBtn) {
     resetBtn.addEventListener("click", function() {
       activeBand = "all";
