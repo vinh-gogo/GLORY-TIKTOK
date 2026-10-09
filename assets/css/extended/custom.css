@@ -906,14 +906,66 @@
     box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
 }
 
-/* Wide Desktop Table */
+/* Wide Desktop Table with Internal Scroll & Hover Scrollbar */
 .glossary-table-wrapper {
-    overflow-x: auto;
+    max-height: clamp(520px, 72vh, 850px);
+    overflow: auto;
     border: 1px solid var(--border);
     border-radius: 14px;
     background-color: var(--entry);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(148, 163, 184, 0.15) transparent;
+    transition: scrollbar-color 0.25s ease;
+}
+
+.glossary-table-wrapper:hover {
+    scrollbar-color: rgba(148, 163, 184, 0.55) transparent;
+}
+
+/* Custom Sleek Scrollbar on Hover */
+.glossary-table-wrapper::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.glossary-table-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.glossary-table-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(148, 163, 184, 0.15);
+    border-radius: 9999px;
+    transition: background-color 0.25s ease;
+}
+
+.glossary-table-wrapper:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(148, 163, 184, 0.55);
+}
+
+.glossary-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #2563eb;
+}
+
+.dark .glossary-table-wrapper {
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+}
+
+.dark .glossary-table-wrapper:hover {
+    scrollbar-color: rgba(255, 255, 255, 0.35) transparent;
+}
+
+.dark .glossary-table-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .glossary-table-wrapper:hover::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
+.dark .glossary-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #60a5fa;
 }
 
 .glossary-table {
@@ -927,7 +979,7 @@
 
 .glossary-table thead th {
     position: sticky;
-    top: 60px;
+    top: 0;
     z-index: 10;
     background-color: var(--code-bg);
     padding: 14px 16px;
@@ -935,8 +987,7 @@
     color: var(--primary);
     border-bottom: 2px solid var(--border);
     white-space: nowrap;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .glossary-table td {
