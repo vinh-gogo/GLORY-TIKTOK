@@ -6,227 +6,57 @@
   {{- end }}
 {{- end }}
 {{- $totalWordsCount := len $allWords }}
-{{- $coreCount := 0 }}
-{{- $targetCount := 0 }}
-{{- $advCount := 0 }}
-{{- range $allWords }}
-  {{- $b := "" }}
-  {{- with .level }}{{ $b = .band }}{{ end }}
-  {{- if eq $b "core" }}{{ $coreCount = add $coreCount 1 }}
-  {{- else if eq $b "target" }}{{ $targetCount = add $targetCount 1 }}
-  {{- else if eq $b "advanced" }}{{ $advCount = add $advCount 1 }}{{ end }}
-{{- end }}
 
-<div class="home-container">
-
-  <!-- 1. HERO SECTION -->
-  <header class="home-hero">
-    <div class="home-badge-pill">
-      <span class="home-badge-dot"></span>
-      <span>Glory 01 • TOEIC Speaking Lab</span>
-    </div>
-
-    <h1 class="home-hero-title">
-      Học Từ Vựng &amp; Phản Xạ <br class="br-desktop">
-      <span class="gradient-text">TOEIC Speaking</span>
-    </h1>
-
-    <p class="home-hero-sub">
-      Hệ sinh thái <strong>{{ $totalWordsCount }} từ vựng ETS-style</strong> có phiên âm IPA chuẩn, collocations thực chiến và phòng thi bấm giờ phản xạ.
-    </p>
-
-    <!-- Search Bar -->
-    <div class="home-search-wrapper">
-      <form action="/glossary/" method="GET" class="home-search-form" id="home-search-form">
-        <span class="home-search-icon">🔍</span>
-        <input type="text" name="q" id="home-search-input" placeholder="Tra cứu từ vựng, IPA, nghĩa tiếng Việt (vd: deadline, reschedule...)" autocomplete="off">
-        <button type="submit" class="home-search-btn">Tra từ A–Z</button>
-      </form>
-      <div class="home-search-hints">
-        <span class="hint-label">Gợi ý tìm nhanh:</span>
-        <a href="/words/deadline/" class="hint-tag">deadline</a>
-        <a href="/words/reschedule/" class="hint-tag">reschedule</a>
-        <a href="/words/postpone/" class="hint-tag">postpone</a>
-        <a href="/words/touch-base/" class="hint-tag">touch-base</a>
-        <a href="/words/pedestrian/" class="hint-tag">pedestrian</a>
-      </div>
-    </div>
-
-    <!-- Quick Alphabet Filter Strip -->
-    <div class="home-alpha-strip" aria-label="Tra cứu theo vần A-Z">
-      <span class="alpha-strip-label">Lọc nhanh theo chữ cái:</span>
-      <div class="alpha-strip-btns">
-        {{- $alphabet := slice "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z" }}
-        {{- range $alphabet }}
-          {{- $l := . | lower }}
-          {{- $count := 0 }}
-          {{- with index site.Data.lexicon $l }}
-            {{- $count = len . }}
-          {{- end }}
-          {{- if gt $count 0 }}
-            <a href="/glossary/?letter={{ . }}" class="alpha-strip-link" title="Xem {{ $count }} từ bắt đầu bằng chữ {{ . }}">{{ . }}</a>
-          {{- else }}
-            <span class="alpha-strip-disabled" title="Chưa có từ">{{ . }}</span>
-          {{- end }}
-        {{- end }}
-      </div>
-    </div>
+<div class="home-simple-wrapper">
+  
+  <header class="home-simple-header">
+    <h1 class="home-simple-title">Từ Điển &amp; Luyện Nói TOEIC</h1>
   </header>
 
-  <!-- 2. TWO CORE PILLARS (TỪ ĐIỂN A-Z & CHI TIẾT TỪ VỰNG) -->
-  <section class="home-pillars-grid" aria-label="Hai cổng học tập chính">
+  <!-- Thanh tìm kiếm trực tiếp -->
+  <form action="/glossary/" method="GET" class="home-simple-search">
+    <span class="search-icon">🔍</span>
+    <input type="text" name="q" placeholder="Tra từ vựng, phiên âm IPA, nghĩa tiếng Việt..." autocomplete="off">
+    <button type="submit">Tra từ</button>
+  </form>
+
+  <!-- 2 CỔNG CHÍNH ĐỂ VÀO HỌC -->
+  <div class="home-simple-gateways">
     
-    <!-- CỘT 1: TỪ ĐIỂN A-Z (GLOSSARY) -->
-    <div class="pillar-card pillar-glossary">
-      <div class="pillar-header">
-        <div class="pillar-badge badge-blue">Trọng Tâm 01 • Bảng Tra Cứu</div>
-        <div class="pillar-stat">{{ $totalWordsCount }} Mục Từ</div>
+    <!-- Cổng 1: Từ Điển A-Z (Glossary) -->
+    <a href="/glossary/" class="gateway-card card-glossary">
+      <div class="gateway-icon">📖</div>
+      <div class="gateway-content">
+        <span class="gateway-badge badge-blue">Bảng Tra Cứu Toàn Diện</span>
+        <h2 class="gateway-title">Từ Điển A–Z</h2>
+        <p class="gateway-desc">Xem toàn bộ {{ $totalWordsCount }} từ vựng, lọc tức thì theo vần A–Z và 3 cấp độ Core, Target, Advanced.</p>
       </div>
-      
-      <h2 class="pillar-title">📖 Từ Điển A–Z (Glossary)</h2>
-      <p class="pillar-desc">
-        Bảng tra cứu tốc độ cao tối ưu cho cả máy tính và điện thoại. Lọc tức thì theo chữ cái A–Z hoặc theo 3 phân cấp mục tiêu bài thi:
-      </p>
-
-      <div class="pillar-levels-list">
-        <a href="/glossary/?band=core" class="pillar-level-row level-row-core">
-          <div class="level-indicator dot-core"></div>
-          <div class="level-info">
-            <span class="level-name">Core (Nền tảng)</span>
-            <span class="level-note">Part 1 &amp; Part 2 • Phát âm rõ ràng, từ vựng thiết yếu</span>
-          </div>
-          <span class="level-count">{{ $coreCount }} từ</span>
-        </a>
-
-        <a href="/glossary/?band=target" class="pillar-level-row level-row-target">
-          <div class="level-indicator dot-target"></div>
-          <div class="level-info">
-            <span class="level-name">Target (Mục tiêu)</span>
-            <span class="level-note">Part 3 &amp; Part 4 • Collocations công sở, đạt 130–160+</span>
-          </div>
-          <span class="level-count">{{ $targetCount }} từ</span>
-        </a>
-
-        <a href="/glossary/?band=advanced" class="pillar-level-row level-row-advanced">
-          <div class="level-indicator dot-advanced"></div>
-          <div class="level-info">
-            <span class="level-name">Advanced (Nâng cao)</span>
-            <span class="level-note">Part 5 • Thảo luận giải pháp, tối đa điểm số</span>
-          </div>
-          <span class="level-count">{{ $advCount }} từ</span>
-        </a>
-      </div>
-
-      <div class="pillar-cta">
-        <a href="/glossary/" class="pillar-btn btn-blue">
-          <span>Mở Từ Điển A–Z Toàn Bộ</span>
-          <span class="pillar-arrow">→</span>
-        </a>
-      </div>
-    </div>
-
-    <!-- CỘT 2: CHI TIẾT TỪ VỰNG (WORD STUDY) -->
-    <div class="pillar-card pillar-words">
-      <div class="pillar-header">
-        <div class="pillar-badge badge-emerald">Trọng Tâm 02 • Học Sâu Từng Từ</div>
-        <div class="pillar-stat">Phím tắt ← →</div>
-      </div>
-
-      <h2 class="pillar-title">🔍 Chi Tiết Từng Từ Vựng</h2>
-      <p class="pillar-desc">
-        Mỗi từ vựng là một bài học phản xạ hoàn chỉnh: phân tích IPA, cảnh báo lỗi phát âm, collocations ăn điểm và ví dụ phòng thi thực tế:
-      </p>
-
-      <div class="pillar-features-pills">
-        <span class="feature-pill">🎯 Phiên âm IPA chuẩn xác</span>
-        <span class="feature-pill">💡 Mẹo phát âm &amp; âm đuôi</span>
-        <span class="feature-pill">⚡ Collocations đi liền cụm</span>
-        <span class="feature-pill">⌨️ Phím mũi tên ← → chuyển từ</span>
-      </div>
-
-      <!-- Quick Word Pickers -->
-      <div class="pillar-words-samples">
-        <div class="samples-label">Một số từ vựng tiêu biểu:</div>
-        <div class="samples-grid">
-          <a href="/words/deadline/" class="sample-word-item">
-            <div class="s-top">
-              <span class="s-word">deadline</span>
-              <span class="s-badge badge-core">Core</span>
-            </div>
-            <span class="s-ipa">/ˈdedlaɪn/</span>
-          </a>
-          <a href="/words/reschedule/" class="sample-word-item">
-            <div class="s-top">
-              <span class="s-word">reschedule</span>
-              <span class="s-badge badge-target">Target</span>
-            </div>
-            <span class="s-ipa">/ˌriːˈskedʒuːl/</span>
-          </a>
-          <a href="/words/postpone/" class="sample-word-item">
-            <div class="s-top">
-              <span class="s-word">postpone</span>
-              <span class="s-badge badge-core">Core</span>
-            </div>
-            <span class="s-ipa">/poʊstˈpoʊn/</span>
-          </a>
-          <a href="/words/touch-base/" class="sample-word-item">
-            <div class="s-top">
-              <span class="s-word">touch-base</span>
-              <span class="s-badge badge-target">Target</span>
-            </div>
-            <span class="s-ipa">/tʌtʃ beɪs/</span>
-          </a>
-          <a href="/words/pedestrian/" class="sample-word-item">
-            <div class="s-top">
-              <span class="s-word">pedestrian</span>
-              <span class="s-badge badge-core">Core</span>
-            </div>
-            <span class="s-ipa">/pəˈdestriən/</span>
-          </a>
-          <a href="/words/benchmark/" class="sample-word-item">
-            <div class="s-top">
-              <span class="s-word">benchmark</span>
-              <span class="s-badge badge-advanced">Advanced</span>
-            </div>
-            <span class="s-ipa">/ˈbentʃmɑːrk/</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="pillar-cta">
-        <a href="/words/deadline/" class="pillar-btn btn-emerald">
-          <span>Bắt Đầu Học Từ Chi Tiết</span>
-          <span class="pillar-arrow">→</span>
-        </a>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- 3. COMPACT SECONDARY LINKS (SETS & TIKTOK) -->
-  <section class="home-secondary-grid" aria-label="Các liên kết bổ trợ">
-    <a href="/sets/" class="secondary-card">
-      <div class="secondary-icon">🎬</div>
-      <div class="secondary-info">
-        <h3 class="secondary-title">Bộ Bài Học Video &amp; Bấm Giờ</h3>
-        <p class="secondary-desc">13 bài học theo đề thi Part 1–5 có bấm giờ chuẩn IIG.</p>
-      </div>
-      <span class="secondary-arrow">→</span>
+      <span class="gateway-btn btn-blue">Vào Từ Điển A–Z →</span>
     </a>
 
-    <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer" class="secondary-card tiktok-card">
-      <div class="secondary-icon tiktok-icon">
-        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.49 6.34 6.34 0 0 0 1.95-4.49V8.52a8.27 8.27 0 0 0 4.82 1.54v-3.37a4.83 4.83 0 0 1-1-.0z"/>
-        </svg>
+    <!-- Cổng 2: Chi Tiết Từ Vựng (Word Detail) -->
+    <a href="/words/deadline/" class="gateway-card card-words">
+      <div class="gateway-icon">🔍</div>
+      <div class="gateway-content">
+        <span class="gateway-badge badge-emerald">Học Sâu &amp; Phản Xạ</span>
+        <h2 class="gateway-title">Chi Tiết Từ Vựng</h2>
+        <p class="gateway-desc">Phát âm IPA chuẩn, lưu ý phòng thi, collocations ăn điểm và luyện phản xạ với phím tắt ← →.</p>
       </div>
-      <div class="secondary-info">
-        <h3 class="secondary-title">Kênh TikTok @wbk.lqv</h3>
-        <p class="secondary-desc">Video phát âm &amp; giải đề ngắn gọn hàng ngày.</p>
-      </div>
-      <span class="secondary-arrow">↗</span>
+      <span class="gateway-btn btn-emerald">Xem Chi Tiết Từ Vựng →</span>
     </a>
-  </section>
+
+  </div>
+
+  <!-- Các liên kết phụ ngắn gọn -->
+  <nav class="home-simple-links" aria-label="Liên kết nhanh">
+    <a href="/sets/">📚 Bộ bài học</a>
+    <span class="sep">•</span>
+    <a href="/topics/">🏷️ Theo chủ đề</a>
+    <span class="sep">•</span>
+    <a href="/parts/">🎯 Theo Part 1–5</a>
+    <span class="sep">•</span>
+    <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer">🎬 TikTok @wbk.lqv</a>
+  </nav>
 
 </div>
 {{- end }}
