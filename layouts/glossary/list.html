@@ -17,67 +17,69 @@
     width: 100% !important;
   }
 
-  /* Khung cuộn bảng từ vựng */
-  .glossary-table-wrapper {
-    position: relative !important;
-    max-height: clamp(520px, 72vh, 850px) !important;
-    overflow: auto !important;
-    border: 1px solid var(--border) !important;
-    border-radius: 14px !important;
-    background-color: var(--entry) !important;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03) !important;
-    -webkit-overflow-scrolling: touch !important;
-  }
+  /* Khung cuộn bảng từ vựng trên Desktop */
+  @media (min-width: 769px) {
+    .glossary-table-wrapper {
+      position: relative !important;
+      max-height: clamp(520px, 72vh, 850px) !important;
+      overflow: auto !important;
+      border: 1px solid var(--border) !important;
+      border-radius: 14px !important;
+      background-color: var(--entry) !important;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03) !important;
+      -webkit-overflow-scrolling: touch !important;
+    }
 
-  /* Ghi đè triệt để display: block & overflow-x: auto mặc định của PaperMod reset.css trên thẻ table */
-  table.glossary-table {
-    display: table !important;
-    overflow: visible !important;
-    width: 100% !important;
-    min-width: 1100px !important;
-    table-layout: fixed !important;
-    border-collapse: separate !important;
-    border-spacing: 0 !important;
-  }
+    /* Ghi đè triệt để display: block & overflow-x: auto mặc định của PaperMod reset.css trên thẻ table */
+    table.glossary-table {
+      display: table !important;
+      overflow: visible !important;
+      width: 100% !important;
+      min-width: 1100px !important;
+      table-layout: fixed !important;
+      border-collapse: separate !important;
+      border-spacing: 0 !important;
+    }
 
-  table.glossary-table thead {
-    display: table-header-group !important;
-  }
+    table.glossary-table thead {
+      display: table-header-group !important;
+    }
 
-  table.glossary-table thead tr {
-    display: table-row !important;
-  }
+    table.glossary-table thead tr {
+      display: table-row !important;
+    }
 
-  /* Header cột cố định 100% ở đầu bảng khi cuộn */
-  table.glossary-table thead th {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 0 !important;
-    z-index: 50 !important;
-    background-color: var(--code-bg) !important;
-    color: var(--primary) !important;
-    padding: 14px 16px !important;
-    font-weight: 700 !important;
-    white-space: nowrap !important;
-    border-bottom: 2px solid var(--border) !important;
-    box-shadow: inset 0 -2px 0 var(--border), 0 2px 6px rgba(0, 0, 0, 0.06) !important;
-    background-clip: padding-box !important;
-  }
+    /* Header cột cố định 100% ở đầu bảng khi cuộn */
+    table.glossary-table thead th {
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 0 !important;
+      z-index: 50 !important;
+      background-color: var(--code-bg) !important;
+      color: var(--primary) !important;
+      padding: 14px 16px !important;
+      font-weight: 700 !important;
+      white-space: nowrap !important;
+      border-bottom: 2px solid var(--border) !important;
+      box-shadow: inset 0 -2px 0 var(--border), 0 2px 6px rgba(0, 0, 0, 0.06) !important;
+      background-clip: padding-box !important;
+    }
 
-  table.glossary-table thead th:first-child {
-    border-top-left-radius: 13px !important;
-  }
+    table.glossary-table thead th:first-child {
+      border-top-left-radius: 13px !important;
+    }
 
-  table.glossary-table thead th:last-child {
-    border-top-right-radius: 13px !important;
-  }
+    table.glossary-table thead th:last-child {
+      border-top-right-radius: 13px !important;
+    }
 
-  table.glossary-table tbody {
-    display: table-row-group !important;
-  }
+    table.glossary-table tbody {
+      display: table-row-group !important;
+    }
 
-  table.glossary-table tbody tr {
-    display: table-row;
+    table.glossary-table tbody tr {
+      display: table-row;
+    }
   }
 
   table.glossary-table tbody tr.is-hidden {
@@ -260,20 +262,198 @@
     box-shadow: 0 6px 18px rgba(37, 99, 235, 0.45) !important;
   }
 
-  /* Tối ưu thanh Chữ cái A-Z trên Mobile */
+  /* ==========================================================================
+     TỐI ƯU TOÀN DIỆN CHO MÀN HÌNH ĐIỆN THOẠI (Mobile UI/UX <= 768px)
+     ========================================================================== */
   @media (max-width: 768px) {
+    .glossary-container {
+      margin: 0.75rem 0 3rem 0 !important;
+    }
+
+    /* Ô tìm kiếm mobile */
+    .glossary-search-box {
+      flex-direction: column !important;
+      align-items: flex-start !important;
+    }
+
+    .glossary-search-box input {
+      padding: 12px 14px 12px 42px !important;
+      font-size: 0.92rem !important;
+      border-radius: 10px !important;
+    }
+
+    .glossary-match-badge {
+      position: static !important;
+      display: inline-block !important;
+      margin-top: 8px !important;
+      font-size: 0.76rem !important;
+      padding: 4px 10px !important;
+    }
+
+    /* Labels bộ lọc */
+    .filter-label, .alpha-label {
+      display: block !important;
+      width: 100% !important;
+      font-size: 0.8rem !important;
+      margin-bottom: 6px !important;
+      min-width: 0 !important;
+    }
+
+    /* Nút phân cấp TOEIC */
+    .glossary-filters {
+      gap: 6px !important;
+      width: 100% !important;
+    }
+
+    .glossary-filter-btn {
+      padding: 5px 11px !important;
+      font-size: 0.78rem !important;
+      min-height: 32px !important;
+    }
+
+    /* Thanh chữ cái A-Z */
     .glossary-alpha-bar {
       overflow-x: auto !important;
       flex-wrap: nowrap !important;
-      padding-bottom: 6px !important;
+      padding: 2px 2px 8px 2px !important;
       -webkit-overflow-scrolling: touch !important;
       scrollbar-width: none !important;
+      gap: 5px !important;
     }
     .glossary-alpha-bar::-webkit-scrollbar {
       display: none !important;
     }
     .alpha-btn {
+      width: 32px !important;
+      height: 32px !important;
       flex-shrink: 0 !important;
+      font-size: 0.8rem !important;
+    }
+
+    /* CHUYỂN BẢNG THÀNH DẠNG CARD CỰC KỲ DỄ ĐỌC TRÊN MOBILE */
+    .glossary-table-wrapper {
+      max-height: none !important;
+      overflow: visible !important;
+      border: none !important;
+      background: transparent !important;
+      box-shadow: none !important;
+    }
+
+    table.glossary-table {
+      display: block !important;
+      width: 100% !important;
+      min-width: 0 !important;
+      overflow: visible !important;
+    }
+
+    table.glossary-table thead {
+      display: none !important;
+    }
+
+    table.glossary-table tbody {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 10px !important;
+      width: 100% !important;
+    }
+
+    /* Mỗi từ là 1 Card độc lập, bấm được toàn thẻ */
+    table.glossary-table tbody tr.glossary-row {
+      display: block !important;
+      background: var(--entry) !important;
+      border: 1px solid var(--border) !important;
+      border-radius: 14px !important;
+      padding: 14px 16px !important;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03) !important;
+      position: relative !important;
+      box-sizing: border-box !important;
+      transition: transform 0.15s ease, border-color 0.15s ease !important;
+      cursor: pointer !important;
+    }
+
+    table.glossary-table tbody tr.glossary-row:active {
+      transform: scale(0.99) !important;
+      border-color: #2563eb !important;
+    }
+
+    table.glossary-table td {
+      display: block !important;
+      border: none !important;
+      padding: 0 !important;
+      width: 100% !important;
+      min-width: 0 !important;
+      text-align: left !important;
+    }
+
+    /* Dòng 1: Từ vựng & IPA */
+    table.glossary-table td.col-word {
+      padding-right: 36px !important;
+      margin-bottom: 6px !important;
+    }
+
+    .glossary-word-link {
+      font-size: 1.15rem !important;
+      display: inline-block !important;
+    }
+
+    .glossary-ipa {
+      display: inline-block !important;
+      margin-left: 8px !important;
+      font-size: 0.84rem !important;
+    }
+
+    /* Dòng 2: Loại từ và Cấp độ badge nằm liền nhau */
+    table.glossary-table td.col-pos {
+      display: inline-block !important;
+      width: auto !important;
+      margin-right: 6px !important;
+      margin-bottom: 8px !important;
+    }
+
+    table.glossary-table td.col-level {
+      display: inline-block !important;
+      width: auto !important;
+      margin-bottom: 8px !important;
+    }
+
+    /* Dòng 3: Nghĩa tiếng Việt */
+    table.glossary-table td.col-meaning {
+      font-size: 0.95rem !important;
+      color: var(--content) !important;
+      font-weight: 500 !important;
+      line-height: 1.5 !important;
+      margin-bottom: 8px !important;
+    }
+
+    /* Dòng 4: Collocations tiêu biểu */
+    table.glossary-table td.col-colloc {
+      background: var(--code-bg) !important;
+      border-radius: 8px !important;
+      padding: 8px 10px !important;
+      font-size: 0.82rem !important;
+    }
+
+    .glossary-colloc-mini {
+      gap: 3px !important;
+    }
+
+    .glossary-colloc-mini li {
+      line-height: 1.45 !important;
+    }
+
+    /* Mũi tên góc phải trên */
+    table.glossary-table td.col-action {
+      position: absolute !important;
+      top: 14px !important;
+      right: 14px !important;
+      width: auto !important;
+    }
+
+    .glossary-row-arrow {
+      width: 26px !important;
+      height: 26px !important;
+      font-size: 0.8rem !important;
+      background: rgba(37, 99, 235, 0.08) !important;
     }
   }
 </style>
@@ -291,7 +471,7 @@
     <div class="glossary-search-row">
       <div class="glossary-search-box">
         <span class="search-icon">🔍</span>
-        <input type="text" id="glossary-search-input" placeholder="Tìm kiếm từ tiếng Anh, phiên âm IPA hoặc nghĩa tiếng Việt..." autocomplete="off">
+        <input type="text" id="glossary-search-input" placeholder="Tra từ vựng, IPA, nghĩa tiếng Việt..." autocomplete="off">
         <span class="glossary-match-badge" id="glossary-match-count">Hiển thị {{ len $allWords }}/{{ len $allWords }} từ</span>
       </div>
     </div>
