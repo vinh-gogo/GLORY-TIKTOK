@@ -250,10 +250,24 @@
     font-weight: 700;
     padding: 3px 10px;
     border-radius: 9999px;
-    background: linear-gradient(135deg, #10b981, #059669);
     color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     letter-spacing: 0.02em;
+    white-space: nowrap;
+}
+
+.vocab-level-badge.level-core {
+    background: linear-gradient(135deg, #10b981, #059669);
+    box-shadow: 0 1px 4px rgba(16, 185, 129, 0.35);
+}
+
+.vocab-level-badge.level-target {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    box-shadow: 0 1px 4px rgba(37, 99, 235, 0.35);
+}
+
+.vocab-level-badge.level-advanced {
+    background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+    box-shadow: 0 1px 4px rgba(139, 92, 246, 0.35);
 }
 
 /* --- Card Content Fields --- */
@@ -859,6 +873,72 @@
     color: #ffffff;
     border-color: #2563eb;
     box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+}
+
+/* Dots and Level Colors matching Table Tags */
+.glossary-filter-btn[data-band="core"]::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #10b981;
+    margin-right: 7px;
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.6);
+    transition: background-color 0.2s ease;
+}
+
+.glossary-filter-btn[data-band="target"]::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #3b82f6;
+    margin-right: 7px;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.6);
+    transition: background-color 0.2s ease;
+}
+
+.glossary-filter-btn[data-band="advanced"]::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #8b5cf6;
+    margin-right: 7px;
+    box-shadow: 0 0 5px rgba(139, 92, 246, 0.6);
+    transition: background-color 0.2s ease;
+}
+
+.glossary-filter-btn[data-band="core"]:hover,
+.glossary-filter-btn[data-band="core"].active {
+    background: linear-gradient(135deg, #10b981, #059669) !important;
+    border-color: #059669 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4) !important;
+}
+
+.glossary-filter-btn[data-band="target"]:hover,
+.glossary-filter-btn[data-band="target"].active {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
+    border-color: #1d4ed8 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.4) !important;
+}
+
+.glossary-filter-btn[data-band="advanced"]:hover,
+.glossary-filter-btn[data-band="advanced"].active {
+    background: linear-gradient(135deg, #8b5cf6, #6d28d9) !important;
+    border-color: #6d28d9 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(139, 92, 246, 0.4) !important;
+}
+
+.glossary-filter-btn.active::before {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.9) !important;
 }
 
 /* Alphabet Quick Jump Bar */

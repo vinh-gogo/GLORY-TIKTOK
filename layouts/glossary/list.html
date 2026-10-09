@@ -115,6 +115,102 @@
   [data-theme="dark"] .glossary-ipa {
     color: #38bdf8 !important;
   }
+
+  /* --- Cấp độ tags level trong bảng --- */
+  .vocab-level-badge {
+    display: inline-block !important;
+    font-size: 0.78rem !important;
+    font-weight: 700 !important;
+    padding: 3px 10px !important;
+    border-radius: 9999px !important;
+    color: #ffffff !important;
+    letter-spacing: 0.02em !important;
+    white-space: nowrap !important;
+  }
+
+  /* Core: Xanh lá (Emerald) */
+  .vocab-level-badge.level-core {
+    background: linear-gradient(135deg, #10b981, #059669) !important;
+    box-shadow: 0 1px 4px rgba(16, 185, 129, 0.35) !important;
+  }
+
+  /* Target: Xanh dương (Vibrant Blue) */
+  .vocab-level-badge.level-target {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
+    box-shadow: 0 1px 4px rgba(37, 99, 235, 0.35) !important;
+  }
+
+  /* Advanced: Tím hoàng gia (Royal Violet) */
+  .vocab-level-badge.level-advanced {
+    background: linear-gradient(135deg, #8b5cf6, #6d28d9) !important;
+    box-shadow: 0 1px 4px rgba(139, 92, 246, 0.35) !important;
+  }
+
+  /* --- Các nút lọc Cấp độ tương ứng màu sắc --- */
+  .glossary-filter-btn[data-band="core"]::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #10b981;
+    margin-right: 7px;
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.6);
+    transition: background-color 0.2s ease;
+  }
+
+  .glossary-filter-btn[data-band="target"]::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #3b82f6;
+    margin-right: 7px;
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.6);
+    transition: background-color 0.2s ease;
+  }
+
+  .glossary-filter-btn[data-band="advanced"]::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #8b5cf6;
+    margin-right: 7px;
+    box-shadow: 0 0 5px rgba(139, 92, 246, 0.6);
+    transition: background-color 0.2s ease;
+  }
+
+  .glossary-filter-btn[data-band="core"]:hover,
+  .glossary-filter-btn[data-band="core"].active {
+    background: linear-gradient(135deg, #10b981, #059669) !important;
+    border-color: #059669 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4) !important;
+  }
+
+  .glossary-filter-btn[data-band="target"]:hover,
+  .glossary-filter-btn[data-band="target"].active {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
+    border-color: #1d4ed8 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.4) !important;
+  }
+
+  .glossary-filter-btn[data-band="advanced"]:hover,
+  .glossary-filter-btn[data-band="advanced"].active {
+    background: linear-gradient(135deg, #8b5cf6, #6d28d9) !important;
+    border-color: #6d28d9 !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(139, 92, 246, 0.4) !important;
+  }
+
+  .glossary-filter-btn.active::before {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.9) !important;
+  }
 </style>
 
 <header class="page-header glossary-header">
