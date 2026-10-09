@@ -1,7 +1,7 @@
 baseURL: "https://glory.one.learns.dev/"
 locale: vi
 defaultContentLanguage: vi
-title: "Glory 01 – TOEIC Speaking"
+title: "Glory 01 – Blog"
 theme: PaperMod
 
 outputs:
@@ -16,6 +16,9 @@ taxonomies:
 params:
   description: "Kho từ vựng & Speaking Lab chuẩn thi TOEIC Speaking: Central Lexicon, loại từ, IPA, collocations song ngữ, bấm giờ phòng thi"
   author: "Glory 01"
+  label:
+    text: "Glory 01 – Blog"
+    iconSVG: '<svg class="header-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28" fill="none"><defs><linearGradient id="glory-logo-grad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#3b82f6"/><stop offset="100%" stop-color="#1d4ed8"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#glory-logo-grad)"/><path d="M16 2.5L16.9 5.8L20 6.8L16.9 7.8L16 11L15.1 7.8L12 6.8L15.1 5.8Z" fill="#fbbf24"/><circle cx="23.5" cy="5.5" r="1" fill="#fde68a"/><path d="M6.5 21.5C9.5 20 13 20 16 22C19 20 22.5 20 25.5 21.5V11C22.5 9.5 19 9.5 16 11.5C13 9.5 9.5 9.5 6.5 11V21.5Z" fill="#ffffff" fill-opacity="0.96"/><path d="M16 11.5V22" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/><circle cx="11.2" cy="14.8" r="1.1" fill="#1e293b"/><circle cx="20.8" cy="14.8" r="1.1" fill="#1e293b"/><circle cx="9.6" cy="16.6" r="1" fill="#f472b6" fill-opacity="0.85"/><circle cx="22.4" cy="16.6" r="1" fill="#f472b6" fill-opacity="0.85"/><path d="M14.5 15.6C15 16.8 17 16.8 17.5 15.6" stroke="#2563eb" stroke-width="1.2" stroke-linecap="round" fill="none"/></svg>'
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: false
