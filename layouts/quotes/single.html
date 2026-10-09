@@ -1,8 +1,19 @@
 {{- define "main" }}
 {{- $laws := site.Data.quotes.laws }}
+<style>
+  /* Cho phép trang Câu nói hay mở rộng chiều ngang tối đa trên Desktop */
+  .main {
+    max-width: min(1440px, 95vw) !important;
+    width: 100% !important;
+  }
+</style>
 <div class="quotes-table-container">
 
-  <h1 class="quotes-simple-title">Câu Nói Hay &amp; Định Luật Công Sở</h1>
+  <div class="quotes-page-header">
+    <div class="quotes-kicker">Triết Lý Thực Chiến • TOEIC Speaking</div>
+    <h1 class="quotes-simple-title">Câu Nói Hay &amp; Định Luật Công Sở</h1>
+    <p class="quotes-desc">Đúc kết từ những người đi trước xoay quanh các chủ đề cốt lõi của bài thi TOEIC Speaking. Mỗi định luật là một bài học đắt giá về tư duy giải quyết vấn đề và vận dụng tự nhiên các collocations ăn điểm.</p>
+  </div>
 
   <div class="quotes-table-wrapper">
     <table class="quotes-table">
