@@ -1,0 +1,53 @@
+schema_version: 2
+id: reschedule
+lemma: reschedule
+pos:
+- verb
+ipa:
+  us: /ˌriːˈskedʒuːl/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- work
+speaking_use:
+- respond-to-questions
+senses:
+- id: reschedule-1
+  meaning_vi: Sắp xếp lại lịch hẹn, đổi lịch sang một mốc thời gian cụ thể khác
+confused_words:
+- ref: schedule
+  word: schedule
+  ipa: /ˈskedʒuːl/
+  meaning: Lên lịch trình làm việc ban đầu
+  kind: spelling-sound
+  difference_vi: Tiền tố 're-' biểu thị sự thay đổi hoặc sắp xếp lại lần hai
+confusing_meanings:
+- ref: postpone
+  word: postpone
+  meaning: Hoãn lại (chưa nhất thiết ấn định ngay ngày họp mới)
+  difference_vi: Reschedule thường đi kèm thời điểm mới được chốt ngay; postpone có
+    thể hoãn vô thời hạn
+collocations:
+- phrase: reschedule an appointment
+  meaning_vi: Đổi lịch một cuộc hẹn
+  evidence: corpus
+- phrase: reschedule for next week
+  meaning_vi: Dời lịch sang tuần sau
+  evidence: corpus
+- phrase: request to reschedule
+  meaning_vi: Gửi yêu cầu thay đổi thời gian họp
+  evidence: corpus
+synonyms:
+- word: rearrange
+  meaning_vi: sắp xếp lại
+examples:
+- en: Could we reschedule our project update meeting for Thursday morning instead?
+  vi: Chúng ta có thể đổi lịch cuộc họp cập nhật dự án sang sáng thứ Năm được không?
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'

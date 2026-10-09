@@ -1,0 +1,63 @@
+schema_version: 2
+id: deadline
+lemma: deadline
+pos:
+- noun
+ipa:
+  us: /ˈdedlaɪn/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- work
+speaking_use:
+- respond-to-questions
+senses:
+- id: deadline-1
+  meaning_vi: Hạn chót, thời hạn cuối cùng phải hoàn thành công việc
+confused_words:
+- ref: timeline
+  word: timeline
+  ipa: /ˈtaɪmlaɪn/
+  meaning: Tiến độ / mốc thời gian tổng thể của dự án
+  kind: spelling-sound
+  difference_vi: Deadline là 1 mốc chót cố định; timeline là toàn bộ lộ trình các
+    giai đoạn
+- ref: lifeline
+  word: lifeline
+  ipa: /ˈlaɪflaɪn/
+  meaning: Dây an toàn / phao cứu sinh / sự trợ giúp cứu cánh
+  kind: spelling-sound
+  difference_vi: Tránh phát âm nhầm âm đầu dead- /ˈded/ thành life- /ˈlaɪf/
+confusing_meanings:
+- ref: due-date
+  word: due date
+  meaning: Ngày đến hạn (thanh toán hóa đơn, nộp bài tập)
+  difference_vi: Deadline dùng cho áp lực hoàn thành công việc/dự án; due date là
+    ngày đáo hạn tiền bạc hoặc giấy tờ
+collocations:
+- phrase: meet a deadline
+  meaning_vi: Kịp hạn chót, hoàn thành đúng hạn
+  evidence: corpus
+- phrase: miss a deadline
+  meaning_vi: Trễ hạn chót, không kịp tiến độ
+  evidence: corpus
+- phrase: tight deadline
+  meaning_vi: Hạn chót gấp gáp, thời gian rất ngắn
+  evidence: corpus
+- phrase: extend the deadline
+  meaning_vi: Gia hạn thêm thời gian nộp
+  evidence: corpus
+synonyms:
+- word: target date
+  meaning_vi: ngày mục tiêu
+examples:
+- en: We often have to work overtime to meet tight deadlines at the end of the quarter.
+  vi: Chúng tôi thường phải làm thêm giờ để kịp các hạn chót gấp gáp vào cuối quý.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'

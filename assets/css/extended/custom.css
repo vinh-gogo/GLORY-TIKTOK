@@ -517,3 +517,588 @@
         min-width: unset;
     }
 }
+
+
+/* ==========================================================================
+   P1 Extension: Word Single Page, Glossary A-Z, Speaking Lab Timer & TikTok Facade
+   ========================================================================== */
+
+/* --- Word Single Page --- */
+.word-hero-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.word-hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+    color: var(--primary);
+}
+
+.word-hero-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+.word-section {
+    margin: 2.2rem 0;
+}
+
+.word-section h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.85rem;
+    color: var(--primary);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 0.4rem;
+}
+
+.word-sense-card {
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.2rem;
+}
+
+.word-meaning-main {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0 0 0.4rem 0;
+}
+
+.word-meaning-note {
+    font-size: 0.92rem;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.word-related-sets-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.word-set-card-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9rem 1.2rem;
+    background-color: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.word-set-card-link:hover {
+    border-color: #3b82f6;
+    transform: translateX(4px);
+}
+
+.word-page-footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed var(--border);
+}
+
+/* --- Card Links & Report --- */
+.vocab-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.2rem;
+    padding-top: 0.8rem;
+    border-top: 1px dashed var(--border);
+    font-size: 0.85rem;
+}
+
+.vocab-card-link {
+    font-weight: 600;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.vocab-card-report {
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 0.82rem;
+}
+
+.vocab-card-report:hover {
+    color: #ef4444;
+}
+
+/* --- Glossary Table Styles --- */
+.glossary-container {
+    margin: 1.5rem 0 3rem 0;
+}
+
+.glossary-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.glossary-search-box input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background-color: var(--entry);
+    color: var(--primary);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.02);
+}
+
+.glossary-search-box input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.glossary-filters {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-label {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+.glossary-filter-btn {
+    background-color: var(--code-bg);
+    border: 1px solid var(--border);
+    color: var(--content);
+    padding: 5px 12px;
+    border-radius: 9999px;
+    font-size: 0.84rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.glossary-filter-btn.active, .glossary-filter-btn:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+    border-color: #2563eb;
+}
+
+.glossary-table-wrapper {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background-color: var(--entry);
+}
+
+.glossary-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.92rem;
+    text-align: left;
+}
+
+.glossary-table th {
+    background-color: var(--code-bg);
+    padding: 12px 16px;
+    font-weight: 700;
+    color: var(--primary);
+    border-bottom: 2px solid var(--border);
+    white-space: nowrap;
+}
+
+.glossary-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+}
+
+.glossary-row:hover {
+    background-color: rgba(59, 130, 246, 0.03);
+}
+
+.glossary-word-link {
+    font-size: 1.05rem;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.glossary-ipa {
+    display: block;
+    font-family: monospace;
+    font-size: 0.82rem;
+    color: #0284c7;
+}
+
+.glossary-colloc-mini {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.84rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.glossary-btn-detail {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: var(--code-bg);
+    border: 1px solid var(--border);
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.82rem;
+    white-space: nowrap;
+}
+
+.glossary-btn-detail:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+/* --- Speaking Lab Practice Card & Timer --- */
+.practice-container {
+    margin: 2.5rem 0;
+}
+
+.practice-header {
+    margin-bottom: 1.5rem;
+}
+
+.practice-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin: 0 0 0.35rem 0;
+}
+
+.practice-subtitle {
+    font-size: 0.92rem;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.practice-card {
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+.practice-card-top {
+    margin-bottom: 1rem;
+}
+
+.practice-badge-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.practice-q-badge {
+    font-size: 0.82rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #2563eb, #6366f1);
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 9999px;
+}
+
+.practice-timer-badge {
+    font-size: 0.82rem;
+    font-weight: 600;
+    background-color: var(--code-bg);
+    color: var(--primary);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.practice-response-badge {
+    border-color: rgba(236, 72, 153, 0.4);
+    color: #db2777;
+}
+
+:root[data-theme="dark"] .practice-response-badge {
+    color: #f472b6;
+}
+
+.practice-prompt-box {
+    background-color: var(--code-bg);
+    border-left: 4px solid #6366f1;
+    padding: 1rem 1.25rem;
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 1.2rem;
+}
+
+.practice-prompt-label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6366f1;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.3rem;
+}
+
+.practice-prompt-text {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.practice-target-words {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.2rem;
+}
+
+.practice-target-label {
+    font-size: 0.84rem;
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+.practice-target-chips {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.practice-target-chip {
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background-color: rgba(37, 99, 235, 0.08);
+    color: #2563eb;
+    text-decoration: none;
+    border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+.practice-target-chip:hover {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+/* Timer Widget */
+.speaking-timer-widget {
+    background-color: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.timer-display-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.timer-phase-label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.timer-phase-label.phase-prep {
+    color: #d97706;
+}
+
+.timer-phase-label.phase-resp {
+    color: #dc2626;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    from { opacity: 0.8; }
+    to { opacity: 1; transform: scale(1.02); }
+}
+
+.timer-phase-label.phase-done {
+    color: #10b981;
+}
+
+.timer-countdown {
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: 0.05em;
+}
+
+.timer-progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: var(--border);
+    border-radius: 9999px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.timer-progress-fill {
+    height: 100%;
+    width: 100%;
+    background-color: #3b82f6;
+    transition: width 0.9s linear;
+}
+
+.timer-progress-fill.fill-prep {
+    background-color: #f59e0b;
+}
+
+.timer-progress-fill.fill-resp {
+    background-color: #ef4444;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.timer-btn {
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.timer-btn-start {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.timer-btn-start:hover:not(:disabled) {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+.timer-btn-reset {
+    background-color: var(--border);
+    color: var(--content);
+}
+
+.timer-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Practice Accordion */
+.practice-model-details {
+    background-color: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.practice-model-summary {
+    padding: 10px 14px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #2563eb;
+    cursor: pointer;
+    user-select: none;
+}
+
+:root[data-theme="dark"] .practice-model-summary {
+    color: #60a5fa;
+}
+
+.practice-model-content {
+    padding: 12px 16px;
+    border-top: 1px dashed var(--border);
+}
+
+.practice-model-text {
+    font-size: 0.95rem;
+    color: var(--content);
+    line-height: 1.6;
+}
+
+/* --- TikTok Facade Card --- */
+.tiktok-facade-card {
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.05), rgba(236, 72, 153, 0.05));
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.tiktok-facade-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.tiktok-load-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, #ec4899, #f43f5e);
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.tiktok-load-btn:hover {
+    transform: scale(1.02);
+    opacity: 0.95;
+}
+
+.tiktok-app-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #000000;
+    color: #ffffff !important;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none !important;
+}
+
+:root[data-theme="dark"] .tiktok-app-btn {
+    background: #ffffff;
+    color: #000000 !important;
+}

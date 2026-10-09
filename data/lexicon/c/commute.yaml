@@ -1,0 +1,65 @@
+schema_version: 2
+id: commute
+lemma: commute
+pos:
+- noun
+- verb
+ipa:
+  us: /kəˈmjuːt/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- work
+speaking_use:
+- respond-to-questions
+senses:
+- id: commute-1
+  meaning_vi: Đi lại đều đặn giữa nhà và chỗ làm; (n) quãng đường đi làm mỗi ngày
+confused_words:
+- ref: compute
+  word: compute
+  ipa: /kəmˈpjuːt/
+  meaning: Tính toán số liệu bằng máy
+  kind: spelling-sound
+  difference_vi: Âm /m/ trong commute vs âm /mp/ trong compute; commute là đi làm,
+    compute là tính toán
+- ref: communicate
+  word: communicate
+  ipa: /kəˈmjuːnɪkeɪt/
+  meaning: Giao tiếp, truyền đạt thông điệp
+  kind: spelling-sound
+  difference_vi: Communicate có 4 âm tiết; commute chỉ có 2 âm tiết
+confusing_meanings:
+- ref: travel
+  word: travel
+  meaning: Đi lại, du lịch (nói chung mọi chuyến đi xa gần)
+  difference_vi: Commute chỉ hành trình đi làm - về nhà thường nhật; travel là di
+    chuyển xa hoặc đi công tác/du lịch
+collocations:
+- phrase: daily commute
+  meaning_vi: Quãng đường đi làm hằng ngày
+  evidence: corpus
+- phrase: long commute
+  meaning_vi: Chuyến đi làm đường dài, tốn nhiều thời gian
+  evidence: corpus
+- phrase: commute by public transport
+  meaning_vi: Đi làm bằng phương tiện công cộng
+  evidence: corpus
+- phrase: ease the commute
+  meaning_vi: Giúp việc đi làm thuận tiện, đỡ mệt nhọc hơn
+  evidence: corpus
+synonyms:
+- word: daily transit
+  meaning_vi: sự di chuyển mỗi ngày
+examples:
+- en: My daily commute takes about 45 minutes by subway during morning rush hours.
+  vi: Quãng đường đi làm mỗi ngày của tôi mất khoảng 45 phút bằng tàu điện ngầm trong
+    giờ cao điểm buổi sáng.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'

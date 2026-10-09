@@ -1,0 +1,131 @@
+{{- define "main" }}
+{{- $allWords := slice }}
+{{- range $letter, $dict := site.Data.lexicon }}
+  {{- range $id, $w := $dict }}
+    {{- $allWords = $allWords | append $w }}
+  {{- end }}
+{{- end }}
+{{- $allWords = sort $allWords "lemma" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <p class="post-description">Tra cứu nhanh toàn bộ từ vựng, phiên âm IPA, cấp độ TOEIC và collocations có trong các video bài học của kênh Glory 01.</p>
+</header>
+
+<div class="glossary-container">
+  <!-- Controls: Filter & Search -->
+  <div class="glossary-controls">
+    <div class="glossary-search-box">
+      <input type="text" id="glossary-search-input" placeholder="🔍 Nhập từ tiếng Anh hoặc nghĩa tiếng Việt để lọc tức thì..." autocomplete="off">
+    </div>
+    <div class="glossary-filters">
+      <span class="filter-label">Phân cấp TOEIC:</span>
+      <button type="button" class="glossary-filter-btn active" data-band="all">Tất cả ({{ len $allWords }})</button>
+      <button type="button" class="glossary-filter-btn" data-band="core">Core (Nền tảng)</button>
+      <button type="button" class="glossary-filter-btn" data-band="target">Target (Mục tiêu)</button>
+      <button type="button" class="glossary-filter-btn" data-band="advanced">Advanced (Nâng cao)</button>
+    </div>
+  </div>
+
+  <!-- Words Table -->
+  <div class="glossary-table-wrapper">
+    <table class="glossary-table" id="glossary-table">
+      <thead>
+        <tr>
+          <th>Từ vựng & IPA</th>
+          <th>Loại từ</th>
+          <th>Cấp độ</th>
+          <th>Nghĩa tiếng Việt</th>
+          <th>Collocations tiêu biểu</th>
+          <th>Chi tiết</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- range $allWords }}
+        {{- $meaning := "" }}
+        {{- with .senses }}{{ $meaning = (index . 0).meaning_vi }}{{ end }}
+        {{- $band := "" }}
+        {{- with .level }}{{ $band = .band }}{{ end }}
+        <tr class="glossary-row" data-lemma="{{ .lemma | lower }}" data-meaning="{{ $meaning | lower }}" data-band="{{ $band }}">
+          <td class="col-word">
+            <a href="/words/{{ .id }}/" class="glossary-word-link"><strong>{{ .lemma }}</strong></a>
+            {{- with .ipa.us }}
+            <span class="glossary-ipa">{{ . }}</span>
+            {{- end }}
+          </td>
+          <td class="col-pos">
+            {{- with .pos }}
+              {{- delimit . ", " }}
+            {{- end }}
+          </td>
+          <td class="col-level">
+            <span class="vocab-level-badge level-{{ $band }}">
+              {{- if eq $band "core" }}Core{{- else if eq $band "target" }}Target{{- else }}Advanced{{- end }}
+            </span>
+          </td>
+          <td class="col-meaning">
+            {{ $meaning }}
+          </td>
+          <td class="col-colloc">
+            {{- with .collocations }}
+              <ul class="glossary-colloc-mini">
+                {{- range first 2 . }}
+                <li>⚡ <strong>{{ .phrase }}</strong>: {{ .meaning_vi }}</li>
+                {{- end }}
+              </ul>
+            {{- end }}
+          </td>
+          <td class="col-action">
+            <a href="/words/{{ .id }}/" class="glossary-btn-detail">Xem ➔</a>
+          </td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const searchInput = document.getElementById("glossary-search-input");
+  const filterBtns = document.querySelectorAll(".glossary-filter-btn");
+  const rows = document.querySelectorAll(".glossary-row");
+
+  let activeBand = "all";
+  let searchKeyword = "";
+
+  function filterTable() {
+    rows.forEach(function(row) {
+      const lemma = (row.getAttribute("data-lemma") || "").toLowerCase();
+      const meaning = (row.getAttribute("data-meaning") || "").toLowerCase();
+      const band = row.getAttribute("data-band") || "";
+
+      const matchesSearch = !searchKeyword || lemma.includes(searchKeyword) || meaning.includes(searchKeyword);
+      const matchesBand = activeBand === "all" || band === activeBand;
+
+      if (matchesSearch && matchesBand) {
+        row.style.display = "";
+      } else {
+        row.style.display = "none";
+      }
+    });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("input", function() {
+      searchKeyword = this.value.toLowerCase().trim();
+      filterTable();
+    });
+  }
+
+  filterBtns.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      filterBtns.forEach(b => b.classList.remove("active"));
+      this.classList.add("active");
+      activeBand = this.getAttribute("data-band");
+      filterTable();
+    });
+  });
+});
+</script>
+{{- end }}

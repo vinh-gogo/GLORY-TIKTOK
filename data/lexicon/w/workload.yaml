@@ -1,0 +1,64 @@
+schema_version: 2
+id: workload
+lemma: workload
+pos:
+- noun
+ipa:
+  us: /ˈwɜːrkloʊd/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- work
+speaking_use:
+- respond-to-questions
+senses:
+- id: workload-1
+  meaning_vi: Khối lượng công việc cần xử lý trong một khoảng thời gian
+confused_words:
+- ref: workplace
+  word: workplace
+  ipa: /ˈwɜːrkpleɪs/
+  meaning: Nơi làm việc, công sở, văn phòng
+  kind: spelling-sound
+  difference_vi: Workload là số lượng việc; workplace là địa điểm làm việc vật lý
+- ref: download
+  word: download
+  ipa: /ˌdaʊnˈloʊd/
+  meaning: Tải dữ liệu từ mạng xuống thiết bị
+  kind: spelling-sound
+  difference_vi: Tránh nhầm phần gốc -load; workload là lượng việc cần gánh vác
+confusing_meanings:
+- ref: duty
+  word: duty
+  meaning: Nhiệm vụ, bổn phận theo chức danh
+  difference_vi: Workload là khối lượng thực tế phải làm; duty là phạm vi trách nhiệm
+    theo hợp đồng
+collocations:
+- phrase: heavy workload
+  meaning_vi: Khối lượng công việc lớn, dồn dập
+  evidence: corpus
+- phrase: manage workload
+  meaning_vi: Sắp xếp, quản lý khối lượng công việc
+  evidence: corpus
+- phrase: reduce workload
+  meaning_vi: Giảm tải lượng việc cho nhân viên
+  evidence: corpus
+- phrase: cope with workload
+  meaning_vi: Xoay xở, đối phó với áp lực công việc
+  evidence: corpus
+synonyms:
+- word: volume of work
+  meaning_vi: lượng việc
+examples:
+- en: To handle a heavy workload effectively, I usually prioritize urgent tasks first
+    thing in the morning.
+  vi: Để xử lý khối lượng công việc lớn một cách hiệu quả, tôi thường ưu tiên các
+    nhiệm vụ khẩn cấp vào đầu buổi sáng.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'

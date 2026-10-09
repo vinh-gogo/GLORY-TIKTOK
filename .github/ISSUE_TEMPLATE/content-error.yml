@@ -1,0 +1,30 @@
+name: Báo lỗi nội dung từ vựng / bài học
+description: Phát hiện sai sót về phiên âm IPA, nghĩa tiếng Việt, collocations hoặc lỗi hiển thị
+title: "[Báo lỗi nội dung]: "
+labels: ["content-error", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cảm ơn bạn đã đóng góp giúp kho học liệu Glory 01 chính xác và hữu ích hơn!
+  - type: input
+    id: page_url
+    attributes:
+      label: Đường dẫn trang bị lỗi (URL)
+      placeholder: "Ví dụ: https://glory.one.learns.dev/sets/set-013/ hoặc /words/deadline/"
+    validations:
+      required: true
+  - type: input
+    id: word_id
+    attributes:
+      label: Từ vựng hoặc phần bị lỗi
+      placeholder: "Ví dụ: deadline, collocations, câu ví dụ..."
+    validations:
+      required: true
+  - type: textarea
+    id: error_description
+    attributes:
+      label: Mô tả chi tiết lỗi và phương án sửa đề xuất
+      placeholder: "Nội dung hiện tại đang hiển thị là... Đề xuất sửa thành... Nguồn đối chiếu (nếu có):..."
+    validations:
+      required: true

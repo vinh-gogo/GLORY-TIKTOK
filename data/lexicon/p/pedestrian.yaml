@@ -1,0 +1,56 @@
+schema_version: 2
+id: pedestrian
+lemma: pedestrian
+pos:
+- noun
+ipa:
+  us: /pəˈdestriən/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- daily-life
+speaking_use:
+- describe-picture
+senses:
+- id: pedestrian-1
+  meaning_vi: Người đi bộ trên đường
+confused_words:
+- ref: pediatrician
+  word: pediatrician
+  ipa: /ˌpiːdiəˈtrɪʃn/
+  meaning: Bác sĩ nhi khoa
+  kind: spelling-sound
+  difference_vi: Tránh nhầm gốc từ Latin 'ped-'; pedestrian là người đi bộ, pediatrician
+    là bác sĩ nhi
+confusing_meanings:
+- ref: commuter
+  word: commuter
+  meaning: Người đi làm (di chuyển bằng nhiều phương tiện khác nhau)
+  difference_vi: Pedestrian nhấn mạnh đang di chuyển bằng đôi chân; commuter nói chung
+    về đối tượng đi làm
+collocations:
+- phrase: pedestrian zone
+  meaning_vi: Phố đi bộ, khu vực cấm xe cộ
+  evidence: corpus
+- phrase: crowd of pedestrians
+  meaning_vi: Đám đông người đi bộ
+  evidence: corpus
+- phrase: pedestrian safety
+  meaning_vi: Sự an toàn của người đi bộ
+  evidence: corpus
+synonyms:
+- word: passerby
+  meaning_vi: người qua đường
+examples:
+- en: Several pedestrians are waiting on the sidewalk for the traffic light to turn
+    green.
+  vi: Một số người đi bộ đang đứng chờ trên vỉa hè cho đèn giao thông chuyển sang
+    màu xanh.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'

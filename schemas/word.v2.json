@@ -1,0 +1,171 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LexiconWordV2",
+  "description": "Schema cho một mục từ vựng trong kho trung tâm data/lexicon/",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "lemma",
+    "pos",
+    "ipa",
+    "level",
+    "senses",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 2
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "lemma": {
+      "type": "string"
+    },
+    "pos": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "ipa": {
+      "type": "object",
+      "required": ["us"],
+      "properties": {
+        "us": { "type": "string" },
+        "uk": { "type": "string" }
+      }
+    },
+    "audio": {
+      "type": "object",
+      "properties": {
+        "us": { "type": "string" },
+        "uk": { "type": "string" }
+      }
+    },
+    "level": {
+      "type": "object",
+      "required": ["band"],
+      "properties": {
+        "cefr": { "enum": ["A1", "A2", "B1", "B2", "C1", "C2"] },
+        "band": { "enum": ["core", "target", "advanced"] },
+        "basis": { "type": "string" }
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "speaking_use": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "read-aloud",
+          "describe-picture",
+          "respond-to-questions",
+          "respond-with-info",
+          "express-opinion"
+        ]
+      }
+    },
+    "senses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "meaning_vi"],
+        "properties": {
+          "id": { "type": "string" },
+          "meaning_vi": { "type": "string" },
+          "note_vi": { "type": "string" }
+        }
+      }
+    },
+    "confused_words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["difference_vi"],
+        "properties": {
+          "ref": { "type": "string" },
+          "word": { "type": "string" },
+          "ipa": { "type": "string" },
+          "meaning": { "type": "string" },
+          "kind": { "enum": ["spelling", "sound", "spelling-sound", "meaning"] },
+          "difference_vi": { "type": "string" }
+        }
+      }
+    },
+    "confusing_meanings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["difference_vi"],
+        "properties": {
+          "ref": { "type": "string" },
+          "word": { "type": "string" },
+          "meaning": { "type": "string" },
+          "difference_vi": { "type": "string" }
+        }
+      }
+    },
+    "collocations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["phrase", "meaning_vi"],
+        "properties": {
+          "phrase": { "type": "string" },
+          "meaning_vi": { "type": "string" },
+          "evidence": { "type": "string" }
+        }
+      }
+    },
+    "synonyms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["word"],
+        "properties": {
+          "word": { "type": "string" },
+          "meaning_vi": { "type": "string" }
+        }
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["en", "vi"],
+        "properties": {
+          "en": { "type": "string" },
+          "vi": { "type": "string" },
+          "audio": { "type": "string" }
+        }
+      }
+    },
+    "pronunciation_tips_vi": { "type": "string" },
+    "review": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {
+          "enum": ["ai_draft", "ai_cross_checked", "human_verified", "needs_review"]
+        },
+        "checked_by": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "checked_at": { "type": "string" },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

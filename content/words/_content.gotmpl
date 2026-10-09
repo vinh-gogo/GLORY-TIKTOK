@@ -1,0 +1,25 @@
+{{- range $initial, $words := site.Data.lexicon }}
+  {{- range $id, $word := $words }}
+    {{- $meaning := "" }}
+    {{- with $word.senses }}
+      {{- $meaning = (index . 0).meaning_vi }}
+    {{- end }}
+    {{- $contentVal := printf "## Định nghĩa\n\n%s\n" $meaning }}
+    {{- $contentDict := dict "mediaType" "text/markdown" "value" $contentVal }}
+    {{- $page := dict
+      "path" $word.id
+      "title" $word.lemma
+      "kind" "page"
+      "content" $contentDict
+      "params" (dict
+        "word_id" $word.id
+        "lemma" $word.lemma
+        "word_data" $word
+        "summary" $meaning
+        "topics" $word.topics
+        "parts" $word.speaking_use
+      )
+    }}
+    {{- $.AddPage $page }}
+  {{- end }}
+{{- end }}

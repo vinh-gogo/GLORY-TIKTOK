@@ -11,9 +11,10 @@ taxonomies:
   tag: tags
   topic: topics
   part: parts
+  series: series
 
 params:
-  description: "Kho từ vựng chuẩn thi TOEIC Speaking: loại từ, IPA, level TOEIC, từ dễ nhầm, collocations và câu ví dụ song ngữ"
+  description: "Kho từ vựng & Speaking Lab chuẩn thi TOEIC Speaking: Central Lexicon, loại từ, IPA, collocations song ngữ, bấm giờ phòng thi"
   author: "Glory 01"
   defaultTheme: auto
   disableThemeToggle: false
@@ -27,7 +28,7 @@ params:
   profileMode:
     enabled: true
     title: "Glory 01"
-    subtitle: "Kho từ vựng & phản xạ TOEIC Speaking đồng hành cùng kênh TikTok @glory01"
+    subtitle: "Nền tảng tự học TOEIC Speaking: Từ vựng có kiểm chứng • Đồng hồ thi ETS • Flashcard & Phản xạ"
     imageUrl: "/images/avatar.svg"
     imageTitle: "Glory 01"
     imageWidth: 120
@@ -35,6 +36,8 @@ params:
     buttons:
       - name: "📚 Bộ bài học"
         url: "/sets/"
+      - name: "📖 Từ điển A–Z"
+        url: "/glossary/"
       - name: "🏷️ Theo chủ đề"
         url: "/topics/"
       - name: "🎯 Theo dạng bài"
@@ -56,18 +59,21 @@ menu:
     - name: "Bộ bài học"
       url: "/sets/"
       weight: 1
+    - name: "Từ điển A–Z"
+      url: "/glossary/"
+      weight: 2
     - name: "Chủ đề"
       url: "/topics/"
-      weight: 2
+      weight: 3
     - name: "Dạng bài"
       url: "/parts/"
-      weight: 3
+      weight: 4
     - name: "Hướng dẫn"
       url: "/guides/"
-      weight: 4
+      weight: 5
     - name: "Tìm kiếm"
       url: "/search/"
-      weight: 5
+      weight: 6
     - name: "Giới thiệu"
       url: "/about/"
-      weight: 6
+      weight: 7

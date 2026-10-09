@@ -1,0 +1,52 @@
+schema_version: 2
+id: touch-base
+lemma: touch base
+pos:
+- verb
+- phrase
+ipa:
+  us: /tʌtʃ beɪs/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- work
+speaking_use:
+- respond-to-questions
+senses:
+- id: touch-base-1
+  meaning_vi: Liên lạc ngắn, trao đổi nhanh vài phút để cập nhật tình hình
+confused_words:
+- ref: touch-down
+  word: touch down
+  ipa: /tʌtʃ daʊn/
+  meaning: Máy bay tiếp đất / hạ cánh
+  kind: spelling-sound
+  difference_vi: Touch down là thuật ngữ hàng không; touch base là thuật ngữ giao
+    tiếp công sở
+confusing_meanings:
+- ref: negotiate
+  word: negotiate
+  meaning: Đàm phán, thương lượng hợp đồng
+  difference_vi: Touch base chỉ là cuộc trao đổi cập nhật ngắn gọn, thân mật; không
+    phải cuộc đàm phán chính thức
+collocations:
+- phrase: touch base with someone
+  meaning_vi: Liên lạc nhanh với ai đó
+  evidence: corpus
+- phrase: touch base later today
+  meaning_vi: Trao đổi cập nhật tình hình vào cuối ngày
+  evidence: corpus
+synonyms:
+- word: check in with
+  meaning_vi: hỏi thăm tiến độ
+examples:
+- en: Let's touch base tomorrow morning to finalize the presentation slides.
+  vi: Hãy trao đổi nhanh vào sáng mai để hoàn tất các trang trình chiếu nhé.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'

@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SetV2Schema",
+  "description": "Schema cho front matter của bài học set v2",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "title",
+    "date",
+    "draft",
+    "topics",
+    "parts",
+    "tiktok",
+    "aliases",
+    "words"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 2
+    },
+    "title": { "type": "string" },
+    "date": { "type": ["string", "object"] },
+    "draft": { "type": "boolean" },
+    "summary": { "type": "string" },
+    "series": { "type": "string" },
+    "seq": { "type": "integer" },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "read-aloud",
+          "describe-picture",
+          "respond-to-questions",
+          "respond-with-info",
+          "express-opinion"
+        ]
+      },
+      "minItems": 1
+    },
+    "level_band": {
+      "enum": ["core", "target", "advanced"]
+    },
+    "learning_objectives": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "next": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "tiktok": {
+      "type": "string",
+      "pattern": "^https://(www\\.)?tiktok\\.com/"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "words": {
+      "type": "array",
+      "minItems": 1
+    },
+    "practice": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["part", "q_no", "prompt", "prep_s", "response_s"],
+        "properties": {
+          "part": { "type": "string" },
+          "q_no": { "type": "integer" },
+          "prompt": { "type": "string" },
+          "prep_s": { "type": "integer" },
+          "response_s": { "type": "integer" },
+          "model_answer": { "type": "string" },
+          "target_words": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "audio": { "type": "string" }
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": ["ai_draft", "ai_cross_checked", "human_verified", "needs_review"]
+        },
+        "checked_at": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+# Thông số kỹ thuật chuẩn hóa bài thi TOEIC Speaking (Official ETS Aligned)
+# File này là Single Source of Truth cho toàn bộ web và công cụ đồng hồ thi Speaking Lab
+
+exam:
+  code: toeic-speaking
+  name: "TOEIC® Speaking Test"
+  official_source: "https://www.ets.org/toeic/test-takers/about/speaking-writing.html"
+  handbook_url: "https://www.ets.org/content/dam/ets-org/pdfs/toeic/toeic-speaking-writing-examinee-handbook.pdf"
+  verified_date: "2026-10-10"
+  total_questions: 11
+  total_duration_minutes: 20
+  score_scale:
+    min: 0
+    max: 200
+    step: 10
+
+# Bảng 8 cấp độ thành thạo (Proficiency Levels) theo chuẩn ETS
+proficiency_levels:
+  - level: 8
+    score_range: [190, 200]
+    description_vi: "Giao tiếp thành thạo, diễn đạt chuẩn xác, ngữ điệu tự nhiên, từ vựng phong phú và lập luận thuyết phục trong mọi bối cảnh công sở phức tạp."
+  - level: 7
+    score_range: [160, 180]
+    description_vi: "Giao tiếp tốt, truyền tải thông tin rõ ràng, lập luận mạch lạc; có thể có lỗi ngữ pháp hoặc phát âm nhỏ không ảnh hưởng đến người nghe."
+  - level: 6
+    score_range: [130, 150]
+    description_vi: "Đạt mức yêu cầu cơ bản trong công sở quốc tế; diễn đạt tương đối trôi chảy nhưng đôi khi ngập ngừng hoặc thiếu từ vựng chuyên sâu."
+  - level: 5
+    score_range: [110, 120]
+    description_vi: "Trả lời được các câu hỏi quen thuộc; gặp khó khăn khi phải giải thích chi tiết hoặc bày tỏ quan điểm phức tạp."
+  - level: 4
+    score_range: [80, 100]
+    description_vi: "Vốn từ vựng hạn chế, thường xuyên ngập ngừng; chỉ truyền đạt được các thông tin đơn giản nhất."
+  - level: 3
+    score_range: [60, 70]
+    description_vi: "Khả năng nói rất hạn chế; phát âm khó nghe hoặc ngắt quãng liên tục."
+  - level: 2
+    score_range: [40, 50]
+    description_vi: "Chỉ phát âm được các từ đơn lẻ hoặc cụm từ ngắn; chưa tạo thành câu hoàn chỉnh."
+  - level: 1
+    score_range: [0, 30]
+    description_vi: "Không có câu trả lời hoặc câu trả lời hoàn toàn không nghe hiểu được."
+
+# Chi tiết 5 dạng bài và 11 câu hỏi (Question Types & Timing)
+parts:
+  - id: read-aloud
+    name_en: "Read a text aloud"
+    name_vi: "Đọc to một đoạn văn bản"
+    questions: [1, 2]
+    prep_time_seconds: 45
+    response_time_seconds: 45
+    scoring_scale: [0, 3]
+    evaluation_criteria:
+      - "Pronunciation (Phát âm chuẩn âm, nguyên âm, phụ âm)"
+      - "Intonation & Stress (Ngữ điệu câu, trọng âm từ và nhịp điệu)"
+
+  - id: describe-picture
+    name_en: "Describe a picture"
+    name_vi: "Miêu tả tranh"
+    questions: [3, 4]
+    prep_time_seconds: 45
+    response_time_seconds: 30
+    scoring_scale: [0, 3]
+    evaluation_criteria:
+      - "All criteria from Questions 1-2"
+      - "Grammar & Vocabulary (Độ chính xác ngữ pháp và sự đa dạng từ vựng miêu tả)"
+      - "Cohesion (Tính liên kết, bố cục từ tổng quan đến chi tiết)"
+
+  - id: respond-to-questions
+    name_en: "Respond to questions"
+    name_vi: "Trả lời câu hỏi tình huống"
+    questions: [5, 6, 7]
+    prep_time_seconds: 3
+    question_details:
+      - q_no: 5
+        response_time_seconds: 15
+        scoring_scale: [0, 3]
+      - q_no: 6
+        response_time_seconds: 15
+        scoring_scale: [0, 3]
+      - q_no: 7
+        response_time_seconds: 30
+        scoring_scale: [0, 3]
+    evaluation_criteria:
+      - "Relevance & Completeness (Đúng trọng tâm câu hỏi và nội dung đầy đủ)"
+      - "Fluency & Vocabulary (Độ lưu loát và collocations tự nhiên)"
+
+  - id: respond-with-info
+    name_en: "Respond to questions using information provided"
+    name_vi: "Trả lời câu hỏi dựa trên thông tin cho sẵn"
+    questions: [8, 9, 10]
+    initial_reading_time_seconds: 45
+    prep_time_seconds: 3
+    question_details:
+      - q_no: 8
+        response_time_seconds: 15
+        scoring_scale: [0, 3]
+      - q_no: 9
+        response_time_seconds: 15
+        scoring_scale: [0, 3]
+      - q_no: 10
+        response_time_seconds: 30
+        scoring_scale: [0, 3]
+    evaluation_criteria:
+      - "Accuracy of Information (Tính chính xác của thông tin lấy từ bảng/lịch)"
+      - "Professional Tone (Tác phong trả lời lịch thiệp, tự tin)"
+
+  - id: express-opinion
+    name_en: "Express an opinion"
+    name_vi: "Bày tỏ quan điểm cá nhân"
+    questions: [11]
+    prep_time_seconds: 45
+    response_time_seconds: 60
+    scoring_scale: [0, 5]
+    evaluation_criteria:
+      - "Opinion & Reasoning (Lập trường rõ ràng, lý lẽ thuyết phục)"
+      - "Supporting Examples (Ví dụ dẫn chứng thực tế, cụ thể)"
+      - "Discourse Structure (Cấu trúc mạch lạc, mở bài - thân bài - kết bài)"

@@ -1,0 +1,173 @@
+{{- define "main" }}
+{{- $w := .Params.word_data -}}
+{{- $wordId := .Params.word_id | default .File.ContentBaseName -}}
+{{- $lemma := $w.lemma | default .Title -}}
+
+<article class="post-single word-single-page">
+  <header class="post-header">
+    <div class="breadcrumbs">
+      <a href="/">Trang chủ</a>&nbsp;»&nbsp;<a href="/glossary/">Từ điển A–Z</a>&nbsp;»&nbsp;<span>{{ $lemma }}</span>
+    </div>
+
+    <div class="word-hero-box">
+      <div class="word-hero-left">
+        <h1 class="word-hero-title">{{ $lemma }}</h1>
+        <div class="word-hero-meta">
+          {{- with $w.pos }}
+            {{- range . }}
+            <span class="vocab-pos">{{ . }}</span>
+            {{- end }}
+          {{- end }}
+          {{- with $w.ipa.us }}
+          <span class="vocab-ipa">{{ . }}</span>
+          {{- end }}
+        </div>
+      </div>
+
+      <div class="word-hero-right">
+        {{- with $w.level }}
+        <span class="vocab-level-badge">
+          {{- if eq .band "core" }}TOEIC Core (Nền tảng){{- else if eq .band "target" }}TOEIC Target (Mục tiêu){{- else }}TOEIC Advanced (Nâng cao){{- end }}
+          {{- with .cefr }} • {{ . }}{{- end }}
+        </span>
+        {{- end }}
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content word-details-body">
+    <!-- Nghĩa chính -->
+    <section class="word-section word-meaning-section">
+      <h2>🎯 Định nghĩa & Sắc thái cốt lõi</h2>
+      {{- range $w.senses }}
+      <div class="word-sense-card">
+        <p class="word-meaning-main">{{ .meaning_vi }}</p>
+        {{- with .note_vi }}
+        <p class="word-meaning-note">💡 <em>Lưu ý ngữ cảnh: {{ . }}</em></p>
+        {{- end }}
+      </div>
+      {{- end }}
+    </section>
+
+    <!-- Collocations -->
+    {{- with $w.collocations }}
+    <section class="word-section word-collocations-section">
+      <h2>⚡ Cụm từ ghi điểm (Collocations)</h2>
+      <ul class="vocab-colloc-list">
+        {{- range . }}
+        <li class="vocab-colloc-item">
+          <span class="colloc-en">{{ .phrase }}</span>
+          <span class="colloc-arrow">➔</span>
+          <span class="colloc-vi">{{ .meaning_vi }}</span>
+        </li>
+        {{- end }}
+      </ul>
+    </section>
+    {{- end }}
+
+    <!-- Từ dễ nhầm mặt chữ / phát âm -->
+    {{- with $w.confused_words }}
+    <section class="word-section word-confused-section">
+      <h2>⚠️ Cặp từ dễ nhầm lẫn (Phát âm & Chính tả)</h2>
+      <div class="vocab-warning-box">
+        {{- range . }}
+        <div class="vocab-confused-item">
+          <div class="confused-top">
+            <span class="confused-word">{{ .word | default .ref }}</span>
+            {{- with .ipa }}<span class="confused-ipa">{{ . }}</span>{{- end }}
+            {{- with .meaning }}<span class="confused-meaning">: {{ . }}</span>{{- end }}
+          </div>
+          <div class="confused-diff">💡 <em>{{ .difference_vi }}</em></div>
+        </div>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+
+    <!-- Phân biệt sắc thái nghĩa -->
+    {{- with $w.confusing_meanings }}
+    <section class="word-section word-nuance-section">
+      <h2>🔍 Phân biệt sắc thái nghĩa trong bài thi</h2>
+      <div class="vocab-nuance-box">
+        {{- range . }}
+        <div class="vocab-nuance-item">
+          <div class="nuance-top">
+            <span class="nuance-word">{{ .word | default .ref }}</span>
+            {{- with .meaning }}<span class="nuance-meaning">: {{ . }}</span>{{- end }}
+          </div>
+          <div class="nuance-diff">👉 <em>{{ .difference_vi }}</em></div>
+        </div>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+
+    <!-- Từ đồng nghĩa -->
+    {{- with $w.synonyms }}
+    <section class="word-section word-synonyms-section">
+      <h2>🔄 Từ đồng nghĩa</h2>
+      <div class="vocab-chip-group">
+        {{- range . }}
+        <span class="vocab-chip chip-synonym">
+          <strong>{{ .word }}</strong>
+          {{- with .meaning_vi }}<span class="chip-sub">({{ . }})</span>{{- end }}
+        </span>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+
+    <!-- Ví dụ phản xạ -->
+    {{- with $w.examples }}
+    <section class="word-section word-examples-section">
+      <h2>💬 Câu ví dụ phản xạ song ngữ</h2>
+      {{- range . }}
+      <div class="vocab-example-card">
+        <p class="vocab-ex-en">“{{ .en }}”</p>
+        <p class="vocab-ex-vi">➔ <em>{{ .vi }}</em></p>
+      </div>
+      {{- end }}
+    </section>
+    {{- end }}
+
+    <!-- Mẹo phát âm cho người Việt -->
+    {{- with $w.pronunciation_tips_vi }}
+    <section class="word-section word-tips-section">
+      <h2>🗣️ Mẹo phát âm cho người Việt</h2>
+      <div class="practice-box">
+        <p>{{ . }}</p>
+      </div>
+    </section>
+    {{- end }}
+
+    <!-- Các bài học xuất hiện từ này -->
+    {{- $relatedSets := slice }}
+    {{- range where site.RegularPages "Section" "sets" }}
+      {{- if in .Params.words $wordId }}
+        {{- $relatedSets = $relatedSets | append . }}
+      {{- end }}
+    {{- end }}
+
+    {{- with $relatedSets }}
+    <section class="word-section word-sets-section">
+      <h2>📚 Xuất hiện trong các bài học TikTok</h2>
+      <div class="word-related-sets-list">
+        {{- range . }}
+        <a href="{{ .Permalink }}" class="word-set-card-link">
+          <span class="set-card-title">{{ .Title }}</span>
+          <span class="set-card-arrow">Xem bài học ➔</span>
+        </a>
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+
+    <!-- Footer Report Error -->
+    <div class="word-page-footer">
+      <a href="https://github.com/vinh-gogo/GLORY-TIKTOK/issues/new?template=content-error.yml&page_url={{ .Permalink }}&word_id={{ $wordId }}" target="_blank" rel="noopener noreferrer" class="vocab-card-report">
+        🚩 Phát hiện lỗi ở từ này? Bấm vào đây để báo lỗi biên tập
+      </a>
+    </div>
+  </div>
+</article>
+{{- end }}

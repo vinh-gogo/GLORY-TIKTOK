@@ -1,0 +1,24 @@
+{{- define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . }}</div>
+  {{- end }}
+</header>
+
+<div class="words-list-container">
+  <div class="words-grid">
+    {{- range .Pages.ByTitle }}
+    <a href="{{ .Permalink }}" class="word-grid-item">
+      <span class="word-item-lemma">{{ .Title }}</span>
+      {{- with .Params.word_data }}
+        {{- with .ipa.us }}<span class="word-item-ipa">{{ . }}</span>{{- end }}
+        {{- with .senses }}
+        <span class="word-item-meaning">{{ (index . 0).meaning_vi }}</span>
+        {{- end }}
+      {{- end }}
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}

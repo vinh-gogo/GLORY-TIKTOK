@@ -1,0 +1,56 @@
+schema_version: 2
+id: overlook
+lemma: overlook
+pos:
+- verb
+ipa:
+  us: /ˌoʊvərˈlʊk/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- daily-life
+speaking_use:
+- describe-picture
+senses:
+- id: overlook-1
+  meaning_vi: 'Nhìn ra, hướng tầm mắt ra phía cảnh quan; (nghĩa 2: vô tình bỏ sót
+    lỗi)'
+confused_words:
+- ref: look-over
+  word: look over
+  ipa: /lʊk ˈoʊvər/
+  meaning: Xem lướt qua, kiểm tra nhanh văn bản
+  kind: spelling-sound
+  difference_vi: Look over là động tác kiểm tra lướt; overlook là hướng nhìn ra cảnh
+    hoặc bỏ sót sai sót
+confusing_meanings:
+- ref: ignore
+  word: ignore
+  meaning: Cố ý ngó lơ, làm ngơ
+  difference_vi: Overlook là không chú ý thấy do sơ suất hoặc vị tha bỏ qua; ignore
+    là cố tình làm ngơ
+collocations:
+- phrase: overlook the street
+  meaning_vi: Nhìn ra con phố tấp nập
+  evidence: corpus
+- phrase: overlook the harbor
+  meaning_vi: Có tầm nhìn hướng ra bến cảng
+  evidence: corpus
+- phrase: overlook a mistake
+  meaning_vi: Sơ suất bỏ qua một lỗi sai
+  evidence: corpus
+synonyms:
+- word: command a view of
+  meaning_vi: có tầm nhìn bao quát hướng về
+examples:
+- en: The balcony overlooks a bustling street filled with lively shops and pedestrians.
+  vi: Ban công nhìn ra một con phố nhộn nhịp với những cửa hàng và người đi bộ sôi
+    động.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'

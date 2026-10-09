@@ -1,0 +1,57 @@
+schema_version: 2
+id: outdoor-cafe
+lemma: outdoor cafe
+pos:
+- noun
+- phrase
+ipa:
+  us: /ˈaʊtdɔːr kæˈfeɪ/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- daily-life
+speaking_use:
+- describe-picture
+senses:
+- id: outdoor-cafe-1
+  meaning_vi: Quán cà phê ngoài trời / quán cafe vỉa hè
+confused_words:
+- ref: cafeteria
+  word: cafeteria
+  ipa: /ˌkæfəˈtɪriə/
+  meaning: Nhà ăn tự phục vụ (trong trường học, cơ quan, bệnh viện)
+  kind: spelling-sound
+  difference_vi: Cafe là quán thưởng thức cà phê đồ uống; cafeteria là căn-tin tự
+    lấy khay đồ ăn
+confusing_meanings:
+- ref: restaurant-terrace
+  word: restaurant terrace
+  meaning: Sân hiên ăn uống ngoài trời của nhà hàng sang trọng
+  difference_vi: Outdoor cafe phục vụ đồ uống nhẹ và trò chuyện; restaurant terrace
+    là dịch vụ dùng bữa chính
+collocations:
+- phrase: sit at an outdoor cafe
+  meaning_vi: Ngồi uống nước tại quán cafe ngoài trời
+  evidence: corpus
+- phrase: relax at an outdoor cafe
+  meaning_vi: Thư giãn tại quán cafe ngoài trời
+  evidence: corpus
+- phrase: patio umbrella
+  meaning_vi: Dù che nắng cỡ lớn ở bàn cafe ngoài trời
+  evidence: corpus
+synonyms:
+- word: open-air cafe
+  meaning_vi: quán cà phê thoáng mát ngoài trời
+examples:
+- en: Several customers are enjoying iced drinks under the parasols at an outdoor
+    cafe.
+  vi: Một số khách hàng đang thưởng thức đồ uống lạnh dưới những tán dù tại một quán
+    cà phê ngoài trời.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'

@@ -1,0 +1,56 @@
+schema_version: 2
+id: flexible
+lemma: flexible
+pos:
+- adjective
+ipa:
+  us: /ˈfleksəbl/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- work
+speaking_use:
+- respond-to-questions
+senses:
+- id: flexible-1
+  meaning_vi: Linh hoạt, uyển chuyển (về giờ giấc, chính sách hoặc thái độ)
+confused_words:
+- ref: feasible
+  word: feasible
+  ipa: /ˈfiːzəbl/
+  meaning: Khả thi, có thể thực hiện được trong thực tế
+  kind: spelling-sound
+  difference_vi: Phát âm khác hẳn /fl-/ vs /fiː-/; ý nghĩa là 'linh hoạt' vs 'khả
+    thi'
+confusing_meanings:
+- ref: adaptable
+  word: adaptable
+  meaning: Có khả năng thích nghi tốt với môi trường mới
+  difference_vi: Flexible dùng cho cả thời gian biểu, lịch trình lẫn tính cách; adaptable
+    chủ yếu nói về phẩm chất thích nghi của con người
+collocations:
+- phrase: flexible hours
+  meaning_vi: Giờ giấc làm việc linh hoạt
+  evidence: corpus
+- phrase: flexible schedule
+  meaning_vi: Lịch trình làm việc linh động
+  evidence: corpus
+- phrase: remain flexible
+  meaning_vi: Giữ tinh thần linh hoạt, sẵn sàng thích ứng
+  evidence: corpus
+synonyms:
+- word: variable
+  meaning_vi: có thể thay đổi linh động
+examples:
+- en: Our company allows employees to have flexible working hours to maintain a healthy
+    work-life balance.
+  vi: Công ty chúng tôi cho phép nhân viên có giờ giấc làm việc linh hoạt để duy trì
+    cân bằng giữa công việc và cuộc sống.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - cmudict
+  - ai-model-cross-check
+  checked_at: '2026-10-10'
