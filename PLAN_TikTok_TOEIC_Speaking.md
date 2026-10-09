@@ -1,101 +1,152 @@
-# Kế hoạch xây web cho kênh TikTok học TOEIC Speaking
+# Kế hoạch & Trạng thái Dự án Web Kênh TikTok TOEIC Speaking (Glory 01)
 
-Oct 9, 2026 · @hello
+Cập nhật lần cuối: **10/10/2026** · Kênh TikTok: **[Glory 01 (@glory01)](https://www.tiktok.com/@glory01)** · Website: **[https://glory.one.learns.dev](https://glory.one.learns.dev)**
+
+---
 
 ## 1. Mục tiêu và vai trò của web
 
-Web là kho lưu trữ có thể tìm lại và ôn luyện được; TikTok vẫn là nơi thu hút người xem mới.
+Web là kho lưu trữ có thể tìm lại và ôn luyện được; TikTok là nơi thu hút người xem mới.
 
-**Vấn đề của TikTok:** video trôi theo feed, người xem khó tìm lại set cũ, không có bảng từ đầy đủ để lưu, in hay ôn lặp lại.
+- **Vấn đề của TikTok:** Video trôi theo feed thuật toán, người xem khó tìm lại bài cũ, không có bảng từ đầy đủ phiên âm, sắc thái nghĩa, collocations để lưu, in hay ôn tập phản xạ.
+- **Web giải quyết:**
+  - **Một link duy nhất trong bio** (`glory.one.learns.dev`) dẫn tới toàn bộ các set bài học.
+  - **Mỗi video có một trang riêng:** Đầy đủ từ chính, loại từ (POS), phiên âm IPA, level TOEIC, từ dễ nhầm chữ/âm, từ dễ nhầm nghĩa, collocations song ngữ và ví dụ phản xạ song ngữ.
+  - **Tra cứu nhanh:** Gom theo chủ đề (`/topics/`), theo 5 dạng bài thi chuẩn ETS (`/parts/`), hoặc tìm kiếm tức thì (`/search/`).
+  - **Luyện nói tại chỗ:** Dàn ý trả lời mẫu (Sample Response) cho các phần thi Speaking Part 2, Part 3, Part 5.
 
-**Web giải quyết:**
+---
 
-- Một link duy nhất trong bio dẫn tới toàn bộ set bài học.
-- Mỗi video có một trang riêng: danh sách từ, từ đồng nghĩa, collocations, câu ví dụ.
-- Tìm lại theo chủ đề hoặc theo phần thi, không phải lướt lại kênh.
-- Về sau thêm phát âm, flashcard và quiz để ôn ngay trên web.
+## 2. Bảng theo dõi tiến độ các trang & Tính năng
 
-**Người dùng chính (giả định, bạn sửa nếu khác):** người đang luyện TOEIC Speaking, xem TikTok trên điện thoại, muốn có bản ghi chép sau khi xem video.
+| Trang | Đường dẫn | Nội dung & Vai trò | Trạng thái hiện tại |
+| :--- | :--- | :--- | :--- |
+| **Trang chủ** | `/` | ProfileMode tối ưu mobile (Avatar Glory 01, link TikTok bio, nút điều hướng) |  **Hoàn thành (Live)** |
+| **Bộ bài học** | `/sets/` | Danh sách các set bài học theo video; mỗi set có thẻ từ và video nhúng |  **Hoàn thành (Live)** |
+| **Chủ đề** | `/topics/` | Phân loại từ vựng theo chủ đề đời sống, công việc, mua sắm,... |  **Hoàn thành (Live)** |
+| **Dạng bài** | `/parts/` | Phân loại theo 5 dạng câu hỏi TOEIC Speaking chuẩn ETS |  **Hoàn thành (Live)** |
+| **Hướng dẫn** | `/guides/` | Cẩm nang chiến thuật 5 dạng bài thi, tiêu chí chấm điểm ETS |  **Hoàn thành (Live)** |
+| **Tìm kiếm** | `/search/` | Tìm kiếm tức thì không cần server (PaperMod + Fuse.js) |  **Hoàn thành (Live)** |
+| **Giới thiệu** | `/about/` | Giới thiệu kênh Glory 01, liên hệ và lưu ý miễn trừ trách nhiệm ETS |  **Hoàn thành (Live)** |
+| **Rút gọn URL** | `/001`, `/013` | Aliases giúp người xem TikTok gõ nhanh từ màn hình điện thoại |  **Hoàn thành (Live)** |
+| **Tra từ A–Z** | `/glossary/` | Bảng tra cứu mọi từ đã dạy gom tự động từ các set bài học | ⏳ *Dự kiến v2* |
 
-**Chỉ số theo dõi:** lượt truy cập từ TikTok (gắn UTM), số trang xem mỗi lượt, tỷ lệ quay lại sau 7 ngày, set được xem nhiều nhất. Đặt mốc mục tiêu sau khi có 4 tuần số liệu thật, không đặt số khi chưa có dữ liệu.
+Menu chính trên thanh điều hướng gồm 6 mục: **Bộ bài học, Chủ đề, Dạng bài, Hướng dẫn, Tìm kiếm, Giới thiệu**.
 
-## 2. Cấu trúc các trang
+---
 
-Trang chủ là trung tâm cho link bio, mọi trang còn lại đi ra từ đó; đường dẫn đặt bằng tiếng Anh ngắn để người xem dễ gõ lại từ màn hình video.
+## 3. Mô hình nội dung chi tiết (Rich Vocabulary Schema)
 
-| Trang | Đường dẫn | Nội dung | Giai đoạn |
-| --- | --- | --- | --- |
-| Trang chủ | `/` | Set mới nhất, nút vào từng mục, link sang TikTok | MVP |
-| Bộ bài học | `/sets/` | Mỗi video một trang: từ vựng, từ đồng nghĩa, collocations, câu ví dụ, video nhúng | MVP |
-| Giới thiệu | `/about/` | Giới thiệu kênh, cách liên hệ, lưu ý không liên kết với ETS | MVP |
-| Chủ đề | `/topics/` | Gom các set theo chủ đề (công việc, du lịch, mua sắm...) | v1.1 |
-| Dạng bài | `/parts/` | Gom nội dung theo dạng câu hỏi trong bài thi | v1.1 |
-| Hướng dẫn | `/guides/` | Cách trả lời từng dạng bài, mẫu câu, lỗi phát âm hay gặp | v1.1 |
-| Tìm kiếm | `/search/` | Tìm theo từ hoặc chủ đề | v1.1 |
-| Tra từ A–Z | `/glossary/` | Mọi từ đã dạy, tự sinh từ dữ liệu của các set | v2 |
+Mỗi video clip TikTok tương ứng với một file Markdown đánh số 3 chữ số (`content/sets/set-013.md`) để URL luôn ổn định (`/sets/set-013/` và alias `/013`).
 
-Menu chính giữ tối đa 5 mục (Bộ bài học, Chủ đề, Hướng dẫn, Tìm kiếm, Giới thiệu) để vừa màn hình điện thoại.
+### 3.1. Tiêu chuẩn dữ liệu bắt buộc cho mỗi từ vựng
+Tất cả các thành phần trong từ vựng **đều bắt buộc kèm giải nghĩa tiếng Việt**:
+1. **`word`**: Từ chính tiếng Anh.
+2. **`pos`**: Loại từ kèm tiếng Việt (vd: `Danh từ (n.)`, `Động từ (v.)`, `Tính từ (adj.)`, `Cụm từ (phr.)`).
+3. **`ipa`**: Phiên âm quốc tế chuẩn (vd: `/ˈdedlaɪn/`).
+4. **`level`**: Phân cấp trình độ trong TOEIC (vd: `TOEIC 550+`, `TOEIC 650+`, `TOEIC 700+`, `TOEIC 850+`).
+5. **`meaning`**: Định nghĩa tiếng Việt cốt lõi, dễ hiểu.
+6. **`confused_words`**: Các từ dễ nhầm về mặt chữ hoặc phát âm (kèm từ, IPA, nghĩa tiếng Việt và điểm khác biệt).
+7. **`confusing_meanings`**: Phân biệt sắc thái nghĩa với các từ na ná (kèm từ, nghĩa tiếng Việt và ngữ cảnh sử dụng).
+8. **`collocations`**: Các cụm từ ăn điểm đi kèm, **mỗi cụm đều có nghĩa tiếng Việt**.
+9. **`synonyms`**: Từ đồng nghĩa (kèm nghĩa tiếng Việt).
+10. **`example`**: Câu ví dụ tiếng Anh thực tế (`en`) và **bản dịch nghĩa tiếng Việt (`vi`)**.
 
-## 3. Mô hình nội dung
-
-Mỗi video là một "set" và mỗi set là một file Markdown; từ vựng nằm trong front matter để web tự dựng thẻ từ và, về sau, bảng tra A–Z.
-
-- **Tên file:** `content/sets/set-013.md`, đánh số 3 chữ số để URL ổn định (`/sets/set-013/`).
-- **Phân loại:** `topics` (chủ đề như work, travel, shopping), `parts` (dạng bài thi), `tags` (tự do).
-- **Tạo set mới:** `hugo new sets/set-013.md` sinh sẵn khung bên dưới nhờ archetype, bạn chỉ điền từ.
-
-Front matter mẫu (nội dung là ví dụ):
+### 3.2. Front Matter mẫu chuẩn thực tế
 
 ```yaml
 ---
-title: "Set 013 – Từ vựng chủ đề công việc"
-date: 2026-10-10
+title: "Set 013 – Từ vựng chủ đề công việc hằng ngày"
+date: 2026-10-09
 draft: false
-summary: "8 từ và collocations dùng khi mô tả công việc hằng ngày."
+summary: "Bộ từ vựng then chốt Part 3 TOEIC Speaking: deadline, khối lượng công việc, giờ giấc linh hoạt và đi lại công sở kèm phân tích từ dễ nhầm."
 topics: ["work"]
 parts: ["respond-to-questions"]
-tiktok: "https://www.tiktok.com/@ten-kenh/video/ID"
+tags: ["work", "speaking-part-3", "collocations", "confused-words"]
+tiktok: "https://www.tiktok.com/@glory01/video/1234567890"
 aliases: ["/013"]
 words:
   - word: "deadline"
+    pos: "Danh từ (n.)"
     ipa: "/ˈdedlaɪn/"
-    meaning: "hạn chót"
-    synonyms: ["due date", "cut-off"]
-    collocations: ["meet a deadline", "miss a deadline"]
-    example: "We have to meet the deadline by Friday."
+    level: "TOEIC 550+"
+    meaning: "Hạn chót, thời hạn cuối cùng phải hoàn thành công việc"
+    confused_words:
+      - word: "timeline"
+        ipa: "/ˈtaɪmlaɪn/"
+        meaning: "Tiến độ / mốc thời gian tổng thể của dự án"
+        difference: "Deadline là 1 mốc chót cố định; timeline là toàn bộ lộ trình các giai đoạn"
+      - word: "lifeline"
+        ipa: "/ˈlaɪflaɪn/"
+        meaning: "Dây an toàn / phao cứu sinh / sự trợ giúp cứu cánh"
+        difference: "Tránh phát âm nhầm âm đầu dead- /ˈded/ thành life- /ˈlaɪf/"
+    confusing_meanings:
+      - word: "due date"
+        meaning: "Ngày đến hạn (thanh toán hóa đơn, nộp bài tập)"
+        difference: "Deadline dùng cho áp lực hoàn thành công việc/dự án; due date là ngày đáo hạn tiền bạc hoặc giấy tờ"
+    collocations:
+      - phrase: "meet a deadline"
+        meaning: "Kịp hạn chót, hoàn thành đúng hạn"
+      - phrase: "miss a deadline"
+        meaning: "Trễ hạn chót, không kịp tiến độ"
+      - phrase: "tight deadline"
+        meaning: "Hạn chót gấp gáp, thời gian rất ngắn"
+      - phrase: "extend the deadline"
+        meaning: "Gia hạn thêm thời gian nộp"
+    synonyms:
+      - word: "target date"
+        meaning: "ngày mục tiêu"
+    example:
+      en: "We often have to work overtime to meet tight deadlines at the end of the quarter."
+      vi: "Chúng tôi thường phải làm thêm giờ để kịp các hạn chót gấp gáp vào cuối quý."
 ---
+
+{{< tiktok >}}
+
+{{< words >}}
+
+## 🎙️ Luyện tập phản xạ Speaking (Part 3)
+
+### Câu hỏi mẫu (Question 7 - 30s):
+> **Prompt:** *Do you prefer working fixed hours or having a flexible schedule? Why?*
+
+### Gợi ý phản xạ 30 giây (Sample Response):
+> "Personally, I definitely prefer having **flexible hours** for two main reasons..."
 ```
 
-Thân bài chỉ cần một dòng gọi shortcode `words` để hiển thị mỗi từ thành một thẻ gọn trên điện thoại, rồi thêm phần luyện nói (câu hỏi mẫu, câu trả lời mẫu) nếu có.
+### 3.3. Danh sách giá trị chuẩn cho phân loại `parts`
+Đối chiếu theo [Examinee Handbook của ETS](https://www.ets.org/content/dam/ets-org/pdfs/toeic/toeic-speaking-writing-examinee-handbook.pdf):
+- `read-aloud`: Đọc to văn bản (Câu 1–2).
+- `describe-picture`: Miêu tả tranh (Câu 3–4).
+- `respond-to-questions`: Trả lời câu hỏi tình huống (Câu 5–7).
+- `respond-with-info`: Trả lời dựa trên thông tin cho sẵn (Câu 8–10).
+- `express-opinion`: Bày tỏ quan điểm cá nhân (Câu 11).
 
-**Giá trị cho `parts`:** `read-aloud`, `describe-picture`, `respond-to-questions`, `respond-with-info`, `express-opinion`. Mình phân theo dạng bài, không theo số câu, vì số thứ tự câu khác nhau giữa các tài liệu ETS. Bài thi gồm 11 câu, khoảng 20 phút, thang điểm 0–200; hãy đối chiếu danh sách dạng bài với [Examinee Handbook](https://www.ets.org/content/dam/ets-org/pdfs/toeic/toeic-speaking-writing-examinee-handbook.pdf) mới nhất và trang [TOEIC Speaking & Writing của ETS](https://www.ets.org/toeic/test-takers/about/speaking-writing.html) trước khi chốt tên các trang `/parts/`.
+---
 
-## 4. Công nghệ và cấu hình
+## 4. Công nghệ & Cấu hình hệ thống
 
-Giữ nguyên bộ công cụ của [blog mẫu](https://glory-hinody.pages.dev/posts/bai-viet-dau-tien/) (Hugo + PaperMod + Cloudflare Pages), nên bước dựng site lần đầu làm lại đúng Giai đoạn 0–4 trong bài đó, khoảng 2–3 giờ.
+| Thành phần | Công nghệ chọn | Trạng thái kỹ thuật |
+| :--- | :--- | :--- |
+| **Bộ sinh tĩnh** | Hugo bản extended (`v0.167.0`) |  Hoạt động tốt, build toàn trang trong ~130ms |
+| **Giao diện chính** | PaperMod (Theme) |  Đã tích hợp qua Git Submodule (`themes/PaperMod`) |
+| **Quản lý mã nguồn** | GitHub (`vinh-gogo/GLORY-TIKTOK`) |  Nhánh `main`, commit sạch, có `.gitignore` |
+| **Lưu trữ & Tên miền** | Cloudflare Pages (`glory.one.learns.dev`) |  Cấu hình build `hugo --gc --minify`, output `public` |
+| **Tìm kiếm nội bộ** | PaperMod Fuse.js Client Search |  Tự động sinh `public/index.json` lập chỉ mục mọi từ & nghĩa |
+| **Giao diện thẻ từ vựng** | Shortcode `words.html` + `custom.css` |  Mobile-first, hỗ trợ Light/Dark mode tự động |
+| **Nhúng video TikTok** | Shortcode `tiktok.html` |  Hỗ trợ embed trực tiếp kèm nút CTA mở app TikTok |
 
-| Thành phần | Chọn | Ghi chú |
-| --- | --- | --- |
-| Tạo site | Hugo bản extended + theme PaperMod | Viết Markdown, build trong vài giây |
-| Mã nguồn | GitHub | PaperMod thêm bằng submodule |
-| Đăng web | Cloudflare Pages | Tự build mỗi lần `git push`, HTTPS tự cấp |
-| Thống kê | Cloudflare Web Analytics | Miễn phí, không dùng cookie |
-| Tìm kiếm | Search có sẵn của PaperMod | Chạy trên trình duyệt, không cần máy chủ |
-| Bình luận | Chưa bật ở MVP | Giscus bắt buộc tài khoản GitHub, người học từ TikTok thường không có; xét lại ở v3 |
-
-**Khác blog mẫu:** dùng section `sets` thay `posts`; thêm hai phân loại `topics` và `parts`; trang chủ dạng `profileMode` để làm trung tâm liên kết; bật tìm kiếm; tắt bình luận. Nếu không dùng Giscus thì repo có thể để private.
-
-Cấu hình `hugo.yaml` đề xuất (đổi tên miền, tên kênh, avatar):
+### 4.1. File cấu hình thực tế `hugo.yaml`
 
 ```yaml
-baseURL: "https://TEN-WEB.pages.dev/"
+baseURL: "https://glory.one.learns.dev/"
 locale: vi
 defaultContentLanguage: vi
-title: "Tên kênh – TOEIC Speaking"
+title: "Glory 01 – TOEIC Speaking"
 theme: PaperMod
 
 outputs:
-  home: [HTML, RSS, JSON]   # JSON để tìm kiếm
+  home: [HTML, RSS, JSON]
 
 taxonomies:
   tag: tags
@@ -103,29 +154,107 @@ taxonomies:
   part: parts
 
 params:
-  description: "Từ vựng, từ đồng nghĩa, collocations cho TOEIC Speaking"
+  description: "Kho từ vựng chuẩn thi TOEIC Speaking: loại từ, IPA, level TOEIC, từ dễ nhầm, collocations và câu ví dụ song ngữ"
+  author: "Glory 01"
   defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
   comments: false
+
   profileMode:
     enabled: true
-    title: "Tên kênh"
-    subtitle: "Học mọi thứ để cải thiện TOEIC Speaking"
-    imageUrl: "/avatar.png"
+    title: "Glory 01"
+    subtitle: "Kho từ vựng & phản xạ TOEIC Speaking đồng hành cùng kênh TikTok @glory01"
+    imageUrl: "/images/avatar.svg"
+    imageTitle: "Glory 01"
+    imageWidth: 120
+    imageHeight: 120
     buttons:
-      - name: "Set mới nhất"
+      - name: "📚 Bộ bài học"
         url: "/sets/"
-      - name: "Theo chủ đề"
+      - name: "🏷️ Theo chủ đề"
         url: "/topics/"
-      - name: "TikTok"
-        url: "https://www.tiktok.com/@ten-kenh"
+      - name: "🎯 Theo dạng bài"
+        url: "/parts/"
+      - name: "🎬 TikTok @glory01"
+        url: "https://www.tiktok.com/@glory01"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 2
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
     - { name: "Bộ bài học", url: "/sets/", weight: 1 }
     - { name: "Chủ đề", url: "/topics/", weight: 2 }
-    - { name: "Hướng dẫn", url: "/guides/", weight: 3 }
-    - { name: "Tìm kiếm", url: "/search/", weight: 4 }
-    - { name: "Giới thiệu", url: "/about/", weight: 5 }
+    - { name: "Dạng bài", url: "/parts/", weight: 3 }
+    - { name: "Hướng dẫn", url: "/guides/", weight: 4 }
+    - { name: "Tìm kiếm", url: "/search/", weight: 5 }
+    - { name: "Giới thiệu", url: "/about/", weight: 6 }
 ```
 
-Tìm kiếm cần thêm file `content/search.md` với `layout: "search"`. Cloudflare Pages dùng lệnh build `hugo --gc --minify`, thư mục `public`, biến môi trường `HUGO_VERSION` đúng bản đang dùng, và nhớ commit file `.gitmodules`; các lỗi hay gặp đã liệt kê trong bài mẫu.
+---
+
+## 5. Cấu trúc cây thư mục mã nguồn hiện tại
+
+```
+D:\GLORY-TIKTOK\
+├── archetypes/
+│   ├── default.md                  # Khung mẫu chung
+│   └── sets.md                     # Khung mẫu tạo bài học mới (hugo new sets/set-xxx.md)
+├── assets/
+│   └── css/extended/custom.css     # CSS tùy biến thẻ từ, level badge, nuance box, mobile-first
+├── content/
+│   ├── about.md                    # Giới thiệu kênh Glory 01, liên hệ & ETS disclaimer
+│   ├── search.md                   # Trang tìm kiếm tức thì
+│   ├── sets/
+│   │   ├── _index.md               # Trang mục lục các set bài học
+│   │   ├── set-001.md              # Set 001: Từ vựng & Collocations họp hành công sở
+│   │   ├── set-002.md              # Set 002: Miêu tả tranh Part 2 (đường phố & quán cafe)
+│   │   └── set-013.md              # Set 013: Từ vựng công việc hằng ngày
+│   └── guides/
+│       ├── _index.md               # Trang mục lục cẩm nang
+│       └── 01-overview-5-parts.md  # Hướng dẫn tổng quan 5 dạng bài chuẩn ETS
+├── layouts/
+│   └── shortcodes/
+│       ├── words.html              # Shortcode render thẻ từ vựng đầy đủ các trường
+│       └── tiktok.html             # Shortcode nhúng video TikTok & nút CTA di động
+├── static/
+│   └── images/
+│       └── avatar.svg              # Logo thương hiệu vector Glory 01
+├── themes/
+│   └── PaperMod/                   # Git submodule theme PaperMod
+├── .gitignore                      # Bỏ qua public/, cache lock
+├── .gitmodules                     # Cấu hình submodule cho Cloudflare Pages
+├── hugo.yaml                       # Cấu hình trung tâm Hugo
+├── README.md                       # Tài liệu hướng dẫn sử dụng & quy trình xuất bản
+└── PLAN_TikTok_TOEIC_Speaking.md   # Bản kế hoạch và tài liệu đối soát dự án (file này)
+```
+
+---
+
+## 6. Hướng dẫn vận hành định kỳ
+
+1. **Tạo set bài học mới sau khi đăng video TikTok:**
+   ```bash
+   hugo new sets/set-014.md
+   ```
+2. **Xem trước trên máy tính cá nhân:**
+   ```bash
+   hugo server -D
+   ```
+3. **Đẩy lên GitHub để Cloudflare Pages tự động build lại website:**
+   ```bash
+   git add .
+   git commit -m "feat: add set 014"
+   git push origin main
+   ```
