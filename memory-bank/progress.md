@@ -18,6 +18,10 @@
   - Sticky navigation bar with category and breadcrumbs.
   - Keyboard navigation (Left/Right arrow keys) for seamless sequential study.
   - Balanced 50/50 bottom navigation cards with defensive CSS grid sizing, text truncation, and hover tooltips.
+- [x] **About Page & Creator Profile:**
+  - Redesigned `/about/` with authentic creator voice and modern card-based presentation.
+  - Linked to official TikTok channel `Glory 01` (@wbk.lqv).
+  - Bento grid highlights, 3-step study loop, and content manifesto.
 - [x] **Site Header & Branding:**
   - Brand title set to "Glory 01 – Blog".
   - Professional, cute animated SVG icon embedded in the header.

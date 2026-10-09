@@ -7,7 +7,13 @@ Refining the vocabulary browsing and learning UX across the interactive Glossary
 
 ## 2. Recent Changes & Decisions
 
-### 2.1. Navigation & Word Detail Layout (Latest: Commit `d9ebc6f`)
+### 2.1. About Page Redesign & Creator Profile (Glory 01 / @wbk.lqv)
+- **Profile Info:** Updated channel name to **Glory 01**, TikTok username to `wbk.lqv`, and profile URL to `https://www.tiktok.com/@wbk.lqv` across `hugo.yaml`, shortcodes, and lesson sets.
+- **Human-Centric Redesign:** Replaced generic AI-style copy and bullet lists in `content/about.md` with an authentic, relatable creator voice in a bespoke layout (`layouts/about/single.html`).
+- **Visual Components:** Added hero profile card with glowing avatar and direct TikTok CTA button, 3-pillar Bento Grid ("Tại sao không chỉ dừng lại ở TikTok?"), interactive 3-step daily study loop, content manifesto, and community connect card.
+- **Custom CSS:** Added responsive styling for the About page in `assets/css/extended/custom.css`.
+
+### 2.2. Navigation & Word Detail Layout (Commit `d9ebc6f`)
 - **Issue:** Long Vietnamese definitions inside the bottom navigation cards (`← Từ trước` and `Từ tiếp theo →`) caused unequal card stretching, breaking the 50/50 visual balance.
 - **Fix:**
   - Updated CSS Grid in [`assets/css/extended/custom.css`](file:///D:/GLORY-TIKTOK/assets/css/extended/custom.css) to `grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);`.

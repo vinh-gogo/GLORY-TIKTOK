@@ -45,8 +45,8 @@ params:
         url: "/topics/"
       - name: "🎯 Theo dạng bài"
         url: "/parts/"
-      - name: "🎬 TikTok @glory01"
-        url: "https://www.tiktok.com/@glory01"
+      - name: "🎬 TikTok @wbk.lqv"
+        url: "https://www.tiktok.com/@wbk.lqv"
 
   fuseOpts:
     isCaseSensitive: false

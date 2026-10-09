@@ -2116,9 +2116,548 @@
         gap: 0.75rem;
     }
 
-    .bottom-nav-center {
-        order: 3;
+}
+
+/* --- About Page Redesign (Glory 01 & Creator @wbk.lqv) --- */
+.about-page-container {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 1.5rem 0.5rem 3.5rem 0.5rem;
+}
+
+.about-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+}
+
+.about-bc-link {
+    color: var(--secondary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.about-bc-link:hover {
+    color: #2563eb;
+}
+
+.about-bc-sep {
+    opacity: 0.5;
+}
+
+.about-bc-current {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Hero Profile Card */
+.about-hero-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 2.25rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    margin-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-hero-main {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.about-avatar-box {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.about-avatar-inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2563eb;
+}
+
+.about-avatar-inner svg {
+    width: 100%;
+    height: 100%;
+}
+
+.about-online-badge {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 16px;
+    height: 16px;
+    background-color: #10b981;
+    border: 3px solid var(--entry);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.4);
+}
+
+.about-hero-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.about-hero-badge-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.about-badge-role {
+    font-size: 0.76rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #2563eb;
+    background: rgba(37, 99, 235, 0.1);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.about-badge-status {
+    font-size: 0.76rem;
+    font-weight: 700;
+    color: #10b981;
+    background: rgba(16, 185, 129, 0.1);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.about-hero-title {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin: 0 0 0.25rem 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.2;
+}
+
+.about-hero-handle {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--secondary);
+    margin: 0 0 0.75rem 0;
+}
+
+.about-handle-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.about-handle-link:hover {
+    text-decoration: underline;
+}
+
+.about-hero-bio {
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.about-hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 1.75rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    flex-wrap: wrap;
+}
+
+.about-cta-tiktok {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #111827;
+    color: #ffffff !important;
+    padding: 0.75rem 1.4rem;
+    border-radius: 12px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    text-decoration: none !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    transition: all 0.25s ease;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.about-cta-tiktok:hover {
+    background: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.about-cta-glossary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--code-bg);
+    color: var(--primary) !important;
+    padding: 0.75rem 1.3rem;
+    border-radius: 12px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    border: 1px solid var(--border);
+    transition: all 0.2s ease;
+}
+
+.about-cta-glossary:hover {
+    border-color: #2563eb;
+    color: #2563eb !important;
+    transform: translateY(-2px);
+}
+
+/* Sections */
+.about-section {
+    margin-top: 3rem;
+}
+
+.about-section-header {
+    margin-bottom: 1.5rem;
+}
+
+.about-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #2563eb;
+    background: rgba(37, 99, 235, 0.1);
+    padding: 3px 10px;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.about-section-title {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin: 0;
+    line-height: 1.3;
+}
+
+/* Story Block */
+.about-story-content {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--content);
+}
+
+.about-story-content p {
+    margin-bottom: 1.25rem;
+}
+
+.about-story-content code {
+    background: var(--code-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 700;
+    color: #2563eb;
+    font-size: 0.9em;
+}
+
+.about-story-content strong {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+/* Bento Grid */
+.about-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.25rem;
+}
+
+.about-bento-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.6rem 1.4rem;
+    transition: all 0.25s ease;
+}
+
+.about-bento-card:hover {
+    border-color: #3b82f6;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.about-card-icon-wrap {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.icon-blue {
+    background: rgba(59, 130, 246, 0.12);
+    color: #3b82f6;
+}
+
+.icon-emerald {
+    background: rgba(16, 185, 129, 0.12);
+    color: #10b981;
+}
+
+.icon-amber {
+    background: rgba(245, 158, 11, 0.12);
+    color: #f59e0b;
+}
+
+.about-card-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0 0 0.5rem 0;
+}
+
+.about-card-desc {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.about-card-desc code {
+    background: var(--code-bg);
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #2563eb;
+    font-weight: 600;
+}
+
+/* 3-Step Routine */
+.about-steps-container {
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.about-step-item {
+    flex: 1;
+    min-width: 0;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.4rem 1.25rem;
+}
+
+.about-step-number {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #2563eb;
+    line-height: 1;
+    margin-bottom: 0.6rem;
+}
+
+.about-step-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0 0 0.4rem 0;
+}
+
+.about-step-text {
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--secondary);
+    margin: 0;
+}
+
+.about-step-text code {
+    background: var(--code-bg);
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #2563eb;
+}
+
+.about-step-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--secondary);
+    opacity: 0.4;
+    user-select: none;
+}
+
+/* Manifesto Box */
+.about-manifesto-box {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.75rem;
+}
+
+.about-manifesto-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.about-manifesto-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--content);
+}
+
+.about-check-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+/* Connect Card */
+.about-connect-card {
+    margin-top: 3.5rem;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-radius: 18px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.about-connect-left {
+    flex: 1;
+    min-width: 260px;
+}
+
+.about-connect-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin: 0 0 0.4rem 0;
+}
+
+.about-connect-desc {
+    color: var(--secondary);
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin: 0;
+}
+
+.about-connect-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #111827;
+    color: #ffffff !important;
+    padding: 0.85rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.about-connect-btn:hover {
+    background: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.3);
+}
+
+/* Disclaimer Box */
+.about-disclaimer-box {
+    margin-top: 3.5rem;
+    padding: 1.25rem 0.5rem;
+    border-top: 1px dashed var(--border);
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--secondary);
+    opacity: 0.85;
+    text-align: justify;
+}
+
+.about-disclaimer-box strong {
+    color: var(--primary);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .about-hero-main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-hero-badge-group {
+        justify-content: center;
+    }
+
+    .about-hero-title {
+        justify-content: center;
+    }
+
+    .about-hero-actions {
+        justify-content: center;
+    }
+
+    .about-steps-container {
+        flex-direction: column;
+    }
+
+    .about-step-arrow {
+        transform: rotate(90deg);
+        margin: -6px 0;
+    }
+
+    .about-connect-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-connect-right {
+        width: 100%;
+    }
+
+    .about-connect-btn {
+        width: 100%;
+        justify-content: center;
     }
 }
+
 
 
