@@ -43,8 +43,8 @@ params:
         url: "/glossary/"
       - name: "🏷️ Theo chủ đề"
         url: "/topics/"
-      - name: "🎯 Theo dạng bài"
-        url: "/parts/"
+      - name: "💡 Câu nói hay"
+        url: "/quotes/"
       - name: "🎬 TikTok @wbk.lqv"
         url: "https://www.tiktok.com/@wbk.lqv"
 
@@ -68,8 +68,8 @@ menu:
     - name: "Chủ đề"
       url: "/topics/"
       weight: 3
-    - name: "Dạng bài"
-      url: "/parts/"
+    - name: "Câu nói hay"
+      url: "/quotes/"
       weight: 4
     - name: "Hướng dẫn"
       url: "/guides/"
