@@ -3149,6 +3149,136 @@ body:has(.quotes-table-container) .main {
     color: var(--primary);
 }
 
+/* --- Quotes Mobile Card Layout (<= 768px) --- */
+@media (max-width: 768px) {
+    .quotes-table-container {
+        padding: 0 0.25rem !important;
+        margin: 1rem auto 3.5rem !important;
+    }
+
+    .quotes-page-header {
+        margin-bottom: 1.25rem !important;
+    }
+
+    .quotes-simple-title {
+        font-size: clamp(1.4rem, 6vw, 1.8rem) !important;
+        margin-bottom: 0.4rem !important;
+    }
+
+    .quotes-desc {
+        font-size: 0.88rem !important;
+        line-height: 1.55 !important;
+    }
+
+    .quotes-table-wrapper {
+        border: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        overflow-x: visible !important;
+    }
+
+    .quotes-table {
+        display: block !important;
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .quotes-table thead {
+        display: none !important;
+    }
+
+    .quotes-table tbody {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 14px !important;
+        width: 100% !important;
+    }
+
+    .quotes-row {
+        display: block !important;
+        background: var(--entry) !important;
+        border: 1px solid var(--border) !important;
+        border-radius: 16px !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03) !important;
+        overflow: hidden !important;
+    }
+
+    .quotes-table td {
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Cột 1: English */
+    .quotes-table td.col-en {
+        border-right: none !important;
+        border-bottom: 1px dashed var(--border) !important;
+        padding: 16px 16px 14px 16px !important;
+    }
+
+    .q-top-row {
+        flex-wrap: wrap !important;
+        gap: 6px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .q-num {
+        font-size: 0.72rem !important;
+        padding: 3px 7px !important;
+    }
+
+    .q-name-en {
+        font-size: 1.05rem !important;
+    }
+
+    .q-text-en {
+        font-size: 0.98rem !important;
+        line-height: 1.55 !important;
+        margin-bottom: 12px !important;
+    }
+
+    .q-tags-cell {
+        gap: 5px !important;
+    }
+
+    .q-tag {
+        font-size: 0.72rem !important;
+        padding: 3px 8px !important;
+    }
+
+    .q-tag-colloc {
+        font-size: 0.74rem !important;
+        padding: 3px 8px !important;
+    }
+
+    /* Cột 2: Tiếng Việt */
+    .quotes-table td.col-vi {
+        padding: 14px 16px 16px 16px !important;
+        background: rgba(37, 99, 235, 0.02) !important;
+    }
+
+    :root[data-theme="dark"] .quotes-table td.col-vi {
+        background: rgba(255, 255, 255, 0.02) !important;
+    }
+
+    .q-name-vi {
+        font-size: 1.05rem !important;
+        margin-bottom: 6px !important;
+    }
+
+    .q-text-vi {
+        font-size: 0.92rem !important;
+        line-height: 1.55 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .q-insight {
+        font-size: 0.84rem !important;
+        padding: 10px 12px !important;
+        line-height: 1.5 !important;
+    }
+}
+
 
 
 
