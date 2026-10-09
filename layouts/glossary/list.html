@@ -78,7 +78,7 @@
           <th class="col-header-level">Cấp độ</th>
           <th class="col-header-meaning">Nghĩa tiếng Việt</th>
           <th class="col-header-colloc">Collocations tiêu biểu</th>
-          <th class="col-header-action">Chi tiết</th>
+          <th class="col-header-action" aria-label="Xem chi tiết"></th>
         </tr>
       </thead>
       <tbody>
@@ -88,7 +88,7 @@
         {{- $band := "" }}
         {{- with .level }}{{ $band = .band }}{{ end }}
         {{- $firstLetter := upper (substr .lemma 0 1) }}
-        <tr class="glossary-row" data-lemma="{{ .lemma | lower }}" data-meaning="{{ $meaning | lower }}" data-band="{{ $band }}" data-letter="{{ $firstLetter }}">
+        <tr class="glossary-row" data-href="/words/{{ .id }}/" data-lemma="{{ .lemma | lower }}" data-meaning="{{ $meaning | lower }}" data-band="{{ $band }}" data-letter="{{ $firstLetter }}" title="Mở học từ {{ .lemma }}">
           <td class="col-word">
             <a href="/words/{{ .id }}/" class="glossary-word-link"><strong>{{ .lemma }}</strong></a>
             {{- with .ipa.us }}
@@ -118,7 +118,7 @@
             {{- end }}
           </td>
           <td class="col-action">
-            <a href="/words/{{ .id }}/" class="glossary-btn-detail" title="Xem chi tiết từ {{ .lemma }}">Học ➔</a>
+            <span class="glossary-row-arrow" aria-hidden="true">➔</span>
           </td>
         </tr>
         {{- end }}
@@ -212,6 +212,23 @@ document.addEventListener("DOMContentLoaded", function() {
       filterTable();
     });
   }
+
+  // Click vào bất kỳ vị trí nào trên hàng để mở luôn trang học từ vựng
+  rows.forEach(function(row) {
+    row.addEventListener("click", function(e) {
+      if (e.target.closest("a")) return;
+      const selection = window.getSelection();
+      if (selection && selection.toString().trim().length > 0) return;
+      const href = this.getAttribute("data-href");
+      if (href) {
+        if (e.ctrlKey || e.metaKey) {
+          window.open(href, "_blank");
+        } else {
+          window.location.href = href;
+        }
+      }
+    });
+  });
 });
 </script>
 {{- end }}
