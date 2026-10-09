@@ -7,7 +7,15 @@ Refining the vocabulary browsing and learning UX across the interactive Glossary
 
 ## 2. Recent Changes & Decisions
 
-### 2.1. About Page Redesign & Creator Profile (Glory 01 / @wbk.lqv)
+### 2.1. Smart Filter Coordination (Phân cấp TOEIC & Chữ cái A–Z)
+- **Root Cause Identified:** Filter deadlock occurred because Band and Letter filters used rigid intersecting AND logic without dynamic feedback: selecting a band like Advanced (13 words only in B, C, E, L, R, S, T) while Letter A was active produced 0 words. Furthermore, `#glossary-reset-btn` shared `.glossary-filter-btn` class, causing click events to read `targetBand = null` and breaking the view.
+- **Coordinated State System (`syncFilters`):**
+  - Clicking a letter automatically switches Band to `all` if that band has 0 words for the letter (and vice versa).
+  - Dynamically calculates letter availability: letters with 0 words in the active band become disabled in real time.
+  - Dynamically updates count badges on TOEIC level buttons (e.g. Core (10), Target (11), Advanced (0)).
+  - Separated reset button selector and added swipable mobile horizontal scroll for the A-Z bar.
+
+### 2.2. About Page Redesign & Creator Profile (Glory 01 / @wbk.lqv)
 - **Profile Info:** Updated channel name to **Glory 01**, TikTok username to `wbk.lqv`, and profile URL to `https://www.tiktok.com/@wbk.lqv` across `hugo.yaml`, shortcodes, and lesson sets.
 - **Human-Centric Redesign:** Replaced generic AI-style copy and bullet lists in `content/about.md` with an authentic, relatable creator voice in a bespoke layout (`layouts/about/single.html`).
 - **Visual Components:** Added hero profile card with glowing avatar and direct TikTok CTA button, 3-pillar Bento Grid ("Tại sao không chỉ dừng lại ở TikTok?"), interactive 3-step daily study loop, content manifesto, and community connect card.
