@@ -169,12 +169,12 @@
     <nav class="word-bottom-nav" aria-label="Điều hướng học từ vựng">
       <div class="bottom-nav-inner">
         {{- with $prevWord }}
-        <a href="{{ .Permalink }}" class="bottom-nav-card nav-card-prev" title="Học từ trước: {{ .Title }} (Phím ←)">
+        <a href="{{ .Permalink }}" class="bottom-nav-card nav-card-prev" title="Học từ trước: {{ .Title }}{{ with .Params.summary }} — {{ . }}{{ end }} (Phím ←)">
           <span class="card-arrow">←</span>
           <div class="card-text">
             <span class="card-hint">Từ trước <kbd class="nav-kbd">←</kbd></span>
             <strong class="card-word">{{ .Title }}</strong>
-            {{- with .Params.summary }}<span class="card-summary">{{ . }}</span>{{- end }}
+            {{- with .Params.summary }}<span class="card-summary">{{ . | truncate 36 }}</span>{{- end }}
           </div>
         </a>
         {{- else }}
@@ -189,11 +189,11 @@
         </a>
 
         {{- with $nextWord }}
-        <a href="{{ .Permalink }}" class="bottom-nav-card nav-card-next" title="Học từ tiếp theo: {{ .Title }} (Phím →)">
+        <a href="{{ .Permalink }}" class="bottom-nav-card nav-card-next" title="Học từ tiếp theo: {{ .Title }}{{ with .Params.summary }} — {{ . }}{{ end }} (Phím →)">
           <div class="card-text">
             <span class="card-hint">Từ tiếp theo <kbd class="nav-kbd">→</kbd></span>
             <strong class="card-word">{{ .Title }}</strong>
-            {{- with .Params.summary }}<span class="card-summary">{{ . }}</span>{{- end }}
+            {{- with .Params.summary }}<span class="card-summary">{{ . | truncate 36 }}</span>{{- end }}
           </div>
           <span class="card-arrow">→</span>
         </a>
