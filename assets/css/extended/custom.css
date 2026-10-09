@@ -1,0 +1,519 @@
+/* ==========================================================================
+   Glory 01 TOEIC Speaking - Custom Extended Styles
+   Mobile-First Vocabulary Cards, Pronunciation, Nuances & Collocations
+   ========================================================================== */
+
+/* --- Profile & Brand Tweaks --- */
+.profile_inner h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile_inner span {
+    font-size: 1.05rem;
+    color: var(--secondary);
+    line-height: 1.6;
+}
+
+.profile_inner .buttons .button {
+    font-weight: 600;
+    border-radius: 9999px;
+    padding: 8px 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+.profile_inner .buttons .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* --- Vocabulary Container & Cards Grid --- */
+.vocab-container {
+    margin: 2rem 0;
+}
+
+.vocab-header-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.vocab-count-badge {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    background-color: var(--code-bg);
+    color: var(--primary);
+    border: 1px solid var(--border);
+}
+
+.vocab-badge-sub {
+    font-size: 0.82rem;
+    color: var(--secondary);
+    font-style: italic;
+}
+
+.vocab-cards-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* --- Single Vocabulary Card --- */
+.vocab-card {
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.35rem 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.vocab-card:hover {
+    border-color: #3b82f6;
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.09);
+}
+
+.vocab-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, #3b82f6, #8b5cf6, #ec4899);
+    opacity: 0.9;
+}
+
+/* --- Header of Card: Number, Word, IPA, POS & TOEIC Level --- */
+.vocab-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px dashed var(--border);
+    flex-wrap: wrap;
+}
+
+.vocab-top-left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.vocab-num {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--secondary);
+    background-color: var(--code-bg);
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+.vocab-word-group {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+}
+
+.vocab-word {
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+
+.vocab-pos {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #4f46e5;
+    background-color: rgba(79, 70, 229, 0.08);
+    padding: 2px 7px;
+    border-radius: 4px;
+}
+
+:root[data-theme="dark"] .vocab-pos {
+    color: #818cf8;
+    background-color: rgba(129, 140, 248, 0.15);
+}
+
+.vocab-ipa {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.95rem;
+    color: #0284c7;
+    background-color: rgba(2, 132, 199, 0.08);
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+:root[data-theme="dark"] .vocab-ipa {
+    color: #38bdf8;
+    background-color: rgba(56, 189, 248, 0.12);
+}
+
+.vocab-top-right {
+    margin-left: auto;
+}
+
+.vocab-level-badge {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 9999px;
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.02em;
+}
+
+/* --- Card Content Fields --- */
+.vocab-field {
+    margin-top: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+@media (min-width: 640px) {
+    .vocab-field {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 0.85rem;
+    }
+}
+
+.vocab-field-label {
+    font-size: 0.86rem;
+    font-weight: 700;
+    color: var(--secondary);
+    min-width: 150px;
+    flex-shrink: 0;
+    line-height: 1.5;
+}
+
+.vocab-field-content {
+    flex-grow: 1;
+}
+
+.vocab-meaning-text {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1.5;
+}
+
+/* --- Collocations List with Vietnamese Translations --- */
+.vocab-colloc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.vocab-colloc-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.6rem;
+    background-color: rgba(245, 158, 11, 0.08);
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 0.9rem;
+}
+
+:root[data-theme="dark"] .vocab-colloc-item {
+    background-color: rgba(245, 158, 11, 0.14);
+    border-color: rgba(245, 158, 11, 0.28);
+}
+
+.colloc-en {
+    font-weight: 700;
+    color: #b45309;
+}
+
+:root[data-theme="dark"] .colloc-en {
+    color: #fbbf24;
+}
+
+.colloc-arrow {
+    color: var(--secondary);
+    font-size: 0.8rem;
+}
+
+.colloc-vi {
+    color: var(--content);
+    font-weight: 500;
+}
+
+/* --- Confused Words (Mặt chữ / Phát âm) Box --- */
+.vocab-warning-box {
+    background-color: rgba(239, 68, 68, 0.06);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    border-radius: 8px;
+    padding: 0.65rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+:root[data-theme="dark"] .vocab-warning-box {
+    background-color: rgba(239, 68, 68, 0.1);
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.vocab-confused-item .confused-top {
+    font-size: 0.9rem;
+    color: var(--content);
+}
+
+.confused-word {
+    font-weight: 700;
+    color: #dc2626;
+}
+
+:root[data-theme="dark"] .confused-word {
+    color: #f87171;
+}
+
+.confused-ipa {
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    font-size: 0.85rem;
+    color: var(--secondary);
+    margin-left: 0.35rem;
+}
+
+.confused-meaning {
+    font-weight: 500;
+}
+
+.confused-diff {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    margin-top: 0.2rem;
+    line-height: 1.4;
+}
+
+/* --- Confusing Meanings (Sắc thái nghĩa) Box --- */
+.vocab-nuance-box {
+    background-color: rgba(99, 102, 241, 0.06);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    border-radius: 8px;
+    padding: 0.65rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+:root[data-theme="dark"] .vocab-nuance-box {
+    background-color: rgba(99, 102, 241, 0.12);
+    border-color: rgba(99, 102, 241, 0.3);
+}
+
+.nuance-top {
+    font-size: 0.9rem;
+    color: var(--content);
+}
+
+.nuance-word {
+    font-weight: 700;
+    color: #4f46e5;
+}
+
+:root[data-theme="dark"] .nuance-word {
+    color: #818cf8;
+}
+
+.nuance-meaning {
+    font-weight: 500;
+}
+
+.nuance-diff {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    margin-top: 0.2rem;
+    line-height: 1.4;
+}
+
+/* --- Chips for Synonyms --- */
+.vocab-chip-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.vocab-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.chip-synonym {
+    background-color: var(--code-bg);
+    color: var(--content);
+    border: 1px solid var(--border);
+}
+
+.chip-sub {
+    font-size: 0.8rem;
+    color: var(--secondary);
+    font-weight: normal;
+}
+
+/* --- Example Box with Bilingual En - Vi --- */
+.vocab-example-card {
+    background-color: var(--code-bg);
+    border-left: 3px solid #3b82f6;
+    padding: 0.65rem 0.95rem;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.vocab-ex-en {
+    margin: 0;
+    font-size: 0.96rem;
+    font-weight: 600;
+    color: var(--primary);
+    line-height: 1.5;
+}
+
+.vocab-ex-vi {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--secondary);
+    line-height: 1.5;
+}
+
+/* --- TikTok Wrapper & CTA --- */
+.tiktok-wrapper {
+    margin: 1.5rem 0 2rem 0;
+}
+
+.tiktok-cta-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.05), rgba(236, 72, 153, 0.05));
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 540px) {
+    .tiktok-cta-card {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.tiktok-badge {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ec4899;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+}
+
+.tiktok-cta-desc {
+    margin: 0;
+    font-size: 0.92rem;
+    color: var(--secondary);
+}
+
+.tiktok-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    background: #000000;
+    color: #ffffff !important;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    white-space: nowrap;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+:root[data-theme="dark"] .tiktok-btn {
+    background: #ffffff;
+    color: #000000 !important;
+}
+
+.tiktok-btn:hover {
+    transform: scale(1.03);
+    opacity: 0.92;
+}
+
+.tiktok-embed-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/* --- Speaking Practice Section Callouts --- */
+.practice-box {
+    background-color: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+}
+
+.practice-box h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #2563eb;
+    font-size: 1.1rem;
+}
+
+:root[data-theme="dark"] .practice-box h4 {
+    color: #60a5fa;
+}
+
+/* --- Mobile Responsiveness Adjustments --- */
+@media (max-width: 600px) {
+    .vocab-card {
+        padding: 1rem;
+    }
+    .vocab-word {
+        font-size: 1.3rem;
+    }
+    .vocab-field-label {
+        min-width: unset;
+    }
+}

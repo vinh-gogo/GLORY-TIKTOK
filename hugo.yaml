@@ -1,0 +1,73 @@
+baseURL: "https://glory.one.learns.dev/"
+locale: vi
+defaultContentLanguage: vi
+title: "Glory 01 – TOEIC Speaking"
+theme: PaperMod
+
+outputs:
+  home: [HTML, RSS, JSON]
+
+taxonomies:
+  tag: tags
+  topic: topics
+  part: parts
+
+params:
+  description: "Kho từ vựng chuẩn thi TOEIC Speaking: loại từ, IPA, level TOEIC, từ dễ nhầm, collocations và câu ví dụ song ngữ"
+  author: "Glory 01"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  comments: false
+
+  profileMode:
+    enabled: true
+    title: "Glory 01"
+    subtitle: "Kho từ vựng & phản xạ TOEIC Speaking đồng hành cùng kênh TikTok @glory01"
+    imageUrl: "/images/avatar.svg"
+    imageTitle: "Glory 01"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: "📚 Bộ bài học"
+        url: "/sets/"
+      - name: "🏷️ Theo chủ đề"
+        url: "/topics/"
+      - name: "🎯 Theo dạng bài"
+        url: "/parts/"
+      - name: "🎬 TikTok @glory01"
+        url: "https://www.tiktok.com/@glory01"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 2
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - name: "Bộ bài học"
+      url: "/sets/"
+      weight: 1
+    - name: "Chủ đề"
+      url: "/topics/"
+      weight: 2
+    - name: "Dạng bài"
+      url: "/parts/"
+      weight: 3
+    - name: "Hướng dẫn"
+      url: "/guides/"
+      weight: 4
+    - name: "Tìm kiếm"
+      url: "/search/"
+      weight: 5
+    - name: "Giới thiệu"
+      url: "/about/"
+      weight: 6

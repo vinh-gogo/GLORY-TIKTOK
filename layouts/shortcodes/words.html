@@ -1,0 +1,190 @@
+{{- with .Page.Params.words }}
+<div class="vocab-container">
+  <div class="vocab-header-info">
+    <span class="vocab-count-badge">Tổng số: <strong>{{ len . }}</strong> từ vựng trọng tâm</span>
+    <span class="vocab-badge-sub">Đầy đủ loại từ, IPA, level TOEIC, collocations & câu ví dụ song ngữ</span>
+  </div>
+  <div class="vocab-cards-grid">
+    {{- range $index, $item := . }}
+    <article class="vocab-card" id="word-{{ $item.word | urlize }}">
+      <!-- Top Bar: Index, Word, IPA, POS, TOEIC Level -->
+      <div class="vocab-card-top">
+        <div class="vocab-top-left">
+          <span class="vocab-num">#{{ add $index 1 }}</span>
+          <div class="vocab-word-group">
+            <h3 class="vocab-word">{{ $item.word }}</h3>
+            {{- with $item.pos }}
+            <span class="vocab-pos">{{ . }}</span>
+            {{- end }}
+            {{- with $item.ipa }}
+            <span class="vocab-ipa">{{ . }}</span>
+            {{- end }}
+          </div>
+        </div>
+        {{- with $item.level }}
+        <div class="vocab-top-right">
+          <span class="vocab-level-badge">{{ . }}</span>
+        </div>
+        {{- end }}
+      </div>
+
+      <!-- Core Meaning -->
+      {{- with $item.meaning }}
+      <div class="vocab-field vocab-meaning">
+        <span class="vocab-field-label">🎯 Nghĩa chính:</span>
+        <div class="vocab-field-content">
+          <span class="vocab-meaning-text">{{ . }}</span>
+        </div>
+      </div>
+      {{- end }}
+
+      <!-- Collocations kèm nghĩa tiếng Việt -->
+      {{- with $item.collocations }}
+      <div class="vocab-field vocab-collocations">
+        <span class="vocab-field-label">⚡ Collocations ăn điểm:</span>
+        <div class="vocab-field-content">
+          <ul class="vocab-colloc-list">
+            {{- range . }}
+              {{- if reflect.IsMap . }}
+              <li class="vocab-colloc-item">
+                <span class="colloc-en">{{ .phrase }}</span>
+                <span class="colloc-arrow">➔</span>
+                <span class="colloc-vi">{{ .meaning }}</span>
+              </li>
+              {{- else }}
+              <li class="vocab-colloc-item">
+                <span class="colloc-en">{{ . }}</span>
+              </li>
+              {{- end }}
+            {{- end }}
+          </ul>
+        </div>
+      </div>
+      {{- end }}
+
+      <!-- Từ dễ nhầm lẫn (về phát âm / chính tả / mặt chữ) -->
+      {{- with $item.confused_words }}
+      <div class="vocab-field vocab-confused-words">
+        <span class="vocab-field-label">⚠️ Từ dễ nhầm (phát âm / mặt chữ):</span>
+        <div class="vocab-field-content">
+          <div class="vocab-warning-box">
+            {{- range . }}
+              {{- if reflect.IsMap . }}
+              <div class="vocab-confused-item">
+                <div class="confused-top">
+                  <span class="confused-word">{{ .word }}</span>
+                  {{- with .ipa }}<span class="confused-ipa">{{ . }}</span>{{- end }}
+                  <span class="confused-meaning">: {{ .meaning }}</span>
+                </div>
+                {{- with .difference }}
+                <div class="confused-diff">💡 <em>{{ . }}</em></div>
+                {{- end }}
+              </div>
+              {{- else }}
+              <div class="vocab-confused-item">
+                <span>{{ . }}</span>
+              </div>
+              {{- end }}
+            {{- end }}
+          </div>
+        </div>
+      </div>
+      {{- end }}
+
+      <!-- Từ dễ nhầm nghĩa (sắc thái nghĩa) -->
+      {{- with $item.confusing_meanings }}
+      <div class="vocab-field vocab-confusing-meanings">
+        <span class="vocab-field-label">🔍 Phân biệt sắc thái nghĩa:</span>
+        <div class="vocab-field-content">
+          <div class="vocab-nuance-box">
+            {{- range . }}
+              {{- if reflect.IsMap . }}
+              <div class="vocab-nuance-item">
+                <div class="nuance-top">
+                  <span class="nuance-word">{{ .word }}</span>
+                  <span class="nuance-meaning">: {{ .meaning }}</span>
+                </div>
+                {{- with .difference }}
+                <div class="nuance-diff">👉 <em>{{ . }}</em></div>
+                {{- end }}
+              </div>
+              {{- else }}
+              <div class="vocab-nuance-item">
+                <span>{{ . }}</span>
+              </div>
+              {{- end }}
+            {{- end }}
+          </div>
+        </div>
+      </div>
+      {{- end }}
+
+      <!-- Từ đồng nghĩa (Synonyms) kèm nghĩa nếu có -->
+      {{- with $item.synonyms }}
+      <div class="vocab-field vocab-synonyms">
+        <span class="vocab-field-label">🔄 Từ đồng nghĩa:</span>
+        <div class="vocab-field-content">
+          <div class="vocab-chip-group">
+            {{- range . }}
+              {{- if reflect.IsMap . }}
+              <span class="vocab-chip chip-synonym" title="{{ .meaning }}">
+                <strong>{{ .word }}</strong>
+                {{- with .meaning }}<span class="chip-sub">({{ . }})</span>{{- end }}
+              </span>
+              {{- else }}
+              <span class="vocab-chip chip-synonym">{{ . }}</span>
+              {{- end }}
+            {{- end }}
+          </div>
+        </div>
+      </div>
+      {{- end }}
+
+      <!-- Câu ví dụ song ngữ En - Vi -->
+      {{- with $item.example }}
+      <div class="vocab-field vocab-example">
+        <span class="vocab-field-label">💬 Ví dụ phản xạ:</span>
+        <div class="vocab-field-content">
+          <div class="vocab-example-card">
+            {{- if reflect.IsMap . }}
+            <p class="vocab-ex-en">“{{ .en }}”</p>
+            {{- with .vi }}
+            <p class="vocab-ex-vi">➔ <em>{{ . }}</em></p>
+            {{- end }}
+            {{- else }}
+            <p class="vocab-ex-en">“{{ . }}”</p>
+            {{- end }}
+          </div>
+        </div>
+      </div>
+      {{- end }}
+
+      {{- with $item.examples }}
+      <div class="vocab-field vocab-example">
+        <span class="vocab-field-label">💬 Các ví dụ phản xạ:</span>
+        <div class="vocab-field-content">
+          {{- range . }}
+          <div class="vocab-example-card">
+            {{- if reflect.IsMap . }}
+            <p class="vocab-ex-en">“{{ .en }}”</p>
+            {{- with .vi }}
+            <p class="vocab-ex-vi">➔ <em>{{ . }}</em></p>
+            {{- end }}
+            {{- else }}
+            <p class="vocab-ex-en">“{{ . }}”</p>
+            {{- end }}
+          </div>
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+
+    </article>
+    {{- end }}
+  </div>
+</div>
+{{- else }}
+<div class="vocab-empty">
+  <p><em>(Chưa có danh sách từ vựng trong front matter của bài này.)</em></p>
+</div>
+{{- end }}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="micGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGrad)" />
+
+  <!-- Inner Soft Glow Ring -->
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#ffffff" stroke-width="2" stroke-opacity="0.3" />
+
+  <!-- Microphone Icon -->
+  <g filter="url(#shadow)">
+    <!-- Mic Body -->
+    <rect x="86" y="45" width="28" height="52" rx="14" fill="url(#micGrad)" />
+    
+    <!-- Sound Waves / Cradle -->
+    <path d="M72 75 C72 105, 128 105, 128 75" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Stand -->
+    <line x1="100" y1="102" x2="100" y2="124" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+    <line x1="82" y1="124" x2="118" y2="124" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Speaking Audio Waves -->
+    <path d="M58 80 C54 87, 54 93, 58 100" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-opacity="0.7" />
+    <path d="M142 80 C146 87, 146 93, 142 100" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-opacity="0.7" />
+    <path d="M50 72 C44 83, 44 97, 50 108" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-opacity="0.4" />
+    <path d="M150 72 C156 83, 156 97, 150 108" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-opacity="0.4" />
+  </g>
+
+  <!-- Typography Banner -->
+  <text x="100" y="160" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" letter-spacing="2">GLORY 01</text>
+  <text x="100" y="176" text-anchor="middle" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" letter-spacing="1">TOEIC SPEAKING</text>
+</svg>
