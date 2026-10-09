@@ -1,7 +1,7 @@
 # Glory 01 – Website Đồng Hành Kênh TikTok TOEIC Speaking 🎙️
 
-Website chính thức: **[https://glory.one.learns.dev](https://glory.one.learns.dev)**  
-Kênh TikTok: **[@glory01](https://www.tiktok.com/@glory01)**
+Website chính thức: **[https://glory-tiktok.pages.dev](https://glory-tiktok.pages.dev)**  
+Kênh TikTok: **[@wbk.lqv](https://www.tiktok.com/@wbk.lqv)**
 
 Nền tảng lưu trữ, tra cứu và luyện phản xạ từ vựng TOEIC Speaking theo từng video TikTok, xây dựng trên **Hugo (bản extended)** cùng giao diện **PaperMod**.
 
@@ -71,7 +71,7 @@ topics: ["shopping"]
 parts: ["respond-to-questions"]
 tags: ["shopping", "speaking-part-3"]
 tiktok: "https://www.tiktok.com/@glory01/video/1234567890"
-aliases: ["/014"] # Người xem gõ nhanh: glory.one.learns.dev/014
+aliases: ["/014"] # Người xem gõ nhanh: glory-tiktok.pages.dev/014
 words:
   - word: "refund"
     pos: "Danh từ (n.) / Động từ (v.)"
@@ -114,7 +114,7 @@ words:
 
 ---
 
-## ☁️ Hướng dẫn Triển khai lên Cloudflare Pages (Custom Domain `glory.one.learns.dev`)
+## ☁️ Hướng dẫn Triển khai lên Cloudflare Pages (`glory-tiktok.pages.dev`)
 
 1. **Đẩy mã nguồn lên GitHub:**
    ```bash
@@ -124,22 +124,21 @@ words:
    ```
 
 2. **Kết nối Cloudflare Pages:**
-   - Đăng nhập vào [Cloudflare Dashboard](https://dash.cloudflare.com/) > **Workers & Pages** > **Create application** > **Pages** > **Connect to Git**.
+   - Đăng nhập vào [Cloudflare Dashboard](https://dash.cloudflare.com/) > **Workers & Pages** > **Create application** > tab **Pages** > **Connect to Git**.
    - Chọn kho lưu trữ `vinh-gogo/GLORY-TIKTOK`.
 
 3. **Cài đặt thông số Build (Build settings):**
-   - **Framework preset:** `None` (hoặc chọn `Hugo` nếu có)
+   - **Project name:** `glory-tiktok`
+   - **Framework preset:** `Hugo`
    - **Build command:** `hugo --gc --minify`
    - **Build output directory:** `public`
 
 4. **Biến môi trường (Environment variables):**
    Thêm biến môi trường:
-   - `HUGO_VERSION`: `0.167.0`
+   - `HUGO_VERSION`: `0.146.0` (hoặc `0.167.0`)
 
-5. **Gắn tên miền tùy chỉnh (Custom Domain):**
-   - Trong trang quản lý dự án trên Cloudflare Pages > chọn tab **Custom domains**.
-   - Bấm **Set up a custom domain** và nhập: `glory.one.learns.dev`.
-   - Cloudflare sẽ tự động tạo bản ghi CNAME và cấp chứng chỉ SSL HTTPS miễn phí.
+5. **Trang web trực tiếp:**
+   - Sau khi hoàn thành build, trang web hoạt động tại: **`https://glory-tiktok.pages.dev`**
 
 ---
 
@@ -163,6 +162,6 @@ GLORY-TIKTOK/
 ├── static/
 │   └── images/avatar.svg           # Ảnh đại diện kênh Glory 01
 ├── themes/PaperMod/                # Git submodule theme PaperMod
-├── hugo.yaml                       # File cấu hình trung tâm (baseURL: glory.one.learns.dev)
+├── hugo.yaml                       # File cấu hình trung tâm (baseURL: glory-tiktok.pages.dev)
 └── README.md                       # Tài liệu hướng dẫn sử dụng
 ```
