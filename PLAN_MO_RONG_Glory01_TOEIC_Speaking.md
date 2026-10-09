@@ -264,7 +264,7 @@ review: { status: ai_cross_checked, checked_at: 2026-10-10 }
 | :--- | :--- | :--- | :--- |
 | Sinh trang từ từ dữ liệu | **Hugo Content Adapters** (`_content.gotmpl`) | Sinh hàng nghìn trang từ YAML mà không cần file `.md` riêng | Cần Hugo ≥ 0.126 (dự án đang dùng 0.167 → ổn); AI cần xác minh cú pháp theo tài liệu Hugo hiện hành |
 | Tìm kiếm | Chuyển từ Fuse.js sang **Pagefind** (index tĩnh, tải theo mảnh) | Không phình `index.json` khi >300 trang | Phải kiểm thử tìm không dấu tiếng Việt ("tinh nang" ra "tính năng"); nếu kém, giữ Fuse cho `title/summary/word` và Pagefind cho nội dung |
-| Audio | **Cloudflare R2** + CDN (`audio.glory.one.learns.dev`) | Tránh giới hạn số file mỗi lần deploy của Pages; có thể thay engine sau | Xác minh giới hạn Pages hiện hành ở Phase 0; kiểm tra giấy phép sử dụng đầu ra của engine TTS |
+| Audio | **Cloudflare R2** + CDN (`audio.glory-tiktok.pages.dev`) | Tránh giới hạn số file mỗi lần deploy của Pages; có thể thay engine sau | Xác minh giới hạn Pages hiện hành ở Phase 0; kiểm tra giấy phép sử dụng đầu ra của engine TTS |
 | JS phía client | **ES modules thuần** (không framework) hoặc Alpine.js nếu cần | Nhẹ, hợp static site, dễ cho AI viết/kiểm | Tránh dựng SPA |
 | Lưu tiến độ | **localStorage / IndexedDB** + xuất/nhập JSON | Không cần tài khoản, riêng tư | Mất dữ liệu khi xóa trình duyệt → cung cấp nút sao lưu |
 | Backend tùy chọn | **Workers + D1/KV** | Chỉ khi cần AI feedback/đồng bộ | Cần rate-limit, chi phí API |
@@ -640,7 +640,7 @@ flowchart TD
 
 1. **Vòng lặp:** Video → CTA "tra từ đầy đủ tại link bio / gõ `/NNN`" → trang set → công cụ ôn → quay lại xem video tiếp.
 2. **UTM thống nhất:** `?utm_source=tiktok&utm_medium=bio&utm_campaign=set-NNN` để đo CTR từng video.
-3. **Mỗi video có mã set hiển thị trên màn hình** (vd "Tra từ: glory.one.learns.dev/013").
+3. **Mỗi video có mã set hiển thị trên màn hình** (vd "Tra từ: glory-tiktok.pages.dev/013").
 4. **SEO tiếng Việt:** tiêu đề/mô tả có từ khóa ("từ vựng TOEIC Speaking chủ đề …", "cách phát âm …"), mỗi từ có trang riêng (long-tail), sitemap theo nhóm, JSON-LD, liên kết nội bộ (từ ↔ set ↔ chủ đề ↔ dạng bài).
 5. **Nội dung tái sử dụng:** từ dữ liệu sinh gợi ý script video mới (từ có nhiều lượt tra, cặp dễ nhầm hay sai).
 6. **Newsletter/Kênh cộng đồng:** thu thập qua form nhẹ (tùy chọn, có đồng ý rõ ràng).
