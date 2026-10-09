@@ -12,7 +12,7 @@ Khi website phát triển lên ~340 bài học với ~2.500 từ vựng và hàn
 
 ## 2. Quyết định
 1. **Không commit file audio nhị phân vào Git repo.**
-2. Toàn bộ file âm thanh được host độc lập trên **Cloudflare R2 Object Storage** với custom domain riêng: `audio.glory.one.learns.dev`.
+2. Toàn bộ file âm thanh được host độc lập trên **Cloudflare R2 Object Storage** với custom domain riêng: `audio.glory-tiktok.pages.dev`.
 3. Trong kho dữ liệu `data/lexicon/` và `data/exam/`, các đường dẫn audio chỉ lưu dạng đường dẫn tương đối (vd: `audio: { us: "words/deadline-us.mp3" }`).
 4. Shortcode `audio` và các audio player trên client sẽ tự động nối `baseURL` của R2 để phát trực tiếp với cơ chế lazy-loading.
 5. Quản lý toàn bộ danh mục audio bằng một file manifest: `audio-manifest.json` ghi nhận hash, engine TTS và thời lượng.

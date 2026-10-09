@@ -1,6 +1,6 @@
 # Kế hoạch & Trạng thái Dự án Web Kênh TikTok TOEIC Speaking (Glory 01)
 
-Cập nhật lần cuối: **10/10/2026** · Kênh TikTok: **[Glory 01 (@glory01)](https://www.tiktok.com/@glory01)** · Website: **[https://glory.one.learns.dev](https://glory.one.learns.dev)**
+Cập nhật lần cuối: **10/10/2026** · Kênh TikTok: **[Glory 01 (@wbk.lqv)](https://www.tiktok.com/@wbk.lqv)** · Website: **[https://glory-tiktok.pages.dev](https://glory-tiktok.pages.dev)**
 
 ---
 
@@ -10,7 +10,7 @@ Web là kho lưu trữ có thể tìm lại và ôn luyện được; TikTok là
 
 - **Vấn đề của TikTok:** Video trôi theo feed thuật toán, người xem khó tìm lại bài cũ, không có bảng từ đầy đủ phiên âm, sắc thái nghĩa, collocations để lưu, in hay ôn tập phản xạ.
 - **Web giải quyết:**
-  - **Một link duy nhất trong bio** (`glory.one.learns.dev`) dẫn tới toàn bộ các set bài học.
+  - **Một link duy nhất trong bio** (`glory-tiktok.pages.dev`) dẫn tới toàn bộ các set bài học.
   - **Mỗi video có một trang riêng:** Đầy đủ từ chính, loại từ (POS), phiên âm IPA, level TOEIC, từ dễ nhầm chữ/âm, từ dễ nhầm nghĩa, collocations song ngữ và ví dụ phản xạ song ngữ.
   - **Tra cứu nhanh:** Gom theo chủ đề (`/topics/`), theo 5 dạng bài thi chuẩn ETS (`/parts/`), hoặc tìm kiếm tức thì (`/search/`).
   - **Luyện nói tại chỗ:** Dàn ý trả lời mẫu (Sample Response) cho các phần thi Speaking Part 2, Part 3, Part 5.
@@ -131,7 +131,7 @@ words:
 | **Bộ sinh tĩnh** | Hugo bản extended (`v0.167.0`) |  Hoạt động tốt, build toàn trang trong ~130ms |
 | **Giao diện chính** | PaperMod (Theme) |  Đã tích hợp qua Git Submodule (`themes/PaperMod`) |
 | **Quản lý mã nguồn** | GitHub (`vinh-gogo/GLORY-TIKTOK`) |  Nhánh `main`, commit sạch, có `.gitignore` |
-| **Lưu trữ & Tên miền** | Cloudflare Pages (`glory.one.learns.dev`) |  Cấu hình build `hugo --gc --minify`, output `public` |
+| **Lưu trữ & Tên miền** | Cloudflare Pages (`glory-tiktok.pages.dev`) |  Cấu hình build `hugo --gc --minify`, output `public` |
 | **Tìm kiếm nội bộ** | PaperMod Fuse.js Client Search |  Tự động sinh `public/index.json` lập chỉ mục mọi từ & nghĩa |
 | **Giao diện thẻ từ vựng** | Shortcode `words.html` + `custom.css` |  Mobile-first, hỗ trợ Light/Dark mode tự động |
 | **Nhúng video TikTok** | Shortcode `tiktok.html` |  Hỗ trợ embed trực tiếp kèm nút CTA mở app TikTok |
@@ -139,7 +139,7 @@ words:
 ### 4.1. File cấu hình thực tế `hugo.yaml`
 
 ```yaml
-baseURL: "https://glory.one.learns.dev/"
+baseURL: "https://glory-tiktok.pages.dev/"
 locale: vi
 defaultContentLanguage: vi
 title: "Glory 01 – TOEIC Speaking"

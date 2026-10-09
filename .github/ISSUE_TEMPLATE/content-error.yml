@@ -11,7 +11,7 @@ body:
     id: page_url
     attributes:
       label: Đường dẫn trang bị lỗi (URL)
-      placeholder: "Ví dụ: https://glory.one.learns.dev/sets/set-013/ hoặc /words/deadline/"
+      placeholder: "Ví dụ: https://glory-tiktok.pages.dev/sets/set-013/ hoặc /words/deadline/"
     validations:
       required: true
   - type: input
