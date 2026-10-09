@@ -1,134 +1,51 @@
 {{- define "main" }}
 {{- $laws := site.Data.quotes.laws }}
-<div class="quotes-page-container">
+<div class="quotes-table-container">
 
-  <!-- Header Hero -->
-  <header class="quotes-hero">
-    <div class="quotes-badge-pill">
-      <span class="quotes-badge-dot"></span>
-      <span>Triết Lý Thực Chiến • TOEIC Speaking</span>
-    </div>
-    <h1 class="quotes-main-title">Câu Nói Hay &amp; Định Luật Công Sở</h1>
-    <p class="quotes-hero-desc">
-      Đúc kết từ những người đi trước xoay quanh các chủ đề cốt lõi của bài thi TOEIC Speaking. Mỗi định luật là một bài học đắt giá về tư duy giải quyết vấn đề và vận dụng tự nhiên các collocations ăn điểm.
-    </p>
-  </header>
+  <h1 class="quotes-simple-title">Câu Nói Hay &amp; Định Luật Công Sở</h1>
 
-  <!-- Filter Tabs -->
-  <div class="quotes-filter-bar" aria-label="Lọc theo chủ đề định luật">
-    <button type="button" class="quotes-tab-btn active" data-category="all">Tất cả ({{ len $laws }})</button>
-    <button type="button" class="quotes-tab-btn" data-category="workplace">Hạn chót &amp; Tiến độ</button>
-    <button type="button" class="quotes-tab-btn" data-category="meetings">Họp hành &amp; Đồng thuận</button>
-    <button type="button" class="quotes-tab-btn" data-category="problem-solving">Giải quyết sự cố</button>
-    <button type="button" class="quotes-tab-btn" data-category="customer-service">Dịch vụ khách hàng</button>
-    <button type="button" class="quotes-tab-btn" data-category="leadership">Lãnh đạo &amp; Năng suất</button>
-    <button type="button" class="quotes-tab-btn" data-category="mindset">Thái độ &amp; Bản lĩnh</button>
-  </div>
+  <div class="quotes-table-wrapper">
+    <table class="quotes-table">
+      <thead>
+        <tr>
+          <th class="th-en">Định luật &amp; Câu nói (English)</th>
+          <th class="th-vi">Ý nghĩa &amp; Ứng dụng (Tiếng Việt)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- range $laws }}
+        <tr class="quotes-row" id="{{ .id }}">
+          <!-- Cột 1: Tiếng Anh, Định luật & Tags gắn trực tiếp trong cell -->
+          <td class="col-en">
+            <div class="q-top-row">
+              <span class="q-num">{{ .number }}</span>
+              <strong class="q-name-en">{{ .name_en }}</strong>
+            </div>
+            
+            <p class="q-text-en">“{{ .quote_en }}”</p>
 
-  <!-- Quotes Cards Grid -->
-  <div class="quotes-cards-grid">
-    {{- range $laws }}
-    <article class="quote-card" data-category="{{ .category }}" id="{{ .id }}">
-      <div class="quote-card-header">
-        <div class="quote-card-top-meta">
-          <span class="quote-law-num">{{ .number }}</span>
-          <span class="quote-part-tag">{{ .part }}</span>
-        </div>
-        <h2 class="quote-law-name">{{ .name_vi }} <small class="quote-name-en">({{ .name_en }})</small></h2>
-      </div>
+            <div class="q-tags-cell">
+              <span class="q-tag q-tag-cat" title="Chủ đề">{{ .category_name }}</span>
+              <span class="q-tag q-tag-part" title="Dạng bài TOEIC">{{ .part }}</span>
+              {{- range .collocations }}
+              <a href="{{ .link }}" class="q-tag q-tag-colloc" title="Tra cứu cụm từ: {{ .term }} ({{ .meaning }})">⚡ {{ .term }}</a>
+              {{- end }}
+            </div>
+          </td>
 
-      <!-- English Quote Box -->
-      <blockquote class="quote-en-box">
-        <p class="quote-en-text">“{{ .quote_en }}”</p>
-      </blockquote>
-
-      <!-- Vietnamese Meaning -->
-      <div class="quote-vi-box">
-        <span class="quote-vi-label">Ý nghĩa:</span>
-        <p class="quote-vi-text">{{ .quote_vi }}</p>
-      </div>
-
-      <!-- Insight / Application Box -->
-      <div class="quote-insight-box">
-        <div class="insight-header">
-          <span class="insight-icon">💡</span>
-          <strong>Ứng dụng phòng thi &amp; Môi trường thực tế:</strong>
-        </div>
-        <p class="insight-text">{{ .insight }}</p>
-      </div>
-
-      <!-- Collocations Highlighted -->
-      <div class="quote-colloc-wrap">
-        <span class="colloc-header-label">Cụm từ ghi điểm (Collocations):</span>
-        <div class="colloc-chips-list">
-          {{- range .collocations }}
-          <a href="{{ .link }}" class="colloc-pill" title="Tra cứu cụm từ: {{ .term }}">
-            <span class="cp-term">⚡ {{ .term }}</span>
-            <span class="cp-sep">:</span>
-            <span class="cp-mean">{{ .meaning }}</span>
-          </a>
-          {{- end }}
-        </div>
-      </div>
-
-      <!-- Card Action Footer -->
-      <div class="quote-card-footer">
-        <span class="quote-cat-badge">{{ .category_name }}</span>
-        <button type="button" class="btn-copy-quote" data-quote="“{{ .quote_en }}” — {{ .quote_vi }}" title="Sao chép câu nói">
-          <span class="copy-icon">📋</span>
-          <span class="copy-text">Sao chép câu nói</span>
-        </button>
-      </div>
-    </article>
-    {{- end }}
+          <!-- Cột 2: Tiếng Việt, Bản dịch & Ứng dụng thực tế -->
+          <td class="col-vi">
+            <h2 class="q-name-vi">{{ .name_vi }}</h2>
+            <p class="q-text-vi">{{ .quote_vi }}</p>
+            <div class="q-insight">
+              <strong>💡 Ứng dụng:</strong> {{ .insight }}
+            </div>
+          </td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
   </div>
 
 </div>
-
-<!-- Client-side script for filtering and copy to clipboard -->
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const tabs = document.querySelectorAll(".quotes-tab-btn");
-  const cards = document.querySelectorAll(".quote-card");
-
-  tabs.forEach(function(tab) {
-    tab.addEventListener("click", function() {
-      tabs.forEach(t => t.classList.remove("active"));
-      this.classList.add("active");
-
-      const cat = this.getAttribute("data-category");
-      cards.forEach(function(card) {
-        if (cat === "all" || card.getAttribute("data-category") === cat) {
-          card.style.display = "flex";
-        } else {
-          card.style.display = "none";
-        }
-      });
-    });
-  });
-
-  // Copy to clipboard functionality
-  document.querySelectorAll(".btn-copy-quote").forEach(function(btn) {
-    btn.addEventListener("click", function() {
-      const textToCopy = this.getAttribute("data-quote");
-      if (!textToCopy) return;
-
-      const copyTextSpan = this.querySelector(".copy-text");
-      navigator.clipboard.writeText(textToCopy).then(() => {
-        if (copyTextSpan) {
-          const original = copyTextSpan.textContent;
-          copyTextSpan.textContent = "Đã sao chép! ✓";
-          btn.classList.add("copied");
-          setTimeout(() => {
-            copyTextSpan.textContent = original;
-            btn.classList.remove("copied");
-          }, 2000);
-        }
-      }).catch(err => {
-        console.error("Lỗi sao chép:", err);
-      });
-    });
-  });
-});
-</script>
 {{- end }}
