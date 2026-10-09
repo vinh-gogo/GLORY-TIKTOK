@@ -79,6 +79,42 @@
   table.glossary-table tbody tr {
     display: table-row !important;
   }
+
+  /* Cột Từ vựng & IPA: Từ vựng chữ màu trắng trong Dark theme / var(--primary), IPA giữ nguyên màu */
+  .glossary-word-link {
+    font-size: 1.05rem !important;
+    color: var(--primary) !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+  }
+
+  .dark .glossary-word-link,
+  [data-theme="dark"] .glossary-word-link {
+    color: #ffffff !important;
+  }
+
+  .glossary-row:hover .glossary-word-link {
+    text-decoration: underline !important;
+  }
+
+  .dark .glossary-row:hover .glossary-word-link,
+  [data-theme="dark"] .glossary-row:hover .glossary-word-link {
+    color: #ffffff !important;
+    text-decoration: underline !important;
+  }
+
+  .glossary-ipa {
+    display: block !important;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+    font-size: 0.82rem !important;
+    color: #0284c7 !important;
+    margin-top: 2px !important;
+  }
+
+  .dark .glossary-ipa,
+  [data-theme="dark"] .glossary-ipa {
+    color: #38bdf8 !important;
+  }
 </style>
 
 <header class="page-header glossary-header">

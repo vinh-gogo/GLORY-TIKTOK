@@ -1071,16 +1071,19 @@
 }
 
 .glossary-row:hover .glossary-word-link {
-    color: #1d4ed8;
+    color: var(--primary);
+    text-decoration: underline;
 }
 
-.dark .glossary-row:hover .glossary-word-link {
-    color: #93c5fd;
+.dark .glossary-row:hover .glossary-word-link,
+[data-theme="dark"] .glossary-row:hover .glossary-word-link {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 .glossary-word-link {
     font-size: 1.05rem;
-    color: #2563eb;
+    color: var(--primary);
     text-decoration: none;
     font-weight: 700;
 }
@@ -1089,8 +1092,9 @@
     text-decoration: underline;
 }
 
-.dark .glossary-word-link {
-    color: #60a5fa;
+.dark .glossary-word-link,
+[data-theme="dark"] .glossary-word-link {
+    color: #ffffff;
 }
 
 .glossary-ipa {
