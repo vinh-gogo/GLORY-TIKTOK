@@ -1,0 +1,55 @@
+schema_version: 2
+id: landlord
+lemma: landlord
+pos:
+- noun
+ipa:
+  us: /ˈlændlɔːrd/
+  uk: /ˈlændlɔːd/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- real-estate-construction
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: landlord-1
+  meaning_vi: Chủ nhà, người sở hữu đất đai hoặc bất động sản cho người khác thuê
+  note_vi: Người nhận tiền thuê nhà và chịu trách nhiệm bảo trì kết cấu bất động sản.
+confused_words:
+- word: landlady
+  ipa: /ˈlændleɪdi/
+  difference_vi: Landlord là chủ nhà nam hoặc nói chung; landlady là nữ chủ nhà cho thuê.
+confusing_meanings:
+- difference_vi: Contact the landlord = liên hệ chủ nhà; landlord's permission = sự cho phép của chủ sở hữu nhà.
+collocations:
+- phrase: contact the landlord
+  meaning_vi: liên hệ với chủ nhà
+  evidence: corpus
+- phrase: landlord and tenant
+  meaning_vi: bên cho thuê và bên thuê
+  evidence: corpus
+- phrase: landlord's consent
+  meaning_vi: sự ưng thuận của chủ sở hữu nhà
+  evidence: corpus
+synonyms:
+- word: property owner
+  meaning_vi: chủ sở hữu bất động sản
+- word: lessor
+  meaning_vi: bên cho thuê theo hợp đồng
+examples:
+- en: Tenants must obtain written consent from the landlord before making alterations to the apartment.
+  vi: Người thuê nhà phải có được sự đồng ý bằng văn bản từ chủ nhà trước khi sửa chữa thay đổi căn hộ.
+pronunciation_tips_vi: Từ ghép gồm 'land' /ˈlænd/ và 'lord' /lɔːrd/, trọng âm rơi vào âm tiết đầu.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,71 @@
+schema_version: 2
+id: crucial
+lemma: crucial
+pos:
+- adjective
+ipa:
+  us: /ˈkruːʃl/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- management
+- business
+speaking_use:
+- express-opinion
+- respond-to-questions
+senses:
+- id: crucial-1
+  meaning_vi: Cốt yếu, mang tính quyết định, tối quan trọng
+  note_vi: Từ vựng ghi điểm rất cao trong phần Part 5 (Express an Opinion) khi giải
+    thích lý do quan trọng.
+collocations:
+- phrase: play a crucial role
+  meaning_vi: đóng vai trò cốt yếu
+  evidence: corpus
+- phrase: crucial factor
+  meaning_vi: yếu tố mang tính quyết định
+  evidence: corpus
+- phrase: crucial decision
+  meaning_vi: quyết định mang tính then chốt
+  evidence: corpus
+- phrase: of crucial importance
+  meaning_vi: có tầm quan trọng tối cao
+  evidence: corpus
+confused_words:
+- word: crude
+  ipa: /kruːd/
+  meaning: thô sơ, chưa tinh chế (dầu thô)
+  kind: spelling-sound
+  difference_vi: Crucial phát âm /ˈkruːʃl/ nghĩa là cốt yếu; crude phát âm /kruːd/
+    nghĩa là thô mộc, chưa qua chế biến.
+confusing_meanings:
+- word: important
+  meaning: quan trọng thông thường
+  difference_vi: Important là quan trọng nói chung; crucial là mang tính sống còn,
+    quyết định trực tiếp tới thành bại của vấn đề.
+synonyms:
+- word: vital
+  meaning_vi: sống còn
+- word: essential
+  meaning_vi: thiết yếu
+- word: critical
+  meaning_vi: mang tính quyết định
+examples:
+- en: Effective teamwork plays a crucial role in delivering complex software projects
+    on schedule.
+  vi: Làm việc nhóm hiệu quả đóng vai trò cốt yếu trong việc bàn giao các dự án phần
+    mềm phức tạp đúng tiến độ.
+pronunciation_tips_vi: 'Trọng âm rơi vào âm tiết đầu /ˈkruː-/. Âm giữa là âm /ʃ/ (''sh''),
+  đuôi /-l/ phát âm gọn: /ˈkruːʃl/, không đọc thành ''kru-si-an''.'
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

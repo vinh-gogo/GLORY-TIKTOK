@@ -1,0 +1,58 @@
+schema_version: 2
+id: party
+lemma: party
+pos:
+- noun
+ipa:
+  us: /ˈpɑːrti/
+  uk: /ˈpɑːti/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- contracts-negotiation
+- legal-compliance
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: party-1
+  meaning_vi: Bên tham gia vào hợp đồng, thỏa thuận hoặc tranh chấp pháp lý
+  note_vi: Trong ngữ cảnh thương mại và pháp lý, party luôn có nghĩa là đối tác/bên ký kết, không phải bữa tiệc.
+confused_words:
+- word: partner
+  ipa: /ˈpɑːrtnər/
+  difference_vi: Partner là đối tác đồng hành dài hạn; party là bên ký kết cụ thể trong một văn bản pháp lý.
+confusing_meanings:
+- difference_vi: Party thông thường là bữa tiệc hoặc đảng phái chính trị; trong TOEIC Speaking thương mại luôn chỉ bên tham
+    gia hợp đồng.
+collocations:
+- phrase: third party
+  meaning_vi: bên thứ ba
+  evidence: corpus
+- phrase: contracting parties
+  meaning_vi: các bên ký kết hợp đồng
+  evidence: corpus
+- phrase: interested party
+  meaning_vi: bên có quyền lợi liên quan
+  evidence: corpus
+synonyms:
+- word: signatory
+  meaning_vi: bên ký tên
+- word: participant
+  meaning_vi: người / bên tham gia
+examples:
+- en: Confidential details cannot be disclosed to any third party without written consent.
+  vi: Các chi tiết mật không được tiết lộ cho bất kỳ bên thứ ba nào nếu không có văn bản đồng ý.
+pronunciation_tips_vi: Trong tiếng Anh-Mỹ (US), âm /t/ giữa hai nguyên âm thường hóa thành âm flap [ɾ], nghe nhẹ như âm 'd'
+  mềm.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

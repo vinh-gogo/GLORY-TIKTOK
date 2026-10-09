@@ -1,0 +1,57 @@
+schema_version: 2
+id: shuttle
+lemma: shuttle
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈʃʌtl/
+  uk: /ˈʃʌtl/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- hospitality-travel
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: shuttle-1
+  meaning_vi: Tuyến xe buýt / tàu đưa đón cự ly ngắn chạy định kỳ giữa hai điểm; (v) đưa đón qua lại
+  note_vi: Phổ biến nhất là shuttle bus giữa sân bay và khách sạn.
+confused_words:
+- word: subtle
+  ipa: /ˈsʌtl/
+  difference_vi: Subtle là tinh tế, khéo léo (bắt đầu bằng âm /s/); shuttle là xe buýt trung chuyển (bắt đầu bằng /ʃ/ chu
+    môi).
+confusing_meanings:
+- difference_vi: Airport shuttle = xe đưa đón sân bay; space shuttle = tàu con thoi vũ trụ.
+collocations:
+- phrase: airport shuttle bus
+  meaning_vi: xe buýt đưa đón sân bay
+  evidence: corpus
+- phrase: shuttle service operates
+  meaning_vi: dịch vụ xe đưa đón vận hành
+  evidence: corpus
+- phrase: free shuttle
+  meaning_vi: xe trung chuyển đưa đón miễn phí
+  evidence: corpus
+synonyms:
+- word: transit bus
+  meaning_vi: xe buýt chuyển tiếp
+- word: transfer
+  meaning_vi: chuyến xe đưa đón
+examples:
+- en: A complimentary hotel shuttle runs every twenty minutes between Terminal 2 and the resort.
+  vi: Xe đưa đón miễn phí của khách sạn chạy 20 phút một chuyến giữa Nhà ga số 2 và khu nghỉ dưỡng.
+pronunciation_tips_vi: Âm đầu /ʃ/ chu môi dày, nguyên âm /ʌ/ mở tự nhiên, kết thúc bằng /tl/ nhanh.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

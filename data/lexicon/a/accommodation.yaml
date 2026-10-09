@@ -1,0 +1,58 @@
+schema_version: 2
+id: accommodation
+lemma: accommodation
+pos:
+- noun
+ipa:
+  us: /əˌkɑːməˈdeɪʃn/
+  uk: /əˌkɒməˈdeɪʃn/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- hospitality-travel
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: accommodation-1
+  meaning_vi: Chỗ ở, phòng nghỉ lưu trú (khách sạn, nhà nghỉ, căn hộ du lịch)
+  note_vi: Trong tiếng Anh-Anh thường dùng không đếm được (accommodation), tiếng Anh-Mỹ có thể dùng số nhiều (accommodations).
+confused_words:
+- word: accommodate
+  ipa: /əˈkɑːmədeɪt/
+  difference_vi: Accommodate là động từ chứa được, đáp ứng; accommodation là danh từ chỗ ở lưu trú.
+confusing_meanings:
+- difference_vi: Hotel accommodation = chỗ nghỉ khách sạn; reasonable accommodation trong luật lao động = việc điều chỉnh
+    điều kiện làm việc hợp lý cho người khuyết tật.
+collocations:
+- phrase: hotel accommodation
+  meaning_vi: chỗ nghỉ ngơi tại khách sạn
+  evidence: corpus
+- phrase: book accommodation
+  meaning_vi: đặt chỗ ở lưu trú trước
+  evidence: corpus
+- phrase: temporary accommodation
+  meaning_vi: chỗ ở tạm thời
+  evidence: corpus
+synonyms:
+- word: lodging
+  meaning_vi: nơi ăn chốn ở
+- word: housing
+  meaning_vi: nhà ở
+- word: living quarters
+  meaning_vi: khu cư xá
+examples:
+- en: The conference package includes luxury hotel accommodation and daily breakfast buffet.
+  vi: Gói hội nghị bao gồm chỗ ở khách sạn sang trọng và tiệc buffet bữa sáng hàng ngày.
+pronunciation_tips_vi: Từ có 5 âm tiết, trọng âm chính rơi vào âm thứ tư /ˈdeɪ/, âm /ɑː/ dài ở âm tiết thứ hai.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

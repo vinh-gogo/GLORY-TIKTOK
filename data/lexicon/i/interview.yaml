@@ -1,0 +1,68 @@
+schema_version: 2
+id: interview
+lemma: interview
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈɪntərvjuː/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- hiring
+- work
+- media
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: interview-1
+  meaning_vi: Buổi phỏng vấn xin việc / Phỏng vấn ứng viên
+  note_vi: Xuất hiện với tần suất cực cao trong chủ đề tuyển dụng và nhân sự.
+collocations:
+- phrase: job interview
+  meaning_vi: buổi phỏng vấn xin việc
+  evidence: corpus
+- phrase: conduct an interview
+  meaning_vi: tiến hành buổi phỏng vấn
+  evidence: corpus
+- phrase: interview candidates
+  meaning_vi: phỏng vấn các ứng viên
+  evidence: corpus
+- phrase: schedule an interview
+  meaning_vi: sắp xếp lịch phỏng vấn
+  evidence: corpus
+confused_words:
+- word: overview
+  ipa: /ˈoʊvərvjuː/
+  meaning: cái nhìn tổng quan
+  kind: spelling-sound
+  difference_vi: Interview là buổi phỏng vấn; overview là bảng tóm tắt hoặc cái nhìn
+    tổng quan về một vấn đề.
+confusing_meanings:
+- word: meeting
+  meaning: cuộc họp bàn bạc chung
+  difference_vi: Meeting là cuộc họp nội bộ; interview là cuộc đối thoại trang trọng
+    nhằm đánh giá trình độ một người.
+synonyms:
+- word: consultation
+  meaning_vi: buổi trao đổi ý kiến
+examples:
+- en: Candidates who pass the initial screening will be invited for a face-to-face
+    interview next week.
+  vi: Các ứng viên vượt qua vòng sàng lọc ban đầu sẽ được mời tham dự buổi phỏng vấn
+    trực tiếp vào tuần tới.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈɪn-/. Trong tiếng Anh Mỹ, người
+  bản xứ thường phát âm lướt âm /t/ thành /ˈɪnərvjuː/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

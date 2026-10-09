@@ -1,0 +1,69 @@
+schema_version: 2
+id: recruit
+lemma: recruit
+pos:
+- verb
+- noun
+ipa:
+  us: /rɪˈkruːt/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- hiring
+- work
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: recruit-1
+  meaning_vi: Tuyển dụng nhân sự mới / Tân binh, nhân viên mới tuyển
+  note_vi: Rất hay gặp trong chủ đề thu hút nhân tài và mở rộng đội ngũ nhân viên.
+collocations:
+- phrase: actively recruit
+  meaning_vi: tích cực tìm kiếm và tuyển dụng
+  evidence: corpus
+- phrase: recruit talented staff
+  meaning_vi: tuyển mộ đội ngũ nhân sự tài năng
+  evidence: corpus
+- phrase: new recruits
+  meaning_vi: các nhân viên mới được tuyển dụng
+  evidence: corpus
+- phrase: recruitment agency
+  meaning_vi: công ty môi giới tuyển dụng
+  evidence: corpus
+confused_words:
+- word: rescue
+  ipa: /ˈreskjuː/
+  meaning: giải cứu, cứu hộ
+  kind: spelling-sound
+  difference_vi: Recruit là tuyển mộ nhân sự; rescue mang nghĩa cứu thoát ai đó khỏi
+    tai nạn hoặc hiểm nguy.
+confusing_meanings:
+- word: hire
+  meaning: thuê người làm việc
+  difference_vi: Hire là quyết định thuê một cá nhân cụ thể; recruit là toàn bộ chiến
+    dịch tìm kiếm và chiêu mộ nhân tài.
+synonyms:
+- word: employ
+  meaning_vi: thuê tuyển
+- word: enlist
+  meaning_vi: chiêu mộ
+examples:
+- en: The firm is actively recruiting experienced software engineers to join its artificial
+    intelligence division.
+  vi: Công ty đang tích cực tuyển dụng các kỹ sư phần mềm giàu kinh nghiệm để gia
+    nhập bộ phận trí tuệ nhân tạo.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈkruːt/. Chú ý nguyên âm
+  dài /uː/ kéo dài và bật âm /t/ cuối.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

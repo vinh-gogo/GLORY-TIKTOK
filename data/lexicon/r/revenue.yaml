@@ -1,0 +1,69 @@
+schema_version: 2
+id: revenue
+lemma: revenue
+pos:
+- noun
+ipa:
+  us: /ˈrevənuː/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- budget
+- sales
+- business
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: revenue-1
+  meaning_vi: Doanh thu (tổng số tiền công ty thu về từ bán hàng/dịch vụ)
+  note_vi: Từ trọng điểm trong báo cáo doanh thu tài chính và đánh giá tăng trưởng.
+collocations:
+- phrase: annual revenue
+  meaning_vi: tổng doanh thu hàng năm
+  evidence: corpus
+- phrase: boost revenue
+  meaning_vi: thúc đẩy gia tăng doanh thu
+  evidence: corpus
+- phrase: generate revenue
+  meaning_vi: tạo ra nguồn doanh thu
+  evidence: corpus
+- phrase: revenue growth
+  meaning_vi: sự tăng trưởng doanh thu
+  evidence: corpus
+confused_words:
+- word: avenue
+  ipa: /ˈævənuː/
+  meaning: đại lộ, con đường lớn
+  kind: spelling-sound
+  difference_vi: Revenue là doanh thu tiền bạc; avenue là đại lộ giao thông hoặc con
+    đường tiếp cận.
+confusing_meanings:
+- word: profit
+  meaning: tiền lãi ròng
+  difference_vi: Revenue là tổng thu nhập gộp ban đầu; profit là tiền lãi sau khi
+    trừ đi tất cả chi phí sản xuất và thuế.
+synonyms:
+- word: turnover
+  meaning_vi: doanh số quay vòng
+- word: income
+  meaning_vi: thu nhập
+examples:
+- en: The company's annual revenue surpassed ten million dollars for the first time
+    in its history.
+  vi: Doanh thu hàng năm của công ty đã lần đầu tiên trong lịch sử vượt qua mốc mười
+    triệu đô la.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈrev-/. Giọng Mỹ đọc đuôi là
+  /-nuː/ (âm 'u' dài), không đọc thành 'n-iu'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

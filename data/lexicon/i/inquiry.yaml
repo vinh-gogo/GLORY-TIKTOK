@@ -1,0 +1,62 @@
+schema_version: 2
+id: inquiry
+lemma: inquiry
+pos:
+  - noun
+ipa:
+  us: "/ˈɪnkwəri/"
+level:
+  cefr: B2
+  band: target
+  basis: "editorial"
+topics:
+  - email
+  - customer-service
+  - business
+speaking_use:
+  - respond-to-questions
+  - express-opinion
+senses:
+  - id: inquiry-1
+    meaning_vi: "Yêu cầu cung cấp thông tin, câu hỏi thắc mắc của khách hàng"
+    note_vi: "Thường dùng trong bối cảnh giải đáp email, hỗ trợ khách hàng hoặc tìm hiểu nghiệp vụ dịch vụ."
+collocations:
+  - phrase: "customer inquiry"
+    meaning_vi: "thắc mắc/yêu cầu từ khách hàng"
+    evidence: "corpus"
+  - phrase: "respond to inquiries"
+    meaning_vi: "phản hồi các câu hỏi thắc mắc"
+    evidence: "corpus"
+  - phrase: "make an inquiry"
+    meaning_vi: "đặt câu hỏi, hỏi thăm thông tin"
+    evidence: "corpus"
+  - phrase: "general inquiry"
+    meaning_vi: "thắc mắc chung"
+    evidence: "corpus"
+confused_words:
+  - word: "injury"
+    ipa: "/ˈɪndʒəri/"
+    meaning: "chấn thương, thương tích"
+    kind: "spelling-sound"
+    difference_vi: "Inquiry có cụm phụ âm /kw/ mang nghĩa thắc mắc; injury có âm /dʒ/ mang nghĩa vết thương trên cơ thể."
+confusing_meanings:
+  - word: "question"
+    meaning: "câu hỏi thông thường"
+    difference_vi: "Inquiry mang tính chất trang trọng, chính thức hơn (lời hỏi thăm, tìm hiểu nghiệp vụ); question là từ thông dụng hằng ngày."
+synonyms:
+  - word: "query"
+    meaning_vi: "thắc mắc, câu hỏi tra cứu"
+examples:
+  - en: "Our representative will gladly respond to your product inquiry within twenty-four hours."
+    vi: "Đại diện của chúng tôi sẽ sẵn lòng phản hồi thắc mắc về sản phẩm của bạn trong vòng hai mươi bốn giờ."
+pronunciation_tips_vi: "Giọng Mỹ thường nhấn âm đầu /ˈɪnkwəri/ hoặc /ɪnˈkwaɪri/. Cần phát âm rõ âm /kw/ (như 'qu') trước khi sang âm đuôi."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

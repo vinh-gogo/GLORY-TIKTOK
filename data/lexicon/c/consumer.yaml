@@ -1,0 +1,58 @@
+schema_version: 2
+id: consumer
+lemma: consumer
+pos:
+- noun
+ipa:
+  us: /kənˈsuːmər/
+  uk: /kənˈsjuːmə/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- marketing-advertising
+- sales-customer-service
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: consumer-1
+  meaning_vi: Người tiêu dùng, người sử dụng trực tiếp sản phẩm hoặc dịch vụ cuối cùng
+  note_vi: Khác với customer (người trả tiền mua, có thể mua để bán lại).
+confused_words:
+- word: customer
+  ipa: /ˈkʌstəmər/
+  difference_vi: Customer là khách hàng tại điểm bán; consumer là người trực tiếp sử dụng sản phẩm.
+confusing_meanings:
+- difference_vi: Consumer goods = hàng tiêu dùng hàng ngày (thực phẩm, đồ gia dụng).
+collocations:
+- phrase: consumer demand
+  meaning_vi: nhu cầu của người tiêu dùng
+  evidence: corpus
+- phrase: consumer behavior
+  meaning_vi: hành vi tiêu dùng của khách hàng
+  evidence: corpus
+- phrase: protect consumer rights
+  meaning_vi: bảo vệ quyền lợi người tiêu dùng
+  evidence: corpus
+synonyms:
+- word: buyer
+  meaning_vi: người mua
+- word: end-user
+  meaning_vi: người dùng cuối
+- word: client
+  meaning_vi: khách hàng
+examples:
+- en: Online surveys help businesses gain valuable insights into changing consumer preferences.
+  vi: Các cuộc khảo sát trực tuyến giúp doanh nghiệp có được cái nhìn sâu sắc quý giá về thị hiếu tiêu dùng đang thay đổi.
+pronunciation_tips_vi: Trọng âm rơi vào âm thứ hai /suːm/, giọng Mỹ đọc là /kənˈsuːmər/, không có âm /j/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

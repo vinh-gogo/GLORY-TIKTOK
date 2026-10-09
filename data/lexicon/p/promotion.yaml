@@ -1,0 +1,59 @@
+schema_version: 2
+id: promotion
+lemma: promotion
+pos:
+- noun
+ipa:
+  us: /prəˈmoʊʃn/
+  uk: /prəˈməʊʃn/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- human-resources
+- marketing-advertising
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: promotion-1
+  meaning_vi: Sự thăng chức, đề bạt lên vị trí công tác cao hơn trong công ty
+  note_vi: Ngược nghĩa với demotion (sự giáng chức).
+- id: promotion-2
+  meaning_vi: Chương trình khuyến mãi giảm giá; chiến dịch quảng bá tiếp thị
+  note_vi: 'Thường thấy trong sales: promotional offer, special promotion.'
+confused_words:
+- word: demotion
+  ipa: /dɪˈmoʊʃn/
+  difference_vi: Promotion là thăng cấp hoặc khuyến mãi; demotion là giáng chức.
+confusing_meanings:
+- difference_vi: Job promotion = thăng tiến nghề nghiệp; sales promotion = khuyến mãi kích cầu mua sắm.
+collocations:
+- phrase: earn a promotion
+  meaning_vi: đạt được sự thăng chức xứng đáng
+  evidence: corpus
+- phrase: sales promotion
+  meaning_vi: chương trình xúc tiến khuyến mãi
+  evidence: corpus
+- phrase: promotion opportunity
+  meaning_vi: cơ hội thăng tiến nghề nghiệp
+  evidence: corpus
+synonyms:
+- word: advancement
+  meaning_vi: sự tiến bộ, thăng tiến
+- word: advertising
+  meaning_vi: hoạt động quảng bá
+examples:
+- en: Her exceptional leadership during the regional restructuring earned her a well-deserved promotion to director.
+  vi: Khả năng lãnh đạo xuất sắc trong đợt tái cấu trúc khu vực đã giúp cô ấy được thăng chức giám đốc một cách xứng đáng.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈmoʊ/, đuôi kết thúc là /ʃn/ cong môi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

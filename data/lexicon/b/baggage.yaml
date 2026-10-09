@@ -1,0 +1,56 @@
+schema_version: 2
+id: baggage
+lemma: baggage
+pos:
+- noun
+ipa:
+  us: /ˈbæɡɪdʒ/
+  uk: /ˈbæɡɪdʒ/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- hospitality-travel
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: baggage-1
+  meaning_vi: Hành lý, va li túi xách mang theo của hành khách
+  note_vi: Danh từ không đếm được (uncountable noun), dùng baggage claim (khu lấy hành lý sân bay).
+confused_words:
+- word: luggage
+  ipa: /ˈlʌɡɪdʒ/
+  difference_vi: Baggage và luggage đồng nghĩa hoàn toàn; luggage phổ biến hơn trong tiếng Anh-Anh, baggage phổ biến trong
+    tiếng Anh-Mỹ.
+confusing_meanings:
+- difference_vi: Carry-on baggage = hành lý xách tay lên máy bay; checked baggage = hành lý ký gửi dưới khoang hàng.
+collocations:
+- phrase: excess baggage fee
+  meaning_vi: phí hành lý quá cước
+  evidence: corpus
+- phrase: baggage claim area
+  meaning_vi: khu vực trả lại hành lý tại sân bay
+  evidence: corpus
+- phrase: carry-on baggage
+  meaning_vi: hành lý xách tay
+  evidence: corpus
+synonyms:
+- word: luggage
+  meaning_vi: hành lý
+- word: suitcases
+  meaning_vi: va li đồ đạc
+examples:
+- en: Passengers can proceed to Carousel 4 in the baggage claim area to collect their luggage.
+  vi: Hành khách có thể di chuyển đến băng chuyền số 4 tại khu vực nhận hành lý để lấy đồ đạc của mình.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈbæɡ/, âm đuôi là /ɪdʒ/ rung cổ họng rõ ràng.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

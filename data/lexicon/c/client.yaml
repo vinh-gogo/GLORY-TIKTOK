@@ -1,0 +1,70 @@
+schema_version: 2
+id: client
+lemma: client
+pos:
+- noun
+ipa:
+  us: /ˈklaɪənt/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- sales
+- business
+- customer-service
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: client-1
+  meaning_vi: Khách hàng sử dụng dịch vụ chuyên nghiệp, đối tác thân thiết
+  note_vi: Thường dùng trong các ngành dịch vụ chuyên môn (luật, tư vấn, thiết kế,
+    tài chính).
+collocations:
+- phrase: prospective client
+  meaning_vi: khách hàng tiềm năng
+  evidence: corpus
+- phrase: meet with a client
+  meaning_vi: gặp gỡ đối tác/khách hàng
+  evidence: corpus
+- phrase: corporate client
+  meaning_vi: khách hàng doanh nghiệp
+  evidence: corpus
+- phrase: client satisfaction
+  meaning_vi: sự hài lòng của khách hàng
+  evidence: corpus
+confused_words:
+- word: climate
+  ipa: /ˈklaɪmət/
+  meaning: khí hậu, thời tiết
+  kind: spelling-sound
+  difference_vi: Client kết thúc bằng /-ənt/ nghĩa là khách hàng; climate kết thúc
+    bằng /-mət/ nghĩa là khí hậu.
+confusing_meanings:
+- word: customer
+  meaning: người mua hàng hóa bán lẻ tại cửa hàng
+  difference_vi: Customer là khách mua sản phẩm đơn lẻ tại quầy; client là khách hàng
+    thuê dịch vụ chuyên môn theo hợp đồng dài hạn.
+synonyms:
+- word: customer
+  meaning_vi: khách hàng
+- word: patron
+  meaning_vi: khách quen
+examples:
+- en: Our senior consultant will travel to Chicago tomorrow morning to meet with an
+    important client.
+  vi: Chuyên viên tư vấn cao cấp của chúng tôi sẽ đến Chicago vào sáng mai để gặp
+    một khách hàng quan trọng.
+pronunciation_tips_vi: 'Nguyên âm đôi /aɪ/ kéo dài rõ ràng: /ˈklaɪ-ənt/. Trọng âm
+  rơi vào âm tiết đầu, âm /t/ cuối bật nhẹ.'
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

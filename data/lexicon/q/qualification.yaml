@@ -1,0 +1,64 @@
+schema_version: 2
+id: qualification
+lemma: qualification
+pos:
+  - noun
+ipa:
+  us: "/ˌkwɑːlɪfɪˈkeɪʃn/"
+level:
+  cefr: B2
+  band: target
+  basis: "editorial"
+topics:
+  - hiring
+  - training
+  - education
+speaking_use:
+  - respond-to-questions
+  - express-opinion
+senses:
+  - id: qualification-1
+    meaning_vi: "Trình độ chuyên môn, phẩm chất hoặc bằng cấp cần thiết cho công việc"
+    note_vi: "Chủ đề nhân sự Part 3, Part 5: yêu cầu ứng viên phải có năng lực gì."
+collocations:
+  - phrase: "necessary qualifications"
+    meaning_vi: "những phẩm chất/bằng cấp cần thiết"
+    evidence: "corpus"
+  - phrase: "academic qualifications"
+    meaning_vi: "trình độ học vấn, bằng cấp học thuật"
+    evidence: "corpus"
+  - phrase: "meet the qualifications"
+    meaning_vi: "đáp ứng đủ các tiêu chuẩn chuyên môn"
+    evidence: "corpus"
+  - phrase: "professional qualifications"
+    meaning_vi: "bằng cấp chuyên môn nghề nghiệp"
+    evidence: "corpus"
+confused_words:
+  - word: "quantification"
+    ipa: "/ˌkwɑːntɪfɪˈkeɪʃn/"
+    meaning: "sự định lượng con số"
+    kind: "spelling-sound"
+    difference_vi: "Qualification chỉ năng lực/bằng cấp; quantification chỉ hành động tính toán đo lường số liệu."
+confusing_meanings:
+  - word: "certificate"
+    meaning: "chứng chỉ cụ thể được cấp sau khóa học"
+    difference_vi: "Certificate là tờ chứng chỉ văn bằng cụ thể; qualification là tổng thể năng lực, kinh nghiệm và bằng cấp kết hợp lại."
+synonyms:
+  - word: "credentials"
+    meaning_vi: "chứng chỉ năng lực"
+  - word: "capabilities"
+    meaning_vi: "khả năng chuyên môn"
+examples:
+  - en: "The candidate has impressive academic qualifications as well as five years of managerial experience."
+    vi: "Ứng viên này sở hữu trình độ học vấn ấn tượng cũng như năm năm kinh nghiệm làm công tác quản lý."
+pronunciation_tips_vi: "Từ có 5 âm tiết, trọng âm chính rơi vào âm tiết thứ tư /-ˈkeɪ-/. Âm đầu là /kwɑː/ (như 'qu' mở rộng), âm đuôi /-ʃn/ dứt khoát."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

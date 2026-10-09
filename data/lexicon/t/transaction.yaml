@@ -1,0 +1,56 @@
+schema_version: 2
+id: transaction
+lemma: transaction
+pos:
+- noun
+ipa:
+  us: /trænˈzækʃn/
+  uk: /trænˈzækʃn/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- sales-customer-service
+- finance-accounting
+speaking_use:
+- respond-to-questions
+- respond-with-info
+senses:
+- id: transaction-1
+  meaning_vi: Giao dịch thương mại, việc mua bán hoặc chuyển tiền
+  note_vi: Hành vi trao đổi thanh toán giữa người mua và người bán.
+confused_words:
+- word: transition
+  ipa: /trænˈzɪʃn/
+  difference_vi: Transition là sự chuyển tiếp giai đoạn; transaction là giao dịch tiền tệ/thương mại.
+confusing_meanings:
+- difference_vi: Bank transaction là giao dịch ngân hàng; real estate transaction là mua bán bất động sản.
+collocations:
+- phrase: complete a transaction
+  meaning_vi: hoàn tất giao dịch
+  evidence: corpus
+- phrase: secure online transaction
+  meaning_vi: giao dịch trực tuyến bảo mật
+  evidence: corpus
+- phrase: business transaction
+  meaning_vi: giao dịch thương mại
+  evidence: corpus
+synonyms:
+- word: deal
+  meaning_vi: thương vụ
+- word: trade
+  meaning_vi: hoạt động trao đổi mua bán
+examples:
+- en: You will receive an automated confirmation email once the transaction is completed.
+  vi: Bạn sẽ nhận được email xác nhận tự động sau khi giao dịch được hoàn tất.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /zæk/, đuôi kết thúc bằng /ʃn/ cong môi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

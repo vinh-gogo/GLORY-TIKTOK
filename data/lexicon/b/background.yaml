@@ -1,0 +1,59 @@
+schema_version: 2
+id: background
+lemma: background
+pos:
+- noun
+ipa:
+  us: /ˈbækɡraʊnd/
+  uk: /ˈbækɡraʊnd/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- human-resources
+- describe-picture
+speaking_use:
+- describe-picture
+- respond-to-questions
+senses:
+- id: background-1
+  meaning_vi: Nền tảng học vấn, kinh nghiệm quá khứ của một người
+  note_vi: Rất quan trọng trong Part 3 (phỏng vấn xin việc) và Part 2 (miêu tả hậu cảnh bức tranh).
+confused_words:
+- word: foreground
+  ipa: /ˈfɔːrɡraʊnd/
+  difference_vi: Foreground là tiền cảnh (phía trước bức ảnh), background là hậu cảnh (phía sau) hoặc nền tảng học vấn.
+confusing_meanings:
+- difference_vi: 'Trong tranh TOEIC Part 2: background = hậu cảnh; trong hồ sơ xin việc: background = trình độ và kinh nghiệm
+    trước đây.'
+collocations:
+- phrase: background check
+  meaning_vi: thẩm tra lý lịch cá nhân
+  evidence: corpus
+- phrase: educational background
+  meaning_vi: nền tảng học vấn
+  evidence: corpus
+- phrase: solid background in
+  meaning_vi: nền tảng vững chắc trong lĩnh vực
+  evidence: corpus
+synonyms:
+- word: experience
+  meaning_vi: kinh nghiệm
+- word: qualifications
+  meaning_vi: năng lực chuyên môn
+examples:
+- en: She has a solid background in digital marketing and customer analytics.
+  vi: Cô ấy có nền tảng vững chắc về tiếp thị kỹ thuật số và phân tích dữ liệu khách hàng.
+- en: In the background of the picture, several tall office buildings are visible.
+  vi: Ở phía hậu cảnh của bức ảnh, có thể nhìn thấy một vài tòa nhà văn phòng cao tầng.
+pronunciation_tips_vi: Từ ghép gồm 'back' và 'ground', trọng âm chính nhấn ở /ˈbæk/, nhị trùng âm /aʊ/ rõ ràng.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,57 @@
+schema_version: 2
+id: exchange
+lemma: exchange
+pos:
+- verb
+- noun
+ipa:
+  us: /ɪksˈtʃeɪndʒ/
+  uk: /ɪksˈtʃeɪndʒ/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- sales-customer-service
+- finance-accounting
+speaking_use:
+- respond-to-questions
+- respond-with-info
+senses:
+- id: exchange-1
+  meaning_vi: Đổi trả món hàng lấy món khác tại cửa hàng; sự trao đổi ngoại tệ hoặc thông tin
+  note_vi: Phổ biến trong chính sách đổi trả hàng hóa (exchange policy).
+confused_words:
+- word: change
+  ipa: /tʃeɪndʒ/
+  difference_vi: Change là thay đổi chung hoặc tiền lẻ; exchange là đổi vật này lấy vật khác tương đương.
+confusing_meanings:
+- difference_vi: Exchange an item = đổi món hàng khác; foreign exchange = giao dịch đổi ngoại tệ.
+collocations:
+- phrase: exchange policy
+  meaning_vi: chính sách đổi trả hàng hóa
+  evidence: corpus
+- phrase: exchange for a different size
+  meaning_vi: đổi lấy kích cỡ khác
+  evidence: corpus
+- phrase: exchange rate
+  meaning_vi: tỷ giá hối đoái tiền tệ
+  evidence: corpus
+synonyms:
+- word: swap
+  meaning_vi: hoán đổi
+- word: trade
+  meaning_vi: trao đổi hàng
+examples:
+- en: Items purchased on sale can be exchanged within fourteen days with an original store receipt.
+  vi: Hàng hóa mua trong đợt giảm giá có thể được đổi trong vòng mười bốn ngày kèm theo hóa đơn gốc.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈtʃeɪndʒ/, âm /tʃ/ bật dứt khoát kết thúc bằng âm rung /dʒ/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

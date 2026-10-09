@@ -1,0 +1,57 @@
+schema_version: 2
+id: renovate
+lemma: renovate
+pos:
+- verb
+ipa:
+  us: /ˈrenəveɪt/
+  uk: /ˈrenəveɪt/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- real-estate-construction
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: renovate-1
+  meaning_vi: Cải tạo, nâng cấp, tu bổ lại công trình nhà ở hoặc tòa nhà cũ
+  note_vi: Làm mới và sửa sang để phục hồi tình trạng ban đầu hoặc hiện đại hóa cơ sở.
+confused_words:
+- word: innovate
+  ipa: /ˈɪnəveɪt/
+  difference_vi: Innovate là đổi mới sáng tạo công nghệ/phương pháp; renovate là cải tạo tu bổ công trình xây dựng.
+confusing_meanings:
+- difference_vi: Renovate a building = nâng cấp sửa chữa tòa nhà; completely renovated = được đại tu làm mới hoàn toàn.
+collocations:
+- phrase: renovate an old building
+  meaning_vi: cải tạo một tòa nhà cổ
+  evidence: corpus
+- phrase: completely renovated
+  meaning_vi: được tu bổ nâng cấp toàn diện
+  evidence: corpus
+- phrase: renovation project
+  meaning_vi: dự án cải tạo sửa chữa
+  evidence: corpus
+synonyms:
+- word: refurbish
+  meaning_vi: tân trang lại
+- word: remodel
+  meaning_vi: sửa đổi cấu trúc không gian
+- word: upgrade
+  meaning_vi: nâng cấp
+examples:
+- en: The downtown branch will close for two weeks while the lobby is being thoroughly renovated.
+  vi: Chi nhánh trung tâm sẽ đóng cửa trong hai tuần trong khi sảnh chờ đang được cải tạo toàn diện.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈren/, âm đuôi là /veɪt/ có âm /t/ dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

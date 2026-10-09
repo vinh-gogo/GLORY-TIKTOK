@@ -1,0 +1,69 @@
+schema_version: 2
+id: profit
+lemma: profit
+pos:
+- noun
+ipa:
+  us: /ˈprɑːfɪt/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- budget
+- banking
+- business
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: profit-1
+  meaning_vi: Lợi nhuận kinh doanh, tiền lãi thu được
+  note_vi: Từ trọng tâm trong các báo cáo tài chính hàng quý, hàng năm của doanh nghiệp.
+collocations:
+- phrase: net profit
+  meaning_vi: lợi nhuận ròng (sau thuế)
+  evidence: corpus
+- phrase: generate a profit
+  meaning_vi: tạo ra lợi nhuận
+  evidence: corpus
+- phrase: profit margin
+  meaning_vi: biên độ lợi nhuận
+  evidence: corpus
+- phrase: record profit
+  meaning_vi: lợi nhuận kỷ lục
+  evidence: corpus
+confused_words:
+- word: prophet
+  ipa: /ˈprɑːfɪt/
+  meaning: nhà tiên tri
+  kind: spelling-sound
+  difference_vi: 'Hai từ đồng âm dị nghĩa: profit là tiền lãi kinh doanh; prophet
+    là nhà tiên tri trong tôn giáo.'
+confusing_meanings:
+- word: revenue
+  meaning: tổng doanh thu chưa trừ chi phí
+  difference_vi: Revenue là tổng số tiền bán được; profit là phần tiền lãi thực sự
+    còn lại sau khi trừ toàn bộ chi phí.
+synonyms:
+- word: earnings
+  meaning_vi: tiền kiếm được
+- word: financial gain
+  meaning_vi: khoản thu được
+examples:
+- en: Thanks to strong overseas sales, the company reported a twenty percent increase
+    in quarterly profits.
+  vi: Nhờ doanh số bán hàng ở nước ngoài tăng mạnh, công ty đã báo cáo mức tăng lợi
+    nhuận hàng quý lên đến hai mươi phần trăm.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈprɑː-/. Âm đuôi /-fɪt/ bật rõ
+  âm /t/ dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

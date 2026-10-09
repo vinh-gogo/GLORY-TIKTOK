@@ -1,0 +1,68 @@
+schema_version: 2
+id: invoice
+lemma: invoice
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈɪnvɔɪs/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- budget
+- sales
+- business
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: invoice-1
+  meaning_vi: Hóa đơn yêu cầu thanh toán (gửi cho khách trước khi trả tiền)
+  note_vi: Từ ngữ kế toán công sở phổ biến nhất trong các bài thi TOEIC.
+collocations:
+- phrase: issue an invoice
+  meaning_vi: xuất hóa đơn yêu cầu thanh toán
+  evidence: corpus
+- phrase: pay an invoice
+  meaning_vi: thanh toán hóa đơn
+  evidence: corpus
+- phrase: invoice number
+  meaning_vi: mã số hóa đơn
+  evidence: corpus
+- phrase: outstanding invoice
+  meaning_vi: hóa đơn chưa được thanh toán (còn nợ)
+  evidence: corpus
+confused_words:
+- word: invoke
+  ipa: /ɪnˈvoʊk/
+  meaning: viện dẫn luật, khơi gợi
+  kind: spelling-sound
+  difference_vi: Invoice là hóa đơn tính tiền; invoke mang nghĩa viện dẫn điều luật
+    hoặc cầu khẩn.
+confusing_meanings:
+- word: receipt
+  meaning: biên lai đã thanh toán
+  difference_vi: Invoice là chứng từ đòi tiền gửi trước; receipt là bằng chứng xác
+    nhận tiền đã được trả xong.
+synonyms:
+- word: bill
+  meaning_vi: hóa đơn tính tiền
+examples:
+- en: The accounting department will issue an invoice immediately after the goods
+    have been shipped.
+  vi: Phòng kế toán sẽ phát hành hóa đơn thanh toán ngay sau khi hàng hóa được gửi
+    đi.
+pronunciation_tips_vi: 'Trọng âm rơi vào âm tiết đầu /ˈɪn-/. Âm tiết hai có nguyên
+  âm đôi /ɔɪ/ và kết thúc bằng âm /s/ xì nhẹ: /ˈɪnvɔɪs/.'
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

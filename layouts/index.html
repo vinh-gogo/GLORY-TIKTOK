@@ -1,0 +1,62 @@
+{{- define "main" }}
+{{- $allWords := slice }}
+{{- range $letter, $dict := site.Data.lexicon }}
+  {{- range $id, $w := $dict }}
+    {{- $allWords = $allWords | append $w }}
+  {{- end }}
+{{- end }}
+{{- $totalWordsCount := len $allWords }}
+
+<div class="home-simple-wrapper">
+  
+  <header class="home-simple-header">
+    <h1 class="home-simple-title">Từ Điển &amp; Luyện Nói TOEIC</h1>
+  </header>
+
+  <!-- Thanh tìm kiếm trực tiếp -->
+  <form action="/glossary/" method="GET" class="home-simple-search">
+    <span class="search-icon">🔍</span>
+    <input type="text" name="q" placeholder="Tra từ vựng, phiên âm IPA, nghĩa tiếng Việt..." autocomplete="off">
+    <button type="submit">Tra từ</button>
+  </form>
+
+  <!-- 2 CỔNG CHÍNH ĐỂ VÀO HỌC -->
+  <div class="home-simple-gateways">
+    
+    <!-- Cổng 1: Từ Điển A-Z (Glossary) -->
+    <a href="/glossary/" class="gateway-card card-glossary">
+      <div class="gateway-icon">📖</div>
+      <div class="gateway-content">
+        <span class="gateway-badge badge-blue">Bảng Tra Cứu Toàn Diện</span>
+        <h2 class="gateway-title">Từ Điển A–Z</h2>
+        <p class="gateway-desc">Xem toàn bộ {{ $totalWordsCount }} từ vựng, lọc tức thì theo vần A–Z và 3 cấp độ Core, Target, Advanced.</p>
+      </div>
+      <span class="gateway-btn btn-blue">Vào Từ Điển A–Z →</span>
+    </a>
+
+    <!-- Cổng 2: Chi Tiết Từ Vựng (Word Detail) -->
+    <a href="/words/deadline/" class="gateway-card card-words">
+      <div class="gateway-icon">🔍</div>
+      <div class="gateway-content">
+        <span class="gateway-badge badge-emerald">Học Sâu &amp; Phản Xạ</span>
+        <h2 class="gateway-title">Chi Tiết Từ Vựng</h2>
+        <p class="gateway-desc">Phát âm IPA chuẩn, lưu ý phòng thi, collocations ăn điểm và luyện phản xạ với phím tắt ← →.</p>
+      </div>
+      <span class="gateway-btn btn-emerald">Xem Chi Tiết Từ Vựng →</span>
+    </a>
+
+  </div>
+
+  <!-- Các liên kết phụ ngắn gọn -->
+  <nav class="home-simple-links" aria-label="Liên kết nhanh">
+    <a href="/sets/">📚 Bộ bài học</a>
+    <span class="sep">•</span>
+    <a href="/topics/">🏷️ Theo chủ đề</a>
+    <span class="sep">•</span>
+    <a href="/quotes/">💡 Câu nói hay</a>
+    <span class="sep">•</span>
+    <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer">🎬 TikTok @wbk.lqv</a>
+  </nav>
+
+</div>
+{{- end }}

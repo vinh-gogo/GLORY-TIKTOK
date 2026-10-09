@@ -1,0 +1,59 @@
+schema_version: 2
+id: subordinate
+lemma: subordinate
+pos:
+- noun
+- adjective
+ipa:
+  us: /səˈbɔːrdɪnət/
+  uk: /səˈbɔːdɪnət/
+level:
+  band: advanced
+  cefr: C1
+  basis: TOEIC 750+
+topics:
+- human-resources
+- management-operations
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: subordinate-1
+  meaning_vi: Cấp dưới, nhân viên dưới quyền; (adj) có vị trí thấp hơn trong tổ chức
+  note_vi: Khi là động từ (làm cho phụ thuộc), phát âm chuyển thành /səˈbɔːrdɪneɪt/.
+confused_words:
+- word: coordinate
+  ipa: /koʊˈɔːrdɪneɪt/
+  difference_vi: Coordinate là điều phối ngang hàng; subordinate là cấp bậc thấp hơn trực tiếp.
+confusing_meanings:
+- difference_vi: Danh từ và tính từ đọc đuôi /-nət/; động từ đọc đuôi /-neɪt/.
+collocations:
+- phrase: manage subordinates
+  meaning_vi: quản lý các nhân viên cấp dưới
+  evidence: corpus
+- phrase: subordinate role
+  meaning_vi: vai trò phụ thuộc, thứ yếu
+  evidence: corpus
+- phrase: treat subordinates fairly
+  meaning_vi: đối xử công bằng với nhân viên dưới quyền
+  evidence: corpus
+synonyms:
+- word: assistant
+  meaning_vi: trợ tá
+- word: junior
+  meaning_vi: cấp dưới, ít thâm niên
+- word: underling
+  meaning_vi: người dưới quyền
+examples:
+- en: Effective leaders know how to delegate tasks and inspire confidence in their subordinates.
+  vi: Những nhà lãnh đạo hiệu quả biết cách giao phó nhiệm vụ và truyền cảm hứng tự tin cho cấp dưới của mình.
+pronunciation_tips_vi: Trọng âm rơi vào âm thứ hai /ˈbɔːr/, đuôi danh từ phát âm là /nət/ ngắn.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,69 @@
+schema_version: 2
+id: allocate
+lemma: allocate
+pos:
+- verb
+ipa:
+  us: /ˈæləkeɪt/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- budget
+- management
+- business
+speaking_use:
+- respond-with-info
+- respond-to-questions
+- express-opinion
+senses:
+- id: allocate-1
+  meaning_vi: Phân bổ, chỉ định (ngân sách, nguồn vốn, nhân sự cho mục đích cụ thể)
+  note_vi: Từ chìa khóa trong quản lý tài chính và phân bổ tài nguyên dự án.
+collocations:
+- phrase: allocate funds
+  meaning_vi: phân bổ các nguồn vốn
+  evidence: corpus
+- phrase: allocate resources
+  meaning_vi: phân bổ tài nguyên
+  evidence: corpus
+- phrase: allocate a budget
+  meaning_vi: phân bổ hạn mức ngân sách
+  evidence: corpus
+- phrase: allocate evenly
+  meaning_vi: phân chia đồng đều
+  evidence: corpus
+confused_words:
+- word: locate
+  ipa: /ˈloʊkeɪt/
+  meaning: xác định vị trí
+  kind: spelling-sound
+  difference_vi: Allocate là phân bổ nguồn lực; locate là tìm ra vị trí của ai hoặc
+    cái gì.
+confusing_meanings:
+- word: distribute
+  meaning: phân phát rộng rãi
+  difference_vi: Distribute là chia phát hàng hóa đến nhiều địa điểm; allocate là
+    quyết định dành riêng một khoản tiền/tài nguyên cho mục đích chuyên biệt.
+synonyms:
+- word: designate
+  meaning_vi: chỉ định
+- word: assign
+  meaning_vi: phân công
+examples:
+- en: The company voted to allocate two million dollars to upgrade its digital infrastructure.
+  vi: Công ty đã bỏ phiếu quyết định phân bổ hai triệu đô la để nâng cấp cơ sở hạ
+    tầng kỹ thuật số.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈæ-/. Đuôi kết thúc bằng /-keɪt/,
+  bật nhẹ âm /t/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

@@ -1,0 +1,62 @@
+schema_version: 2
+id: itinerary
+lemma: itinerary
+pos:
+  - noun
+ipa:
+  us: "/aɪˈtɪnəreri/"
+level:
+  cefr: B2
+  band: target
+  basis: "editorial"
+topics:
+  - travel
+  - events
+  - business
+speaking_use:
+  - read-aloud
+  - respond-with-info
+senses:
+  - id: itinerary-1
+    meaning_vi: "Lịch trình chuyến đi, kế hoạch hành trình chi tiết"
+    note_vi: "Từ chìa khóa trong Part 4 (Respond using information) khi trả lời các câu hỏi về giờ bay, điểm dừng chân, giờ họp của sếp."
+collocations:
+  - phrase: "travel itinerary"
+    meaning_vi: "lịch trình chuyến du lịch/công tác"
+    evidence: "corpus"
+  - phrase: "flight itinerary"
+    meaning_vi: "lịch trình chuyến bay chi tiết"
+    evidence: "corpus"
+  - phrase: "tentative itinerary"
+    meaning_vi: "lịch trình dự kiến (chưa chốt chính thức)"
+    evidence: "corpus"
+  - phrase: "finalize the itinerary"
+    meaning_vi: "chốt lại lịch trình chuyến đi"
+    evidence: "corpus"
+confused_words:
+  - word: "literary"
+    ipa: "/ˈlɪtəreri/"
+    meaning: "thuộc về văn học"
+    kind: "spelling-sound"
+    difference_vi: "Itinerary bắt đầu bằng âm /aɪ/ chỉ lịch trình du lịch; literary bắt đầu bằng /l/ chỉ văn chương nghệ thuật."
+confusing_meanings:
+  - word: "schedule"
+    meaning: "thời gian biểu tổng quát"
+    difference_vi: "Itinerary chỉ lộ trình di chuyển bao gồm điểm đến, phương tiện và giờ giấc (hành trình); schedule là lịch trình công việc chung."
+synonyms:
+  - word: "travel plan"
+    meaning_vi: "kế hoạch chuyến đi"
+examples:
+  - en: "The assistant provided the executive with a comprehensive travel itinerary for the Tokyo conference."
+    vi: "Người trợ lý đã cung cấp cho vị giám đốc điều hành một lịch trình công tác toàn diện cho hội nghị ở Tokyo."
+pronunciation_tips_vi: "Trọng âm rơi vào âm tiết thứ hai /-ˈtɪn-/. Âm đầu là /aɪ/. Đuôi kết thúc bằng /-reri/ (người Việt hay quên âm 'r' thứ hai)."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

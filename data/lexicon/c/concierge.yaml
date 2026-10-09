@@ -1,0 +1,56 @@
+schema_version: 2
+id: concierge
+lemma: concierge
+pos:
+- noun
+ipa:
+  us: /koʊnˈsjerʒ/
+  uk: /kɒnˈsieəʒ/
+level:
+  band: advanced
+  cefr: C1
+  basis: TOEIC 750+
+topics:
+- hospitality-travel
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: concierge-1
+  meaning_vi: Nhân viên hỗ trợ thông tin đặc biệt tại khách sạn cao cấp (hỗ trợ đặt vé, gợi ý tour)
+  note_vi: Bộ phận chăm sóc cá nhân hóa giúp khách lưu trú đặt bàn ăn ngon, mua vé xem kịch hoặc gọi xe.
+confused_words:
+- word: receptionist
+  ipa: /rɪˈsepʃənɪst/
+  difference_vi: Receptionist là lễ tân làm thủ tục nhận/trả phòng; concierge là người chuyên hỗ trợ trải nghiệm dịch vụ du
+    lịch bên ngoài.
+confusing_meanings:
+- difference_vi: Concierge desk = quầy dịch vụ chăm sóc khách đặc biệt; concierge service = dịch vụ hỗ trợ cao cấp.
+collocations:
+- phrase: concierge desk
+  meaning_vi: quầy hỗ trợ thông tin đặc biệt của khách sạn
+  evidence: corpus
+- phrase: ask the concierge
+  meaning_vi: hỏi nhân viên hỗ trợ du lịch
+  evidence: corpus
+- phrase: concierge services
+  meaning_vi: dịch vụ hỗ trợ chăm sóc khách lưu trú
+  evidence: corpus
+synonyms:
+- word: guest services assistant
+  meaning_vi: nhân viên dịch vụ khách hàng
+- word: doorkeeper
+  meaning_vi: người gác cổng hỗ trợ
+examples:
+- en: The hotel concierge helped us secure last-minute tickets to the sold-out opera performance.
+  vi: Nhân viên hỗ trợ khách sạn đã giúp chúng tôi mua được vé giờ chót cho buổi biểu diễn nhạc kịch đã cháy vé.
+pronunciation_tips_vi: Từ gốc Pháp, âm đuôi phát âm là /ʒ/ rung nhẹ đầu lưỡi, không đọc thành âm 'd' hay 'ch'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

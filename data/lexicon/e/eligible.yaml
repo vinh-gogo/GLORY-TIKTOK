@@ -1,0 +1,70 @@
+schema_version: 2
+id: eligible
+lemma: eligible
+pos:
+- adjective
+ipa:
+  us: /ˈelɪdʒəbl/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- benefits
+- hiring
+- shopping
+speaking_use:
+- read-aloud
+- respond-with-info
+- respond-to-questions
+senses:
+- id: eligible-1
+  meaning_vi: Đủ điều kiện, đủ tiêu chuẩn hưởng quyền lợi/chính sách
+  note_vi: Cực kỳ phổ biến trong thông báo chính sách thưởng, thăng chức, hoàn tiền
+    hoặc giảm giá.
+collocations:
+- phrase: eligible for promotion
+  meaning_vi: đủ điều kiện để được thăng chức
+  evidence: corpus
+- phrase: eligible for a refund
+  meaning_vi: đủ điều kiện được hoàn tiền
+  evidence: corpus
+- phrase: eligible to participate
+  meaning_vi: đủ tư cách tham dự
+  evidence: corpus
+- phrase: eligible candidate
+  meaning_vi: ứng viên đủ tiêu chuẩn
+  evidence: corpus
+confused_words:
+- word: illegible
+  ipa: /ɪˈledʒəbl/
+  meaning: chữ viết mờ khó đọc
+  kind: spelling-sound
+  difference_vi: Eligible nghĩa là đủ tư cách/điều kiện; illegible nghĩa là chữ viết
+    nguệch ngoạc không thể đọc được.
+confusing_meanings:
+- word: qualified
+  meaning: có chuyên môn kinh nghiệm
+  difference_vi: Qualified nhấn mạnh vào năng lực kỹ năng chuyên môn; eligible là
+    đáp ứng đúng các quy định tiêu chí hành chính.
+synonyms:
+- word: qualified
+  meaning_vi: đủ tư cách
+- word: entitled
+  meaning_vi: có quyền hưởng
+examples:
+- en: Employees who complete six months of service are eligible for paid annual vacation.
+  vi: Nhân viên hoàn thành sáu tháng làm việc sẽ đủ điều kiện được hưởng kỳ nghỉ thường
+    niên có lương.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈel-/. Âm giữa là /ɪdʒ/ nhẹ,
+  đuôi /-əbl/ đọc dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

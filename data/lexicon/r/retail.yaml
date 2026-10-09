@@ -1,0 +1,57 @@
+schema_version: 2
+id: retail
+lemma: retail
+pos:
+- noun
+- adjective
+- adverb
+ipa:
+  us: /ˈriːteɪl/
+  uk: /ˈriːteɪl/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- sales-customer-service
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: retail-1
+  meaning_vi: Bán lẻ hàng hóa trực tiếp tới người tiêu dùng tại cửa hàng hoặc trực tuyến
+  note_vi: Kênh phân phối chặng cuối đến tay khách hàng cá nhân.
+confused_words:
+- word: detail
+  ipa: /ˈdiːteɪl/
+  difference_vi: Detail là chi tiết cụ thể; retail là hoạt động bán lẻ hàng hóa.
+confusing_meanings:
+- difference_vi: Retail outlet = điểm bán lẻ; retail price = giá bán lẻ niêm yết cho khách.
+collocations:
+- phrase: retail outlet
+  meaning_vi: cửa hàng bán lẻ
+  evidence: corpus
+- phrase: suggested retail price
+  meaning_vi: giá bán lẻ đề xuất của nhà sản xuất
+  evidence: corpus
+- phrase: retail chain
+  meaning_vi: chuỗi cửa hàng bán lẻ
+  evidence: corpus
+synonyms:
+- word: store selling
+  meaning_vi: bán hàng tại tiệm
+- word: consumer sales
+  meaning_vi: bán hàng cho người tiêu dùng
+examples:
+- en: The nationwide retail chain opened three new locations in metropolitan shopping malls.
+  vi: Chuỗi bán lẻ trên toàn quốc đã khai trương ba địa điểm mới tại các trung tâm thương mại đô thị.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ nhất /ˈriː/, nguyên âm /iː/ kéo dài.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

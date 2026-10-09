@@ -1,0 +1,57 @@
+schema_version: 2
+id: lease
+lemma: lease
+pos:
+- noun
+- verb
+ipa:
+  us: /liːs/
+  uk: /liːs/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- real-estate-construction
+- contracts-negotiation
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: lease-1
+  meaning_vi: Hợp đồng thuê tài sản dài hạn (nhà đất, thiết bị máy móc); (v) cho thuê hoặc thuê theo hợp đồng
+  note_vi: Thường có tính ràng buộc pháp lý chặt chẽ hơn từ rent thông thường.
+confused_words:
+- word: least
+  ipa: /liːst/
+  difference_vi: Least là ít nhất (có âm cuối /st/); lease là hợp đồng thuê dài hạn (kết thúc bằng âm /s/).
+confusing_meanings:
+- difference_vi: Sign a lease = ký hợp đồng thuê nhà; lease agreement = thỏa thuận hợp đồng cho thuê.
+collocations:
+- phrase: sign a lease
+  meaning_vi: ký hợp đồng thuê tài sản
+  evidence: corpus
+- phrase: lease agreement
+  meaning_vi: văn bản thỏa thuận hợp đồng thuê
+  evidence: corpus
+- phrase: expire of a lease
+  meaning_vi: hết hạn hợp đồng cho thuê
+  evidence: corpus
+synonyms:
+- word: rental agreement
+  meaning_vi: thỏa thuận thuê mướn
+- word: charter
+  meaning_vi: hợp đồng thuê bao trọn gói
+examples:
+- en: The law firm signed a five-year lease for the entire top floor of the commercial tower.
+  vi: Công ty luật đã ký hợp đồng thuê năm năm cho toàn bộ tầng cao nhất của tòa tháp thương mại.
+pronunciation_tips_vi: Nguyên âm /iː/ dài, âm cuối là âm /s/ gió rõ nét, không phát âm thành âm /z/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

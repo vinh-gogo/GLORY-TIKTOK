@@ -1,0 +1,69 @@
+schema_version: 2
+id: defect
+lemma: defect
+pos:
+- noun
+ipa:
+  us: /ˈdiːfekt/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- manufacturing
+- sales
+- customer-service
+speaking_use:
+- describe-picture
+- respond-to-questions
+senses:
+- id: defect-1
+  meaning_vi: Lỗi sản phẩm, khuyết tật kỹ thuật hoặc chi tiết hỏng
+  note_vi: Chủ đề kiểm định chất lượng xuất xưởng và bảo hành sản phẩm.
+collocations:
+- phrase: manufacturing defect
+  meaning_vi: lỗi do quá trình sản xuất
+  evidence: corpus
+- phrase: free of defects
+  meaning_vi: không có bất kỳ khuyết tật nào
+  evidence: corpus
+- phrase: major defect
+  meaning_vi: lỗi nghiêm trọng
+  evidence: corpus
+- phrase: report a defect
+  meaning_vi: báo cáo sự cố hư hỏng
+  evidence: corpus
+confused_words:
+- word: defeat
+  ipa: /dɪˈfiːt/
+  meaning: đánh bại, sự thất bại
+  kind: spelling-sound
+  difference_vi: Defect là lỗi sản phẩm hư hỏng; defeat là đánh bại đối thủ hoặc sự
+    thất bại trong thi đấu.
+confusing_meanings:
+- word: error
+  meaning: sai sót do con người thao tác
+  difference_vi: Error là sai lầm trong tính toán hoặc hành vi con người; defect là
+    khuyết tật vật lý tồn tại trên sản phẩm.
+synonyms:
+- word: flaw
+  meaning_vi: vết tì, lỗi kỹ thuật
+- word: fault
+  meaning_vi: khuyết điểm, trục trặc
+examples:
+- en: Any appliance found to have a manufacturing defect will be replaced immediately
+    at no extra cost.
+  vi: Bất kỳ thiết bị nào bị phát hiện có lỗi do nhà sản xuất sẽ được đổi mới ngay
+    lập tức mà không phát sinh thêm chi phí.
+pronunciation_tips_vi: Danh từ nhấn âm đầu /ˈdiː-/, âm tiết hai /-fekt/ bật rõ cụm
+  phụ âm cuối /-kt/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

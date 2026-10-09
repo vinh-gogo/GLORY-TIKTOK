@@ -1,0 +1,58 @@
+schema_version: 2
+id: venue
+lemma: venue
+pos:
+- noun
+ipa:
+  us: /ˈvenjuː/
+  uk: /ˈvenjuː/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- hospitality-travel
+- meetings-office
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: venue-1
+  meaning_vi: Địa điểm tổ chức sự kiện (hội nghị, triển lãm, hòa nhạc, tiệc cưới)
+  note_vi: Nơi được chọn để diễn ra một hoạt động đông người có quy mô.
+confused_words:
+- word: avenue
+  ipa: /ˈævənuː/
+  difference_vi: Avenue là đại lộ; venue là địa điểm tổ chức sự kiện.
+confusing_meanings:
+- difference_vi: Conference venue = địa điểm hội thảo; wedding venue = sảnh tiệc cưới.
+collocations:
+- phrase: ideal venue for events
+  meaning_vi: địa điểm lý tưởng cho các sự kiện
+  evidence: corpus
+- phrase: select a conference venue
+  meaning_vi: chọn địa điểm tổ chức hội nghị
+  evidence: corpus
+- phrase: outdoor venue
+  meaning_vi: địa điểm tổ chức ngoài trời
+  evidence: corpus
+synonyms:
+- word: location
+  meaning_vi: vị trí, địa điểm
+- word: site
+  meaning_vi: khu vực tổ chức
+- word: setting
+  meaning_vi: khung cảnh địa điểm
+examples:
+- en: The convention center serves as an ideal venue for hosting international trade expos.
+  vi: Trung tâm hội nghị đóng vai trò là một địa điểm lý tưởng để tổ chức các triển lãm thương mại quốc tế.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈven/, âm thứ hai là /juː/ có âm bán nguyên âm /j/ lướt nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

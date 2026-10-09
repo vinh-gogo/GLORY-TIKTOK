@@ -1,0 +1,71 @@
+schema_version: 2
+id: maintenance
+lemma: maintenance
+pos:
+- noun
+ipa:
+  us: /ˈmeɪntənəns/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- equipment
+- manufacturing
+- technology
+speaking_use:
+- read-aloud
+- respond-with-info
+- respond-to-questions
+senses:
+- id: maintenance-1
+  meaning_vi: Sự bảo trì, bảo dưỡng định kỳ máy móc/thiết bị
+  note_vi: Rất hay gặp trong Part 1 (thông báo máy in/thang máy bảo trì) và Part 4
+    (lịch bảo trì hệ thống).
+collocations:
+- phrase: routine maintenance
+  meaning_vi: bảo trì định kỳ thường xuyên
+  evidence: corpus
+- phrase: maintenance schedule
+  meaning_vi: lịch trình bảo dưỡng định kỳ
+  evidence: corpus
+- phrase: under maintenance
+  meaning_vi: đang trong quá trình bảo trì
+  evidence: corpus
+- phrase: maintenance worker
+  meaning_vi: nhân viên bảo trì
+  evidence: corpus
+confused_words:
+- word: maintain
+  ipa: /meɪnˈteɪn/
+  meaning: duy trì, bảo dưỡng (động từ)
+  kind: spelling-sound
+  difference_vi: Động từ maintain nhấn âm hai /meɪnˈteɪn/; danh từ maintenance nhấn
+    âm đầu /ˈmeɪntənəns/.
+confusing_meanings:
+- word: repair
+  meaning: sửa chữa đồ đã hỏng
+  difference_vi: Repair là khắc phục khi đồ vật đã bị hỏng; maintenance là chăm sóc
+    bảo dưỡng định kỳ để ngăn ngừa hư hỏng.
+synonyms:
+- word: upkeep
+  meaning_vi: sự gìn giữ bảo dưỡng
+- word: servicing
+  meaning_vi: sự bảo trì máy móc
+examples:
+- en: The office elevator will be temporarily out of service this Saturday for scheduled
+    maintenance.
+  vi: Thang máy văn phòng sẽ tạm thời ngừng hoạt động vào thứ Bảy này để tiến hành
+    bảo trì theo kế hoạch.
+pronunciation_tips_vi: 'LƯU Ý TRỌNG ÂM: Khác với động từ maintain nhấn âm hai, danh
+  từ maintenance nhấn âm ĐẦU /ˈmeɪn-/, hai âm sau là schwa /-tənəns/.'
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

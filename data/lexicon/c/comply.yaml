@@ -1,0 +1,58 @@
+schema_version: 2
+id: comply
+lemma: comply
+pos:
+- verb
+ipa:
+  us: /kəmˈplaɪ/
+  uk: /kəmˈplaɪ/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- legal-compliance
+- management-operations
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: comply-1
+  meaning_vi: Tuân thủ, chấp hành đúng các quy định, điều lệ hoặc luật an toàn lao động
+  note_vi: 'Đi kèm giới từ with: comply with regulations / standards.'
+confused_words:
+- word: apply
+  ipa: /əˈplaɪ/
+  difference_vi: Apply là nộp đơn ứng tuyển hoặc áp dụng; comply là tuân thủ quy chuẩn.
+confusing_meanings:
+- difference_vi: Comply with safety codes = tuân thủ các quy tắc an toàn; failure to comply = sự không tuân thủ.
+collocations:
+- phrase: comply with regulations
+  meaning_vi: tuân thủ các quy định hiện hành
+  evidence: corpus
+- phrase: comply with safety standards
+  meaning_vi: tuân thủ các tiêu chuẩn an toàn
+  evidence: corpus
+- phrase: failure to comply
+  meaning_vi: sự không chấp hành quy định
+  evidence: corpus
+synonyms:
+- word: obey
+  meaning_vi: vâng lời, tuân lệnh
+- word: conform
+  meaning_vi: phù hợp quy chuẩn
+- word: abide by
+  meaning_vi: tuân theo cam kết
+examples:
+- en: All building plans must strictly comply with national environmental protection standards.
+  vi: Tất cả các bản thiết kế xây dựng phải tuân thủ nghiêm ngặt các tiêu chuẩn bảo vệ môi trường quốc gia.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /plaɪ/, nhị trùng âm /aɪ/ ngân dài.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

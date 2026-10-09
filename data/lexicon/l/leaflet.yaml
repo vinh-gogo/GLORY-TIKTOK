@@ -1,0 +1,59 @@
+schema_version: 2
+id: leaflet
+lemma: leaflet
+pos:
+- noun
+ipa:
+  us: /ˈliːflət/
+  uk: /ˈliːflət/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- marketing-advertising
+speaking_use:
+- describe-picture
+- respond-to-questions
+senses:
+- id: leaflet-1
+  meaning_vi: Tờ rơi quảng cáo hoặc truyền đơn thông tin (thường là 1 tờ in 2 mặt)
+  note_vi: Được phát trực tiếp trên đường phố hoặc để tại các quầy thông tin.
+confused_words:
+- word: leaf
+  ipa: /liːf/
+  difference_vi: Leaf là chiếc lá cây; leaflet là tờ rơi thông tin.
+- word: flyer
+  ipa: /ˈflaɪər/
+  difference_vi: Flyer và leaflet đều là tờ rơi, flyer thường là 1 tờ đơn giản in màu, leaflet có thể gấp lại thành các nếp.
+confusing_meanings:
+- difference_vi: Informational leaflet = tờ rơi cung cấp thông tin y tế/chỉ dẫn; marketing leaflet = tờ rơi khuyến mãi giảm
+    giá.
+collocations:
+- phrase: informational leaflet
+  meaning_vi: tờ rơi cung cấp thông tin chỉ dẫn
+  evidence: corpus
+- phrase: hand out leaflets
+  meaning_vi: phát tờ rơi tận tay
+  evidence: corpus
+- phrase: advertising leaflet
+  meaning_vi: tờ rơi quảng cáo thương mại
+  evidence: corpus
+synonyms:
+- word: flyer
+  meaning_vi: tờ rơi
+- word: handout
+  meaning_vi: tài liệu phát tay
+examples:
+- en: Volunteers stood at the station entrance handing out leaflets about the upcoming charity event.
+  vi: Các tình nguyện viên đã đứng ở lối vào nhà ga để phát tờ rơi về sự kiện từ thiện sắp tới.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈliːf/, nguyên âm /iː/ dài, âm đuôi /lət/ phát âm nhanh dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,56 @@
+schema_version: 2
+id: occupancy
+lemma: occupancy
+pos:
+- noun
+ipa:
+  us: /ˈɑːkjəpənsi/
+  uk: /ˈɒkjəpənsi/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- real-estate-construction
+- hospitality-travel
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: occupancy-1
+  meaning_vi: Tỷ lệ lấp đầy phòng khách sạn hoặc mặt bằng tòa nhà; tình trạng sử dụng mặt bằng
+  note_vi: Chỉ số kinh doanh cốt lõi của ngành khách sạn và bất động sản (occupancy rate).
+confused_words:
+- word: occupation
+  ipa: /ˌɑːkjuˈpeɪʃn/
+  difference_vi: Occupation là nghề nghiệp chuyên môn hoặc sự chiếm đóng; occupancy là tỷ lệ sử dụng lấp đầy phòng ốc.
+confusing_meanings:
+- difference_vi: Occupancy rate = tỷ lệ lấp đầy phòng; maximum occupancy = số lượng người tối đa được phép cư trú trong phòng.
+collocations:
+- phrase: occupancy rate
+  meaning_vi: tỷ lệ lấp đầy buồng phòng
+  evidence: corpus
+- phrase: maximum occupancy
+  meaning_vi: sức chứa tối đa người cho phép
+  evidence: corpus
+- phrase: single occupancy
+  meaning_vi: ở một người một phòng
+  evidence: corpus
+synonyms:
+- word: tenancy
+  meaning_vi: thời gian thuê mướn
+- word: utilization rate
+  meaning_vi: tỷ lệ tận dụng công suất
+examples:
+- en: During the peak summer festival, coastal resorts recorded an average occupancy rate of ninety-five percent.
+  vi: Trong dịp lễ hội mùa hè cao điểm, các khu nghỉ dưỡng ven biển đã ghi nhận tỷ lệ lấp đầy phòng trung bình đạt 95%.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈɑːk/, âm tiết thứ hai đọc là /jə/ nhẹ, kết thúc bằng /si/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,58 @@
+schema_version: 2
+id: feedback
+lemma: feedback
+pos:
+- noun
+ipa:
+  us: /ˈfiːdbæk/
+  uk: /ˈfiːdbæk/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- sales-customer-service
+- management-operations
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: feedback-1
+  meaning_vi: Ý kiến phản hồi, nhận xét đánh giá của khách hàng hoặc cấp trên
+  note_vi: Là danh từ không đếm được (uncountable noun), không thêm số nhiều -s.
+confused_words:
+- word: feed
+  ipa: /fiːd/
+  difference_vi: Feed là cho ăn hoặc cung cấp dữ liệu; feedback là ý kiến đánh giá phản hồi.
+confusing_meanings:
+- difference_vi: Positive feedback = lời khen ngợi phản hồi tốt; constructive feedback = góp ý mang tính xây dựng.
+collocations:
+- phrase: customer feedback
+  meaning_vi: phản hồi từ khách hàng
+  evidence: corpus
+- phrase: provide constructive feedback
+  meaning_vi: đưa ra ý kiến đóng góp mang tính xây dựng
+  evidence: corpus
+- phrase: feedback form
+  meaning_vi: phiếu lấy ý kiến phản hồi
+  evidence: corpus
+synonyms:
+- word: comments
+  meaning_vi: bình luận, ý kiến
+- word: evaluation
+  meaning_vi: đánh giá
+- word: response
+  meaning_vi: phản hồi
+examples:
+- en: We appreciate your feedback and will use your suggestions to improve our customer support.
+  vi: Chúng tôi rất trân trọng phản hồi của bạn và sẽ sử dụng những đề xuất này để cải thiện dịch vụ hỗ trợ khách hàng.
+pronunciation_tips_vi: Từ ghép gồm 'feed' /fiːd/ và 'back' /bæk/, trọng âm chính nhấn ở /ˈfiːd/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

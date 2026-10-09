@@ -1,0 +1,59 @@
+schema_version: 2
+id: vacate
+lemma: vacate
+pos:
+- verb
+ipa:
+  us: /ˈveɪkeɪt/
+  uk: /vəˈkeɪt/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- real-estate-construction
+- hospitality-travel
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: vacate-1
+  meaning_vi: Bàn giao lại mặt bằng, dọn sạch đồ đạc rời đi khỏi phòng hoặc chức vụ
+  note_vi: Thường dùng khi hết hạn thuê nhà hoặc thời hạn trả phòng khách sạn (check-out).
+confused_words:
+- word: vacation
+  ipa: /veɪˈkeɪʃn/
+  difference_vi: Vacation là kỳ nghỉ phép dưỡng sức; vacate là hành động dọn đồ rời khỏi phòng hoặc văn phòng.
+confusing_meanings:
+- difference_vi: Vacate the premises = dọn khỏi khu nhà mặt bằng; vacate an office = rời khỏi phòng làm việc/từ bỏ vị trí
+    chức danh.
+collocations:
+- phrase: vacate the premises
+  meaning_vi: dọn sạch đồ rời khỏi mặt bằng
+  evidence: corpus
+- phrase: vacate a hotel room
+  meaning_vi: trả phòng khách sạn đúng giờ
+  evidence: corpus
+- phrase: notice to vacate
+  meaning_vi: thông báo yêu cầu chuyển đi
+  evidence: corpus
+synonyms:
+- word: leave
+  meaning_vi: rời đi
+- word: evacuate
+  meaning_vi: sơ tán, di tản khỏi
+- word: clear out
+  meaning_vi: dọn sạch sẽ ra ngoài
+examples:
+- en: Guests are kindly requested to vacate their rooms by 11:00 AM on the day of departure.
+  vi: Kính đề nghị quý khách dọn đồ trả phòng trước 11:00 trưa vào ngày khởi hành.
+pronunciation_tips_vi: Trong tiếng Mỹ nhấn âm 1 /ˈveɪkeɪt/, nhị trùng âm /eɪ/ lặp lại ở cả hai âm tiết.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

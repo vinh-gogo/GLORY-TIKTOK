@@ -1,0 +1,37 @@
+# Project Intelligence & Rules: GLORY-TIKTOK (.clinerules)
+
+## 1. Core Operating Rules (Strictly Enforced)
+
+1. **Mandatory Reading:** Always consult `PLAN_MO_RONG_Glory01_TOEIC_Speaking.md` (specifically sections 2, 3, and 6) and the Memory Bank (`memory-bank/*`) before modifying code or data.
+2. **Zero Hallucination:** Never guess or hallucinate IPA phonetics, definitions, or collocations. If unverified, mark with `review.status: needs_review` and document the reason.
+3. **Original Content Only:** Never copy official ETS test questions or verbatim copyright dictionary entries (Cambridge, Oxford, Longman). Write original "ETS-style" content.
+4. **URL Immutability:** Never modify existing slugs, aliases, or URLs (e.g. `/013`, `/words/<lemma>`). If a redirection is unavoidable, register it in `static/_redirects` and write an ADR in `docs/adr/`.
+5. **Mandatory Verification Gate:** Every change to data or templates must pass:
+   - `python scripts/validate/validate.py` (Must report 0 errors)
+   - `hugo --gc --minify` (Must build cleanly with 0 errors)
+6. **Single Source of Truth for Exam Parameters:** All exam timings (preparation seconds, speaking seconds) and question structures must be read from `data/exam/toeic-speaking.yaml`. Never hardcode seconds or question counts elsewhere.
+7. **Vietnamese Language Standards:** Always use full, correct Vietnamese diacritics. Keep standardized English technical terms intact (e.g. *collocation*, *shadowing*, *prompt*, *schema*).
+8. **Task Reporting:** Each task must address a clear single objective, documenting what was done, how it was verified, and any remaining questions or uncertainties.
+9. **Architectural Decisions:** New architectural choices or paradigm shifts must be documented as an ADR in `docs/adr/`.
+10. **Privacy First:** Never collect personal user data or upload user voice recordings without explicit opt-in consent.
+11. **Official Authority:** In case of discrepancies between project documentation and official ETS guidelines, prioritize official ETS documentation and document the discrepancy.
+
+---
+
+## 2. Technical Insights & Learned Patterns
+
+### 2.1. Git & Environment on Windows
+- Work is performed on the `dev` branch. Never push experimental work to `main` to preserve CI quotas.
+- On Windows with sandbox tools, Git operations that write to `.git` or inspect submodules (`themes/PaperMod`) can fail with permission errors unless executed unsandboxed (`BypassSandbox: true`). Run Git commands with bypass when necessary.
+
+### 2.2. CSS Grid & Defensive Sizing
+- In CSS Grid layouts, `1fr` defaults to `minmax(auto, 1fr)`. Inner content with long text will stretch the track wider than intended.
+- Always use `minmax(0, 1fr)` for multi-column grids containing dynamic text (such as navigation cards).
+- Pair with `min-width: 0; max-width: 100%; overflow: hidden;` on flex/grid containers, and `white-space: nowrap; text-overflow: ellipsis;` on text labels.
+
+### 2.3. PaperMod Theme Overrides
+- PaperMod defines `display: block; overflow-x: auto;` on tables in its `reset.css`. This prevents `thead` from having `position: sticky; top: 0;`.
+- To fix sticky table headers, place `overflow: auto` on an outer container wrapper (`.glossary-table-container`) and reset `table { display: table !important; }`.
+
+### 2.4. Memory Bank Maintenance
+- When prompted with "update memory bank", review and update all 6 core files in `memory-bank/`, paying special attention to `activeContext.md` and `progress.md`.

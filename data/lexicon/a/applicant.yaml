@@ -1,0 +1,64 @@
+schema_version: 2
+id: applicant
+lemma: applicant
+pos:
+  - noun
+ipa:
+  us: "/ˈæplɪkənt/"
+level:
+  cefr: B1
+  band: core
+  basis: "editorial"
+topics:
+  - hiring
+  - work
+speaking_use:
+  - respond-with-info
+  - respond-to-questions
+  - express-opinion
+senses:
+  - id: applicant-1
+    meaning_vi: "Người nộp hồ sơ xin việc, ứng viên"
+    note_vi: "Xuất hiện thường xuyên trong bối cảnh tuyển dụng, phỏng vấn xin việc (Part 3, 4, 5)."
+collocations:
+  - phrase: "job applicant"
+    meaning_vi: "người nộp hồ sơ xin việc"
+    evidence: "corpus"
+  - phrase: "successful applicant"
+    meaning_vi: "ứng viên trúng tuyển"
+    evidence: "corpus"
+  - phrase: "qualified applicant"
+    meaning_vi: "ứng viên đủ điều kiện/năng lực"
+    evidence: "corpus"
+  - phrase: "screen applicants"
+    meaning_vi: "sàng lọc hồ sơ ứng viên"
+    evidence: "corpus"
+confused_words:
+  - word: "appliance"
+    ipa: "/əˈplaɪəns/"
+    meaning: "thiết bị gia dụng"
+    kind: "spelling-sound"
+    difference_vi: "Applicant chỉ người xin việc (hậu tố -ant chỉ người); appliance là thiết bị máy móc trong nhà (household appliances)."
+confusing_meanings:
+  - word: "candidate"
+    meaning: "ứng viên (đã lọt vào danh sách xét chọn)"
+    difference_vi: "Applicant là người nộp đơn (giai đoạn đầu); candidate là ứng viên tiềm năng đã vượt qua sàng lọc hồ sơ để vào vòng trong."
+synonyms:
+  - word: "candidate"
+    meaning_vi: "ứng viên"
+  - word: "seeker"
+    meaning_vi: "người tìm kiếm (job seeker)"
+examples:
+  - en: "The human resources team interviewed over thirty qualified applicants for the position."
+    vi: "Bộ phận nhân sự đã phỏng vấn hơn ba mươi ứng viên đủ tiêu chuẩn cho vị trí này."
+pronunciation_tips_vi: "Trọng âm rơi vào âm tiết đầu /ˈæp/. Âm đuôi /-kənt/ phát âm schwa /ə/ ngắn, bật nhẹ âm /t/ cuối."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

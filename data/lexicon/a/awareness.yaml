@@ -1,0 +1,56 @@
+schema_version: 2
+id: awareness
+lemma: awareness
+pos:
+- noun
+ipa:
+  us: /əˈwernəs/
+  uk: /əˈweənəs/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- marketing-advertising
+- management-operations
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: awareness-1
+  meaning_vi: Nhận thức, mức độ hiểu biết hoặc nhận diện về một thương hiệu / vấn đề xã hội
+  note_vi: 'Collocation kinh điển: raise awareness (nâng cao nhận thức), brand awareness (độ nhận diện thương hiệu).'
+confused_words:
+- word: aware
+  ipa: /əˈwer/
+  difference_vi: Aware là tính từ có nhận thức; awareness là danh từ mức độ nhận thức.
+confusing_meanings:
+- difference_vi: Brand awareness = độ nhận diện thương hiệu trong công chúng; safety awareness = ý thức an toàn lao động.
+collocations:
+- phrase: raise awareness
+  meaning_vi: nâng cao nhận thức cộng đồng
+  evidence: corpus
+- phrase: brand awareness
+  meaning_vi: mức độ nhận diện thương hiệu
+  evidence: corpus
+- phrase: environmental awareness
+  meaning_vi: ý thức bảo vệ môi trường
+  evidence: corpus
+synonyms:
+- word: consciousness
+  meaning_vi: sự tỉnh thức, ý thức
+- word: recognition
+  meaning_vi: sự nhận biết, công nhận
+examples:
+- en: The social media campaign significantly boosted brand awareness among young urban professionals.
+  vi: Chiến dịch truyền thông xã hội đã nâng cao đáng kể độ nhận diện thương hiệu trong giới chuyên gia trẻ ở đô thị.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈwer/, âm đầu lướt nhẹ /ə/, kết thúc bằng /nəs/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

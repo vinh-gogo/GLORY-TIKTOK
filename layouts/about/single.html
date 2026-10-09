@@ -1,0 +1,254 @@
+{{- define "main" }}
+<div class="about-page-container">
+  
+  <!-- Breadcrumb -->
+  <nav class="about-breadcrumb" aria-label="Breadcrumb">
+    <a href="/" class="about-bc-link">Trang chủ</a>
+    <span class="about-bc-sep">/</span>
+    <span class="about-bc-current">Giới thiệu & Creator</span>
+  </nav>
+
+  <!-- Hero Profile Section -->
+  <section class="about-hero-card">
+    <div class="about-hero-main">
+      <div class="about-avatar-box">
+        <div class="about-avatar-glow"></div>
+        <div class="about-avatar-inner">
+          <svg class="about-hero-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="56" height="56" fill="none">
+            <defs>
+              <linearGradient id="about-logo-grad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#3b82f6"/>
+                <stop offset="100%" stop-color="#1d4ed8"/>
+              </linearGradient>
+            </defs>
+            <rect width="32" height="32" rx="9" fill="url(#about-logo-grad)"/>
+            <path d="M16 2.5L16.9 5.8L20 6.8L16.9 7.8L16 11L15.1 7.8L12 6.8L15.1 5.8Z" fill="#fbbf24"/>
+            <circle cx="23.5" cy="5.5" r="1" fill="#fde68a"/>
+            <path d="M6.5 21.5C9.5 20 13 20 16 22C19 20 22.5 20 25.5 21.5V11C22.5 9.5 19 9.5 16 11.5C13 9.5 9.5 9.5 6.5 11V21.5Z" fill="#ffffff" fill-opacity="0.96"/>
+            <path d="M16 11.5V22" stroke="#2563eb" stroke-width="1.4" stroke-linecap="round"/>
+            <circle cx="11.2" cy="14.8" r="1.1" fill="#1e293b"/>
+            <circle cx="20.8" cy="14.8" r="1.1" fill="#1e293b"/>
+            <circle cx="9.6" cy="16.6" r="1" fill="#f472b6" fill-opacity="0.85"/>
+            <circle cx="22.4" cy="16.6" r="1" fill="#f472b6" fill-opacity="0.85"/>
+            <path d="M14.5 15.6C15 16.8 17 16.8 17.5 15.6" stroke="#2563eb" stroke-width="1.2" stroke-linecap="round" fill="none"/>
+          </svg>
+        </div>
+        <span class="about-online-badge" title="Đang hoạt động trên TikTok"></span>
+      </div>
+
+      <div class="about-hero-details">
+        <div class="about-hero-badge-group">
+          <span class="about-badge-role">Creator • TOEIC Speaking Lab</span>
+          <span class="about-badge-status">Học qua phản xạ</span>
+        </div>
+        <h1 class="about-hero-title">
+          Glory 01
+          <svg class="about-verified-icon" viewBox="0 0 24 24" width="22" height="22" fill="#3b82f6" title="Verified Creator">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+          </svg>
+        </h1>
+        <p class="about-hero-handle">
+          TikTok: <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer" class="about-handle-link">@wbk.lqv ↗</a>
+        </p>
+        <p class="about-hero-bio">
+          Biến những clip 60 giây lướt TikTok thành kiến thức đọng lại: Phiên âm IPA chuẩn xác, collocations thực chiến và đồng hồ đếm ngược mô phỏng áp lực phòng thi.
+        </p>
+      </div>
+    </div>
+
+    <div class="about-hero-actions">
+      <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer" class="about-cta-tiktok">
+        <svg class="about-tiktok-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.49 6.34 6.34 0 0 0 1.95-4.49V8.52a8.27 8.27 0 0 0 4.82 1.54v-3.37a4.83 4.83 0 0 1-1-.0z"/>
+        </svg>
+        <span>Ghé thăm TikTok @wbk.lqv</span>
+      </a>
+
+      <a href="/glossary/" class="about-cta-glossary">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+        </svg>
+        <span>Tra cứu 213+ từ vựng A–Z</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Story & Philosophy Section -->
+  <section class="about-section about-story-block">
+    <div class="about-section-header">
+      <span class="about-tag">Lời tâm sự</span>
+      <h2 class="about-section-title">Tại sao chiếc web này lại có mặt ở đây?</h2>
+    </div>
+
+    <div class="about-story-content">
+      <p>
+        Chào bạn, mình là người đứng sau kênh TikTok <strong>Glory 01</strong> (<strong>@wbk.lqv</strong>).
+      </p>
+      <p>
+        Nếu bạn cũng từng giống mình: xem rất nhiều clip dạy tiếng Anh trên mạng, gật gù khen hay, bấm thả tim lưu lại... nhưng đến khi bước vào phòng thi hoặc có người hỏi một câu tiếng Anh thì <strong>đầu óc trống rỗng, mở miệng ra là ngập ngừng, ấp úng</strong> — thì bạn sẽ hiểu vì sao mình tạo ra trang web này.
+      </p>
+      <p>
+        TikTok là một nơi tuyệt vời để truyền cảm hứng và tiếp cận ngữ điệu tự nhiên trong 60 giây. Nhưng <strong>nói tiếng Anh là một kỹ năng cơ bắp (muscle memory)</strong>. Bạn không thể nói lưu loát nếu chỉ lướt video một cách thụ động. Bạn cần phải nhìn rõ từng âm tiết IPA, ngấm các cụm collocations ăn điểm và quan trọng nhất: <em>tự mở miệng nói to thành tiếng dưới áp lực của đồng hồ đếm ngược</em>.
+      </p>
+      <p>
+        Vì vậy, <strong>Glory 01 – Blog</strong> được xây dựng như một <strong>phòng lab tự luyện nói</strong>: Mỗi video TikTok đều được gắn một mã số bài học cố định (như <code>/001</code>, <code>/002</code>, <code>/013</code>...). Bạn chỉ cần gõ link là có ngay bảng từ vựng chuẩn hóa, các bẫy phát âm cần tránh và đồng hồ thi bấm giờ mô phỏng y hệt kỳ thi thật.
+      </p>
+    </div>
+  </section>
+
+  <!-- Key Pillars Bento Grid -->
+  <section class="about-section">
+    <div class="about-section-header">
+      <span class="about-tag">Điểm khác biệt</span>
+      <h2 class="about-section-title">3 giá trị cốt lõi bạn nhận được tại Glory 01</h2>
+    </div>
+
+    <div class="about-bento-grid">
+      <!-- Card 1 -->
+      <div class="about-bento-card">
+        <div class="about-card-icon-wrap icon-blue">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
+          </svg>
+        </div>
+        <h3 class="about-card-title">Không sợ trôi bài học</h3>
+        <p class="about-card-desc">
+          Thuật toán mạng xã hội sẽ cuốn trôi video rất nhanh. Tại đây, mọi bài học đều có địa chỉ cố định dạng <code>/013</code>. Muốn ôn lại chủ đề nào, bạn chỉ cần gõ URL hoặc mở danh sách bài học là thấy ngay toàn bộ ghi chú.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="about-bento-card">
+        <div class="about-card-icon-wrap icon-emerald">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <line x1="12" y1="19" x2="12" y2="23"/>
+            <line x1="8" y1="23" x2="16" y2="23"/>
+          </svg>
+        </div>
+        <h3 class="about-card-title">Trị 'nuốt âm' & sai trọng âm</h3>
+        <p class="about-card-desc">
+          Người Việt chúng mình rất hay nuốt âm đuôi (-s, -ed, -t, -d) hoặc đánh sai trọng âm khiến người bản xứ khó hiểu. Từng từ vựng ở đây đều có phiên âm IPA chuẩn xác, chỉ rõ từ dễ nhầm lẫn và lưu ý phát âm đặc biệt.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="about-bento-card">
+        <div class="about-card-icon-wrap icon-amber">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <h3 class="about-card-title">Luyện cùng áp lực đồng hồ</h3>
+        <p class="about-card-desc">
+          Vào phòng thi TOEIC Speaking tại IIG, bạn chỉ có 30s chuẩn bị và 45s để nói trước màn hình máy tính. Đồng hồ bấm giờ trên web mô phỏng đúng từng giây chuẩn bị và nói để bạn rèn tâm lý thép trước ngày thi.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3-Step Study Loop -->
+  <section class="about-section about-loop-section">
+    <div class="about-section-header">
+      <span class="about-tag">Phương pháp</span>
+      <h2 class="about-section-title">Quy trình học 3 bước mỗi ngày</h2>
+    </div>
+
+    <div class="about-steps-container">
+      <div class="about-step-item">
+        <div class="about-step-number">01</div>
+        <div class="about-step-body">
+          <h3 class="about-step-title">Bắt nhịp (45s trên TikTok @wbk.lqv)</h3>
+          <p class="about-step-text">
+            Xem video bài học ngắn để cảm nhận ngữ điệu tự nhiên, bắt chước khẩu hình miệng và nghe cách nối âm của người nói.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-step-arrow">→</div>
+
+      <div class="about-step-item">
+        <div class="about-step-number">02</div>
+        <div class="about-step-body">
+          <h3 class="about-step-title">Bóc tách (3 phút trên Web)</h3>
+          <p class="about-step-text">
+            Mở bài học tương ứng (vd: <code>/013</code>), tra cứu phiên âm IPA, học thuộc ít nhất 2 collocations đi kèm và đọc kỹ bẫy phát âm.
+          </p>
+        </div>
+      </div>
+
+      <div class="about-step-arrow">→</div>
+
+      <div class="about-step-item">
+        <div class="about-step-number">03</div>
+        <div class="about-step-body">
+          <h3 class="about-step-title">Phản xạ (5 phút bấm giờ)</h3>
+          <p class="about-step-text">
+            Bật đồng hồ đếm ngược, nhìn prompt đề bài và tự mở miệng nói to rõ ràng trước micro cho đến khi hết giờ.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Commitments & Manifesto -->
+  <section class="about-section about-manifesto-box">
+    <div class="about-section-header">
+      <span class="about-tag">Nguyên tắc biên soạn</span>
+      <h2 class="about-section-title">Cam kết chất lượng nội dung</h2>
+    </div>
+
+    <div class="about-manifesto-grid">
+      <div class="about-manifesto-item">
+        <span class="about-check-icon">✓</span>
+        <div>
+          <strong>Nội dung gốc chuẩn ETS:</strong> 100% đề thi mô phỏng và câu trả lời mẫu do Glory 01 tự biên soạn theo chuẩn đề thi ETS, không sao chép đề thi thật hay câu chữ từ điển có bản quyền.
+        </div>
+      </div>
+
+      <div class="about-manifesto-item">
+        <span class="about-check-icon">✓</span>
+        <div>
+          <strong>Không đoán mò / Không bịa đặt:</strong> Từng phiên âm IPA và ví dụ đều được đối chiếu cẩn trọng. Mục nào chưa chắc chắn sẽ được gắn nhãn kiểm tra rõ ràng.
+        </div>
+      </div>
+
+      <div class="about-manifesto-item">
+        <span class="about-check-icon">✓</span>
+        <div>
+          <strong>Phi lợi nhuận & Tôn trọng quyền riêng tư:</strong> Trang web hoàn toàn không gắn quảng cáo gây phiền toái. Mọi dữ liệu luyện tập và ghi âm thử của bạn đều ở lại an toàn trên trình duyệt máy bạn.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connect Card -->
+  <section class="about-connect-card">
+    <div class="about-connect-left">
+      <h3 class="about-connect-title">Kết nối & Cùng trao đổi với Glory 01</h3>
+      <p class="about-connect-desc">
+        Bạn có câu hỏi về phát âm, muốn góp ý cho website hay muốn đề xuất chủ đề từ vựng làm clip tiếp theo? Đừng ngần ngại nhắn tin cho mình qua kênh TikTok nhé!
+      </p>
+    </div>
+    <div class="about-connect-right">
+      <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer" class="about-connect-btn">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.49 6.34 6.34 0 0 0 1.95-4.49V8.52a8.27 8.27 0 0 0 4.82 1.54v-3.37a4.83 4.83 0 0 1-1-.0z"/>
+        </svg>
+        <span>Nhắn tin qua TikTok @wbk.lqv</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Legal Disclaimer -->
+  <footer class="about-disclaimer-box">
+    <p>
+      <strong>Lưu ý miễn trừ trách nhiệm (ETS Disclaimer):</strong> Trang web và kênh nội dung <strong>Glory 01</strong> được xây dựng độc lập nhằm mục đích học tập phi lợi nhuận cho cộng đồng tự ôn thi tiếng Anh. Chúng mình không có bất kỳ liên kết, ủy quyền hay tài trợ chính thức nào từ Viện Khảo thí Giáo dục Hoa Kỳ (ETS) hay đơn vị tổ chức thi tại Việt Nam (IIG Vietnam). Nhãn hiệu TOEIC® thuộc bản quyền sở hữu của ETS.
+    </p>
+  </footer>
+
+</div>
+{{- end }}

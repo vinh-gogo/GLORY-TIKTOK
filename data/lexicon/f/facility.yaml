@@ -1,0 +1,71 @@
+schema_version: 2
+id: facility
+lemma: facility
+pos:
+- noun
+ipa:
+  us: /fəˈsɪləti/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- manufacturing
+- business
+- events
+speaking_use:
+- describe-picture
+- respond-with-info
+- respond-to-questions
+senses:
+- id: facility-1
+  meaning_vi: Cơ sở vật chất, nhà máy, trang thiết bị tiện nghi
+  note_vi: Từ bao quát chỉ nhà xưởng sản xuất, trung tâm thể thao, hoặc cơ sở hạ tầng
+    văn phòng.
+collocations:
+- phrase: manufacturing facility
+  meaning_vi: cơ sở / nhà máy sản xuất
+  evidence: corpus
+- phrase: state-of-the-art facility
+  meaning_vi: cơ sở hạ tầng tối tân hiện đại
+  evidence: corpus
+- phrase: facility management
+  meaning_vi: quản lý cơ sở vật chất
+  evidence: corpus
+- phrase: research facility
+  meaning_vi: cơ sở nghiên cứu khoa học
+  evidence: corpus
+confused_words:
+- word: faculty
+  ipa: /ˈfæklti/
+  meaning: đội ngũ giảng viên, khoa trường đại học
+  kind: spelling-sound
+  difference_vi: Facility là cơ sở hạ tầng vật chất; faculty là đội ngũ giảng viên
+    hoặc khả năng trí tuệ.
+confusing_meanings:
+- word: building
+  meaning: tòa nhà vật lý
+  difference_vi: Building là công trình xây dựng gạch đá; facility là toàn bộ tổ hợp
+    cơ sở vật chất phục vụ hoạt động cụ thể.
+synonyms:
+- word: establishment
+  meaning_vi: cơ sở
+- word: premises
+  meaning_vi: khuôn viên cơ sở
+examples:
+- en: The company invested ten million dollars to construct a state-of-the-art manufacturing
+    facility.
+  vi: Công ty đã đầu tư mười triệu đô la để xây dựng một nhà máy sản xuất hiện đại
+    bậc nhất.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈsɪl-/. Âm đầu là schwa
+  /fə-/, đuôi /-ti/ đọc dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

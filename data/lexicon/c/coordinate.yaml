@@ -1,0 +1,70 @@
+schema_version: 2
+id: coordinate
+lemma: coordinate
+pos:
+- verb
+ipa:
+  us: /koʊˈɔːrdɪneɪt/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- management
+- events
+- work
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: coordinate-1
+  meaning_vi: Điều phối, phối hợp nhịp nhàng các hoạt động/lịch trình
+  note_vi: Rất hay gặp khi nói về công việc của điều phối viên dự án hoặc tổ chức
+    sự kiện.
+collocations:
+- phrase: coordinate efforts
+  meaning_vi: phối hợp các nỗ lực
+  evidence: corpus
+- phrase: coordinate the schedule
+  meaning_vi: điều phối lịch trình công tác
+  evidence: corpus
+- phrase: project coordinator
+  meaning_vi: điều phối viên dự án
+  evidence: corpus
+- phrase: coordinate with other departments
+  meaning_vi: phối hợp cùng các phòng ban khác
+  evidence: corpus
+confused_words:
+- word: subordinate
+  ipa: /səˈbɔːrdɪnət/
+  meaning: cấp dưới, phụ thuộc
+  kind: spelling-sound
+  difference_vi: Coordinate là điều phối công việc; subordinate là nhân viên cấp dưới
+    trực tiếp.
+confusing_meanings:
+- word: manage
+  meaning: quản lý chỉ đạo
+  difference_vi: Manage là điều hành ra chỉ thị; coordinate là kết nối và sắp xếp
+    các mắt xích làm việc ăn ý với nhau.
+synonyms:
+- word: organize
+  meaning_vi: tổ chức sắp xếp
+- word: synchronize
+  meaning_vi: đồng bộ hóa
+examples:
+- en: The project coordinator will ensure all marketing materials are delivered before
+    the conference starts.
+  vi: Điều phối viên dự án sẽ đảm bảo tất cả tài liệu tiếp thị được chuyển đến trước
+    khi hội nghị bắt đầu.
+pronunciation_tips_vi: Khi là động từ, phát âm âm đuôi là /-neɪt/ có trọng âm phụ.
+  Âm đầu là /koʊ-/, âm tiết hai /-ˈɔːr-/ nhận trọng âm chính.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

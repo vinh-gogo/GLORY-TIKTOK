@@ -1,0 +1,55 @@
+schema_version: 2
+id: courier
+lemma: courier
+pos:
+- noun
+ipa:
+  us: /ˈkʊriər/
+  uk: /ˈkʊriə/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- shipping-logistics
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: courier-1
+  meaning_vi: Nhân viên chuyển phát nhanh, công ty dịch vụ chuyển phát thư từ và bưu kiện
+  note_vi: Dịch vụ giao tận tay người nhận với tốc độ nhanh và tính xác thực cao.
+confused_words:
+- word: carrier
+  ipa: /ˈkæriər/
+  difference_vi: Courier là chuyển phát nhanh bưu kiện tận tay; carrier là hãng vận chuyển lớn (đường biển, hàng không).
+confusing_meanings:
+- difference_vi: Send by courier = gửi bằng dịch vụ chuyển phát nhanh; motorcycle courier = nhân viên giao hàng bằng xe máy.
+collocations:
+- phrase: express courier
+  meaning_vi: dịch vụ chuyển phát hỏa tốc
+  evidence: corpus
+- phrase: send via courier
+  meaning_vi: gửi qua đường chuyển phát nhanh
+  evidence: corpus
+- phrase: courier service
+  meaning_vi: dịch vụ chuyển phát bưu kiện
+  evidence: corpus
+synonyms:
+- word: messenger
+  meaning_vi: người đưa tin
+- word: delivery person
+  meaning_vi: nhân viên giao hàng
+examples:
+- en: The legal contract was delivered by an express courier and signed by the recipient upon arrival.
+  vi: Hợp đồng pháp lý đã được chuyển phát bởi dịch vụ hỏa tốc và được người nhận ký tên ngay khi tới nơi.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈkʊr/, nguyên âm ngắn /ʊ/ như trong từ 'foot'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

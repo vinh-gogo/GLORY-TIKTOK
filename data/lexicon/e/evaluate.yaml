@@ -1,0 +1,69 @@
+schema_version: 2
+id: evaluate
+lemma: evaluate
+pos:
+- verb
+ipa:
+  us: /ɪˈvæljueɪt/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- management
+- business
+- budget
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: evaluate-1
+  meaning_vi: Đánh giá, thẩm định kỹ lưỡng (chất lượng, hiệu quả, tính khả thi)
+  note_vi: Dùng khi ban lãnh đạo xem xét dự án, khảo sát phản hồi khách hàng.
+collocations:
+- phrase: evaluate options
+  meaning_vi: xem xét đánh giá các phương án
+  evidence: corpus
+- phrase: evaluate performance
+  meaning_vi: đánh giá hiệu quả hoạt động
+  evidence: corpus
+- phrase: carefully evaluate
+  meaning_vi: cẩn trọng đánh giá
+  evidence: corpus
+- phrase: evaluate the results
+  meaning_vi: đánh giá các kết quả đạt được
+  evidence: corpus
+confused_words:
+- word: evacuate
+  ipa: /ɪˈvækjueɪt/
+  meaning: sơ tán khẩn cấp
+  kind: spelling-sound
+  difference_vi: Evaluate có âm /l/ mang nghĩa đánh giá; evacuate có âm /k/ mang nghĩa
+    sơ tán người ra khỏi nơi nguy hiểm.
+confusing_meanings:
+- word: calculate
+  meaning: tính toán số học thuần túy
+  difference_vi: Calculate là phép tính con số cụ thể; evaluate là phân tích tổng
+    hợp để đưa ra kết luận hoặc nhận xét giá trị.
+synonyms:
+- word: assess
+  meaning_vi: thẩm định
+- word: appraise
+  meaning_vi: định giá, đánh giá
+examples:
+- en: The executive committee will carefully evaluate all vendor proposals before
+    making a final choice.
+  vi: Ủy ban điều hành sẽ đánh giá cẩn thận tất cả các đề xuất từ nhà cung cấp trước
+    khi đưa ra lựa chọn cuối cùng.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈvæl-/. Âm cuối kết thúc
+  bằng /-ju-eɪt/, bật nhẹ âm /t/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

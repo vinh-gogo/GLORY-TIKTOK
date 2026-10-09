@@ -1,0 +1,60 @@
+schema_version: 2
+id: benchmark
+lemma: benchmark
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈbentʃmɑːrk/
+  uk: /ˈbentʃmɑːk/
+level:
+  band: advanced
+  cefr: C1
+  basis: TOEIC 750+
+topics:
+- production-quality-control
+- management-operations
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: benchmark-1
+  meaning_vi: Tiêu chuẩn đối sánh, mốc chuẩn chất lượng để đo lường và so sánh
+  note_vi: Mức chuẩn mực tốt nhất trong ngành để các doanh nghiệp khác noi theo phấn đấu.
+confused_words:
+- word: bench
+  ipa: /bentʃ/
+  difference_vi: Bench là chiếc ghế dài; benchmark là tiêu chuẩn đối chuẩn chất lượng.
+confusing_meanings:
+- difference_vi: Set a benchmark = đặt ra tiêu chuẩn chuẩn mực mới; benchmark against competitors = đối sánh năng lực với
+    đối thủ cạnh tranh.
+collocations:
+- phrase: industry benchmark
+  meaning_vi: chuẩn mực tiêu chuẩn của ngành
+  evidence: corpus
+- phrase: set a new benchmark
+  meaning_vi: thiết lập một mốc chuẩn mới
+  evidence: corpus
+- phrase: benchmark against
+  meaning_vi: so sánh đối chuẩn với đối thủ
+  evidence: corpus
+synonyms:
+- word: standard
+  meaning_vi: tiêu chuẩn
+- word: criterion
+  meaning_vi: tiêu chí đo lường
+- word: gauge
+  meaning_vi: thước đo
+examples:
+- en: The facility sets a high industry benchmark for energy efficiency and minimal carbon emissions.
+  vi: Cơ sở này đã thiết lập một chuẩn mực ngành rất cao về hiệu quả sử dụng năng lượng và giảm thiểu phát thải carbon.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈbentʃ/, âm thứ hai có âm /r/ uốn lưỡi rõ /ˈmɑːrk/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,55 @@
+schema_version: 2
+id: hospitality
+lemma: hospitality
+pos:
+- noun
+ipa:
+  us: /ˌhɑːspɪˈtæləti/
+  uk: /ˌhɒspɪˈtæləti/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- hospitality-travel
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: hospitality-1
+  meaning_vi: Lòng hiếu khách, sự đón tiếp niềm nở; ngành dịch vụ nhà hàng - khách sạn - du lịch
+  note_vi: Khái niệm chỉ toàn bộ khối ngành dịch vụ khách sạn ẩm thực (hospitality industry).
+confused_words:
+- word: hospital
+  ipa: /ˈhɑːspɪtl/
+  difference_vi: Hospital là bệnh viện y tế; hospitality là sự hiếu khách hoặc ngành kinh doanh khách sạn.
+confusing_meanings:
+- difference_vi: Warm hospitality = sự đón tiếp nồng hậu; hospitality sector = khối ngành dịch vụ du lịch khách sạn.
+collocations:
+- phrase: hospitality industry
+  meaning_vi: ngành công nghiệp dịch vụ khách sạn - nhà hàng
+  evidence: corpus
+- phrase: warm hospitality
+  meaning_vi: sự hiếu khách nồng ấm
+  evidence: corpus
+- phrase: hospitality suite
+  meaning_vi: phòng tiếp tân chiêu đãi khách quý
+  evidence: corpus
+synonyms:
+- word: welcoming service
+  meaning_vi: dịch vụ đón tiếp chu đáo
+- word: cordiality
+  meaning_vi: sự thân tình nồng hậu
+examples:
+- en: The resort is renowned for its warm hospitality and world-class customer care.
+  vi: Khu nghỉ dưỡng nổi tiếng với lòng hiếu khách nồng hậu và dịch vụ chăm sóc khách hàng đẳng cấp thế giới.
+pronunciation_tips_vi: Từ có 5 âm tiết, trọng âm chính rơi vào âm thứ ba /ˈtæl/, đừng nhầm sang từ 'hospital'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,57 @@
+schema_version: 2
+id: brand
+lemma: brand
+pos:
+- noun
+- verb
+ipa:
+  us: /brænd/
+  uk: /brænd/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- marketing-advertising
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: brand-1
+  meaning_vi: Thương hiệu, nhãn hiệu sản phẩm; (v) xây dựng nhận thức thương hiệu
+  note_vi: Khái niệm cốt lõi trong marketing bao gồm cả tên gọi, logo, uy tín và cảm nhận người dùng.
+confused_words:
+- word: blend
+  ipa: /blend/
+  difference_vi: Blend là sự pha trộn hỗn hợp; brand là nhãn hiệu thương hiệu.
+confusing_meanings:
+- difference_vi: Brand loyalty = lòng trung thành với thương hiệu; brand awareness = mức độ nhận biết thương hiệu của công
+    chúng.
+collocations:
+- phrase: brand awareness
+  meaning_vi: độ nhận diện thương hiệu
+  evidence: corpus
+- phrase: brand loyalty
+  meaning_vi: lòng trung thành của người dùng với nhãn hiệu
+  evidence: corpus
+- phrase: build a strong brand
+  meaning_vi: xây dựng thương hiệu vững mạnh
+  evidence: corpus
+synonyms:
+- word: trademark
+  meaning_vi: nhãn hiệu đã đăng ký bản quyền
+- word: label
+  meaning_vi: nhãn mác
+examples:
+- en: Investing in quality packaging helps build a strong brand image in the retail market.
+  vi: Đầu tư vào bao bì chất lượng giúp xây dựng hình ảnh thương hiệu vững chắc trên thị trường bán lẻ.
+pronunciation_tips_vi: Phát âm cụm phụ âm /br/ nhanh, nguyên âm /æ/ bẹt miệng, âm đuôi /nd/ ngân nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

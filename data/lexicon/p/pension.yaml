@@ -1,0 +1,57 @@
+schema_version: 2
+id: pension
+lemma: pension
+pos:
+- noun
+ipa:
+  us: /ˈpenʃn/
+  uk: /ˈpenʃn/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- salary-benefits
+- human-resources
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: pension-1
+  meaning_vi: Lương hưu, tiền trợ cấp hưu trí định kỳ
+  note_vi: Khoản chi trả cố định cho nhân viên sau khi hết tuổi lao động hoặc nghỉ hưu.
+confused_words:
+- word: tension
+  ipa: /ˈtenʃn/
+  difference_vi: Tension là sự căng thẳng áp lực; pension là tiền lương hưu trí.
+confusing_meanings:
+- difference_vi: State pension là lương hưu do chính phủ chi trả; company pension plan là quỹ hưu trí do doanh nghiệp đóng
+    góp.
+collocations:
+- phrase: pension scheme
+  meaning_vi: chế độ hưu trí / chương trình lương hưu
+  evidence: corpus
+- phrase: draw a pension
+  meaning_vi: lãnh nhận tiền lương hưu
+  evidence: corpus
+- phrase: pension contribution
+  meaning_vi: khoản đóng góp vào quỹ hưu trí
+  evidence: corpus
+synonyms:
+- word: retirement fund
+  meaning_vi: quỹ hưu trí
+- word: annuity
+  meaning_vi: tiền trợ cấp niên kim định kỳ
+examples:
+- en: All full-time employees are automatically enrolled in the corporate pension scheme.
+  vi: Tất cả nhân viên chính thức đều được tự động tham gia vào chương trình hưu trí của công ty.
+pronunciation_tips_vi: Âm đầu bật /p/, nguyên âm ngắn /e/, âm đuôi là /ʃn/ cong môi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

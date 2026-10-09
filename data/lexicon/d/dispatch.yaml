@@ -1,0 +1,58 @@
+schema_version: 2
+id: dispatch
+lemma: dispatch
+pos:
+- verb
+- noun
+ipa:
+  us: /dɪˈspætʃ/
+  uk: /dɪˈspætʃ/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- shipping-logistics
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: dispatch-1
+  meaning_vi: Gửi đi, phái đi, điều động đơn hàng xuất kho hoặc phương tiện cứu hộ
+  note_vi: Hành động cho xuất xưởng và chuyển giao hàng hóa cho bưu cục vận tải.
+confused_words:
+- word: patch
+  ipa: /pætʃ/
+  difference_vi: Patch là miếng vá bản vá; dispatch là xuất gửi đi.
+confusing_meanings:
+- difference_vi: Dispatch orders = xuất gửi các đơn hàng; dispatch an ambulance = điều xe cứu thương khẩn cấp.
+collocations:
+- phrase: dispatch orders
+  meaning_vi: gửi các đơn hàng đi
+  evidence: corpus
+- phrase: prompt dispatch
+  meaning_vi: sự gửi hàng nhanh chóng tức thì
+  evidence: corpus
+- phrase: ready for dispatch
+  meaning_vi: đã sẵn sàng để xuất xưởng gửi đi
+  evidence: corpus
+synonyms:
+- word: ship
+  meaning_vi: giao hàng
+- word: send off
+  meaning_vi: phái gửi đi
+- word: forward
+  meaning_vi: chuyển tiếp
+examples:
+- en: All orders placed before 2:00 PM are dispatched from our fulfillment center on the same business day.
+  vi: Tất cả các đơn đặt trước 2:00 chiều đều được xuất kho gửi đi từ trung tâm xử lý đơn trong cùng ngày làm việc.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈspætʃ/, nguyên âm /æ/ bẹt miệng, âm đuôi /tʃ/ bật rõ ràng.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

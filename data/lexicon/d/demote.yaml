@@ -1,0 +1,59 @@
+schema_version: 2
+id: demote
+lemma: demote
+pos:
+- verb
+ipa:
+  us: /dɪˈmoʊt/
+  uk: /dɪˈməʊt/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- human-resources
+- management-operations
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: demote-1
+  meaning_vi: Giáng chức, hạ bậc lương hoặc chuyển xuống vị trí thấp hơn
+  note_vi: Ngược nghĩa với promote (thăng chức).
+confused_words:
+- word: promote
+  ipa: /prəˈmoʊt/
+  difference_vi: Promote là thăng chức; demote là giáng chức.
+- word: remote
+  ipa: /rɪˈmoʊt/
+  difference_vi: Remote là xa xôi hoặc làm việc từ xa; demote là hạ cấp chức vụ.
+confusing_meanings:
+- difference_vi: Demote là hạ cấp bậc trong tổ chức vì sai phạm hoặc tái cơ cấu; khác với dismiss là cho thôi việc luôn.
+collocations:
+- phrase: demote to a lower rank
+  meaning_vi: giáng xuống cấp bậc thấp hơn
+  evidence: corpus
+- phrase: demote for misconduct
+  meaning_vi: bị giáng chức do vi phạm kỷ luật
+  evidence: corpus
+- phrase: face demotion
+  meaning_vi: đối mặt với nguy cơ bị giáng chức
+  evidence: corpus
+synonyms:
+- word: downgrade
+  meaning_vi: hạ cấp
+- word: relegate
+  meaning_vi: đẩy xuống vị trí thấp
+examples:
+- en: Following the accounting discrepancies, the finance director was demoted to an advisory role.
+  vi: Sau những sai lệch sổ sách kế toán, giám đốc tài chính đã bị giáng chức xuống vai trò cố vấn.
+pronunciation_tips_vi: Trọng âm rơi vào âm thứ hai /moʊt/ với nguyên âm đôi /oʊ/ tròn môi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

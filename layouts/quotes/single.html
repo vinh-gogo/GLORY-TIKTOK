@@ -1,0 +1,62 @@
+{{- define "main" }}
+{{- $laws := site.Data.quotes.laws }}
+<style>
+  /* Cho phép trang Câu nói hay mở rộng chiều ngang tối đa trên Desktop */
+  .main {
+    max-width: min(1440px, 95vw) !important;
+    width: 100% !important;
+  }
+</style>
+<div class="quotes-table-container">
+
+  <div class="quotes-page-header">
+    <div class="quotes-kicker">Triết Lý Thực Chiến • TOEIC Speaking</div>
+    <h1 class="quotes-simple-title">Câu Nói Hay &amp; Định Luật Công Sở</h1>
+    <p class="quotes-desc">Đúc kết từ những người đi trước xoay quanh các chủ đề cốt lõi của bài thi TOEIC Speaking. Mỗi định luật là một bài học đắt giá về tư duy giải quyết vấn đề và vận dụng tự nhiên các collocations ăn điểm.</p>
+  </div>
+
+  <div class="quotes-table-wrapper">
+    <table class="quotes-table">
+      <thead>
+        <tr>
+          <th class="th-en">Định luật &amp; Câu nói (English)</th>
+          <th class="th-vi">Ý nghĩa &amp; Ứng dụng (Tiếng Việt)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{- range $laws }}
+        <tr class="quotes-row" id="{{ .id }}">
+          <!-- Cột 1: Tiếng Anh, Định luật & Tags gắn trực tiếp trong cell -->
+          <td class="col-en">
+            <div class="q-top-row">
+              <span class="q-num">{{ .number }}</span>
+              <strong class="q-name-en">{{ .name_en }}</strong>
+            </div>
+            
+            <p class="q-text-en">“{{ .quote_en }}”</p>
+
+            <div class="q-tags-cell">
+              <span class="q-tag q-tag-cat" title="Chủ đề">{{ .category_name }}</span>
+              <span class="q-tag q-tag-part" title="Dạng bài TOEIC">{{ .part }}</span>
+              {{- range .collocations }}
+              <a href="{{ .link }}" class="q-tag q-tag-colloc" title="Tra cứu cụm từ: {{ .term }} ({{ .meaning }})">⚡ {{ .term }}</a>
+              {{- end }}
+            </div>
+          </td>
+
+          <!-- Cột 2: Tiếng Việt, Bản dịch & Ứng dụng thực tế -->
+          <td class="col-vi">
+            <h2 class="q-name-vi">{{ .name_vi }}</h2>
+            <p class="q-text-vi">{{ .quote_vi }}</p>
+            <div class="q-insight">
+              <strong>💡 Ứng dụng:</strong> {{ .insight }}
+            </div>
+          </td>
+        </tr>
+        {{- end }}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+{{- end }}

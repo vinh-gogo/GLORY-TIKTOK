@@ -1,0 +1,59 @@
+schema_version: 2
+id: salary
+lemma: salary
+pos:
+- noun
+ipa:
+  us: /ˈsæləri/
+  uk: /ˈsæləri/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- salary-benefits
+- human-resources
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: salary-1
+  meaning_vi: Tiền lương cố định (thường tính theo tháng hoặc theo năm)
+  note_vi: Thường trả cho nhân viên văn phòng, quản lý hoặc chuyên gia hưởng lương tháng cố định.
+confused_words:
+- word: wage
+  ipa: /weɪdʒ/
+  difference_vi: Salary là lương cố định theo tháng/năm; wage là tiền công tính theo giờ hoặc theo ngày.
+- word: celery
+  ipa: /ˈseləri/
+  difference_vi: Celery là rau cần tây (bắt đầu bằng âm /s/ mềm và nguyên âm /e/), salary là tiền lương (nguyên âm /æ/).
+confusing_meanings:
+- difference_vi: Gross salary là lương gộp trước thuế; net salary là lương thực nhận về tay sau khi trừ thuế và bảo hiểm.
+collocations:
+- phrase: competitive salary
+  meaning_vi: mức lương có tính cạnh tranh cao
+  evidence: corpus
+- phrase: salary increase
+  meaning_vi: sự tăng lương
+  evidence: corpus
+- phrase: base salary
+  meaning_vi: mức lương cơ bản (chưa gồm thưởng)
+  evidence: corpus
+synonyms:
+- word: pay
+  meaning_vi: tiền lương, tiền công
+- word: remuneration
+  meaning_vi: thù lao, lương bổng
+examples:
+- en: We offer a competitive base salary along with comprehensive health insurance benefits.
+  vi: Chúng tôi đưa ra mức lương cơ bản cạnh tranh cùng chế độ bảo hiểm y tế toàn diện.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈsæ/, nguyên âm /æ/ mở rộng miệng bẹt, không đọc thành 'sa-la-ri'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,60 @@
+schema_version: 2
+id: authorize
+lemma: authorize
+pos:
+- verb
+ipa:
+  us: /ˈɔːθəraɪz/
+  uk: /ˈɔːθəraɪz/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- legal-compliance
+- management-operations
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: authorize-1
+  meaning_vi: Cấp phép chính thức, ủy quyền hoặc phê duyệt quyền hạn cho ai làm gì
+  note_vi: Hành động cho phép bằng văn bản hoặc mật khẩu hệ thống.
+confused_words:
+- word: authority
+  ipa: /əˈθɔːrəti/
+  difference_vi: Authority là danh từ thẩm quyền hoặc nhà chức trách; authorize là động từ cấp quyền, phê duyệt.
+confusing_meanings:
+- difference_vi: Authorized personnel only = chỉ dành riêng cho nhân viên có thẩm quyền; authorize expenditure = phê duyệt
+    khoản chi tiêu.
+collocations:
+- phrase: authorized personnel only
+  meaning_vi: chỉ nhân sự được cấp phép mới được vào
+  evidence: corpus
+- phrase: authorize payment
+  meaning_vi: phê duyệt lệnh thanh toán
+  evidence: corpus
+- phrase: officially authorize
+  meaning_vi: chính thức cấp quyền cho phép
+  evidence: corpus
+synonyms:
+- word: approve
+  meaning_vi: phê chuẩn
+- word: sanction
+  meaning_vi: cho phép chính thức
+- word: empower
+  meaning_vi: trao quyền
+examples:
+- en: Only the chief financial officer is authorized to approve capital expenditures exceeding $10,000.
+  vi: Chỉ giám đốc tài chính mới có thẩm quyền phê duyệt các khoản chi đầu tư vượt quá 10.000 đô la.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈɔːθ/, âm /θ/ cắn nhẹ đầu lưỡi thổi hơi, âm đuôi /raɪz/ kết thúc bằng âm rung
+  /z/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

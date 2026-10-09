@@ -1,0 +1,55 @@
+schema_version: 2
+id: redeem
+lemma: redeem
+pos:
+- verb
+ipa:
+  us: /rɪˈdiːm/
+  uk: /rɪˈdiːm/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- sales-customer-service
+speaking_use:
+- respond-to-questions
+- respond-with-info
+senses:
+- id: redeem-1
+  meaning_vi: Quy đổi phiếu thưởng, mã giảm giá hoặc điểm tích lũy thành quà/tiền mặt
+  note_vi: Hành động sử dụng voucher hoặc điểm thưởng tại quầy thanh toán.
+confused_words:
+- word: deem
+  ipa: /diːm/
+  difference_vi: Deem nghĩa là coi như, cho rằng; redeem là quy đổi phiếu lấy hàng.
+confusing_meanings:
+- difference_vi: Redeem a coupon = quy đổi phiếu giảm giá; redeem oneself = chuộc lại lỗi lầm.
+collocations:
+- phrase: redeem a coupon
+  meaning_vi: đổi phiếu giảm giá khi thanh toán
+  evidence: corpus
+- phrase: redeem reward points
+  meaning_vi: đổi điểm tích lũy thưởng thành quà
+  evidence: corpus
+- phrase: redeemable for cash
+  meaning_vi: có thể quy đổi ra tiền mặt
+  evidence: corpus
+synonyms:
+- word: exchange
+  meaning_vi: đổi lấy
+- word: cash in
+  meaning_vi: đổi thành tiền mặt
+examples:
+- en: Customers can redeem their accumulated loyalty points for merchandise or store discounts.
+  vi: Khách hàng có thể đổi điểm tích lũy thành viên của mình để lấy hàng hóa hoặc giảm giá mua sắm.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /diːm/, nguyên âm /iː/ kéo dài.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

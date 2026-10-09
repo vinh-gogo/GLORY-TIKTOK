@@ -1,0 +1,58 @@
+schema_version: 2
+id: sponsor
+lemma: sponsor
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈspɑːnsər/
+  uk: /ˈspɒnsə/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- marketing-advertising
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: sponsor-1
+  meaning_vi: Tài trợ kinh phí cho một sự kiện hoặc chương trình; (n) nhà tài trợ
+  note_vi: Đổi lại quyền lợi gắn logo hoặc quảng bá thương hiệu trong khuôn khổ sự kiện.
+confused_words:
+- word: spousal
+  ipa: /ˈspaʊzl/
+  difference_vi: Spousal là thuộc về hôn phối vợ chồng; sponsor là người tài trợ hoặc động từ tài trợ.
+confusing_meanings:
+- difference_vi: Corporate sponsor = nhà tài trợ doanh nghiệp; visa sponsor = đơn vị bảo lãnh thị thực.
+collocations:
+- phrase: sponsor an event
+  meaning_vi: tài trợ cho một sự kiện
+  evidence: corpus
+- phrase: corporate sponsor
+  meaning_vi: nhà tài trợ cấp doanh nghiệp
+  evidence: corpus
+- phrase: official sponsor
+  meaning_vi: nhà tài trợ chính thức
+  evidence: corpus
+synonyms:
+- word: fund
+  meaning_vi: rót vốn, cấp tiền
+- word: finance
+  meaning_vi: tài trợ kinh phí
+- word: back
+  meaning_vi: hậu thuẫn tài chính
+examples:
+- en: Several major tech corporations agreed to sponsor the international robotics exhibition.
+  vi: Một số tập đoàn công nghệ lớn đã đồng ý tài trợ cho triển lãm chế tạo robot quốc tế.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ nhất /ˈspɑːn/, âm 'o' trong US phát âm là /ɑː/ dài.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

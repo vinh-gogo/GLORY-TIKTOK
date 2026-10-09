@@ -1,0 +1,57 @@
+schema_version: 2
+id: prohibit
+lemma: prohibit
+pos:
+- verb
+ipa:
+  us: /prəˈhɪbɪt/
+  uk: /prəˈhɪbɪt/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- legal-compliance
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: prohibit-1
+  meaning_vi: Cấm đoán tuyệt đối theo luật hoặc theo quy định chính thức
+  note_vi: Mức độ cấm đoán nặng nề và mang tính pháp chế hơn từ ban thông thường.
+confused_words:
+- word: inhibit
+  ipa: /ɪnˈhɪbɪt/
+  difference_vi: Inhibit là ức chế, kìm hãm sự phát triển sinh học/tâm lý; prohibit là cấm đoán bằng luật lệ.
+confusing_meanings:
+- difference_vi: Strictly prohibited = bị nghiêm cấm hoàn toàn; prohibit from doing sth = cấm ai làm việc gì.
+collocations:
+- phrase: strictly prohibited
+  meaning_vi: bị nghiêm cấm tuyệt đối
+  evidence: corpus
+- phrase: prohibit by law
+  meaning_vi: bị cấm theo quy định của pháp luật
+  evidence: corpus
+- phrase: prohibit smoking
+  meaning_vi: cấm hút thuốc
+  evidence: corpus
+synonyms:
+- word: ban
+  meaning_vi: cấm vận, cấm chỉ
+- word: forbid
+  meaning_vi: ngăn cấm
+- word: bar
+  meaning_vi: chặn cửa cấm đoán
+examples:
+- en: Taking photographs inside the manufacturing cleanroom is strictly prohibited by company policy.
+  vi: Việc chụp ảnh bên trong phòng sạch sản xuất bị nghiêm cấm tuyệt đối theo chính sách của công ty.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈhɪb/, âm /h/ phát âm rõ ràng, không đọc lướt câm.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

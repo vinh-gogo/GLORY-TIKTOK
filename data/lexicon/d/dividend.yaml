@@ -1,0 +1,56 @@
+schema_version: 2
+id: dividend
+lemma: dividend
+pos:
+- noun
+ipa:
+  us: /ˈdɪvɪdend/
+  uk: /ˈdɪvɪdend/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- finance-accounting
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: dividend-1
+  meaning_vi: Cổ tức, khoản lợi nhuận chia cho các cổ đông của công ty
+  note_vi: Khoản chi trả từ lợi nhuận sau thuế cho người nắm giữ cổ phần.
+confused_words:
+- word: divide
+  ipa: /dɪˈvaɪd/
+  difference_vi: Divide là động từ chia rẽ/phân chia; dividend là danh từ cổ tức nhận được từ cổ phiếu.
+confusing_meanings:
+- difference_vi: Dividend trong chứng khoán là cổ tức tiền mặt hoặc cổ phiếu; thành ngữ 'pay dividends' nghĩa là mang lại
+    trái ngọt/kết quả tốt đẹp trong tương lai.
+collocations:
+- phrase: pay a dividend
+  meaning_vi: chi trả cổ tức
+  evidence: corpus
+- phrase: quarterly dividend
+  meaning_vi: cổ tức chi trả hàng quý
+  evidence: corpus
+- phrase: dividend payout ratio
+  meaning_vi: tỷ lệ chi trả cổ tức trên lợi nhuận
+  evidence: corpus
+synonyms:
+- word: share of profits
+  meaning_vi: phần chia lợi nhuận
+- word: yield
+  meaning_vi: tỷ suất lợi tức
+examples:
+- en: Shareholders voted to approve a quarterly dividend of fifty cents per common share.
+  vi: Các cổ đông đã biểu quyết thông qua mức cổ tức hàng quý là năm mươi xu cho mỗi cổ phiếu phổ thông.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈdɪv/, âm thứ ba là /dend/ dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,58 @@
+schema_version: 2
+id: convene
+lemma: convene
+pos:
+- verb
+ipa:
+  us: /kənˈviːn/
+  uk: /kənˈviːn/
+level:
+  band: advanced
+  cefr: C1
+  basis: TOEIC 750+
+topics:
+- meetings-office
+- contracts-negotiation
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: convene-1
+  meaning_vi: Triệu tập cuộc họp, tập hợp các thành viên tham dự đại hội
+  note_vi: Hành động chính thức phát lệnh mở cuộc họp hội đồng hoặc hội nghị.
+confused_words:
+- word: convince
+  ipa: /kənˈvɪns/
+  difference_vi: Convince là thuyết phục ai tin tưởng; convene là triệu tập cuộc họp.
+confusing_meanings:
+- difference_vi: Convene a meeting = triệu tập cuộc họp; convene in the auditorium = tập trung tại khán phòng.
+collocations:
+- phrase: convene a meeting
+  meaning_vi: triệu tập cuộc họp chính thức
+  evidence: corpus
+- phrase: convene a committee
+  meaning_vi: thành lập và triệu tập một ủy ban
+  evidence: corpus
+- phrase: convene an emergency session
+  meaning_vi: triệu tập một phiên họp khẩn cấp
+  evidence: corpus
+synonyms:
+- word: assemble
+  meaning_vi: tập hợp lại
+- word: summon
+  meaning_vi: triệu tập
+- word: call
+  meaning_vi: mở lời triệu tập
+examples:
+- en: The chairperson convened an emergency meeting to address the abrupt drop in stock price.
+  vi: Chủ tọa đã triệu tập một cuộc họp khẩn cấp để xử lý việc giá cổ phiếu sụt giảm đột ngột.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /viːn/, nguyên âm /iː/ kéo dài.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

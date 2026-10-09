@@ -1,0 +1,61 @@
+schema_version: 2
+id: policy
+lemma: policy
+pos:
+- noun
+ipa:
+  us: /ˈpɑːləsi/
+  uk: /ˈpɒləsi/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- legal-compliance
+- management-operations
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: policy-1
+  meaning_vi: Chính sách, chủ trương nguyên tắc của công ty hoặc chính phủ
+  note_vi: Văn bản định hướng hành động chung như return policy (chính sách đổi trả).
+- id: policy-2
+  meaning_vi: Hợp đồng bảo hiểm (insurance policy)
+  note_vi: Chứng thư cam kết bồi thường bảo hiểm.
+confused_words:
+- word: police
+  ipa: /pəˈliːs/
+  difference_vi: Police là cảnh sát (nhấn âm 2); policy là chính sách hoặc hợp đồng bảo hiểm (nhấn âm 1).
+confusing_meanings:
+- difference_vi: Company policy = chính sách công ty; insurance policy = hợp đồng bảo hiểm rủi ro.
+collocations:
+- phrase: company policy
+  meaning_vi: chính sách nội bộ của công ty
+  evidence: corpus
+- phrase: return policy
+  meaning_vi: chính sách đổi trả hàng
+  evidence: corpus
+- phrase: insurance policy
+  meaning_vi: hợp đồng bảo hiểm
+  evidence: corpus
+synonyms:
+- word: strategy
+  meaning_vi: chiến lược
+- word: guidelines
+  meaning_vi: chỉ dẫn đường lối
+- word: protocol
+  meaning_vi: nghi thức, quy trình
+examples:
+- en: In accordance with company policy, all receipts must be reviewed before reimbursement is issued.
+  vi: Theo đúng chính sách của công ty, tất cả hóa đơn phải được xét duyệt trước khi xuất tiền bồi hoàn.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈpɑː/, nguyên âm /ɑː/ dài trong tiếng Mỹ, đừng đọc nhầm thành 'police'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

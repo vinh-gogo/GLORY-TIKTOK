@@ -1,0 +1,56 @@
+schema_version: 2
+id: surplus
+lemma: surplus
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈsɜːrpləs/
+  uk: /ˈsɜːpləs/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- finance-accounting
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: surplus-1
+  meaning_vi: Số thặng dư, phần dôi dư vượt quá nhu cầu; (adj) dư thừa
+  note_vi: Khi thu nhập vượt quá chi tiêu, hoặc lượng hàng tồn vượt quá mức cần thiết.
+confused_words:
+- word: surface
+  ipa: /ˈsɜːrfɪs/
+  difference_vi: Surface là bề mặt; surplus là thặng dư tài chính hoặc hàng dôi dư.
+confusing_meanings:
+- difference_vi: Budget surplus là thặng dư ngân sách; surplus inventory là hàng hóa tồn kho dư thừa.
+collocations:
+- phrase: budget surplus
+  meaning_vi: thặng dư ngân sách
+  evidence: corpus
+- phrase: surplus stock
+  meaning_vi: lượng hàng hóa dư thừa trong kho
+  evidence: corpus
+- phrase: generate a surplus
+  meaning_vi: tạo ra khoản thặng dư
+  evidence: corpus
+synonyms:
+- word: excess
+  meaning_vi: sự vượt quá, dôi dư
+- word: extra
+  meaning_vi: phần thêm vào
+examples:
+- en: Thanks to robust export sales, the firm ended the fiscal year with a substantial surplus.
+  vi: Nhờ doanh số xuất khẩu mạnh mẽ, công ty đã kết thúc năm tài chính với một khoản thặng dư đáng kể.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈsɜːr/, âm thứ hai đọc là /pləs/ nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,70 @@
+schema_version: 2
+id: turnover
+lemma: turnover
+pos:
+- noun
+ipa:
+  us: /ˈtɜːrnoʊvər/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- hiring
+- sales
+- management
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: turnover-1
+  meaning_vi: Tỷ lệ luân chuyển nhân sự (nhảy việc) / Doanh số luân chuyển vốn
+  note_vi: Chủ đề giữ chân nhân tài (employee retention) hoặc tốc độ quay vòng hàng
+    hóa.
+collocations:
+- phrase: high employee turnover
+  meaning_vi: tỷ lệ nhân viên nhảy việc cao
+  evidence: corpus
+- phrase: reduce turnover
+  meaning_vi: giảm thiểu tỷ lệ nhân viên nghỉ việc
+  evidence: corpus
+- phrase: annual turnover
+  meaning_vi: doanh số hàng năm
+  evidence: corpus
+- phrase: staff turnover rate
+  meaning_vi: tỷ lệ thay thế nhân sự
+  evidence: corpus
+confused_words:
+- word: takeover
+  ipa: /ˈteɪkoʊvər/
+  meaning: sự thâu tóm công ty
+  kind: spelling-sound
+  difference_vi: Turnover là tỷ lệ nhảy việc hoặc doanh số; takeover là thương vụ
+    mua lại thâu tóm doanh nghiệp.
+confusing_meanings:
+- word: retention
+  meaning: sự giữ chân nhân sự
+  difference_vi: Retention là tỷ lệ nhân viên ở lại gắn bó; turnover là tỷ lệ nhân
+    viên rời bỏ công ty.
+synonyms:
+- word: attrition
+  meaning_vi: sự hao hụt nhân sự tự nhiên
+- word: sales volume
+  meaning_vi: khối lượng doanh số
+examples:
+- en: Offering competitive salaries and flexible working hours helps the company reduce
+    high employee turnover.
+  vi: Cung cấp mức lương cạnh tranh và giờ làm việc linh hoạt giúp công ty giảm thiểu
+    tỷ lệ nhân viên nhảy việc cao.
+pronunciation_tips_vi: 'Từ ghép: /ˈtɜːrn/ + /oʊvər/. Trọng âm rơi vào âm tiết đầu
+  /ˈtɜːrn-/. Chú ý âm /ɜːr/ cong lưỡi chuẩn giọng Mỹ.'
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

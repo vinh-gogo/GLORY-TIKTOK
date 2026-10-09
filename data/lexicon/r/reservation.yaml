@@ -1,0 +1,58 @@
+schema_version: 2
+id: reservation
+lemma: reservation
+pos:
+- noun
+ipa:
+  us: /ˌrezərˈveɪʃn/
+  uk: /ˌrezəˈveɪʃn/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- hospitality-travel
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: reservation-1
+  meaning_vi: Sự đặt trước chỗ ngồi, phòng khách sạn hoặc vé máy bay
+  note_vi: 'Collocation cốt lõi trong TOEIC: make a reservation, confirm a reservation.'
+- id: reservation-2
+  meaning_vi: Sự hoài nghi, dè dặt, do dự trước một quyết định
+  note_vi: 'Thường dùng: have reservations about sth.'
+confused_words:
+- word: preserve
+  ipa: /prɪˈzɜːrv/
+  difference_vi: Preserve là bảo tồn; reserve là giữ chỗ trước; reservation là việc đặt chỗ trước.
+confusing_meanings:
+- difference_vi: Hotel reservation = đặt phòng khách sạn; have reservations = có nỗi băn khoăn hoài nghi.
+collocations:
+- phrase: make a reservation
+  meaning_vi: đặt chỗ trước
+  evidence: corpus
+- phrase: confirm a hotel reservation
+  meaning_vi: xác nhận việc đặt phòng khách sạn
+  evidence: corpus
+- phrase: cancel a reservation without penalty
+  meaning_vi: hủy đặt chỗ mà không bị phạt tiền
+  evidence: corpus
+synonyms:
+- word: booking
+  meaning_vi: việc đặt chỗ
+- word: pre-arrangement
+  meaning_vi: sự sắp xếp trước
+examples:
+- en: We strongly recommend making a dinner reservation at least two days in advance for weekend dining.
+  vi: Chúng tôi thực sự khuyên bạn nên đặt bàn ăn tối trước ít nhất hai ngày cho các bữa ăn cuối tuần.
+pronunciation_tips_vi: Trọng âm chính rơi vào âm thứ ba /ˈveɪ/, đuôi kết thúc là /ʃn/ cong môi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

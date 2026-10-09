@@ -1,0 +1,59 @@
+schema_version: 2
+id: assembly
+lemma: assembly
+pos:
+- noun
+ipa:
+  us: /əˈsembli/
+  uk: /əˈsembli/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- production-quality-control
+- describe-picture
+speaking_use:
+- describe-picture
+- respond-with-info
+senses:
+- id: assembly-1
+  meaning_vi: Sự lắp ráp linh kiện thành phẩm; dây chuyền sản xuất lắp ráp
+  note_vi: Hình ảnh rất quen thuộc trong tranh TOEIC Part 2 chụp nhà xưởng công nghiệp.
+- id: assembly-2
+  meaning_vi: Đại hội đồng, cuộc họp toàn thể của một tổ chức
+  note_vi: Như trong General Assembly (Đại hội đồng Liên hợp quốc).
+confused_words:
+- word: assemble
+  ipa: /əˈsembl/
+  difference_vi: Assemble là động từ lắp ráp hoặc tập hợp; assembly là danh từ sự lắp ráp hoặc dây chuyền.
+confusing_meanings:
+- difference_vi: Assembly line là dây chuyền lắp ráp công nghiệp; assembly instructions là tờ hướng dẫn lắp ghép đồ nội thất.
+collocations:
+- phrase: assembly line
+  meaning_vi: dây chuyền lắp ráp nhà máy
+  evidence: corpus
+- phrase: assembly instructions
+  meaning_vi: hướng dẫn lắp ráp đồ
+  evidence: corpus
+- phrase: automated assembly
+  meaning_vi: hệ thống lắp ráp tự động hóa
+  evidence: corpus
+synonyms:
+- word: construction
+  meaning_vi: sự dựng thành hình
+- word: manufacturing line
+  meaning_vi: dây chuyền chế tạo
+examples:
+- en: Workers on the automotive assembly line wear protective goggles and noise-canceling headsets.
+  vi: Công nhân trên dây chuyền lắp ráp ô tô đeo kính bảo hộ và tai nghe chống ồn.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈsem/, âm đuôi /li/ nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary
