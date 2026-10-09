@@ -400,6 +400,28 @@ document.addEventListener("DOMContentLoaded", function() {
   let activeLetter = "all";
   let searchKeyword = "";
 
+  // Đọc tham số URL nếu có (?q=..., ?band=..., ?letter=...)
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    const qParam = (urlParams.get("q") || "").toLowerCase().trim();
+    const bandParam = (urlParams.get("band") || "").toLowerCase().trim();
+    const letterParam = (urlParams.get("letter") || "").toUpperCase().trim();
+
+    if (qParam) {
+      searchKeyword = qParam;
+      if (searchInput) searchInput.value = urlParams.get("q");
+    } else {
+      if (bandParam && ["core", "target", "advanced"].includes(bandParam)) {
+        activeBand = bandParam;
+      }
+      if (letterParam && letterParam.length === 1 && letterParam >= 'A' && letterParam <= 'Z') {
+        activeLetter = letterParam;
+      }
+    }
+  } catch (e) {
+    // fallback gracefully
+  }
+
   // Thu thập dữ liệu các hàng một lần để tối ưu hiệu năng lọc
   const rowItems = Array.from(rows).map(function(row) {
     return {
