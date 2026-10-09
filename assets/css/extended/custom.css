@@ -969,6 +969,8 @@
 }
 
 .glossary-table {
+    display: table;
+    overflow: visible;
     width: 100%;
     min-width: 1100px;
     table-layout: fixed;
@@ -979,22 +981,26 @@
 }
 
 .glossary-table thead {
-    position: sticky;
-    top: 0;
-    z-index: 20;
+    display: table-header-group;
+}
+
+.glossary-table thead tr {
+    display: table-row;
 }
 
 .glossary-table thead th {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 20;
+    z-index: 50;
     background-color: var(--code-bg);
     padding: 14px 16px;
     font-weight: 700;
     color: var(--primary);
     border-bottom: 2px solid var(--border);
     white-space: nowrap;
-    box-shadow: inset 0 -2px 0 var(--border), 0 2px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 -2px 0 var(--border), 0 2px 6px rgba(0, 0, 0, 0.06);
+    background-clip: padding-box;
 }
 
 .glossary-table thead th:first-child {
@@ -1003,6 +1009,14 @@
 
 .glossary-table thead th:last-child {
     border-top-right-radius: 13px;
+}
+
+.glossary-table tbody {
+    display: table-row-group;
+}
+
+.glossary-table tbody tr {
+    display: table-row;
 }
 
 .glossary-table td {
