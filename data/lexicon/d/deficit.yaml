@@ -1,0 +1,55 @@
+schema_version: 2
+id: deficit
+lemma: deficit
+pos:
+- noun
+ipa:
+  us: /ˈdefɪsɪt/
+  uk: /ˈdefɪsɪt/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- finance-accounting
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: deficit-1
+  meaning_vi: Sự thâm hụt tài chính (khi chi phí vượt quá số thu)
+  note_vi: Trái nghĩa trực tiếp với surplus (thặng dư).
+confused_words:
+- word: deficient
+  ipa: /dɪˈfɪʃnt/
+  difference_vi: Deficient là tính từ (thiếu hụt chất lượng/dưỡng chất); deficit là danh từ chỉ số tiền thâm hụt.
+confusing_meanings:
+- difference_vi: Budget deficit là thâm hụt ngân sách nhà nước/doanh nghiệp; trade deficit là thâm hụt cán cân thương mại.
+collocations:
+- phrase: budget deficit
+  meaning_vi: thâm hụt ngân sách
+  evidence: corpus
+- phrase: trade deficit
+  meaning_vi: thâm hụt thương mại (nhập siêu)
+  evidence: corpus
+- phrase: reduce the deficit
+  meaning_vi: cắt giảm mức thâm hụt
+  evidence: corpus
+synonyms:
+- word: shortfall
+  meaning_vi: khoản thiếu hụt
+- word: loss
+  meaning_vi: khoản thua lỗ
+examples:
+- en: Measures were implemented immediately to cut overhead and curb the growing budget deficit.
+  vi: Các biện pháp đã được thực thi ngay lập tức nhằm cắt giảm chi phí gián tiếp và kiềm chế thâm hụt ngân sách gia tăng.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈdef/, đừng đọc nhầm trọng âm thành de-fi-cit.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

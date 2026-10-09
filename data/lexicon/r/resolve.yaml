@@ -1,0 +1,72 @@
+schema_version: 2
+id: resolve
+lemma: resolve
+pos:
+- verb
+ipa:
+  us: /rɪˈzɑːlv/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- customer-service
+- management
+- work
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: resolve-1
+  meaning_vi: Giải quyết dứt điểm (vấn đề khó khăn, mâu thuẫn, khiếu nại)
+  note_vi: Xuất hiện liên tục khi bàn về phương án xử lý sự cố khách hàng hoặc xung
+    đột công sở.
+collocations:
+- phrase: resolve complaints
+  meaning_vi: giải quyết dứt điểm các phàn nàn
+  evidence: corpus
+- phrase: resolve conflicts
+  meaning_vi: giải quyết xung đột mâu thuẫn
+  evidence: corpus
+- phrase: quickly resolve
+  meaning_vi: nhanh chóng giải quyết thỏa đáng
+  evidence: corpus
+- phrase: resolve an issue
+  meaning_vi: xử lý một vấn đề nan giải
+  evidence: corpus
+confused_words:
+- word: revolve
+  ipa: /rɪˈvɑːlv/
+  meaning: quay tròn quanh một trục
+  kind: spelling-sound
+  difference_vi: Resolve mang nghĩa giải quyết vấn đề; revolve mang nghĩa chuyển động
+    quay tròn xung quanh.
+confusing_meanings:
+- word: solve
+  meaning: tìm ra đáp án của bài toán/câu đố
+  difference_vi: Solve là tìm ra lời giải chính xác; resolve là dàn xếp hòa giải ổn
+    thỏa một mâu thuẫn hoặc tranh chấp rắc rối.
+synonyms:
+- word: settle
+  meaning_vi: dàn xếp
+- word: fix
+  meaning_vi: khắc phục
+- word: handle
+  meaning_vi: xử lý
+examples:
+- en: The customer service team worked diligently to resolve the billing issue before
+    the weekend.
+  vi: Đội ngũ chăm sóc khách hàng đã làm việc tận tụy để giải quyết dứt điểm sự cố
+    hóa đơn trước kỳ nghỉ cuối tuần.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈzɑːlv/. Chú ý âm /z/ ở
+  giữa (không đọc thành /s/) và âm cuối /lv/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

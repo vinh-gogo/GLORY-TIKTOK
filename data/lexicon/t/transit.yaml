@@ -1,0 +1,55 @@
+schema_version: 2
+id: transit
+lemma: transit
+pos:
+- noun
+ipa:
+  us: /ˈtrænzɪt/
+  uk: /ˈtrænzɪt/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- shipping-logistics
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: transit-1
+  meaning_vi: Quá trình vận chuyển trên đường; việc quá cảnh qua một địa điểm trung gian
+  note_vi: Cụm 'in transit' rất phổ biến, có nghĩa là đang trên đường vận chuyển.
+confused_words:
+- word: transition
+  ipa: /trænˈzɪʃn/
+  difference_vi: Transition là sự biến đổi giai đoạn; transit là việc chuyên chở hoặc quá cảnh.
+confusing_meanings:
+- difference_vi: In transit = đang trên đường giao hàng; public transit = hệ thống giao thông công cộng.
+collocations:
+- phrase: in transit
+  meaning_vi: đang trong quá trình vận chuyển trên đường
+  evidence: corpus
+- phrase: transit time
+  meaning_vi: thời gian vận chuyển hàng
+  evidence: corpus
+- phrase: damaged in transit
+  meaning_vi: bị hư hại trong lúc vận chuyển
+  evidence: corpus
+synonyms:
+- word: transportation
+  meaning_vi: việc chuyên chở
+- word: passage
+  meaning_vi: sự đi qua
+examples:
+- en: Estimated transit time for standard overland shipping is three to five business days.
+  vi: Thời gian vận chuyển ước tính cho dịch vụ giao hàng đường bộ tiêu chuẩn là từ ba đến năm ngày làm việc.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈtræn/, âm giữa phát âm là /z/ hoặc /s/ rung nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

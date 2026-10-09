@@ -1,0 +1,57 @@
+schema_version: 2
+id: demolish
+lemma: demolish
+pos:
+- verb
+ipa:
+  us: /dɪˈmɑːlɪʃ/
+  uk: /dɪˈmɒlɪʃ/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- real-estate-construction
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: demolish-1
+  meaning_vi: Phá dỡ, đánh sập công trình xây dựng cũ để giải phóng mặt bằng
+  note_vi: Hành động san phẳng tòa nhà hư hại để xây dựng công trình mới.
+confused_words:
+- word: abolish
+  ipa: /əˈbɑːlɪʃ/
+  difference_vi: Abolish là bãi bỏ luật lệ, phong tục; demolish là phá hủy, đập bỏ công trình vật chất.
+confusing_meanings:
+- difference_vi: Demolish a building = đập bỏ tòa nhà; demolish an argument = đập tan luận điểm phản biện hoàn toàn.
+collocations:
+- phrase: demolish a building
+  meaning_vi: phá dỡ một tòa nhà
+  evidence: corpus
+- phrase: scheduled for demolition
+  meaning_vi: đã lên lịch để phá dỡ
+  evidence: corpus
+- phrase: demolish to make way for
+  meaning_vi: phá dỡ để nhường chỗ xây dựng công trình mới
+  evidence: corpus
+synonyms:
+- word: tear down
+  meaning_vi: kéo đổ, dỡ bỏ
+- word: knock down
+  meaning_vi: san bằng
+- word: destroy
+  meaning_vi: phá hủy
+examples:
+- en: The abandoned factory will be demolished next week to make way for a modern community park.
+  vi: Nhà máy bỏ hoang sẽ bị phá dỡ vào tuần tới để nhường chỗ cho một công viên cộng đồng hiện đại.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈmɑːl/, âm đuôi /ɪʃ/ cong môi bật hơi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

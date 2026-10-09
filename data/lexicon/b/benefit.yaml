@@ -1,0 +1,71 @@
+schema_version: 2
+id: benefit
+lemma: benefit
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈbenɪfɪt/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- benefits
+- work
+- hiring
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: benefit-1
+  meaning_vi: Lợi ích, chế độ phúc lợi nhân viên / Hưởng lợi từ
+  note_vi: Thường gặp khi nói về bảo hiểm y tế, ngày nghỉ phép có lương, chế độ hưu
+    trí.
+collocations:
+- phrase: employee benefits
+  meaning_vi: chế độ phúc lợi cho nhân viên
+  evidence: corpus
+- phrase: health insurance benefits
+  meaning_vi: quyền lợi bảo hiểm y tế
+  evidence: corpus
+- phrase: benefit from
+  meaning_vi: hưởng lợi từ điều gì
+  evidence: corpus
+- phrase: fringe benefits
+  meaning_vi: phúc lợi bổ sung ngoài lương
+  evidence: corpus
+confused_words:
+- word: beneficial
+  ipa: /ˌbenɪˈfɪʃl/
+  meaning: có lợi, mang lại tiện ích
+  kind: spelling-sound
+  difference_vi: Benefit là danh từ (phúc lợi) hoặc động từ (hưởng lợi); beneficial
+    là tính từ mang nghĩa có lợi.
+confusing_meanings:
+- word: advantage
+  meaning: ưu thế vượt trội
+  difference_vi: Advantage là điểm mạnh hơn đối thủ; benefit là chế độ quyền lợi tốt
+    đẹp mà người lao động nhận được.
+synonyms:
+- word: perk
+  meaning_vi: quyền lợi đãi ngộ thêm
+- word: advantage
+  meaning_vi: lợi thế
+examples:
+- en: In addition to a competitive salary, the company provides comprehensive employee
+    health benefits.
+  vi: Ngoài mức lương cạnh tranh, công ty còn cung cấp các chế độ phúc lợi sức khỏe
+    toàn diện cho nhân viên.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈben-/. Âm cuối /-fɪt/ bật rõ
+  âm /t/ dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

@@ -1,0 +1,62 @@
+schema_version: 2
+id: receipt
+lemma: receipt
+pos:
+  - noun
+ipa:
+  us: "/rɪˈsiːt/"
+level:
+  cefr: B1
+  band: core
+  basis: "editorial"
+topics:
+  - shopping
+  - sales
+  - budget
+speaking_use:
+  - read-aloud
+  - respond-to-questions
+senses:
+  - id: receipt-1
+    meaning_vi: "Hóa đơn mua hàng, biên lai thanh toán"
+    note_vi: "Từ trọng tâm trong mua sắm, hoàn tiền, đổi trả hàng hóa (Part 1, 3)."
+collocations:
+  - phrase: "keep the receipt"
+    meaning_vi: "giữ lại hóa đơn biên lai"
+    evidence: "corpus"
+  - phrase: "issue a receipt"
+    meaning_vi: "xuất biên lai thanh toán cho khách"
+    evidence: "corpus"
+  - phrase: "sales receipt"
+    meaning_vi: "biên lai bán hàng"
+    evidence: "corpus"
+  - phrase: "upon receipt of"
+    meaning_vi: "ngay sau khi nhận được (văn bản/tiền)"
+    evidence: "corpus"
+confused_words:
+  - word: "recipe"
+    ipa: "/ˈresəpi/"
+    meaning: "công thức nấu ăn"
+    kind: "spelling-sound"
+    difference_vi: "Receipt phát âm /rɪˈsiːt/ có chữ 'p' câm, nghĩa là biên lai; recipe phát âm /ˈresəpi/ nghĩa là công thức món ăn."
+confusing_meanings:
+  - word: "invoice"
+    meaning: "hóa đơn yêu cầu thanh toán trước khi trả tiền"
+    difference_vi: "Invoice là hóa đơn đòi tiền (chưa thanh toán); receipt là biên lai xác nhận bạn đã trả tiền xong."
+synonyms:
+  - word: "proof of purchase"
+    meaning_vi: "bằng chứng mua hàng"
+examples:
+  - en: "Please keep your sales receipt in case you need to exchange the item within thirty days."
+    vi: "Vui lòng giữ lại biên lai mua hàng trong trường hợp bạn cần đổi món hàng trong vòng ba mươi ngày."
+pronunciation_tips_vi: "ĐẶC BIỆT LƯU Ý: Chữ cái 'p' trong receipt là ÂM CÂM! Phát âm chuẩn là /rɪˈsiːt/, tuyệt đối không đọc âm /p/."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

@@ -1,0 +1,65 @@
+schema_version: 2
+id: procedure
+lemma: procedure
+pos:
+  - noun
+ipa:
+  us: "/prəˈsiːdʒər/"
+level:
+  cefr: B2
+  band: target
+  basis: "editorial"
+topics:
+  - work
+  - manufacturing
+  - health
+speaking_use:
+  - read-aloud
+  - respond-to-questions
+  - express-opinion
+senses:
+  - id: procedure-1
+    meaning_vi: "Quy trình, thủ tục (các bước chính thức để thực hiện một việc)"
+    note_vi: "Thường dùng trong quy trình an toàn, thủ tục xin nghỉ phép, nộp đơn khiếu nại hoặc dây chuyền sản xuất."
+collocations:
+  - phrase: "standard procedure"
+    meaning_vi: "quy trình chuẩn, thủ tục tiêu chuẩn"
+    evidence: "corpus"
+  - phrase: "safety procedure"
+    meaning_vi: "quy trình bảo đảm an toàn lao động"
+    evidence: "corpus"
+  - phrase: "follow a procedure"
+    meaning_vi: "tuân thủ theo đúng quy trình"
+    evidence: "corpus"
+  - phrase: "application procedure"
+    meaning_vi: "thủ tục nộp hồ sơ xin việc/đăng ký"
+    evidence: "corpus"
+confused_words:
+  - word: "proceed"
+    ipa: "/prəˈsiːd/"
+    meaning: "tiến hành, tiếp tục làm (động từ)"
+    kind: "spelling-sound"
+    difference_vi: "Proceed là động từ mang nghĩa tiếp tục; procedure là danh từ chỉ toàn bộ các bước quy trình thực hiện."
+confusing_meanings:
+  - word: "process"
+    meaning: "quá trình, tiến trình diễn ra"
+    difference_vi: "Procedure là bộ quy tắc/thủ tục chính thức phải làm theo thứ tự; process là chuỗi diễn biến biến đổi tự nhiên hoặc kỹ thuật."
+synonyms:
+  - word: "protocol"
+    meaning_vi: "nghị định thư, quy tắc chuẩn"
+  - word: "routine"
+    meaning_vi: "thói quen/lề lối thường ngày"
+examples:
+  - en: "All warehouse workers must strictly follow standard safety procedures to prevent workplace injuries."
+    vi: "Tất cả công nhân kho bãi phải tuân thủ nghiêm ngặt các quy trình an toàn tiêu chuẩn để ngăn ngừa tai nạn lao động."
+pronunciation_tips_vi: "Trọng âm rơi vào âm tiết thứ hai /-ˈsiː-/. Âm đuôi là /-dʒər/ (âm 'j' kết hợp âm 'r' cong lưỡi), không đọc thành 'si-đu'."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

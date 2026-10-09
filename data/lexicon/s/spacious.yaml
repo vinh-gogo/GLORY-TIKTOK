@@ -1,0 +1,61 @@
+schema_version: 2
+id: spacious
+lemma: spacious
+pos:
+- adjective
+ipa:
+  us: /ˈspeɪʃəs/
+  uk: /ˈspeɪʃəs/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- real-estate-construction
+- hospitality-travel
+speaking_use:
+- describe-picture
+- respond-to-questions
+senses:
+- id: spacious-1
+  meaning_vi: Rộng rãi, thoáng đãng, có nhiều diện tích không gian
+  note_vi: Từ ngữ yêu thích để miêu tả văn phòng làm việc, căn hộ hoặc phòng họp lớn.
+confused_words:
+- word: special
+  ipa: /ˈspeʃl/
+  difference_vi: Special là đặc biệt; spacious là rộng rãi thoáng đãng.
+- word: specious
+  ipa: /ˈspiːʃəs/
+  difference_vi: Specious là giả tạo, chỉ có vẻ ngoài đúng đắn (/iː/); spacious là rộng rãi diện tích (/eɪ/).
+confusing_meanings:
+- difference_vi: Spacious living room = phòng khách rộng thênh thang; spacious layout = bố cục mặt sàn thoáng đãng.
+collocations:
+- phrase: spacious office
+  meaning_vi: văn phòng làm việc rộng rãi
+  evidence: corpus
+- phrase: spacious living room
+  meaning_vi: phòng sinh hoạt rộng rãi
+  evidence: corpus
+- phrase: bright and spacious
+  meaning_vi: ngập tràn ánh sáng và thoáng mát
+  evidence: corpus
+synonyms:
+- word: roomy
+  meaning_vi: nhiều chỗ, rộng rãi
+- word: commodious
+  meaning_vi: thênh thang tiện nghi
+- word: airy
+  meaning_vi: thoáng khí
+examples:
+- en: The newly leased headquarters offers spacious conference facilities and an open floor plan.
+  vi: Trụ sở mới thuê cung cấp các phòng hội nghị rộng rãi và sơ đồ mặt sàn mở.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈspeɪ/, âm thứ hai đọc là /ʃəs/ tròn môi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

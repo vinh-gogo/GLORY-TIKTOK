@@ -1,0 +1,70 @@
+schema_version: 2
+id: warehouse
+lemma: warehouse
+pos:
+- noun
+ipa:
+  us: /ˈwerhaʊs/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- logistics
+- manufacturing
+- storage
+speaking_use:
+- describe-picture
+- respond-to-questions
+senses:
+- id: warehouse-1
+  meaning_vi: Nhà kho lưu trữ hàng hóa và quản lý phân phối
+  note_vi: 'Rất hay gặp trong tranh miêu tả kho hàng (Part 2: xe nâng hàng, công nhân
+    bốc xếp thùng carton).'
+collocations:
+- phrase: warehouse worker
+  meaning_vi: công nhân kho bãi
+  evidence: corpus
+- phrase: store in a warehouse
+  meaning_vi: lưu trữ trong nhà kho
+  evidence: corpus
+- phrase: warehouse supervisor
+  meaning_vi: người giám sát kho hàng
+  evidence: corpus
+- phrase: central warehouse
+  meaning_vi: nhà kho tổng trung tâm
+  evidence: corpus
+confused_words:
+- word: farmhouse
+  ipa: /ˈfɑːrmhaʊs/
+  meaning: nhà ở trang trại
+  kind: spelling-sound
+  difference_vi: Warehouse là nhà kho chứa hàng hóa; farmhouse là nhà ở tại nông trại
+    nông nghiệp.
+confusing_meanings:
+- word: storehouse
+  meaning: nhà kho nhỏ chứa đồ linh tinh
+  difference_vi: Storehouse là kho chứa đồ thông thường; warehouse là kho vận công
+    nghiệp quy mô lớn trong chuỗi phân phối hàng hóa.
+synonyms:
+- word: storage facility
+  meaning_vi: cơ sở lưu trữ
+- word: depot
+  meaning_vi: trạm chứa hàng
+examples:
+- en: All newly manufactured electronics are stored in a climate-controlled warehouse
+    before distribution.
+  vi: Tất cả các thiết bị điện tử mới sản xuất đều được lưu trữ trong nhà kho có kiểm
+    soát nhiệt độ trước khi phân phối.
+pronunciation_tips_vi: 'Từ ghép gồm hai từ: /ˈwer/ + /haʊs/. Trọng âm rơi vào âm tiết
+  đầu /ˈwer-/. Lưu ý âm cuối là /s/ (không đọc thành /z/ khi là danh từ).'
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

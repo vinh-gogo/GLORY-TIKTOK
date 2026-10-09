@@ -1,0 +1,71 @@
+schema_version: 2
+id: terminate
+lemma: terminate
+pos:
+- verb
+ipa:
+  us: /ˈtɜːrmɪneɪt/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- contracts
+- hiring
+- business
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: terminate-1
+  meaning_vi: Chấm dứt (hợp đồng, thỏa thuận, quan hệ lao động)
+  note_vi: Thuật ngữ pháp lý chính thức khi kết thúc sớm một cam kết hoặc hợp đồng.
+collocations:
+- phrase: terminate a contract
+  meaning_vi: chấm dứt một hợp đồng
+  evidence: corpus
+- phrase: terminate employment
+  meaning_vi: chấm dứt quan hệ việc làm
+  evidence: corpus
+- phrase: unilaterally terminate
+  meaning_vi: đơn phương chấm dứt hợp đồng
+  evidence: corpus
+- phrase: right to terminate
+  meaning_vi: quyền được đơn phương chấm dứt
+  evidence: corpus
+confused_words:
+- word: determine
+  ipa: /dɪˈtɜːrmɪn/
+  meaning: xác định, quyết định kiên định
+  kind: spelling-sound
+  difference_vi: Terminate là kết thúc/chấm dứt hợp đồng; determine là xác định thông
+    tin hoặc quyết tâm làm gì.
+confusing_meanings:
+- word: stop
+  meaning: dừng lại tạm thời
+  difference_vi: Stop là dừng hành động thông thường; terminate là hành động pháp
+    lý hủy bỏ/chấm dứt vĩnh viễn hiệu lực hợp đồng.
+synonyms:
+- word: end
+  meaning_vi: kết thúc
+- word: cancel
+  meaning_vi: hủy bỏ
+- word: conclude
+  meaning_vi: khép lại
+examples:
+- en: The landlord has the legal right to terminate the lease agreement if the rent
+    is unpaid for sixty days.
+  vi: Chủ nhà có quyền hợp pháp chấm dứt hợp đồng thuê nếu tiền thuê nhà không được
+    thanh toán trong vòng sáu mươi ngày.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈtɜːr-/. Lưu ý âm /ɜːr/ giọng
+  Mỹ cong lưỡi, âm đuôi /-neɪt/ bật rõ âm /t/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

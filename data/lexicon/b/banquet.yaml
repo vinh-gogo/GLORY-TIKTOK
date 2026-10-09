@@ -1,0 +1,58 @@
+schema_version: 2
+id: banquet
+lemma: banquet
+pos:
+- noun
+ipa:
+  us: /ˈbæŋkwɪt/
+  uk: /ˈbæŋkwɪt/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- hospitality-travel
+- meetings-office
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: banquet-1
+  meaning_vi: Bữa tiệc lớn, yến tiệc chiêu đãi trang trọng (tiệc tất niên, trao giải, mừng công)
+  note_vi: Thường tổ chức tại sảnh khách sạn lớn với nhiều quan khách và bài phát biểu.
+confused_words:
+- word: bank
+  ipa: /bæŋk/
+  difference_vi: Bank là ngân hàng; banquet là bữa yến tiệc trang trọng.
+confusing_meanings:
+- difference_vi: Banquet hall = phòng đại tiệc; awards banquet = tiệc trao giải tôn vinh.
+collocations:
+- phrase: annual awards banquet
+  meaning_vi: tiệc trao giải thưởng thường niên
+  evidence: corpus
+- phrase: banquet hall
+  meaning_vi: phòng khánh tiết / sảnh tiệc
+  evidence: corpus
+- phrase: attend a formal banquet
+  meaning_vi: tham dự buổi tiệc chiêu đãi trang trọng
+  evidence: corpus
+synonyms:
+- word: feast
+  meaning_vi: yến tiệc thịnh soạn
+- word: formal dinner
+  meaning_vi: bữa tiệc tối trang trọng
+- word: reception
+  meaning_vi: buổi tiệc đón tiếp
+examples:
+- en: The annual corporate banquet will be held in the grand ballroom on the third floor.
+  vi: Tiệc thường niên của tập đoàn sẽ được tổ chức tại khán phòng đại tiệc ở tầng ba.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈbæŋk/, âm thứ hai đọc là /wɪt/ dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

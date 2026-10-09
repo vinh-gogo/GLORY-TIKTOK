@@ -1,0 +1,56 @@
+schema_version: 2
+id: hire
+lemma: hire
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈhaɪər/
+  uk: /ˈhaɪə/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- human-resources
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: hire-1
+  meaning_vi: Tuyển dụng nhân viên mới; thuê thiết bị ngắn hạn
+  note_vi: Trong tiếng Anh-Mỹ, hire chủ yếu dùng cho tuyển dụng nhân sự (đồng nghĩa với employ).
+confused_words:
+- word: fire
+  ipa: /ˈfaɪər/
+  difference_vi: Fire là sa thải (ngược nghĩa hoàn toàn với hire là tuyển dụng).
+confusing_meanings:
+- difference_vi: Hire nhân sự (dài hạn trong US) khác với rent đồ vật (thuê trả tiền theo ngày/tháng).
+collocations:
+- phrase: hire qualified staff
+  meaning_vi: tuyển dụng nhân viên đủ tiêu chuẩn
+  evidence: corpus
+- phrase: new hire
+  meaning_vi: nhân viên mới được tuyển
+  evidence: corpus
+- phrase: freeze on hiring
+  meaning_vi: đóng băng việc tuyển dụng
+  evidence: corpus
+synonyms:
+- word: employ
+  meaning_vi: thuê nhân công, tuyển dụng
+- word: recruit
+  meaning_vi: chiêu mộ, tuyển quân
+examples:
+- en: The firm plans to hire ten software developers next quarter to support product expansion.
+  vi: Công ty dự định tuyển mười lập trình viên phần mềm vào quý tới để hỗ trợ việc mở rộng sản phẩm.
+pronunciation_tips_vi: Phát âm /haɪər/ có âm họng nhẹ ở đầu và nhị trùng âm /aɪ/ kết hợp âm lướt nhẹ /ər/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

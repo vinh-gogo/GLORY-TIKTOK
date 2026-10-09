@@ -1,0 +1,55 @@
+schema_version: 2
+id: output
+lemma: output
+pos:
+- noun
+ipa:
+  us: /ˈaʊtpʊt/
+  uk: /ˈaʊtpʊt/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- production-quality-control
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: output-1
+  meaning_vi: Sản lượng sản xuất, tổng số lượng thành phẩm tạo ra trong một kỳ
+  note_vi: Chỉ tiêu quan trọng đo lường hiệu năng của nhà xưởng hoặc đội nhóm sản xuất.
+confused_words:
+- word: input
+  ipa: /ˈɪnpʊt/
+  difference_vi: Input là đầu vào (nguyên liệu, dữ liệu); output là sản lượng đầu ra.
+confusing_meanings:
+- difference_vi: Manufacturing output = sản lượng chế tạo nhà máy; output data = dữ liệu trích xuất đầu ra của máy tính.
+collocations:
+- phrase: daily manufacturing output
+  meaning_vi: sản lượng chế tạo hàng ngày
+  evidence: corpus
+- phrase: increase total output
+  meaning_vi: tăng tổng sản lượng đầu ra
+  evidence: corpus
+- phrase: output per worker
+  meaning_vi: năng suất sản lượng trên mỗi công nhân
+  evidence: corpus
+synonyms:
+- word: production
+  meaning_vi: sự sản xuất, sản lượng
+- word: yield
+  meaning_vi: sản lượng thu hoạch / sản xuất
+examples:
+- en: By installing automated robotic arms, the factory increased its weekly output by twenty percent.
+  vi: Bằng cách lắp đặt cánh tay robot tự động, nhà máy đã tăng sản lượng hàng tuần thêm 20%.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈaʊt/, âm thứ hai đọc gọn là /pʊt/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

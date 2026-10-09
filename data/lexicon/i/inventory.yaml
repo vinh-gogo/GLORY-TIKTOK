@@ -1,0 +1,69 @@
+schema_version: 2
+id: inventory
+lemma: inventory
+pos:
+- noun
+ipa:
+  us: /ˈɪnvəntɔːri/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- logistics
+- shopping
+- sales
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: inventory-1
+  meaning_vi: Hàng tồn kho, danh mục kiểm kê hàng hóa
+  note_vi: Chủ đề kho bãi, kiểm kê hàng hóa định kỳ và kiểm soát chuỗi cung ứng.
+collocations:
+- phrase: take inventory
+  meaning_vi: tiến hành kiểm kê hàng hóa
+  evidence: corpus
+- phrase: in inventory
+  meaning_vi: còn hàng trong kho
+  evidence: corpus
+- phrase: inventory management
+  meaning_vi: việc quản lý hàng tồn kho
+  evidence: corpus
+- phrase: out of inventory
+  meaning_vi: hết sạch hàng trong kho
+  evidence: corpus
+confused_words:
+- word: invention
+  ipa: /ɪnˈvenʃn/
+  meaning: sáng chế, phát minh
+  kind: spelling-sound
+  difference_vi: Inventory là việc kiểm kê hoặc lượng hàng tồn kho; invention là sáng
+    chế phát minh mới.
+confusing_meanings:
+- word: stock
+  meaning: lượng hàng hóa sẵn có để bán
+  difference_vi: Stock là hàng hóa trưng bày sẵn sàng bán; inventory là toàn bộ danh
+    mục tài sản hàng hóa bao gồm cả vật liệu lưu kho.
+synonyms:
+- word: stock
+  meaning_vi: kho hàng
+- word: merchandise
+  meaning_vi: hàng hóa
+examples:
+- en: The store will temporarily close early this evening so staff can take the annual
+    inventory.
+  vi: Cửa hàng sẽ tạm thời đóng cửa sớm vào tối nay để nhân viên có thể tiến hành
+    kiểm kê hàng hóa thường niên.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈɪn-/. Giọng Mỹ đọc rõ âm /-tɔːri/,
+  không nuốt âm.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

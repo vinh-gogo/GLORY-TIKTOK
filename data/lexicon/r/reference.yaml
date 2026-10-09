@@ -1,0 +1,57 @@
+schema_version: 2
+id: reference
+lemma: reference
+pos:
+- noun
+ipa:
+  us: /ˈrefrəns/
+  uk: /ˈrefrəns/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- human-resources
+- management-operations
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: reference-1
+  meaning_vi: Thư giới thiệu, người xác nhận tham chiếu lý lịch ứng viên
+  note_vi: Người có thể cung cấp chứng thực về năng lực làm việc và tư cách đạo đức của người tìm việc.
+confused_words:
+- word: referee
+  ipa: /ˌrefəˈriː/
+  difference_vi: Referee là trọng tài thể thao hoặc người tham chiếu tại Anh; reference là thư giới thiệu hoặc thông tin tham
+    chiếu.
+confusing_meanings:
+- difference_vi: Reference trong tuyển dụng là người/thư tham chiếu; trong tài liệu là sự trích dẫn nguồn tài liệu tham khảo.
+collocations:
+- phrase: check references
+  meaning_vi: xác minh thông tin người tham chiếu
+  evidence: corpus
+- phrase: professional reference
+  meaning_vi: người tham chiếu chuyên môn
+  evidence: corpus
+- phrase: letters of reference
+  meaning_vi: thư giới thiệu năng lực
+  evidence: corpus
+synonyms:
+- word: recommendation
+  meaning_vi: sự tiến cử, lời khuyên
+- word: endorsement
+  meaning_vi: sự bảo đảm uy tín
+examples:
+- en: The hiring committee checked all three references before making a final job offer.
+  vi: Hội đồng tuyển dụng đã kiểm tra cả ba người tham chiếu trước khi đưa ra lời mời nhận việc chính thức.
+pronunciation_tips_vi: Từ này có 2 hoặc 3 âm tiết /ˈref-rəns/, trọng âm rơi vào âm đầu tiên, đừng nhấn vào âm thứ hai.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

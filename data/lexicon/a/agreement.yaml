@@ -1,0 +1,69 @@
+schema_version: 2
+id: agreement
+lemma: agreement
+pos:
+- noun
+ipa:
+  us: /əˈɡriːmənt/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- contracts
+- business
+- meetings
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: agreement-1
+  meaning_vi: Sự thỏa thuận, hợp đồng cam kết giữa các bên
+  note_vi: Dùng phổ biến trong đàm phán thương mại và ký kết văn bản thỏa thuận.
+collocations:
+- phrase: reach an agreement
+  meaning_vi: đạt được thỏa thuận
+  evidence: corpus
+- phrase: come to an agreement
+  meaning_vi: đi đến thống nhất chung
+  evidence: corpus
+- phrase: signed agreement
+  meaning_vi: bản thỏa thuận đã được ký kết
+  evidence: corpus
+- phrase: terms of the agreement
+  meaning_vi: các điều khoản của bản thỏa thuận
+  evidence: corpus
+confused_words:
+- word: argument
+  ipa: /ˈɑːrɡjumənt/
+  meaning: sự tranh cãi, bất đồng
+  kind: spelling-sound
+  difference_vi: Agreement là sự đồng thuận, nhất trí; argument là cuộc tranh cãi
+    hoặc bất đồng ý kiến.
+confusing_meanings:
+- word: contract
+  meaning: hợp đồng pháp lý có chế tài chặt chẽ
+  difference_vi: Contract là hợp đồng chính thức có ràng buộc pháp lý; agreement là
+    sự thỏa thuận nói chung (có thể bằng lời nói hoặc văn bản ghi nhớ).
+synonyms:
+- word: contract
+  meaning_vi: hợp đồng
+- word: deal
+  meaning_vi: thương vụ thỏa thuận
+examples:
+- en: After lengthy discussions, both companies finally reached a mutual agreement
+    yesterday.
+  vi: Sau các cuộc thảo luận kéo dài, cả hai công ty cuối cùng đã đạt được thỏa thuận
+    chung vào ngày hôm qua.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈɡriː-/. Lưu ý nguyên âm
+  dài /iː/, đuôi /-mənt/ phát âm schwa nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

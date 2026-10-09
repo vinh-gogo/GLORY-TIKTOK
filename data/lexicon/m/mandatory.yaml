@@ -1,0 +1,58 @@
+schema_version: 2
+id: mandatory
+lemma: mandatory
+pos:
+- adjective
+ipa:
+  us: /ˈmændətɔːri/
+  uk: /ˈmændətəri/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- legal-compliance
+- human-resources
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: mandatory-1
+  meaning_vi: Mang tính bắt buộc theo luật hoặc theo quy định của tổ chức
+  note_vi: Trái nghĩa với optional (tùy chọn tự nguyện).
+confused_words:
+- word: optional
+  ipa: /ˈɑːpʃənl/
+  difference_vi: Optional là tự chọn tùy ý; mandatory là bắt buộc phải tuân thủ.
+confusing_meanings:
+- difference_vi: Mandatory training session = buổi tập huấn bắt buộc; mandatory requirement = yêu cầu bắt buộc không thể thiếu.
+collocations:
+- phrase: mandatory training session
+  meaning_vi: buổi tập huấn bắt buộc
+  evidence: corpus
+- phrase: mandatory requirement
+  meaning_vi: yêu cầu bắt buộc
+  evidence: corpus
+- phrase: make attendance mandatory
+  meaning_vi: bắt buộc phải tham dự đầy đủ
+  evidence: corpus
+synonyms:
+- word: compulsory
+  meaning_vi: cưỡng bách, bắt buộc
+- word: obligatory
+  meaning_vi: có tính nghĩa vụ bắt buộc
+- word: required
+  meaning_vi: được yêu cầu
+examples:
+- en: Attendance at the annual workplace safety briefing is mandatory for all production personnel.
+  vi: Việc tham dự buổi hướng dẫn an toàn nơi làm việc thường niên là bắt buộc đối với toàn thể nhân viên sản xuất.
+pronunciation_tips_vi: Trong tiếng Mỹ phát âm là /ˈmændətɔːri/ có âm /tɔː/ rõ ở âm tiết thứ ba; tiếng Anh là /ˈmændətəri/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

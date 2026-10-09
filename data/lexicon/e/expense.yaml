@@ -1,0 +1,70 @@
+schema_version: 2
+id: expense
+lemma: expense
+pos:
+- noun
+ipa:
+  us: /ɪkˈspens/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- budget
+- business
+- travel
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: expense-1
+  meaning_vi: Chi phí, khoản tiền chi tiêu (công tác, vận hành)
+  note_vi: Thường gặp trong bối cảnh thanh toán công tác phí, báo cáo chi tiêu tài
+    chính.
+collocations:
+- phrase: travel expenses
+  meaning_vi: chi phí đi lại, công tác phí
+  evidence: corpus
+- phrase: reduce expenses
+  meaning_vi: cắt giảm chi phí chi tiêu
+  evidence: corpus
+- phrase: at the company's expense
+  meaning_vi: do công ty chi trả toàn bộ
+  evidence: corpus
+- phrase: expense report
+  meaning_vi: bảng báo cáo chi phí
+  evidence: corpus
+confused_words:
+- word: expanse
+  ipa: /ɪkˈspæns/
+  meaning: dải đất rộng bao la
+  kind: spelling-sound
+  difference_vi: Expense có nguyên âm /e/ mang nghĩa chi phí; expanse có nguyên âm
+    /æ/ mang nghĩa không gian bao la rộng lớn.
+confusing_meanings:
+- word: price
+  meaning: giá bán niêm yết của hàng hóa
+  difference_vi: Price là mức giá đề ra cho sản phẩm; expense là số tiền thực tế bạn
+    đã phải chi trả trong quá trình sinh hoạt hoặc làm việc.
+synonyms:
+- word: expenditure
+  meaning_vi: khoản chi tiêu
+- word: cost
+  meaning_vi: chi phí
+examples:
+- en: Employees must submit all receipts along with their travel expense report by
+    Friday afternoon.
+  vi: Nhân viên phải nộp tất cả các hóa đơn kèm theo báo cáo công tác phí trước chiều
+    thứ Sáu.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈspens/. Âm cuối là /s/
+  xì nhẹ rõ ràng, tránh đọc nhầm thành âm đuôi 'x'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

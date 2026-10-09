@@ -1,0 +1,55 @@
+schema_version: 2
+id: fiscal
+lemma: fiscal
+pos:
+- adjective
+ipa:
+  us: /ˈfɪskl/
+  uk: /ˈfɪskl/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- finance-accounting
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: fiscal-1
+  meaning_vi: Thuộc về tài chính công, ngân sách tài khóa hoặc năm tài chính
+  note_vi: Cụm fiscal year (năm tài chính/năm tài khóa) là collocation cốt lõi của TOEIC.
+confused_words:
+- word: physical
+  ipa: /ˈfɪzɪkl/
+  difference_vi: Physical là thuộc về thể chất hoặc vật lý (/z/); fiscal là thuộc về tài chính ngân sách (/s/).
+confusing_meanings:
+- difference_vi: Fiscal liên quan đến chính sách thu thuế và chi tiêu của chính phủ hoặc năm kế toán doanh nghiệp.
+collocations:
+- phrase: fiscal year
+  meaning_vi: năm tài chính / niên độ tài khóa
+  evidence: corpus
+- phrase: fiscal policy
+  meaning_vi: chính sách tài khóa
+  evidence: corpus
+- phrase: end of the fiscal quarter
+  meaning_vi: cuối quý tài chính
+  evidence: corpus
+synonyms:
+- word: financial
+  meaning_vi: thuộc về tài chính
+- word: monetary
+  meaning_vi: thuộc về tiền tệ
+examples:
+- en: Revenue figures for the fourth quarter of the fiscal year exceeded analysts' projections.
+  vi: Số liệu doanh thu quý tư của năm tài chính đã vượt xa dự báo của các nhà phân tích.
+pronunciation_tips_vi: Phát âm âm /s/ rõ (không đọc thành /z/ như 'physical'), âm đuôi là /kl/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

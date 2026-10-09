@@ -1,0 +1,57 @@
+schema_version: 2
+id: entitled
+lemma: entitled
+pos:
+- adjective
+ipa:
+  us: /ɪnˈtaɪtld/
+  uk: /ɪnˈtaɪtld/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- human-resources
+- salary-benefits
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: entitled-1
+  meaning_vi: Được quyền hưởng, đủ tư cách thụ hưởng quyền lợi hoặc trợ cấp
+  note_vi: 'Cấu trúc kinh điển: be entitled to + danh từ / be entitled to do sth.'
+confused_words:
+- word: titled
+  ipa: /ˈtaɪtld/
+  difference_vi: Titled là có tựa đề hoặc có tước vị; entitled là được quyền hưởng chế độ.
+confusing_meanings:
+- difference_vi: Be entitled to benefits = được quyền hưởng trợ cấp; an entitled attitude = thái độ ngạo mạn tự cho mình là
+    trung tâm.
+collocations:
+- phrase: entitled to benefits
+  meaning_vi: được quyền hưởng các khoản phúc lợi
+  evidence: corpus
+- phrase: entitled to a full refund
+  meaning_vi: được quyền nhận lại toàn bộ tiền hoàn
+  evidence: corpus
+- phrase: entitled to paid leave
+  meaning_vi: được quyền nghỉ phép hưởng nguyên lương
+  evidence: corpus
+synonyms:
+- word: eligible
+  meaning_vi: đủ điều kiện, đủ tiêu chuẩn
+- word: authorized
+  meaning_vi: được phép, có thẩm quyền
+examples:
+- en: Full-time employees are entitled to fifteen days of paid annual leave each year.
+  vi: Nhân viên chính thức được quyền hưởng mười lăm ngày nghỉ phép thường niên có lương mỗi năm.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈtaɪt/, âm cuối /ld/ phát âm uốn lưỡi nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,71 @@
+schema_version: 2
+id: enhance
+lemma: enhance
+pos:
+- verb
+ipa:
+  us: /ɪnˈhæns/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- marketing
+- business
+- training
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: enhance-1
+  meaning_vi: Nâng cao, gia tăng, cải thiện chất lượng hoặc giá trị
+  note_vi: Từ vựng trang trọng dùng trong đề xuất cải tiến sản phẩm, nâng cao kỹ năng.
+collocations:
+- phrase: enhance productivity
+  meaning_vi: nâng cao năng suất làm việc
+  evidence: corpus
+- phrase: enhance customer experience
+  meaning_vi: cải thiện trải nghiệm khách hàng
+  evidence: corpus
+- phrase: enhance one's skills
+  meaning_vi: bồi dưỡng, nâng cao kỹ năng
+  evidence: corpus
+- phrase: enhance reputation
+  meaning_vi: nâng cao uy tín thương hiệu
+  evidence: corpus
+confused_words:
+- word: enchant
+  ipa: /ɪnˈtʃænt/
+  meaning: mê hoặc, làm say mê
+  kind: spelling-sound
+  difference_vi: Enhance mang nghĩa cải thiện, tăng cường giá trị; enchant mang nghĩa
+    làm say đắm, mê hoặc.
+confusing_meanings:
+- word: increase
+  meaning: tăng về số lượng
+  difference_vi: Increase là tăng về mặt lượng hoặc số đo cơ học; enhance là nâng
+    cao về mặt chất lượng, độ hấp dẫn hay uy tín.
+synonyms:
+- word: improve
+  meaning_vi: cải thiện
+- word: upgrade
+  meaning_vi: nâng cấp
+- word: boost
+  meaning_vi: thúc đẩy
+examples:
+- en: Attending professional development workshops will certainly enhance your presentation
+    skills.
+  vi: Tham dự các buổi hội thảo phát triển chuyên môn chắc chắn sẽ nâng cao kỹ năng
+    thuyết trình của bạn.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết hai /-ˈhæns/. Âm cuối là /s/ rõ ràng,
+  không nuốt âm cuối.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

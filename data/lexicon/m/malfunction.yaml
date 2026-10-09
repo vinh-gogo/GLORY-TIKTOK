@@ -1,0 +1,57 @@
+schema_version: 2
+id: malfunction
+lemma: malfunction
+pos:
+- noun
+- verb
+ipa:
+  us: /ˌmælˈfʌŋkʃn/
+  uk: /ˌmælˈfʌŋkʃn/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- production-quality-control
+- management-operations
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: malfunction-1
+  meaning_vi: Sự cố trục trặc kỹ thuật, máy móc hỏng hóc không hoạt động; (v) bị lỗi vận hành
+  note_vi: Tiền tố mal- (xấu/sai) kết hợp với function (chức năng).
+confused_words:
+- word: function
+  ipa: /ˈfʌŋkʃn/
+  difference_vi: Function là chức năng hoạt động bình thường; malfunction là sự trục trặc, lỗi vận hành.
+confusing_meanings:
+- difference_vi: Equipment malfunction = sự cố máy móc hỏng; software malfunction = lỗi phần mềm gián đoạn.
+collocations:
+- phrase: equipment malfunction
+  meaning_vi: trục trặc thiết bị máy móc
+  evidence: corpus
+- phrase: mechanical malfunction
+  meaning_vi: sự cố cơ khí
+  evidence: corpus
+- phrase: malfunction suddenly
+  meaning_vi: đột ngột bị hỏng hóc
+  evidence: corpus
+synonyms:
+- word: glitch
+  meaning_vi: sự cố nhỏ bất ngờ
+- word: breakdown
+  meaning_vi: sự đổ vỡ, hỏng máy móc
+examples:
+- en: Production was temporarily halted due to an unexpected equipment malfunction in the packaging unit.
+  vi: Việc sản xuất đã tạm thời bị ngừng lại do sự cố trục trặc thiết bị bất ngờ tại bộ phận đóng gói.
+pronunciation_tips_vi: Trọng âm rơi vào âm thứ hai /ˈfʌŋk/, có âm ngắt /ŋk/ trước khi sang /ʃn/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

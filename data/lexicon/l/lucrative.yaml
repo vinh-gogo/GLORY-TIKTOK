@@ -1,0 +1,58 @@
+schema_version: 2
+id: lucrative
+lemma: lucrative
+pos:
+- adjective
+ipa:
+  us: /ˈluːkrətɪv/
+  uk: /ˈluːkrətɪv/
+level:
+  band: advanced
+  cefr: C1
+  basis: TOEIC 750+
+topics:
+- finance-accounting
+- contracts-negotiation
+speaking_use:
+- express-opinion
+- respond-with-info
+senses:
+- id: lucrative-1
+  meaning_vi: Sinh lời lớn, mang lại nhiều lợi nhuận tài chính béo bở
+  note_vi: Miêu tả các cơ hội kinh doanh, thỏa thuận thương mại hoặc thị trường hấp dẫn.
+confused_words:
+- word: creative
+  ipa: /kriˈeɪtɪv/
+  difference_vi: Creative là sáng tạo; lucrative là sinh lời nhiều tiền bạc.
+confusing_meanings:
+- difference_vi: Lucrative nhấn mạnh vào khả năng kiếm được món tiền lớn nhanh chóng.
+collocations:
+- phrase: lucrative contract
+  meaning_vi: hợp đồng béo bở, sinh lợi lớn
+  evidence: corpus
+- phrase: lucrative business opportunity
+  meaning_vi: cơ hội kinh doanh sinh lời cao
+  evidence: corpus
+- phrase: highly lucrative market
+  meaning_vi: thị trường cực kỳ tiềm năng về lợi nhuận
+  evidence: corpus
+synonyms:
+- word: profitable
+  meaning_vi: có lãi, sinh lời
+- word: gainful
+  meaning_vi: có thu nhập tốt
+- word: rewarding
+  meaning_vi: xứng đáng, đem lại nhiều lợi ích
+examples:
+- en: Securing that overseas distribution deal proved to be extremely lucrative for the company.
+  vi: Giành được thỏa thuận phân phối ở nước ngoài đó đã được chứng minh là cực kỳ sinh lợi cho công ty.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈluː/, nguyên âm /uː/ dài, hai âm sau đọc lướt nhẹ /krətɪv/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,69 @@
+schema_version: 2
+id: adjourn
+lemma: adjourn
+pos:
+- verb
+ipa:
+  us: /əˈdʒɜːrn/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- meetings
+- legal
+- business
+speaking_use:
+- read-aloud
+- respond-with-info
+senses:
+- id: adjourn-1
+  meaning_vi: Tạm hoãn, bế mạc cuộc họp (để nghỉ hoặc chuyển sang buổi khác)
+  note_vi: Thuật ngữ trang trọng trong các cuộc họp hội đồng quản trị hoặc hội nghị.
+collocations:
+- phrase: adjourn the meeting
+  meaning_vi: bế mạc / tạm hoãn cuộc họp
+  evidence: corpus
+- phrase: motion to adjourn
+  meaning_vi: đề xuất kết thúc phiên họp
+  evidence: corpus
+- phrase: adjourn until tomorrow
+  meaning_vi: hoãn phiên họp cho đến ngày mai
+  evidence: corpus
+- phrase: the session was adjourned
+  meaning_vi: phiên họp đã được tuyên bố bế mạc
+  evidence: corpus
+confused_words:
+- word: adjust
+  ipa: /əˈdʒʌst/
+  meaning: điều chỉnh, sửa lại cho vừa
+  kind: spelling-sound
+  difference_vi: Adjourn là tạm dừng bế mạc cuộc họp; adjust mang nghĩa điều chỉnh
+    đồ vật hoặc thích nghi.
+confusing_meanings:
+- word: postpone
+  meaning: dời lịch trước khi diễn ra
+  difference_vi: Postpone là dời cuộc họp sang một ngày khác trước khi nó bắt đầu;
+    adjourn là tạm dừng hoặc bế mạc cuộc họp đang diễn ra.
+synonyms:
+- word: suspend
+  meaning_vi: tạm đình chỉ
+- word: recess
+  meaning_vi: tạm nghỉ phiên họp
+examples:
+- en: The chairperson decided to adjourn the board meeting until two o'clock this
+    afternoon.
+  vi: Chủ tọa đã quyết định tạm hoãn cuộc họp hội đồng quản trị cho đến hai giờ chiều
+    nay.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈdʒɜːrn/. Chú ý âm /ɜːr/
+  cong lưỡi chuẩn giọng Mỹ, âm /n/ ngân nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

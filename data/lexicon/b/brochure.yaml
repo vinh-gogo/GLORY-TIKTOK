@@ -1,0 +1,59 @@
+schema_version: 2
+id: brochure
+lemma: brochure
+pos:
+- noun
+ipa:
+  us: /broʊˈʃʊr/
+  uk: /ˈbrəʊʃə/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- marketing-advertising
+- hospitality-travel
+speaking_use:
+- describe-picture
+- respond-to-questions
+senses:
+- id: brochure-1
+  meaning_vi: Tập tài liệu quảng cáo gấp nhiều trang (giới thiệu sản phẩm, tour du lịch)
+  note_vi: Ấn phẩm tiếp thị in màu giới thiệu chi tiết sản phẩm, dịch vụ hoặc tour tham quan.
+confused_words:
+- word: pamphlet
+  ipa: /ˈpæmflət/
+  difference_vi: Pamphlet là tập tài liệu mỏng thường dùng tuyên truyền quan điểm; brochure thường dày dặn in màu bóng bẩy
+    để quảng cáo thương mại.
+confusing_meanings:
+- difference_vi: Travel brochure = cẩm nang du lịch quảng bá; product brochure = sách giới thiệu sản phẩm.
+collocations:
+- phrase: promotional brochure
+  meaning_vi: tập tài liệu quảng cáo xúc tiến
+  evidence: corpus
+- phrase: print brochures
+  meaning_vi: in ấn các tập tài liệu giới thiệu
+  evidence: corpus
+- phrase: distribute brochures
+  meaning_vi: phát tài liệu quảng cáo
+  evidence: corpus
+synonyms:
+- word: booklet
+  meaning_vi: tập sách nhỏ
+- word: pamphlet
+  meaning_vi: tờ gấp tài liệu
+- word: catalog
+  meaning_vi: danh mục sản phẩm
+examples:
+- en: You can pick up a promotional brochure at the front desk for detailed package pricing.
+  vi: Bạn có thể lấy một tập tài liệu quảng cáo tại quầy lễ tân để xem chi tiết giá các gói dịch vụ.
+pronunciation_tips_vi: Trong tiếng Mỹ nhấn âm hai /broʊˈʃʊr/, âm giữa là /ʃ/ tròn môi, đừng đọc thành âm 'ch'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

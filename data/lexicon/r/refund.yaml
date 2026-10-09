@@ -1,0 +1,63 @@
+schema_version: 2
+id: refund
+lemma: refund
+pos:
+  - noun
+  - verb
+ipa:
+  us: "/ˈriːfʌnd/"
+level:
+  cefr: B1
+  band: core
+  basis: "editorial"
+topics:
+  - sales
+  - shopping
+  - customer-service
+speaking_use:
+  - read-aloud
+  - respond-to-questions
+senses:
+  - id: refund-1
+    meaning_vi: "Tiền hoàn trả / Hoàn tiền lại cho khách hàng"
+    note_vi: "Thường gặp khi sản phẩm bị lỗi hoặc dịch vụ không đạt chất lượng (Part 1, 3, 5)."
+collocations:
+  - phrase: "full refund"
+    meaning_vi: "hoàn tiền toàn bộ 100%"
+    evidence: "corpus"
+  - phrase: "request a refund"
+    meaning_vi: "yêu cầu được hoàn tiền"
+    evidence: "corpus"
+  - phrase: "issue a refund"
+    meaning_vi: "thực hiện hoàn tiền vào tài khoản"
+    evidence: "corpus"
+  - phrase: "non-refundable"
+    meaning_vi: "không được hoàn lại tiền (vé/phí)"
+    evidence: "corpus"
+confused_words:
+  - word: "refuse"
+    ipa: "/rɪˈfjuːz/"
+    meaning: "từ chối không làm việc gì"
+    kind: "spelling-sound"
+    difference_vi: "Refund kết thúc bằng âm /-fʌnd/ chỉ tiền hoàn lại; refuse mang nghĩa từ chối."
+confusing_meanings:
+  - word: "compensation"
+    meaning: "khoản tiền bồi thường thiệt hại"
+    difference_vi: "Refund chỉ đơn giản là trả lại số tiền khách đã bỏ ra mua; compensation là tiền bồi thường thêm cho những tổn thất phát sinh."
+synonyms:
+  - word: "reimbursement"
+    meaning_vi: "sự hoàn trả chi phí"
+examples:
+  - en: "If the delivered product is defective, you are entitled to receive a full refund."
+    vi: "Nếu sản phẩm được giao bị lỗi, bạn có quyền nhận lại toàn bộ số tiền đã thanh toán."
+pronunciation_tips_vi: "Khi là danh từ, trọng âm rơi vào âm tiết đầu /ˈriː-/. Khi là động từ, người bản xứ thường nhấn âm hai /rɪˈfʌnd/. Chú ý âm đuôi /-nd/ dứt khoát."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

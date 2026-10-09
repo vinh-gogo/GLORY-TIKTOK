@@ -1,0 +1,56 @@
+schema_version: 2
+id: renew
+lemma: renew
+pos:
+- verb
+ipa:
+  us: /rɪˈnuː/
+  uk: /rɪˈnjuː/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- contracts-negotiation
+- sales-customer-service
+speaking_use:
+- respond-to-questions
+- respond-with-info
+senses:
+- id: renew-1
+  meaning_vi: Gia hạn hợp đồng, đổi mới gói dịch vụ thuê bao hoặc giấy phép
+  note_vi: Kéo dài hiệu lực của một văn bản hoặc thỏa thuận sẵn có thêm một kỳ hạn mới.
+confused_words:
+- word: resume
+  ipa: /rɪˈzuːm/
+  difference_vi: Resume là tiếp tục lại sau khi tạm dừng; renew là gia hạn hiệu lực hợp đồng hoặc giấy phép.
+confusing_meanings:
+- difference_vi: Renew a contract (gia hạn hợp đồng) khác với renewable energy (năng lượng tái tạo).
+collocations:
+- phrase: renew a contract
+  meaning_vi: gia hạn hợp đồng
+  evidence: corpus
+- phrase: renew a subscription
+  meaning_vi: gia hạn gói đăng ký dịch vụ
+  evidence: corpus
+- phrase: automatically renew
+  meaning_vi: tự động gia hạn
+  evidence: corpus
+synonyms:
+- word: extend
+  meaning_vi: kéo dài kỳ hạn
+- word: continue
+  meaning_vi: tiếp tục duy trì
+examples:
+- en: The tenant decided to renew the office lease for another two years.
+  vi: Bên thuê đã quyết định gia hạn hợp đồng thuê văn phòng thêm hai năm nữa.
+pronunciation_tips_vi: Giọng Mỹ đọc là /rɪˈnuː/ (âm 'u' dài), giọng Anh đọc là /rɪˈnjuː/ có phụ âm đệm /j/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

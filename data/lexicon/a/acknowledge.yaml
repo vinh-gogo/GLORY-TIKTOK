@@ -1,0 +1,69 @@
+schema_version: 2
+id: acknowledge
+lemma: acknowledge
+pos:
+- verb
+ipa:
+  us: /əkˈnɑːlɪdʒ/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- email
+- customer-service
+- business
+speaking_use:
+- read-aloud
+- respond-to-questions
+senses:
+- id: acknowledge-1
+  meaning_vi: Xác nhận đã nhận được (thư từ, thanh toán, đơn hàng) / Thừa nhận
+  note_vi: Cực kỳ phổ biến trong giao tiếp email công sở và dịch vụ khách hàng.
+collocations:
+- phrase: acknowledge receipt of
+  meaning_vi: xác nhận đã nhận được (hàng/thư)
+  evidence: corpus
+- phrase: promptly acknowledge
+  meaning_vi: nhanh chóng gửi xác nhận
+  evidence: corpus
+- phrase: acknowledge the contribution
+  meaning_vi: ghi nhận sự đóng góp
+  evidence: corpus
+- phrase: formally acknowledge
+  meaning_vi: chính thức xác nhận
+  evidence: corpus
+confused_words:
+- word: knowledge
+  ipa: /ˈnɑːlɪdʒ/
+  meaning: kiến thức, sự hiểu biết
+  kind: spelling-sound
+  difference_vi: Acknowledge là động từ xác nhận đã nhận; knowledge là danh từ chỉ
+    kiến thức.
+confusing_meanings:
+- word: confirm
+  meaning: xác nhận tính chính xác
+  difference_vi: Confirm là xác nhận tính chuẩn xác của lịch hẹn; acknowledge là thông
+    báo cho đối phương biết mình đã nhận được tài liệu/hàng hóa.
+synonyms:
+- word: recognize
+  meaning_vi: công nhận
+- word: admit
+  meaning_vi: thừa nhận
+examples:
+- en: We would like to acknowledge receipt of your application for the marketing manager
+    position.
+  vi: Chúng tôi xin xác nhận đã nhận được hồ sơ ứng tuyển của bạn cho vị trí trưởng
+    phòng tiếp thị.
+pronunciation_tips_vi: Chữ cái 'k' là ÂM CÂM! Trọng âm rơi vào âm tiết thứ hai /-ˈnɑː-/.
+  Âm cuối là /dʒ/ bật dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

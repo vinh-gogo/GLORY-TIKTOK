@@ -1,0 +1,60 @@
+schema_version: 2
+id: recall
+lemma: recall
+pos:
+- verb
+- noun
+ipa:
+  us: /rɪˈkɔːl/
+  uk: /rɪˈkɔːl/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- production-quality-control
+- sales-customer-service
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: recall-1
+  meaning_vi: Thu hồi sản phẩm bị lỗi trên thị trường; (v) triệu hồi sản phẩm về nhà máy
+  note_vi: Khi là danh từ thu hồi sản phẩm, trọng âm thường chuyển lên âm đầu /ˈriːkɔːl/.
+- id: recall-2
+  meaning_vi: Nhớ lại một sự việc trong quá khứ
+  note_vi: Đồng nghĩa với remember.
+confused_words:
+- word: call back
+  ipa: /kɔːl bæk/
+  difference_vi: Call back là gọi điện lại; recall là chiến dịch thu hồi toàn bộ sản phẩm lỗi hoặc hồi tưởng ký ức.
+confusing_meanings:
+- difference_vi: Product recall = chiến dịch thu hồi sản phẩm; as far as I recall = theo như tôi nhớ lại.
+collocations:
+- phrase: product recall
+  meaning_vi: chiến dịch thu hồi sản phẩm lỗi
+  evidence: corpus
+- phrase: issue a recall
+  meaning_vi: phát lệnh triệu hồi sản phẩm
+  evidence: corpus
+- phrase: voluntary recall
+  meaning_vi: sự chủ động tự nguyện thu hồi sản phẩm
+  evidence: corpus
+synonyms:
+- word: withdraw
+  meaning_vi: rút lại, thu hồi khỏi thị trường
+- word: remember
+  meaning_vi: nhớ lại
+examples:
+- en: The automaker issued a voluntary recall of 50,000 sedans to fix a faulty airbag sensor.
+  vi: Hãng sản xuất ô tô đã phát lệnh tự nguyện thu hồi 50.000 chiếc xe sedan để sửa cảm biến túi khí bị lỗi.
+pronunciation_tips_vi: Động từ nhấn âm 2 /rɪˈkɔːl/, danh từ thường nhấn âm 1 /ˈriːkɔːl/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

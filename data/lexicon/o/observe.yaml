@@ -1,0 +1,62 @@
+schema_version: 2
+id: observe
+lemma: observe
+pos:
+- verb
+ipa:
+  us: /əbˈzɜːrv/
+  uk: /əbˈzɜːv/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- legal-compliance
+- management-operations
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: observe-1
+  meaning_vi: Tuân thủ, chấp hành (luật pháp, thỏa thuận); cử hành (ngày lễ kỷ niệm)
+  note_vi: 'Văn cảnh pháp lý: observe the rules / terms of agreement.'
+- id: observe-2
+  meaning_vi: Quan sát kỹ lưỡng bằng mắt để theo dõi hiện tượng
+  note_vi: Như trong observe customer behavior.
+confused_words:
+- word: absorb
+  ipa: /əbˈzɔːrb/
+  difference_vi: Absorb là hấp thụ, thấm hút (/ɔːr/); observe là quan sát hoặc tuân thủ (/ɜːr/).
+confusing_meanings:
+- difference_vi: Observe the law = tuân thủ pháp luật; observe a holiday = nghỉ lễ kỷ niệm; observe behavior = quan sát hành
+    vi.
+collocations:
+- phrase: observe the law
+  meaning_vi: tuân thủ luật pháp
+  evidence: corpus
+- phrase: observe strict confidentiality
+  meaning_vi: tuân thủ nguyên tắc bảo mật nghiêm ngặt
+  evidence: corpus
+- phrase: observe customer behavior
+  meaning_vi: quan sát hành vi khách mua hàng
+  evidence: corpus
+synonyms:
+- word: abide by
+  meaning_vi: tuân theo
+- word: watch
+  meaning_vi: theo dõi
+- word: celebrate
+  meaning_vi: kỷ niệm ngày lễ
+examples:
+- en: All employees are expected to observe strict confidentiality regarding trade secrets.
+  vi: Mọi nhân viên đều được kỳ vọng sẽ tuân thủ nghiêm ngặt chế độ bảo mật đối với các bí mật kinh doanh.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈzɜːrv/, chữ 's' phát âm thành /z/ rung, đuôi là /rv/ khép kín.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

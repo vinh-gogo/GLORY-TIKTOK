@@ -1,0 +1,56 @@
+schema_version: 2
+id: stationery
+lemma: stationery
+pos:
+- noun
+ipa:
+  us: /ˈsteɪʃəneri/
+  uk: /ˈsteɪʃənri/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- meetings-office
+speaking_use:
+- describe-picture
+- respond-to-questions
+senses:
+- id: stationery-1
+  meaning_vi: Văn phòng phẩm (giấy in, bút, bìa hồ sơ, kẹp ghim)
+  note_vi: Đồ dùng văn phòng cần thiết cho bàn làm việc hàng ngày.
+confused_words:
+- word: stationary
+  ipa: /ˈsteɪʃəneri/
+  difference_vi: 'Đồng âm hoàn toàn nhưng khác chính tả và nghĩa: stationary (có ''a'') nghĩa là đứng yên bất động; stationery
+    (có ''e'') là đồ dùng văn phòng phẩm.'
+confusing_meanings:
+- difference_vi: Office stationery = đồ dùng văn phòng; personalized stationery = giấy viết thư in sẵn tên riêng sang trọng.
+collocations:
+- phrase: office stationery
+  meaning_vi: văn phòng phẩm dùng trong văn phòng
+  evidence: corpus
+- phrase: order stationery
+  meaning_vi: đặt mua văn phòng phẩm
+  evidence: corpus
+- phrase: stationery cupboard
+  meaning_vi: tủ đựng văn phòng phẩm
+  evidence: corpus
+synonyms:
+- word: office supplies
+  meaning_vi: đồ dùng văn phòng
+- word: paper goods
+  meaning_vi: các sản phẩm giấy in
+examples:
+- en: The administrative assistant is preparing a bulk order for office stationery and printer toner.
+  vi: Trợ lý hành chính đang chuẩn bị một đơn đặt hàng lớn văn phòng phẩm và mực máy in.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈsteɪ/, nhị trùng âm /eɪ/ rõ nét, đuôi /neri/ đọc nhanh.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,61 @@
+schema_version: 2
+id: guarantee
+lemma: guarantee
+pos:
+- verb
+- noun
+ipa:
+  us: /ˌɡærənˈtiː/
+  uk: /ˌɡærənˈtiː/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- sales-customer-service
+- contracts-negotiation
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: guarantee-1
+  meaning_vi: Cam kết bảo đảm chất lượng; giấy bảo hành; (v) cam đoan chắc chắn
+  note_vi: Lời hứa chính thức về việc sửa chữa hoặc hoàn tiền nếu sản phẩm gặp trục trặc.
+confused_words:
+- word: warranty
+  ipa: /ˈwɔːrənti/
+  difference_vi: Warranty là văn bản bảo hành bằng văn bản cụ thể; guarantee là sự cam kết bảo đảm (vừa là danh từ vừa là
+    động từ).
+confusing_meanings:
+- difference_vi: Money-back guarantee = cam kết hoàn tiền nếu không ưng ý; under guarantee = đang trong thời hạn bảo hành.
+collocations:
+- phrase: money-back guarantee
+  meaning_vi: cam kết hoàn tiền nếu không vừa ý
+  evidence: corpus
+- phrase: under guarantee
+  meaning_vi: đang trong thời gian bảo hành
+  evidence: corpus
+- phrase: guarantee delivery
+  meaning_vi: cam đoan giao hàng đúng hẹn
+  evidence: corpus
+synonyms:
+- word: promise
+  meaning_vi: lời hứa
+- word: assure
+  meaning_vi: cam đoan, quả quyết
+- word: warranty
+  meaning_vi: chế độ bảo hành
+examples:
+- en: All our electronic appliances come with a two-year manufacturer guarantee against technical defects.
+  vi: Tất cả các thiết bị điện tử của chúng tôi đều đi kèm với cam kết bảo hành hai năm của nhà sản xuất đối với các lỗi kỹ
+    thuật.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết cuối /tiː/, nguyên âm /iː/ kéo dài, không nhấn âm đầu.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

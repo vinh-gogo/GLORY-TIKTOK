@@ -1,0 +1,56 @@
+schema_version: 2
+id: retire
+lemma: retire
+pos:
+- verb
+ipa:
+  us: /rɪˈtaɪər/
+  uk: /rɪˈtaɪə/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- human-resources
+- salary-benefits
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: retire-1
+  meaning_vi: Nghỉ hưu, kết thúc sự nghiệp lao động sau khi đủ tuổi
+  note_vi: Gắn liền với các chính sách hưu trí và tiệc chia tay đồng nghiệp (retirement party).
+confused_words:
+- word: tired
+  ipa: /ˈtaɪərd/
+  difference_vi: Tired là tính từ mệt mỏi; retire là động từ nghỉ hưu.
+confusing_meanings:
+- difference_vi: Retire from a career = nghỉ hưu; retire to bed = đi ngủ (nghĩa văn học cổ).
+collocations:
+- phrase: retire from work
+  meaning_vi: nghỉ hưu, ngừng làm việc
+  evidence: corpus
+- phrase: reach retirement age
+  meaning_vi: đến tuổi về hưu
+  evidence: corpus
+- phrase: retire comfortably
+  meaning_vi: nghỉ hưu với cuộc sống an nhàn
+  evidence: corpus
+synonyms:
+- word: stop working
+  meaning_vi: ngừng làm việc
+- word: step aside
+  meaning_vi: lui về nghỉ ngơi
+examples:
+- en: After forty years of dedicated service, our head engineer plans to retire next month.
+  vi: Sau bốn mươi năm cống hiến tận tụy, kỹ sư trưởng của chúng tôi dự định sẽ nghỉ hưu vào tháng tới.
+pronunciation_tips_vi: Trọng âm rơi vào âm thứ hai /taɪər/ với nhị trùng âm /aɪ/ dài.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

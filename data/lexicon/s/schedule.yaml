@@ -1,0 +1,66 @@
+schema_version: 2
+id: schedule
+lemma: schedule
+pos:
+  - noun
+  - verb
+ipa:
+  us: "/ˈskedʒuːl/"
+level:
+  cefr: B1
+  band: core
+  basis: "editorial"
+topics:
+  - work
+  - meetings
+  - events
+speaking_use:
+  - read-aloud
+  - respond-with-info
+  - respond-to-questions
+senses:
+  - id: schedule-1
+    meaning_vi: "Lịch trình, kế hoạch thời gian / Lên lịch, sắp xếp thời gian"
+    note_vi: "Từ xuất hiện với tần suất cao bậc nhất trong TOEIC Speaking (lịch họp, giờ bay, thời hạn công việc)."
+collocations:
+  - phrase: "ahead of schedule"
+    meaning_vi: "trước thời hạn dự kiến"
+    evidence: "corpus"
+  - phrase: "behind schedule"
+    meaning_vi: "chậm hơn so với tiến độ"
+    evidence: "corpus"
+  - phrase: "on schedule"
+    meaning_vi: "đúng tiến độ đề ra"
+    evidence: "corpus"
+  - phrase: "tight schedule"
+    meaning_vi: "lịch trình dày đặc, bận rộn"
+    evidence: "corpus"
+confused_words:
+  - word: "scheme"
+    ipa: "/skiːm/"
+    meaning: "kế hoạch có hệ thống, mưu đồ"
+    kind: "spelling"
+    difference_vi: "Schedule là thời gian biểu cụ thể; scheme mang nghĩa chương trình kế hoạch lớn hoặc mưu tính."
+confusing_meanings:
+  - word: "timetable"
+    meaning: "bảng giờ chạy xe buýt/tàu hỏa hoặc thời khóa biểu"
+    difference_vi: "Timetable chủ yếu dùng cho phương tiện công cộng/trường học; schedule dùng cho công việc kinh doanh và lịch trình cá nhân."
+synonyms:
+  - word: "timetable"
+    meaning_vi: "thời gian biểu"
+  - word: "agenda"
+    meaning_vi: "chương trình nghị sự"
+examples:
+  - en: "Despite the bad weather conditions, the construction project was completed ahead of schedule."
+    vi: "Bất chấp điều kiện thời tiết xấu, dự án xây dựng đã được hoàn thành trước tiến độ đề ra."
+pronunciation_tips_vi: "Giọng Mỹ (US) phát âm là /ˈskedʒuːl/ (bắt đầu bằng âm /sk-/), trong khi giọng Anh (UK) thường đọc là /ˈʃedʒuːl/ (bắt đầu bằng âm /ʃ/). Trong TOEIC ưu tiên giọng US."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

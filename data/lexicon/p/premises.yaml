@@ -1,0 +1,58 @@
+schema_version: 2
+id: premises
+lemma: premises
+pos:
+- noun
+ipa:
+  us: /ˈpremɪsɪz/
+  uk: /ˈpremɪsɪz/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- real-estate-construction
+- legal-compliance
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: premises-1
+  meaning_vi: Khuôn viên, cơ sở mặt bằng kinh doanh (bao gồm đất đai và toàn bộ tòa nhà)
+  note_vi: Luôn có dạng số nhiều -es khi chỉ mặt bằng cơ sở doanh nghiệp.
+confused_words:
+- word: premise
+  ipa: /ˈpremɪs/
+  difference_vi: Premise (số ít) là tiền đề logic trong triết học; premises (có -es) là khuôn viên cơ sở nhà xưởng.
+confusing_meanings:
+- difference_vi: On the premises = ngay tại khuôn viên cơ sở; business premises = mặt bằng kinh doanh.
+collocations:
+- phrase: on the premises
+  meaning_vi: ngay trong khuôn viên cơ sở
+  evidence: corpus
+- phrase: business premises
+  meaning_vi: mặt bằng cơ sở kinh doanh
+  evidence: corpus
+- phrase: vacate the premises
+  meaning_vi: dọn đi, bàn giao lại mặt bằng
+  evidence: corpus
+synonyms:
+- word: property
+  meaning_vi: khu bất động sản
+- word: site
+  meaning_vi: địa điểm, cơ sở
+- word: facility
+  meaning_vi: cơ sở vật chất
+examples:
+- en: Smoking is strictly prohibited anywhere on the hospital premises.
+  vi: Hút thuốc bị nghiêm cấm hoàn toàn tại bất kỳ đâu trong khuôn viên bệnh viện.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈprem/, hai âm sau đọc là /ɪsɪz/ có âm xát /s/ và /z/ rõ ràng.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

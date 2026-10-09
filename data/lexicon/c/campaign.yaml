@@ -1,0 +1,69 @@
+schema_version: 2
+id: campaign
+lemma: campaign
+pos:
+- noun
+ipa:
+  us: /kæmˈpeɪn/
+level:
+  cefr: B1
+  band: core
+  basis: editorial
+topics:
+- marketing
+- business
+speaking_use:
+- read-aloud
+- respond-to-questions
+- express-opinion
+senses:
+- id: campaign-1
+  meaning_vi: Chiến dịch (quảng cáo, tiếp thị, nâng cao nhận thức)
+  note_vi: Từ trọng tâm trong mảng Marketing & Bán hàng (Part 1, 3, 5).
+collocations:
+- phrase: marketing campaign
+  meaning_vi: chiến dịch tiếp thị
+  evidence: corpus
+- phrase: advertising campaign
+  meaning_vi: chiến dịch quảng cáo
+  evidence: corpus
+- phrase: launch a campaign
+  meaning_vi: tung ra / khởi động một chiến dịch
+  evidence: corpus
+- phrase: successful campaign
+  meaning_vi: chiến dịch thành công vang dội
+  evidence: corpus
+confused_words:
+- word: champion
+  ipa: /ˈtʃæmpiən/
+  meaning: nhà vô địch, quán quân
+  kind: spelling-sound
+  difference_vi: Campaign phát âm /kæmˈpeɪn/ là chiến dịch; champion phát âm /ˈtʃæmpiən/
+    là nhà vô địch.
+confusing_meanings:
+- word: promotion
+  meaning: chương trình khuyến mãi giảm giá ngắn hạn
+  difference_vi: Promotion là đợt giảm giá kích cầu ngắn hạn; campaign là chiến dịch
+    truyền thông toàn diện có kế hoạch dài hơi.
+synonyms:
+- word: marketing drive
+  meaning_vi: đợt xúc tiến tiếp thị
+- word: promotional effort
+  meaning_vi: nỗ lực quảng bá
+examples:
+- en: The company plans to launch a nationwide advertising campaign for its new smartphone
+    next month.
+  vi: Công ty có kế hoạch triển khai một chiến dịch quảng cáo trên toàn quốc cho chiếc
+    điện thoại thông minh mới vào tháng tới.
+pronunciation_tips_vi: Chữ cái 'g' là ÂM CÂM! Phát âm là /kæmˈpeɪn/, trọng âm rơi
+  vào âm tiết hai với nguyên âm đôi /eɪ/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

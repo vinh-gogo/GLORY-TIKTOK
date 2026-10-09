@@ -1,0 +1,62 @@
+schema_version: 2
+id: negotiate
+lemma: negotiate
+pos:
+  - verb
+ipa:
+  us: "/nɪˈɡoʊʃieɪt/"
+level:
+  cefr: B2
+  band: target
+  basis: "editorial"
+topics:
+  - contracts
+  - business
+  - sales
+speaking_use:
+  - respond-to-questions
+  - express-opinion
+senses:
+  - id: negotiate-1
+    meaning_vi: "Đàm phán, thương lượng (hợp đồng, giá cả, điều khoản)"
+    note_vi: "Dùng khi hai bên tìm kiếm thỏa thuận chung về giá cả hoặc hợp đồng kinh tế (Part 3, Part 5)."
+collocations:
+  - phrase: "negotiate a contract"
+    meaning_vi: "đàm phán một bản hợp đồng"
+    evidence: "corpus"
+  - phrase: "negotiate terms"
+    meaning_vi: "thương lượng các điều khoản"
+    evidence: "corpus"
+  - phrase: "negotiate a higher salary"
+    meaning_vi: "đàm phán mức lương cao hơn"
+    evidence: "corpus"
+  - phrase: "successfully negotiate"
+    meaning_vi: "thương lượng thành công tốt đẹp"
+    evidence: "corpus"
+confused_words:
+  - word: "navigate"
+    ipa: "/ˈnævɪɡeɪt/"
+    meaning: "định hướng, dò đường đi"
+    kind: "spelling-sound"
+    difference_vi: "Negotiate là đàm phán hợp đồng; navigate là dò tìm phương hướng đường xá hoặc điều hướng website."
+confusing_meanings:
+  - word: "bargain"
+    meaning: "mặc cả giá mua bán nhỏ lẻ"
+    difference_vi: "Negotiate mang tính chiến lược chuyên nghiệp (đàm phán đối tác); bargain là việc trả giá mua sắm đời thường."
+synonyms:
+  - word: "discuss terms"
+    meaning_vi: "thảo luận điều khoản"
+examples:
+  - en: "Both sides worked tirelessly to negotiate a mutually beneficial partnership agreement."
+    vi: "Cả hai bên đã nỗ lực làm việc không biết mệt mỏi để đàm phán một thỏa thuận hợp tác đôi bên cùng có lợi."
+pronunciation_tips_vi: "Trọng âm rơi vào âm tiết thứ hai /-ˈɡoʊ-/. Chú ý âm /ʃ/ ('sh') ở giữa: /nɪˈɡoʊʃieɪt/, không đọc nhầm thành /s/."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

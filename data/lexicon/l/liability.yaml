@@ -1,0 +1,56 @@
+schema_version: 2
+id: liability
+lemma: liability
+pos:
+- noun
+ipa:
+  us: /ˌlaɪəˈbɪləti/
+  uk: /ˌlaɪəˈbɪləti/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- finance-accounting
+- legal-compliance
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: liability-1
+  meaning_vi: Khoản nợ phải trả trên bảng cân đối kế toán; trách nhiệm pháp lý
+  note_vi: Đối nghịch với asset (tài sản).
+confused_words:
+- word: reliable
+  ipa: /rɪˈlaɪəbl/
+  difference_vi: Reliable là tính từ đáng tin cậy; liability là danh từ gánh nặng nợ nần hoặc trách nhiệm pháp lý.
+confusing_meanings:
+- difference_vi: Trong tài chính, liabilities là các khoản nợ phải trả; trong đời sống, liability là gánh nặng gây cản trở.
+collocations:
+- phrase: total liabilities
+  meaning_vi: tổng nợ phải trả
+  evidence: corpus
+- phrase: legal liability
+  meaning_vi: trách nhiệm pháp lý trước pháp luật
+  evidence: corpus
+- phrase: accept liability
+  meaning_vi: nhận trách nhiệm bồi thường
+  evidence: corpus
+synonyms:
+- word: obligation
+  meaning_vi: nghĩa vụ thanh toán
+- word: debt
+  meaning_vi: khoản nợ
+examples:
+- en: The airline denied any legal liability for the damage caused by severe weather delays.
+  vi: Hãng hàng không từ chối mọi trách nhiệm pháp lý đối với thiệt hại gây ra bởi sự chậm trễ do thời tiết xấu.
+pronunciation_tips_vi: Từ có 5 âm tiết, trọng âm chính rơi vào âm thứ ba /ˈbɪl/, âm đầu là /laɪ.ə/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

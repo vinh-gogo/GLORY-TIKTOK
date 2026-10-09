@@ -1,0 +1,57 @@
+schema_version: 2
+id: reimbursement
+lemma: reimbursement
+pos:
+- noun
+ipa:
+  us: /ˌriːɪmˈbɜːrsmənt/
+  uk: /ˌriːɪmˈbɜːsmənt/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- finance-accounting
+- salary-benefits
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: reimbursement-1
+  meaning_vi: Khoản hoàn trả chi phí công tác hoặc thanh toán bồi hoàn số tiền đã ứng trước
+  note_vi: Quy trình nhân viên nộp hóa đơn công tác để kế toán trả lại tiền túi đã bỏ ra.
+confused_words:
+- word: refund
+  ipa: /ˈriːfʌnd/
+  difference_vi: Refund là hoàn tiền mua sắm cho khách hàng; reimbursement là bồi hoàn chi phí công tác cho nhân viên.
+confusing_meanings:
+- difference_vi: Travel expense reimbursement = bồi hoàn chi phí đi lại; tuition reimbursement = hỗ trợ hoàn trả học phí nâng
+    cao nghiệp vụ.
+collocations:
+- phrase: seek reimbursement
+  meaning_vi: nộp đơn yêu cầu thanh toán bồi hoàn
+  evidence: corpus
+- phrase: travel reimbursement
+  meaning_vi: khoản bồi hoàn công tác phí
+  evidence: corpus
+- phrase: reimbursement claim
+  meaning_vi: hồ sơ đề nghị bồi hoàn chi phí
+  evidence: corpus
+synonyms:
+- word: repayment
+  meaning_vi: sự trả lại tiền
+- word: compensation
+  meaning_vi: khoản đền bù bồi hoàn
+examples:
+- en: Staff members must submit original itemized receipts within thirty days to receive travel reimbursement.
+  vi: Nhân viên phải nộp hóa đơn chi tiết bản gốc trong vòng 30 ngày để nhận bồi hoàn công tác phí.
+pronunciation_tips_vi: Trọng âm rơi vào âm thứ ba /ˈbɜːrs/, chú ý âm /r/ uốn lưỡi và âm /s/ kết hợp đuôi /mənt/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

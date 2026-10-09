@@ -1,0 +1,56 @@
+schema_version: 2
+id: bonus
+lemma: bonus
+pos:
+- noun
+ipa:
+  us: /ˈboʊnəs/
+  uk: /ˈbəʊnəs/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- salary-benefits
+- human-resources
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: bonus-1
+  meaning_vi: Tiền thưởng thêm ngoài lương cơ bản nhờ thành tích tốt
+  note_vi: Khoản chi thêm theo quý, năm hoặc dự án để khuyến khích tinh thần làm việc.
+confused_words:
+- word: bone
+  ipa: /boʊn/
+  difference_vi: Bone là xương; bonus là tiền thưởng hoặc phần thưởng cộng thêm.
+confusing_meanings:
+- difference_vi: Bonus trong tiền lương là tiền thưởng; trong đời sống bonus là lợi ích thêm ngoài dự kiến ('as a bonus').
+collocations:
+- phrase: annual bonus
+  meaning_vi: tiền thưởng hàng năm
+  evidence: corpus
+- phrase: performance bonus
+  meaning_vi: tiền thưởng dựa theo năng suất làm việc
+  evidence: corpus
+- phrase: receive a bonus
+  meaning_vi: nhận khoản tiền thưởng
+  evidence: corpus
+synonyms:
+- word: incentive
+  meaning_vi: khoản khích lệ, tiền thưởng
+- word: reward
+  meaning_vi: phần thưởng
+examples:
+- en: Sales representatives who exceed their targets receive a quarterly performance bonus.
+  vi: Đại diện bán hàng vượt chỉ tiêu sẽ nhận được khoản tiền thưởng hiệu suất theo quý.
+pronunciation_tips_vi: Âm đầu là nhị trùng âm /oʊ/ (giọng Mỹ) hoặc /əʊ/ (giọng Anh), âm thứ hai là /nəs/ nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

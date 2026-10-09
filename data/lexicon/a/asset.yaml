@@ -1,0 +1,55 @@
+schema_version: 2
+id: asset
+lemma: asset
+pos:
+- noun
+ipa:
+  us: /ˈæset/
+  uk: /ˈæset/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- finance-accounting
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: asset-1
+  meaning_vi: Tài sản có giá trị của doanh nghiệp; nhân tố hoặc kỹ năng quý báu
+  note_vi: 'Trong kế toán: tài sản = nợ phải trả + vốn chủ sở hữu (Assets = Liabilities + Equity).'
+confused_words:
+- word: assess
+  ipa: /əˈses/
+  difference_vi: Assess là động từ đánh giá (trọng âm 2); asset là danh từ tài sản (trọng âm 1).
+confusing_meanings:
+- difference_vi: Fixed assets = tài sản cố định (nhà xưởng, máy móc); an asset to the team = một nhân sự quý giá cho đội ngũ.
+collocations:
+- phrase: fixed assets
+  meaning_vi: tài sản cố định
+  evidence: corpus
+- phrase: valuable asset
+  meaning_vi: tài sản / nhân tố quý giá
+  evidence: corpus
+- phrase: liquid assets
+  meaning_vi: tài sản có tính thanh khoản cao
+  evidence: corpus
+synonyms:
+- word: property
+  meaning_vi: bất động sản, tài sản
+- word: resource
+  meaning_vi: nguồn lực, tài nguyên
+examples:
+- en: Her fluency in three foreign languages makes her a tremendous asset to our global marketing division.
+  vi: Việc thông thạo ba ngoại ngữ biến cô ấy thành một nhân tố vô cùng quý báu cho bộ phận tiếp thị toàn cầu của chúng tôi.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈæ/, nguyên âm /æ/ bẹt miệng rộng, âm đuôi /t/ sắc nét.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

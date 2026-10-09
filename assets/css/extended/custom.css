@@ -3,6 +3,51 @@
    Mobile-First Vocabulary Cards, Pronunciation, Nuances & Collocations
    ========================================================================== */
 
+/* --- Fixed / Sticky Header with Frosted Glass Effect --- */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--theme);
+    border-bottom: 1px solid var(--border);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+    .header {
+        background-color: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+    :root[data-theme="dark"] .header {
+        background-color: rgba(29, 30, 32, 0.92);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    }
+}
+
+/* Hide scrollbar on swipeable horizontal menu for cleaner appearance */
+.menu {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.menu::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .header-nav {
+        line-height: 48px;
+        padding: 4px var(--gap);
+    }
+    .logo a {
+        font-size: 20px;
+    }
+    .menu a {
+        font-size: 15px;
+    }
+}
+
 /* --- Profile & Brand Tweaks --- */
 .profile_inner h1 {
     font-size: 2.2rem;
@@ -22,7 +67,11 @@
 .profile_inner .buttons .button {
     font-weight: 600;
     border-radius: 9999px;
-    padding: 8px 18px;
+    padding: 10px 20px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.2s ease-in-out;
 }
 
@@ -536,10 +585,11 @@
 }
 
 .word-hero-title {
-    font-size: 2.5rem;
+    font-size: clamp(1.75rem, 6vw, 2.5rem);
     font-weight: 800;
     margin: 0 0 0.5rem 0;
     color: var(--primary);
+    word-break: break-word;
 }
 
 .word-hero-meta {
@@ -593,6 +643,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.9rem 1.2rem;
+    min-height: 44px;
     background-color: var(--code-bg);
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -622,18 +673,26 @@
     padding-top: 0.8rem;
     border-top: 1px dashed var(--border);
     font-size: 0.85rem;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
 .vocab-card-link {
     font-weight: 600;
     color: #2563eb;
     text-decoration: none;
+    padding: 4px 0;
+    display: inline-flex;
+    align-items: center;
 }
 
 .vocab-card-report {
     color: var(--secondary);
     text-decoration: none;
     font-size: 0.82rem;
+    padding: 4px 0;
+    display: inline-flex;
+    align-items: center;
 }
 
 .vocab-card-report:hover {
@@ -686,12 +745,16 @@
     background-color: var(--code-bg);
     border: 1px solid var(--border);
     color: var(--content);
-    padding: 5px 12px;
+    padding: 6px 14px;
+    min-height: 38px;
     border-radius: 9999px;
-    font-size: 0.84rem;
+    font-size: 0.85rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .glossary-filter-btn.active, .glossary-filter-btn:hover {
@@ -784,10 +847,11 @@
 }
 
 .practice-title {
-    font-size: 1.6rem;
+    font-size: clamp(1.25rem, 5vw, 1.6rem);
     font-weight: 800;
     color: var(--primary);
     margin: 0 0 0.35rem 0;
+    line-height: 1.35;
 }
 
 .practice-subtitle {
@@ -950,7 +1014,7 @@
 
 .timer-countdown {
     font-family: ui-monospace, SFMono-Regular, monospace;
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 8vw, 2.5rem);
     font-weight: 800;
     color: var(--primary);
     letter-spacing: 0.05em;
@@ -987,13 +1051,17 @@
 }
 
 .timer-btn {
-    padding: 8px 18px;
+    padding: 10px 20px;
+    min-height: 44px;
     border-radius: 8px;
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     font-weight: 700;
     cursor: pointer;
     border: none;
     transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .timer-btn-start {
@@ -1025,7 +1093,10 @@
 }
 
 .practice-model-summary {
-    padding: 10px 14px;
+    padding: 12px 16px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
     font-size: 0.92rem;
     font-weight: 700;
     color: #2563eb;
@@ -1068,11 +1139,13 @@
 .tiktok-load-btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     background: linear-gradient(135deg, #ec4899, #f43f5e);
     color: #ffffff;
     border: none;
-    padding: 8px 16px;
+    padding: 10px 18px;
+    min-height: 44px;
     border-radius: 8px;
     font-size: 0.9rem;
     font-weight: 700;
@@ -1088,10 +1161,12 @@
 .tiktok-app-btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     background: #000000;
     color: #ffffff !important;
-    padding: 8px 16px;
+    padding: 10px 18px;
+    min-height: 44px;
     border-radius: 8px;
     font-size: 0.9rem;
     font-weight: 600;
@@ -1102,3 +1177,178 @@
     background: #ffffff;
     color: #000000 !important;
 }
+
+/* --- Words Directory Grid (/words/) --- */
+.words-list-container {
+    margin: 1.5rem 0 3rem 0;
+}
+
+.words-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+}
+
+.word-grid-item {
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    text-decoration: none;
+    color: var(--content);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.word-grid-item:hover {
+    border-color: #3b82f6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.08);
+}
+
+.word-item-lemma {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.word-item-ipa {
+    font-family: ui-monospace, SFMono-Regular, monospace;
+    font-size: 0.85rem;
+    color: #0284c7;
+}
+
+.word-item-meaning {
+    font-size: 0.92rem;
+    color: var(--secondary);
+    line-height: 1.45;
+}
+
+/* --- Responsive Adaptations for Mobile (< 768px) --- */
+@media (max-width: 768px) {
+    /* Glossary Table -> Native Mobile Cards */
+    .glossary-table-wrapper {
+        border: none;
+        background: transparent;
+        overflow-x: visible;
+    }
+
+    .glossary-table {
+        display: block;
+    }
+
+    .glossary-table thead {
+        display: none;
+    }
+
+    .glossary-table tbody {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .glossary-row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 0.65rem;
+        background-color: var(--entry);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 1.15rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+    }
+
+    .glossary-row td {
+        display: block;
+        padding: 0;
+        border: none;
+    }
+
+    .glossary-row td.col-word {
+        grid-column: 1 / 2;
+    }
+
+    .glossary-row td.col-level {
+        grid-column: 2 / 3;
+        text-align: right;
+        align-self: start;
+    }
+
+    .glossary-row td.col-pos {
+        grid-column: 1 / -1;
+        font-size: 0.82rem;
+        color: #4f46e5;
+        font-weight: 600;
+    }
+
+    :root[data-theme="dark"] .glossary-row td.col-pos {
+        color: #818cf8;
+    }
+
+    .glossary-row td.col-meaning {
+        grid-column: 1 / -1;
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--primary);
+    }
+
+    .glossary-row td.col-colloc {
+        grid-column: 1 / -1;
+    }
+
+    .glossary-row td.col-action {
+        grid-column: 1 / -1;
+        margin-top: 0.35rem;
+    }
+
+    .glossary-row td.col-action .glossary-btn-detail {
+        display: block;
+        text-align: center;
+        padding: 9px 14px;
+        min-height: 42px;
+        line-height: 24px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+    }
+
+    /* Word Single Hero */
+    .word-hero-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.85rem;
+    }
+}
+
+/* --- Narrow Mobile Viewports (< 480px) --- */
+@media (max-width: 480px) {
+    .tiktok-facade-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tiktok-load-btn,
+    .tiktok-app-btn {
+        width: 100%;
+    }
+
+    .timer-controls {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .timer-btn {
+        width: 100%;
+    }
+
+    .glossary-filters {
+        width: 100%;
+    }
+
+    .glossary-filter-btn {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+}
+

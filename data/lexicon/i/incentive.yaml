@@ -1,0 +1,70 @@
+schema_version: 2
+id: incentive
+lemma: incentive
+pos:
+- noun
+ipa:
+  us: /ɪnˈsentɪv/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- benefits
+- sales
+- management
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: incentive-1
+  meaning_vi: Sự khích lệ, tiền thưởng động viên (nhằm thúc đẩy năng suất/doanh số)
+  note_vi: Thường dùng trong chính sách hoa hồng bán hàng hoặc phần thưởng tạo động
+    lực cho nhân viên.
+collocations:
+- phrase: financial incentive
+  meaning_vi: phần thưởng tài chính khích lệ
+  evidence: corpus
+- phrase: sales incentive
+  meaning_vi: tiền thưởng thúc đẩy doanh số
+  evidence: corpus
+- phrase: provide an incentive
+  meaning_vi: tạo động lực thúc đẩy
+  evidence: corpus
+- phrase: strong incentive
+  meaning_vi: động lực to lớn
+  evidence: corpus
+confused_words:
+- word: intensive
+  ipa: /ɪnˈtensɪv/
+  meaning: chuyên sâu, cấp tốc
+  kind: spelling-sound
+  difference_vi: Incentive (danh từ) là động lực khích lệ; intensive (tính từ) là
+    mang tính chuyên sâu cao độ.
+confusing_meanings:
+- word: bonus
+  meaning: tiền thưởng thêm
+  difference_vi: Bonus là tiền thưởng trao sau khi đạt kết quả; incentive là phần
+    thưởng hứa hẹn từ trước để kích thích nỗ lực.
+synonyms:
+- word: motivation
+  meaning_vi: động lực
+- word: stimulus
+  meaning_vi: chất xúc tác kích thích
+examples:
+- en: Offering performance bonuses provides a strong incentive for employees to exceed
+    their quarterly sales targets.
+  vi: Đưa ra các khoản thưởng theo hiệu suất làm việc tạo ra động lực to lớn giúp
+    nhân viên vượt chỉ tiêu doanh số hàng quý.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈsen-/. Âm đuôi /-tɪv/ dứt
+  khoát, tránh nhầm với tính từ 'intensive'.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

@@ -1,0 +1,61 @@
+schema_version: 2
+id: endorse
+lemma: endorse
+pos:
+- verb
+ipa:
+  us: /ɪnˈdɔːrs/
+  uk: /ɪnˈdɔːs/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- marketing-advertising
+- contracts-negotiation
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: endorse-1
+  meaning_vi: Đại diện quảng cáo, bảo chứng cho thương hiệu; công khai ủng hộ một chính sách
+  note_vi: Xuất hiện trong các hợp đồng đại sứ thương hiệu người nổi tiếng (celebrity endorsement).
+- id: endorse-2
+  meaning_vi: Ký hậu mặt sau chi phiếu (ngân hàng)
+  note_vi: Ký xác nhận chuyển nhượng quyền thụ hưởng séc.
+confused_words:
+- word: enforce
+  ipa: /ɪnˈfɔːrs/
+  difference_vi: Enforce nghĩa là cưỡng chế thi hành luật pháp (/f/); endorse là ủng hộ hoặc đại diện quảng bá (/d/).
+confusing_meanings:
+- difference_vi: Endorse a candidate = ủng hộ ứng cử viên; endorse a product = quảng cáo bảo chứng cho sản phẩm.
+collocations:
+- phrase: endorse a product
+  meaning_vi: quảng bá / bảo chứng cho một sản phẩm
+  evidence: corpus
+- phrase: celebrity endorsement
+  meaning_vi: sự đại diện quảng cáo bởi người nổi tiếng
+  evidence: corpus
+- phrase: officially endorse
+  meaning_vi: chính thức lên tiếng ủng hộ
+  evidence: corpus
+synonyms:
+- word: support
+  meaning_vi: ủng hộ
+- word: back
+  meaning_vi: hậu thuẫn, đứng sau
+- word: advocate
+  meaning_vi: tán thành
+examples:
+- en: The sports apparel manufacturer signed a tennis champion to endorse their new shoe line.
+  vi: Hãng sản xuất trang phục thể thao đã ký hợp đồng với một nhà vô địch quần vợt để quảng bá cho dòng giày mới của họ.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈdɔːrs/, âm /r/ uốn lưỡi và âm /s/ kết thúc rõ ràng.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

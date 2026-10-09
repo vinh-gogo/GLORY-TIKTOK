@@ -1,0 +1,58 @@
+schema_version: 2
+id: regulation
+lemma: regulation
+pos:
+- noun
+ipa:
+  us: /ˌreɡjuˈleɪʃn/
+  uk: /ˌreɡjuˈleɪʃn/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- legal-compliance
+- management-operations
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: regulation-1
+  meaning_vi: Quy định, quy chế chính thức do cơ quan quản lý hoặc ban giám đốc ban hành
+  note_vi: Các quy tắc bắt buộc nhân viên và doanh nghiệp phải tuân theo.
+confused_words:
+- word: regular
+  ipa: /ˈreɡjələr/
+  difference_vi: Regular là tính từ đều đặn hoặc bình thường; regulation là danh từ quy chế điều lệ.
+confusing_meanings:
+- difference_vi: Safety regulations = quy chuẩn an toàn; government regulation = sự điều tiết của nhà nước.
+collocations:
+- phrase: safety regulations
+  meaning_vi: các quy định an toàn
+  evidence: corpus
+- phrase: comply with regulations
+  meaning_vi: tuân thủ các quy định hiện hành
+  evidence: corpus
+- phrase: tighten regulations
+  meaning_vi: siết chặt các quy chế quản lý
+  evidence: corpus
+synonyms:
+- word: rule
+  meaning_vi: quy tắc
+- word: code
+  meaning_vi: bộ quy tắc
+- word: directive
+  meaning_vi: chỉ thị
+examples:
+- en: Strict safety regulations must be observed by all personnel working on the construction site.
+  vi: Các quy định an toàn nghiêm ngặt phải được toàn thể nhân sự làm việc tại công trường tuân thủ.
+pronunciation_tips_vi: Từ có 4 âm tiết, trọng âm chính rơi vào âm thứ ba /ˈleɪ/, đuôi kết thúc là /ʃn/ tròn môi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

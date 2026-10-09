@@ -1,0 +1,57 @@
+schema_version: 2
+id: breach
+lemma: breach
+pos:
+- noun
+- verb
+ipa:
+  us: /briːtʃ/
+  uk: /briːtʃ/
+level:
+  band: advanced
+  cefr: C1
+  basis: TOEIC 750+
+topics:
+- contracts-negotiation
+- legal-compliance
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: breach-1
+  meaning_vi: Sự vi phạm thỏa thuận, hợp đồng hoặc quy định an ninh; (v) vi phạm
+  note_vi: Xuất hiện thường xuyên trong bối cảnh tranh chấp pháp lý và an toàn dữ liệu số.
+confused_words:
+- word: bleach
+  ipa: /bliːtʃ/
+  difference_vi: Bleach là chất tẩy trắng (/l/), còn breach là sự vi phạm (/r/).
+confusing_meanings:
+- difference_vi: Breach ngoài nghĩa vi phạm quy định còn có nghĩa là 'chỗ thủng rách' ở bức tường thành phòng thủ.
+collocations:
+- phrase: breach of contract
+  meaning_vi: sự vi phạm hợp đồng
+  evidence: corpus
+- phrase: security breach
+  meaning_vi: lỗ hổng / sự cố vi phạm an ninh dữ liệu
+  evidence: corpus
+- phrase: material breach
+  meaning_vi: vi phạm nghiêm trọng (trọng yếu)
+  evidence: corpus
+synonyms:
+- word: violation
+  meaning_vi: sự vi phạm
+- word: infringement
+  meaning_vi: sự xâm phạm bản quyền/luật lệ
+examples:
+- en: Failing to deliver the equipment on schedule constituted a material breach of contract.
+  vi: Việc không giao thiết bị đúng hạn đã cấu thành sự vi phạm hợp đồng nghiêm trọng.
+pronunciation_tips_vi: Nguyên âm /iː/ kéo dài, âm cuối bật /tʃ/ rõ ràng, phân biệt với âm /ʃ/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

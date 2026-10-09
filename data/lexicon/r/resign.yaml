@@ -1,0 +1,57 @@
+schema_version: 2
+id: resign
+lemma: resign
+pos:
+- verb
+ipa:
+  us: /rɪˈzaɪn/
+  uk: /rɪˈzaɪn/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- human-resources
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: resign-1
+  meaning_vi: Từ chức, nộp đơn xin nghỉ việc chủ động
+  note_vi: Quyết định nghỉ việc xuất phát từ nguyện vọng cá nhân của người lao động.
+confused_words:
+- word: re-sign
+  ipa: /ˌriːˈsaɪn/
+  difference_vi: Re-sign (có gạch nối) là ký lại hợp đồng mới; resign (liền nhau) là từ chức, xin nghỉ việc.
+confusing_meanings:
+- difference_vi: Resign from a post = từ bỏ chức vụ; resign oneself to = cam chịu một số phận không mong muốn.
+collocations:
+- phrase: resign from a position
+  meaning_vi: từ chức khỏi một vị trí
+  evidence: corpus
+- phrase: tender one's resignation
+  meaning_vi: đệ đơn xin từ chức
+  evidence: corpus
+- phrase: resign with immediate effect
+  meaning_vi: từ chức có hiệu lực ngay lập tức
+  evidence: corpus
+synonyms:
+- word: quit
+  meaning_vi: bỏ việc
+- word: step down
+  meaning_vi: từ chức, rút lui
+- word: leave
+  meaning_vi: rời bỏ vị trí
+examples:
+- en: The vice president tendered his resignation to pursue opportunities in another industry.
+  vi: Phó chủ tịch đã đệ đơn từ chức để theo đuổi cơ hội trong một ngành nghề khác.
+pronunciation_tips_vi: Chữ 's' đọc thành âm rung /z/, chữ 'g' câm hoàn toàn, phát âm là /rɪˈzaɪn/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,65 @@
+schema_version: 2
+id: accommodate
+lemma: accommodate
+pos:
+  - verb
+ipa:
+  us: "/əˈkɑːmədeɪt/"
+level:
+  cefr: B2
+  band: target
+  basis: "editorial"
+topics:
+  - hotels
+  - travel
+  - business
+speaking_use:
+  - describe-picture
+  - respond-with-info
+  - respond-to-questions
+senses:
+  - id: accommodate-1
+    meaning_vi: "Cung cấp chỗ ở, tiếp đón hoặc đáp ứng (sức chứa, nhu cầu của ai)"
+    note_vi: "Thường dùng trong bối cảnh khách sạn, phòng hội nghị có thể chứa bao nhiêu người, hoặc đáp ứng yêu cầu khách hàng."
+collocations:
+  - phrase: "accommodate up to"
+    meaning_vi: "có sức chứa lên đến (bao nhiêu người)"
+    evidence: "corpus"
+  - phrase: "accommodate requests"
+    meaning_vi: "đáp ứng các yêu cầu/nguyện vọng"
+    evidence: "corpus"
+  - phrase: "accommodate guests"
+    meaning_vi: "tiếp đón khách lưu trú"
+    evidence: "corpus"
+  - phrase: "accommodate changes"
+    meaning_vi: "điều chỉnh để thích ứng với các thay đổi"
+    evidence: "corpus"
+confused_words:
+  - word: "recommend"
+    ipa: "/ˌrekəˈmend/"
+    meaning: "khuyên bảo, đề xuất"
+    kind: "spelling-sound"
+    difference_vi: "Accommodate là cung cấp chỗ/đáp ứng; recommend là khuyên bảo, đề xuất. Tránh đọc nhầm cụm âm đầu."
+confusing_meanings:
+  - word: "adapt"
+    meaning: "thích nghi, thay đổi để phù hợp"
+    difference_vi: "Accommodate là chủ động điều chỉnh để tạo điều kiện/chỗ cho người khác; adapt là tự mình biến đổi để thích nghi với môi trường mới."
+synonyms:
+  - word: "host"
+    meaning_vi: "đăng cai, tiếp đón"
+  - word: "fulfill"
+    meaning_vi: "đáp ứng, làm tròn"
+examples:
+  - en: "The main conference hall can accommodate up to five hundred participants comfortably."
+    vi: "Hội trường hội nghị chính có thể chứa tới năm trăm người tham dự một cách thoải mái."
+pronunciation_tips_vi: "Trọng âm rơi vào âm tiết thứ hai /kɑː/. Chú ý hai chữ 'c' và hai chữ 'm' khi viết chính tả. Âm cuối /t/ bật nhẹ dứt khoát."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

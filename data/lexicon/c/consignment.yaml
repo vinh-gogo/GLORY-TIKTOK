@@ -1,0 +1,58 @@
+schema_version: 2
+id: consignment
+lemma: consignment
+pos:
+- noun
+ipa:
+  us: /kənˈsaɪnmənt/
+  uk: /kənˈsaɪnmənt/
+level:
+  band: advanced
+  cefr: C1
+  basis: TOEIC 750+
+topics:
+- shipping-logistics
+- sales-customer-service
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: consignment-1
+  meaning_vi: Lô hàng hóa ký gửi vận chuyển hoặc gửi bán hộ
+  note_vi: Hình thức giao hàng cho đại lý bán hộ và thanh toán sau khi bán được hàng.
+confused_words:
+- word: assignment
+  ipa: /əˈsaɪnmənt/
+  difference_vi: Assignment là nhiệm vụ hoặc bài tập được giao; consignment là lô hàng gửi đi hoặc hàng ký gửi.
+confusing_meanings:
+- difference_vi: On consignment = phương thức ký gửi (chưa phải trả tiền ngay cho đến khi bán xong).
+collocations:
+- phrase: on consignment
+  meaning_vi: theo hình thức ký gửi
+  evidence: corpus
+- phrase: consignment of goods
+  meaning_vi: lô hàng hóa vận chuyển
+  evidence: corpus
+- phrase: receive a consignment
+  meaning_vi: nhận một lô hàng ký gửi
+  evidence: corpus
+synonyms:
+- word: shipment
+  meaning_vi: chuyến hàng
+- word: batch
+  meaning_vi: lô hàng
+- word: cargo
+  meaning_vi: hàng hóa chuyên chở
+examples:
+- en: The boutique agreed to display local artisan jewelry on consignment with a 20% commission.
+  vi: Cửa hàng thời trang đã đồng ý trưng bày trang sức thủ công địa phương theo hình thức ký gửi với mức hoa hồng 20%.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /ˈsaɪn/, nhị trùng âm /aɪ/ ngân dài, chữ 'g' câm.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

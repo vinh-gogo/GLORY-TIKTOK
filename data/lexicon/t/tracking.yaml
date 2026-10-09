@@ -1,0 +1,56 @@
+schema_version: 2
+id: tracking
+lemma: tracking
+pos:
+- noun
+ipa:
+  us: /ˈtrækɪŋ/
+  uk: /ˈtrækɪŋ/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- shipping-logistics
+- sales-customer-service
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: tracking-1
+  meaning_vi: Việc theo dõi định vị hành trình của đơn hàng hoặc kiện hàng trực tuyến
+  note_vi: Mã tracking number cho phép khách hàng tra cứu vị trí món đồ theo thời gian thực.
+confused_words:
+- word: track
+  ipa: /træk/
+  difference_vi: Track là đường ray xe lửa hoặc dấu vết; tracking là việc định vị theo dõi lộ trình.
+confusing_meanings:
+- difference_vi: Tracking number = mã vận đơn tra cứu; eye tracking = công nghệ theo dõi cử động mắt.
+collocations:
+- phrase: tracking number
+  meaning_vi: mã số vận đơn theo dõi kiện hàng
+  evidence: corpus
+- phrase: track a shipment
+  meaning_vi: theo dõi đường đi của chuyến hàng
+  evidence: corpus
+- phrase: real-time tracking
+  meaning_vi: theo dõi định vị theo thời gian thực
+  evidence: corpus
+synonyms:
+- word: monitoring
+  meaning_vi: sự theo dõi giám sát
+- word: tracing
+  meaning_vi: truy tìm dấu vết
+examples:
+- en: Please enter your ten-digit tracking number on our website to see the current location of your package.
+  vi: Vui lòng nhập mã vận đơn mười chữ số của bạn trên trang web của chúng tôi để xem vị trí hiện tại của kiện hàng.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈtræk/, nguyên âm /æ/ bẹt miệng mở rộng.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

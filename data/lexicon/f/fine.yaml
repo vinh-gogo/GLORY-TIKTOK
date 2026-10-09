@@ -1,0 +1,60 @@
+schema_version: 2
+id: fine
+lemma: fine
+pos:
+- noun
+- verb
+- adjective
+ipa:
+  us: /faɪn/
+  uk: /faɪn/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- legal-compliance
+speaking_use:
+- respond-with-info
+- respond-to-questions
+senses:
+- id: fine-1
+  meaning_vi: Khoản tiền phạt do cơ quan chức năng hoặc tòa án áp đặt; (v) phạt tiền
+  note_vi: Phổ biến trong vi phạm luật giao thông, trốn thuế hoặc xả thải sai quy định.
+- id: fine-2
+  meaning_vi: Tốt đẹp, chất lượng cao hoặc sắc mảnh tinh tế (adjective)
+  note_vi: Như trong fine dining (ẩm thực cao cấp), fine print (dòng chữ nhỏ trong hợp đồng).
+confused_words:
+- word: fee
+  ipa: /fiː/
+  difference_vi: Fee là lệ phí dịch vụ thông thường; fine là tiền phạt do làm sai luật.
+confusing_meanings:
+- difference_vi: Pay a heavy fine = nộp khoản tiền phạt nặng; fine dining = dịch vụ nhà hàng sang trọng.
+collocations:
+- phrase: pay a heavy fine
+  meaning_vi: nộp một khoản tiền phạt nặng
+  evidence: corpus
+- phrase: impose a fine
+  meaning_vi: áp đặt mức phạt tiền
+  evidence: corpus
+- phrase: read the fine print
+  meaning_vi: đọc kỹ các điều khoản chữ nhỏ trong hợp đồng
+  evidence: corpus
+synonyms:
+- word: penalty
+  meaning_vi: hình phạt tiền
+- word: financial sanction
+  meaning_vi: chế tài tài chính
+examples:
+- en: The chemical plant was fined $50,000 for improper disposal of industrial wastewater.
+  vi: Nhà máy hóa chất đã bị phạt 50.000 đô la do xả nước thải công nghiệp không đúng quy định.
+pronunciation_tips_vi: Phát âm /faɪn/ với nhị trùng âm /aɪ/ mở rộng khẩu hình, kết thúc bằng âm /n/ ngân mũi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

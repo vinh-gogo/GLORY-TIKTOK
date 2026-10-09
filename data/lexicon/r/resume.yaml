@@ -1,0 +1,61 @@
+schema_version: 2
+id: resume
+lemma: résumé
+pos:
+  - noun
+ipa:
+  us: "/ˈrezəmeɪ/"
+level:
+  cefr: B1
+  band: core
+  basis: "editorial"
+topics:
+  - hiring
+  - work
+speaking_use:
+  - respond-with-info
+  - respond-to-questions
+senses:
+  - id: resume-1
+    meaning_vi: "Sơ yếu lý lịch, hồ sơ tóm tắt kinh nghiệm làm việc (CV)"
+    note_vi: "Xuất hiện trong mọi bài phỏng vấn xin việc và tuyển dụng nhân tài."
+collocations:
+  - phrase: "submit a résumé"
+    meaning_vi: "nộp hồ sơ xin việc"
+    evidence: "corpus"
+  - phrase: "update one's résumé"
+    meaning_vi: "cập nhật sơ yếu lý lịch cá nhân"
+    evidence: "corpus"
+  - phrase: "review résumés"
+    meaning_vi: "xem xét/sàng lọc hồ sơ ứng viên"
+    evidence: "corpus"
+  - phrase: "impressive résumé"
+    meaning_vi: "bản hồ sơ năng lực ấn tượng"
+    evidence: "corpus"
+confused_words:
+  - word: "resume"
+    ipa: "/rɪˈzuːm/"
+    meaning: "bắt đầu lại, tiếp tục (động từ)"
+    kind: "spelling-sound"
+    difference_vi: "Danh từ résumé đọc là /ˈrezəmeɪ/ (hồ sơ xin việc); động từ resume đọc là /rɪˈzuːm/ (tiếp tục sau khi tạm dừng)."
+confusing_meanings:
+  - word: "curriculum vitae (CV)"
+    meaning: "bản sơ yếu lý lịch dài chi tiết học thuật"
+    difference_vi: "Résumé ở Mỹ thường ngắn gọn 1-2 trang tóm tắt kỹ năng ứng tuyển doanh nghiệp; CV thường chi tiết hơn nhiều trang dành cho nghiên cứu học thuật."
+synonyms:
+  - word: "curriculum vitae"
+    meaning_vi: "sơ yếu lý lịch"
+examples:
+  - en: "Interested candidates should submit their updated résumé and cover letter before Friday."
+    vi: "Các ứng viên quan tâm nên nộp bản sơ yếu lý lịch cập nhật và thư ứng tuyển trước thứ Sáu."
+pronunciation_tips_vi: "Lưu ý cực kỳ quan trọng: Danh từ có 3 âm tiết /ˈrezəmeɪ/, trọng âm rơi vào âm tiết đầu, âm cuối là /meɪ/ (từ gốc tiếng Pháp)."
+review:
+  status: ai_cross_checked
+  checked_by:
+    - model-b
+    - cmudict
+  checked_at: "2026-10-10"
+  sources:
+    - oxford-ref
+    - cambridge-ref
+    - cmudict

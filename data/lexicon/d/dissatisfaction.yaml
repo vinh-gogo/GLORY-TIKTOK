@@ -1,0 +1,55 @@
+schema_version: 2
+id: dissatisfaction
+lemma: dissatisfaction
+pos:
+- noun
+ipa:
+  us: /dɪsˌsætɪsˈfækʃn/
+  uk: /dɪsˌsætɪsˈfækʃn/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- sales-customer-service
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: dissatisfaction-1
+  meaning_vi: Sự bất mãn, sự không hài lòng về chất lượng phục vụ hoặc sản phẩm
+  note_vi: Trái nghĩa với satisfaction, thường dẫn đến phàn nàn và yêu cầu hoàn tiền.
+confused_words:
+- word: satisfaction
+  ipa: /ˌsætɪsˈfækʃn/
+  difference_vi: Satisfaction là hài lòng; thêm tiền tố dis- tạo thành từ trái nghĩa (không hài lòng).
+confusing_meanings:
+- difference_vi: Express dissatisfaction = bày tỏ sự không hài lòng; cause of dissatisfaction = nguyên nhân gây bức xúc.
+collocations:
+- phrase: express dissatisfaction
+  meaning_vi: bày tỏ sự không hài lòng
+  evidence: corpus
+- phrase: customer dissatisfaction
+  meaning_vi: sự bất mãn của khách hàng
+  evidence: corpus
+- phrase: source of dissatisfaction
+  meaning_vi: nguyên nhân gây bức xúc, bất bình
+  evidence: corpus
+synonyms:
+- word: discontent
+  meaning_vi: sự bất mãn
+- word: displeasure
+  meaning_vi: sự phật ý, không vừa lòng
+examples:
+- en: Several diners expressed dissatisfaction regarding the prolonged wait times for food delivery.
+  vi: Một số thực khách đã bày tỏ sự không hài lòng về thời gian chờ đợi món ăn quá lâu.
+pronunciation_tips_vi: Chú ý âm đôi /s/ ở đầu giữa 'dis' và 'sa', trọng âm chính ở /ˈfæk/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

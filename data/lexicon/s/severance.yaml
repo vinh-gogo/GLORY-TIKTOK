@@ -1,0 +1,57 @@
+schema_version: 2
+id: severance
+lemma: severance
+pos:
+- noun
+ipa:
+  us: /ˈsevərəns/
+  uk: /ˈsevərəns/
+level:
+  band: advanced
+  cefr: C1
+  basis: TOEIC 750+
+topics:
+- salary-benefits
+- human-resources
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: severance-1
+  meaning_vi: Khoản trợ cấp thôi việc khi chấm dứt hợp đồng lao động
+  note_vi: Gói tài chính đền bù cho người lao động khi công ty cắt giảm biên chế hoặc giải thể.
+confused_words:
+- word: severe
+  ipa: /sɪˈvɪr/
+  difference_vi: Severe là tính từ (nghiêm trọng, khốc liệt); severance là danh từ (khoản trợ cấp thôi việc).
+confusing_meanings:
+- difference_vi: Severance bắt nguồn từ động từ sever (cắt đứt); trong nhân sự luôn đi với severance package (gói đền bù nghỉ
+    việc).
+collocations:
+- phrase: severance pay
+  meaning_vi: tiền trợ cấp thôi việc
+  evidence: corpus
+- phrase: severance package
+  meaning_vi: gói quyền lợi đền bù thôi việc
+  evidence: corpus
+- phrase: receive severance
+  meaning_vi: nhận khoản trợ cấp thôi việc
+  evidence: corpus
+synonyms:
+- word: redundancy pay
+  meaning_vi: khoản bồi thường khi giảm biên chế
+- word: compensation
+  meaning_vi: tiền đền bù, thù lao
+examples:
+- en: Staff members affected by the factory closure will receive a generous severance package.
+  vi: Những nhân viên bị ảnh hưởng bởi việc đóng cửa nhà máy sẽ nhận được gói trợ cấp thôi việc thỏa đáng.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈsev/, âm giữa lướt nhẹ /ər/, kết thúc bằng /əns/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

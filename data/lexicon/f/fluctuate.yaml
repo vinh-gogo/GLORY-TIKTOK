@@ -1,0 +1,68 @@
+schema_version: 2
+id: fluctuate
+lemma: fluctuate
+pos:
+- verb
+ipa:
+  us: /ˈflʌktʃueɪt/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- budget
+- sales
+- business
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: fluctuate-1
+  meaning_vi: Biến động, dao động lên xuống thất thường (giá cả, tỉ giá, doanh số)
+  note_vi: Rất hay gặp khi mô tả biểu đồ số liệu hoặc tình hình thị trường tài chính.
+collocations:
+- phrase: fluctuate wildly
+  meaning_vi: biến động dữ dội
+  evidence: corpus
+- phrase: prices fluctuate
+  meaning_vi: giá cả dao động thất thường
+  evidence: corpus
+- phrase: fluctuate between
+  meaning_vi: dao động trong khoảng từ... đến...
+  evidence: corpus
+- phrase: currency fluctuation
+  meaning_vi: sự biến động tỉ giá ngoại tệ
+  evidence: corpus
+confused_words:
+- word: frustrate
+  ipa: /ˈfrʌstreɪt/
+  meaning: gây bực bội, thất vọng
+  kind: spelling-sound
+  difference_vi: Fluctuate là biến động số liệu; frustrate mang nghĩa làm ai đó nản
+    lòng hoặc thất vọng.
+confusing_meanings:
+- word: change
+  meaning: thay đổi nói chung
+  difference_vi: Change là sự biến đổi theo hướng bất kỳ; fluctuate là chuyển động
+    lên xuống không ngừng quanh một mức trung bình.
+synonyms:
+- word: vary
+  meaning_vi: thay đổi dao động
+- word: swing
+  meaning_vi: dao động mạnh
+examples:
+- en: Fuel prices continued to fluctuate significantly throughout the entire summer
+    season.
+  vi: Giá nhiên liệu tiếp tục biến động đáng kể trong suốt toàn bộ mùa hè.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈflʌk-/. Âm giữa là /tʃu/ ('ch'),
+  âm đuôi /-eɪt/ dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

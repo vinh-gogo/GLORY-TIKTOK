@@ -1,0 +1,56 @@
+schema_version: 2
+id: outreach
+lemma: outreach
+pos:
+- noun
+ipa:
+  us: /ˈaʊtriːtʃ/
+  uk: /ˈaʊtriːtʃ/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- marketing-advertising
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: outreach-1
+  meaning_vi: Hoạt động tiếp cận cộng đồng, chương trình mở rộng quan hệ khách hàng
+  note_vi: Các chiến dịch chủ động kết nối mang tính xã hội hoặc mở rộng độ phủ khách hàng.
+confused_words:
+- word: reach
+  ipa: /riːtʃ/
+  difference_vi: Reach là độ với tới hoặc chạm đến; outreach là các chương trình chủ động tiếp cận cộng đồng bên ngoài.
+confusing_meanings:
+- difference_vi: Community outreach là công tác xã hội thiện nguyện; customer outreach là hoạt động tiếp cận khách hàng tiềm
+    năng.
+collocations:
+- phrase: community outreach
+  meaning_vi: hoạt động tiếp cận và hỗ trợ cộng đồng
+  evidence: corpus
+- phrase: outreach campaign
+  meaning_vi: chiến dịch truyền thông tiếp cận
+  evidence: corpus
+- phrase: expand customer outreach
+  meaning_vi: mở rộng phạm vi tiếp cận khách hàng
+  evidence: corpus
+synonyms:
+- word: engagement
+  meaning_vi: sự tương tác kết nối
+- word: involvement
+  meaning_vi: sự tham gia gắn kết
+examples:
+- en: As part of its corporate social responsibility, the company launched an educational outreach program.
+  vi: Như một phần của trách nhiệm xã hội doanh nghiệp, công ty đã triển khai chương trình tiếp cận giáo dục vì cộng đồng.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈaʊt/, âm thứ hai kết thúc bằng âm /tʃ/ bật hơi.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,68 @@
+schema_version: 2
+id: collaborate
+lemma: collaborate
+pos:
+- verb
+ipa:
+  us: /kəˈlæbəreɪt/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- work
+- management
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: collaborate-1
+  meaning_vi: Hợp tác, cộng tác cùng làm việc trong một dự án
+  note_vi: Chủ đề làm việc nhóm (teamwork) trong Part 3 và Part 5.
+collocations:
+- phrase: collaborate with colleagues
+  meaning_vi: cộng tác với các đồng nghiệp
+  evidence: corpus
+- phrase: collaborate on a project
+  meaning_vi: hợp tác thực hiện một dự án
+  evidence: corpus
+- phrase: closely collaborate
+  meaning_vi: hợp tác chặt chẽ
+  evidence: corpus
+- phrase: international collaboration
+  meaning_vi: sự hợp tác quốc tế
+  evidence: corpus
+confused_words:
+- word: corroborate
+  ipa: /kəˈrɑːbəreɪt/
+  meaning: chứng thực, củng cố bằng chứng
+  kind: spelling-sound
+  difference_vi: Collaborate là cùng nhau làm việc; corroborate mang nghĩa đưa ra
+    chứng cứ xác minh điều gì.
+confusing_meanings:
+- word: cooperate
+  meaning: hợp tác giúp đỡ
+  difference_vi: Cooperate là sẵn sàng giúp đỡ hoặc tuân thủ yêu cầu; collaborate
+    là cùng bắt tay vào sáng tạo và thực hiện chung một dự án.
+synonyms:
+- word: cooperate
+  meaning_vi: hợp tác
+- word: team up
+  meaning_vi: lập đội cùng làm
+examples:
+- en: Our engineering team will collaborate with external designers to develop the
+    next-generation product.
+  vi: Đội ngũ kỹ thuật của chúng tôi sẽ cộng tác với các nhà thiết kế bên ngoài để
+    phát triển sản phẩm thế hệ tiếp theo.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈlæb-/. Đuôi kết thúc bằng
+  /-reɪt/, bật nhẹ âm /t/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

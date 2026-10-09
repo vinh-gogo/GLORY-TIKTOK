@@ -1,0 +1,58 @@
+schema_version: 2
+id: segment
+lemma: segment
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈseɡmənt/
+  uk: /ˈseɡmənt/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- marketing-advertising
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: segment-1
+  meaning_vi: Phân khúc thị trường hoặc nhóm khách hàng đặc thù; (v) phân khúc hóa
+  note_vi: Khi là động từ, phát âm thường chuyển trọng âm thành /seɡˈment/.
+confused_words:
+- word: sediment
+  ipa: /ˈsedɪmənt/
+  difference_vi: Sediment là chất cặn lắng tích tụ; segment là phân khúc thị trường hoặc mẩu đoạn.
+confusing_meanings:
+- difference_vi: Market segment là phân khúc thị trường; TV segment là một chuyên mục phát sóng trên truyền hình.
+collocations:
+- phrase: market segment
+  meaning_vi: phân khúc thị trường
+  evidence: corpus
+- phrase: key customer segment
+  meaning_vi: phân khúc khách hàng trọng điểm
+  evidence: corpus
+- phrase: segment the audience
+  meaning_vi: phân loại nhóm khán thính giả
+  evidence: corpus
+synonyms:
+- word: section
+  meaning_vi: phần, mục
+- word: sector
+  meaning_vi: khu vực thị trường
+- word: division
+  meaning_vi: sự phân chia
+examples:
+- en: Our marketing strategy focuses on the premium market segment where profit margins are higher.
+  vi: Chiến lược tiếp thị của chúng tôi tập trung vào phân khúc thị trường cao cấp nơi có biên lợi nhuận cao hơn.
+pronunciation_tips_vi: Danh từ nhấn âm 1 /ˈseɡ-mənt/, động từ nhấn âm 2 /seɡ-ˈment/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

@@ -1,0 +1,59 @@
+schema_version: 2
+id: allowance
+lemma: allowance
+pos:
+- noun
+ipa:
+  us: /əˈlaʊəns/
+  uk: /əˈlaʊəns/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- salary-benefits
+- human-resources
+speaking_use:
+- respond-to-questions
+- respond-with-info
+senses:
+- id: allowance-1
+  meaning_vi: Khoản phụ cấp hỗ trợ cho các chi phí cụ thể (đi lại, ăn ở, công tác)
+  note_vi: Tiền cấp thêm để bù đắp các chi phí phát sinh trong quá trình thực hiện công vụ.
+- id: allowance-2
+  meaning_vi: Định mức tiêu chuẩn cho phép (như hành lý mang theo)
+  note_vi: 'Thường gặp trong ngành du lịch/hàng không: baggage allowance (định mức hành lý miễn cước).'
+confused_words:
+- word: allow
+  ipa: /əˈlaʊ/
+  difference_vi: Allow là động từ (cho phép); allowance là danh từ (khoản tiền phụ cấp hoặc định mức cho phép).
+confusing_meanings:
+- difference_vi: Allowance cho nhân viên là phụ cấp tiền tệ; baggage allowance trong sân bay là hạn mức cân nặng hành lý.
+collocations:
+- phrase: travel allowance
+  meaning_vi: phụ cấp công tác / đi lại
+  evidence: corpus
+- phrase: meal allowance
+  meaning_vi: phụ cấp tiền ăn
+  evidence: corpus
+- phrase: baggage allowance
+  meaning_vi: định mức hành lý được mang theo
+  evidence: corpus
+synonyms:
+- word: stipend
+  meaning_vi: khoản sinh hoạt phí, phụ cấp
+- word: subsidy
+  meaning_vi: tiền trợ cấp, hỗ trợ giá
+examples:
+- en: Engineers working on remote construction sites are entitled to a daily housing allowance.
+  vi: Các kỹ sư làm việc tại các công trường vùng xa được hưởng khoản phụ cấp nhà ở hàng ngày.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /laʊ/, nhị trùng âm /aʊ/ mở to khẩu hình.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

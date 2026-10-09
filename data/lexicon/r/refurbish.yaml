@@ -1,0 +1,58 @@
+schema_version: 2
+id: refurbish
+lemma: refurbish
+pos:
+- verb
+ipa:
+  us: /ˌriːˈfɜːrbɪʃ/
+  uk: /ˌriːˈfɜːbɪʃ/
+level:
+  band: target
+  cefr: B2
+  basis: TOEIC 700
+topics:
+- real-estate-construction
+speaking_use:
+- respond-with-info
+- express-opinion
+senses:
+- id: refurbish-1
+  meaning_vi: Tân trang, trang trí lại nội thất hoặc sơn sửa làm mới phòng ốc
+  note_vi: Tập trung nhiều vào làm đẹp bề mặt, thay mới đồ đạc và nội thất trang trí.
+confused_words:
+- word: furnish
+  ipa: /ˈfɜːrnɪʃ/
+  difference_vi: Furnish là trang bị sắm sửa đồ đạc ban đầu; refurbish là làm mới, tân trang lại đồ đạc nội thất cũ.
+confusing_meanings:
+- difference_vi: Newly refurbished = vừa mới được tân trang lại; refurbished electronics = hàng điện tử đã qua kiểm tra thay
+    vỏ làm mới lại.
+collocations:
+- phrase: newly refurbished
+  meaning_vi: vừa mới được tân trang sửa sang
+  evidence: corpus
+- phrase: refurbish the hotel rooms
+  meaning_vi: tân trang lại các phòng khách sạn
+  evidence: corpus
+- phrase: cost of refurbishing
+  meaning_vi: chi phí tân trang nội thất
+  evidence: corpus
+synonyms:
+- word: redecorate
+  meaning_vi: trang hoàng lại
+- word: spruce up
+  meaning_vi: làm cho khang trang hơn
+- word: restore
+  meaning_vi: phục hồi lại
+examples:
+- en: The boutique hotel boasts newly refurbished guest suites equipped with state-of-the-art amenities.
+  vi: Khách sạn phong cách này tự hào có các dãy phòng nghỉ vừa được tân trang hoàn toàn với tiện nghi tối tân.
+pronunciation_tips_vi: Trọng âm rơi vào âm thứ hai /fɜːrb/, âm cuối kết thúc bằng /ɪʃ/ cong môi nhẹ.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

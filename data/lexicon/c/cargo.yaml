@@ -1,0 +1,57 @@
+schema_version: 2
+id: cargo
+lemma: cargo
+pos:
+- noun
+ipa:
+  us: /ˈkɑːrɡoʊ/
+  uk: /ˈkɑːɡəʊ/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- shipping-logistics
+- describe-picture
+speaking_use:
+- describe-picture
+- respond-with-info
+senses:
+- id: cargo-1
+  meaning_vi: Hàng hóa chuyên chở trên tàu thủy, máy bay hoặc xe tải lớn
+  note_vi: Thường thấy trong ảnh Part 2 chụp container tại bến cảng (cargo container, cargo ship).
+confused_words:
+- word: freight
+  ipa: /freɪt/
+  difference_vi: Cargo và freight đồng nghĩa, tuy nhiên cargo thường chỉ các kiện hàng vật lý trên tàu/máy bay, freight bao
+    gồm cả dịch vụ và cước phí.
+confusing_meanings:
+- difference_vi: Cargo ship = tàu chở hàng; cargo hold = khoang chứa hàng của máy bay hoặc tàu thủy.
+collocations:
+- phrase: cargo ship
+  meaning_vi: tàu chở hàng hóa
+  evidence: corpus
+- phrase: load cargo
+  meaning_vi: bốc dỡ / xếp hàng hóa lên phương tiện
+  evidence: corpus
+- phrase: cargo container
+  meaning_vi: thùng công-ten-nơ chứa hàng
+  evidence: corpus
+synonyms:
+- word: freight
+  meaning_vi: hàng hóa chuyên chở
+- word: load
+  meaning_vi: tải trọng hàng
+examples:
+- en: Dock workers used giant cranes to unload heavy cargo containers from the vessel.
+  vi: Công nhân cảng đã dùng cần cẩu khổng lồ để dỡ các thùng container chở hàng nặng từ con tàu.
+pronunciation_tips_vi: Trọng âm rơi vào âm đầu /ˈkɑːr/, uốn lưỡi âm /r/, âm thứ hai là /ɡoʊ/.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

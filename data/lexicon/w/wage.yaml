@@ -1,0 +1,56 @@
+schema_version: 2
+id: wage
+lemma: wage
+pos:
+- noun
+ipa:
+  us: /weɪdʒ/
+  uk: /weɪdʒ/
+level:
+  band: core
+  cefr: B1
+  basis: TOEIC 650
+topics:
+- salary-benefits
+- human-resources
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: wage-1
+  meaning_vi: Tiền công trả theo giờ, theo ngày hoặc theo tuần
+  note_vi: Thường gắn liền với lao động trực tiếp, sản xuất nhà máy hoặc nhân viên bán thời gian.
+confused_words:
+- word: salary
+  ipa: /ˈsæləri/
+  difference_vi: Wage tính theo giờ/tuần; salary tính theo kỳ lương hàng tháng hoặc hàng năm.
+confusing_meanings:
+- difference_vi: Danh từ wage là tiền công; động từ 'wage war' có nghĩa là tiến hành chiến tranh.
+collocations:
+- phrase: minimum wage
+  meaning_vi: mức lương tối thiểu theo luật
+  evidence: corpus
+- phrase: hourly wage
+  meaning_vi: tiền công tính theo giờ làm
+  evidence: corpus
+- phrase: wage increase
+  meaning_vi: sự tăng tiền công lao động
+  evidence: corpus
+synonyms:
+- word: earnings
+  meaning_vi: tiền thù lao kiếm được
+- word: pay rate
+  meaning_vi: đơn giá tiền công
+examples:
+- en: The government announced a 5% raise in the national minimum wage.
+  vi: Chính phủ đã công bố mức tăng 5% đối với mức lương tối thiểu quốc gia.
+pronunciation_tips_vi: Âm đầu là /w/, nguyên âm đôi /eɪ/, âm cuối là âm tắc xát /dʒ/ rung cổ họng rõ nét.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  sources:
+  - vocabulary.md
+  - synonyms.md
+  - Oxford Learner's Dictionary

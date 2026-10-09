@@ -1,0 +1,70 @@
+schema_version: 2
+id: compensation
+lemma: compensation
+pos:
+- noun
+ipa:
+  us: /ˌkɑːmpenˈseɪʃn/
+level:
+  cefr: B2
+  band: target
+  basis: editorial
+topics:
+- benefits
+- hiring
+- legal
+speaking_use:
+- respond-to-questions
+- express-opinion
+senses:
+- id: compensation-1
+  meaning_vi: Chế độ thù lao lương bổng / Tiền bồi thường thiệt hại
+  note_vi: Dùng để chỉ toàn bộ gói lương thưởng hoặc khoản tiền đền bù khi xảy ra
+    sự cố.
+collocations:
+- phrase: compensation package
+  meaning_vi: gói chế độ thù lao đãi ngộ
+  evidence: corpus
+- phrase: financial compensation
+  meaning_vi: khoản tiền bồi thường tài chính
+  evidence: corpus
+- phrase: competitive compensation
+  meaning_vi: mức thù lao có tính cạnh tranh cao
+  evidence: corpus
+- phrase: workers' compensation
+  meaning_vi: bảo hiểm bồi thường tai nạn lao động
+  evidence: corpus
+confused_words:
+- word: composition
+  ipa: /ˌkɑːmpəˈzɪʃn/
+  meaning: thành phần cấu tạo, bài luận
+  kind: spelling-sound
+  difference_vi: Compensation là tiền thù lao hoặc bồi thường; composition là thành
+    phần kết cấu hoặc tác phẩm sáng tác.
+confusing_meanings:
+- word: salary
+  meaning: lương tháng cơ bản
+  difference_vi: Salary là tiền lương cố định hàng tháng; compensation là tổng gói
+    đãi ngộ gồm lương, thưởng, phúc lợi và phụ cấp.
+synonyms:
+- word: remuneration
+  meaning_vi: tiền thù lao
+- word: recompense
+  meaning_vi: sự đền bù
+examples:
+- en: The company offers a competitive compensation package that includes health insurance
+    and annual bonuses.
+  vi: Công ty cung cấp một gói thù lao cạnh tranh bao gồm bảo hiểm y tế và tiền thưởng
+    hàng năm.
+pronunciation_tips_vi: Trọng âm chính rơi vào âm tiết thứ ba /-ˈseɪ-/. Âm đầu là /kɑːm-/,
+  âm đuôi /-ʃn/ dứt khoát.
+review:
+  status: ai_cross_checked
+  checked_by:
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
+  sources:
+  - oxford-ref
+  - cambridge-ref
+  - cmudict
