@@ -77,7 +77,11 @@
   }
 
   table.glossary-table tbody tr {
-    display: table-row !important;
+    display: table-row;
+  }
+
+  table.glossary-table tbody tr.is-hidden {
+    display: none !important;
   }
 
   /* Cột Từ vựng & IPA: Từ vựng chữ màu trắng trong Dark theme / var(--primary), IPA giữ nguyên màu */
@@ -417,6 +421,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const matchesLetter = activeLetter === "all" || item.letter === activeLetter;
 
       const isVisible = matchesSearch && matchesBand && matchesLetter;
+      item.el.classList.toggle("is-hidden", !isVisible);
       item.el.style.display = isVisible ? "" : "none";
       if (isVisible) visibleCount++;
     });
