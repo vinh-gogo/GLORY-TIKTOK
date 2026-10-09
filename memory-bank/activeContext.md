@@ -7,7 +7,18 @@ Refining the vocabulary browsing and learning UX across the interactive Glossary
 
 ## 2. Recent Changes & Decisions
 
-### 2.1. Smart Filter Coordination (Phân cấp TOEIC & Chữ cái A–Z)
+### 2.1. Professional Homepage Redesign (Glossary & Word Detail Showcase)
+- **User Problem Addressed:** Homepage previously used PaperMod's minimalist `profileMode` with only 5 small buttons, completely failing to spotlight the platform's two core assets: the interactive 213+ word **Glossary** and deep-dive **Word Detail Pages**.
+- **Comprehensive Homepage Architecture (`layouts/index.html`):**
+  - **Hero & Live Search:** Headline, subtitle, and an instant search bar with search suggestions (`deadline`, `reschedule`, `postpone`, `touch-base`, `pedestrian`).
+  - **Metrics & Stats Strip:** Live counts for 213+ words, 3 levels (Core, Target, Advanced), 100% ETS-style content, 0đ ad-free.
+  - **Focus 1 — Interactive Glossary Showcase:** Split feature section explaining the 3 TOEIC bands and 26-letter filter with an interactive visual table mockup and direct CTA.
+  - **Focus 2 — Word Detail Deep-Dive Showcase:** Split feature section highlighting IPA phonetics, pronunciation alerts, collocations, confusing words, and keyboard shortcuts (`←`/`→`) with an interactive word card mockup.
+  - **Lesson Sets & TikTok Video Hub:** Grid showcasing Sets 013, 001, 002.
+  - **Closing CTA Banner:** High-conversion invitation to begin studying.
+- **Custom CSS:** Added responsive styles in `assets/css/extended/custom.css`.
+
+### 2.2. Smart Filter Coordination (Phân cấp TOEIC & Chữ cái A–Z)
 - **Root Cause Identified:** Filter deadlock occurred because Band and Letter filters used rigid intersecting AND logic without dynamic feedback: selecting a band like Advanced (13 words only in B, C, E, L, R, S, T) while Letter A was active produced 0 words. Furthermore, `#glossary-reset-btn` shared `.glossary-filter-btn` class, causing click events to read `targetBand = null` and breaking the view.
 - **Coordinated State System (`syncFilters`):**
   - Clicking a letter automatically switches Band to `all` if that band has 0 words for the letter (and vice versa).

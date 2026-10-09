@@ -1,0 +1,401 @@
+{{- define "main" }}
+{{- $allWords := slice }}
+{{- range $letter, $dict := site.Data.lexicon }}
+  {{- range $id, $w := $dict }}
+    {{- $allWords = $allWords | append $w }}
+  {{- end }}
+{{- end }}
+{{- $totalWordsCount := len $allWords }}
+{{- $coreCount := 0 }}
+{{- $targetCount := 0 }}
+{{- $advCount := 0 }}
+{{- range $allWords }}
+  {{- $b := "" }}
+  {{- with .level }}{{ $b = .band }}{{ end }}
+  {{- if eq $b "core" }}{{ $coreCount = add $coreCount 1 }}
+  {{- else if eq $b "target" }}{{ $targetCount = add $targetCount 1 }}
+  {{- else if eq $b "advanced" }}{{ $advCount = add $advCount 1 }}{{ end }}
+{{- end }}
+
+<div class="home-container">
+  
+  <!-- 1. HERO SECTION -->
+  <header class="home-hero">
+    <div class="home-badge-pill">
+      <span class="home-badge-dot"></span>
+      <span>Nền tảng Tự học TOEIC Speaking • Kênh TikTok <strong>@wbk.lqv</strong></span>
+    </div>
+
+    <h1 class="home-hero-title">
+      Luyện Phản Xạ &amp; Từ Vựng <br class="br-desktop">
+      <span class="gradient-text">Chuẩn Thi TOEIC Speaking</span>
+    </h1>
+
+    <p class="home-hero-sub">
+      Dừng việc học từ vựng đơn lẻ không ngữ cảnh. Khám phá <strong>{{ $totalWordsCount }}+ từ vựng cốt lõi</strong> có phiên âm IPA chuẩn xác, collocations ăn điểm và phòng lab luyện nói có bấm giờ như thi thật tại IIG.
+    </p>
+
+    <!-- Homepage Quick Search -->
+    <div class="home-search-wrapper">
+      <form action="/glossary/" method="GET" class="home-search-form" id="home-search-form">
+        <span class="home-search-icon">🔍</span>
+        <input type="text" name="q" id="home-search-input" placeholder="Tra cứu nhanh từ vựng, phiên âm IPA, nghĩa tiếng Việt (vd: deadline, reschedule...)" autocomplete="off">
+        <button type="submit" class="home-search-btn">Tra cứu A–Z</button>
+      </form>
+      <div class="home-search-hints">
+        <span class="hint-label">Gợi ý tìm nhanh:</span>
+        <a href="/words/deadline/" class="hint-tag">deadline</a>
+        <a href="/words/reschedule/" class="hint-tag">reschedule</a>
+        <a href="/words/postpone/" class="hint-tag">postpone</a>
+        <a href="/words/touch-base/" class="hint-tag">touch-base</a>
+        <a href="/words/pedestrian/" class="hint-tag">pedestrian</a>
+      </div>
+    </div>
+
+    <!-- Hero Primary Actions -->
+    <div class="home-hero-actions">
+      <a href="/glossary/" class="home-btn-primary">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+        </svg>
+        <span>Từ Điển A–Z ({{ $totalWordsCount }} từ)</span>
+      </a>
+
+      <a href="/sets/" class="home-btn-secondary">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="5 3 19 12 5 21 5 3"/>
+        </svg>
+        <span>Bộ bài học &amp; Đề thi</span>
+      </a>
+
+      <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer" class="home-btn-tiktok">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+          <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.49 6.34 6.34 0 0 0 1.95-4.49V8.52a8.27 8.27 0 0 0 4.82 1.54v-3.37a4.83 4.83 0 0 1-1-.0z"/>
+        </svg>
+        <span>TikTok @wbk.lqv ↗</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- 2. STATS STRIP -->
+  <section class="home-stats-strip" aria-label="Thống kê hệ sinh thái">
+    <div class="stat-card">
+      <strong class="stat-num stat-blue">{{ $totalWordsCount }}+</strong>
+      <span class="stat-label">Từ vựng Central Lexicon</span>
+      <span class="stat-desc">Được kiểm chứng IPA &amp; Collocations</span>
+    </div>
+
+    <div class="stat-card">
+      <strong class="stat-num stat-emerald">3 Cấp Độ</strong>
+      <span class="stat-label">Core • Target • Advanced</span>
+      <span class="stat-desc">Phân tầng rõ ràng theo mục tiêu điểm</span>
+    </div>
+
+    <div class="stat-card">
+      <strong class="stat-num stat-violet">100%</strong>
+      <span class="stat-label">Nội dung ETS-Style Gốc</span>
+      <span class="stat-desc">Không sao chép từ điển bản quyền</span>
+    </div>
+
+    <div class="stat-card">
+      <strong class="stat-num stat-amber">0đ &amp; Không Ads</strong>
+      <span class="stat-label">Tự học phi lợi nhuận</span>
+      <span class="stat-desc">Bảo mật &amp; lưu tiến độ tại máy bạn</span>
+    </div>
+  </section>
+
+  <!-- 3. TRỌNG TÂM 1: TỪ ĐIỂN A-Z (GLOSSARY) -->
+  <section class="home-feature-section" id="glossary-feature">
+    <div class="home-feature-split">
+      <div class="feature-info">
+        <div class="feature-tag tag-blue">Trọng Tâm 01 • Tra Cứu Tốc Độ Cao</div>
+        <h2 class="feature-title">Từ Điển A–Z Thông Minh &amp; Đa Tiêu Chí</h2>
+        <p class="feature-desc">
+          Bảng từ điển <strong>Glossary</strong> được thiết kế theo tiêu chuẩn Desktop 1440px và cuộn cảm ứng linh hoạt trên di động. Tra cứu tức thì toàn bộ <strong>{{ $totalWordsCount }} từ vựng</strong> theo 3 phân cấp bài thi TOEIC Speaking:
+        </p>
+
+        <ul class="feature-bullet-list">
+          <li>
+            <span class="bullet-dot bullet-core"></span>
+            <div>
+              <strong>Phân cấp Core ({{ $coreCount }} từ):</strong> Nền tảng thiết yếu để vượt qua rào cản ngữ pháp cơ bản và phát âm rõ ràng trong Part 1 &amp; Part 2.
+            </div>
+          </li>
+          <li>
+            <span class="bullet-dot bullet-target"></span>
+            <div>
+              <strong>Phân cấp Target ({{ $targetCount }} từ):</strong> Cụm collocations công sở, thương mại giúp câu trả lời lưu loát đạt band 130–160+ (Part 3 &amp; Part 4).
+            </div>
+          </li>
+          <li>
+            <span class="bullet-dot bullet-advanced"></span>
+            <div>
+              <strong>Phân cấp Advanced ({{ $advCount }} từ):</strong> Ngữ cảnh thảo luận chiến lược, giải pháp điều hành nhằm tối đa điểm số ở Part 5 (Express an Opinion).
+            </div>
+          </li>
+          <li>
+            <span class="bullet-dot bullet-blue"></span>
+            <div>
+              <strong>Thanh lọc 26 chữ cái A–Z:</strong> Đếm số lượng từ thời gian thực, tự động làm mờ chữ cái trống và hỗ trợ vuốt chạm tiện lợi trên di động.
+            </div>
+          </li>
+        </ul>
+
+        <div class="feature-cta-row">
+          <a href="/glossary/" class="btn-feature-cta cta-blue">
+            <span>Mở bảng Từ điển A–Z ngay</span>
+            <span class="cta-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Feature Visual Preview: Interactive Glossary Card Mockup -->
+      <div class="feature-preview">
+        <div class="glossary-preview-card">
+          <div class="preview-header">
+            <div class="preview-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span class="preview-title">Từ điển A–Z • Bộ lọc thông minh</span>
+          </div>
+
+          <div class="preview-filter-mock">
+            <div class="mock-band-bar">
+              <span class="mock-pill active-all">Tất cả ({{ $totalWordsCount }})</span>
+              <span class="mock-pill pill-core">Core ({{ $coreCount }})</span>
+              <span class="mock-pill pill-target">Target ({{ $targetCount }})</span>
+              <span class="mock-pill pill-adv">Advanced ({{ $advCount }})</span>
+            </div>
+            <div class="mock-alpha-bar">
+              <span class="mock-alpha-btn active">A</span>
+              <span class="mock-alpha-btn">B</span>
+              <span class="mock-alpha-btn">C</span>
+              <span class="mock-alpha-btn">D</span>
+              <span class="mock-alpha-btn">E</span>
+              <span class="mock-alpha-btn">F</span>
+              <span class="mock-alpha-btn">...</span>
+              <span class="mock-alpha-btn">Z</span>
+            </div>
+          </div>
+
+          <div class="preview-table-mock">
+            <div class="mock-row mock-header-row">
+              <span class="mock-col mock-col-word">Từ vựng &amp; IPA</span>
+              <span class="mock-col mock-col-level">Cấp độ</span>
+              <span class="mock-col mock-col-meaning">Nghĩa tiếng Việt</span>
+            </div>
+            <a href="/words/accommodate/" class="mock-row">
+              <span class="mock-col mock-col-word"><strong>accommodate</strong> <small>/əˈkɑːmədeɪt/</small></span>
+              <span class="mock-col mock-col-level"><span class="badge-target">Target</span></span>
+              <span class="mock-col mock-col-meaning">cung cấp chỗ ở, đáp ứng nhu cầu</span>
+            </a>
+            <a href="/words/background/" class="mock-row">
+              <span class="mock-col mock-col-word"><strong>background</strong> <small>/ˈbækɡraʊnd/</small></span>
+              <span class="mock-col mock-col-level"><span class="badge-core">Core</span></span>
+              <span class="mock-col mock-col-meaning">bối cảnh, nền tảng học vấn</span>
+            </a>
+            <a href="/words/benchmark/" class="mock-row">
+              <span class="mock-col mock-col-word"><strong>benchmark</strong> <small>/ˈbentʃmɑːrk/</small></span>
+              <span class="mock-col mock-col-level"><span class="badge-adv">Advanced</span></span>
+              <span class="mock-col mock-col-meaning">tiêu chuẩn đối chuẩn, mốc chuẩn mực</span>
+            </a>
+          </div>
+
+          <div class="preview-footer">
+            <span>✨ Bấm vào bất kỳ dòng nào để xem chi tiết từ &amp; luyện phát âm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. TRỌNG TÂM 2: TRANG CHI TIẾT TỪ VỰNG (WORD DETAIL PAGES) -->
+  <section class="home-feature-section feature-reverse" id="words-feature">
+    <div class="home-feature-split">
+      <div class="feature-info">
+        <div class="feature-tag tag-emerald">Trọng Tâm 02 • Học Sâu Từng Mục Từ</div>
+        <h2 class="feature-title">Trang Chi Tiết Từ Vựng Toàn Diện</h2>
+        <p class="feature-desc">
+          Mỗi từ vựng tại <code>/words/&lt;từ&gt;/</code> không chỉ là định nghĩa đơn thuần mà là một <strong>bài học phản xạ chuyên sâu</strong>:
+        </p>
+
+        <ul class="feature-bullet-list">
+          <li>
+            <span class="bullet-dot bullet-emerald"></span>
+            <div>
+              <strong>Phiên âm IPA chuẩn &amp; Lưu ý phát âm:</strong> Phân tích rõ từng âm tiết, nhấn đúng trọng âm và cảnh báo các lỗi người Việt hay mắc (âm đuôi -s, -ed, nối âm).
+            </div>
+          </li>
+          <li>
+            <span class="bullet-dot bullet-emerald"></span>
+            <div>
+              <strong>Cụm Collocations thực chiến:</strong> Học theo cụm đi liền với động từ và giới từ tự nhiên, không ghép từ máy móc theo kiểu Word-by-Word.
+            </div>
+          </li>
+          <li>
+            <span class="bullet-dot bullet-emerald"></span>
+            <div>
+              <strong>Phân biệt từ dễ nhầm lẫn (Confused Words):**</strong> So sánh rõ ngữ cảnh sử dụng giữa các cặp từ dễ lẫn lộn (như <em>deadline</em> vs <em>due date</em> vs <em>timeline</em>).
+            </div>
+          </li>
+          <li>
+            <span class="bullet-dot bullet-emerald"></span>
+            <div>
+              <strong>Điều hướng phím tắt thông minh (<kbd>←</kbd> / <kbd>→</kbd>):</strong> Lướt học liên tục giữa các từ vựng bằng phím mũi tên hoặc nút bấm hai bên cạnh màn hình cực kỳ tiện lợi.
+            </div>
+          </li>
+        </ul>
+
+        <div class="feature-cta-row">
+          <a href="/words/deadline/" class="btn-feature-cta cta-emerald">
+            <span>Khám phá từ mẫu: "deadline"</span>
+            <span class="cta-arrow">→</span>
+          </a>
+          <a href="/words/reschedule/" class="btn-feature-link">
+            <span>Xem từ "reschedule"</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Feature Visual Preview: Word Card Mockup -->
+      <div class="feature-preview">
+        <div class="word-card-preview-box">
+          <div class="word-card-header-mock">
+            <span class="mock-category">TOEIC Speaking Lab • Từ vựng chi tiết</span>
+            <div class="mock-nav-keys">
+              <span>Phím tắt:</span> <kbd>←</kbd> <kbd>→</kbd>
+            </div>
+          </div>
+
+          <div class="word-card-body-mock">
+            <div class="mock-word-top">
+              <h3 class="mock-word-lemma">deadline</h3>
+              <span class="mock-word-pos">noun</span>
+              <span class="mock-word-badge badge-core">Core</span>
+            </div>
+
+            <div class="mock-ipa-box">
+              <span class="mock-ipa-us">/ˈdedlaɪn/ (US)</span>
+              <span class="mock-pronounce-tip">💡 Lưu ý: Bật rõ âm đuôi /-n/ và nối âm tự nhiên</span>
+            </div>
+
+            <div class="mock-meaning-box">
+              <strong>Nghĩa tiếng Việt:</strong> Hạn chót, thời hạn cuối cùng phải hoàn thành công việc.
+            </div>
+
+            <div class="mock-colloc-box">
+              <span class="mock-section-label">⚡ Collocations ghi điểm trong phòng thi:</span>
+              <ul class="mock-colloc-list">
+                <li><strong>meet a tight deadline</strong>: kịp hạn chót gấp gáp</li>
+                <li><strong>extend the deadline</strong>: gia hạn thêm thời gian nộp</li>
+                <li><strong>miss a deadline</strong>: bị trễ hạn chót dự án</li>
+              </ul>
+            </div>
+
+            <div class="mock-confused-box">
+              <span class="mock-diff-label">⚠️ Tránh nhầm lẫn với "due date":</span>
+              <p>Deadline dùng cho áp lực hoàn thành công việc/dự án; due date là ngày đáo hạn thanh toán hóa đơn hoặc trả sách thư viện.</p>
+            </div>
+          </div>
+
+          <div class="word-card-bottom-mock">
+            <div class="mock-btn-prev">← Từ trước: <strong>agenda</strong></div>
+            <div class="mock-btn-center">Từ điển A–Z</div>
+            <div class="mock-btn-next">Từ tiếp theo: <strong>postpone</strong> →</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. BỘ BÀI HỌC THEO VIDEO TIKTOK & ĐỒNG HỒ PHÒNG THI -->
+  <section class="home-lessons-section">
+    <div class="section-title-wrap">
+      <span class="home-tag">Học Theo Chuỗi Video</span>
+      <h2 class="section-main-title">Bài Học Theo Video Clip TikTok @wbk.lqv</h2>
+      <p class="section-sub-title">Mỗi video trên kênh đều có một mã số bài học cố định. Lưu lại địa chỉ và ôn tập bất kỳ lúc nào:</p>
+    </div>
+
+    <div class="lessons-card-grid">
+      <!-- Set 013 -->
+      <a href="/sets/set-013/" class="lesson-card">
+        <div class="lesson-card-top">
+          <span class="lesson-num-badge">Bài #013</span>
+          <span class="lesson-part-badge">Part 3 • Respond to Questions</span>
+        </div>
+        <h3 class="lesson-title">Áp lực Deadline &amp; Quản lý tiến độ công việc</h3>
+        <p class="lesson-desc">Học cụm từ <em>meet a tight deadline</em>, cách phân biệt <em>deadline vs due date</em> và luyện câu trả lời 30s.</p>
+        <div class="lesson-tags">
+          <span class="ltag">deadline</span>
+          <span class="ltag">work</span>
+          <span class="ltag">collocations</span>
+        </div>
+        <div class="lesson-footer">
+          <span>Xem bài học &amp; bấm giờ</span>
+          <span class="larrow">→</span>
+        </div>
+      </a>
+
+      <!-- Set 001 -->
+      <a href="/sets/set-001/" class="lesson-card">
+        <div class="lesson-card-top">
+          <span class="lesson-num-badge">Bài #001</span>
+          <span class="lesson-part-badge">Part 3 • Office Meetings</span>
+        </div>
+        <h3 class="lesson-title">Dời lịch họp &amp; Thảo luận Agenda công sở</h3>
+        <p class="lesson-desc">Nắm vững cách dùng <em>reschedule, postpone, touch base</em> khi nhận câu hỏi tình huống trong phòng thi.</p>
+        <div class="lesson-tags">
+          <span class="ltag">reschedule</span>
+          <span class="ltag">postpone</span>
+          <span class="ltag">agenda</span>
+        </div>
+        <div class="lesson-footer">
+          <span>Xem bài học &amp; bấm giờ</span>
+          <span class="larrow">→</span>
+        </div>
+      </a>
+
+      <!-- Set 002 -->
+      <a href="/sets/set-002/" class="lesson-card">
+        <div class="lesson-card-top">
+          <span class="lesson-num-badge">Bài #002</span>
+          <span class="lesson-part-badge">Part 2 • Describe a Picture</span>
+        </div>
+        <h3 class="lesson-title">Miêu tả tranh đường phố &amp; Hành vi người đi bộ</h3>
+        <p class="lesson-desc">Mẫu câu miêu tả <em>pedestrian crossing the street</em>, vị trí và hành động với phản xạ 45 giây.</p>
+        <div class="lesson-tags">
+          <span class="ltag">pedestrian</span>
+          <span class="ltag">street-scenes</span>
+          <span class="ltag">describe-picture</span>
+        </div>
+        <div class="lesson-footer">
+          <span>Xem bài học &amp; bấm giờ</span>
+          <span class="larrow">→</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="lessons-all-row">
+      <a href="/sets/" class="btn-all-lessons">Xem toàn bộ danh mục bài học →</a>
+    </div>
+  </section>
+
+  <!-- 6. BOTTOM BANNER CALL TO ACTION -->
+  <section class="home-cta-banner">
+    <div class="cta-banner-content">
+      <h2 class="cta-banner-title">Sẵn Sàng Bứt Phá Điểm Số TOEIC Speaking?</h2>
+      <p class="cta-banner-desc">
+        Bắt đầu ngay hôm nay bằng việc tra cứu và ôn luyện toàn bộ <strong>{{ $totalWordsCount }}+ từ vựng</strong> trong từ điển A–Z hoặc theo dõi các video bài học mới nhất trên kênh TikTok.
+      </p>
+      <div class="cta-banner-actions">
+        <a href="/glossary/" class="btn-banner-primary">Tra cứu Từ điển A–Z ngay</a>
+        <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer" class="btn-banner-secondary">Theo dõi TikTok @wbk.lqv ↗</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+{{- end }}

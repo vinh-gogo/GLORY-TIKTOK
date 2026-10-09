@@ -18,6 +18,11 @@
   - Sticky navigation bar with category and breadcrumbs.
   - Keyboard navigation (Left/Right arrow keys) for seamless sequential study.
   - Balanced 50/50 bottom navigation cards with defensive CSS grid sizing, text truncation, and hover tooltips.
+- [x] **Professional Homepage Showcase:**
+  - Complete custom homepage layout (`layouts/index.html`) replacing minimalist profile mode.
+  - Spotlight on **Từ điển A–Z (Glossary)** with real-time stats and interactive table preview.
+  - Spotlight on **Chi tiết từ vựng (Word Detail)** with IPA phonetics, collocations, and keyboard shortcuts.
+  - Live search bar with quick tags, video sets grid, and stats strip.
 - [x] **About Page & Creator Profile:**
   - Redesigned `/about/` with authentic creator voice and modern card-based presentation.
   - Linked to official TikTok channel `Glory 01` (@wbk.lqv).
