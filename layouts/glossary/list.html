@@ -1,43 +1,84 @@
 {{- define "main" }}
 {{- $allWords := slice }}
+{{- $initials := slice }}
 {{- range $letter, $dict := site.Data.lexicon }}
+  {{- $initials = $initials | append (upper $letter) }}
   {{- range $id, $w := $dict }}
     {{- $allWords = $allWords | append $w }}
   {{- end }}
 {{- end }}
-{{- $allWords = sort $allWords "lemma" }}
+{{- $allWords = sort $allWords "lemma" "asc" }}
+{{- $initials = sort (uniq $initials) }}
 
-<header class="page-header">
-  <h1>{{ .Title }}</h1>
-  <p class="post-description">Tra cứu nhanh toàn bộ từ vựng, phiên âm IPA, cấp độ TOEIC và collocations có trong các video bài học của kênh Glory 01.</p>
+<style>
+  /* Cho phép trang Từ điển A-Z mở rộng chiều ngang tối đa trên Desktop */
+  .main {
+    max-width: min(1440px, 95vw) !important;
+    width: 100% !important;
+  }
+</style>
+
+<header class="page-header glossary-header">
+  <div class="breadcrumbs">
+    <a href="/">Trang chủ</a>&nbsp;»&nbsp;<span>Từ điển A–Z</span>
+  </div>
+  <div class="glossary-header-flex">
+    <div>
+      <h1 class="glossary-main-title">{{ .Title }}</h1>
+      <p class="post-description">Tra cứu nhanh toàn bộ <strong>{{ len $allWords }} từ vựng</strong>, phiên âm IPA, phân cấp TOEIC và collocations có trong các video bài học của kênh Glory 01.</p>
+    </div>
+    <div class="glossary-stat-badge">
+      <span class="stat-number">{{ len $allWords }}</span>
+      <span class="stat-label">Từ vựng chuẩn</span>
+    </div>
+  </div>
 </header>
 
 <div class="glossary-container">
   <!-- Controls: Filter & Search -->
   <div class="glossary-controls">
-    <div class="glossary-search-box">
-      <input type="text" id="glossary-search-input" placeholder="🔍 Nhập từ tiếng Anh hoặc nghĩa tiếng Việt để lọc tức thì..." autocomplete="off">
+    <div class="glossary-search-row">
+      <div class="glossary-search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="glossary-search-input" placeholder="Tìm kiếm từ tiếng Anh, phiên âm IPA hoặc nghĩa tiếng Việt..." autocomplete="off">
+        <span class="glossary-match-badge" id="glossary-match-count">Hiển thị {{ len $allWords }}/{{ len $allWords }} từ</span>
+      </div>
     </div>
-    <div class="glossary-filters">
-      <span class="filter-label">Phân cấp TOEIC:</span>
-      <button type="button" class="glossary-filter-btn active" data-band="all">Tất cả ({{ len $allWords }})</button>
-      <button type="button" class="glossary-filter-btn" data-band="core">Core (Nền tảng)</button>
-      <button type="button" class="glossary-filter-btn" data-band="target">Target (Mục tiêu)</button>
-      <button type="button" class="glossary-filter-btn" data-band="advanced">Advanced (Nâng cao)</button>
+
+    <!-- Phân cấp TOEIC Band Filters -->
+    <div class="glossary-filters-row">
+      <div class="glossary-filters">
+        <span class="filter-label">Phân cấp TOEIC:</span>
+        <button type="button" class="glossary-filter-btn active" data-band="all">Tất cả ({{ len $allWords }})</button>
+        <button type="button" class="glossary-filter-btn" data-band="core">Core (Nền tảng)</button>
+        <button type="button" class="glossary-filter-btn" data-band="target">Target (Mục tiêu)</button>
+        <button type="button" class="glossary-filter-btn" data-band="advanced">Advanced (Nâng cao)</button>
+      </div>
+    </div>
+
+    <!-- Alphabet Quick Filter Bar -->
+    <div class="glossary-alpha-row">
+      <span class="alpha-label">Chữ cái A–Z:</span>
+      <div class="glossary-alpha-bar" id="glossary-alpha-bar">
+        <button type="button" class="alpha-btn active" data-letter="all">TẤT CẢ</button>
+        {{- range $initials }}
+        <button type="button" class="alpha-btn" data-letter="{{ . }}">{{ . }}</button>
+        {{- end }}
+      </div>
     </div>
   </div>
 
-  <!-- Words Table -->
+  <!-- Words Table Wrapper (Wide Desktop) -->
   <div class="glossary-table-wrapper">
     <table class="glossary-table" id="glossary-table">
       <thead>
         <tr>
-          <th>Từ vựng & IPA</th>
-          <th>Loại từ</th>
-          <th>Cấp độ</th>
-          <th>Nghĩa tiếng Việt</th>
-          <th>Collocations tiêu biểu</th>
-          <th>Chi tiết</th>
+          <th class="col-header-word">Từ vựng &amp; IPA</th>
+          <th class="col-header-pos">Loại từ</th>
+          <th class="col-header-level">Cấp độ</th>
+          <th class="col-header-meaning">Nghĩa tiếng Việt</th>
+          <th class="col-header-colloc">Collocations tiêu biểu</th>
+          <th class="col-header-action">Chi tiết</th>
         </tr>
       </thead>
       <tbody>
@@ -46,7 +87,8 @@
         {{- with .senses }}{{ $meaning = (index . 0).meaning_vi }}{{ end }}
         {{- $band := "" }}
         {{- with .level }}{{ $band = .band }}{{ end }}
-        <tr class="glossary-row" data-lemma="{{ .lemma | lower }}" data-meaning="{{ $meaning | lower }}" data-band="{{ $band }}">
+        {{- $firstLetter := upper (substr .lemma 0 1) }}
+        <tr class="glossary-row" data-lemma="{{ .lemma | lower }}" data-meaning="{{ $meaning | lower }}" data-band="{{ $band }}" data-letter="{{ $firstLetter }}">
           <td class="col-word">
             <a href="/words/{{ .id }}/" class="glossary-word-link"><strong>{{ .lemma }}</strong></a>
             {{- with .ipa.us }}
@@ -55,7 +97,7 @@
           </td>
           <td class="col-pos">
             {{- with .pos }}
-              {{- delimit . ", " }}
+              <span class="glossary-pos-pill">{{ delimit . ", " }}</span>
             {{- end }}
           </td>
           <td class="col-level">
@@ -76,12 +118,16 @@
             {{- end }}
           </td>
           <td class="col-action">
-            <a href="/words/{{ .id }}/" class="glossary-btn-detail">Xem ➔</a>
+            <a href="/words/{{ .id }}/" class="glossary-btn-detail" title="Xem chi tiết từ {{ .lemma }}">Học ➔</a>
           </td>
         </tr>
         {{- end }}
       </tbody>
     </table>
+    <div id="glossary-no-results" class="glossary-no-results" style="display: none;">
+      <p>🔍 Không tìm thấy từ vựng nào khớp với bộ lọc hiện tại.</p>
+      <button type="button" id="glossary-reset-btn" class="glossary-filter-btn">Xóa bộ lọc &amp; xem tất cả</button>
+    </div>
   </div>
 </div>
 
@@ -89,26 +135,45 @@
 document.addEventListener("DOMContentLoaded", function() {
   const searchInput = document.getElementById("glossary-search-input");
   const filterBtns = document.querySelectorAll(".glossary-filter-btn");
+  const alphaBtns = document.querySelectorAll(".alpha-btn");
   const rows = document.querySelectorAll(".glossary-row");
+  const matchCount = document.getElementById("glossary-match-count");
+  const noResults = document.getElementById("glossary-no-results");
+  const resetBtn = document.getElementById("glossary-reset-btn");
+  const totalCount = rows.length;
 
   let activeBand = "all";
+  let activeLetter = "all";
   let searchKeyword = "";
 
   function filterTable() {
+    let visibleCount = 0;
+
     rows.forEach(function(row) {
       const lemma = (row.getAttribute("data-lemma") || "").toLowerCase();
       const meaning = (row.getAttribute("data-meaning") || "").toLowerCase();
       const band = row.getAttribute("data-band") || "";
+      const letter = row.getAttribute("data-letter") || "";
 
       const matchesSearch = !searchKeyword || lemma.includes(searchKeyword) || meaning.includes(searchKeyword);
       const matchesBand = activeBand === "all" || band === activeBand;
+      const matchesLetter = activeLetter === "all" || letter === activeLetter;
 
-      if (matchesSearch && matchesBand) {
+      if (matchesSearch && matchesBand && matchesLetter) {
         row.style.display = "";
+        visibleCount++;
       } else {
         row.style.display = "none";
       }
     });
+
+    if (matchCount) {
+      matchCount.textContent = `Hiển thị ${visibleCount}/${totalCount} từ`;
+    }
+
+    if (noResults) {
+      noResults.style.display = visibleCount === 0 ? "block" : "none";
+    }
   }
 
   if (searchInput) {
@@ -126,6 +191,27 @@ document.addEventListener("DOMContentLoaded", function() {
       filterTable();
     });
   });
+
+  alphaBtns.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      alphaBtns.forEach(b => b.classList.remove("active"));
+      this.classList.add("active");
+      activeLetter = this.getAttribute("data-letter");
+      filterTable();
+    });
+  });
+
+  if (resetBtn) {
+    resetBtn.addEventListener("click", function() {
+      activeBand = "all";
+      activeLetter = "all";
+      searchKeyword = "";
+      if (searchInput) searchInput.value = "";
+      filterBtns.forEach(b => b.classList.toggle("active", b.getAttribute("data-band") === "all"));
+      alphaBtns.forEach(b => b.classList.toggle("active", b.getAttribute("data-letter") === "all"));
+      filterTable();
+    });
+  }
 });
 </script>
 {{- end }}
