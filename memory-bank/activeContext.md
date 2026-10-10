@@ -1,64 +1,26 @@
 # Active Context: GLORY-TIKTOK
 
 ## 1. Current Work Focus
-Refining the vocabulary browsing and learning UX across the interactive Glossary table (`/words/`) and Word detail pages (`/words/<lemma>/`), ensuring high stability, balanced layouts, and responsive cross-device performance.
+**Pivot (2026-10):** từ site luyện TOEIC Speaking sang **nền tảng từ vựng / collocations / đồng nghĩa / câu nói hay**, mobile-first. Kế hoạch gốc: `PLAN_NEN_MONG_Tu_Vung_TOEIC.md`. Các quyết định kiến trúc: `docs/adr/004`–`008`.
 
----
+Đã triển khai nền móng (F0–F3, F5 một phần) — xem `progress.md`. **F4 (mở rộng lên ~1.500 từ / 4.500 collocation / 300 synset / 100 câu) CHƯA làm**: cần nguồn kiểm chứng và người duyệt; chỉ dựng pipeline (`scripts/import/import_batch.py`).
 
-## 2. Recent Changes & Decisions
-
-### 2.1. Professional Homepage Redesign (Glossary & Word Detail Showcase)
-- **User Problem Addressed:** Homepage previously used PaperMod's minimalist `profileMode` with only 5 small buttons, completely failing to spotlight the platform's two core assets: the interactive 213+ word **Glossary** and deep-dive **Word Detail Pages**.
-- **Comprehensive Homepage Architecture (`layouts/index.html`):**
-  - **Hero & Live Search:** Headline, subtitle, and an instant search bar with search suggestions (`deadline`, `reschedule`, `postpone`, `touch-base`, `pedestrian`).
-  - **Metrics & Stats Strip:** Live counts for 213+ words, 3 levels (Core, Target, Advanced), 100% ETS-style content, 0đ ad-free.
-  - **Focus 1 — Interactive Glossary Showcase:** Split feature section explaining the 3 TOEIC bands and 26-letter filter with an interactive visual table mockup and direct CTA.
-  - **Focus 2 — Word Detail Deep-Dive Showcase:** Split feature section highlighting IPA phonetics, pronunciation alerts, collocations, confusing words, and keyboard shortcuts (`←`/`→`) with an interactive word card mockup.
-  - **Lesson Sets & TikTok Video Hub:** Grid showcasing Sets 013, 001, 002.
-  - **Closing CTA Banner:** High-conversion invitation to begin studying.
-- **Custom CSS:** Added responsive styles in `assets/css/extended/custom.css`.
-
-### 2.2. Smart Filter Coordination (Phân cấp TOEIC & Chữ cái A–Z)
-- **Root Cause Identified:** Filter deadlock occurred because Band and Letter filters used rigid intersecting AND logic without dynamic feedback: selecting a band like Advanced (13 words only in B, C, E, L, R, S, T) while Letter A was active produced 0 words. Furthermore, `#glossary-reset-btn` shared `.glossary-filter-btn` class, causing click events to read `targetBand = null` and breaking the view.
-- **Coordinated State System (`syncFilters`):**
-  - Clicking a letter automatically switches Band to `all` if that band has 0 words for the letter (and vice versa).
-  - Dynamically calculates letter availability: letters with 0 words in the active band become disabled in real time.
-  - Dynamically updates count badges on TOEIC level buttons (e.g. Core (10), Target (11), Advanced (0)).
-  - Separated reset button selector and added swipable mobile horizontal scroll for the A-Z bar.
-
-### 2.2. About Page Redesign & Creator Profile (Glory 01 / @wbk.lqv)
-- **Profile Info:** Updated channel name to **Glory 01**, TikTok username to `wbk.lqv`, and profile URL to `https://www.tiktok.com/@wbk.lqv` across `hugo.yaml`, shortcodes, and lesson sets.
-- **Human-Centric Redesign:** Replaced generic AI-style copy and bullet lists in `content/about.md` with an authentic, relatable creator voice in a bespoke layout (`layouts/about/single.html`).
-- **Visual Components:** Added hero profile card with glowing avatar and direct TikTok CTA button, 3-pillar Bento Grid ("Tại sao không chỉ dừng lại ở TikTok?"), interactive 3-step daily study loop, content manifesto, and community connect card.
-- **Custom CSS:** Added responsive styling for the About page in `assets/css/extended/custom.css`.
-
-### 2.2. Navigation & Word Detail Layout (Commit `d9ebc6f`)
-- **Issue:** Long Vietnamese definitions inside the bottom navigation cards (`← Từ trước` and `Từ tiếp theo →`) caused unequal card stretching, breaking the 50/50 visual balance.
-- **Fix:**
-  - Updated CSS Grid in [`assets/css/extended/custom.css`](file:///D:/GLORY-TIKTOK/assets/css/extended/custom.css) to `grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);`.
-  - Added `min-width: 0`, `max-width: 100%`, and `overflow: hidden` to `.bottom-nav-card` and `.card-text`.
-  - Added `text-overflow: ellipsis; white-space: nowrap;` for `.card-word` and `.card-summary`.
-  - Applied `truncate 36` in [`layouts/words/single.html`](file:///D:/GLORY-TIKTOK/layouts/words/single.html) with informative full-text tooltips via HTML `title` attributes.
-
-### 2.2. Interactive Glossary Upgrades
-- **A–Z Alphabet Filter:** Implemented a full 26-letter bar with disabled styling for empty letters, automatic smooth scroll to table top upon clicking, and mutual reset between search query and letter filters.
-- **TOEIC Level Color Coding:** Distinct badge and button colors for Core (emerald green), Target (cyan/blue), and Advanced (purple).
-- **Typography & Dark Mode:** Styled vocabulary lemma in pure white on dark backgrounds while preserving the vibrant accent color for IPA phonetics.
-- **Sticky Table Header:** Fixed `position: sticky` on the `<thead>` element by overriding PaperMod's `reset.css` table overflow behavior.
-- **Header Branding:** Updated site title to "Glory 01 – Blog" and added an animated SVG logo.
-
----
+## 2. Kiến trúc hiện tại (tóm tắt)
+- Dữ liệu: `data/lexicon/` (schema v3), `data/levels.yaml` (4 band, `band_order`), `data/topics.yaml` (14 chủ đề + `legacy_map`), `data/sources.yaml`, `data/quotes/`.
+- Trang từ sinh bởi `content/words/_content.gotmpl`; `/words/` (danh sách) bị ẩn, chỉ giữ `/words/<id>/`. Danh sách chỉ hiện từ `ai_cross_checked`/`human_verified` (`layouts/_partials/words-visible.html`).
+- Tìm kiếm: `/search-index.json` (output format `SearchIndex`), JS chuẩn hóa tiếng Việt không dấu (`assets/js/search.js`); không dùng Fuse.
+- UI: tab bar dưới trên mobile (`.tabbar`), menu ngang ≥768px; CSS module trong `assets/css/extended/`.
+- Redirect: `static/_redirects` sinh bởi `scripts/build/gen_redirects.py`; `scripts/validate/check_urls.py` đối chiếu `docs/url-inventory-2026-10.txt`.
 
 ## 3. Active Decisions & Considerations
-- **Git Branch Strategy:** Active work remains strictly on `dev`. Production merges to `main` occur only at release milestones to conserve Cloudflare and GitHub Actions allowances.
-- **Validation Mandate:** Every task modifying content or layouts must pass:
-  1. `python scripts/validate/validate.py`
-  2. `hugo --gc --minify`
-- **Data Completeness:** 213 words currently populated in `data/lexicon/`. Any uncertain vocabulary fields must be tagged `review.status: needs_review`.
-
----
+- **Git Branch Strategy:** làm việc trên `dev`; merge `main` ở mốc phát hành.
+- **Validation Mandate:** `python scripts/validate/validate.py` (0 lỗi) + `hugo --gc --minify` (sạch) + `check_urls.py`.
+- **Không bịa dữ liệu:** mục chưa chắc → `needs_review` + `reason`. 213 mục hiện có là `ai_cross_checked` nhưng `level.basis=[editorial]`, 709 collocation `evidence: unverified` (xem `docs/audit-2026-10-lexicon-v3.md`).
+- Bảng điểm ETS↔CEFR và danh sách nhóm chủ đề ETS **chưa đối chiếu văn bản gốc** (`verified_primary: false`).
 
 ## 4. Next Steps
-1. **Lesson Expansion:** Prepare lesson set templates and content for missing sets 003 through 012.
-2. **Phase 3 Audio Integration:** Prototype audio playback infrastructure using Cloudflare R2 and lightweight HTML5 audio players.
-3. **Practice Timers:** Build the interactive exam countdown simulator reading directly from `data/exam/toeic-speaking.yaml`.
+1. Người duyệt quyết định các câu hỏi mở (Q2/Q3/Q6/Q8 trong plan) và chính sách cho mục có tuyên bố nguồn không kiểm chứng.
+2. Đưa danh sách tần suất (TSL/BSL/NGSL) + CEFR-J vào `sources/wordlists/` sau khi kiểm tra giấy phép → chạy `scripts/levels/assign_band.py` → chốt ngưỡng ở ADR-005.
+3. Cài `cmudict` → chạy `scripts/ipa/check_cmudict.py`.
+4. Soạn lô đầu cho tầng `foundation`, rồi mở rộng theo lô (F4).
+5. Thay link TikTok placeholder của các set bằng link video thật; thử nghiệm trên thiết bị thật + Lighthouse.

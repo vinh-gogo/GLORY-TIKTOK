@@ -1,5 +1,13 @@
 # Progress Tracking: GLORY-TIKTOK
 
+> **Cập nhật 2026-10 — ĐỊNH HƯỚNG ĐÃ ĐỔI.** Sản phẩm chuyển từ site luyện TOEIC Speaking sang nền tảng từ vựng / collocations / đồng nghĩa / câu nói hay, mobile-first. Các phần bên dưới nói về Speaking (bộ đếm giờ, 11 dạng câu hỏi, `data/exam/toeic-speaking.yaml`, `/parts/`, `/guides/`, `custom.css`) là **lịch sử**; nguồn đúng hiện hành: `PLAN_NEN_MONG_Tu_Vung_TOEIC.md`, `docs/adr/004`–`008` và `activeContext.md`. Nội dung Speaking cũ lưu ở `docs/archive/`.
+
+## 0. Pivot 2026-10 — trạng thái triển khai (PLAN_NEN_MONG)
+- **Xong:** F0 (levels/topics/sources + ADR 004–008, AGENTS.md rule 1 & 6) · F1 (dọn dẹp, archive Speaking, bỏ taxonomy parts/series/tags, redirects 89 quy tắc, check_urls 0 URL chết) · F2 (schema v3 + migrate 213 mục, validator V1–V14, script import/assign_band/check_cmudict, audit) · F3 (templates + CSS/JS mobile-first, tab bar, tìm kiếm không dấu) · README/CI.
+- **Thêm 2026-10-11:** bộ test validator (`test_validate.py`, có trong CI) · kiểm tra giấy phép CMUdict/Wiktionary (ADR-006) · lô pilot 10 từ foundation ở `ai_draft` (ẩn, không có trang) · kiểm tra không tràn ngang ở 360/320px bằng Edge headless.
+- **Chưa làm:** F4 (mở rộng dữ liệu; cần nguồn đã kiểm chứng + reviewer) · chạy V6 CMUdict thật · gán lại band bằng tần suất · foundation tier mới có 10 bản nháp ẩn · thử trên thiết bị thật/Lighthouse · link TikTok thật cho set.
+- Chi tiết: `docs/audit-2026-10-lexicon-v3.md`, `docs/changelog-data.md`.
+
 ## 1. What Works
 - [x] **Central Lexicon System:**
   - 213 distinct vocabulary YAML files in `data/lexicon/`.

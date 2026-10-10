@@ -1,0 +1,63 @@
+{{- $rawUrl := .Get "url" | default (.Get 0) | default .Page.Params.tiktok -}}
+{{- $videoId := .Get "id" -}}
+
+{{- if $rawUrl }}
+  {{- if not $videoId }}
+    {{- $matches := findRE `video/([0-9]+)` $rawUrl }}
+    {{- if gt (len $matches) 0 }}
+      {{- $videoId = replace (index $matches 0) "video/" "" }}
+    {{- end }}
+  {{- end }}
+
+  <div class="tiktok-wrapper" id="tiktok-box-{{ $videoId }}">
+    <div class="tiktok-facade-card">
+      <div class="tiktok-facade-header">
+        <span class="tiktok-badge">🎬 Video Bài Học • TikTok @wbk.lqv</span>
+        <p class="tiktok-facade-desc">Xem clip ngắn luyện khẩu hình, phát âm và phản xạ tự nhiên trên TikTok:</p>
+      </div>
+
+      <div class="tiktok-facade-actions">
+        {{- if $videoId }}
+        <button type="button" class="tiktok-load-btn" data-url="{{ $rawUrl }}" data-id="{{ $videoId }}">
+          <svg class="tiktok-play-icon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M8 5v14l11-7z"/>
+          </svg>
+          <span>Xem video ngay trên web</span>
+        </button>
+        {{- end }}
+
+        <a class="tiktok-app-btn" href="{{ $rawUrl }}" target="_blank" rel="noopener noreferrer">
+          <svg class="tiktok-icon" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.49 6.34 6.34 0 0 0 1.95-4.49V8.52a8.27 8.27 0 0 0 4.82 1.54v-3.37a4.83 4.83 0 0 1-1-.0z"/>
+          </svg>
+          <span>Mở app TikTok ↗</span>
+        </a>
+      </div>
+
+      <div class="tiktok-embed-slot" style="display:none;"></div>
+    </div>
+  </div>
+
+  <script>
+  document.querySelectorAll(".tiktok-load-btn").forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      const parent = btn.closest(".tiktok-facade-card");
+      const slot = parent.querySelector(".tiktok-embed-slot");
+      const videoUrl = btn.getAttribute("data-url");
+      const videoId = btn.getAttribute("data-id");
+
+      btn.style.display = "none";
+      slot.style.display = "block";
+      slot.innerHTML = '<blockquote class="tiktok-embed" cite="' + videoUrl + '" data-video-id="' + videoId + '" style="max-width: 605px;min-width: 280px;width: 100%;"><section><a target="_blank" href="' + videoUrl + '">Đang tải video TikTok...</a></section></blockquote>';
+
+      if (!window.tiktokScriptLoaded) {
+        window.tiktokScriptLoaded = true;
+        const script = document.createElement("script");
+        script.src = "https://www.tiktok.com/embed.js";
+        script.async = true;
+        document.body.appendChild(script);
+      }
+    });
+  });
+  </script>
+{{- end }}

@@ -1,5 +1,7 @@
 # Product Context: GLORY-TIKTOK
 
+> **Cập nhật 2026-10 — ĐỊNH HƯỚNG ĐÃ ĐỔI.** Sản phẩm chuyển từ site luyện TOEIC Speaking sang nền tảng từ vựng / collocations / đồng nghĩa / câu nói hay, mobile-first. Các phần bên dưới nói về Speaking (bộ đếm giờ, 11 dạng câu hỏi, `data/exam/toeic-speaking.yaml`, `/parts/`, `/guides/`, `custom.css`) là **lịch sử**; nguồn đúng hiện hành: `PLAN_NEN_MONG_Tu_Vung_TOEIC.md`, `docs/adr/004`–`008` và `activeContext.md`. Nội dung Speaking cũ lưu ở `docs/archive/`.
+
 ## 1. Why This Project Exists
 Learners who discover the *Glory 01* educational channel on TikTok frequently struggle to retain vocabulary, master pronunciation, and transfer knowledge into spontaneous spoken English under timed exam conditions. Short-form video platforms inherently lack:
 - Structured search and comprehensive reference lookup.
