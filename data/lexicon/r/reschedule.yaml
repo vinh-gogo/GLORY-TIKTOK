@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: reschedule
 lemma: reschedule
 pos:
@@ -6,16 +6,37 @@ pos:
 ipa:
   us: /ˌriːˈskedʒuːl/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- work
-speaking_use:
-- respond-to-questions
+- offices
 senses:
 - id: reschedule-1
   meaning_vi: Sắp xếp lại lịch hẹn, đổi lịch sang một mốc thời gian cụ thể khác
+collocations:
+- phrase: reschedule an appointment
+  meaning_vi: Đổi lịch một cuộc hẹn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: reschedule for next week
+  meaning_vi: Dời lịch sang tuần sau
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: request to reschedule
+  meaning_vi: Gửi yêu cầu thay đổi thời gian họp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: rearrange
+  meaning_vi: sắp xếp lại
 confused_words:
 - ref: schedule
   word: schedule
@@ -27,21 +48,7 @@ confusing_meanings:
 - ref: postpone
   word: postpone
   meaning: Hoãn lại (chưa nhất thiết ấn định ngay ngày họp mới)
-  difference_vi: Reschedule thường đi kèm thời điểm mới được chốt ngay; postpone có
-    thể hoãn vô thời hạn
-collocations:
-- phrase: reschedule an appointment
-  meaning_vi: Đổi lịch một cuộc hẹn
-  evidence: corpus
-- phrase: reschedule for next week
-  meaning_vi: Dời lịch sang tuần sau
-  evidence: corpus
-- phrase: request to reschedule
-  meaning_vi: Gửi yêu cầu thay đổi thời gian họp
-  evidence: corpus
-synonyms:
-- word: rearrange
-  meaning_vi: sắp xếp lại
+  difference_vi: Reschedule thường đi kèm thời điểm mới được chốt ngay; postpone có thể hoãn vô thời hạn
 examples:
 - en: Could we reschedule our project update meeting for Thursday morning instead?
   vi: Chúng ta có thể đổi lịch cuộc họp cập nhật dự án sang sáng thứ Năm được không?

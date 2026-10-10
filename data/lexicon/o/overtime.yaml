@@ -1,62 +1,73 @@
-schema_version: 2
+schema_version: 3
 id: overtime
 lemma: overtime
 pos:
-  - noun
-  - adverb
+- noun
+- adverb
 ipa:
-  us: "/ˈoʊvərtaɪm/"
+  us: /ˈoʊvərtaɪm/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - work
-  - benefits
-speaking_use:
-  - respond-to-questions
-  - express-opinion
+- offices
+- personnel
 senses:
-  - id: overtime-1
-    meaning_vi: "Làm thêm giờ, ngoài giờ quy định / Tiền làm thêm giờ"
-    note_vi: "Chủ đề văn phòng phổ biến khi nói về cân bằng công việc - cuộc sống (Part 3, Part 5)."
+- id: overtime-1
+  meaning_vi: Làm thêm giờ, ngoài giờ quy định / Tiền làm thêm giờ
+  note_vi: Chủ đề văn phòng phổ biến khi nói về cân bằng công việc - cuộc sống (Part 3, Part 5).
 collocations:
-  - phrase: "work overtime"
-    meaning_vi: "làm việc thêm giờ, tăng ca"
-    evidence: "corpus"
-  - phrase: "overtime pay"
-    meaning_vi: "tiền phụ cấp làm ngoài giờ"
-    evidence: "corpus"
-  - phrase: "mandatory overtime"
-    meaning_vi: "làm thêm giờ bắt buộc"
-    evidence: "corpus"
-  - phrase: "put in overtime"
-    meaning_vi: "dành thời gian tăng ca cho công việc"
-    evidence: "corpus"
-confused_words:
-  - word: "overdue"
-    ipa: "/ˌoʊvərˈduː/"
-    meaning: "quá hạn thanh toán, trễ hẹn"
-    kind: "spelling"
-    difference_vi: "Overtime là làm thêm thời gian; overdue là khoản tiền hoặc công việc đã bị trễ quá thời hạn quy định."
-confusing_meanings:
-  - word: "extra hours"
-    meaning: "các giờ làm thêm bổ sung"
-    difference_vi: "Overtime là thuật ngữ pháp lý chính thức về làm ngoài giờ (thường có phụ cấp); extra hours là cách nói thông tục về số giờ thêm."
+- phrase: work overtime
+  meaning_vi: làm việc thêm giờ, tăng ca
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: overtime pay
+  meaning_vi: tiền phụ cấp làm ngoài giờ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: mandatory overtime
+  meaning_vi: làm thêm giờ bắt buộc
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: put in overtime
+  meaning_vi: dành thời gian tăng ca cho công việc
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "extra time"
-    meaning_vi: "thời gian làm thêm"
+- word: extra time
+  meaning_vi: thời gian làm thêm
+confused_words:
+- word: overdue
+  ipa: /ˌoʊvərˈduː/
+  meaning: quá hạn thanh toán, trễ hẹn
+  kind: spelling
+  difference_vi: Overtime là làm thêm thời gian; overdue là khoản tiền hoặc công việc đã bị trễ quá thời hạn quy định.
+confusing_meanings:
+- word: extra hours
+  meaning: các giờ làm thêm bổ sung
+  difference_vi: Overtime là thuật ngữ pháp lý chính thức về làm ngoài giờ (thường có phụ cấp); extra hours là cách nói thông
+    tục về số giờ thêm.
 examples:
-  - en: "Employees who work overtime during the holiday season will receive double their normal hourly rate."
-    vi: "Những nhân viên làm thêm giờ trong mùa nghỉ lễ sẽ nhận được gấp đôi mức lương theo giờ thông thường."
-pronunciation_tips_vi: "Trọng âm rơi vào âm tiết đầu /ˈoʊ-/. Lưu ý âm /v/ rung môi dưới và nguyên âm đôi /aɪ/ trong /-taɪm/."
+- en: Employees who work overtime during the holiday season will receive double their normal hourly rate.
+  vi: Những nhân viên làm thêm giờ trong mùa nghỉ lễ sẽ nhận được gấp đôi mức lương theo giờ thông thường.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈoʊ-/. Lưu ý âm /v/ rung môi dưới và nguyên âm đôi /aɪ/ trong /-taɪm/.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

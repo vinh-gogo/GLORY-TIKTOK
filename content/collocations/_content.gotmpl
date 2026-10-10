@@ -1,0 +1,18 @@
+{{- /* /collocations/<topic>/: một trang cho mỗi chủ đề có từ hiển thị (PLAN T3.7). Nội dung sinh từ lexicon, không nhập tay. */ -}}
+{{- $words := partial "words-visible.html" . }}
+{{- $topics := hugo.Data.topics.topics }}
+{{- range $slug, $t := $topics }}
+  {{- $n := 0 }}
+  {{- range $words }}
+    {{- if in .topics $slug }}{{- $n = add $n (len (.collocations | default slice)) }}{{- end }}
+  {{- end }}
+  {{- if gt $n 0 }}
+    {{- $page := dict
+      "path" $slug
+      "title" (printf "Collocations: %s" $t.name_vi)
+      "kind" "page"
+      "params" (dict "topic" $slug "topic_name" $t.name_vi "count" $n "summary" (printf "%d collocations thuộc chủ đề %s." $n $t.name_vi))
+    }}
+    {{- $.AddPage $page }}
+  {{- end }}
+{{- end }}

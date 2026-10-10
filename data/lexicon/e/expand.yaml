@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: expand
 lemma: expand
 pos:
@@ -6,15 +6,12 @@ pos:
 ipa:
   us: /ɪkˈspænd/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- business
-- sales
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: expand-1
   meaning_vi: Mở rộng quy mô (chi nhánh, thị trường, cơ sở vật chất)
@@ -22,40 +19,48 @@ senses:
 collocations:
 - phrase: expand overseas
   meaning_vi: mở rộng kinh doanh ra nước ngoài
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: expand the market
   meaning_vi: mở rộng thị trường tiêu thụ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: expand business operations
   meaning_vi: mở rộng các hoạt động kinh doanh
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: rapidly expand
   meaning_vi: mở rộng nhanh chóng
-  evidence: corpus
-confused_words:
-- word: expend
-  ipa: /ɪkˈspend/
-  meaning: tiêu tốn (tiền bạc, thời gian, công sức)
-  kind: spelling-sound
-  difference_vi: Expand phát âm /æ/ mang nghĩa mở rộng; expend phát âm /e/ mang nghĩa
-    chi tiêu hoặc tiêu tốn tài nguyên.
-confusing_meanings:
-- word: extend
-  meaning: kéo dài về thời gian hoặc khoảng cách
-  difference_vi: Extend là kéo dài về độ dài hoặc hạn chót; expand là mở rộng không
-    gian, diện tích hoặc quy mô doanh nghiệp.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: broaden
   meaning_vi: mở rộng
 - word: enlarge
   meaning_vi: phóng to, gia tăng kích thước
+confused_words:
+- word: expend
+  ipa: /ɪkˈspend/
+  meaning: tiêu tốn (tiền bạc, thời gian, công sức)
+  kind: spelling-sound
+  difference_vi: Expand phát âm /æ/ mang nghĩa mở rộng; expend phát âm /e/ mang nghĩa chi tiêu hoặc tiêu tốn tài nguyên.
+confusing_meanings:
+- word: extend
+  meaning: kéo dài về thời gian hoặc khoảng cách
+  difference_vi: Extend là kéo dài về độ dài hoặc hạn chót; expand là mở rộng không gian, diện tích hoặc quy mô doanh nghiệp.
 examples:
-- en: The retail chain plans to expand its presence by opening ten new stores across
-    the country.
-  vi: Chuỗi bán lẻ có kế hoạch mở rộng sự hiện diện bằng cách mở mười cửa hàng mới
-    trên toàn quốc.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈspænd/. Nguyên âm /æ/ mở
-  rộng miệng, bật dứt khoát cụm âm cuối /-nd/.
+- en: The retail chain plans to expand its presence by opening ten new stores across the country.
+  vi: Chuỗi bán lẻ có kế hoạch mở rộng sự hiện diện bằng cách mở mười cửa hàng mới trên toàn quốc.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈspænd/. Nguyên âm /æ/ mở rộng miệng, bật dứt khoát cụm âm cuối
+  /-nd/.
 review:
   status: ai_cross_checked
   checked_by:

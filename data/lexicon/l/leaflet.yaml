@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: leaflet
 lemma: leaflet
 pos:
@@ -9,16 +9,38 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-speaking_use:
-- describe-picture
-- respond-to-questions
+- general-business
 senses:
 - id: leaflet-1
   meaning_vi: Tờ rơi quảng cáo hoặc truyền đơn thông tin (thường là 1 tờ in 2 mặt)
   note_vi: Được phát trực tiếp trên đường phố hoặc để tại các quầy thông tin.
+collocations:
+- phrase: informational leaflet
+  meaning_vi: tờ rơi cung cấp thông tin chỉ dẫn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: hand out leaflets
+  meaning_vi: phát tờ rơi tận tay
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: advertising leaflet
+  meaning_vi: tờ rơi quảng cáo thương mại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: flyer
+  meaning_vi: tờ rơi
+- word: handout
+  meaning_vi: tài liệu phát tay
 confused_words:
 - word: leaf
   ipa: /liːf/
@@ -29,21 +51,6 @@ confused_words:
 confusing_meanings:
 - difference_vi: Informational leaflet = tờ rơi cung cấp thông tin y tế/chỉ dẫn; marketing leaflet = tờ rơi khuyến mãi giảm
     giá.
-collocations:
-- phrase: informational leaflet
-  meaning_vi: tờ rơi cung cấp thông tin chỉ dẫn
-  evidence: corpus
-- phrase: hand out leaflets
-  meaning_vi: phát tờ rơi tận tay
-  evidence: corpus
-- phrase: advertising leaflet
-  meaning_vi: tờ rơi quảng cáo thương mại
-  evidence: corpus
-synonyms:
-- word: flyer
-  meaning_vi: tờ rơi
-- word: handout
-  meaning_vi: tài liệu phát tay
 examples:
 - en: Volunteers stood at the station entrance handing out leaflets about the upcoming charity event.
   vi: Các tình nguyện viên đã đứng ở lối vào nhà ga để phát tờ rơi về sự kiện từ thiện sắp tới.
@@ -54,6 +61,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: vacancy
 lemma: vacancy
 pos:
@@ -6,59 +6,62 @@ pos:
 ipa:
   us: /ˈveɪkənsi/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- hiring
-- hotels
-- work
-speaking_use:
-- read-aloud
-- respond-with-info
-- respond-to-questions
+- personnel
+- travel
+- offices
 senses:
 - id: vacancy-1
   meaning_vi: Vị trí tuyển dụng còn trống / Phòng khách sạn còn trống
-  note_vi: Gặp rất nhiều trong thông báo tuyển dụng và bảng thông báo khách sạn (Part
-    1, Part 4).
+  note_vi: Gặp rất nhiều trong thông báo tuyển dụng và bảng thông báo khách sạn (Part 1, Part 4).
 collocations:
 - phrase: job vacancy
   meaning_vi: vị trí công việc còn trống
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: fill a vacancy
   meaning_vi: tuyển người lấp vào vị trí trống
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: no vacancies
   meaning_vi: biển báo hết chỗ / hết phòng trống
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: current vacancy
   meaning_vi: vị trí đang tuyển dụng hiện tại
-  evidence: corpus
-confused_words:
-- word: vacation
-  ipa: /veɪˈkeɪʃn/
-  meaning: kỳ nghỉ lễ, chuyến du lịch
-  kind: spelling-sound
-  difference_vi: Vacancy có đuôi /-kənsi/ chỉ chỗ trống/vị trí tuyển dụng; vacation
-    có đuôi /-keɪʃn/ chỉ kỳ nghỉ.
-confusing_meanings:
-- word: opening
-  meaning: cơ hội việc làm đang mở
-  difference_vi: Cả hai từ tương đồng, tuy nhiên vacancy trang trọng hơn và thường
-    dùng trong văn bản thông báo chính thức.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: opening
   meaning_vi: vị trí mở
 - word: available position
   meaning_vi: vị trí đang có sẵn
+confused_words:
+- word: vacation
+  ipa: /veɪˈkeɪʃn/
+  meaning: kỳ nghỉ lễ, chuyến du lịch
+  kind: spelling-sound
+  difference_vi: Vacancy có đuôi /-kənsi/ chỉ chỗ trống/vị trí tuyển dụng; vacation có đuôi /-keɪʃn/ chỉ kỳ nghỉ.
+confusing_meanings:
+- word: opening
+  meaning: cơ hội việc làm đang mở
+  difference_vi: Cả hai từ tương đồng, tuy nhiên vacancy trang trọng hơn và thường dùng trong văn bản thông báo chính thức.
 examples:
-- en: The marketing department announced an immediate job vacancy for an experienced
-    digital copywriter.
-  vi: Phòng tiếp thị đã thông báo một vị trí việc làm tuyển gấp cho một chuyên viên
-    viết nội dung số giàu kinh nghiệm.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈveɪ-/. Âm giữa là schwa /-kən-/,
-  kết thúc bằng /-si/ nhẹ nhàng.
+- en: The marketing department announced an immediate job vacancy for an experienced digital copywriter.
+  vi: Phòng tiếp thị đã thông báo một vị trí việc làm tuyển gấp cho một chuyên viên viết nội dung số giàu kinh nghiệm.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈveɪ-/. Âm giữa là schwa /-kən-/, kết thúc bằng /-si/ nhẹ nhàng.
 review:
   status: ai_cross_checked
   checked_by:

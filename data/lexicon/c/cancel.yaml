@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: cancel
 lemma: cancel
 pos:
@@ -6,17 +6,14 @@ pos:
 ipa:
   us: /ˈkænsl/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
 - travel
-- meetings
-- shopping
-speaking_use:
-- read-aloud
-- respond-with-info
-- respond-to-questions
+- offices
+- purchasing
 senses:
 - id: cancel-1
   meaning_vi: Hủy bỏ (cuộc hẹn, chuyến bay, đơn đặt hàng)
@@ -24,16 +21,33 @@ senses:
 collocations:
 - phrase: cancel a reservation
   meaning_vi: hủy chỗ đã đặt trước
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: cancel an order
   meaning_vi: hủy một đơn hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: cancel due to weather
   meaning_vi: hủy lịch do điều kiện thời tiết
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: free cancellation
   meaning_vi: hủy đặt chỗ miễn phí
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: call off
+  meaning_vi: bãi bỏ
+- word: abort
+  meaning_vi: hủy ngang
 confused_words:
 - word: conceal
   ipa: /kənˈsiːl/
@@ -43,20 +57,11 @@ confused_words:
 confusing_meanings:
 - word: postpone
   meaning: tạm hoãn dời ngày
-  difference_vi: Postpone là dời cuộc hẹn sang ngày khác; cancel là hủy bỏ hoàn toàn
-    sự kiện.
-synonyms:
-- word: call off
-  meaning_vi: bãi bỏ
-- word: abort
-  meaning_vi: hủy ngang
+  difference_vi: Postpone là dời cuộc hẹn sang ngày khác; cancel là hủy bỏ hoàn toàn sự kiện.
 examples:
-- en: The airline had to cancel all afternoon departures because of dense fog covering
-    the runway.
-  vi: Hãng hàng không đã phải hủy tất cả các chuyến bay khởi hành vào buổi chiều vì
-    sương mù dày đặc bao phủ đường băng.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈkæn-/. Âm đuôi /-sl/ đọc liền
-  mượt mà, không thêm 'ờ'.
+- en: The airline had to cancel all afternoon departures because of dense fog covering the runway.
+  vi: Hãng hàng không đã phải hủy tất cả các chuyến bay khởi hành vào buổi chiều vì sương mù dày đặc bao phủ đường băng.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈkæn-/. Âm đuôi /-sl/ đọc liền mượt mà, không thêm 'ờ'.
 review:
   status: ai_cross_checked
   checked_by:

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: salary
 lemma: salary
 pos:
@@ -9,17 +9,38 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- salary-benefits
-- human-resources
-speaking_use:
-- respond-to-questions
-- express-opinion
+- personnel
 senses:
 - id: salary-1
   meaning_vi: Tiền lương cố định (thường tính theo tháng hoặc theo năm)
   note_vi: Thường trả cho nhân viên văn phòng, quản lý hoặc chuyên gia hưởng lương tháng cố định.
+collocations:
+- phrase: competitive salary
+  meaning_vi: mức lương có tính cạnh tranh cao
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: salary increase
+  meaning_vi: sự tăng lương
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: base salary
+  meaning_vi: mức lương cơ bản (chưa gồm thưởng)
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: pay
+  meaning_vi: tiền lương, tiền công
+- word: remuneration
+  meaning_vi: thù lao, lương bổng
 confused_words:
 - word: wage
   ipa: /weɪdʒ/
@@ -29,21 +50,6 @@ confused_words:
   difference_vi: Celery là rau cần tây (bắt đầu bằng âm /s/ mềm và nguyên âm /e/), salary là tiền lương (nguyên âm /æ/).
 confusing_meanings:
 - difference_vi: Gross salary là lương gộp trước thuế; net salary là lương thực nhận về tay sau khi trừ thuế và bảo hiểm.
-collocations:
-- phrase: competitive salary
-  meaning_vi: mức lương có tính cạnh tranh cao
-  evidence: corpus
-- phrase: salary increase
-  meaning_vi: sự tăng lương
-  evidence: corpus
-- phrase: base salary
-  meaning_vi: mức lương cơ bản (chưa gồm thưởng)
-  evidence: corpus
-synonyms:
-- word: pay
-  meaning_vi: tiền lương, tiền công
-- word: remuneration
-  meaning_vi: thù lao, lương bổng
 examples:
 - en: We offer a competitive base salary along with comprehensive health insurance benefits.
   vi: Chúng tôi đưa ra mức lương cơ bản cạnh tranh cùng chế độ bảo hiểm y tế toàn diện.
@@ -54,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

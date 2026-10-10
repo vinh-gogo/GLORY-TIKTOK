@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: efficient
 lemma: efficient
 pos:
@@ -6,58 +6,63 @@ pos:
 ipa:
   us: /ɪˈfɪʃnt/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- work
-- management
-- technology
-speaking_use:
-- respond-to-questions
-- express-opinion
+- offices
+- technical-areas
 senses:
 - id: efficient-1
   meaning_vi: Hiệu quả, năng suất cao (tiết kiệm thời gian, tiền bạc và công sức)
-  note_vi: Thường dùng để khen ngợi hệ thống làm việc, phương pháp quản lý hoặc nhân
-    viên.
+  note_vi: Thường dùng để khen ngợi hệ thống làm việc, phương pháp quản lý hoặc nhân viên.
 collocations:
 - phrase: energy-efficient
   meaning_vi: tiết kiệm năng lượng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: efficient method
   meaning_vi: phương pháp làm việc hiệu quả
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: highly efficient
   meaning_vi: cực kỳ hiệu quả, năng suất cao
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: cost-efficient
   meaning_vi: tiết kiệm chi phí tối ưu
-  evidence: corpus
-confused_words:
-- word: sufficient
-  ipa: /səˈfɪʃnt/
-  meaning: đầy đủ, vừa đủ số lượng
-  kind: spelling-sound
-  difference_vi: Efficient là đạt hiệu suất làm việc cao; sufficient là đủ về mặt
-    số lượng hoặc điều kiện.
-confusing_meanings:
-- word: effective
-  meaning: đạt được kết quả như mong muốn
-  difference_vi: Effective nhấn mạnh việc đạt được mục tiêu; efficient nhấn mạnh việc
-    đạt kết quả đó với mức tiêu hao thời gian và chi phí ít nhất.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: productive
   meaning_vi: năng suất cao
 - word: streamlined
   meaning_vi: tinh gọn tối ưu
+confused_words:
+- word: sufficient
+  ipa: /səˈfɪʃnt/
+  meaning: đầy đủ, vừa đủ số lượng
+  kind: spelling-sound
+  difference_vi: Efficient là đạt hiệu suất làm việc cao; sufficient là đủ về mặt số lượng hoặc điều kiện.
+confusing_meanings:
+- word: effective
+  meaning: đạt được kết quả như mong muốn
+  difference_vi: Effective nhấn mạnh việc đạt được mục tiêu; efficient nhấn mạnh việc đạt kết quả đó với mức tiêu hao thời
+    gian và chi phí ít nhất.
 examples:
-- en: Implementing automated software makes inventory management significantly more
-    efficient.
-  vi: Việc áp dụng phần mềm tự động giúp việc quản lý hàng tồn kho trở nên hiệu quả
-    hơn đáng kể.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈfɪʃ-/. Chú ý âm /ʃ/ ('sh')
-  và kết thúc bằng cụm phụ âm /-nt/ dứt khoát.
+- en: Implementing automated software makes inventory management significantly more efficient.
+  vi: Việc áp dụng phần mềm tự động giúp việc quản lý hàng tồn kho trở nên hiệu quả hơn đáng kể.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈfɪʃ-/. Chú ý âm /ʃ/ ('sh') và kết thúc bằng cụm phụ âm /-nt/ dứt
+  khoát.
 review:
   status: ai_cross_checked
   checked_by:

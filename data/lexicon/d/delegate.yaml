@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: delegate
 lemma: delegate
 pos:
@@ -6,57 +6,60 @@ pos:
 ipa:
   us: /ˈdelɪɡeɪt/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- management
-- work
-speaking_use:
-- respond-to-questions
-- express-opinion
+- offices
 senses:
 - id: delegate-1
   meaning_vi: Phân công nhiệm vụ, ủy thác quyền hạn cho cấp dưới
-  note_vi: Kỹ năng quản lý lãnh đạo cốt lõi trong Part 5 (Express an opinion về phong
-    cách lãnh đạo).
+  note_vi: Kỹ năng quản lý lãnh đạo cốt lõi trong Part 5 (Express an opinion về phong cách lãnh đạo).
 collocations:
 - phrase: delegate tasks
   meaning_vi: phân công các đầu việc
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: delegate authority
   meaning_vi: ủy thác quyền hạn
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: effectively delegate
   meaning_vi: phân chia công việc hiệu quả
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: delegate responsibilities
   meaning_vi: giao phó trách nhiệm
-  evidence: corpus
-confused_words:
-- word: dedicate
-  ipa: /ˈdedɪkeɪt/
-  meaning: cống hiến, tận tâm
-  kind: spelling-sound
-  difference_vi: Delegate là giao quyền phân công; dedicate là cống hiến hết lòng
-    cho công việc.
-confusing_meanings:
-- word: assign
-  meaning: giao việc đơn thuần
-  difference_vi: Assign chỉ đơn thuần giao đầu việc; delegate là trao luôn quyền hạn
-    và quyền tự quyết cho cấp dưới.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: assign
   meaning_vi: phân công
 - word: entrust
   meaning_vi: giao phó
+confused_words:
+- word: dedicate
+  ipa: /ˈdedɪkeɪt/
+  meaning: cống hiến, tận tâm
+  kind: spelling-sound
+  difference_vi: Delegate là giao quyền phân công; dedicate là cống hiến hết lòng cho công việc.
+confusing_meanings:
+- word: assign
+  meaning: giao việc đơn thuần
+  difference_vi: Assign chỉ đơn thuần giao đầu việc; delegate là trao luôn quyền hạn và quyền tự quyết cho cấp dưới.
 examples:
-- en: A successful manager knows how to delegate responsibilities effectively to trusted
-    team members.
-  vi: Một nhà quản lý thành công luôn biết cách phân chia trách nhiệm hiệu quả cho
-    các thành viên đáng tin cậy trong nhóm.
-pronunciation_tips_vi: Khi là động từ, đuôi đọc là /-ɡeɪt/ có âm /eɪ/. Khi là danh
-  từ (đại biểu), đuôi đọc là /-ɡət/.
+- en: A successful manager knows how to delegate responsibilities effectively to trusted team members.
+  vi: Một nhà quản lý thành công luôn biết cách phân chia trách nhiệm hiệu quả cho các thành viên đáng tin cậy trong nhóm.
+pronunciation_tips_vi: Khi là động từ, đuôi đọc là /-ɡeɪt/ có âm /eɪ/. Khi là danh từ (đại biểu), đuôi đọc là /-ɡət/.
 review:
   status: ai_cross_checked
   checked_by:

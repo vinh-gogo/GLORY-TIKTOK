@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: banquet
 lemma: banquet
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- hospitality-travel
-- meetings-office
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- travel
+- offices
 senses:
 - id: banquet-1
   meaning_vi: Bữa tiệc lớn, yến tiệc chiêu đãi trang trọng (tiệc tất niên, trao giải, mừng công)
   note_vi: Thường tổ chức tại sảnh khách sạn lớn với nhiều quan khách và bài phát biểu.
-confused_words:
-- word: bank
-  ipa: /bæŋk/
-  difference_vi: Bank là ngân hàng; banquet là bữa yến tiệc trang trọng.
-confusing_meanings:
-- difference_vi: Banquet hall = phòng đại tiệc; awards banquet = tiệc trao giải tôn vinh.
 collocations:
 - phrase: annual awards banquet
   meaning_vi: tiệc trao giải thưởng thường niên
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: banquet hall
   meaning_vi: phòng khánh tiết / sảnh tiệc
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: attend a formal banquet
   meaning_vi: tham dự buổi tiệc chiêu đãi trang trọng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: feast
   meaning_vi: yến tiệc thịnh soạn
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: bữa tiệc tối trang trọng
 - word: reception
   meaning_vi: buổi tiệc đón tiếp
+confused_words:
+- word: bank
+  ipa: /bæŋk/
+  difference_vi: Bank là ngân hàng; banquet là bữa yến tiệc trang trọng.
+confusing_meanings:
+- difference_vi: Banquet hall = phòng đại tiệc; awards banquet = tiệc trao giải tôn vinh.
 examples:
 - en: The annual corporate banquet will be held in the grand ballroom on the third floor.
   vi: Tiệc thường niên của tập đoàn sẽ được tổ chức tại khán phòng đại tiệc ở tầng ba.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

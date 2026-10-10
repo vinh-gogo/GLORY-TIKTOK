@@ -1,66 +1,76 @@
-schema_version: 2
+schema_version: 3
 id: delay
 lemma: delay
 pos:
-  - noun
-  - verb
+- noun
+- verb
 ipa:
-  us: "/dɪˈleɪ/"
+  us: /dɪˈleɪ/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - travel
-  - transport
-  - logistics
-speaking_use:
-  - read-aloud
-  - respond-with-info
-  - respond-to-questions
+- travel
+- purchasing
 senses:
-  - id: delay-1
-    meaning_vi: "Sự chậm trễ, hoãn lại / Làm chậm trễ"
-    note_vi: "Thường xuyên xuất hiện trong Part 1 (thông báo chuyến bay trễ), Part 4 (lịch trình bị dời giờ)."
+- id: delay-1
+  meaning_vi: Sự chậm trễ, hoãn lại / Làm chậm trễ
+  note_vi: Thường xuyên xuất hiện trong Part 1 (thông báo chuyến bay trễ), Part 4 (lịch trình bị dời giờ).
 collocations:
-  - phrase: "flight delay"
-    meaning_vi: "chuyến bay bị trễ/hoãn chuyến"
-    evidence: "corpus"
-  - phrase: "without delay"
-    meaning_vi: "ngay lập tức, không chậm trễ"
-    evidence: "corpus"
-  - phrase: "experience delays"
-    meaning_vi: "gặp phải tình trạng chậm trễ"
-    evidence: "corpus"
-  - phrase: "traffic delay"
-    meaning_vi: "ùn tắc giao thông làm chậm hành trình"
-    evidence: "corpus"
-confused_words:
-  - word: "decay"
-    ipa: "/dɪˈkeɪ/"
-    meaning: "phân hủy, mục nát, sâu răng"
-    kind: "spelling-sound"
-    difference_vi: "Delay mang nghĩa chậm trễ giờ giấc; decay mang nghĩa vật chất bị phân hủy hoặc mục nát theo thời gian."
-confusing_meanings:
-  - word: "postpone"
-    meaning: "chủ động dời lịch sang ngày/giờ khác"
-    difference_vi: "Delay thường do nguyên nhân khách quan cản trở (thời tiết, kẹt xe làm trễ); postpone là hành động chủ động dời ngày diễn ra sự kiện."
+- phrase: flight delay
+  meaning_vi: chuyến bay bị trễ/hoãn chuyến
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: without delay
+  meaning_vi: ngay lập tức, không chậm trễ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: experience delays
+  meaning_vi: gặp phải tình trạng chậm trễ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: traffic delay
+  meaning_vi: ùn tắc giao thông làm chậm hành trình
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "defer"
-    meaning_vi: "trì hoãn"
-  - word: "set back"
-    meaning_vi: "làm lùi lại tiến độ"
+- word: defer
+  meaning_vi: trì hoãn
+- word: set back
+  meaning_vi: làm lùi lại tiến độ
+confused_words:
+- word: decay
+  ipa: /dɪˈkeɪ/
+  meaning: phân hủy, mục nát, sâu răng
+  kind: spelling-sound
+  difference_vi: Delay mang nghĩa chậm trễ giờ giấc; decay mang nghĩa vật chất bị phân hủy hoặc mục nát theo thời gian.
+confusing_meanings:
+- word: postpone
+  meaning: chủ động dời lịch sang ngày/giờ khác
+  difference_vi: Delay thường do nguyên nhân khách quan cản trở (thời tiết, kẹt xe làm trễ); postpone là hành động chủ động
+    dời ngày diễn ra sự kiện.
 examples:
-  - en: "Due to severe winter storms, several morning flights have experienced unexpected delays."
-    vi: "Do bão tuyết mùa đông dữ dội, một số chuyến bay buổi sáng đã bị chậm trễ ngoài dự kiến."
-pronunciation_tips_vi: "Trọng âm rơi vào âm tiết hai /-ˈleɪ/. Âm đầu /dɪ-/ đọc lướt ngắn, âm chính là nguyên âm đôi /eɪ/ kéo dài rõ ràng."
+- en: Due to severe winter storms, several morning flights have experienced unexpected delays.
+  vi: Do bão tuyết mùa đông dữ dội, một số chuyến bay buổi sáng đã bị chậm trễ ngoài dự kiến.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết hai /-ˈleɪ/. Âm đầu /dɪ-/ đọc lướt ngắn, âm chính là nguyên âm đôi /eɪ/ kéo
+  dài rõ ràng.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

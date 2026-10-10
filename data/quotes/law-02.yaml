@@ -1,0 +1,25 @@
+schema_version: 1
+id: law-02
+title_vi: Định luật về Trì hoãn & Lịch trình
+title_en: The Law of Postponement
+topic: offices
+band: target
+quote_en: A meeting postponed without a concrete next step is not a solution; it is simply falling behind schedule in disguise.
+quote_vi: Một cuộc họp bị dời lại mà không có bước đi cụ thể tiếp theo thì không phải giải pháp; đó chỉ là sự trễ nải tiến
+  độ được ngụy trang.
+highlights:
+- phrase: postpone
+  meaning_vi: hoãn lại, dời sang thời điểm khác
+  word: postpone
+- phrase: reschedule
+  meaning_vi: sắp xếp lại lịch hẹn mới
+  word: reschedule
+- phrase: fall behind schedule
+  meaning_vi: bị chậm tiến độ dự kiến
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: voucher
 lemma: voucher
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- sales-customer-service
-speaking_use:
-- respond-to-questions
-- respond-with-info
+- general-business
 senses:
 - id: voucher-1
   meaning_vi: Phiếu quà tặng, phiếu giảm giá hoặc chứng từ thanh toán dịch vụ
   note_vi: Văn bản hoặc mã số điện tử dùng để trừ tiền khi mua sắm.
+collocations:
+- phrase: discount voucher
+  meaning_vi: phiếu giảm giá
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: redeem a gift voucher
+  meaning_vi: đổi phiếu quà tặng để lấy hàng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: promotional voucher
+  meaning_vi: phiếu ưu đãi khuyến mãi
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: coupon
+  meaning_vi: phiếu mua hàng giảm giá
+- word: token
+  meaning_vi: phiếu thế chân, tích lũy
 confused_words:
 - word: coupon
   ipa: /ˈkuːpɑːn/
   difference_vi: Coupon thường là mẩu phiếu giảm giá ngắn hạn; voucher có thể là phiếu quà tặng mệnh giá tiền cố định.
 confusing_meanings:
 - difference_vi: Gift voucher = phiếu quà tặng; travel voucher = phiếu giảm giá vé máy bay/khách sạn bù đắp chậm trễ.
-collocations:
-- phrase: discount voucher
-  meaning_vi: phiếu giảm giá
-  evidence: corpus
-- phrase: redeem a gift voucher
-  meaning_vi: đổi phiếu quà tặng để lấy hàng
-  evidence: corpus
-- phrase: promotional voucher
-  meaning_vi: phiếu ưu đãi khuyến mãi
-  evidence: corpus
-synonyms:
-- word: coupon
-  meaning_vi: phiếu mua hàng giảm giá
-- word: token
-  meaning_vi: phiếu thế chân, tích lũy
 examples:
 - en: Passengers whose flights were delayed received a dinner voucher for the terminal restaurant.
   vi: Những hành khách có chuyến bay bị hoãn đã nhận được phiếu ăn tối tại nhà hàng trong nhà ga.
@@ -50,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

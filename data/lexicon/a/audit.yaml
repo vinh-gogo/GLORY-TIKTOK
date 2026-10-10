@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: audit
 lemma: audit
 pos:
@@ -10,33 +10,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- finance-accounting
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- finance-budgeting
+- general-business
 senses:
 - id: audit-1
   meaning_vi: Sự kiểm toán, cuộc kiểm tra sổ sách kế toán chính thức; (v) kiểm toán
   note_vi: Thẩm tra độ chính xác và tính minh bạch của các báo cáo tài chính.
-confused_words:
-- word: audio
-  ipa: /ˈɔːdioʊ/
-  difference_vi: Audio là âm thanh; audit là kiểm toán tài chính sổ sách.
-confusing_meanings:
-- difference_vi: Financial audit là kiểm toán tài chính; quality audit là kiểm tra quy trình chất lượng ISO.
 collocations:
 - phrase: conduct an internal audit
   meaning_vi: tiến hành kiểm toán nội bộ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: annual financial audit
   meaning_vi: cuộc kiểm toán tài chính thường niên
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: audit the company books
   meaning_vi: kiểm toán sổ sách công ty
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: inspect
   meaning_vi: thanh tra
@@ -44,6 +45,12 @@ synonyms:
   meaning_vi: kiểm tra kỹ lưỡng
 - word: review
   meaning_vi: rà soát lại
+confused_words:
+- word: audio
+  ipa: /ˈɔːdioʊ/
+  difference_vi: Audio là âm thanh; audit là kiểm toán tài chính sổ sách.
+confusing_meanings:
+- difference_vi: Financial audit là kiểm toán tài chính; quality audit là kiểm tra quy trình chất lượng ISO.
 examples:
 - en: An independent auditing firm was hired to verify the accuracy of the financial statements.
   vi: Một công ty kiểm toán độc lập đã được thuê để xác thực độ chính xác của các báo cáo tài chính.
@@ -54,6 +61,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

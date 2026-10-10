@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QuoteV1",
+  "description": "Câu nói hay (data/quotes/). Câu gốc tự viết là mặc định; danh ngôn của người thật phải có author + nguồn kiểm chứng.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "title_vi", "title_en", "topic", "band", "quote_en", "quote_vi", "origin", "review"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "title_vi": { "type": "string" },
+    "title_en": { "type": "string" },
+    "topic": { "type": "string" },
+    "band": { "enum": ["foundation", "core", "target", "advanced"] },
+    "quote_en": { "type": "string", "minLength": 1 },
+    "quote_vi": { "type": "string", "minLength": 1 },
+    "highlights": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["phrase", "meaning_vi"],
+        "properties": {
+          "phrase": { "type": "string" },
+          "meaning_vi": { "type": "string" },
+          "word": { "type": "string", "description": "id mục từ trong lexicon; bỏ trống nếu chưa có mục từ" }
+        }
+      }
+    },
+    "origin": { "enum": ["original", "attributed"] },
+    "author": { "type": "string" },
+    "source": { "type": "string" },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["ai_draft", "ai_cross_checked", "human_verified", "needs_review"] },
+        "checked_by": { "type": "array", "items": { "type": "string" } },
+        "checked_at": { "type": "string" },
+        "reason": { "type": "string" }
+      }
+    }
+  }
+}

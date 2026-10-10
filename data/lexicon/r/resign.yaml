@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: resign
 lemma: resign
 pos:
@@ -9,32 +9,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- human-resources
-speaking_use:
-- respond-to-questions
-- express-opinion
+- personnel
 senses:
 - id: resign-1
   meaning_vi: Từ chức, nộp đơn xin nghỉ việc chủ động
   note_vi: Quyết định nghỉ việc xuất phát từ nguyện vọng cá nhân của người lao động.
-confused_words:
-- word: re-sign
-  ipa: /ˌriːˈsaɪn/
-  difference_vi: Re-sign (có gạch nối) là ký lại hợp đồng mới; resign (liền nhau) là từ chức, xin nghỉ việc.
-confusing_meanings:
-- difference_vi: Resign from a post = từ bỏ chức vụ; resign oneself to = cam chịu một số phận không mong muốn.
 collocations:
 - phrase: resign from a position
   meaning_vi: từ chức khỏi một vị trí
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: tender one's resignation
   meaning_vi: đệ đơn xin từ chức
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: resign with immediate effect
   meaning_vi: từ chức có hiệu lực ngay lập tức
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: quit
   meaning_vi: bỏ việc
@@ -42,6 +43,12 @@ synonyms:
   meaning_vi: từ chức, rút lui
 - word: leave
   meaning_vi: rời bỏ vị trí
+confused_words:
+- word: re-sign
+  ipa: /ˌriːˈsaɪn/
+  difference_vi: Re-sign (có gạch nối) là ký lại hợp đồng mới; resign (liền nhau) là từ chức, xin nghỉ việc.
+confusing_meanings:
+- difference_vi: Resign from a post = từ bỏ chức vụ; resign oneself to = cam chịu một số phận không mong muốn.
 examples:
 - en: The vice president tendered his resignation to pursue opportunities in another industry.
   vi: Phó chủ tịch đã đệ đơn từ chức để theo đuổi cơ hội trong một ngành nghề khác.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

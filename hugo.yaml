@@ -4,17 +4,22 @@ defaultContentLanguage: vi
 title: "Glory 01 – Blog"
 theme: PaperMod
 
+outputFormats:
+  SearchIndex:
+    mediaType: application/json
+    baseName: search-index
+    isPlainText: true
+    notAlternative: true
+
 outputs:
-  home: [HTML, RSS, JSON]
+  home: [HTML, SearchIndex]
 
 taxonomies:
-  tag: tags
   topic: topics
-  part: parts
-  series: series
+  level: levels
 
 params:
-  description: "Kho từ vựng & Speaking Lab chuẩn thi TOEIC Speaking: Central Lexicon, loại từ, IPA, collocations song ngữ, bấm giờ phòng thi"
+  description: "Từ điển từ vựng TOEIC cho người học trên điện thoại: nghĩa tiếng Việt, IPA, collocations, từ đồng nghĩa và câu nói hay, phân theo cấp độ."
   author: "Glory 01"
   label:
     text: "Glory 01 – Blog"
@@ -22,61 +27,35 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: false
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
   comments: false
-
-  profileMode:
-    enabled: true
-    title: "Glory 01"
-    subtitle: "Nền tảng tự học TOEIC Speaking: Từ vựng có kiểm chứng • Đồng hồ thi ETS • Flashcard & Phản xạ"
-    imageUrl: "/images/avatar.svg"
-    imageTitle: "Glory 01"
-    imageWidth: 120
-    imageHeight: 120
-    buttons:
-      - name: "📚 Bộ bài học"
-        url: "/sets/"
-      - name: "📖 Từ điển A–Z"
-        url: "/glossary/"
-      - name: "🏷️ Theo chủ đề"
-        url: "/topics/"
-      - name: "💡 Câu nói hay"
-        url: "/quotes/"
-      - name: "🎬 TikTok @wbk.lqv"
-        url: "https://www.tiktok.com/@wbk.lqv"
-
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 2
-    keys: ["title", "permalink", "summary", "content"]
+  tiktokProfile: "https://www.tiktok.com/@wbk.lqv"
+  issueURL: "https://github.com/vinh-gogo/GLORY-TIKTOK/issues/new?template=content-error.yml"
+  footer:
+    text: "[Giới thiệu](/about/) · [Nguồn & phương pháp](/methodology/) · [Bộ từ theo video](/sets/) · [TikTok @wbk.lqv](https://www.tiktok.com/@wbk.lqv)"
 
 menu:
   main:
-    - name: "Bộ bài học"
-      url: "/sets/"
-      weight: 1
-    - name: "Từ điển A–Z"
+    - name: "Từ vựng"
       url: "/glossary/"
+      weight: 1
+      params: { icon: "📖" }
+    - name: "Collocations"
+      url: "/collocations/"
       weight: 2
-    - name: "Chủ đề"
-      url: "/topics/"
+      params: { icon: "🔗" }
+    - name: "Đồng nghĩa"
+      url: "/synonyms/"
       weight: 3
-    - name: "Câu nói hay"
+      params: { icon: "🔄" }
+    - name: "Câu hay"
       url: "/quotes/"
       weight: 4
-    - name: "Hướng dẫn"
-      url: "/guides/"
-      weight: 5
-    - name: "Tìm kiếm"
+      params: { icon: "💡" }
+    - name: "Tìm"
       url: "/search/"
-      weight: 6
-    - name: "Giới thiệu"
-      url: "/about/"
-      weight: 7
+      weight: 5
+      params: { icon: "🔍" }

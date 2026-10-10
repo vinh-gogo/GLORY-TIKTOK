@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: fine
 lemma: fine
 pos:
@@ -11,12 +11,10 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- legal-compliance
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- general-business
 senses:
 - id: fine-1
   meaning_vi: Khoản tiền phạt do cơ quan chức năng hoặc tòa án áp đặt; (v) phạt tiền
@@ -24,27 +22,36 @@ senses:
 - id: fine-2
   meaning_vi: Tốt đẹp, chất lượng cao hoặc sắc mảnh tinh tế (adjective)
   note_vi: Như trong fine dining (ẩm thực cao cấp), fine print (dòng chữ nhỏ trong hợp đồng).
+collocations:
+- phrase: pay a heavy fine
+  meaning_vi: nộp một khoản tiền phạt nặng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: impose a fine
+  meaning_vi: áp đặt mức phạt tiền
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: read the fine print
+  meaning_vi: đọc kỹ các điều khoản chữ nhỏ trong hợp đồng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: penalty
+  meaning_vi: hình phạt tiền
+- word: financial sanction
+  meaning_vi: chế tài tài chính
 confused_words:
 - word: fee
   ipa: /fiː/
   difference_vi: Fee là lệ phí dịch vụ thông thường; fine là tiền phạt do làm sai luật.
 confusing_meanings:
 - difference_vi: Pay a heavy fine = nộp khoản tiền phạt nặng; fine dining = dịch vụ nhà hàng sang trọng.
-collocations:
-- phrase: pay a heavy fine
-  meaning_vi: nộp một khoản tiền phạt nặng
-  evidence: corpus
-- phrase: impose a fine
-  meaning_vi: áp đặt mức phạt tiền
-  evidence: corpus
-- phrase: read the fine print
-  meaning_vi: đọc kỹ các điều khoản chữ nhỏ trong hợp đồng
-  evidence: corpus
-synonyms:
-- word: penalty
-  meaning_vi: hình phạt tiền
-- word: financial sanction
-  meaning_vi: chế tài tài chính
 examples:
 - en: The chemical plant was fined $50,000 for improper disposal of industrial wastewater.
   vi: Nhà máy hóa chất đã bị phạt 50.000 đô la do xả nước thải công nghiệp không đúng quy định.
@@ -55,6 +62,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

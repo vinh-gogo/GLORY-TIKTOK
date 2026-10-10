@@ -1,0 +1,110 @@
+# Bộ chủ đề chuẩn (PLAN_NEN_MONG Mục 5.5).
+# ets_context=true: bám theo nhóm bối cảnh của bài thi TOEIC Listening & Reading.
+# TRẠNG THÁI: danh sách nhóm bối cảnh chưa được đối chiếu với văn bản gốc của ETS (xem ADR-005/T0.4).
+schema_version: 1
+
+topics:
+  general-business:
+    name_vi: "Kinh doanh chung"
+    description_vi: "Hợp đồng, đàm phán, bán hàng, chăm sóc khách hàng, marketing, hội nghị."
+    ets_context: true
+  offices:
+    name_vi: "Văn phòng"
+    description_vi: "Công việc hằng ngày, họp hành, email, thiết bị văn phòng, quản lý."
+    ets_context: true
+  personnel:
+    name_vi: "Nhân sự"
+    description_vi: "Tuyển dụng, lương thưởng, phúc lợi, đào tạo, thăng chức, nghỉ hưu."
+    ets_context: true
+  finance-budgeting:
+    name_vi: "Tài chính & ngân sách"
+    description_vi: "Ngân hàng, kế toán, hóa đơn, chi phí, doanh thu, lợi nhuận."
+    ets_context: true
+  manufacturing:
+    name_vi: "Sản xuất & chất lượng"
+    description_vi: "Dây chuyền sản xuất, kiểm tra chất lượng, lỗi sản phẩm."
+    ets_context: true
+  purchasing:
+    name_vi: "Mua hàng & vận chuyển"
+    description_vi: "Đặt hàng, mua sắm, giao hàng, kho bãi, hàng tồn."
+    ets_context: true
+  travel:
+    name_vi: "Du lịch & lưu trú"
+    description_vi: "Đi công tác, khách sạn, vé, hành trình, phương tiện đi lại."
+    ets_context: true
+  housing-property:
+    name_vi: "Nhà ở & bất động sản"
+    description_vi: "Thuê nhà, mặt bằng, xây dựng, cải tạo."
+    ets_context: true
+  technical-areas:
+    name_vi: "Công nghệ & kỹ thuật"
+    description_vi: "Phần mềm, thiết bị, bảo trì kỹ thuật."
+    ets_context: true
+  dining-out:
+    name_vi: "Ăn uống"
+    description_vi: "Nhà hàng, đặt bàn, thực đơn."
+    ets_context: true
+  entertainment:
+    name_vi: "Giải trí & truyền thông"
+    description_vi: "Phim, âm nhạc, bảo tàng, truyền thông."
+    ets_context: true
+  health:
+    name_vi: "Sức khỏe"
+    description_vi: "Khám bệnh, bảo hiểm y tế, quy trình y tế."
+    ets_context: true
+  corporate-development:
+    name_vi: "Phát triển doanh nghiệp"
+    description_vi: "Nghiên cứu, phát triển sản phẩm, chiến lược."
+    ets_context: true
+  daily-life:
+    name_vi: "Đời sống hằng ngày"
+    description_vi: "Từ thông dụng ngoài bối cảnh công sở (chủ đề bổ sung của Glory 01, không thuộc danh sách ETS)."
+    ets_context: false
+
+# Ánh xạ slug cũ -> slug chuẩn (null = bỏ chủ đề này khỏi từ vựng).
+# Dùng bởi scripts/migrate/v2_to_v3.py và scripts/build/gen_redirects.py
+legacy_map:
+  business: general-business
+  contracts: general-business
+  contracts-negotiation: general-business
+  legal: general-business
+  legal-compliance: general-business
+  sales: general-business
+  sales-customer-service: general-business
+  customer-service: general-business
+  marketing: general-business
+  marketing-advertising: general-business
+  events: general-business            # CẦN DUYỆT: gộp tạm theo "hội nghị" của General Business
+  work: offices
+  meetings: offices
+  meetings-office: offices
+  email: offices
+  equipment: offices
+  management: offices
+  management-operations: offices
+  hiring: personnel
+  human-resources: personnel
+  salary-benefits: personnel
+  benefits: personnel
+  training: personnel
+  education: personnel                # CẦN DUYỆT
+  finance-accounting: finance-budgeting
+  budget: finance-budgeting
+  banking: finance-budgeting
+  manufacturing: manufacturing
+  production-quality-control: manufacturing
+  shipping-logistics: purchasing
+  logistics: purchasing
+  shopping: purchasing
+  storage: purchasing
+  hospitality-travel: travel
+  travel: travel
+  hotels: travel
+  transport: travel
+  real-estate-construction: housing-property
+  technology: technical-areas
+  media: entertainment                # CẦN DUYỆT
+  health: health
+  daily-life: daily-life
+  describe-picture: null              # là dạng bài Speaking, không phải chủ đề
+  exam-skills: null                   # kỹ năng làm bài Speaking, không phải chủ đề từ vựng

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: memorandum
 lemma: memorandum
 pos:
@@ -9,34 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- meetings-office
-- contracts-negotiation
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- offices
+- general-business
 senses:
 - id: memorandum-1
   meaning_vi: Bản ghi nhớ nội bộ công ty (thường viết tắt là memo); văn bản thỏa thuận sơ bộ
   note_vi: Văn bản trao đổi công vụ nội bộ nhằm thông báo chính sách mới hoặc chỉ thị quan trọng.
-confused_words:
-- word: memorial
-  ipa: /məˈmɔːriəl/
-  difference_vi: Memorial là đài tưởng niệm; memorandum là bản thông báo ghi nhớ nội bộ.
-confusing_meanings:
-- difference_vi: Internal memo = thông báo lưu hành nội bộ; memorandum of understanding (MOU) = biên bản ghi nhớ hợp tác chiến
-    lược giữa hai đơn vị.
 collocations:
 - phrase: internal memorandum
   meaning_vi: bản ghi nhớ lưu hành nội bộ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: memorandum of understanding
   meaning_vi: biên bản ghi nhớ hợp tác (MOU)
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: issue a memorandum
   meaning_vi: ban hành một bản ghi nhớ chỉ thị
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: memo
   meaning_vi: thông báo vắn tắt nội bộ
@@ -44,6 +44,13 @@ synonyms:
   meaning_vi: thông tri
 - word: circular
   meaning_vi: công văn gửi thông báo
+confused_words:
+- word: memorial
+  ipa: /məˈmɔːriəl/
+  difference_vi: Memorial là đài tưởng niệm; memorandum là bản thông báo ghi nhớ nội bộ.
+confusing_meanings:
+- difference_vi: Internal memo = thông báo lưu hành nội bộ; memorandum of understanding (MOU) = biên bản ghi nhớ hợp tác chiến
+    lược giữa hai đơn vị.
 examples:
 - en: Management sent an internal memorandum reminding all staff to wear visitor badges at all times.
   vi: Ban quản lý đã gửi một bản ghi nhớ nội bộ nhắc nhở toàn thể nhân viên phải đeo thẻ khách mọi lúc.
@@ -54,6 +61,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

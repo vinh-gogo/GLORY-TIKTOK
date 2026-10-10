@@ -1,42 +1,35 @@
-schema_version: 2
-id: "{{ replace .File.ContentBaseName "-" " " | urlize }}"
+schema_version: 3
+id: "{{ replace .File.ContentBaseName " " "-" | urlize }}"
 lemma: "{{ replace .File.ContentBaseName "-" " " }}"
 pos:
   - noun
 ipa:
-  us: "/.../"
+  us: "/.../"        # CHƯA điền → giữ status needs_review
 level:
   cefr: B1
-  band: core
-  basis: "editorial"
+  band: core         # foundation | core | target | advanced (data/levels.yaml)
+  basis:
+    - editorial      # mã nguồn trong data/sources.yaml
 topics:
-  - work
-speaking_use:
-  - respond-to-questions
+  - offices          # 1–3 slug trong data/topics.yaml
 senses:
-  - id: "{{ replace .File.ContentBaseName "-" " " | urlize }}-1"
+  - id: "{{ replace .File.ContentBaseName " " "-" | urlize }}-1"
     meaning_vi: "Định nghĩa tiếng Việt"
     note_vi: "Lưu ý ngữ cảnh"
-confused_words:
-  - ref: ""
-    kind: spelling-sound
-    difference_vi: "Điểm khác biệt để tránh nhầm lẫn"
-confusing_meanings:
-  - ref: ""
-    difference_vi: "Phân biệt sắc thái nghĩa"
 collocations:
   - phrase: ""
     meaning_vi: "Nghĩa tiếng Việt"
-    evidence: "corpus"
+    evidence:
+      source: unverified   # nguồn trong data/sources.yaml; không điền nguồn khi chưa kiểm tra
+      checked_at: "YYYY-MM-DD"
 synonyms:
   - word: ""
     meaning_vi: "Nghĩa tiếng Việt"
 examples:
-  - en: "Sample sentence in speaking context."
+  - en: "Câu ví dụ tự viết, không chép từ điển/đề thi."
     vi: "Dịch nghĩa tiếng Việt câu ví dụ."
 pronunciation_tips_vi: "Mẹo phát âm cho người Việt"
 review:
-  status: ai_cross_checked
-  checked_by:
-    - cmudict
-  checked_at: "2026-10-10"
+  status: needs_review
+  reason: "Mục mới tạo từ archetype, chưa đối chiếu."
+  checked_at: "YYYY-MM-DD"

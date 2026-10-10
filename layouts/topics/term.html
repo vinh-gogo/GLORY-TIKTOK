@@ -1,0 +1,15 @@
+{{- define "main" }}
+{{- $slug := .Data.Term -}}
+{{- $t := index hugo.Data.topics.topics $slug -}}
+<header class="page-head">
+  <p class="crumb"><a href="/glossary/">← Từ vựng A–Z</a></p>
+  <h1>{{ with $t }}{{ .name_vi }}{{ else }}{{ .Title }}{{ end }}</h1>
+  {{- with $t }}<p class="muted">{{ .description_vi }}</p>{{ end }}
+</header>
+<div class="wlist">
+  {{- range .Pages.ByTitle }}
+    {{- if in (slice "ai_cross_checked" "human_verified") .Params.review_status }}{{ partial "wcard.html" .Params.word_data }}{{ end }}
+  {{- end }}
+</div>
+<p><a href="/collocations/{{ $slug }}/">Xem collocations chủ đề này →</a></p>
+{{- end }}

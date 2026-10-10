@@ -1,0 +1,83 @@
+/* 30-components — thẻ từ, danh sách, collocation, ví dụ, trang chủ. */
+.wlist { display: grid; gap: .6rem; grid-template-columns: 1fr; margin: .75rem 0; }
+.wcard, .setcard, .topiccard {
+  display: flex; flex-direction: column; gap: .2rem; padding: .8rem 1rem; min-height: var(--tap);
+  border: 1px solid var(--border); border-radius: var(--r); background: var(--entry);
+  color: var(--primary); text-decoration: none;
+}
+a.wcard:hover, a.setcard:hover, a.topiccard:hover { border-color: var(--accent); }
+.wcard-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .2rem .6rem; }
+.wcard-lemma { font-size: 1.15rem; }
+.wcard-ipa, .word-ipa, .word-ipa-inline { font-family: var(--font-ipa); color: var(--secondary); }
+.wcard-meta { display: flex; align-items: center; gap: .6rem; font-size: .85rem; color: var(--secondary); }
+.wcard-pos { font-style: italic; }
+.wcard-mean { line-height: 1.45; }
+.wcard-missing { opacity: .7; }
+.cardgrid { display: grid; gap: .6rem; grid-template-columns: 1fr; }
+
+/* Home */
+.home-hero { padding: .5rem 0 1rem; }
+.home-title { font-size: 1.7rem; line-height: 1.2; margin: .25rem 0 .5rem; }
+.home-sub { margin: 0 0 1rem; color: var(--secondary); }
+.home-search { display: flex; gap: .5rem; }
+.home-search input, .gl-input {
+  flex: 1; min-width: 0; min-height: var(--tap); padding: 0 1rem; font: inherit; font-size: 1rem; /* ≥16px: iOS không tự zoom */
+  border: 1px solid var(--tertiary); border-radius: 999px; background: var(--entry); color: var(--primary);
+}
+.pillars { display: grid; gap: .6rem; grid-template-columns: 1fr 1fr; margin: 1rem 0; }
+.pillar { display: flex; flex-direction: column; gap: .15rem; padding: .9rem; border-radius: var(--r); border: 1px solid var(--border); background: var(--entry); color: var(--primary); text-decoration: none; }
+.pillar-ico { font-size: 1.5rem; }
+.pillar-sub { font-size: .85rem; color: var(--secondary); }
+.home-block { margin: 1.5rem 0; }
+.home-block h2 { font-size: 1.2rem; margin: 0 0 .5rem; }
+
+/* Glossary */
+.gl-tools { display: grid; gap: .5rem; margin-bottom: .5rem; }
+.gl-filter { border: 1px solid var(--border); border-radius: var(--r); padding: 0 1rem; background: var(--entry); }
+.gl-filter-body { padding-bottom: .75rem; }
+.gl-label { margin: .5rem 0 0; font-size: .85rem; color: var(--secondary); font-weight: 600; }
+.letters { display: flex; flex-wrap: wrap; gap: .35rem; margin: .5rem 0; }
+.letters a { display: inline-flex; align-items: center; justify-content: center; min-width: 36px; min-height: 36px; border-radius: 8px; border: 1px solid var(--border); text-decoration: none; font-weight: 700; }
+
+/* Word page */
+.word-lemma { font-size: 2rem; line-height: 1.15; margin: .25rem 0; }
+.word-ipa { display: flex; flex-wrap: wrap; gap: .3rem 1rem; margin: 0 0 .25rem; font-size: 1.1rem; }
+.wsec { margin: 1.5rem 0; }
+.wsec h2 { font-size: 1.1rem; margin: 0 0 .5rem; }
+.sense { margin: .4rem 0; }
+.sense-mean { font-size: 1.1rem; font-weight: 600; margin: 0; }
+.colloc, .syn { list-style: none; margin: 0; padding: 0; }
+.colloc li { display: flex; flex-direction: column; padding: .55rem 0; border-bottom: 1px solid var(--border); }
+.colloc-en { font-weight: 600; }
+.colloc-vi { color: var(--secondary); }
+.syn li { padding: .35rem 0; }
+.example { margin: .5rem 0; padding: .6rem 1rem; border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 0 var(--r) var(--r) 0; }
+.example p { margin: 0; }
+.ex-vi { color: var(--secondary); font-size: .95rem; margin-top: .2rem; }
+.confuse { padding: .5rem 0; border-top: 1px solid var(--border); }
+.confuse p { margin: .15rem 0; }
+.colgroup-head { font-size: 1.05rem; }
+.colgroup-head a { text-decoration: none; }
+.synrow { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; padding: .35rem 0; }
+.word-nav { display: flex; justify-content: space-between; gap: .75rem; margin: 2rem 0 1rem; }
+.word-nav .btn { flex: 0 1 48%; justify-content: center; overflow: hidden; text-overflow: ellipsis; }
+.word-actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+
+/* Quotes */
+.qlist { display: grid; gap: .8rem; margin-top: .75rem; }
+.qcard { padding: 1rem; border: 1px solid var(--border); border-radius: var(--r); background: var(--entry); }
+.qcard-title { font-size: 1rem; margin: 0 0 .4rem; }
+.qcard-quote { margin: .5rem 0; padding: 0; border: 0; }
+.qcard-quote p { margin: .2rem 0; }
+.q-en { font-size: 1.1rem; font-weight: 600; }
+.q-vi { color: var(--secondary); }
+.qcard-actions { margin: .5rem 0 0; }
+
+@media (min-width: 768px) {
+  .wlist, .cardgrid { grid-template-columns: 1fr 1fr; }
+  .pillars { grid-template-columns: repeat(4, 1fr); }
+  .home-title { font-size: 2.2rem; }
+  .colloc li { flex-direction: row; justify-content: space-between; gap: 1rem; }
+  .colloc-vi { text-align: right; }
+  .word-lemma { font-size: 2.4rem; }
+}

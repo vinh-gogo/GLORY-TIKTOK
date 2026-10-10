@@ -1,0 +1,56 @@
+{{- define "main" }}
+{{- $lv := hugo.Data.levels -}}
+<article class="prose">
+  <header class="page-head">
+    <h1>{{ .Title }}</h1>
+    <p class="muted">{{ .Params.summary }}</p>
+  </header>
+
+  <h2>Trạng thái duyệt nội dung</h2>
+  <ul>
+    <li><strong>ai_draft</strong>: bản nháp, chưa đối chiếu — không hiện trong danh sách từ vựng.</li>
+    <li><strong>ai_cross_checked</strong>: đã được đối chiếu chéo; hiện trong danh sách.</li>
+    <li><strong>human_verified</strong>: biên tập viên đã kiểm tra.</li>
+    <li><strong>needs_review</strong>: có điểm chưa chắc chắn; trang vẫn truy cập được kèm cảnh báo.</li>
+  </ul>
+  <p>Chúng tôi không đoán khi chưa chắc: IPA, nghĩa hoặc collocation còn nghi ngờ sẽ được đánh dấu cần duyệt kèm lý do.</p>
+
+  <h2>Cấp độ từ vựng</h2>
+  <p>{{ $lv.framework.disclaimer_vi }}</p>
+  <table class="tbl">
+    <thead><tr><th>Cấp độ</th><th>CEFR</th><th>Ý nghĩa</th></tr></thead>
+    <tbody>
+      {{- range $k := $lv.band_order }}{{ $b := index $lv.bands $k }}
+      <tr><td><a href="/levels/{{ $k }}/">{{ $b.label_vi }}</a></td><td>{{ $b.cefr }}</td><td>{{ $b.summary_vi }}</td></tr>
+      {{- end }}
+    </tbody>
+  </table>
+  {{- if not $lv.framework.verified_primary }}
+  <p class="notice" role="note">Bảng quy chiếu điểm–CEFR hiện mới được đối chiếu qua nguồn thứ cấp, chưa đối chiếu văn bản gốc của ETS. Khi có mâu thuẫn, nguồn chính thức của ETS được ưu tiên.</p>
+  {{- end }}
+  <table class="tbl">
+    <thead><tr><th>CEFR</th><th>Tổng điểm L&amp;R (tham khảo)</th></tr></thead>
+    <tbody>
+      {{- range $c, $r := $lv.cefr_reference }}
+      <tr><td>{{ $c }}</td><td>{{ index $r.total 0 }}–{{ index $r.total 1 }}</td></tr>
+      {{- end }}
+    </tbody>
+  </table>
+
+  <h2>Nguồn đối chiếu</h2>
+  <p>Chỉ các nguồn có thể đối chiếu độc lập được liệt kê dưới đây; chúng tôi chỉ đối chiếu, không sao chép câu chữ từ điển hay đề thi.</p>
+  <ul>
+    {{- range $k, $s := hugo.Data.sources.sources }}
+      {{- if $s.independent }}
+    <li>{{ if $s.url }}<a href="{{ $s.url }}" rel="noopener noreferrer" target="_blank">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}</li>
+      {{- end }}
+    {{- end }}
+  </ul>
+
+  <h2>Về ETS và TOEIC</h2>
+  <p>Website này là sản phẩm độc lập, không liên kết với ETS. “TOEIC” là nhãn hiệu của ETS. Ví dụ và nội dung trên trang do Glory 01 tự biên soạn theo phong cách bài thi, không sao chép đề thi.</p>
+
+  <h2>Báo lỗi</h2>
+  <p>Thấy sai IPA, nghĩa hoặc collocation? <a href="{{ site.Params.issueURL }}" target="_blank" rel="noopener noreferrer">Báo lỗi trên GitHub</a>. Trang từ vựng có sẵn nút “Báo lỗi” đã điền sẵn mã từ.</p>
+</article>
+{{- end }}

@@ -1,0 +1,22 @@
+schema_version: 1
+id: law-06
+title_vi: Định luật Tinh thần Chủ động
+title_en: The Initiative Maxim
+topic: offices
+band: core
+quote_en: Those who wait for explicit instructions will always follow; those who take the initiative will define the agenda
+  and lead the outcome.
+quote_vi: Những ai chỉ thụ động chờ chỉ thị sẽ mãi là người theo sau; người dám chủ động hành động mới là người làm chủ nghị
+  trình và dẫn dắt kết quả.
+highlights:
+- phrase: take the initiative
+  meaning_vi: chủ động hành động, tiên phong đảm nhận
+- phrase: define the agenda
+  meaning_vi: định hình chương trình nghị sự
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

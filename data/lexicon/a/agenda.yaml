@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: agenda
 lemma: agenda
 pos:
@@ -6,17 +6,37 @@ pos:
 ipa:
   us: /əˈdʒendə/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- work
-speaking_use:
-- respond-to-questions
+- offices
 senses:
 - id: agenda-1
-  meaning_vi: Chương trình nghị sự, danh sách các đề mục cần thảo luận trong cuộc
-    họp
+  meaning_vi: Chương trình nghị sự, danh sách các đề mục cần thảo luận trong cuộc họp
+collocations:
+- phrase: on the agenda
+  meaning_vi: Có tên trong nội dung cuộc họp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: set the agenda
+  meaning_vi: Thiết lập các nội dung cần bàn thảo
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: stick to the agenda
+  meaning_vi: Bám sát theo các mục đã định sẵn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: meeting plan
+  meaning_vi: kế hoạch cuộc họp
 confused_words:
 - ref: agency
   word: agency
@@ -28,25 +48,10 @@ confusing_meanings:
 - ref: schedule
   word: schedule
   meaning: Lịch trình thời gian chi tiết (theo giờ, phút)
-  difference_vi: Agenda là danh sách các chủ đề thảo luận; schedule là mốc thời gian
-    cụ thể
-collocations:
-- phrase: on the agenda
-  meaning_vi: Có tên trong nội dung cuộc họp
-  evidence: corpus
-- phrase: set the agenda
-  meaning_vi: Thiết lập các nội dung cần bàn thảo
-  evidence: corpus
-- phrase: stick to the agenda
-  meaning_vi: Bám sát theo các mục đã định sẵn
-  evidence: corpus
-synonyms:
-- word: meeting plan
-  meaning_vi: kế hoạch cuộc họp
+  difference_vi: Agenda là danh sách các chủ đề thảo luận; schedule là mốc thời gian cụ thể
 examples:
 - en: The first item on our agenda today is reviewing quarterly sales performance.
-  vi: Nội dung đầu tiên trong chương trình nghị sự hôm nay là đánh giá kết quả doanh
-    số theo quý.
+  vi: Nội dung đầu tiên trong chương trình nghị sự hôm nay là đánh giá kết quả doanh số theo quý.
 review:
   status: ai_cross_checked
   checked_by:

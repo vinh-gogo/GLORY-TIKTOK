@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: utility
 lemma: utility
 pos:
@@ -9,16 +9,38 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- real-estate-construction
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- housing-property
 senses:
 - id: utility-1
   meaning_vi: Dịch vụ tiện ích thiết yếu (điện, nước, khí đốt, internet sinh hoạt); (n) tính hữu dụng
   note_vi: Thường ở dạng số nhiều (utilities) khi nhắc tới các hóa đơn sinh hoạt hàng tháng.
+collocations:
+- phrase: utility bills
+  meaning_vi: hóa đơn tiền điện, nước sinh hoạt
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: public utility
+  meaning_vi: dịch vụ tiện ích công ích công cộng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: utilities included
+  meaning_vi: đã bao gồm các chi phí điện nước trong giá thuê
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: public services
+  meaning_vi: dịch vụ công ích
+- word: amenities
+  meaning_vi: tiện ích sinh hoạt
 confused_words:
 - word: utilize
   ipa: /ˈjuːtəlaɪz/
@@ -26,21 +48,6 @@ confused_words:
 confusing_meanings:
 - difference_vi: Utility bills = hóa đơn tiền điện nước; public utility = doanh nghiệp tiện ích công cộng (nhà máy nước/điện
     lực).
-collocations:
-- phrase: utility bills
-  meaning_vi: hóa đơn tiền điện, nước sinh hoạt
-  evidence: corpus
-- phrase: public utility
-  meaning_vi: dịch vụ tiện ích công ích công cộng
-  evidence: corpus
-- phrase: utilities included
-  meaning_vi: đã bao gồm các chi phí điện nước trong giá thuê
-  evidence: corpus
-synonyms:
-- word: public services
-  meaning_vi: dịch vụ công ích
-- word: amenities
-  meaning_vi: tiện ích sinh hoạt
 examples:
 - en: The monthly rental fee is $1,200, with water and high-speed internet utilities included.
   vi: Mức giá thuê hàng tháng là 1.200 đô la, đã bao gồm các tiện ích nước sinh hoạt và internet tốc độ cao.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

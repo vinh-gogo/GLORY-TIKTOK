@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: contract
 lemma: contract
 pos:
@@ -6,58 +6,62 @@ pos:
 ipa:
   us: /ˈkɑːntrækt/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- contracts
-- business
-- sales
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: contract-1
   meaning_vi: Hợp đồng kinh tế có tính ràng buộc pháp lý
-  note_vi: Xuất hiện khắp các bài thi TOEIC liên quan đến đàm phán, ký kết và gia
-    hạn hợp đồng.
+  note_vi: Xuất hiện khắp các bài thi TOEIC liên quan đến đàm phán, ký kết và gia hạn hợp đồng.
 collocations:
 - phrase: sign a contract
   meaning_vi: ký kết hợp đồng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: breach of contract
   meaning_vi: sự vi phạm hợp đồng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: renew a contract
   meaning_vi: gia hạn hợp đồng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: legally binding contract
   meaning_vi: hợp đồng có tính ràng buộc pháp lý
-  evidence: corpus
-confused_words:
-- word: contact
-  ipa: /ˈkɑːntækt/
-  meaning: liên lạc, mối liên hệ
-  kind: spelling-sound
-  difference_vi: Contract có phụ âm 'r' (/ˈkɑːntrækt/) nghĩa là hợp đồng; contact
-    không có 'r' (/ˈkɑːntækt/) nghĩa là liên hệ.
-confusing_meanings:
-- word: agreement
-  meaning: sự thống nhất/thỏa thuận nói chung
-  difference_vi: Contract là văn bản pháp lý chính thức có điều khoản bắt buộc thi
-    hành; agreement là sự đồng thuận rộng hơn.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: agreement
   meaning_vi: bản thỏa thuận
 - word: deal
   meaning_vi: thỏa thuận thương vụ
+confused_words:
+- word: contact
+  ipa: /ˈkɑːntækt/
+  meaning: liên lạc, mối liên hệ
+  kind: spelling-sound
+  difference_vi: Contract có phụ âm 'r' (/ˈkɑːntrækt/) nghĩa là hợp đồng; contact không có 'r' (/ˈkɑːntækt/) nghĩa là liên
+    hệ.
+confusing_meanings:
+- word: agreement
+  meaning: sự thống nhất/thỏa thuận nói chung
+  difference_vi: Contract là văn bản pháp lý chính thức có điều khoản bắt buộc thi hành; agreement là sự đồng thuận rộng hơn.
 examples:
-- en: Both parties carefully reviewed all clauses before signing the three-year service
-    contract.
-  vi: Cả hai bên đã xem xét cẩn thận tất cả các điều khoản trước khi ký hợp đồng dịch
-    vụ ba năm.
-pronunciation_tips_vi: Khi là danh từ, trọng âm rơi vào âm tiết đầu /ˈkɑːn-/. Chú
-  ý cụm phụ âm /tr/ ở âm tiết hai /-trækt/, bật rõ âm /kt/ cuối.
+- en: Both parties carefully reviewed all clauses before signing the three-year service contract.
+  vi: Cả hai bên đã xem xét cẩn thận tất cả các điều khoản trước khi ký hợp đồng dịch vụ ba năm.
+pronunciation_tips_vi: Khi là danh từ, trọng âm rơi vào âm tiết đầu /ˈkɑːn-/. Chú ý cụm phụ âm /tr/ ở âm tiết hai /-trækt/,
+  bật rõ âm /kt/ cuối.
 review:
   status: ai_cross_checked
   checked_by:

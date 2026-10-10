@@ -1,0 +1,21 @@
+schema_version: 1
+id: law-11
+title_vi: Nguyên tắc Thích ứng & Đổi mới
+title_en: The Adaptation Rule
+topic: offices
+band: core
+quote_en: In an evolving marketplace, rigid organizations crumble. Those who adapt to changes and broaden their horizons thrive.
+quote_vi: Trong một thị trường luôn biến động, sự cứng nhắc sẽ tự sụp đổ. Những ai biết linh hoạt thích ứng và không ngừng
+  mở rộng tầm nhìn mới là kẻ trường tồn.
+highlights:
+- phrase: adapt to changes
+  meaning_vi: thích ứng linh hoạt trước sự thay đổi
+- phrase: broaden horizons
+  meaning_vi: mở rộng tầm hiểu biết và kinh nghiệm
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

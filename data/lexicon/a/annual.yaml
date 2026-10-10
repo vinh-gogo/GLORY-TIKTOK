@@ -1,63 +1,73 @@
-schema_version: 2
+schema_version: 3
 id: annual
 lemma: annual
 pos:
-  - adjective
+- adjective
 ipa:
-  us: "/ˈænjuəl/"
+  us: /ˈænjuəl/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - business
-  - budget
-  - events
-speaking_use:
-  - read-aloud
-  - respond-with-info
-  - respond-to-questions
+- general-business
+- finance-budgeting
 senses:
-  - id: annual-1
-    meaning_vi: "Hàng năm, định kỳ mỗi năm một lần"
-    note_vi: "Rất hay gặp trong Part 1 (thông báo cuộc họp thường niên) và Part 4 (lịch trình sự kiện annual conference)."
+- id: annual-1
+  meaning_vi: Hàng năm, định kỳ mỗi năm một lần
+  note_vi: Rất hay gặp trong Part 1 (thông báo cuộc họp thường niên) và Part 4 (lịch trình sự kiện annual conference).
 collocations:
-  - phrase: "annual report"
-    meaning_vi: "báo cáo tài chính thường niên"
-    evidence: "corpus"
-  - phrase: "annual conference"
-    meaning_vi: "hội nghị thường niên"
-    evidence: "corpus"
-  - phrase: "annual revenue"
-    meaning_vi: "doanh thu hàng năm"
-    evidence: "corpus"
-  - phrase: "annual leave"
-    meaning_vi: "nghỉ phép có lương hàng năm"
-    evidence: "corpus"
-confused_words:
-  - word: "annul"
-    ipa: "/əˈnʌl/"
-    meaning: "bãi bỏ, hủy bỏ hiệu lực pháp lý"
-    kind: "spelling-sound"
-    difference_vi: "Annual là tính từ chỉ chu kỳ hàng năm; annul là động từ mang nghĩa bãi bỏ hiệu lực hợp đồng."
-confusing_meanings:
-  - word: "perennial"
-    meaning: "vĩnh viễn, kéo dài qua nhiều năm"
-    difference_vi: "Annual là sự kiện lặp lại đều đặn mỗi năm một lần; perennial là trạng thái hoặc vấn đề tồn tại liên tục nhiều năm."
+- phrase: annual report
+  meaning_vi: báo cáo tài chính thường niên
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: annual conference
+  meaning_vi: hội nghị thường niên
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: annual revenue
+  meaning_vi: doanh thu hàng năm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: annual leave
+  meaning_vi: nghỉ phép có lương hàng năm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "yearly"
-    meaning_vi: "hàng năm"
+- word: yearly
+  meaning_vi: hàng năm
+confused_words:
+- word: annul
+  ipa: /əˈnʌl/
+  meaning: bãi bỏ, hủy bỏ hiệu lực pháp lý
+  kind: spelling-sound
+  difference_vi: Annual là tính từ chỉ chu kỳ hàng năm; annul là động từ mang nghĩa bãi bỏ hiệu lực hợp đồng.
+confusing_meanings:
+- word: perennial
+  meaning: vĩnh viễn, kéo dài qua nhiều năm
+  difference_vi: Annual là sự kiện lặp lại đều đặn mỗi năm một lần; perennial là trạng thái hoặc vấn đề tồn tại liên tục nhiều
+    năm.
 examples:
-  - en: "All department managers are required to attend the annual budget meeting next Monday."
-    vi: "Tất cả các trưởng phòng đều được yêu cầu tham dự cuộc họp ngân sách thường niên vào thứ Hai tới."
-pronunciation_tips_vi: "Trọng âm rơi vào âm tiết đầu /ˈæn/. Âm /j/ nối mượt giữa 'u' và 'al' tạo thành /juəl/, không đọc tách rời thành 'an-nu-an'."
+- en: All department managers are required to attend the annual budget meeting next Monday.
+  vi: Tất cả các trưởng phòng đều được yêu cầu tham dự cuộc họp ngân sách thường niên vào thứ Hai tới.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈæn/. Âm /j/ nối mượt giữa 'u' và 'al' tạo thành /juəl/, không đọc tách
+  rời thành 'an-nu-an'.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

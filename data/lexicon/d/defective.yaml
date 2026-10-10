@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: defective
 lemma: defective
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- production-quality-control
-- sales-customer-service
-speaking_use:
-- respond-to-questions
-- express-opinion
+- manufacturing
+- general-business
 senses:
 - id: defective-1
   meaning_vi: Bị lỗi kỹ thuật, hỏng hóc, có khiếm khuyết không sử dụng được
   note_vi: Tính từ miêu tả sản phẩm không đạt tiêu chuẩn xuất xưởng hoặc bị khách trả về.
-confused_words:
-- word: defect
-  ipa: /ˈdiːfekt/
-  difference_vi: Defect là danh từ (lỗi, khuyết tật); defective là tính từ (bị lỗi kỹ thuật).
-confusing_meanings:
-- difference_vi: Defective product = sản phẩm bị lỗi lắp ráp; defective reasoning = lập luận suy diễn sai lầm.
 collocations:
 - phrase: defective merchandise
   meaning_vi: hàng hóa bị lỗi
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: defective parts
   meaning_vi: các bộ phận linh kiện bị hư hỏng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: return defective items
   meaning_vi: trả lại các món hàng lỗi
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: faulty
   meaning_vi: có lỗi
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: bị khiếm khuyết
 - word: malfunctioning
   meaning_vi: bị hỏng chức năng
+confused_words:
+- word: defect
+  ipa: /ˈdiːfekt/
+  difference_vi: Defect là danh từ (lỗi, khuyết tật); defective là tính từ (bị lỗi kỹ thuật).
+confusing_meanings:
+- difference_vi: Defective product = sản phẩm bị lỗi lắp ráp; defective reasoning = lập luận suy diễn sai lầm.
 examples:
 - en: Any defective units discovered during final inspection were immediately set aside for repairs.
   vi: Bất kỳ sản phẩm lỗi nào được phát hiện trong khâu kiểm định cuối cùng đều được cách ly ngay để sửa chữa.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

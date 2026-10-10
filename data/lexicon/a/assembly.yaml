@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: assembly
 lemma: assembly
 pos:
@@ -9,13 +9,10 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- production-quality-control
-- describe-picture
-speaking_use:
-- describe-picture
-- respond-with-info
+- manufacturing
 senses:
 - id: assembly-1
   meaning_vi: Sự lắp ráp linh kiện thành phẩm; dây chuyền sản xuất lắp ráp
@@ -23,27 +20,36 @@ senses:
 - id: assembly-2
   meaning_vi: Đại hội đồng, cuộc họp toàn thể của một tổ chức
   note_vi: Như trong General Assembly (Đại hội đồng Liên hợp quốc).
+collocations:
+- phrase: assembly line
+  meaning_vi: dây chuyền lắp ráp nhà máy
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: assembly instructions
+  meaning_vi: hướng dẫn lắp ráp đồ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: automated assembly
+  meaning_vi: hệ thống lắp ráp tự động hóa
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: construction
+  meaning_vi: sự dựng thành hình
+- word: manufacturing line
+  meaning_vi: dây chuyền chế tạo
 confused_words:
 - word: assemble
   ipa: /əˈsembl/
   difference_vi: Assemble là động từ lắp ráp hoặc tập hợp; assembly là danh từ sự lắp ráp hoặc dây chuyền.
 confusing_meanings:
 - difference_vi: Assembly line là dây chuyền lắp ráp công nghiệp; assembly instructions là tờ hướng dẫn lắp ghép đồ nội thất.
-collocations:
-- phrase: assembly line
-  meaning_vi: dây chuyền lắp ráp nhà máy
-  evidence: corpus
-- phrase: assembly instructions
-  meaning_vi: hướng dẫn lắp ráp đồ
-  evidence: corpus
-- phrase: automated assembly
-  meaning_vi: hệ thống lắp ráp tự động hóa
-  evidence: corpus
-synonyms:
-- word: construction
-  meaning_vi: sự dựng thành hình
-- word: manufacturing line
-  meaning_vi: dây chuyền chế tạo
 examples:
 - en: Workers on the automotive assembly line wear protective goggles and noise-canceling headsets.
   vi: Công nhân trên dây chuyền lắp ráp ô tô đeo kính bảo hộ và tai nghe chống ồn.
@@ -54,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

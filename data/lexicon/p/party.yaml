@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: party
 lemma: party
 pos:
@@ -9,17 +9,38 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- contracts-negotiation
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: party-1
   meaning_vi: Bên tham gia vào hợp đồng, thỏa thuận hoặc tranh chấp pháp lý
   note_vi: Trong ngữ cảnh thương mại và pháp lý, party luôn có nghĩa là đối tác/bên ký kết, không phải bữa tiệc.
+collocations:
+- phrase: third party
+  meaning_vi: bên thứ ba
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: contracting parties
+  meaning_vi: các bên ký kết hợp đồng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: interested party
+  meaning_vi: bên có quyền lợi liên quan
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: signatory
+  meaning_vi: bên ký tên
+- word: participant
+  meaning_vi: người / bên tham gia
 confused_words:
 - word: partner
   ipa: /ˈpɑːrtnər/
@@ -27,21 +48,6 @@ confused_words:
 confusing_meanings:
 - difference_vi: Party thông thường là bữa tiệc hoặc đảng phái chính trị; trong TOEIC Speaking thương mại luôn chỉ bên tham
     gia hợp đồng.
-collocations:
-- phrase: third party
-  meaning_vi: bên thứ ba
-  evidence: corpus
-- phrase: contracting parties
-  meaning_vi: các bên ký kết hợp đồng
-  evidence: corpus
-- phrase: interested party
-  meaning_vi: bên có quyền lợi liên quan
-  evidence: corpus
-synonyms:
-- word: signatory
-  meaning_vi: bên ký tên
-- word: participant
-  meaning_vi: người / bên tham gia
 examples:
 - en: Confidential details cannot be disclosed to any third party without written consent.
   vi: Các chi tiết mật không được tiết lộ cho bất kỳ bên thứ ba nào nếu không có văn bản đồng ý.
@@ -53,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

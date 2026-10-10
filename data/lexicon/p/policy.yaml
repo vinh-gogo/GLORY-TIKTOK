@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: policy
 lemma: policy
 pos:
@@ -9,13 +9,11 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- legal-compliance
-- management-operations
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
+- offices
 senses:
 - id: policy-1
   meaning_vi: Chính sách, chủ trương nguyên tắc của công ty hoặc chính phủ
@@ -23,22 +21,25 @@ senses:
 - id: policy-2
   meaning_vi: Hợp đồng bảo hiểm (insurance policy)
   note_vi: Chứng thư cam kết bồi thường bảo hiểm.
-confused_words:
-- word: police
-  ipa: /pəˈliːs/
-  difference_vi: Police là cảnh sát (nhấn âm 2); policy là chính sách hoặc hợp đồng bảo hiểm (nhấn âm 1).
-confusing_meanings:
-- difference_vi: Company policy = chính sách công ty; insurance policy = hợp đồng bảo hiểm rủi ro.
 collocations:
 - phrase: company policy
   meaning_vi: chính sách nội bộ của công ty
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: return policy
   meaning_vi: chính sách đổi trả hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: insurance policy
   meaning_vi: hợp đồng bảo hiểm
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: strategy
   meaning_vi: chiến lược
@@ -46,6 +47,12 @@ synonyms:
   meaning_vi: chỉ dẫn đường lối
 - word: protocol
   meaning_vi: nghi thức, quy trình
+confused_words:
+- word: police
+  ipa: /pəˈliːs/
+  difference_vi: Police là cảnh sát (nhấn âm 2); policy là chính sách hoặc hợp đồng bảo hiểm (nhấn âm 1).
+confusing_meanings:
+- difference_vi: Company policy = chính sách công ty; insurance policy = hợp đồng bảo hiểm rủi ro.
 examples:
 - en: In accordance with company policy, all receipts must be reviewed before reimbursement is issued.
   vi: Theo đúng chính sách của công ty, tất cả hóa đơn phải được xét duyệt trước khi xuất tiền bồi hoàn.
@@ -56,6 +63,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

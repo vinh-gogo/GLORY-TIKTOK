@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: premises
 lemma: premises
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- real-estate-construction
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- housing-property
+- general-business
 senses:
 - id: premises-1
   meaning_vi: Khuôn viên, cơ sở mặt bằng kinh doanh (bao gồm đất đai và toàn bộ tòa nhà)
   note_vi: Luôn có dạng số nhiều -es khi chỉ mặt bằng cơ sở doanh nghiệp.
-confused_words:
-- word: premise
-  ipa: /ˈpremɪs/
-  difference_vi: Premise (số ít) là tiền đề logic trong triết học; premises (có -es) là khuôn viên cơ sở nhà xưởng.
-confusing_meanings:
-- difference_vi: On the premises = ngay tại khuôn viên cơ sở; business premises = mặt bằng kinh doanh.
 collocations:
 - phrase: on the premises
   meaning_vi: ngay trong khuôn viên cơ sở
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: business premises
   meaning_vi: mặt bằng cơ sở kinh doanh
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: vacate the premises
   meaning_vi: dọn đi, bàn giao lại mặt bằng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: property
   meaning_vi: khu bất động sản
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: địa điểm, cơ sở
 - word: facility
   meaning_vi: cơ sở vật chất
+confused_words:
+- word: premise
+  ipa: /ˈpremɪs/
+  difference_vi: Premise (số ít) là tiền đề logic trong triết học; premises (có -es) là khuôn viên cơ sở nhà xưởng.
+confusing_meanings:
+- difference_vi: On the premises = ngay tại khuôn viên cơ sở; business premises = mặt bằng kinh doanh.
 examples:
 - en: Smoking is strictly prohibited anywhere on the hospital premises.
   vi: Hút thuốc bị nghiêm cấm hoàn toàn tại bất kỳ đâu trong khuôn viên bệnh viện.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: transaction
 lemma: transaction
 pos:
@@ -9,38 +9,45 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- sales-customer-service
-- finance-accounting
-speaking_use:
-- respond-to-questions
-- respond-with-info
+- general-business
+- finance-budgeting
 senses:
 - id: transaction-1
   meaning_vi: Giao dịch thương mại, việc mua bán hoặc chuyển tiền
   note_vi: Hành vi trao đổi thanh toán giữa người mua và người bán.
+collocations:
+- phrase: complete a transaction
+  meaning_vi: hoàn tất giao dịch
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: secure online transaction
+  meaning_vi: giao dịch trực tuyến bảo mật
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: business transaction
+  meaning_vi: giao dịch thương mại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: deal
+  meaning_vi: thương vụ
+- word: trade
+  meaning_vi: hoạt động trao đổi mua bán
 confused_words:
 - word: transition
   ipa: /trænˈzɪʃn/
   difference_vi: Transition là sự chuyển tiếp giai đoạn; transaction là giao dịch tiền tệ/thương mại.
 confusing_meanings:
 - difference_vi: Bank transaction là giao dịch ngân hàng; real estate transaction là mua bán bất động sản.
-collocations:
-- phrase: complete a transaction
-  meaning_vi: hoàn tất giao dịch
-  evidence: corpus
-- phrase: secure online transaction
-  meaning_vi: giao dịch trực tuyến bảo mật
-  evidence: corpus
-- phrase: business transaction
-  meaning_vi: giao dịch thương mại
-  evidence: corpus
-synonyms:
-- word: deal
-  meaning_vi: thương vụ
-- word: trade
-  meaning_vi: hoạt động trao đổi mua bán
 examples:
 - en: You will receive an automated confirmation email once the transaction is completed.
   vi: Bạn sẽ nhận được email xác nhận tự động sau khi giao dịch được hoàn tất.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

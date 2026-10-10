@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: lucrative
 lemma: lucrative
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: advanced
   cefr: C1
-  basis: TOEIC 750+
+  basis:
+  - editorial
 topics:
-- finance-accounting
-- contracts-negotiation
-speaking_use:
-- express-opinion
-- respond-with-info
+- finance-budgeting
+- general-business
 senses:
 - id: lucrative-1
   meaning_vi: Sinh lời lớn, mang lại nhiều lợi nhuận tài chính béo bở
   note_vi: Miêu tả các cơ hội kinh doanh, thỏa thuận thương mại hoặc thị trường hấp dẫn.
-confused_words:
-- word: creative
-  ipa: /kriˈeɪtɪv/
-  difference_vi: Creative là sáng tạo; lucrative là sinh lời nhiều tiền bạc.
-confusing_meanings:
-- difference_vi: Lucrative nhấn mạnh vào khả năng kiếm được món tiền lớn nhanh chóng.
 collocations:
 - phrase: lucrative contract
   meaning_vi: hợp đồng béo bở, sinh lợi lớn
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: lucrative business opportunity
   meaning_vi: cơ hội kinh doanh sinh lời cao
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: highly lucrative market
   meaning_vi: thị trường cực kỳ tiềm năng về lợi nhuận
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: profitable
   meaning_vi: có lãi, sinh lời
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: có thu nhập tốt
 - word: rewarding
   meaning_vi: xứng đáng, đem lại nhiều lợi ích
+confused_words:
+- word: creative
+  ipa: /kriˈeɪtɪv/
+  difference_vi: Creative là sáng tạo; lucrative là sinh lời nhiều tiền bạc.
+confusing_meanings:
+- difference_vi: Lucrative nhấn mạnh vào khả năng kiếm được món tiền lớn nhanh chóng.
 examples:
 - en: Securing that overseas distribution deal proved to be extremely lucrative for the company.
   vi: Giành được thỏa thuận phân phối ở nước ngoài đó đã được chứng minh là cực kỳ sinh lợi cho công ty.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

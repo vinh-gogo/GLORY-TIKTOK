@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: concierge
 lemma: concierge
 pos:
@@ -9,16 +9,38 @@ ipa:
 level:
   band: advanced
   cefr: C1
-  basis: TOEIC 750+
+  basis:
+  - editorial
 topics:
-- hospitality-travel
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- travel
 senses:
 - id: concierge-1
   meaning_vi: Nhân viên hỗ trợ thông tin đặc biệt tại khách sạn cao cấp (hỗ trợ đặt vé, gợi ý tour)
   note_vi: Bộ phận chăm sóc cá nhân hóa giúp khách lưu trú đặt bàn ăn ngon, mua vé xem kịch hoặc gọi xe.
+collocations:
+- phrase: concierge desk
+  meaning_vi: quầy hỗ trợ thông tin đặc biệt của khách sạn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: ask the concierge
+  meaning_vi: hỏi nhân viên hỗ trợ du lịch
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: concierge services
+  meaning_vi: dịch vụ hỗ trợ chăm sóc khách lưu trú
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: guest services assistant
+  meaning_vi: nhân viên dịch vụ khách hàng
+- word: doorkeeper
+  meaning_vi: người gác cổng hỗ trợ
 confused_words:
 - word: receptionist
   ipa: /rɪˈsepʃənɪst/
@@ -26,21 +48,6 @@ confused_words:
     lịch bên ngoài.
 confusing_meanings:
 - difference_vi: Concierge desk = quầy dịch vụ chăm sóc khách đặc biệt; concierge service = dịch vụ hỗ trợ cao cấp.
-collocations:
-- phrase: concierge desk
-  meaning_vi: quầy hỗ trợ thông tin đặc biệt của khách sạn
-  evidence: corpus
-- phrase: ask the concierge
-  meaning_vi: hỏi nhân viên hỗ trợ du lịch
-  evidence: corpus
-- phrase: concierge services
-  meaning_vi: dịch vụ hỗ trợ chăm sóc khách lưu trú
-  evidence: corpus
-synonyms:
-- word: guest services assistant
-  meaning_vi: nhân viên dịch vụ khách hàng
-- word: doorkeeper
-  meaning_vi: người gác cổng hỗ trợ
 examples:
 - en: The hotel concierge helped us secure last-minute tickets to the sold-out opera performance.
   vi: Nhân viên hỗ trợ khách sạn đã giúp chúng tôi mua được vé giờ chót cho buổi biểu diễn nhạc kịch đã cháy vé.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

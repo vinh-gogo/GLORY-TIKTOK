@@ -1,0 +1,15 @@
+{{- define "main" }}
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  <p class="muted">{{ .Params.summary }}</p>
+</header>
+<div class="cardgrid">
+  {{- range .Pages.ByDate.Reverse }}
+  <a class="setcard" href="{{ .RelPermalink }}">
+    <strong>{{ .Title }}</strong>
+    {{- with .Params.summary }}<span class="muted">{{ . }}</span>{{ end }}
+    <span class="muted">{{ len .Params.words }} từ</span>
+  </a>
+  {{- end }}
+</div>
+{{- end }}

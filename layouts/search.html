@@ -1,0 +1,14 @@
+{{- /* Trang tìm kiếm: ô nhập + kết quả do assets/js/search.js đảm nhiệm (ADR-007). Không dùng Fuse của theme. */ -}}
+{{- define "main" }}
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  <p class="muted">Gõ có dấu hoặc không dấu đều được (ví dụ “hop dong” → hợp đồng).</p>
+</header>
+<form id="search-form" class="home-search" action="/search/" method="get" role="search">
+  <input id="search-q" type="search" name="q" placeholder="{{ .Params.placeholder }}" aria-label="Tìm kiếm" autocomplete="off" enterkeyhint="search" autofocus>
+  <button type="submit" class="btn btn-primary">Tìm</button>
+</form>
+<p id="search-status" class="muted" role="status" aria-live="polite"></p>
+<div id="search-results" class="wlist"></div>
+<noscript><p class="notice">Cần bật JavaScript để tìm kiếm. Bạn vẫn có thể duyệt <a href="/glossary/">Từ vựng A–Z</a>.</p></noscript>
+{{- end }}

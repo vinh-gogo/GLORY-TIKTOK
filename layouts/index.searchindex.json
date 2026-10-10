@@ -1,0 +1,11 @@
+{{- /* /search-index.json — chỉ mục tìm kiếm rút gọn (ADR-007). Khóa ngắn để giảm dung lượng.
+       i=id l=lemma p=IPA s=loại từ b=band t=chủ đề m=nghĩa c=collocations y=từ đồng nghĩa */ -}}
+{{- $out := slice }}
+{{- range partial "words-visible.html" . }}
+  {{- $c := slice }}
+  {{- range .collocations }}{{ $c = $c | append .phrase }}{{ end }}
+  {{- $y := slice }}
+  {{- range .synonyms }}{{ $y = $y | append .word }}{{ end }}
+  {{- $out = $out | append (dict "i" .id "l" .lemma "p" .ipa.us "s" (delimit .pos ", ") "b" .level.band "t" .topics "m" (index .senses 0).meaning_vi "c" $c "y" $y) }}
+{{- end }}
+{{- $out | jsonify }}

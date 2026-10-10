@@ -1,65 +1,76 @@
-schema_version: 2
+schema_version: 3
 id: confirm
 lemma: confirm
 pos:
-  - verb
+- verb
 ipa:
-  us: "/kənˈfɜːrm/"
+  us: /kənˈfɜːrm/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - meetings
-  - hotels
-  - travel
-speaking_use:
-  - read-aloud
-  - respond-with-info
-  - respond-to-questions
+- offices
+- travel
 senses:
-  - id: confirm-1
-    meaning_vi: "Xác nhận (cuộc hẹn, đặt chỗ, thông tin)"
-    note_vi: "Dùng để chốt lại thời gian, địa điểm cuộc hẹn hay trạng thái phòng/vé máy bay."
+- id: confirm-1
+  meaning_vi: Xác nhận (cuộc hẹn, đặt chỗ, thông tin)
+  note_vi: Dùng để chốt lại thời gian, địa điểm cuộc hẹn hay trạng thái phòng/vé máy bay.
 collocations:
-  - phrase: "confirm a reservation"
-    meaning_vi: "xác nhận việc đặt chỗ/đặt phòng"
-    evidence: "corpus"
-  - phrase: "confirm attendance"
-    meaning_vi: "xác nhận tham dự sự kiện"
-    evidence: "corpus"
-  - phrase: "confirm an appointment"
-    meaning_vi: "xác nhận cuộc hẹn gặp"
-    evidence: "corpus"
-  - phrase: "written confirmation"
-    meaning_vi: "văn bản/giấy xác nhận"
-    evidence: "corpus"
-confused_words:
-  - word: "conform"
-    ipa: "/kənˈfɔːrm/"
-    meaning: "tuân thủ, phù hợp với quy tắc"
-    kind: "spelling-sound"
-    difference_vi: "Confirm (nguyên âm /ɜːr/) là xác nhận thông tin; conform (nguyên âm /ɔːr/) là tuân theo quy chuẩn xã hội/kỹ thuật."
-confusing_meanings:
-  - word: "verify"
-    meaning: "kiểm tra, chứng minh tính xác thực"
-    difference_vi: "Confirm là tái khẳng định thỏa thuận đã có (confirm reservation); verify là kiểm tra chứng từ/giấy tờ để xem có thật hay không."
+- phrase: confirm a reservation
+  meaning_vi: xác nhận việc đặt chỗ/đặt phòng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: confirm attendance
+  meaning_vi: xác nhận tham dự sự kiện
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: confirm an appointment
+  meaning_vi: xác nhận cuộc hẹn gặp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: written confirmation
+  meaning_vi: văn bản/giấy xác nhận
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "verify"
-    meaning_vi: "kiểm chứng"
-  - word: "validate"
-    meaning_vi: "xác thực"
+- word: verify
+  meaning_vi: kiểm chứng
+- word: validate
+  meaning_vi: xác thực
+confused_words:
+- word: conform
+  ipa: /kənˈfɔːrm/
+  meaning: tuân thủ, phù hợp với quy tắc
+  kind: spelling-sound
+  difference_vi: Confirm (nguyên âm /ɜːr/) là xác nhận thông tin; conform (nguyên âm /ɔːr/) là tuân theo quy chuẩn xã hội/kỹ
+    thuật.
+confusing_meanings:
+- word: verify
+  meaning: kiểm tra, chứng minh tính xác thực
+  difference_vi: Confirm là tái khẳng định thỏa thuận đã có (confirm reservation); verify là kiểm tra chứng từ/giấy tờ để
+    xem có thật hay không.
 examples:
-  - en: "Please call the hotel reception by five o'clock to confirm your room reservation."
-    vi: "Vui lòng gọi cho quầy lễ tân khách sạn trước năm giờ để xác nhận việc đặt phòng của bạn."
-pronunciation_tips_vi: "Trọng âm rơi vào âm tiết thứ hai /-fɜːrm/. Chú ý âm /ɜːr/ cong lưỡi chuẩn giọng Mỹ, âm /m/ ngậm môi cuối từ."
+- en: Please call the hotel reception by five o'clock to confirm your room reservation.
+  vi: Vui lòng gọi cho quầy lễ tân khách sạn trước năm giờ để xác nhận việc đặt phòng của bạn.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-fɜːrm/. Chú ý âm /ɜːr/ cong lưỡi chuẩn giọng Mỹ, âm /m/ ngậm môi
+  cuối từ.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

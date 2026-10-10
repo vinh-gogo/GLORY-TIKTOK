@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: establish
 lemma: establish
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- contracts-negotiation
-- management-operations
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
+- offices
 senses:
 - id: establish-1
   meaning_vi: Thiết lập, thành lập (công ty, mối quan hệ, quy trình chuẩn)
   note_vi: Dùng khi bắt đầu tạo lập một tổ chức hoặc hệ thống vận hành có tính bền vững.
-confused_words:
-- word: found
-  ipa: /faʊnd/
-  difference_vi: Found nghĩa là sáng lập tổ chức ban đầu; establish bao hàm cả việc tạo dựng chỗ đứng và vận hành quy chuẩn.
-confusing_meanings:
-- difference_vi: Establish an organization (thành lập) khác với establish a fact (xác minh làm rõ một sự thật).
 collocations:
 - phrase: establish a partnership
   meaning_vi: thiết lập quan hệ đối tác
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: establish guidelines
   meaning_vi: ban hành các hướng dẫn quy chế
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: well-established firm
   meaning_vi: công ty có uy tín lâu năm
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: found
   meaning_vi: thành lập
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: thiết lập
 - word: institute
   meaning_vi: ban hành, khởi xướng
+confused_words:
+- word: found
+  ipa: /faʊnd/
+  difference_vi: Found nghĩa là sáng lập tổ chức ban đầu; establish bao hàm cả việc tạo dựng chỗ đứng và vận hành quy chuẩn.
+confusing_meanings:
+- difference_vi: Establish an organization (thành lập) khác với establish a fact (xác minh làm rõ một sự thật).
 examples:
 - en: We established a strategic partnership to expand our distribution network overseas.
   vi: Chúng tôi đã thiết lập quan hệ đối tác chiến lược nhằm mở rộng mạng lưới phân phối ra nước ngoài.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

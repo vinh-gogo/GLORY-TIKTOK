@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: clause
 lemma: clause
 pos:
@@ -9,33 +9,33 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- contracts-negotiation
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: clause-1
   meaning_vi: Điều khoản cụ thể trong văn bản hợp đồng hoặc luật pháp
   note_vi: Một phần độc lập, mang tính ràng buộc rõ ràng như điều khoản bảo mật, phạt vi phạm.
-confused_words:
-- word: cause
-  ipa: /kɔːz/
-  difference_vi: Cause nghĩa là nguyên nhân (không có chữ 'l'), còn clause là điều khoản hợp đồng hoặc mệnh đề ngữ pháp.
-confusing_meanings:
-- difference_vi: Trong ngữ pháp, clause là 'mệnh đề' (gồm chủ ngữ + vị ngữ); trong kinh doanh pháp lý, clause là 'điều khoản'.
 collocations:
 - phrase: confidentiality clause
   meaning_vi: điều khoản bảo mật thông tin
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: penalty clause
   meaning_vi: điều khoản phạt vi phạm hợp đồng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: insert a clause
   meaning_vi: chèn thêm một điều khoản
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: provision
   meaning_vi: điều khoản
@@ -43,6 +43,12 @@ synonyms:
   meaning_vi: mục, phần
 - word: article
   meaning_vi: điều khoản (trong luật/hiến pháp)
+confused_words:
+- word: cause
+  ipa: /kɔːz/
+  difference_vi: Cause nghĩa là nguyên nhân (không có chữ 'l'), còn clause là điều khoản hợp đồng hoặc mệnh đề ngữ pháp.
+confusing_meanings:
+- difference_vi: Trong ngữ pháp, clause là 'mệnh đề' (gồm chủ ngữ + vị ngữ); trong kinh doanh pháp lý, clause là 'điều khoản'.
 examples:
 - en: We added a confidentiality clause to prevent sensitive project details from leaking.
   vi: Chúng tôi đã thêm điều khoản bảo mật để ngăn thông tin nhạy cảm của dự án bị rò rỉ.
@@ -53,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

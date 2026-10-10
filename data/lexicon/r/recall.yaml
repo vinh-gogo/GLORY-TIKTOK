@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: recall
 lemma: recall
 pos:
@@ -10,13 +10,11 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- production-quality-control
-- sales-customer-service
-speaking_use:
-- respond-with-info
-- express-opinion
+- manufacturing
+- general-business
 senses:
 - id: recall-1
   meaning_vi: Thu hồi sản phẩm bị lỗi trên thị trường; (v) triệu hồi sản phẩm về nhà máy
@@ -24,27 +22,36 @@ senses:
 - id: recall-2
   meaning_vi: Nhớ lại một sự việc trong quá khứ
   note_vi: Đồng nghĩa với remember.
+collocations:
+- phrase: product recall
+  meaning_vi: chiến dịch thu hồi sản phẩm lỗi
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: issue a recall
+  meaning_vi: phát lệnh triệu hồi sản phẩm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: voluntary recall
+  meaning_vi: sự chủ động tự nguyện thu hồi sản phẩm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: withdraw
+  meaning_vi: rút lại, thu hồi khỏi thị trường
+- word: remember
+  meaning_vi: nhớ lại
 confused_words:
 - word: call back
   ipa: /kɔːl bæk/
   difference_vi: Call back là gọi điện lại; recall là chiến dịch thu hồi toàn bộ sản phẩm lỗi hoặc hồi tưởng ký ức.
 confusing_meanings:
 - difference_vi: Product recall = chiến dịch thu hồi sản phẩm; as far as I recall = theo như tôi nhớ lại.
-collocations:
-- phrase: product recall
-  meaning_vi: chiến dịch thu hồi sản phẩm lỗi
-  evidence: corpus
-- phrase: issue a recall
-  meaning_vi: phát lệnh triệu hồi sản phẩm
-  evidence: corpus
-- phrase: voluntary recall
-  meaning_vi: sự chủ động tự nguyện thu hồi sản phẩm
-  evidence: corpus
-synonyms:
-- word: withdraw
-  meaning_vi: rút lại, thu hồi khỏi thị trường
-- word: remember
-  meaning_vi: nhớ lại
 examples:
 - en: The automaker issued a voluntary recall of 50,000 sedans to fix a faulty airbag sensor.
   vi: Hãng sản xuất ô tô đã phát lệnh tự nguyện thu hồi 50.000 chiếc xe sedan để sửa cảm biến túi khí bị lỗi.
@@ -55,6 +62,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: filing
 lemma: filing
 pos:
@@ -9,38 +9,44 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- meetings-office
-- describe-picture
-speaking_use:
-- describe-picture
-- respond-to-questions
+- offices
 senses:
 - id: filing-1
   meaning_vi: Việc sắp xếp hồ sơ lưu trữ; tủ đựng tài liệu ngăn kéo (filing cabinet)
   note_vi: 'Thường gặp trong Part 2 tả văn phòng: a filing cabinet, filing documents.'
+collocations:
+- phrase: filing cabinet
+  meaning_vi: tủ đựng hồ sơ tài liệu văn phòng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: filing system
+  meaning_vi: hệ thống phân loại lưu trữ hồ sơ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: tax filing deadline
+  meaning_vi: hạn chót nộp hồ sơ quyết toán thuế
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: archiving
+  meaning_vi: lưu trữ tài liệu
+- word: record-keeping
+  meaning_vi: lập và giữ sổ sách lưu trữ
 confused_words:
 - word: filling
   ipa: /ˈfɪlɪŋ/
   difference_vi: Filling là nhân bánh hoặc sự lấp đầy (nguyên âm ngắn /ɪ/); filing là việc cất trữ hồ sơ (nhị trùng âm /aɪ/).
 confusing_meanings:
 - difference_vi: Filing cabinet = tủ đựng tài liệu văn phòng; tax filing = việc nộp hồ sơ kê khai thuế.
-collocations:
-- phrase: filing cabinet
-  meaning_vi: tủ đựng hồ sơ tài liệu văn phòng
-  evidence: corpus
-- phrase: filing system
-  meaning_vi: hệ thống phân loại lưu trữ hồ sơ
-  evidence: corpus
-- phrase: tax filing deadline
-  meaning_vi: hạn chót nộp hồ sơ quyết toán thuế
-  evidence: corpus
-synonyms:
-- word: archiving
-  meaning_vi: lưu trữ tài liệu
-- word: record-keeping
-  meaning_vi: lập và giữ sổ sách lưu trữ
 examples:
 - en: Confidential personnel contracts are locked securely inside the metal filing cabinet.
   vi: Hợp đồng nhân sự mật được cất khóa cẩn thận bên trong tủ hồ sơ bằng kim loại.
@@ -51,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

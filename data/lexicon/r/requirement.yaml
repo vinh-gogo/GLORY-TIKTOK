@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: requirement
 lemma: requirement
 pos:
@@ -6,59 +6,62 @@ pos:
 ipa:
   us: /rɪˈkwaɪərmənt/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- hiring
-- training
-- contracts
-speaking_use:
-- read-aloud
-- respond-with-info
-- respond-to-questions
+- personnel
+- general-business
 senses:
 - id: requirement-1
   meaning_vi: Yêu cầu bắt buộc, tiêu chuẩn cần đáp ứng
-  note_vi: Thường thấy trong bản mô tả công việc (job description) hoặc điều kiện
-    tham gia khóa học.
+  note_vi: Thường thấy trong bản mô tả công việc (job description) hoặc điều kiện tham gia khóa học.
 collocations:
 - phrase: meet the requirements
   meaning_vi: đáp ứng đầy đủ các yêu cầu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: minimum requirement
   meaning_vi: yêu cầu tối thiểu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: mandatory requirement
   meaning_vi: yêu cầu mang tính bắt buộc
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: fulfill requirements
   meaning_vi: hoàn thành các tiêu chuẩn đặt ra
-  evidence: corpus
-confused_words:
-- word: retirement
-  ipa: /rɪˈtaɪərmənt/
-  meaning: sự nghỉ hưu
-  kind: spelling-sound
-  difference_vi: Requirement có âm /kw/ mang nghĩa yêu cầu; retirement có âm /t/ mang
-    nghĩa sự về hưu.
-confusing_meanings:
-- word: recommendation
-  meaning: lời khuyên, đề xuất
-  difference_vi: Recommendation chỉ là lời gợi ý không bắt buộc; requirement là điều
-    kiện tiên quyết bắt buộc phải có.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: prerequisite
   meaning_vi: điều kiện tiên quyết
 - word: specification
   meaning_vi: tiêu chuẩn kỹ thuật
+confused_words:
+- word: retirement
+  ipa: /rɪˈtaɪərmənt/
+  meaning: sự nghỉ hưu
+  kind: spelling-sound
+  difference_vi: Requirement có âm /kw/ mang nghĩa yêu cầu; retirement có âm /t/ mang nghĩa sự về hưu.
+confusing_meanings:
+- word: recommendation
+  meaning: lời khuyên, đề xuất
+  difference_vi: Recommendation chỉ là lời gợi ý không bắt buộc; requirement là điều kiện tiên quyết bắt buộc phải có.
 examples:
-- en: Fluency in English and at least two years of sales experience are minimum requirements
-    for this position.
-  vi: Thành thạo tiếng Anh và có ít nhất hai năm kinh nghiệm bán hàng là những yêu
-    cầu tối thiểu cho vị trí này.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈkwaɪ-/. Chú ý âm /kw/ kết
-  hợp nguyên âm đôi /aɪ/, đuôi /-mənt/ nhẹ.
+- en: Fluency in English and at least two years of sales experience are minimum requirements for this position.
+  vi: Thành thạo tiếng Anh và có ít nhất hai năm kinh nghiệm bán hàng là những yêu cầu tối thiểu cho vị trí này.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈkwaɪ-/. Chú ý âm /kw/ kết hợp nguyên âm đôi /aɪ/, đuôi /-mənt/
+  nhẹ.
 review:
   status: ai_cross_checked
   checked_by:

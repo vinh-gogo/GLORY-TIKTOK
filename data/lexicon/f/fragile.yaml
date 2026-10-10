@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: fragile
 lemma: fragile
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- shipping-logistics
-speaking_use:
-- respond-with-info
-- describe-picture
+- purchasing
 senses:
 - id: fragile-1
   meaning_vi: Dễ vỡ, dễ hư hại (thủy tinh, gốm sứ); cần xử lý cẩn thận khi vận chuyển
   note_vi: Nhãn 'FRAGILE' dán nổi bật trên thùng các-tông trong kho bãi hoặc hình ảnh Part 2.
+collocations:
+- phrase: handle fragile items
+  meaning_vi: xử lý cẩn thận đồ dễ vỡ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: fragile sticker
+  meaning_vi: nhãn dán cảnh báo hàng dễ vỡ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: fragile glassware
+  meaning_vi: đồ thủy tinh dễ vỡ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: delicate
+  meaning_vi: mỏng manh, tinh xảo
+- word: breakable
+  meaning_vi: dễ vỡ
 confused_words:
 - word: fragment
   ipa: /ˈfræɡmənt/
   difference_vi: Fragment là mảnh vỡ; fragile là tính từ miêu tả tính chất dễ vỡ nát.
 confusing_meanings:
 - difference_vi: Fragile items = đồ đạc dễ vỡ; fragile economy = nền kinh tế mong manh dễ tổn thương.
-collocations:
-- phrase: handle fragile items
-  meaning_vi: xử lý cẩn thận đồ dễ vỡ
-  evidence: corpus
-- phrase: fragile sticker
-  meaning_vi: nhãn dán cảnh báo hàng dễ vỡ
-  evidence: corpus
-- phrase: fragile glassware
-  meaning_vi: đồ thủy tinh dễ vỡ
-  evidence: corpus
-synonyms:
-- word: delicate
-  meaning_vi: mỏng manh, tinh xảo
-- word: breakable
-  meaning_vi: dễ vỡ
 examples:
 - en: Boxes containing ceramic tableware should be marked 'FRAGILE' and handled with extreme care.
   vi: Những thùng chứa bộ đồ ăn bằng gốm sứ phải được đánh dấu 'DỄ VỠ' và được bốc xếp hết sức cẩn thận.
@@ -50,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

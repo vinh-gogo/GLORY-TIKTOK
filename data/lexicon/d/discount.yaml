@@ -1,65 +1,77 @@
-schema_version: 2
+schema_version: 3
 id: discount
 lemma: discount
 pos:
-  - noun
-  - verb
+- noun
+- verb
 ipa:
-  us: "/ˈdɪskaʊnt/"
+  us: /ˈdɪskaʊnt/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - sales
-  - shopping
-speaking_use:
-  - read-aloud
-  - respond-to-questions
-  - respond-with-info
+- general-business
+- purchasing
 senses:
-  - id: discount-1
-    meaning_vi: "Khoản giảm giá, chiết khấu / Giảm giá bán"
-    note_vi: "Gặp rất nhiều trong các thông báo khuyến mãi cửa hàng (Part 1, 3)."
+- id: discount-1
+  meaning_vi: Khoản giảm giá, chiết khấu / Giảm giá bán
+  note_vi: Gặp rất nhiều trong các thông báo khuyến mãi cửa hàng (Part 1, 3).
 collocations:
-  - phrase: "offer a discount"
-    meaning_vi: "đưa ra mức chiết khấu giảm giá"
-    evidence: "corpus"
-  - phrase: "special discount"
-    meaning_vi: "mức giảm giá đặc biệt"
-    evidence: "corpus"
-  - phrase: "discount coupon"
-    meaning_vi: "phiếu giảm giá"
-    evidence: "corpus"
-  - phrase: "twenty percent discount"
-    meaning_vi: "mức giảm giá hai mươi phần trăm"
-    evidence: "corpus"
-confused_words:
-  - word: "disclose"
-    ipa: "/dɪsˈkloʊz/"
-    meaning: "tiết lộ, vạch trần bí mật"
-    kind: "spelling-sound"
-    difference_vi: "Discount kết thúc bằng /-kaʊnt/ nghĩa là giảm giá; disclose kết thúc bằng /-kloʊz/ nghĩa là tiết lộ thông tin nội bộ."
-confusing_meanings:
-  - word: "rebate"
-    meaning: "tiền hoàn lại sau khi đã mua sản phẩm"
-    difference_vi: "Discount là giảm giá trực tiếp trừ ngay vào hóa đơn lúc mua; rebate là khoản tiền bạn nhận lại sau khi gửi phiếu yêu cầu."
+- phrase: offer a discount
+  meaning_vi: đưa ra mức chiết khấu giảm giá
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: special discount
+  meaning_vi: mức giảm giá đặc biệt
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: discount coupon
+  meaning_vi: phiếu giảm giá
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: twenty percent discount
+  meaning_vi: mức giảm giá hai mươi phần trăm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "price reduction"
-    meaning_vi: "sự giảm giá"
-  - word: "markdown"
-    meaning_vi: "giá hạ"
+- word: price reduction
+  meaning_vi: sự giảm giá
+- word: markdown
+  meaning_vi: giá hạ
+confused_words:
+- word: disclose
+  ipa: /dɪsˈkloʊz/
+  meaning: tiết lộ, vạch trần bí mật
+  kind: spelling-sound
+  difference_vi: Discount kết thúc bằng /-kaʊnt/ nghĩa là giảm giá; disclose kết thúc bằng /-kloʊz/ nghĩa là tiết lộ thông
+    tin nội bộ.
+confusing_meanings:
+- word: rebate
+  meaning: tiền hoàn lại sau khi đã mua sản phẩm
+  difference_vi: Discount là giảm giá trực tiếp trừ ngay vào hóa đơn lúc mua; rebate là khoản tiền bạn nhận lại sau khi gửi
+    phiếu yêu cầu.
 examples:
-  - en: "Customers who purchase items in bulk are eligible for an attractive ten percent discount."
-    vi: "Khách hàng mua hàng số lượng lớn sẽ đủ điều kiện được hưởng mức giảm giá hấp dẫn mười phần trăm."
-pronunciation_tips_vi: "Khi là danh từ, trọng âm rơi vào âm tiết đầu /ˈdɪs/. Nguyên âm đôi /aʊ/ mở khẩu hình tròn môi, kết thúc bằng cụm phụ âm /-nt/ bật dứt khoát."
+- en: Customers who purchase items in bulk are eligible for an attractive ten percent discount.
+  vi: Khách hàng mua hàng số lượng lớn sẽ đủ điều kiện được hưởng mức giảm giá hấp dẫn mười phần trăm.
+pronunciation_tips_vi: Khi là danh từ, trọng âm rơi vào âm tiết đầu /ˈdɪs/. Nguyên âm đôi /aʊ/ mở khẩu hình tròn môi, kết
+  thúc bằng cụm phụ âm /-nt/ bật dứt khoát.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

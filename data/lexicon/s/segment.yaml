@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: segment
 lemma: segment
 pos:
@@ -10,32 +10,33 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: segment-1
   meaning_vi: Phân khúc thị trường hoặc nhóm khách hàng đặc thù; (v) phân khúc hóa
   note_vi: Khi là động từ, phát âm thường chuyển trọng âm thành /seɡˈment/.
-confused_words:
-- word: sediment
-  ipa: /ˈsedɪmənt/
-  difference_vi: Sediment là chất cặn lắng tích tụ; segment là phân khúc thị trường hoặc mẩu đoạn.
-confusing_meanings:
-- difference_vi: Market segment là phân khúc thị trường; TV segment là một chuyên mục phát sóng trên truyền hình.
 collocations:
 - phrase: market segment
   meaning_vi: phân khúc thị trường
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: key customer segment
   meaning_vi: phân khúc khách hàng trọng điểm
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: segment the audience
   meaning_vi: phân loại nhóm khán thính giả
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: section
   meaning_vi: phần, mục
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: khu vực thị trường
 - word: division
   meaning_vi: sự phân chia
+confused_words:
+- word: sediment
+  ipa: /ˈsedɪmənt/
+  difference_vi: Sediment là chất cặn lắng tích tụ; segment là phân khúc thị trường hoặc mẩu đoạn.
+confusing_meanings:
+- difference_vi: Market segment là phân khúc thị trường; TV segment là một chuyên mục phát sóng trên truyền hình.
 examples:
 - en: Our marketing strategy focuses on the premium market segment where profit margins are higher.
   vi: Chiến lược tiếp thị của chúng tôi tập trung vào phân khúc thị trường cao cấp nơi có biên lợi nhuận cao hơn.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

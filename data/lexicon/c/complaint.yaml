@@ -1,61 +1,72 @@
-schema_version: 2
+schema_version: 3
 id: complaint
 lemma: complaint
 pos:
-  - noun
+- noun
 ipa:
-  us: "/kəmˈpleɪnt/"
+  us: /kəmˈpleɪnt/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - sales
-  - customer-service
-speaking_use:
-  - respond-to-questions
-  - express-opinion
+- general-business
 senses:
-  - id: complaint-1
-    meaning_vi: "Lời phàn nàn, khiếu nại của khách hàng"
-    note_vi: "Chủ đề cực hay gặp trong Part 3 (khách hàng không hài lòng) và Part 5 (giải pháp nâng cao chất lượng dịch vụ)."
+- id: complaint-1
+  meaning_vi: Lời phàn nàn, khiếu nại của khách hàng
+  note_vi: Chủ đề cực hay gặp trong Part 3 (khách hàng không hài lòng) và Part 5 (giải pháp nâng cao chất lượng dịch vụ).
 collocations:
-  - phrase: "file a complaint"
-    meaning_vi: "nộp đơn khiếu nại, gửi phản ánh"
-    evidence: "corpus"
-  - phrase: "handle complaints"
-    meaning_vi: "xử lý các khiếu nại của khách"
-    evidence: "corpus"
-  - phrase: "customer complaint"
-    meaning_vi: "phàn nàn từ phía khách hàng"
-    evidence: "corpus"
-  - phrase: "resolve a complaint"
-    meaning_vi: "giải quyết ổn thỏa khiếu nại"
-    evidence: "corpus"
-confused_words:
-  - word: "complain"
-    ipa: "/kəmˈpleɪn/"
-    meaning: "than phiền, khiếu nại (động từ)"
-    kind: "spelling-sound"
-    difference_vi: "Complain là động từ (to complain about); complaint là danh từ có âm đuôi /t/ (to file a complaint)."
-confusing_meanings:
-  - word: "criticism"
-    meaning: "sự chỉ trích, phê bình, đánh giá tiêu cực"
-    difference_vi: "Complaint là lời phàn nàn cụ thể về sự cố dịch vụ/hàng hóa; criticism là sự phân tích phê bình chuyên môn hoặc quan điểm tiêu cực."
+- phrase: file a complaint
+  meaning_vi: nộp đơn khiếu nại, gửi phản ánh
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: handle complaints
+  meaning_vi: xử lý các khiếu nại của khách
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: customer complaint
+  meaning_vi: phàn nàn từ phía khách hàng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: resolve a complaint
+  meaning_vi: giải quyết ổn thỏa khiếu nại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "grievance"
-    meaning_vi: "bất bình, khiếu nại chính thức"
+- word: grievance
+  meaning_vi: bất bình, khiếu nại chính thức
+confused_words:
+- word: complain
+  ipa: /kəmˈpleɪn/
+  meaning: than phiền, khiếu nại (động từ)
+  kind: spelling-sound
+  difference_vi: Complain là động từ (to complain about); complaint là danh từ có âm đuôi /t/ (to file a complaint).
+confusing_meanings:
+- word: criticism
+  meaning: sự chỉ trích, phê bình, đánh giá tiêu cực
+  difference_vi: Complaint là lời phàn nàn cụ thể về sự cố dịch vụ/hàng hóa; criticism là sự phân tích phê bình chuyên môn
+    hoặc quan điểm tiêu cực.
 examples:
-  - en: "Our customer service representatives are trained to handle complaints calmly and professionally."
-    vi: "Các đại diện chăm sóc khách hàng của chúng tôi được đào tạo để xử lý khiếu nại một cách bình tĩnh và chuyên nghiệp."
-pronunciation_tips_vi: "Âm đầu là schwa nhẹ /kəm-/. Trọng âm rơi vào âm tiết hai /-pleɪnt/ với nguyên âm đôi /eɪ/, bật rõ âm /t/ cuối để không nhầm với động từ 'complain'."
+- en: Our customer service representatives are trained to handle complaints calmly and professionally.
+  vi: Các đại diện chăm sóc khách hàng của chúng tôi được đào tạo để xử lý khiếu nại một cách bình tĩnh và chuyên nghiệp.
+pronunciation_tips_vi: Âm đầu là schwa nhẹ /kəm-/. Trọng âm rơi vào âm tiết hai /-pleɪnt/ với nguyên âm đôi /eɪ/, bật rõ âm
+  /t/ cuối để không nhầm với động từ 'complain'.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

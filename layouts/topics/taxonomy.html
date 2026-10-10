@@ -1,0 +1,14 @@
+{{- define "main" }}
+<header class="page-head">
+  <h1>Chủ đề</h1>
+  <p class="muted">Từ vựng chia theo ngữ cảnh thường gặp trong bài thi. Danh sách chủ đề đang chờ đối chiếu với tài liệu gốc của ETS.</p>
+</header>
+<div class="cardgrid">
+  {{- range .Pages.ByTitle }}
+    {{- $slug := .Data.Term }}
+    {{- with index hugo.Data.topics.topics $slug }}
+  <a class="topiccard" href="/topics/{{ $slug }}/"><strong>{{ .name_vi }}</strong><span class="muted">{{ .description_vi }}</span></a>
+    {{- end }}
+  {{- end }}
+</div>
+{{- end }}

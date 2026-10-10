@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: slogan
 lemma: slogan
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: slogan-1
   meaning_vi: Khẩu hiệu quảng cáo, câu tiêu ngữ ngắn gọn dễ nhớ của thương hiệu
   note_vi: Câu khẩu hiệu ấn tượng gắn liền với định vị thương hiệu trong tâm trí khách hàng.
+collocations:
+- phrase: advertising slogan
+  meaning_vi: khẩu hiệu quảng cáo thương mại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: catchy slogan
+  meaning_vi: câu khẩu hiệu lôi cuốn, dễ nhớ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: memorable campaign slogan
+  meaning_vi: khẩu hiệu chiến dịch đáng nhớ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: tagline
+  meaning_vi: câu định vị thương hiệu
+- word: catchphrase
+  meaning_vi: câu nói cửa miệng tạo trào lưu
 confused_words:
 - word: motto
   ipa: /ˈmɑːtoʊ/
   difference_vi: Motto là phương châm sống hoặc lý tưởng; slogan là khẩu hiệu dùng cho chiến dịch tiếp thị thương mại.
 confusing_meanings:
 - difference_vi: Catchy slogan = khẩu hiệu bắt tai, dễ thuộc; campaign slogan = khẩu hiệu của chiến dịch ngắn hạn.
-collocations:
-- phrase: advertising slogan
-  meaning_vi: khẩu hiệu quảng cáo thương mại
-  evidence: corpus
-- phrase: catchy slogan
-  meaning_vi: câu khẩu hiệu lôi cuốn, dễ nhớ
-  evidence: corpus
-- phrase: memorable campaign slogan
-  meaning_vi: khẩu hiệu chiến dịch đáng nhớ
-  evidence: corpus
-synonyms:
-- word: tagline
-  meaning_vi: câu định vị thương hiệu
-- word: catchphrase
-  meaning_vi: câu nói cửa miệng tạo trào lưu
 examples:
 - en: The creative team came up with a memorable slogan that boosted brand recognition instantly.
   vi: Đội ngũ sáng tạo đã nghĩ ra một câu khẩu hiệu đáng nhớ giúp nâng cao độ nhận diện thương hiệu ngay tức thì.
@@ -50,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: deposit
 lemma: deposit
 pos:
@@ -10,38 +10,45 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- real-estate-construction
-- finance-accounting
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- housing-property
+- finance-budgeting
 senses:
 - id: deposit-1
   meaning_vi: Tiền đặt cọc giữ chỗ hoặc tiền bảo đảm thuê nhà; tiền gửi tiết kiệm ngân hàng
   note_vi: Khoản tiền trả trước để đảm bảo hợp đồng hoặc giữ tài sản an toàn.
+collocations:
+- phrase: security deposit
+  meaning_vi: tiền đặt cọc bảo đảm tài sản thuê
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: refundable deposit
+  meaning_vi: khoản tiền đặt cọc có thể hoàn trả lại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: deposit money into an account
+  meaning_vi: nộp tiền vào tài khoản ngân hàng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: down payment
+  meaning_vi: khoản tiền trả trước
+- word: advance payment
+  meaning_vi: tiền tạm ứng
 confused_words:
 - word: withdraw
   ipa: /wɪðˈdrɔː/
   difference_vi: Deposit tiền là gửi tiền vào tài khoản; withdraw là rút tiền ra.
 confusing_meanings:
 - difference_vi: Security deposit = tiền đặt cọc bảo đảm tài sản thuê; bank deposit = tiền gửi vào ngân hàng.
-collocations:
-- phrase: security deposit
-  meaning_vi: tiền đặt cọc bảo đảm tài sản thuê
-  evidence: corpus
-- phrase: refundable deposit
-  meaning_vi: khoản tiền đặt cọc có thể hoàn trả lại
-  evidence: corpus
-- phrase: deposit money into an account
-  meaning_vi: nộp tiền vào tài khoản ngân hàng
-  evidence: corpus
-synonyms:
-- word: down payment
-  meaning_vi: khoản tiền trả trước
-- word: advance payment
-  meaning_vi: tiền tạm ứng
 examples:
 - en: The tenant paid two months' rent as a refundable security deposit prior to moving in.
   vi: Người thuê đã trả hai tháng tiền nhà làm khoản đặt cọc bảo đảm có hoàn lại trước khi chuyển vào ở.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

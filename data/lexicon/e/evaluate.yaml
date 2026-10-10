@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: evaluate
 lemma: evaluate
 pos:
@@ -6,16 +6,14 @@ pos:
 ipa:
   us: /ɪˈvæljueɪt/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- management
-- business
-- budget
-speaking_use:
-- respond-to-questions
-- express-opinion
+- offices
+- general-business
+- finance-budgeting
 senses:
 - id: evaluate-1
   meaning_vi: Đánh giá, thẩm định kỹ lưỡng (chất lượng, hiệu quả, tính khả thi)
@@ -23,40 +21,48 @@ senses:
 collocations:
 - phrase: evaluate options
   meaning_vi: xem xét đánh giá các phương án
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: evaluate performance
   meaning_vi: đánh giá hiệu quả hoạt động
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: carefully evaluate
   meaning_vi: cẩn trọng đánh giá
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: evaluate the results
   meaning_vi: đánh giá các kết quả đạt được
-  evidence: corpus
-confused_words:
-- word: evacuate
-  ipa: /ɪˈvækjueɪt/
-  meaning: sơ tán khẩn cấp
-  kind: spelling-sound
-  difference_vi: Evaluate có âm /l/ mang nghĩa đánh giá; evacuate có âm /k/ mang nghĩa
-    sơ tán người ra khỏi nơi nguy hiểm.
-confusing_meanings:
-- word: calculate
-  meaning: tính toán số học thuần túy
-  difference_vi: Calculate là phép tính con số cụ thể; evaluate là phân tích tổng
-    hợp để đưa ra kết luận hoặc nhận xét giá trị.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: assess
   meaning_vi: thẩm định
 - word: appraise
   meaning_vi: định giá, đánh giá
+confused_words:
+- word: evacuate
+  ipa: /ɪˈvækjueɪt/
+  meaning: sơ tán khẩn cấp
+  kind: spelling-sound
+  difference_vi: Evaluate có âm /l/ mang nghĩa đánh giá; evacuate có âm /k/ mang nghĩa sơ tán người ra khỏi nơi nguy hiểm.
+confusing_meanings:
+- word: calculate
+  meaning: tính toán số học thuần túy
+  difference_vi: Calculate là phép tính con số cụ thể; evaluate là phân tích tổng hợp để đưa ra kết luận hoặc nhận xét giá
+    trị.
 examples:
-- en: The executive committee will carefully evaluate all vendor proposals before
-    making a final choice.
-  vi: Ủy ban điều hành sẽ đánh giá cẩn thận tất cả các đề xuất từ nhà cung cấp trước
-    khi đưa ra lựa chọn cuối cùng.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈvæl-/. Âm cuối kết thúc
-  bằng /-ju-eɪt/, bật nhẹ âm /t/.
+- en: The executive committee will carefully evaluate all vendor proposals before making a final choice.
+  vi: Ủy ban điều hành sẽ đánh giá cẩn thận tất cả các đề xuất từ nhà cung cấp trước khi đưa ra lựa chọn cuối cùng.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈvæl-/. Âm cuối kết thúc bằng /-ju-eɪt/, bật nhẹ âm /t/.
 review:
   status: ai_cross_checked
   checked_by:

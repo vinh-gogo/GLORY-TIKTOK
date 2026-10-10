@@ -1,6 +1,4 @@
 ---
-title: "Bộ bài học (Sets)"
-description: "Kho tổng hợp các set bài học từ vựng, cụm từ và phản xạ theo từng video TikTok"
+title: "Bộ từ theo video"
+summary: "Danh sách từ vựng gắn với từng video TikTok của Glory 01. Gõ nhanh glory-tiktok.pages.dev/NNN để mở."
 ---
-
-Mỗi set bài học bên dưới tương ứng với một video clip ngắn trên kênh TikTok. Bạn có thể bấm vào từng set để xem chi tiết thẻ từ vựng (IPA, từ đồng nghĩa, collocations, câu ví dụ) và luyện phản xạ nói.

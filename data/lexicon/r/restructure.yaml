@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: restructure
 lemma: restructure
 pos:
@@ -9,38 +9,45 @@ ipa:
 level:
   band: advanced
   cefr: C1
-  basis: TOEIC 750+
+  basis:
+  - editorial
 topics:
-- management-operations
-- finance-accounting
-speaking_use:
-- respond-with-info
-- express-opinion
+- offices
+- finance-budgeting
 senses:
 - id: restructure-1
   meaning_vi: Tái cấu trúc tổ chức bộ máy, vận hành hoặc các khoản nợ tài chính
   note_vi: Biện pháp sắp xếp lại phòng ban hoặc cấu trúc vốn để nâng cao năng suất và cắt giảm chi phí.
+collocations:
+- phrase: restructure a department
+  meaning_vi: tái cơ cấu một phòng ban
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: corporate restructuring
+  meaning_vi: sự tái cấu trúc doanh nghiệp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: restructure financial debt
+  meaning_vi: cơ cấu lại các khoản nợ tài chính
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: reorganize
+  meaning_vi: sắp xếp lại tổ chức
+- word: overhaul
+  meaning_vi: đại tu toàn diện
 confused_words:
 - word: structure
   ipa: /ˈstrʌktʃər/
   difference_vi: Structure là cấu trúc sẵn có; restructure là hành động cơ cấu lại.
 confusing_meanings:
 - difference_vi: Corporate restructuring thường đi kèm việc tinh giản biên chế hoặc sáp nhập các ban bệ.
-collocations:
-- phrase: restructure a department
-  meaning_vi: tái cơ cấu một phòng ban
-  evidence: corpus
-- phrase: corporate restructuring
-  meaning_vi: sự tái cấu trúc doanh nghiệp
-  evidence: corpus
-- phrase: restructure financial debt
-  meaning_vi: cơ cấu lại các khoản nợ tài chính
-  evidence: corpus
-synonyms:
-- word: reorganize
-  meaning_vi: sắp xếp lại tổ chức
-- word: overhaul
-  meaning_vi: đại tu toàn diện
 examples:
 - en: The corporation is restructuring its sales division to better respond to digital demands.
   vi: Tập đoàn đang tái cấu trúc bộ phận kinh doanh để đáp ứng tốt hơn các nhu cầu số hóa.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

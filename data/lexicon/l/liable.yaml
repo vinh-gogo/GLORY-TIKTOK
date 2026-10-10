@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: liable
 lemma: liable
 pos:
@@ -9,13 +9,10 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- legal-compliance
-- contracts-negotiation
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: liable-1
   meaning_vi: Có trách nhiệm pháp lý phải bồi thường thiệt hại (legally liable)
@@ -23,23 +20,25 @@ senses:
 - id: liable-2
   meaning_vi: Có khả năng dễ bị, có xu hướng xảy ra điều không tốt (liable to do sth)
   note_vi: Tương tự prone to hoặc likely to.
-confused_words:
-- word: reliable
-  ipa: /rɪˈlaɪəbl/
-  difference_vi: Reliable là đáng tin cậy; liable là chịu trách nhiệm pháp lý hoặc dễ bị tổn thương.
-confusing_meanings:
-- difference_vi: Legally liable for loss = chịu trách nhiệm pháp lý bồi thường thiệt hại; liable to change = dễ bị biến động
-    thay đổi.
 collocations:
 - phrase: held legally liable
   meaning_vi: bị quy trách nhiệm pháp lý bồi thường
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: liable for damages
   meaning_vi: có nghĩa vụ bồi thường thiệt hại
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: liable to change without notice
   meaning_vi: có thể thay đổi mà không cần báo trước
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: responsible
   meaning_vi: chịu trách nhiệm
@@ -47,6 +46,13 @@ synonyms:
   meaning_vi: phải giải trình, chịu hậu quả
 - word: answerable
   meaning_vi: có nghĩa vụ trả lời trước pháp luật
+confused_words:
+- word: reliable
+  ipa: /rɪˈlaɪəbl/
+  difference_vi: Reliable là đáng tin cậy; liable là chịu trách nhiệm pháp lý hoặc dễ bị tổn thương.
+confusing_meanings:
+- difference_vi: Legally liable for loss = chịu trách nhiệm pháp lý bồi thường thiệt hại; liable to change = dễ bị biến động
+    thay đổi.
 examples:
 - en: The contractor will be held legally liable for any structural flaws discovered within three years.
   vi: Nhà thầu sẽ phải chịu trách nhiệm pháp lý đối với bất kỳ lỗi kết cấu nào được phát hiện trong vòng ba năm.
@@ -57,6 +63,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

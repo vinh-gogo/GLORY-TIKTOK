@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: consumer
 lemma: consumer
 pos:
@@ -9,33 +9,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-- sales-customer-service
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: consumer-1
   meaning_vi: Người tiêu dùng, người sử dụng trực tiếp sản phẩm hoặc dịch vụ cuối cùng
   note_vi: Khác với customer (người trả tiền mua, có thể mua để bán lại).
-confused_words:
-- word: customer
-  ipa: /ˈkʌstəmər/
-  difference_vi: Customer là khách hàng tại điểm bán; consumer là người trực tiếp sử dụng sản phẩm.
-confusing_meanings:
-- difference_vi: Consumer goods = hàng tiêu dùng hàng ngày (thực phẩm, đồ gia dụng).
 collocations:
 - phrase: consumer demand
   meaning_vi: nhu cầu của người tiêu dùng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: consumer behavior
   meaning_vi: hành vi tiêu dùng của khách hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: protect consumer rights
   meaning_vi: bảo vệ quyền lợi người tiêu dùng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: buyer
   meaning_vi: người mua
@@ -43,6 +43,12 @@ synonyms:
   meaning_vi: người dùng cuối
 - word: client
   meaning_vi: khách hàng
+confused_words:
+- word: customer
+  ipa: /ˈkʌstəmər/
+  difference_vi: Customer là khách hàng tại điểm bán; consumer là người trực tiếp sử dụng sản phẩm.
+confusing_meanings:
+- difference_vi: Consumer goods = hàng tiêu dùng hàng ngày (thực phẩm, đồ gia dụng).
 examples:
 - en: Online surveys help businesses gain valuable insights into changing consumer preferences.
   vi: Các cuộc khảo sát trực tuyến giúp doanh nghiệp có được cái nhìn sâu sắc quý giá về thị hiếu tiêu dùng đang thay đổi.
@@ -53,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,0 +1,15 @@
+{{- /* Trang tĩnh theo chữ cái: /glossary/a/ ... (dùng được khi tắt JS, nhẹ cho mobile). Chỉ sinh cho chữ có từ hiển thị. */ -}}
+{{- $words := partial "words-visible.html" . }}
+{{- $letters := slice }}
+{{- range $words }}
+  {{- $letters = $letters | append (substr .lemma 0 1 | lower) }}
+{{- end }}
+{{- range $i, $l := $letters | uniq | sort }}
+  {{- $page := dict
+    "path" $l
+    "title" (printf "Từ vựng bắt đầu bằng chữ %s" ($l | upper))
+    "kind" "page"
+    "params" (dict "letter" $l "summary" (printf "Danh sách từ vựng TOEIC bắt đầu bằng chữ %s." ($l | upper)))
+  }}
+  {{- $.AddPage $page }}
+{{- end }}

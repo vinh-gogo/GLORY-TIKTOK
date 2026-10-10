@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: assemble
 lemma: assemble
 pos:
@@ -6,58 +6,62 @@ pos:
 ipa:
   us: /əˈsembl/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
 - manufacturing
-- equipment
-- meetings
-speaking_use:
-- describe-picture
-- respond-to-questions
+- offices
 senses:
 - id: assemble-1
   meaning_vi: Lắp ráp linh kiện, đồ đạc / Tập hợp mọi người lại một nơi
-  note_vi: Part 2 thường gặp cảnh công nhân lắp ráp thiết bị hoặc mọi người tập hợp
-    trong phòng họp.
+  note_vi: Part 2 thường gặp cảnh công nhân lắp ráp thiết bị hoặc mọi người tập hợp trong phòng họp.
 collocations:
 - phrase: assemble parts
   meaning_vi: lắp ráp các linh kiện phụ tùng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: easily assembled
   meaning_vi: dễ dàng lắp ráp
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: assembly line
   meaning_vi: dây chuyền lắp ráp sản xuất
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: assemble in the auditorium
   meaning_vi: tập hợp tại khán phòng
-  evidence: corpus
-confused_words:
-- word: resemble
-  ipa: /rɪˈzembl/
-  meaning: giống nhau về ngoại hình
-  kind: spelling-sound
-  difference_vi: Assemble là lắp ráp hoặc tập hợp; resemble là trông giống một ai
-    đó hoặc vật gì đó.
-confusing_meanings:
-- word: gather
-  meaning: tụ họp tự nhiên
-  difference_vi: Gather là hành động tụ tập tự nhiên của đám đông; assemble mang tính
-    tổ chức bài bản hoặc thao tác kỹ thuật lắp ráp linh kiện.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: put together
   meaning_vi: ghép lại
 - word: gather
   meaning_vi: tập hợp
+confused_words:
+- word: resemble
+  ipa: /rɪˈzembl/
+  meaning: giống nhau về ngoại hình
+  kind: spelling-sound
+  difference_vi: Assemble là lắp ráp hoặc tập hợp; resemble là trông giống một ai đó hoặc vật gì đó.
+confusing_meanings:
+- word: gather
+  meaning: tụ họp tự nhiên
+  difference_vi: Gather là hành động tụ tập tự nhiên của đám đông; assemble mang tính tổ chức bài bản hoặc thao tác kỹ thuật
+    lắp ráp linh kiện.
 examples:
-- en: The new office furniture comes with clear instructions and can be easily assembled
-    in minutes.
-  vi: Nội thất văn phòng mới đi kèm với hướng dẫn rõ ràng và có thể dễ dàng lắp ráp
-    trong vài phút.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈsem-/. Âm đuôi /-bl/ đọc
-  dứt khoát không thêm 'ờ'.
+- en: The new office furniture comes with clear instructions and can be easily assembled in minutes.
+  vi: Nội thất văn phòng mới đi kèm với hướng dẫn rõ ràng và có thể dễ dàng lắp ráp trong vài phút.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈsem-/. Âm đuôi /-bl/ đọc dứt khoát không thêm 'ờ'.
 review:
   status: ai_cross_checked
   checked_by:

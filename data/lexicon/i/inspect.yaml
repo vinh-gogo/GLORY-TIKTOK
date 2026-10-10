@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: inspect
 lemma: inspect
 pos:
@@ -6,58 +6,62 @@ pos:
 ipa:
   us: /ɪnˈspekt/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
 - manufacturing
-- equipment
-- work
-speaking_use:
-- describe-picture
-- respond-to-questions
+- offices
 senses:
 - id: inspect-1
   meaning_vi: Thanh tra, kiểm tra kỹ lưỡng (để phát hiện lỗi hoặc đảm bảo an toàn)
-  note_vi: Thường gặp trong miêu tả tranh Part 2 (kỹ sư kiểm tra máy móc) hoặc an
-    toàn lao động.
+  note_vi: Thường gặp trong miêu tả tranh Part 2 (kỹ sư kiểm tra máy móc) hoặc an toàn lao động.
 collocations:
 - phrase: inspect the equipment
   meaning_vi: kiểm tra máy móc thiết bị
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: thoroughly inspect
   meaning_vi: thanh tra, kiểm tra toàn diện
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: safety inspection
   meaning_vi: đợt thanh tra an toàn
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: inspect for damage
   meaning_vi: kiểm tra xem có hư hỏng không
-  evidence: corpus
-confused_words:
-- word: expect
-  ipa: /ɪkˈspekt/
-  meaning: kỳ vọng, mong đợi
-  kind: spelling-sound
-  difference_vi: Inspect có âm /n/ (/ɪnˈspekt/) nghĩa là kiểm tra thanh tra; expect
-    (/ɪkˈspekt/) nghĩa là trông mong, kỳ vọng.
-confusing_meanings:
-- word: look at
-  meaning: nhìn ngắm bình thường
-  difference_vi: Look at là nhìn ngắm thông thường; inspect là xem xét kỹ từng chi
-    tiết với mục đích chuyên môn phát hiện lỗi.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: examine
   meaning_vi: xem xét cẩn thận
 - word: check
   meaning_vi: kiểm tra
+confused_words:
+- word: expect
+  ipa: /ɪkˈspekt/
+  meaning: kỳ vọng, mong đợi
+  kind: spelling-sound
+  difference_vi: Inspect có âm /n/ (/ɪnˈspekt/) nghĩa là kiểm tra thanh tra; expect (/ɪkˈspekt/) nghĩa là trông mong, kỳ vọng.
+confusing_meanings:
+- word: look at
+  meaning: nhìn ngắm bình thường
+  difference_vi: Look at là nhìn ngắm thông thường; inspect là xem xét kỹ từng chi tiết với mục đích chuyên môn phát hiện
+    lỗi.
 examples:
-- en: Technicians will inspect the ventilation system to ensure all safety standards
-    are met.
-  vi: Các kỹ thuật viên sẽ kiểm tra hệ thống thông gió để đảm bảo đáp ứng đầy đủ mọi
-    tiêu chuẩn an toàn.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈspekt/. Chú ý phát âm rõ
-  cụm phụ âm cuối /-kt/.
+- en: Technicians will inspect the ventilation system to ensure all safety standards are met.
+  vi: Các kỹ thuật viên sẽ kiểm tra hệ thống thông gió để đảm bảo đáp ứng đầy đủ mọi tiêu chuẩn an toàn.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈspekt/. Chú ý phát âm rõ cụm phụ âm cuối /-kt/.
 review:
   status: ai_cross_checked
   checked_by:

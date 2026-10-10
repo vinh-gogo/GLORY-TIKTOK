@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: plant
 lemma: plant
 pos:
@@ -10,33 +10,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- production-quality-control
-- describe-picture
-speaking_use:
-- describe-picture
-- respond-with-info
+- manufacturing
 senses:
 - id: plant-1
   meaning_vi: Nhà máy, xí nghiệp sản xuất công nghiệp nặng hoặc nhà máy điện
   note_vi: Trong ngữ cảnh TOEIC kinh tế, plant thường có nghĩa là nhà xưởng, không phải cái cây.
-confused_words:
-- word: planet
-  ipa: /ˈplænɪt/
-  difference_vi: Planet là hành tinh ngoài vũ trụ; plant là cây cối hoặc nhà máy sản xuất.
-confusing_meanings:
-- difference_vi: Manufacturing plant = nhà máy sản xuất; house plant = cây cảnh trồng trong nhà.
 collocations:
 - phrase: manufacturing plant
   meaning_vi: nhà máy sản xuất công nghiệp
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: power plant
   meaning_vi: nhà máy phát điện
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: plant manager
   meaning_vi: giám đốc điều hành nhà máy
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: factory
   meaning_vi: nhà máy xí nghiệp
@@ -44,6 +44,12 @@ synonyms:
   meaning_vi: cơ sở sản xuất
 - word: mill
   meaning_vi: xưởng xay xát / cán thép
+confused_words:
+- word: planet
+  ipa: /ˈplænɪt/
+  difference_vi: Planet là hành tinh ngoài vũ trụ; plant là cây cối hoặc nhà máy sản xuất.
+confusing_meanings:
+- difference_vi: Manufacturing plant = nhà máy sản xuất; house plant = cây cảnh trồng trong nhà.
 examples:
 - en: The pharmaceutical company is constructing a new manufacturing plant near the port.
   vi: Công ty dược phẩm đang xây dựng một nhà máy sản xuất mới ở gần cảng biển.
@@ -54,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: compromise
 lemma: compromise
 pos:
@@ -10,13 +10,11 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- contracts-negotiation
-- meetings-office
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
+- offices
 senses:
 - id: compromise-1
   meaning_vi: Sự thỏa hiệp, nhân nhượng lẫn nhau; (v) đi đến thỏa hiệp
@@ -24,6 +22,30 @@ senses:
 - id: compromise-2
   meaning_vi: Làm tổn hại, gây nguy hiểm hoặc làm suy giảm chất lượng/an toàn
   note_vi: 'Thường gặp: compromise on quality (hạ chuẩn chất lượng), compromise system security.'
+collocations:
+- phrase: reach a compromise
+  meaning_vi: đạt được sự thỏa hiệp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: compromise on quality
+  meaning_vi: hạ thấp / nhân nhượng về mặt chất lượng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: acceptable compromise
+  meaning_vi: sự thỏa hiệp có thể chấp nhận được
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: settlement
+  meaning_vi: sự dàn xếp thỏa thuận
+- word: concession
+  meaning_vi: sự nhượng bộ
 confused_words:
 - word: compose
   ipa: /kəmˈpoʊz/
@@ -31,21 +53,6 @@ confused_words:
 confusing_meanings:
 - difference_vi: Compromise mang nghĩa tích cực là 'đạt được thỏa hiệp', nhưng mang nghĩa tiêu cực là 'làm giảm sút uy tín/chất
     lượng'.
-collocations:
-- phrase: reach a compromise
-  meaning_vi: đạt được sự thỏa hiệp
-  evidence: corpus
-- phrase: compromise on quality
-  meaning_vi: hạ thấp / nhân nhượng về mặt chất lượng
-  evidence: corpus
-- phrase: acceptable compromise
-  meaning_vi: sự thỏa hiệp có thể chấp nhận được
-  evidence: corpus
-synonyms:
-- word: settlement
-  meaning_vi: sự dàn xếp thỏa thuận
-- word: concession
-  meaning_vi: sự nhượng bộ
 examples:
 - en: Both negotiating teams made concessions to reach an acceptable compromise.
   vi: Cả hai đội đàm phán đều đưa ra nhượng bộ để đạt được sự thỏa hiệp chấp nhận được.
@@ -56,6 +63,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

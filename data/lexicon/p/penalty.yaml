@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: penalty
 lemma: penalty
 pos:
@@ -9,34 +9,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- legal-compliance
-- contracts-negotiation
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: penalty-1
   meaning_vi: Hình phạt, mức tiền phạt do vi phạm hợp đồng hoặc không tuân thủ quy định
   note_vi: Khoản chế tài tài chính áp đặt khi một bên không hoàn thành cam kết.
-confused_words:
-- word: fine
-  ipa: /faɪn/
-  difference_vi: Fine là tiền phạt vi phạm pháp luật công quyền (giao thông, trốn thuế); penalty bao gồm cả phạt vi phạm hợp
-    đồng kinh tế tư nhân.
-confusing_meanings:
-- difference_vi: Early withdrawal penalty = phí phạt rút tiền tiết kiệm trước hạn; penalty clause = điều khoản phạt vi phạm.
 collocations:
 - phrase: pay a penalty
   meaning_vi: nộp tiền phạt vi phạm
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: penalty clause
   meaning_vi: điều khoản phạt hợp đồng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: without penalty
   meaning_vi: không bị phạt tiền, miễn phạt
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: fine
   meaning_vi: tiền phạt
@@ -44,6 +43,13 @@ synonyms:
   meaning_vi: biện pháp chế tài
 - word: punishment
   meaning_vi: hình phạt
+confused_words:
+- word: fine
+  ipa: /faɪn/
+  difference_vi: Fine là tiền phạt vi phạm pháp luật công quyền (giao thông, trốn thuế); penalty bao gồm cả phạt vi phạm hợp
+    đồng kinh tế tư nhân.
+confusing_meanings:
+- difference_vi: Early withdrawal penalty = phí phạt rút tiền tiết kiệm trước hạn; penalty clause = điều khoản phạt vi phạm.
 examples:
 - en: Customers can cancel their reservation up to 48 hours prior to arrival without penalty.
   vi: Khách hàng có thể hủy đặt phòng tối đa 48 giờ trước khi đến mà không bị phạt tiền.
@@ -54,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

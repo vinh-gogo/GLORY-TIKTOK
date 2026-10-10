@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: freight
 lemma: freight
 pos:
@@ -10,37 +10,44 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- shipping-logistics
-speaking_use:
-- respond-with-info
-- describe-picture
+- purchasing
 senses:
 - id: freight-1
   meaning_vi: Hàng hóa vận chuyển bằng tàu thủy, tàu hỏa hoặc máy bay; cước phí vận chuyển hàng
   note_vi: Thường dùng cho việc vận tải hàng hóa số lượng lớn trên quy mô thương mại quốc tế.
+collocations:
+- phrase: air freight
+  meaning_vi: vận chuyển hàng hóa bằng đường hàng không
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: freight charges
+  meaning_vi: cước phí vận tải hàng hóa
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: freight forwarder
+  meaning_vi: đại lý giao nhận hàng hóa quốc tế
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: cargo
+  meaning_vi: hàng hóa chuyên chở
+- word: consignment
+  meaning_vi: lô hàng vận chuyển
 confused_words:
 - word: flight
   ipa: /flaɪt/
   difference_vi: Flight là chuyến bay chở người hoặc hàng (/l/); freight là hàng hóa chuyên chở thương mại (/r/).
 confusing_meanings:
 - difference_vi: Air freight = vận tải hàng không; freight charges = cước phí chuyên chở.
-collocations:
-- phrase: air freight
-  meaning_vi: vận chuyển hàng hóa bằng đường hàng không
-  evidence: corpus
-- phrase: freight charges
-  meaning_vi: cước phí vận tải hàng hóa
-  evidence: corpus
-- phrase: freight forwarder
-  meaning_vi: đại lý giao nhận hàng hóa quốc tế
-  evidence: corpus
-synonyms:
-- word: cargo
-  meaning_vi: hàng hóa chuyên chở
-- word: consignment
-  meaning_vi: lô hàng vận chuyển
 examples:
 - en: Due to rising fuel costs, ocean freight rates have increased by fifteen percent over the last quarter.
   vi: Do chi phí nhiên liệu tăng cao, giá cước vận tải đường biển đã tăng mười lăm phần trăm trong quý vừa qua.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

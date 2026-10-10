@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: sponsor
 lemma: sponsor
 pos:
@@ -10,32 +10,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: sponsor-1
   meaning_vi: Tài trợ kinh phí cho một sự kiện hoặc chương trình; (n) nhà tài trợ
   note_vi: Đổi lại quyền lợi gắn logo hoặc quảng bá thương hiệu trong khuôn khổ sự kiện.
-confused_words:
-- word: spousal
-  ipa: /ˈspaʊzl/
-  difference_vi: Spousal là thuộc về hôn phối vợ chồng; sponsor là người tài trợ hoặc động từ tài trợ.
-confusing_meanings:
-- difference_vi: Corporate sponsor = nhà tài trợ doanh nghiệp; visa sponsor = đơn vị bảo lãnh thị thực.
 collocations:
 - phrase: sponsor an event
   meaning_vi: tài trợ cho một sự kiện
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: corporate sponsor
   meaning_vi: nhà tài trợ cấp doanh nghiệp
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: official sponsor
   meaning_vi: nhà tài trợ chính thức
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: fund
   meaning_vi: rót vốn, cấp tiền
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: tài trợ kinh phí
 - word: back
   meaning_vi: hậu thuẫn tài chính
+confused_words:
+- word: spousal
+  ipa: /ˈspaʊzl/
+  difference_vi: Spousal là thuộc về hôn phối vợ chồng; sponsor là người tài trợ hoặc động từ tài trợ.
+confusing_meanings:
+- difference_vi: Corporate sponsor = nhà tài trợ doanh nghiệp; visa sponsor = đơn vị bảo lãnh thị thực.
 examples:
 - en: Several major tech corporations agreed to sponsor the international robotics exhibition.
   vi: Một số tập đoàn công nghệ lớn đã đồng ý tài trợ cho triển lãm chế tạo robot quốc tế.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

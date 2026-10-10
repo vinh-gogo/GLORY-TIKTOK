@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: survey
 lemma: survey
 pos:
@@ -10,33 +10,34 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-- management-operations
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
+- offices
 senses:
 - id: survey-1
   meaning_vi: Cuộc điều tra khảo sát ý kiến; (v) tiến hành khảo sát nghiên cứu
   note_vi: Công cụ lấy dữ liệu khách hàng hoặc đo lường mức độ gắn kết nhân viên.
-confused_words:
-- word: surveillance
-  ipa: /sɜːrˈveɪləns/
-  difference_vi: Surveillance là sự giám sát camera an ninh; survey là khảo sát thăm dò ý kiến.
-confusing_meanings:
-- difference_vi: Customer survey = khảo sát ý kiến khách hàng; land survey = đo đạc trắc địa đất đai.
 collocations:
 - phrase: conduct a survey
   meaning_vi: tiến hành một cuộc khảo sát ý kiến
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: survey results
   meaning_vi: kết quả khảo sát thống kê
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: customer satisfaction survey
   meaning_vi: khảo sát mức độ hài lòng của khách hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: poll
   meaning_vi: thăm dò dư luận
@@ -44,6 +45,12 @@ synonyms:
   meaning_vi: bảng câu hỏi khảo sát
 - word: investigation
   meaning_vi: cuộc điều tra tìm hiểu
+confused_words:
+- word: surveillance
+  ipa: /sɜːrˈveɪləns/
+  difference_vi: Surveillance là sự giám sát camera an ninh; survey là khảo sát thăm dò ý kiến.
+confusing_meanings:
+- difference_vi: Customer survey = khảo sát ý kiến khách hàng; land survey = đo đạc trắc địa đất đai.
 examples:
 - en: According to a recent employee survey, ninety percent favored a flexible hybrid work model.
   vi: Theo một cuộc khảo sát nhân viên gần đây, chín mươi phần trăm ủng hộ mô hình làm việc kết hợp linh hoạt.
@@ -54,6 +61,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

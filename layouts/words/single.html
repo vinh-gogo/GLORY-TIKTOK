@@ -1,253 +1,137 @@
 {{- define "main" }}
 {{- $w := .Params.word_data -}}
-{{- $wordId := .Params.word_id | default .File.ContentBaseName -}}
-{{- $lemma := $w.lemma | default .Title -}}
+{{- $id := $w.id -}}
+{{- $lemma := $w.lemma -}}
+{{- $band := $w.level.band -}}
+{{- $bandInfo := index hugo.Data.levels.bands $band -}}
+{{- $visible := partial "words-visible.html" . -}}
+{{- $isVisible := in (slice "ai_cross_checked" "human_verified") $w.review.status -}}
 
-<article class="post-single word-single-page">
-  <header class="post-header">
-    <div class="breadcrumbs">
-      <a href="/">Trang chủ</a>&nbsp;»&nbsp;<a href="/glossary/">Từ điển A–Z</a>&nbsp;»&nbsp;<span>{{ $lemma }}</span>
-    </div>
+{{- /* Từ trước / sau trong danh sách đã duyệt */ -}}
+{{- $prev := false }}{{ $next := false }}
+{{- range $i, $x := $visible }}
+  {{- if eq $x.id $id }}
+    {{- if gt $i 0 }}{{ $prev = index $visible (sub $i 1) }}{{ end }}
+    {{- if lt (add $i 1) (len $visible) }}{{ $next = index $visible (add $i 1) }}{{ end }}
+  {{- end }}
+{{- end }}
 
-    <div class="word-hero-box">
-      <div class="word-hero-left">
-        <h1 class="word-hero-title">{{ $lemma }}</h1>
-        <div class="word-hero-meta">
-          {{- with $w.pos }}
-            {{- range . }}
-            <span class="vocab-pos">{{ . }}</span>
-            {{- end }}
-          {{- end }}
-          {{- with $w.ipa.us }}
-          <span class="vocab-ipa">{{ . }}</span>
-          {{- end }}
-        </div>
-      </div>
+<article class="word" data-word="{{ $id }}">
+  <p class="crumb"><a href="/glossary/">← Từ vựng A–Z</a></p>
 
-      <div class="word-hero-right">
-        {{- with $w.level }}
-        <span class="vocab-level-badge">
-          {{- if eq .band "core" }}TOEIC Core (Nền tảng){{- else if eq .band "target" }}TOEIC Target (Mục tiêu){{- else }}TOEIC Advanced (Nâng cao){{- end }}
-          {{- with .cefr }} • {{ . }}{{- end }}
-        </span>
+  <header class="word-head">
+    <h1 class="word-lemma">{{ $lemma }}</h1>
+    <p class="word-ipa">
+      {{- with $w.ipa.us }}<span><abbr title="Giọng Mỹ">US</abbr> {{ . }}</span>{{ end }}
+      {{- with $w.ipa.uk }}<span><abbr title="Giọng Anh">UK</abbr> {{ . }}</span>{{ end }}
+    </p>
+    <p class="chips">
+      <span class="wcard-pos">{{ delimit $w.pos ", " }}</span>
+      <a class="chip band band-{{ $band }}" href="/levels/{{ $band }}/" title="Phân loại biên tập; CEFR {{ $bandInfo.cefr }} chỉ để tham khảo">{{ $bandInfo.label_vi }} · {{ $w.level.cefr | default $bandInfo.cefr }}</a>
+      {{- range $slug := $w.topics }}
+        {{- with index hugo.Data.topics.topics $slug }}
+      <a class="chip" href="/topics/{{ $slug }}/">{{ .name_vi }}</a>
         {{- end }}
-      </div>
-    </div>
+      {{- end }}
+    </p>
   </header>
 
-  <div class="post-content word-details-body">
-    <!-- Nghĩa chính -->
-    <section class="word-section word-meaning-section">
-      <h2>🎯 Định nghĩa & Sắc thái cốt lõi</h2>
-      {{- range $w.senses }}
-      <div class="word-sense-card">
-        <p class="word-meaning-main">{{ .meaning_vi }}</p>
-        {{- with .note_vi }}
-        <p class="word-meaning-note">💡 <em>Lưu ý ngữ cảnh: {{ . }}</em></p>
-        {{- end }}
-      </div>
-      {{- end }}
-    </section>
-
-    <!-- Collocations -->
-    {{- with $w.collocations }}
-    <section class="word-section word-collocations-section">
-      <h2>⚡ Cụm từ ghi điểm (Collocations)</h2>
-      <ul class="vocab-colloc-list">
-        {{- range . }}
-        <li class="vocab-colloc-item">
-          <span class="colloc-en">{{ .phrase }}</span>
-          <span class="colloc-arrow">➔</span>
-          <span class="colloc-vi">{{ .meaning_vi }}</span>
-        </li>
-        {{- end }}
-      </ul>
-    </section>
-    {{- end }}
-
-    <!-- Từ dễ nhầm mặt chữ / phát âm -->
-    {{- with $w.confused_words }}
-    <section class="word-section word-confused-section">
-      <h2>⚠️ Cặp từ dễ nhầm lẫn (Phát âm & Chính tả)</h2>
-      <div class="vocab-warning-box">
-        {{- range . }}
-        <div class="vocab-confused-item">
-          <div class="confused-top">
-            <span class="confused-word">{{ .word | default .ref }}</span>
-            {{- with .ipa }}<span class="confused-ipa">{{ . }}</span>{{- end }}
-            {{- with .meaning }}<span class="confused-meaning">: {{ . }}</span>{{- end }}
-          </div>
-          <div class="confused-diff">💡 <em>{{ .difference_vi }}</em></div>
-        </div>
-        {{- end }}
-      </div>
-    </section>
-    {{- end }}
-
-    <!-- Phân biệt sắc thái nghĩa -->
-    {{- with $w.confusing_meanings }}
-    <section class="word-section word-nuance-section">
-      <h2>🔍 Phân biệt sắc thái nghĩa trong bài thi</h2>
-      <div class="vocab-nuance-box">
-        {{- range . }}
-        <div class="vocab-nuance-item">
-          <div class="nuance-top">
-            <span class="nuance-word">{{ .word | default .ref }}</span>
-            {{- with .meaning }}<span class="nuance-meaning">: {{ . }}</span>{{- end }}
-          </div>
-          <div class="nuance-diff">👉 <em>{{ .difference_vi }}</em></div>
-        </div>
-        {{- end }}
-      </div>
-    </section>
-    {{- end }}
-
-    <!-- Từ đồng nghĩa -->
-    {{- with $w.synonyms }}
-    <section class="word-section word-synonyms-section">
-      <h2>🔄 Từ đồng nghĩa</h2>
-      <div class="vocab-chip-group">
-        {{- range . }}
-        <span class="vocab-chip chip-synonym">
-          <strong>{{ .word }}</strong>
-          {{- with .meaning_vi }}<span class="chip-sub">({{ . }})</span>{{- end }}
-        </span>
-        {{- end }}
-      </div>
-    </section>
-    {{- end }}
-
-    <!-- Ví dụ phản xạ -->
-    {{- with $w.examples }}
-    <section class="word-section word-examples-section">
-      <h2>💬 Câu ví dụ phản xạ song ngữ</h2>
-      {{- range . }}
-      <div class="vocab-example-card">
-        <p class="vocab-ex-en">“{{ .en }}”</p>
-        <p class="vocab-ex-vi">➔ <em>{{ .vi }}</em></p>
-      </div>
-      {{- end }}
-    </section>
-    {{- end }}
-
-    <!-- Mẹo phát âm cho người Việt -->
-    {{- with $w.pronunciation_tips_vi }}
-    <section class="word-section word-tips-section">
-      <h2>🗣️ Mẹo phát âm cho người Việt</h2>
-      <div class="practice-box">
-        <p>{{ . }}</p>
-      </div>
-    </section>
-    {{- end }}
-
-    <!-- Các bài học xuất hiện từ này -->
-    {{- $relatedSets := slice }}
-    {{- range where site.RegularPages "Section" "sets" }}
-      {{- if in .Params.words $wordId }}
-        {{- $relatedSets = $relatedSets | append . }}
-      {{- end }}
-    {{- end }}
-
-    {{- with $relatedSets }}
-    <section class="word-section word-sets-section">
-      <h2>📚 Xuất hiện trong các bài học TikTok</h2>
-      <div class="word-related-sets-list">
-        {{- range . }}
-        <a href="{{ .Permalink }}" class="word-set-card-link">
-          <span class="set-card-title">{{ .Title }}</span>
-          <span class="set-card-arrow">Xem bài học ➔</span>
-        </a>
-        {{- end }}
-      </div>
-    </section>
-    {{- end }}
-
-    {{- $prevWord := .NextInSection }}
-    {{- $nextWord := .PrevInSection }}
-
-    <!-- Bottom Study Navigator -->
-    <nav class="word-bottom-nav" aria-label="Điều hướng học từ vựng">
-      <div class="bottom-nav-inner">
-        {{- with $prevWord }}
-        <a href="{{ .Permalink }}" class="bottom-nav-card nav-card-prev" title="Học từ trước: {{ .Title }}{{ with .Params.summary }} — {{ . }}{{ end }} (Phím ←)">
-          <span class="card-arrow">←</span>
-          <div class="card-text">
-            <span class="card-hint">Từ trước <kbd class="nav-kbd">←</kbd></span>
-            <strong class="card-word">{{ .Title }}</strong>
-            {{- with .Params.summary }}<span class="card-summary">{{ . | truncate 36 }}</span>{{- end }}
-          </div>
-        </a>
-        {{- else }}
-        <div class="bottom-nav-card nav-card-prev is-empty">
-          <span class="card-hint">🏁 Đầu danh sách từ điển</span>
-        </div>
-        {{- end }}
-
-        <a href="/glossary/" class="bottom-nav-center" title="Xem danh mục Từ điển A–Z">
-          <span class="center-icon">📖</span>
-          <span class="center-text">Từ điển A–Z</span>
-        </a>
-
-        {{- with $nextWord }}
-        <a href="{{ .Permalink }}" class="bottom-nav-card nav-card-next" title="Học từ tiếp theo: {{ .Title }}{{ with .Params.summary }} — {{ . }}{{ end }} (Phím →)">
-          <div class="card-text">
-            <span class="card-hint">Từ tiếp theo <kbd class="nav-kbd">→</kbd></span>
-            <strong class="card-word">{{ .Title }}</strong>
-            {{- with .Params.summary }}<span class="card-summary">{{ . | truncate 36 }}</span>{{- end }}
-          </div>
-          <span class="card-arrow">→</span>
-        </a>
-        {{- else }}
-        <div class="bottom-nav-card nav-card-next is-empty">
-          <span class="card-hint">🏁 Cuối danh sách từ điển</span>
-        </div>
-        {{- end }}
-      </div>
-    </nav>
-
-    <!-- Footer Report Error -->
-    <div class="word-page-footer">
-      <a href="https://github.com/vinh-gogo/GLORY-TIKTOK/issues/new?template=content-error.yml&page_url={{ .Permalink }}&word_id={{ $wordId }}" target="_blank" rel="noopener noreferrer" class="vocab-card-report">
-        🚩 Phát hiện lỗi ở từ này? Bấm vào đây để báo lỗi biên tập
-      </a>
-    </div>
+  {{- if not $isVisible }}
+  <div class="notice" role="note">
+    <strong>Mục này đang chờ duyệt.</strong>
+    {{- with $w.review.reason }} {{ . }}{{ end }}
+    Nội dung có thể chưa chính xác — vui lòng đối chiếu thêm.
   </div>
+  {{- end }}
 
-  <!-- Floating Side Navigation (Left / Right Flanks) -->
-  <aside class="word-side-nav" aria-label="Nút di chuyển học từ vựng nhanh">
-    {{- with $prevWord }}
-    <a href="{{ .Permalink }}" class="word-side-btn word-side-prev" id="wordNavPrev" title="Học từ trước: {{ .Title }} (Phím ←)" aria-label="Từ trước: {{ .Title }}">
-      <span class="side-arrow-icon">❮</span>
-      <span class="side-label">
-        <span class="side-sub">Từ trước <kbd>←</kbd></span>
-        <strong class="side-word">{{ .Title }}</strong>
-      </span>
-    </a>
+  <section class="wsec">
+    <h2>Nghĩa</h2>
+    {{- range $w.senses }}
+    <div class="sense">
+      <p class="sense-mean">{{ .meaning_vi }}</p>
+      {{- with .note_vi }}<p class="muted">{{ . }}</p>{{ end }}
+    </div>
     {{- end }}
+  </section>
 
-    {{- with $nextWord }}
-    <a href="{{ .Permalink }}" class="word-side-btn word-side-next" id="wordNavNext" title="Học từ tiếp theo: {{ .Title }} (Phím →)" aria-label="Từ tiếp theo: {{ .Title }}">
-      <span class="side-label">
-        <span class="side-sub">Từ tiếp <kbd>→</kbd></span>
-        <strong class="side-word">{{ .Title }}</strong>
-      </span>
-      <span class="side-arrow-icon">❯</span>
-    </a>
+  {{- with $w.collocations }}
+  <section class="wsec">
+    <h2>Collocations</h2>
+    <ul class="colloc">
+      {{- range . }}
+      {{- $p := .phrase | htmlEscape }}
+      {{- $hl := replaceRE (printf "(?i)(%s)" ($lemma | htmlEscape)) "<strong>${1}</strong>" $p }}
+      <li><span class="colloc-en">{{ $hl | safeHTML }}</span><span class="colloc-vi">{{ .meaning_vi }}</span></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- with $w.examples }}
+  <section class="wsec">
+    <h2>Ví dụ</h2>
+    {{- range . }}
+    <blockquote class="example"><p class="ex-en">{{ .en }}</p><p class="ex-vi">{{ .vi }}</p></blockquote>
     {{- end }}
-  </aside>
+  </section>
+  {{- end }}
 
-  <!-- Keyboard Shortcut Listener -->
-  <script>
-    document.addEventListener('keydown', function(e) {
-      if (['input', 'textarea', 'select'].includes(document.activeElement.tagName.toLowerCase())) return;
-      if (e.key === 'ArrowLeft') {
-        var prev = document.getElementById('wordNavPrev');
-        if (prev && prev.href) prev.click();
-      } else if (e.key === 'ArrowRight') {
-        var next = document.getElementById('wordNavNext');
-        if (next && next.href) next.click();
-      }
-    });
-  </script>
+  {{- with $w.synonyms }}
+  <section class="wsec">
+    <h2>Từ đồng nghĩa</h2>
+    <ul class="syn">
+      {{- range . }}
+      <li><strong>{{ .word }}</strong>{{ with .meaning_vi }} — {{ . }}{{ end }}</li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+
+  {{- with $w.pronunciation_tips_vi }}
+  <section class="wsec">
+    <h2>Mẹo phát âm</h2>
+    <p>{{ . }}</p>
+  </section>
+  {{- end }}
+
+  {{- if or $w.confused_words $w.confusing_meanings }}
+  <details class="wsec fold">
+    <summary>Dễ nhầm lẫn</summary>
+    {{- range $w.confused_words }}
+    <div class="confuse">
+      <p><strong>{{ .word | default .ref }}</strong>{{ with .ipa }} <span class="word-ipa-inline">{{ . }}</span>{{ end }}{{ with .meaning }} — {{ . }}{{ end }}</p>
+      <p class="muted">{{ .difference_vi }}</p>
+    </div>
+    {{- end }}
+    {{- range $w.confusing_meanings }}
+    <div class="confuse">
+      {{- with (.word | default .ref) }}<p><strong>{{ . }}</strong></p>{{ end }}
+      <p class="muted">{{ .difference_vi }}</p>
+    </div>
+    {{- end }}
+  </details>
+  {{- end }}
+
+  {{- /* Bộ từ theo video có chứa từ này */ -}}
+  {{- $sets := slice }}
+  {{- range where site.RegularPages "Section" "sets" }}
+    {{- if in .Params.words $id }}{{ $sets = $sets | append . }}{{ end }}
+  {{- end }}
+  {{- with $sets }}
+  <section class="wsec">
+    <h2>Xuất hiện trong video</h2>
+    {{- range . }}<a class="setcard" href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>{{ end }}
+  </section>
+  {{- end }}
+
+  <nav class="word-nav" aria-label="Chuyển từ">
+    {{- if $prev }}<a class="btn" rel="prev" id="wordNavPrev" href="/words/{{ $prev.id }}/">← {{ $prev.lemma }}</a>{{ else }}<span></span>{{ end }}
+    {{- if $next }}<a class="btn" rel="next" id="wordNavNext" href="/words/{{ $next.id }}/">{{ $next.lemma }} →</a>{{ else }}<span></span>{{ end }}
+  </nav>
+
+  <div class="word-actions">
+    <button type="button" class="btn" data-share data-title="{{ $lemma }} — Glory 01" data-url="{{ .Permalink }}">Chia sẻ</button>
+    <a class="btn" target="_blank" rel="noopener noreferrer" href="{{ site.Params.issueURL }}&amp;page_url={{ .Permalink | urlquery }}&amp;word_id={{ $id | urlquery }}">Báo lỗi</a>
+  </div>
 </article>
 {{- end }}

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: dismiss
 lemma: dismiss
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- human-resources
-- management-operations
-speaking_use:
-- respond-to-questions
-- express-opinion
+- personnel
+- offices
 senses:
 - id: dismiss-1
   meaning_vi: Sa thải nhân viên; bác bỏ một ý tưởng hoặc khiếu nại
   note_vi: Dùng trong văn cảnh nhân sự chính thức tương đương fire hoặc lay off.
-confused_words:
-- word: miss
-  ipa: /mɪs/
-  difference_vi: Miss là bỏ lỡ hoặc nhớ; dismiss là sa thải hoặc gạt bỏ ý kiến.
-confusing_meanings:
-- difference_vi: Dismiss an employee = sa thải nhân viên; dismiss an idea = gạt bỏ ý tưởng coi là không đáng quan tâm.
 collocations:
 - phrase: dismiss an employee
   meaning_vi: sa thải một nhân viên
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: dismiss an idea
   meaning_vi: gạt bỏ một ý kiến
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: wrongfully dismissed
   meaning_vi: bị sa thải trái pháp luật
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: fire
   meaning_vi: sa thải
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: cho xuất viện / cho thôi việc
 - word: lay off
   meaning_vi: cho nghỉ việc vì giảm biên chế
+confused_words:
+- word: miss
+  ipa: /mɪs/
+  difference_vi: Miss là bỏ lỡ hoặc nhớ; dismiss là sa thải hoặc gạt bỏ ý kiến.
+confusing_meanings:
+- difference_vi: Dismiss an employee = sa thải nhân viên; dismiss an idea = gạt bỏ ý tưởng coi là không đáng quan tâm.
 examples:
 - en: The manager decided to dismiss the complaint because there was insufficient evidence.
   vi: Người quản lý đã quyết định bác bỏ khiếu nại vì không có đủ bằng chứng.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

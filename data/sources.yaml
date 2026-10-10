@@ -1,0 +1,122 @@
+# Danh mục nguồn được phép dùng trong `level.basis`, `collocations[].evidence.source`, `review.checked_by`, `review.sources`.
+# `independent: true` = nguồn đối chiếu độc lập (được tính cho quy tắc V10).
+# `license_checked: null` = CHƯA kiểm tra giấy phép từ văn bản gốc; `license_claimed` chỉ là thông tin thứ cấp.
+schema_version: 1
+
+sources:
+  # --- Nội bộ (KHÔNG độc lập) ---
+  glory-editorial:
+    name: "Biên tập Glory 01"
+    independent: false
+  vocabulary-md:
+    name: "vocabulary.md (danh sách ứng viên nội bộ)"
+    independent: false
+  synonyms-md:
+    name: "synonyms.md (danh sách ứng viên nội bộ)"
+    independent: false
+  unverified:
+    name: "Dữ liệu cũ chưa ghi bằng chứng cụ thể (legacy)"
+    independent: false
+
+  # --- Đối chiếu độc lập ---
+  cmudict:
+    name: "CMU Pronouncing Dictionary"
+    url: "http://www.speech.cs.cmu.edu/cgi-bin/cmudict"
+    independent: true
+    usage: compare
+    license_claimed: "BSD-style (chưa kiểm tra)"
+    license_checked: "2026-10-11"
+    license_url: "https://raw.githubusercontent.com/cmusphinx/cmudict/master/LICENSE"
+    license_note: "Đã đọc văn bản gốc: giấy phép dạng BSD (giữ thông báo bản quyền khi phân phối lại). Chỉ dùng đối chiếu, không phân phối lại dữ liệu."
+  oxford-ref:
+    name: "Oxford Learner's Dictionaries (chỉ đối chiếu, không chép câu chữ)"
+    independent: true
+    usage: compare
+    license_checked: null
+  cambridge-ref:
+    name: "Cambridge Dictionary (chỉ đối chiếu, không chép câu chữ)"
+    independent: true
+    usage: compare
+    license_checked: null
+  model-b:
+    name: "Mô hình AI thứ hai đọc chéo"
+    independent: true
+  ai-model-cross-check:
+    name: "Đối chiếu chéo bởi mô hình AI"
+    independent: true
+  wordnet:
+    name: "Princeton WordNet"
+    url: "https://wordnet.princeton.edu/"
+    independent: true
+    usage: compare
+    license_checked: null
+    license_secondary_checked: "2026-10-11"
+    license_note: "Trang wordnet.princeton.edu trả 403 khi truy cập; văn bản giấy phép WordNet 3.0 chỉ đọc qua kết quả tìm kiếm (thứ cấp): cho phép dùng/sao chép/phân phối không phí nếu giữ nguyên thông báo bản quyền và tuyên bố miễn trừ. Cần đọc bản gốc trước khi dùng dữ liệu."
+  wiktionary:
+    name: "Wiktionary"
+    url: "https://www.wiktionary.org/"
+    independent: true
+    usage: compare
+    license_claimed: "CC BY-SA (chưa kiểm tra)"
+    license_checked: "2026-10-11"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+    license_note: "Trang en.wiktionary.org/wiki/Wiktionary:Copyrights khai báo CC BY-SA 4.0 (rel=license). Chỉ đối chiếu; chép nội dung sẽ kéo theo ShareAlike."
+  ngram:
+    name: "Google Books Ngram Viewer"
+    url: "https://books.google.com/ngrams"
+    independent: true
+    usage: evidence
+    license_checked: null
+  skell:
+    name: "SkELL (Sketch Engine for Language Learning)"
+    url: "https://skell.sketchengine.eu/"
+    independent: true
+    usage: evidence
+    license_checked: null
+  languagetool:
+    name: "LanguageTool"
+    url: "https://languagetool.org/"
+    independent: true
+    usage: compare
+    license_checked: null
+
+  # --- Danh sách tần suất / cấp độ (dùng cho level.basis) ---
+  tsl:
+    name: "TOEIC Service List 1.2 (Browne & Culligan)"
+    url: "https://www.newgeneralservicelist.com/toeic-service-list"
+    independent: true
+    usage: data
+    license_claimed: "CC BY-SA 4.0"
+    license_checked: "2026-10-11"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    license_note: "Đã đọc trực tiếp trên trang TSL: 'licensed under a Creative Commons Attribution-ShareAlike 4.0 International License'. 1.250 mục (đếm trong tệp TSL_12_stats.csv). Xây từ kho ngữ liệu 1,5 triệu từ gồm giáo trình/đề luyện thi TOEIC (KHÔNG phải danh sách do ETS công bố). TSL là phần bổ sung ngoài NGSL (giao = 0). Chỉ có thứ hạng tần suất, không có cấp độ."
+    attribution_required: true
+    sharealike: true
+  bsl:
+    name: "Business Service List (Browne & Culligan)"
+    url: "https://www.newgeneralservicelist.com/"
+    independent: true
+    usage: data
+    license_claimed: "CC BY-SA 4.0 (chưa kiểm tra văn bản gốc)"
+    license_checked: null
+    attribution_required: true
+  ngsl:
+    name: "New General Service List 1.2"
+    url: "https://www.newgeneralservicelist.com/new-general-service-list"
+    independent: true
+    usage: data
+    license_claimed: "CC BY-SA 4.0"
+    license_checked: "2026-10-11"
+    license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+    license_note: "Đã đọc trực tiếp trên trang NGSL: CC BY-SA 4.0. 2.809 mục (đếm trong tệp NGSL_12_stats.csv). Phủ ~92% văn bản tiếng Anh phổ thông và ~94% đề TOEIC theo tuyên bố của nhóm tác giả (chưa tự kiểm chứng)."
+    attribution_required: true
+    sharealike: true
+
+  cefr-j:
+    name: "CEFR-J Wordlist"
+    independent: true
+    usage: data
+    license_checked: null
+  editorial:
+    name: "Phân loại biên tập (chưa có danh sách tần suất đối chiếu)"
+    independent: false

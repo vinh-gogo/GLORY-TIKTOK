@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: complimentary
 lemma: complimentary
 pos:
@@ -9,17 +9,39 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- sales-customer-service
-- hospitality-travel
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- general-business
+- travel
 senses:
 - id: complimentary-1
   meaning_vi: Miễn phí, được tặng kèm như một dịch vụ ưu đãi
   note_vi: Rất hay gặp trong nhà hàng, khách sạn và các chuyến bay (complimentary breakfast/beverage).
+collocations:
+- phrase: complimentary breakfast
+  meaning_vi: bữa ăn sáng miễn phí
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: complimentary ticket
+  meaning_vi: vé mời xem miễn phí
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: complimentary shuttle service
+  meaning_vi: dịch vụ xe đưa đón miễn phí
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: free of charge
+  meaning_vi: miễn phí hoàn toàn
+- word: courtesy
+  meaning_vi: mang tính đãi ngộ lịch thiệp
 confused_words:
 - word: complementary
   ipa: /ˌkɑːmplɪˈmentri/
@@ -27,21 +49,6 @@ confused_words:
     (có chữ ''i'') là miễn phí hoặc khen ngợi.'
 confusing_meanings:
 - difference_vi: Complimentary breakfast = bữa sáng miễn phí kèm phòng; complimentary remarks = lời ngợi khen tán dương.
-collocations:
-- phrase: complimentary breakfast
-  meaning_vi: bữa ăn sáng miễn phí
-  evidence: corpus
-- phrase: complimentary ticket
-  meaning_vi: vé mời xem miễn phí
-  evidence: corpus
-- phrase: complimentary shuttle service
-  meaning_vi: dịch vụ xe đưa đón miễn phí
-  evidence: corpus
-synonyms:
-- word: free of charge
-  meaning_vi: miễn phí hoàn toàn
-- word: courtesy
-  meaning_vi: mang tính đãi ngộ lịch thiệp
 examples:
 - en: Hotel guests can enjoy complimentary Wi-Fi and access to the fitness center during their stay.
   vi: Khách lưu trú tại khách sạn được sử dụng Wi-Fi miễn phí và vào trung tâm thể hình trong suốt kỳ nghỉ.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

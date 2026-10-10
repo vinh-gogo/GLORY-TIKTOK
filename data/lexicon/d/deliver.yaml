@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: deliver
 lemma: deliver
 pos:
@@ -6,16 +6,13 @@ pos:
 ipa:
   us: /dɪˈlɪvər/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- logistics
-- shopping
-- transport
-speaking_use:
-- read-aloud
-- respond-to-questions
+- purchasing
+- travel
 senses:
 - id: deliver-1
   meaning_vi: Giao hàng, chuyển phát hàng hóa / Phát biểu bài nói
@@ -23,40 +20,48 @@ senses:
 collocations:
 - phrase: deliver a package
   meaning_vi: giao một bưu kiện
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: prompt delivery
   meaning_vi: việc giao hàng nhanh chóng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: deliver a speech
   meaning_vi: đọc một bài phát biểu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: delivered on time
   meaning_vi: được giao đúng hẹn
-  evidence: corpus
-confused_words:
-- word: deliberate
-  ipa: /dɪˈlɪbərət/
-  meaning: cố tình, có chủ ý
-  kind: spelling-sound
-  difference_vi: Deliver là giao nhận hàng hóa; deliberate mang nghĩa cố ý làm việc
-    gì hoặc suy xét thận trọng.
-confusing_meanings:
-- word: ship
-  meaning: gửi hàng qua hãng vận chuyển
-  difference_vi: Ship là gửi hàng đi xa trên phương tiện vận tải; deliver là giao
-    hàng tới tận tay người nhận ở bước cuối.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: transport
   meaning_vi: vận chuyển
 - word: distribute
   meaning_vi: phân phối
+confused_words:
+- word: deliberate
+  ipa: /dɪˈlɪbərət/
+  meaning: cố tình, có chủ ý
+  kind: spelling-sound
+  difference_vi: Deliver là giao nhận hàng hóa; deliberate mang nghĩa cố ý làm việc gì hoặc suy xét thận trọng.
+confusing_meanings:
+- word: ship
+  meaning: gửi hàng qua hãng vận chuyển
+  difference_vi: Ship là gửi hàng đi xa trên phương tiện vận tải; deliver là giao hàng tới tận tay người nhận ở bước cuối.
 examples:
-- en: The courier company guarantees that your urgent package will be delivered before
-    noon tomorrow.
-  vi: Công ty chuyển phát nhanh cam kết rằng kiện hàng khẩn cấp của bạn sẽ được giao
-    trước trưa mai.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈlɪv-/. Âm đầu là /dɪ-/,
-  âm cuối /-vər/ rung nhẹ môi dưới và cong lưỡi âm /r/.
+- en: The courier company guarantees that your urgent package will be delivered before noon tomorrow.
+  vi: Công ty chuyển phát nhanh cam kết rằng kiện hàng khẩn cấp của bạn sẽ được giao trước trưa mai.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈlɪv-/. Âm đầu là /dɪ-/, âm cuối /-vər/ rung nhẹ môi dưới và cong
+  lưỡi âm /r/.
 review:
   status: ai_cross_checked
   checked_by:

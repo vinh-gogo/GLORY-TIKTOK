@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: postpone
 lemma: postpone
 pos:
@@ -6,48 +6,53 @@ pos:
 ipa:
   us: /poʊstˈpoʊn/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- work
-speaking_use:
-- respond-to-questions
+- offices
 senses:
 - id: postpone-1
   meaning_vi: Trì hoãn, tạm hoãn một sự kiện hoặc hoạt động đã lên kế hoạch
+collocations:
+- phrase: postpone indefinitely
+  meaning_vi: Tạm hoãn vô thời hạn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: decide to postpone
+  meaning_vi: Quyết định dời lại thời gian
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: postpone due to weather
+  meaning_vi: Hoãn lại vì thời tiết xấu
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: put off
+  meaning_vi: trì hoãn
+- word: delay
+  meaning_vi: làm chậm trễ
 confused_words:
 - ref: propose
   word: propose
   ipa: /prəˈpoʊz/
   meaning: Đề xuất, đưa ra ý kiến
   kind: spelling-sound
-  difference_vi: Tránh phát âm nhầm âm đầu post- /poʊst/ và pro- /prə/; nghĩa hoàn
-    toàn khác biệt
+  difference_vi: Tránh phát âm nhầm âm đầu post- /poʊst/ và pro- /prə/; nghĩa hoàn toàn khác biệt
 confusing_meanings:
 - ref: cancel
   word: cancel
   meaning: Hủy bỏ hoàn toàn (không còn diễn ra nữa)
-  difference_vi: Postpone là tạm hoãn nhưng vẫn sẽ diễn ra sau này; cancel là hủy
-    bỏ vĩnh viễn
-collocations:
-- phrase: postpone indefinitely
-  meaning_vi: Tạm hoãn vô thời hạn
-  evidence: corpus
-- phrase: decide to postpone
-  meaning_vi: Quyết định dời lại thời gian
-  evidence: corpus
-- phrase: postpone due to weather
-  meaning_vi: Hoãn lại vì thời tiết xấu
-  evidence: corpus
-synonyms:
-- word: put off
-  meaning_vi: trì hoãn
-- word: delay
-  meaning_vi: làm chậm trễ
+  difference_vi: Postpone là tạm hoãn nhưng vẫn sẽ diễn ra sau này; cancel là hủy bỏ vĩnh viễn
 examples:
-- en: The marketing director decided to postpone the annual conference until next
-    month.
+- en: The marketing director decided to postpone the annual conference until next month.
   vi: Giám đốc tiếp thị đã quyết định hoãn hội nghị thường niên cho đến tháng sau.
 review:
   status: ai_cross_checked

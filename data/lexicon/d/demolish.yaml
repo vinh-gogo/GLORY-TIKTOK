@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: demolish
 lemma: demolish
 pos:
@@ -9,32 +9,33 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- real-estate-construction
-speaking_use:
-- respond-with-info
-- express-opinion
+- housing-property
 senses:
 - id: demolish-1
   meaning_vi: Phá dỡ, đánh sập công trình xây dựng cũ để giải phóng mặt bằng
   note_vi: Hành động san phẳng tòa nhà hư hại để xây dựng công trình mới.
-confused_words:
-- word: abolish
-  ipa: /əˈbɑːlɪʃ/
-  difference_vi: Abolish là bãi bỏ luật lệ, phong tục; demolish là phá hủy, đập bỏ công trình vật chất.
-confusing_meanings:
-- difference_vi: Demolish a building = đập bỏ tòa nhà; demolish an argument = đập tan luận điểm phản biện hoàn toàn.
 collocations:
 - phrase: demolish a building
   meaning_vi: phá dỡ một tòa nhà
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: scheduled for demolition
   meaning_vi: đã lên lịch để phá dỡ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: demolish to make way for
   meaning_vi: phá dỡ để nhường chỗ xây dựng công trình mới
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: tear down
   meaning_vi: kéo đổ, dỡ bỏ
@@ -42,6 +43,12 @@ synonyms:
   meaning_vi: san bằng
 - word: destroy
   meaning_vi: phá hủy
+confused_words:
+- word: abolish
+  ipa: /əˈbɑːlɪʃ/
+  difference_vi: Abolish là bãi bỏ luật lệ, phong tục; demolish là phá hủy, đập bỏ công trình vật chất.
+confusing_meanings:
+- difference_vi: Demolish a building = đập bỏ tòa nhà; demolish an argument = đập tan luận điểm phản biện hoàn toàn.
 examples:
 - en: The abandoned factory will be demolished next week to make way for a modern community park.
   vi: Nhà máy bỏ hoang sẽ bị phá dỡ vào tuần tới để nhường chỗ cho một công viên cộng đồng hiện đại.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

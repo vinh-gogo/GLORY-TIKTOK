@@ -1,31 +1,30 @@
+{{- /* Sinh /words/<id>/ từ data/lexicon (schema v3). Mọi mục từ đều có trang (giữ URL); danh sách chỉ hiện từ đủ điều kiện. */ -}}
 {{- $allWords := slice }}
-{{- range $initial, $words := site.Data.lexicon }}
+{{- range $initial, $words := hugo.Data.lexicon }}
   {{- range $id, $word := $words }}
     {{- $allWords = $allWords | append $word }}
   {{- end }}
 {{- end }}
 {{- $sortedWords := sort $allWords "lemma" "asc" }}
 {{- range $index, $word := $sortedWords }}
-  {{- $meaning := "" }}
-  {{- with $word.senses }}
-    {{- $meaning = (index . 0).meaning_vi }}
-  {{- end }}
-  {{- $contentVal := printf "## Định nghĩa\n\n%s\n" $meaning }}
-  {{- $contentDict := dict "mediaType" "text/markdown" "value" $contentVal }}
+  {{- /* ai_draft: bản nháp chưa đối chiếu → không tạo trang (pipeline nhập lô tạo mục ở trạng thái này). */ -}}
+  {{- if ne $word.review.status "ai_draft" }}
+  {{- $meaning := (index $word.senses 0).meaning_vi }}
   {{- $page := dict
     "path" $word.id
     "title" $word.lemma
     "weight" (add $index 1)
     "kind" "page"
-    "content" $contentDict
     "params" (dict
       "word_id" $word.id
       "lemma" $word.lemma
       "word_data" $word
       "summary" $meaning
       "topics" $word.topics
-      "parts" $word.speaking_use
+      "levels" (slice $word.level.band)
+      "review_status" $word.review.status
     )
   }}
   {{- $.AddPage $page }}
+  {{- end }}
 {{- end }}

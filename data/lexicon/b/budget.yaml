@@ -1,64 +1,73 @@
-schema_version: 2
+schema_version: 3
 id: budget
 lemma: budget
 pos:
-  - noun
-  - verb
+- noun
+- verb
 ipa:
-  us: "/ˈbʌdʒɪt/"
+  us: /ˈbʌdʒɪt/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - budget
-  - banking
-  - business
-speaking_use:
-  - respond-with-info
-  - respond-to-questions
-  - express-opinion
+- finance-budgeting
+- general-business
 senses:
-  - id: budget-1
-    meaning_vi: "Ngân sách (khoản tiền dự trù) / Lập kế hoạch chi tiêu"
-    note_vi: "Từ trọng tâm trong mọi bối cảnh dự án, hội nghị, cắt giảm chi phí hoặc phân bổ tài chính công ty."
+- id: budget-1
+  meaning_vi: Ngân sách (khoản tiền dự trù) / Lập kế hoạch chi tiêu
+  note_vi: Từ trọng tâm trong mọi bối cảnh dự án, hội nghị, cắt giảm chi phí hoặc phân bổ tài chính công ty.
 collocations:
-  - phrase: "within budget"
-    meaning_vi: "trong giới hạn ngân sách cho phép"
-    evidence: "corpus"
-  - phrase: "exceed the budget"
-    meaning_vi: "vượt quá ngân sách dự kiến"
-    evidence: "corpus"
-  - phrase: "tight budget"
-    meaning_vi: "ngân sách eo hẹp, thắt chặt"
-    evidence: "corpus"
-  - phrase: "allocate a budget"
-    meaning_vi: "phân bổ ngân sách cho dự án"
-    evidence: "corpus"
-confused_words:
-  - word: "buffet"
-    ipa: "/bəˈfeɪ/"
-    meaning: "tiệc đứng, tiệc tự chọn"
-    kind: "spelling"
-    difference_vi: "Budget kết thúc bằng âm /dʒɪt/ nghĩa là ngân sách; buffet phát âm /bəˈfeɪ/ chỉ hình thức ăn tiệc tự chọn."
-confusing_meanings:
-  - word: "fund"
-    meaning: "quỹ tiền hiện có sẵn cho mục đích cụ thể"
-    difference_vi: "Budget là bảng dự toán thu chi đã được phê duyệt; fund là khoản tiền mặt thực tế đã có sẵn để chi trả."
+- phrase: within budget
+  meaning_vi: trong giới hạn ngân sách cho phép
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: exceed the budget
+  meaning_vi: vượt quá ngân sách dự kiến
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: tight budget
+  meaning_vi: ngân sách eo hẹp, thắt chặt
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: allocate a budget
+  meaning_vi: phân bổ ngân sách cho dự án
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "financial plan"
-    meaning_vi: "kế hoạch tài chính"
+- word: financial plan
+  meaning_vi: kế hoạch tài chính
+confused_words:
+- word: buffet
+  ipa: /bəˈfeɪ/
+  meaning: tiệc đứng, tiệc tự chọn
+  kind: spelling
+  difference_vi: Budget kết thúc bằng âm /dʒɪt/ nghĩa là ngân sách; buffet phát âm /bəˈfeɪ/ chỉ hình thức ăn tiệc tự chọn.
+confusing_meanings:
+- word: fund
+  meaning: quỹ tiền hiện có sẵn cho mục đích cụ thể
+  difference_vi: Budget là bảng dự toán thu chi đã được phê duyệt; fund là khoản tiền mặt thực tế đã có sẵn để chi trả.
 examples:
-  - en: "We need to ensure that the marketing campaign stays strictly within budget."
-    vi: "Chúng ta cần đảm bảo rằng chiến dịch tiếp thị phải nằm nghiêm ngặt trong phạm vi ngân sách."
-pronunciation_tips_vi: "Trọng âm rơi vào âm tiết đầu /ˈbʌ/. Chú ý âm giữa là /dʒ/ (giống âm 'j'), đuôi âm /-ɪt/ dứt khoát, không đọc thành 'bút-ghét'."
+- en: We need to ensure that the marketing campaign stays strictly within budget.
+  vi: Chúng ta cần đảm bảo rằng chiến dịch tiếp thị phải nằm nghiêm ngặt trong phạm vi ngân sách.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈbʌ/. Chú ý âm giữa là /dʒ/ (giống âm 'j'), đuôi âm /-ɪt/ dứt khoát,
+  không đọc thành 'bút-ghét'.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

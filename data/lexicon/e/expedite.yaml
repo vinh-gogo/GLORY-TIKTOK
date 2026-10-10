@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: expedite
 lemma: expedite
 pos:
@@ -6,58 +6,62 @@ pos:
 ipa:
   us: /ˈekspədaɪt/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- logistics
-- customer-service
-- business
-speaking_use:
-- respond-to-questions
-- express-opinion
+- purchasing
+- general-business
 senses:
 - id: expedite-1
   meaning_vi: Xử lý nhanh, đẩy nhanh tiến độ (giao hàng, thủ tục, giải quyết sự cố)
-  note_vi: Từ vựng trang trọng thường dùng trong chăm sóc khách hàng và chuyển phát
-    hỏa tốc.
+  note_vi: Từ vựng trang trọng thường dùng trong chăm sóc khách hàng và chuyển phát hỏa tốc.
 collocations:
 - phrase: expedite delivery
   meaning_vi: đẩy nhanh tiến độ giao hàng hỏa tốc
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: expedite the process
   meaning_vi: đẩy nhanh quy trình xử lý
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: expedite a shipment
   meaning_vi: thúc đẩy chuyển phát đơn hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: pay extra to expedite
   meaning_vi: trả thêm phụ phí để chuyển phát nhanh
-  evidence: corpus
-confused_words:
-- word: expect
-  ipa: /ɪkˈspekt/
-  meaning: kỳ vọng, mong chờ
-  kind: spelling-sound
-  difference_vi: Expedite là xúc tiến đẩy nhanh quy trình; expect mang nghĩa chờ đợi
-    hoặc kỳ vọng.
-confusing_meanings:
-- word: accelerate
-  meaning: tăng tốc độ chuyển động
-  difference_vi: Accelerate là tăng vận tốc vật lý; expedite là đẩy nhanh tiến độ
-    xử lý thủ tục hành chính hoặc tiến trình đơn hàng.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: speed up
   meaning_vi: tăng tốc
 - word: accelerate
   meaning_vi: đẩy nhanh
+confused_words:
+- word: expect
+  ipa: /ɪkˈspekt/
+  meaning: kỳ vọng, mong chờ
+  kind: spelling-sound
+  difference_vi: Expedite là xúc tiến đẩy nhanh quy trình; expect mang nghĩa chờ đợi hoặc kỳ vọng.
+confusing_meanings:
+- word: accelerate
+  meaning: tăng tốc độ chuyển động
+  difference_vi: Accelerate là tăng vận tốc vật lý; expedite là đẩy nhanh tiến độ xử lý thủ tục hành chính hoặc tiến trình
+    đơn hàng.
 examples:
-- en: We requested the supplier to expedite the shipment so we could meet our project
-    deadline.
-  vi: Chúng tôi đã yêu cầu nhà cung cấp đẩy nhanh tiến độ giao hàng để có thể kịp
-    hạn chót của dự án.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈeks-/. Âm đuôi là /-daɪt/ với
-  nguyên âm đôi /aɪ/ và bật nhẹ âm /t/.
+- en: We requested the supplier to expedite the shipment so we could meet our project deadline.
+  vi: Chúng tôi đã yêu cầu nhà cung cấp đẩy nhanh tiến độ giao hàng để có thể kịp hạn chót của dự án.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈeks-/. Âm đuôi là /-daɪt/ với nguyên âm đôi /aɪ/ và bật nhẹ âm /t/.
 review:
   status: ai_cross_checked
   checked_by:

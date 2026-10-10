@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: minutes
 lemma: minutes
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- meetings-office
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- offices
 senses:
 - id: minutes-1
   meaning_vi: Biên bản cuộc họp, văn bản ghi chép tóm tắt nội dung và các nghị quyết đã thông qua
   note_vi: Luôn ở dạng số nhiều khi mang nghĩa biên bản cuộc họp.
+collocations:
+- phrase: take the minutes
+  meaning_vi: ghi chép biên bản cuộc họp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: approve the minutes
+  meaning_vi: thông qua biên bản cuộc họp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: distribute the minutes
+  meaning_vi: gửi phát biên bản cuộc họp cho các bên
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: meeting records
+  meaning_vi: hồ sơ ghi chép cuộc họp
+- word: official proceedings
+  meaning_vi: biên bản nghị sự chính thức
 confused_words:
 - word: minute
   ipa: /maɪˈnuːt/
   difference_vi: Minute tính từ là cực nhỏ, vi mô (/maɪˈnuːt/); minutes danh từ số nhiều là biên bản họp (/ˈmɪnɪts/).
 confusing_meanings:
 - difference_vi: Minutes of the meeting = biên bản cuộc họp; five minutes = khoảng thời gian 5 phút.
-collocations:
-- phrase: take the minutes
-  meaning_vi: ghi chép biên bản cuộc họp
-  evidence: corpus
-- phrase: approve the minutes
-  meaning_vi: thông qua biên bản cuộc họp
-  evidence: corpus
-- phrase: distribute the minutes
-  meaning_vi: gửi phát biên bản cuộc họp cho các bên
-  evidence: corpus
-synonyms:
-- word: meeting records
-  meaning_vi: hồ sơ ghi chép cuộc họp
-- word: official proceedings
-  meaning_vi: biên bản nghị sự chính thức
 examples:
 - en: The secretary took the minutes and circulated them to all board members the following morning.
   vi: Thư ký đã ghi biên bản cuộc họp và gửi tới tất cả các thành viên hội đồng quản trị vào sáng hôm sau.
@@ -50,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

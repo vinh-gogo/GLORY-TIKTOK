@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: promotion
 lemma: promotion
 pos:
@@ -9,13 +9,11 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- human-resources
-- marketing-advertising
-speaking_use:
-- respond-to-questions
-- express-opinion
+- personnel
+- general-business
 senses:
 - id: promotion-1
   meaning_vi: Sự thăng chức, đề bạt lên vị trí công tác cao hơn trong công ty
@@ -23,27 +21,36 @@ senses:
 - id: promotion-2
   meaning_vi: Chương trình khuyến mãi giảm giá; chiến dịch quảng bá tiếp thị
   note_vi: 'Thường thấy trong sales: promotional offer, special promotion.'
+collocations:
+- phrase: earn a promotion
+  meaning_vi: đạt được sự thăng chức xứng đáng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: sales promotion
+  meaning_vi: chương trình xúc tiến khuyến mãi
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: promotion opportunity
+  meaning_vi: cơ hội thăng tiến nghề nghiệp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: advancement
+  meaning_vi: sự tiến bộ, thăng tiến
+- word: advertising
+  meaning_vi: hoạt động quảng bá
 confused_words:
 - word: demotion
   ipa: /dɪˈmoʊʃn/
   difference_vi: Promotion là thăng cấp hoặc khuyến mãi; demotion là giáng chức.
 confusing_meanings:
 - difference_vi: Job promotion = thăng tiến nghề nghiệp; sales promotion = khuyến mãi kích cầu mua sắm.
-collocations:
-- phrase: earn a promotion
-  meaning_vi: đạt được sự thăng chức xứng đáng
-  evidence: corpus
-- phrase: sales promotion
-  meaning_vi: chương trình xúc tiến khuyến mãi
-  evidence: corpus
-- phrase: promotion opportunity
-  meaning_vi: cơ hội thăng tiến nghề nghiệp
-  evidence: corpus
-synonyms:
-- word: advancement
-  meaning_vi: sự tiến bộ, thăng tiến
-- word: advertising
-  meaning_vi: hoạt động quảng bá
 examples:
 - en: Her exceptional leadership during the regional restructuring earned her a well-deserved promotion to director.
   vi: Khả năng lãnh đạo xuất sắc trong đợt tái cấu trúc khu vực đã giúp cô ấy được thăng chức giám đốc một cách xứng đáng.
@@ -54,6 +61,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

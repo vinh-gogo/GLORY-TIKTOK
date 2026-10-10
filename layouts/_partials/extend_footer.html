@@ -1,0 +1,14 @@
+{{- /* Thanh tab dưới cùng (mobile) + script chung. Footer của PaperMod được cache theo layout/kind nên
+       trạng thái "đang xem" do ui.js gán bằng JS, không render ở đây. */ -}}
+<nav class="tabbar" id="tabbar" aria-label="Điều hướng chính">
+  {{- range site.Menus.main }}
+  <a class="tab" href="{{ .URL }}"><span class="tab-ico" aria-hidden="true">{{ .Params.icon }}</span><span class="tab-txt">{{ .Name }}</span></a>
+  {{- end }}
+</nav>
+{{- $bandLabels := dict }}
+{{- range $k, $b := hugo.Data.levels.bands }}{{ $bandLabels = merge $bandLabels (dict $k $b.label_vi) }}{{ end }}
+<script type="application/json" id="glory-cfg">{{ dict "bands" $bandLabels | jsonify | safeJS }}</script>
+{{- $search := resources.Get "js/search.js" | resources.Minify | fingerprint }}
+{{- $ui := resources.Get "js/ui.js" | resources.Minify | fingerprint }}
+<script src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}" defer></script>
+<script src="{{ $ui.RelPermalink }}" integrity="{{ $ui.Data.Integrity }}" defer></script>

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: appraise
 lemma: appraise
 pos:
@@ -9,17 +9,41 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- management-operations
-- human-resources
-speaking_use:
-- respond-to-questions
-- express-opinion
+- offices
+- personnel
 senses:
 - id: appraise-1
   meaning_vi: Đánh giá chất lượng, hiệu suất làm việc hoặc định giá trị tài sản
   note_vi: Xuất hiện phổ biến trong đánh giá nhân viên (performance appraisal) và định giá tài sản.
+collocations:
+- phrase: appraise employee performance
+  meaning_vi: đánh giá hiệu quả làm việc của nhân viên
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: appraise property value
+  meaning_vi: thẩm định giá trị bất động sản
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: conduct an appraisal
+  meaning_vi: tiến hành đợt đánh giá
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: evaluate
+  meaning_vi: đánh giá
+- word: assess
+  meaning_vi: thẩm định, định lượng
+- word: estimate
+  meaning_vi: ước tính giá trị
 confused_words:
 - word: praise
   ipa: /preɪz/
@@ -29,23 +53,6 @@ confused_words:
   difference_vi: Apprise nghĩa là thông báo cho ai biết (nguyên âm /aɪ/); appraise là đánh giá (nguyên âm /eɪ/).
 confusing_meanings:
 - difference_vi: Appraise nhân viên là đánh giá năng lực; appraise tài sản là thẩm định giá trị tiền tệ.
-collocations:
-- phrase: appraise employee performance
-  meaning_vi: đánh giá hiệu quả làm việc của nhân viên
-  evidence: corpus
-- phrase: appraise property value
-  meaning_vi: thẩm định giá trị bất động sản
-  evidence: corpus
-- phrase: conduct an appraisal
-  meaning_vi: tiến hành đợt đánh giá
-  evidence: corpus
-synonyms:
-- word: evaluate
-  meaning_vi: đánh giá
-- word: assess
-  meaning_vi: thẩm định, định lượng
-- word: estimate
-  meaning_vi: ước tính giá trị
 examples:
 - en: Managers meet with team members once a year to appraise their performance and set new goals.
   vi: Các nhà quản lý gặp các thành viên trong nhóm mỗi năm một lần để đánh giá hiệu suất và đặt ra mục tiêu mới.
@@ -56,6 +63,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

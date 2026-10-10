@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: adjourn
 lemma: adjourn
 pos:
@@ -6,16 +6,13 @@ pos:
 ipa:
   us: /əˈdʒɜːrn/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- meetings
-- legal
-- business
-speaking_use:
-- read-aloud
-- respond-with-info
+- offices
+- general-business
 senses:
 - id: adjourn-1
   meaning_vi: Tạm hoãn, bế mạc cuộc họp (để nghỉ hoặc chuyển sang buổi khác)
@@ -23,40 +20,48 @@ senses:
 collocations:
 - phrase: adjourn the meeting
   meaning_vi: bế mạc / tạm hoãn cuộc họp
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: motion to adjourn
   meaning_vi: đề xuất kết thúc phiên họp
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: adjourn until tomorrow
   meaning_vi: hoãn phiên họp cho đến ngày mai
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: the session was adjourned
   meaning_vi: phiên họp đã được tuyên bố bế mạc
-  evidence: corpus
-confused_words:
-- word: adjust
-  ipa: /əˈdʒʌst/
-  meaning: điều chỉnh, sửa lại cho vừa
-  kind: spelling-sound
-  difference_vi: Adjourn là tạm dừng bế mạc cuộc họp; adjust mang nghĩa điều chỉnh
-    đồ vật hoặc thích nghi.
-confusing_meanings:
-- word: postpone
-  meaning: dời lịch trước khi diễn ra
-  difference_vi: Postpone là dời cuộc họp sang một ngày khác trước khi nó bắt đầu;
-    adjourn là tạm dừng hoặc bế mạc cuộc họp đang diễn ra.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: suspend
   meaning_vi: tạm đình chỉ
 - word: recess
   meaning_vi: tạm nghỉ phiên họp
+confused_words:
+- word: adjust
+  ipa: /əˈdʒʌst/
+  meaning: điều chỉnh, sửa lại cho vừa
+  kind: spelling-sound
+  difference_vi: Adjourn là tạm dừng bế mạc cuộc họp; adjust mang nghĩa điều chỉnh đồ vật hoặc thích nghi.
+confusing_meanings:
+- word: postpone
+  meaning: dời lịch trước khi diễn ra
+  difference_vi: Postpone là dời cuộc họp sang một ngày khác trước khi nó bắt đầu; adjourn là tạm dừng hoặc bế mạc cuộc họp
+    đang diễn ra.
 examples:
-- en: The chairperson decided to adjourn the board meeting until two o'clock this
-    afternoon.
-  vi: Chủ tọa đã quyết định tạm hoãn cuộc họp hội đồng quản trị cho đến hai giờ chiều
-    nay.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈdʒɜːrn/. Chú ý âm /ɜːr/
-  cong lưỡi chuẩn giọng Mỹ, âm /n/ ngân nhẹ.
+- en: The chairperson decided to adjourn the board meeting until two o'clock this afternoon.
+  vi: Chủ tọa đã quyết định tạm hoãn cuộc họp hội đồng quản trị cho đến hai giờ chiều nay.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈdʒɜːrn/. Chú ý âm /ɜːr/ cong lưỡi chuẩn giọng Mỹ, âm /n/ ngân nhẹ.
 review:
   status: ai_cross_checked
   checked_by:

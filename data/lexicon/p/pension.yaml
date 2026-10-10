@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: pension
 lemma: pension
 pos:
@@ -9,17 +9,38 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- salary-benefits
-- human-resources
-speaking_use:
-- respond-to-questions
-- express-opinion
+- personnel
 senses:
 - id: pension-1
   meaning_vi: Lương hưu, tiền trợ cấp hưu trí định kỳ
   note_vi: Khoản chi trả cố định cho nhân viên sau khi hết tuổi lao động hoặc nghỉ hưu.
+collocations:
+- phrase: pension scheme
+  meaning_vi: chế độ hưu trí / chương trình lương hưu
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: draw a pension
+  meaning_vi: lãnh nhận tiền lương hưu
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: pension contribution
+  meaning_vi: khoản đóng góp vào quỹ hưu trí
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: retirement fund
+  meaning_vi: quỹ hưu trí
+- word: annuity
+  meaning_vi: tiền trợ cấp niên kim định kỳ
 confused_words:
 - word: tension
   ipa: /ˈtenʃn/
@@ -27,21 +48,6 @@ confused_words:
 confusing_meanings:
 - difference_vi: State pension là lương hưu do chính phủ chi trả; company pension plan là quỹ hưu trí do doanh nghiệp đóng
     góp.
-collocations:
-- phrase: pension scheme
-  meaning_vi: chế độ hưu trí / chương trình lương hưu
-  evidence: corpus
-- phrase: draw a pension
-  meaning_vi: lãnh nhận tiền lương hưu
-  evidence: corpus
-- phrase: pension contribution
-  meaning_vi: khoản đóng góp vào quỹ hưu trí
-  evidence: corpus
-synonyms:
-- word: retirement fund
-  meaning_vi: quỹ hưu trí
-- word: annuity
-  meaning_vi: tiền trợ cấp niên kim định kỳ
 examples:
 - en: All full-time employees are automatically enrolled in the corporate pension scheme.
   vi: Tất cả nhân viên chính thức đều được tự động tham gia vào chương trình hưu trí của công ty.
@@ -52,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

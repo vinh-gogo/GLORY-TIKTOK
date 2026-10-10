@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: capacity
 lemma: capacity
 pos:
@@ -6,57 +6,62 @@ pos:
 ipa:
   us: /kəˈpæsəti/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
 - manufacturing
-- hotels
-- events
-speaking_use:
-- describe-picture
-- respond-with-info
+- travel
+- general-business
 senses:
 - id: capacity-1
   meaning_vi: Công suất hoạt động / Sức chứa (người, hàng hóa)
-  note_vi: Hay gặp khi mô tả phòng hội nghị chứa bao nhiêu người hoặc nhà máy chạy
-    hết công suất.
+  note_vi: Hay gặp khi mô tả phòng hội nghị chứa bao nhiêu người hoặc nhà máy chạy hết công suất.
 collocations:
 - phrase: seating capacity
   meaning_vi: sức chứa chỗ ngồi
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: operate at full capacity
   meaning_vi: vận hành hết công suất tối đa
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: storage capacity
   meaning_vi: dung tích kho chứa
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: expand capacity
   meaning_vi: mở rộng công suất sản xuất
-  evidence: corpus
-confused_words:
-- word: capability
-  ipa: /ˌkeɪpəˈbɪləti/
-  meaning: năng lực, khả năng làm việc
-  kind: spelling-sound
-  difference_vi: Capacity là sức chứa hoặc công suất máy móc; capability là năng lực
-    hoặc trình độ làm việc của con người.
-confusing_meanings:
-- word: volume
-  meaning: thể tích vật lý
-  difference_vi: Volume là thể tích đo lường không gian; capacity là ngưỡng giới hạn
-    tối đa có thể tiếp nhận được.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: volume
   meaning_vi: dung tích
 - word: maximum output
   meaning_vi: sản lượng tối đa
+confused_words:
+- word: capability
+  ipa: /ˌkeɪpəˈbɪləti/
+  meaning: năng lực, khả năng làm việc
+  kind: spelling-sound
+  difference_vi: Capacity là sức chứa hoặc công suất máy móc; capability là năng lực hoặc trình độ làm việc của con người.
+confusing_meanings:
+- word: volume
+  meaning: thể tích vật lý
+  difference_vi: Volume là thể tích đo lường không gian; capacity là ngưỡng giới hạn tối đa có thể tiếp nhận được.
 examples:
-- en: The newly renovated auditorium has a maximum seating capacity of eight hundred
-    people.
+- en: The newly renovated auditorium has a maximum seating capacity of eight hundred people.
   vi: Khán phòng mới được cải tạo có sức chứa chỗ ngồi tối đa là tám trăm người.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈpæs-/. Âm đầu là schwa
-  /kə-/, đuôi /-ti/ đọc dứt khoát.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈpæs-/. Âm đầu là schwa /kə-/, đuôi /-ti/ đọc dứt khoát.
 review:
   status: ai_cross_checked
   checked_by:

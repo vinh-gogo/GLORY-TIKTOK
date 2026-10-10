@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: carrier
 lemma: carrier
 pos:
@@ -9,16 +9,38 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- shipping-logistics
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- purchasing
 senses:
 - id: carrier-1
   meaning_vi: Hãng vận chuyển, công ty vận tải chuyên chở hàng hóa hoặc hành khách
   note_vi: Bao gồm các hãng hàng không (air carrier), đội xe tải hoặc hãng tàu biển.
+collocations:
+- phrase: shipping carrier
+  meaning_vi: hãng vận tải giao nhận hàng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: common carrier
+  meaning_vi: đơn vị vận tải công cộng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: reliable carrier
+  meaning_vi: đơn vị vận chuyển đáng tin cậy
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: transporter
+  meaning_vi: nhà vận tải
+- word: shipper
+  meaning_vi: chủ hãng tàu/giao hàng
 confused_words:
 - word: courier
   ipa: /ˈkʊriər/
@@ -26,21 +48,6 @@ confused_words:
     quy mô lớn.
 confusing_meanings:
 - difference_vi: Common carrier = hãng vận tải công cộng theo biểu giá công khai; mail carrier = nhân viên bưu tá giao thư.
-collocations:
-- phrase: shipping carrier
-  meaning_vi: hãng vận tải giao nhận hàng
-  evidence: corpus
-- phrase: common carrier
-  meaning_vi: đơn vị vận tải công cộng
-  evidence: corpus
-- phrase: reliable carrier
-  meaning_vi: đơn vị vận chuyển đáng tin cậy
-  evidence: corpus
-synonyms:
-- word: transporter
-  meaning_vi: nhà vận tải
-- word: shipper
-  meaning_vi: chủ hãng tàu/giao hàng
 examples:
 - en: We partner with several reputable shipping carriers to guarantee swift international delivery.
   vi: Chúng tôi hợp tác với nhiều hãng vận chuyển uy tín để đảm bảo việc giao hàng quốc tế nhanh chóng.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

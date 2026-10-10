@@ -1,0 +1,15 @@
+{{- define "main" }}
+{{- $words := partial "words-visible.html" . -}}
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  <p class="muted">{{ .Params.summary | default .Summary }} Chọn một chủ đề để xem các cụm từ đi cùng nhau.</p>
+</header>
+<div class="cardgrid">
+  {{- range .Pages.ByTitle }}
+  <a class="topiccard" href="{{ .RelPermalink }}">
+    <strong>{{ .Params.topic_name }}</strong>
+    <span class="muted">{{ .Params.count }} collocations</span>
+  </a>
+  {{- end }}
+</div>
+{{- end }}

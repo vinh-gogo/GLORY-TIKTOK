@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: legislation
 lemma: legislation
 pos:
@@ -9,32 +9,33 @@ ipa:
 level:
   band: advanced
   cefr: C1
-  basis: TOEIC 750+
+  basis:
+  - editorial
 topics:
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: legislation-1
   meaning_vi: Luật pháp, đạo luật, các văn bản quy phạm pháp luật do quốc hội ban hành
   note_vi: Khung pháp lý cao nhất điều chỉnh hoạt động của toàn xã hội và doanh nghiệp.
-confused_words:
-- word: legislator
-  ipa: /ˈledʒɪsleɪtər/
-  difference_vi: Legislator là nhà làm luật (đại biểu quốc hội); legislation là văn bản pháp luật hoặc công tác lập pháp.
-confusing_meanings:
-- difference_vi: Pass legislation = thông qua một đạo luật; under current legislation = chiếu theo pháp luật hiện hành.
 collocations:
 - phrase: pass legislation
   meaning_vi: thông qua một đạo luật
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: under current legislation
   meaning_vi: theo luật pháp hiện hành
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: environmental legislation
   meaning_vi: luật về bảo vệ môi trường
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: statute
   meaning_vi: đạo luật thành văn
@@ -42,6 +43,12 @@ synonyms:
   meaning_vi: luật pháp
 - word: act
   meaning_vi: đạo luật
+confused_words:
+- word: legislator
+  ipa: /ˈledʒɪsleɪtər/
+  difference_vi: Legislator là nhà làm luật (đại biểu quốc hội); legislation là văn bản pháp luật hoặc công tác lập pháp.
+confusing_meanings:
+- difference_vi: Pass legislation = thông qua một đạo luật; under current legislation = chiếu theo pháp luật hiện hành.
 examples:
 - en: Parliament recently passed new legislation to protect consumer privacy in digital transactions.
   vi: Quốc hội gần đây đã thông qua đạo luật mới nhằm bảo vệ quyền riêng tư của người tiêu dùng trong các giao dịch số.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: publicize
 lemma: publicize
 pos:
@@ -9,32 +9,33 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: publicize-1
   meaning_vi: Quảng bá rộng rãi, công khai đưa tin trước công chúng
   note_vi: Hành động thu hút sự chú ý của dư luận và truyền thông tới một sự kiện hoặc sản phẩm.
-confused_words:
-- word: publish
-  ipa: /ˈpʌblɪʃ/
-  difference_vi: Publish là xuất bản sách báo; publicize là quảng bá thông tin cho công chúng biết tới.
-confusing_meanings:
-- difference_vi: Publicize an event = quảng bá sự kiện; publish a book = in ấn phát hành sách.
 collocations:
 - phrase: widely publicize
   meaning_vi: quảng bá rộng rãi tới công chúng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: publicize an event
   meaning_vi: đưa tin quảng bá cho một sự kiện
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: publicize new products
   meaning_vi: quảng bá các dòng sản phẩm mới
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: promote
   meaning_vi: quảng bá, xúc tiến
@@ -42,6 +43,12 @@ synonyms:
   meaning_vi: chạy quảng cáo
 - word: broadcast
   meaning_vi: phát sóng thông điệp
+confused_words:
+- word: publish
+  ipa: /ˈpʌblɪʃ/
+  difference_vi: Publish là xuất bản sách báo; publicize là quảng bá thông tin cho công chúng biết tới.
+confusing_meanings:
+- difference_vi: Publicize an event = quảng bá sự kiện; publish a book = in ấn phát hành sách.
 examples:
 - en: We used social media channels to publicize the grand opening of our flagship store.
   vi: Chúng tôi đã sử dụng các kênh mạng xã hội để quảng bá cho lễ khai trương cửa hàng trọng điểm của mình.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref
