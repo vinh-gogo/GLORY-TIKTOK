@@ -1,0 +1,27 @@
+schema_version: 3
+id: vase
+lemma: vase
+pos:
+- noun
+ipa:
+  us: /veɪs/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bình hoa
+  id: vase-1
+examples:
+- en: A vase of fresh flowers stood on the reception desk this morning.
+  vi: Một bình hoa tươi được đặt trên quầy lễ tân sáng nay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/veɪs/; /vɑz/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 654. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

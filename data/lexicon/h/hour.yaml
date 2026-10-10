@@ -1,0 +1,27 @@
+schema_version: 3
+id: hour
+lemma: hour
+pos:
+- noun
+ipa:
+  us: /ˈaʊɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: giờ, tiếng đồng hồ
+  id: hour-1
+examples:
+- en: The drive from the airport to the hotel takes about an hour.
+  vi: Đi xe từ sân bay đến khách sạn mất khoảng một tiếng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈaʊɚ/; /aʊr/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 247. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

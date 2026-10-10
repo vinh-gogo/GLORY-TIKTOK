@@ -1,0 +1,27 @@
+schema_version: 3
+id: piano
+lemma: piano
+pos:
+- noun
+ipa:
+  us: /piˈænoʊ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: đàn pi-a-nô
+  id: piano-1
+examples:
+- en: The hotel lobby has a grand piano that guests may play.
+  vi: Sảnh khách sạn có một cây đàn pi-a-nô lớn mà khách có thể chơi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/piˈænoʊ/; /piˈænə/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2591. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

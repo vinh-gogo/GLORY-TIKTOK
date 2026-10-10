@@ -1,0 +1,27 @@
+schema_version: 3
+id: businessman
+lemma: businessman
+pos:
+- noun
+ipa:
+  us: /ˈbɪznəˌsmæn/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: nam doanh nhân
+  id: businessman-1
+examples:
+- en: The young businessman opened his first shop in the center of town.
+  vi: Chàng doanh nhân trẻ đã mở cửa hàng đầu tiên ở trung tâm thị trấn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈbɪznəˌsmæn/; /ˈbɪznɪˌsmæn/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 566. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

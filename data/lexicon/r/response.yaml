@@ -1,0 +1,27 @@
+schema_version: 3
+id: response
+lemma: response
+pos:
+- noun
+ipa:
+  us: /rɪˈspɑns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: phản hồi, câu trả lời
+  id: response-1
+examples:
+- en: We have not received a response to our proposal yet.
+  vi: Chúng tôi vẫn chưa nhận được phản hồi cho đề xuất của mình.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈspɑns/; /riˈspɑns/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 606. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

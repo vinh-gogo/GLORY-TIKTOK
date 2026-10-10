@@ -1,0 +1,26 @@
+schema_version: 3
+id: juice
+lemma: juice
+pos:
+- noun
+ipa:
+  us: /dʒus/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: nước ép trái cây
+  id: juice-1
+examples:
+- en: Would you like orange juice or coffee with your breakfast?
+  vi: Bạn muốn uống nước cam hay cà phê cùng bữa sáng?
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 333. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

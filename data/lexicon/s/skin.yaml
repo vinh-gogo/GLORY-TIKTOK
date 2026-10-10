@@ -1,0 +1,26 @@
+schema_version: 3
+id: skin
+lemma: skin
+pos:
+- noun
+ipa:
+  us: /skɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: da
+  id: skin-1
+examples:
+- en: This cream is designed to protect your skin from the sun.
+  vi: Loại kem này được thiết kế để bảo vệ da bạn khỏi ánh nắng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1461. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

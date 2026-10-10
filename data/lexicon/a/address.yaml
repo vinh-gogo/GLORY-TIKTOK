@@ -1,0 +1,28 @@
+schema_version: 3
+id: address
+lemma: address
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈæˌdrɛs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: địa chỉ; giải quyết
+  id: address-1
+examples:
+- en: Please write your home address clearly on the registration form.
+  vi: Vui lòng viết rõ địa chỉ nhà của bạn trên mẫu đăng ký.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈæˌdrɛs/; /əˈdrɛs/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 558. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

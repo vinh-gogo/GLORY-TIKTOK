@@ -1,0 +1,28 @@
+schema_version: 3
+id: accord
+lemma: accord
+pos:
+- noun
+- verb
+ipa:
+  us: /əˈkɔrd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: sự thỏa thuận; sự hòa hợp
+  id: accord-1
+examples:
+- en: The two companies signed an accord on shared delivery services.
+  vi: Hai công ty đã ký một thỏa thuận về dịch vụ giao hàng chung.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] NGSL lấy từ ''according to''; nghĩa độc lập là danh từ trang trọng, ít gặp —
+    Mục từ NGSL hạng 522. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

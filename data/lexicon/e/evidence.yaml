@@ -1,0 +1,26 @@
+schema_version: 3
+id: evidence
+lemma: evidence
+pos:
+- noun
+ipa:
+  us: /ˈɛvədəns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: bằng chứng
+  id: evidence-1
+examples:
+- en: The auditor found no evidence of errors in the financial records.
+  vi: Kiểm toán viên không tìm thấy bằng chứng sai sót nào trong sổ sách tài chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 592. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

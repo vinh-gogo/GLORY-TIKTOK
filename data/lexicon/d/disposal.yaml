@@ -1,0 +1,26 @@
+schema_version: 3
+id: disposal
+lemma: disposal
+pos:
+- noun
+ipa:
+  us: /dɪˈspoʊzəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự vứt bỏ, xử lý; quyền sử dụng
+  id: disposal-1
+examples:
+- en: Proper disposal of old batteries is required by local law.
+  vi: Việc xử lý pin cũ đúng cách là yêu cầu của luật địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 343. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

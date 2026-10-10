@@ -1,0 +1,27 @@
+schema_version: 3
+id: executive
+lemma: executive
+pos:
+- noun
+- adjective
+ipa:
+  us: /ɪɡˈzɛkjətɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: giám đốc điều hành; thuộc điều hành
+  id: executive-1
+examples:
+- en: The chief executive spoke to employees about the company's plans for growth.
+  vi: Giám đốc điều hành đã nói chuyện với nhân viên về kế hoạch tăng trưởng của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1059. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

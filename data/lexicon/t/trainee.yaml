@@ -1,0 +1,26 @@
+schema_version: 3
+id: trainee
+lemma: trainee
+pos:
+- noun
+ipa:
+  us: /ˈtreɪˈni/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: người được đào tạo, thực tập sinh
+  id: trainee-1
+examples:
+- en: Each trainee will work with an experienced employee for two weeks.
+  vi: Mỗi người được đào tạo sẽ làm việc với một nhân viên có kinh nghiệm trong hai tuần.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 237. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

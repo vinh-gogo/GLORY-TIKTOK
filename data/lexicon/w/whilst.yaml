@@ -1,0 +1,26 @@
+schema_version: 3
+id: whilst
+lemma: whilst
+pos:
+- conjunction
+ipa:
+  us: /waɪlst/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: trong khi (cách dùng kiểu Anh của while)
+  id: whilst-1
+examples:
+- en: She answered emails whilst waiting for the train to arrive at the station.
+  vi: Cô ấy trả lời email trong khi chờ tàu đến ga.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2553. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

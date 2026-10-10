@@ -1,0 +1,26 @@
+schema_version: 3
+id: creative
+lemma: creative
+pos:
+- adjective
+ipa:
+  us: /kriˈeɪtɪv/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sáng tạo
+  id: creative-1
+examples:
+- en: The agency is looking for a creative designer to join its team.
+  vi: Công ty quảng cáo đang tìm một nhà thiết kế sáng tạo để gia nhập đội ngũ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2209. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: mirror
+lemma: mirror
+pos:
+- noun
+ipa:
+  us: /ˈmɪrɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: gương
+  id: mirror-1
+examples:
+- en: A large mirror on the wall makes the room look bigger.
+  vi: Một chiếc gương lớn trên tường khiến căn phòng trông rộng hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2205. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

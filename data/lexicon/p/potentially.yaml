@@ -1,0 +1,26 @@
+schema_version: 3
+id: potentially
+lemma: potentially
+pos:
+- adverb
+ipa:
+  us: /pəˈtɛnʃəli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: có khả năng, tiềm tàng
+  id: potentially-1
+examples:
+- en: This new technology could potentially save the company millions of dollars each year.
+  vi: Công nghệ mới này có khả năng giúp công ty tiết kiệm hàng triệu đô la mỗi năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2558. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

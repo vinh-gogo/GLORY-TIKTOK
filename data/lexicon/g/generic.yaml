@@ -1,0 +1,26 @@
+schema_version: 3
+id: generic
+lemma: generic
+pos:
+- adjective
+ipa:
+  us: /dʒəˈnɛrɪk/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: chung, không nhãn hiệu
+  id: generic-1
+examples:
+- en: Generic medicines are usually cheaper than brand-name products at the pharmacy.
+  vi: Thuốc generic thường rẻ hơn thuốc có thương hiệu ở hiệu thuốc.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 635. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

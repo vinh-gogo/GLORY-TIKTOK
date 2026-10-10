@@ -1,0 +1,26 @@
+schema_version: 3
+id: positive
+lemma: positive
+pos:
+- adjective
+ipa:
+  us: /ˈpɑzətɪv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tích cực
+  id: positive-1
+examples:
+- en: Customers gave positive feedback about the new online ordering system.
+  vi: Khách hàng đã phản hồi tích cực về hệ thống đặt hàng trực tuyến mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 859. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

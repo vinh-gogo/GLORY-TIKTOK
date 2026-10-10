@@ -1,0 +1,26 @@
+schema_version: 3
+id: reinforce
+lemma: reinforce
+pos:
+- verb
+ipa:
+  us: /ˌriɪnˈfɔrs/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: củng cố, tăng cường
+  id: reinforce-1
+examples:
+- en: The training session will reinforce the safety rules for all staff.
+  vi: Buổi đào tạo sẽ củng cố các quy tắc an toàn cho toàn thể nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 407. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

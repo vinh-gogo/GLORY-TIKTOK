@@ -1,0 +1,26 @@
+schema_version: 3
+id: strategy
+lemma: strategy
+pos:
+- noun
+ipa:
+  us: /ˈstrætədʒi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: chiến lược
+  id: strategy-1
+examples:
+- en: The board approved a new marketing strategy to attract younger customers.
+  vi: Hội đồng quản trị đã phê duyệt chiến lược tiếp thị mới để thu hút khách hàng trẻ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 839. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

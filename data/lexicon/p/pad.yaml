@@ -1,0 +1,26 @@
+schema_version: 3
+id: pad
+lemma: pad
+pos:
+- noun
+ipa:
+  us: /pæd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: tập giấy, xấp giấy ghi chú
+  id: pad-1
+examples:
+- en: Please bring a pen and a note pad to the training session.
+  vi: Vui lòng mang bút và một tập giấy ghi chú đến buổi tập huấn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 780. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

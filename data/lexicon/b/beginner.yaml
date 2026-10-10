@@ -1,0 +1,26 @@
+schema_version: 3
+id: beginner
+lemma: beginner
+pos:
+- noun
+ipa:
+  us: /bɪˈɡɪnɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: người mới bắt đầu
+  id: beginner-1
+examples:
+- en: This course is designed for beginners who have never used the software.
+  vi: Khóa học này dành cho người mới bắt đầu chưa từng dùng phần mềm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 849. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

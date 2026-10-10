@@ -1,0 +1,26 @@
+schema_version: 3
+id: creation
+lemma: creation
+pos:
+- noun
+ipa:
+  us: /kriˈeɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự tạo ra, sự thành lập
+  id: creation-1
+examples:
+- en: The creation of new jobs is a priority for the city.
+  vi: Việc tạo ra việc làm mới là một ưu tiên của thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1929. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: minute
+lemma: minute
+pos:
+- noun
+ipa:
+  us: /ˈmɪnət/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: phút
+  id: minute-1
+examples:
+- en: The shuttle bus arrives every ten minutes during the morning rush.
+  vi: Xe đưa đón đến mỗi mười phút trong giờ cao điểm buổi sáng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈmɪnət/; /maɪˈnut/; /maɪˈnjut/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 366. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

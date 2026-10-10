@@ -1,0 +1,27 @@
+schema_version: 3
+id: plow
+lemma: plow
+pos:
+- noun
+- verb
+ipa:
+  us: /plaʊ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: cái cày; cày (đất), ủi (tuyết)
+  id: plow-1
+examples:
+- en: The farmer used a plow to prepare the field for planting.
+  vi: Người nông dân dùng cái cày để chuẩn bị ruộng cho việc gieo trồng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1162. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

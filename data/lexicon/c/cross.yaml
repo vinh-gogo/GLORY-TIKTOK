@@ -1,0 +1,26 @@
+schema_version: 3
+id: cross
+lemma: cross
+pos:
+- verb
+ipa:
+  us: /krɔs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: băng qua, đi qua
+  id: cross-1
+examples:
+- en: Visitors must cross the bridge to reach the conference center on foot.
+  vi: Khách tham quan phải băng qua cây cầu để đi bộ đến trung tâm hội nghị.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 975. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

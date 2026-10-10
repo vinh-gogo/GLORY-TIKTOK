@@ -1,0 +1,27 @@
+schema_version: 3
+id: natural
+lemma: natural
+pos:
+- adjective
+ipa:
+  us: /ˈnætʃɚəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tự nhiên, thuộc về thiên nhiên
+  id: natural-1
+examples:
+- en: The hotel is surrounded by beautiful natural scenery and several walking trails.
+  vi: Khách sạn được bao quanh bởi phong cảnh thiên nhiên đẹp và nhiều lối đi bộ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈnætʃɚəl/; /ˈnætʃrəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 817. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

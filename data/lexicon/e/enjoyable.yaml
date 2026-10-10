@@ -1,0 +1,26 @@
+schema_version: 3
+id: enjoyable
+lemma: enjoyable
+pos:
+- adjective
+ipa:
+  us: /ˌɛnˈdʒɔɪəbəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: thú vị, dễ chịu
+  id: enjoyable-1
+examples:
+- en: The staff trip to the mountains was relaxing and very enjoyable.
+  vi: Chuyến đi lên núi của nhân viên thật thư giãn và rất thú vị.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 766. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

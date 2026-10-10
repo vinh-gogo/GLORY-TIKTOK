@@ -1,0 +1,26 @@
+schema_version: 3
+id: shirt
+lemma: shirt
+pos:
+- noun
+ipa:
+  us: /ʃɝt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: áo sơ mi
+  id: shirt-1
+examples:
+- en: He bought a new shirt for the important interview.
+  vi: Anh ấy mua một chiếc áo sơ mi mới cho buổi phỏng vấn quan trọng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1907. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: specialty
+lemma: specialty
+pos:
+- noun
+ipa:
+  us: /ˈspɛʃəlti/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: đặc sản, chuyên môn
+  id: specialty-1
+examples:
+- en: Fresh seafood is the specialty of this small restaurant by the harbor.
+  vi: Hải sản tươi là đặc sản của nhà hàng nhỏ bên bến cảng này.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈspɛʃəlti/; /ˈspeɪʃəlti/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 587. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

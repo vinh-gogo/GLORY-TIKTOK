@@ -1,0 +1,26 @@
+schema_version: 3
+id: text
+lemma: text
+pos:
+- noun
+ipa:
+  us: /tɛkst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: văn bản, đoạn chữ
+  id: text-1
+examples:
+- en: Please check the text on the website for spelling mistakes before publishing.
+  vi: Vui lòng kiểm tra văn bản trên trang web để tìm lỗi chính tả trước khi xuất bản.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1048. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: browse
+lemma: browse
+pos:
+- verb
+ipa:
+  us: /braʊz/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: xem lướt, duyệt qua
+  id: browse-1
+examples:
+- en: Customers can browse our full catalog online before placing an order.
+  vi: Khách hàng có thể xem lướt toàn bộ danh mục trực tuyến trước khi đặt hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 806. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

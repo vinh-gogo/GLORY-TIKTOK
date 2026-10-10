@@ -1,0 +1,26 @@
+schema_version: 3
+id: magazine
+lemma: magazine
+pos:
+- noun
+ipa:
+  us: /ˈmæɡəˌzin/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: tạp chí
+  id: magazine-1
+examples:
+- en: Our new product was featured in a popular business magazine last month.
+  vi: Sản phẩm mới của chúng tôi đã được giới thiệu trên một tạp chí kinh doanh nổi tiếng tháng trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 985. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

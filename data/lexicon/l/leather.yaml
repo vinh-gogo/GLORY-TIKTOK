@@ -1,0 +1,26 @@
+schema_version: 3
+id: leather
+lemma: leather
+pos:
+- noun
+ipa:
+  us: /ˈlɛðɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: da thuộc
+  id: leather-1
+examples:
+- en: She bought a black leather bag to carry her laptop to work.
+  vi: Cô ấy mua một chiếc túi da màu đen để mang máy tính xách tay đi làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2733. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

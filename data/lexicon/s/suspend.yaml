@@ -1,0 +1,26 @@
+schema_version: 3
+id: suspend
+lemma: suspend
+pos:
+- verb
+ipa:
+  us: /səˈspɛnd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: đình chỉ, tạm ngừng
+  id: suspend-1
+examples:
+- en: The airline had to suspend all flights because of the heavy snow.
+  vi: Hãng hàng không phải tạm ngừng mọi chuyến bay vì tuyết dày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2754. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

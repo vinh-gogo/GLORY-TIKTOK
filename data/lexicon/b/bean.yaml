@@ -1,0 +1,26 @@
+schema_version: 3
+id: bean
+lemma: bean
+pos:
+- noun
+ipa:
+  us: /bin/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: hạt đậu, hạt cà phê
+  id: bean-1
+examples:
+- en: The cafe roasts its own coffee beans every morning before opening.
+  vi: Quán cà phê tự rang hạt cà phê mỗi sáng trước khi mở cửa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 805. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

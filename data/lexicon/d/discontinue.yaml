@@ -1,0 +1,26 @@
+schema_version: 3
+id: discontinue
+lemma: discontinue
+pos:
+- verb
+ipa:
+  us: /dɪskənˈtɪnju/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: ngừng sản xuất, chấm dứt
+  id: discontinue-1
+examples:
+- en: The company decided to discontinue the old model and release a new one.
+  vi: Công ty quyết định ngừng sản xuất mẫu cũ và phát hành mẫu mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 710. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

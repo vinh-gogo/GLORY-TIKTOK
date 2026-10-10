@@ -1,0 +1,27 @@
+schema_version: 3
+id: fool
+lemma: fool
+pos:
+- verb
+- noun
+ipa:
+  us: /ful/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: lừa gạt; kẻ ngốc
+  id: fool-1
+examples:
+- en: Don't let the low price fool you into buying poor quality goods.
+  vi: Đừng để giá thấp đánh lừa bạn mua hàng kém chất lượng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2765. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

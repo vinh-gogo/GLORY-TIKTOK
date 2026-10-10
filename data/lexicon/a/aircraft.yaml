@@ -1,0 +1,26 @@
+schema_version: 3
+id: aircraft
+lemma: aircraft
+pos:
+- noun
+ipa:
+  us: /ˈɛrˌkræft/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: máy bay, phi cơ
+  id: aircraft-1
+examples:
+- en: The new aircraft can carry more passengers than the old model.
+  vi: Chiếc máy bay mới có thể chở nhiều hành khách hơn mẫu cũ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1832. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

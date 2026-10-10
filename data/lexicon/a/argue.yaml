@@ -1,0 +1,26 @@
+schema_version: 3
+id: argue
+lemma: argue
+pos:
+- verb
+ipa:
+  us: /ˈɑrɡju/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tranh cãi; lập luận
+  id: argue-1
+examples:
+- en: The two managers often argue about how to spend the budget.
+  vi: Hai quản lý thường tranh cãi về cách chi tiêu ngân sách.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 740. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

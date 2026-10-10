@@ -1,0 +1,27 @@
+schema_version: 3
+id: aboard
+lemma: aboard
+pos:
+- adverb
+- preposition
+ipa:
+  us: /əˈbɔrd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: trên tàu, xe, máy bay
+  id: aboard-1
+examples:
+- en: Welcome aboard flight 205; we will take off in about ten minutes.
+  vi: Chào mừng quý khách trên chuyến bay 205; chúng tôi sẽ cất cánh sau khoảng mười phút.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 655. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

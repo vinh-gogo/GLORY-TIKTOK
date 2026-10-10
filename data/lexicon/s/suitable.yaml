@@ -1,0 +1,26 @@
+schema_version: 3
+id: suitable
+lemma: suitable
+pos:
+- adjective
+ipa:
+  us: /ˈsutəbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: phù hợp, thích hợp
+  id: suitable-1
+examples:
+- en: We are still looking for a suitable candidate for the position.
+  vi: Chúng tôi vẫn đang tìm một ứng viên phù hợp cho vị trí này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1638. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

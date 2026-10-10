@@ -1,0 +1,27 @@
+schema_version: 3
+id: editor
+lemma: editor
+pos:
+- noun
+ipa:
+  us: /ˈɛdətɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: biên tập viên
+  id: editor-1
+examples:
+- en: The editor asked the writer to shorten the article by a page.
+  vi: Biên tập viên yêu cầu nhà văn rút ngắn bài viết đi một trang.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛdətɚ/; /ˈɛdɪtɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1423. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

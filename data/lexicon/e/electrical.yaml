@@ -1,0 +1,26 @@
+schema_version: 3
+id: electrical
+lemma: electrical
+pos:
+- adjective
+ipa:
+  us: /ɪˈlɛktrɪkəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: thuộc về điện
+  id: electrical-1
+examples:
+- en: An electrical problem caused the lights to go out in the building.
+  vi: Một sự cố về điện đã khiến đèn trong tòa nhà bị tắt.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 98. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

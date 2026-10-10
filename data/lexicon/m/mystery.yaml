@@ -1,0 +1,26 @@
+schema_version: 3
+id: mystery
+lemma: mystery
+pos:
+- noun
+ipa:
+  us: /ˈmɪstɚi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: điều bí ẩn; truyện trinh thám
+  id: mystery-1
+examples:
+- en: The cause of the power failure is still a mystery to engineers.
+  vi: Nguyên nhân của sự cố mất điện vẫn là một điều bí ẩn đối với các kỹ sư.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2593. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

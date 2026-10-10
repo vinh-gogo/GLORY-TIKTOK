@@ -1,0 +1,26 @@
+schema_version: 3
+id: caterer
+lemma: caterer
+pos:
+- noun
+ipa:
+  us: /ˈkeɪtɚɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: nhà cung cấp dịch vụ ăn uống (tiệc)
+  id: caterer-1
+examples:
+- en: We hired a caterer to prepare food for the company party.
+  vi: Chúng tôi đã thuê một đơn vị cung cấp tiệc để chuẩn bị đồ ăn cho bữa tiệc công ty.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 439. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

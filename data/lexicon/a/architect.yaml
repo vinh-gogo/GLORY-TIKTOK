@@ -1,0 +1,26 @@
+schema_version: 3
+id: architect
+lemma: architect
+pos:
+- noun
+ipa:
+  us: /ˈɑrkəˌtɛkt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: kiến trúc sư
+  id: architect-1
+examples:
+- en: The architect presented the design for the new office building.
+  vi: Kiến trúc sư đã trình bày thiết kế cho tòa nhà văn phòng mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 148. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: accomplish
+lemma: accomplish
+pos:
+- verb
+ipa:
+  us: /əˈkɑmplɪʃ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: hoàn thành, đạt được
+  id: accomplish-1
+examples:
+- en: The team managed to accomplish all of its goals before the deadline.
+  vi: Nhóm đã hoàn thành tất cả mục tiêu trước thời hạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2456. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

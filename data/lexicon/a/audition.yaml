@@ -1,0 +1,27 @@
+schema_version: 3
+id: audition
+lemma: audition
+pos:
+- noun
+- verb
+ipa:
+  us: /ɑˈdɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: buổi thử giọng, thử vai
+  id: audition-1
+examples:
+- en: She has an audition for the city theater next Tuesday morning.
+  vi: Cô ấy có buổi thử vai cho nhà hát thành phố vào sáng thứ Ba tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1102. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: muscle
+lemma: muscle
+pos:
+- noun
+ipa:
+  us: /ˈmʌsəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: cơ bắp
+  id: muscle-1
+examples:
+- en: Regular exercise helps build muscle and improve your health.
+  vi: Tập thể dục đều đặn giúp tăng cơ và cải thiện sức khỏe của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2155. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

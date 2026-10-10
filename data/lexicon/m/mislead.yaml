@@ -1,0 +1,26 @@
+schema_version: 3
+id: mislead
+lemma: mislead
+pos:
+- verb
+ipa:
+  us: /mɪˈslid/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: làm cho hiểu sai, đánh lừa
+  id: mislead-1
+examples:
+- en: The advertisement was removed because it could mislead customers about the price.
+  vi: Quảng cáo bị gỡ bỏ vì có thể khiến khách hàng hiểu sai về giá.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 503. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

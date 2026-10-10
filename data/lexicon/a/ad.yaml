@@ -1,0 +1,26 @@
+schema_version: 3
+id: ad
+lemma: ad
+pos:
+- noun
+ipa:
+  us: /æd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: quảng cáo
+  id: ad-1
+examples:
+- en: The company placed an ad in the local newspaper for a new cook.
+  vi: Công ty đã đăng một quảng cáo trên báo địa phương để tuyển một đầu bếp mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1478. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: lay
+lemma: lay
+pos:
+- verb
+ipa:
+  us: /leɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đặt, để (xuống)
+  id: lay-1
+examples:
+- en: Please lay the documents on the table and wait for the manager.
+  vi: Vui lòng đặt các tài liệu lên bàn và chờ người quản lý.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] dễ nhầm với quá khứ của ''lie''; chọn nghĩa động từ ''đặt, để'' — Mục từ NGSL
+    hạng 1105. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band
+    TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

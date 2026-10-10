@@ -1,0 +1,27 @@
+schema_version: 3
+id: showroom
+lemma: showroom
+pos:
+- noun
+ipa:
+  us: /ˈʃoʊˌrʊm/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: phòng trưng bày sản phẩm
+  id: showroom-1
+examples:
+- en: Visit our showroom to see the latest models of furniture.
+  vi: Hãy đến phòng trưng bày của chúng tôi để xem các mẫu đồ nội thất mới nhất.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈʃoʊˌrʊm/; /ˈʃoʊˌrum/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 376. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

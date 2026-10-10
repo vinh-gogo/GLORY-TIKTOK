@@ -1,0 +1,26 @@
+schema_version: 3
+id: context
+lemma: context
+pos:
+- noun
+ipa:
+  us: /ˈkɑntɛkst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: ngữ cảnh, bối cảnh
+  id: context-1
+examples:
+- en: You need to understand the context before you judge the manager's decision.
+  vi: Bạn cần hiểu bối cảnh trước khi đánh giá quyết định của người quản lý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1049. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

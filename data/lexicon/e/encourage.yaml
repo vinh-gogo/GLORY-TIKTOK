@@ -1,0 +1,27 @@
+schema_version: 3
+id: encourage
+lemma: encourage
+pos:
+- verb
+ipa:
+  us: /ɛnˈkɝɪdʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: khuyến khích
+  id: encourage-1
+examples:
+- en: Our manager encourages everyone to share ideas during the weekly team meeting.
+  vi: Quản lý của chúng tôi khuyến khích mọi người chia sẻ ý tưởng trong cuộc họp nhóm hằng tuần.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛnˈkɝɪdʒ/; /ɪnˈkɝədʒ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 912. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

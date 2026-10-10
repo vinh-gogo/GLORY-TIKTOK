@@ -1,0 +1,27 @@
+schema_version: 3
+id: nationwide
+lemma: nationwide
+pos:
+- adjective
+- adverb
+ipa:
+  us: /ˈneɪʃənˈwaɪd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: trên toàn quốc
+  id: nationwide-1
+examples:
+- en: The retailer plans to launch a nationwide advertising campaign next month.
+  vi: Nhà bán lẻ dự định phát động chiến dịch quảng cáo trên toàn quốc vào tháng tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 779. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

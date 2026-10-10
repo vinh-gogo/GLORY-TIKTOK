@@ -1,0 +1,26 @@
+schema_version: 3
+id: web
+lemma: web
+pos:
+- noun
+ipa:
+  us: /wɛb/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: mạng lưới; trang web (World Wide Web)
+  id: web-1
+examples:
+- en: You can find our opening hours on the web.
+  vi: Bạn có thể tìm giờ mở cửa của chúng tôi trên web.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2223. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

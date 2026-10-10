@@ -1,0 +1,26 @@
+schema_version: 3
+id: occurrence
+lemma: occurrence
+pos:
+- noun
+ipa:
+  us: /əˈkɝəns/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sự việc xảy ra, tần suất xảy ra
+  id: occurrence-1
+examples:
+- en: Server crashes are a rare occurrence, but we still keep a backup.
+  vi: Máy chủ sập là chuyện hiếm xảy ra nhưng chúng tôi vẫn giữ bản dự phòng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1154. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

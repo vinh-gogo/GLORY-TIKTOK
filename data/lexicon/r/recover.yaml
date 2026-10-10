@@ -1,0 +1,26 @@
+schema_version: 3
+id: recover
+lemma: recover
+pos:
+- verb
+ipa:
+  us: /rɪˈkʌvɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: hồi phục, lấy lại
+  id: recover-1
+examples:
+- en: The economy is expected to recover slowly over the next year.
+  vi: Nền kinh tế được dự đoán sẽ phục hồi chậm trong năm tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1631. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

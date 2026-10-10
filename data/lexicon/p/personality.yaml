@@ -1,0 +1,26 @@
+schema_version: 3
+id: personality
+lemma: personality
+pos:
+- noun
+ipa:
+  us: /ˌpɝsəˈnælɪti/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: tính cách, cá tính
+  id: personality-1
+examples:
+- en: Her friendly personality makes her a great fit for customer service.
+  vi: Tính cách thân thiện giúp cô ấy rất phù hợp với công việc chăm sóc khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1652. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: peer
+lemma: peer
+pos:
+- noun
+ipa:
+  us: /pɪr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: đồng nghiệp ngang hàng, người cùng trang lứa
+  id: peer-1
+examples:
+- en: New staff often learn quickly by observing their peers at work.
+  vi: Nhân viên mới thường học nhanh bằng cách quan sát những đồng nghiệp ngang hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2007. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

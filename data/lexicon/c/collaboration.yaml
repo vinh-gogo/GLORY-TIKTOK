@@ -1,0 +1,26 @@
+schema_version: 3
+id: collaboration
+lemma: collaboration
+pos:
+- noun
+ipa:
+  us: /kəˌlæbɚˈeɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sự hợp tác
+  id: collaboration-1
+examples:
+- en: The project succeeded thanks to close collaboration between the two departments.
+  vi: Dự án thành công nhờ sự hợp tác chặt chẽ giữa hai phòng ban.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 964. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

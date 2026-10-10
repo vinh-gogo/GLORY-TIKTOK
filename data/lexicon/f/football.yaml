@@ -1,0 +1,26 @@
+schema_version: 3
+id: football
+lemma: football
+pos:
+- noun
+ipa:
+  us: /ˈfʊtˌbɔl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: bóng đá
+  id: football-1
+examples:
+- en: Many of our employees watch football together at a restaurant on weekends.
+  vi: Nhiều nhân viên của chúng tôi cùng xem bóng đá tại một nhà hàng vào cuối tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1217. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

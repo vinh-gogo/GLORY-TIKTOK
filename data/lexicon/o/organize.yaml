@@ -1,0 +1,26 @@
+schema_version: 3
+id: organize
+lemma: organize
+pos:
+- verb
+ipa:
+  us: /ˈɔrɡəˌnaɪz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tổ chức, sắp xếp
+  id: organize-1
+examples:
+- en: Our team will organize a workshop for new employees next month.
+  vi: Nhóm của chúng tôi sẽ tổ chức một buổi hội thảo cho nhân viên mới vào tháng tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 824. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

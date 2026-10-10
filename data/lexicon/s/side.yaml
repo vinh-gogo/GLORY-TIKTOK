@@ -1,0 +1,26 @@
+schema_version: 3
+id: side
+lemma: side
+pos:
+- noun
+ipa:
+  us: /saɪd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bên, mặt, phía
+  id: side-1
+examples:
+- en: The entrance to the parking garage is on the north side.
+  vi: Lối vào nhà để xe nằm ở phía bắc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 276. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

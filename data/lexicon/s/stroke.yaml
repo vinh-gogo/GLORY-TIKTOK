@@ -1,0 +1,26 @@
+schema_version: 3
+id: stroke
+lemma: stroke
+pos:
+- noun
+ipa:
+  us: /stroʊk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: đột quỵ; nét vẽ
+  id: stroke-1
+examples:
+- en: Regular exercise can reduce the risk of a stroke.
+  vi: Tập thể dục đều đặn có thể giảm nguy cơ bị đột quỵ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2400. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

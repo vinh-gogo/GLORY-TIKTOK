@@ -1,0 +1,26 @@
+schema_version: 3
+id: celebrate
+lemma: celebrate
+pos:
+- verb
+ipa:
+  us: /ˈsɛləˌbreɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: ăn mừng, kỷ niệm
+  id: celebrate-1
+examples:
+- en: The company will celebrate its twentieth anniversary with a big party.
+  vi: Công ty sẽ kỷ niệm hai mươi năm thành lập bằng một bữa tiệc lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1608. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

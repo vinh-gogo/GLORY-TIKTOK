@@ -1,0 +1,26 @@
+schema_version: 3
+id: strong
+lemma: strong
+pos:
+- adjective
+ipa:
+  us: /strɔŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: mạnh, khỏe, vững
+  id: strong-1
+examples:
+- en: The company reported strong sales growth in the last quarter.
+  vi: Công ty báo cáo mức tăng trưởng doanh số mạnh trong quý vừa rồi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 461. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: advertiser
+lemma: advertiser
+pos:
+- noun
+ipa:
+  us: /ˈædvɚˌtaɪzɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: nhà quảng cáo
+  id: advertiser-1
+examples:
+- en: The magazine lost several advertisers when its readership started to decline.
+  vi: Tạp chí mất vài nhà quảng cáo khi lượng độc giả bắt đầu giảm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 657. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

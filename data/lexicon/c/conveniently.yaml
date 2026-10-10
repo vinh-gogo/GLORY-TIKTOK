@@ -1,0 +1,26 @@
+schema_version: 3
+id: conveniently
+lemma: conveniently
+pos:
+- adverb
+ipa:
+  us: /kənˈvinjəntli/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: một cách thuận tiện
+  id: conveniently-1
+examples:
+- en: The hotel is conveniently located near the airport and the business district.
+  vi: Khách sạn nằm ở vị trí thuận tiện gần sân bay và khu thương mại.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 759. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

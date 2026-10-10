@@ -1,0 +1,26 @@
+schema_version: 3
+id: fresh
+lemma: fresh
+pos:
+- adjective
+ipa:
+  us: /frɛʃ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: tươi, mới
+  id: fresh-1
+examples:
+- en: The restaurant uses only fresh vegetables bought from local farms.
+  vi: Nhà hàng chỉ dùng rau tươi mua từ các nông trại địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1309. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

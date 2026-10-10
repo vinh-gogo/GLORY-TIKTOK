@@ -1,0 +1,26 @@
+schema_version: 3
+id: absorb
+lemma: absorb
+pos:
+- verb
+ipa:
+  us: /əbˈzɔrb/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: hấp thụ; gánh chịu (chi phí)
+  id: absorb-1
+examples:
+- en: The company decided to absorb the extra shipping cost instead of charging customers.
+  vi: Công ty quyết định tự gánh chi phí vận chuyển phát sinh thay vì tính vào khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 801. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

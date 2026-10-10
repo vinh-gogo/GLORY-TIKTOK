@@ -1,0 +1,26 @@
+schema_version: 3
+id: hazardous
+lemma: hazardous
+pos:
+- adjective
+ipa:
+  us: /ˈhæzɚdəs/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: nguy hiểm, có hại
+  id: hazardous-1
+examples:
+- en: Workers must wear gloves when handling hazardous chemicals in the laboratory.
+  vi: Công nhân phải đeo găng tay khi xử lý hóa chất nguy hiểm trong phòng thí nghiệm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 775. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

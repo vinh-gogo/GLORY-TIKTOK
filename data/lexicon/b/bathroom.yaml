@@ -1,0 +1,26 @@
+schema_version: 3
+id: bathroom
+lemma: bathroom
+pos:
+- noun
+ipa:
+  us: /ˈbæˌθrum/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: phòng tắm, nhà vệ sinh
+  id: bathroom-1
+examples:
+- en: The apartment has two bedrooms and a newly renovated bathroom.
+  vi: Căn hộ có hai phòng ngủ và một phòng tắm mới được cải tạo.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 282. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: subtract
+lemma: subtract
+pos:
+- verb
+ipa:
+  us: /səbˈtrækt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: trừ đi
+  id: subtract-1
+examples:
+- en: Subtract the discount from the total price to find the final amount.
+  vi: Hãy trừ phần giảm giá khỏi tổng giá để ra số tiền cuối cùng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 745. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

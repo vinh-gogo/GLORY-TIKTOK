@@ -1,0 +1,26 @@
+schema_version: 3
+id: copier
+lemma: copier
+pos:
+- noun
+ipa:
+  us: /ˈkɑpiɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: máy photocopy
+  id: copier-1
+examples:
+- en: The copier on the third floor is out of paper again.
+  vi: Máy photocopy ở tầng ba lại hết giấy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 132. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

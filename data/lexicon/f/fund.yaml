@@ -1,0 +1,27 @@
+schema_version: 3
+id: fund
+lemma: fund
+pos:
+- noun
+- verb
+ipa:
+  us: /fʌnd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: quỹ; tài trợ
+  id: fund-1
+examples:
+- en: The company set up a fund to support employee training programs.
+  vi: Công ty đã lập một quỹ để hỗ trợ các chương trình đào tạo nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 527. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: projection
+lemma: projection
+pos:
+- noun
+ipa:
+  us: /prəˈdʒɛkʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sự dự báo, số liệu dự phóng
+  id: projection-1
+examples:
+- en: According to the projection, revenue will double within the next three years.
+  vi: Theo dự báo, doanh thu sẽ tăng gấp đôi trong ba năm tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 552. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: begin
+lemma: begin
+pos:
+- verb
+ipa:
+  us: /bɪˈɡɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bắt đầu
+  id: begin-1
+examples:
+- en: The seminar will begin at ten o'clock in the main auditorium.
+  vi: Buổi hội thảo sẽ bắt đầu lúc mười giờ tại hội trường chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 189. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

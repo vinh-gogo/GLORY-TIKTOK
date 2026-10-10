@@ -1,0 +1,26 @@
+schema_version: 3
+id: photocopier
+lemma: photocopier
+pos:
+- noun
+ipa:
+  us: /ˈfoʊtoʊˌkɑpiɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: máy photocopy
+  id: photocopier-1
+examples:
+- en: The new photocopier can print on both sides of the paper.
+  vi: Chiếc máy photocopy mới có thể in hai mặt giấy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 260. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

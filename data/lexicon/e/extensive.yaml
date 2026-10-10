@@ -1,0 +1,26 @@
+schema_version: 3
+id: extensive
+lemma: extensive
+pos:
+- adjective
+ipa:
+  us: /ɪkˈstɛnsɪv/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: rộng lớn, bao quát
+  id: extensive-1
+examples:
+- en: The candidate has extensive experience in international sales.
+  vi: Ứng viên có kinh nghiệm phong phú trong lĩnh vực bán hàng quốc tế.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2231. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: figure
+lemma: figure
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈfɪɡjɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: con số; hình; hình dung
+  id: figure-1
+examples:
+- en: The latest sales figures show a ten percent rise over last year.
+  vi: Số liệu bán hàng mới nhất cho thấy mức tăng mười phần trăm so với năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 357. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

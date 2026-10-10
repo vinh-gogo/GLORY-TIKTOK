@@ -1,0 +1,27 @@
+schema_version: 3
+id: tourist
+lemma: tourist
+pos:
+- noun
+ipa:
+  us: /ˈtʊrəst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: khách du lịch
+  id: tourist-1
+examples:
+- en: The museum is very popular with tourists during the summer months.
+  vi: Bảo tàng rất được du khách ưa chuộng trong những tháng mùa hè.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈtʊrəst/; /ˈtʊrɪst/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1486. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

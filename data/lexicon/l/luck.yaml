@@ -1,0 +1,26 @@
+schema_version: 3
+id: luck
+lemma: luck
+pos:
+- noun
+ipa:
+  us: /lʌk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: may mắn, vận may
+  id: luck-1
+examples:
+- en: Good luck with your presentation to the board tomorrow morning.
+  vi: Chúc bạn may mắn với bài thuyết trình trước hội đồng quản trị sáng mai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1934. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: rice
+lemma: rice
+pos:
+- noun
+ipa:
+  us: /raɪs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: gạo, cơm
+  id: rice-1
+examples:
+- en: The set lunch comes with grilled chicken, steamed rice, and a small salad.
+  vi: Bữa trưa theo suất gồm gà nướng, cơm hấp và một đĩa salad nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2695. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

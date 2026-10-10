@@ -1,0 +1,26 @@
+schema_version: 3
+id: previous
+lemma: previous
+pos:
+- adjective
+ipa:
+  us: /ˈpriviəs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: trước đó
+  id: previous-1
+examples:
+- en: Please refer to my previous email for the full list of requirements.
+  vi: Vui lòng xem email trước đó của tôi để biết đầy đủ danh sách yêu cầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 922. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

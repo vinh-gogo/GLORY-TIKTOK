@@ -1,0 +1,26 @@
+schema_version: 3
+id: stable
+lemma: stable
+pos:
+- adjective
+ipa:
+  us: /ˈsteɪbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: ổn định
+  id: stable-1
+examples:
+- en: The company's revenue has remained stable for the past three years.
+  vi: Doanh thu của công ty vẫn ổn định trong ba năm qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1797. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

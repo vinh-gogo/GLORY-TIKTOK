@@ -1,0 +1,26 @@
+schema_version: 3
+id: outlet
+lemma: outlet
+pos:
+- noun
+ipa:
+  us: /ˈaʊtˌlɛt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: cửa hàng bán trực tiếp; ổ điện
+  id: outlet-1
+examples:
+- en: The company opened a new retail outlet in the shopping district.
+  vi: Công ty đã mở một cửa hàng bán lẻ mới trong khu mua sắm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 357. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

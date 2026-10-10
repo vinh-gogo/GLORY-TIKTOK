@@ -1,0 +1,27 @@
+schema_version: 3
+id: show
+lemma: show
+pos:
+- verb
+- noun
+ipa:
+  us: /ʃoʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: cho xem, trình bày; buổi trình diễn
+  id: show-1
+examples:
+- en: The salesperson will show you how the new model works.
+  vi: Nhân viên bán hàng sẽ chỉ cho bạn cách mẫu mới hoạt động.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 110. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: sense
+lemma: sense
+pos:
+- noun
+- verb
+ipa:
+  us: /sɛns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: giác quan; ý nghĩa; cảm nhận
+  id: sense-1
+examples:
+- en: It makes sense to order supplies in bulk to reduce shipping costs.
+  vi: Việc đặt vật tư với số lượng lớn là hợp lý để giảm chi phí vận chuyển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 412. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

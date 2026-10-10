@@ -1,0 +1,26 @@
+schema_version: 3
+id: downturn
+lemma: downturn
+pos:
+- noun
+ipa:
+  us: /ˈdaʊnˌtɝn/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sự suy giảm kinh tế
+  id: downturn-1
+examples:
+- en: The economic downturn forced several small businesses to close their shops.
+  vi: Sự suy thoái kinh tế buộc nhiều doanh nghiệp nhỏ phải đóng cửa tiệm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 631. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

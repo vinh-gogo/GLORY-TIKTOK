@@ -1,0 +1,27 @@
+schema_version: 3
+id: trial
+lemma: trial
+pos:
+- noun
+ipa:
+  us: /ˈtraɪəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: bản dùng thử; phiên tòa
+  id: trial-1
+examples:
+- en: You can use the software free of charge during the thirty-day trial.
+  vi: Bạn có thể dùng phần mềm miễn phí trong ba mươi ngày dùng thử.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈtraɪəl/; /traɪl/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1043. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

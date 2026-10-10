@@ -1,0 +1,27 @@
+schema_version: 3
+id: chart
+lemma: chart
+pos:
+- noun
+- verb
+ipa:
+  us: /tʃɑrt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: biểu đồ
+  id: chart-1
+examples:
+- en: The chart on page five shows our monthly sales growth.
+  vi: Biểu đồ ở trang năm cho thấy mức tăng trưởng doanh số hàng tháng của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1741. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

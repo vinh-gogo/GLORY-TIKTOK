@@ -1,0 +1,26 @@
+schema_version: 3
+id: modern
+lemma: modern
+pos:
+- adjective
+ipa:
+  us: /ˈmɑdɚn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: hiện đại
+  id: modern-1
+examples:
+- en: The company moved into a modern office with open working spaces.
+  vi: Công ty đã chuyển vào một văn phòng hiện đại với không gian làm việc mở.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 808. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

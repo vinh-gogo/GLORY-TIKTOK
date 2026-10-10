@@ -1,0 +1,28 @@
+schema_version: 3
+id: watch
+lemma: watch
+pos:
+- verb
+- noun
+ipa:
+  us: /wɑtʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: xem, theo dõi; đồng hồ đeo tay
+  id: watch-1
+examples:
+- en: Employees can watch the training video at any time on the intranet.
+  vi: Nhân viên có thể xem video đào tạo bất cứ lúc nào trên mạng nội bộ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/wɑtʃ/; /wɔtʃ/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 326. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

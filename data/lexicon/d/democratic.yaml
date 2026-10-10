@@ -1,0 +1,26 @@
+schema_version: 3
+id: democratic
+lemma: democratic
+pos:
+- adjective
+ipa:
+  us: /ˌdɛməˈkrætɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: dân chủ
+  id: democratic-1
+examples:
+- en: The club chooses its leaders through a fair and democratic voting process.
+  vi: Câu lạc bộ chọn người lãnh đạo thông qua quy trình bỏ phiếu công bằng và dân chủ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2547. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

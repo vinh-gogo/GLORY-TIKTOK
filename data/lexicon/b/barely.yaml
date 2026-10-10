@@ -1,0 +1,26 @@
+schema_version: 3
+id: barely
+lemma: barely
+pos:
+- adverb
+ipa:
+  us: /ˈbɛrli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: vừa đủ, hầu như không
+  id: barely-1
+examples:
+- en: We barely had enough time to finish the report before the meeting.
+  vi: Chúng tôi hầu như không đủ thời gian để hoàn thành báo cáo trước cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2626. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

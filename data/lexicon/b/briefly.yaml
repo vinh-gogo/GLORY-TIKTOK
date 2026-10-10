@@ -1,0 +1,26 @@
+schema_version: 3
+id: briefly
+lemma: briefly
+pos:
+- adverb
+ipa:
+  us: /ˈbrifli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: ngắn gọn; trong chốc lát
+  id: briefly-1
+examples:
+- en: The director briefly explained the new safety rules to the staff.
+  vi: Giám đốc giải thích ngắn gọn các quy tắc an toàn mới cho nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2270. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

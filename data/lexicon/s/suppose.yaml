@@ -1,0 +1,26 @@
+schema_version: 3
+id: suppose
+lemma: suppose
+pos:
+- verb
+ipa:
+  us: /səˈpoʊz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cho rằng, giả sử
+  id: suppose-1
+examples:
+- en: I suppose we could postpone the launch until next month.
+  vi: Tôi nghĩ chúng ta có thể hoãn buổi ra mắt đến tháng sau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 610. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

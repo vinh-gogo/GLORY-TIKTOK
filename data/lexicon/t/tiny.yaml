@@ -1,0 +1,26 @@
+schema_version: 3
+id: tiny
+lemma: tiny
+pos:
+- adjective
+ipa:
+  us: /ˈtaɪni/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: rất nhỏ, nhỏ xíu
+  id: tiny-1
+examples:
+- en: The company rented a tiny office near the central station.
+  vi: Công ty thuê một văn phòng nhỏ xíu gần ga trung tâm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1636. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

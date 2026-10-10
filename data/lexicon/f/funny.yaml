@@ -1,0 +1,26 @@
+schema_version: 3
+id: funny
+lemma: funny
+pos:
+- adjective
+ipa:
+  us: /ˈfʌni/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: buồn cười, hài hước
+  id: funny-1
+examples:
+- en: Everyone laughed at the funny story he told during lunch.
+  vi: Mọi người đều cười trước câu chuyện hài hước anh ấy kể trong bữa trưa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1237. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

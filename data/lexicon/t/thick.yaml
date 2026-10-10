@@ -1,0 +1,26 @@
+schema_version: 3
+id: thick
+lemma: thick
+pos:
+- adjective
+ipa:
+  us: /θɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: dày; đặc
+  id: thick-1
+examples:
+- en: Please wear a thick coat because it is very cold outside.
+  vi: Vui lòng mặc áo khoác dày vì bên ngoài rất lạnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2000. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

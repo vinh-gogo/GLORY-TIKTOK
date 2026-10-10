@@ -1,0 +1,27 @@
+schema_version: 3
+id: back
+lemma: back
+pos:
+- adverb
+- noun
+ipa:
+  us: /bæk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trở lại, quay về; phía sau
+  id: back-1
+examples:
+- en: I will be back at my desk in about fifteen minutes.
+  vi: Tôi sẽ quay lại bàn làm việc trong khoảng mười lăm phút nữa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 94. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

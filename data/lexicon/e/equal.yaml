@@ -1,0 +1,26 @@
+schema_version: 3
+id: equal
+lemma: equal
+pos:
+- adjective
+ipa:
+  us: /ˈikwəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: bằng nhau, ngang nhau
+  id: equal-1
+examples:
+- en: All employees should have equal opportunities to be promoted.
+  vi: Mọi nhân viên đều nên có cơ hội thăng chức ngang nhau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1254. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

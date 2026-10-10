@@ -1,0 +1,26 @@
+schema_version: 3
+id: lab
+lemma: lab
+pos:
+- noun
+ipa:
+  us: /læb/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: phòng thí nghiệm
+  id: lab-1
+examples:
+- en: The lab will be closed on Monday for equipment maintenance.
+  vi: Phòng thí nghiệm sẽ đóng cửa vào thứ Hai để bảo trì thiết bị.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 156. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

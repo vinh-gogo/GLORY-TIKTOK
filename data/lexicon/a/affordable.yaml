@@ -1,0 +1,26 @@
+schema_version: 3
+id: affordable
+lemma: affordable
+pos:
+- adjective
+ipa:
+  us: /əˈfɔrdəbəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: giá phải chăng
+  id: affordable-1
+examples:
+- en: The agency offers affordable travel packages for families.
+  vi: Công ty du lịch cung cấp các gói du lịch giá phải chăng cho gia đình.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 218. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

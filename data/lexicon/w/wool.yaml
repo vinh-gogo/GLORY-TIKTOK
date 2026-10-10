@@ -1,0 +1,26 @@
+schema_version: 3
+id: wool
+lemma: wool
+pos:
+- noun
+ipa:
+  us: /wʊl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- manufacturing
+senses:
+- meaning_vi: len, lông cừu
+  id: wool-1
+examples:
+- en: The factory produces warm blankets made from high quality wool.
+  vi: Nhà máy sản xuất chăn ấm làm từ len chất lượng cao.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1096. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: settlement
+lemma: settlement
+pos:
+- noun
+ipa:
+  us: /ˈsɛtəlmənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sự thanh toán, dàn xếp, thỏa thuận
+  id: settlement-1
+examples:
+- en: Both companies reached a settlement after several weeks of discussion.
+  vi: Cả hai công ty đạt được thỏa thuận sau nhiều tuần thảo luận.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1766. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

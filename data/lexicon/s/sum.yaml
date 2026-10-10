@@ -1,0 +1,26 @@
+schema_version: 3
+id: sum
+lemma: sum
+pos:
+- noun
+ipa:
+  us: /sʌm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tổng số; khoản tiền
+  id: sum-1
+examples:
+- en: The firm paid a large sum of money for the new building.
+  vi: Công ty đã trả một khoản tiền lớn cho tòa nhà mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1375. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

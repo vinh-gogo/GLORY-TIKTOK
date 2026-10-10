@@ -1,0 +1,26 @@
+schema_version: 3
+id: pregnancy
+lemma: pregnancy
+pos:
+- noun
+ipa:
+  us: /ˈprɛɡnənsi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: thai kỳ, sự mang thai
+  id: pregnancy-1
+examples:
+- en: She worked until the eighth month of her pregnancy before taking leave.
+  vi: Cô ấy làm việc đến tháng thứ tám của thai kỳ rồi mới nghỉ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2743. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

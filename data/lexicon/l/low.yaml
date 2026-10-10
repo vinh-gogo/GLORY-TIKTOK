@@ -1,0 +1,26 @@
+schema_version: 3
+id: low
+lemma: low
+pos:
+- adjective
+ipa:
+  us: /loʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thấp
+  id: low-1
+examples:
+- en: The store is famous for its low prices on household goods.
+  vi: Cửa hàng nổi tiếng với giá thấp cho các mặt hàng gia dụng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 283. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

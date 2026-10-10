@@ -1,0 +1,26 @@
+schema_version: 3
+id: bottom
+lemma: bottom
+pos:
+- noun
+ipa:
+  us: /ˈbɑtəm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đáy, phần dưới cùng
+  id: bottom-1
+examples:
+- en: Please sign your name at the bottom of the form.
+  vi: Vui lòng ký tên của bạn ở cuối mẫu đơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1242. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

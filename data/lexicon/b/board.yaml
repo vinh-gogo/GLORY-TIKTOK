@@ -1,0 +1,26 @@
+schema_version: 3
+id: board
+lemma: board
+pos:
+- noun
+ipa:
+  us: /bɔrd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: hội đồng quản trị; tấm bảng
+  id: board-1
+examples:
+- en: The board of directors approved the plan to open a new branch.
+  vi: Hội đồng quản trị đã phê duyệt kế hoạch mở chi nhánh mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 741. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

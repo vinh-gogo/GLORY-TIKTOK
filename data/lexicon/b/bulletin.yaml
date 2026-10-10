@@ -1,0 +1,26 @@
+schema_version: 3
+id: bulletin
+lemma: bulletin
+pos:
+- noun
+ipa:
+  us: /ˈbʊlɪtən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: bản tin, thông báo
+  id: bulletin-1
+examples:
+- en: The weekly bulletin lists all upcoming events and deadlines.
+  vi: Bản tin hằng tuần liệt kê tất cả sự kiện và hạn chót sắp tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 158. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

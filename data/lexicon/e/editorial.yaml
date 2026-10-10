@@ -1,0 +1,27 @@
+schema_version: 3
+id: editorial
+lemma: editorial
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˌɛdəˈtɔriəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: bài xã luận; thuộc biên tập
+  id: editorial-1
+examples:
+- en: The newspaper published an editorial about the city's new transportation plan.
+  vi: Tờ báo đã đăng một bài xã luận về kế hoạch giao thông mới của thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 571. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

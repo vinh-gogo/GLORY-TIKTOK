@@ -1,0 +1,26 @@
+schema_version: 3
+id: mosquito
+lemma: mosquito
+pos:
+- noun
+ipa:
+  us: /məˈskitoʊ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: con muỗi
+  id: mosquito-1
+examples:
+- en: Use a net at night to protect yourself from mosquito bites.
+  vi: Hãy dùng màn vào ban đêm để bảo vệ bản thân khỏi muỗi đốt.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1151. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

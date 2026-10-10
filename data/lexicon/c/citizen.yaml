@@ -1,0 +1,27 @@
+schema_version: 3
+id: citizen
+lemma: citizen
+pos:
+- noun
+ipa:
+  us: /ˈsɪtəzən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: công dân
+  id: citizen-1
+examples:
+- en: Every citizen has the right to vote in the local election.
+  vi: Mỗi công dân đều có quyền bỏ phiếu trong cuộc bầu cử địa phương.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈsɪtəzən/; /ˈsɪtɪzən/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1451. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

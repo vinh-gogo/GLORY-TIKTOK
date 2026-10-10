@@ -1,0 +1,26 @@
+schema_version: 3
+id: subsequent
+lemma: subsequent
+pos:
+- adjective
+ipa:
+  us: /ˈsʌbsəkwənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tiếp theo, sau đó
+  id: subsequent-1
+examples:
+- en: Subsequent orders will receive a discount of five percent.
+  vi: Các đơn hàng tiếp theo sẽ được giảm giá năm phần trăm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2251. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

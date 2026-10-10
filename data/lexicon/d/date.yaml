@@ -1,0 +1,26 @@
+schema_version: 3
+id: date
+lemma: date
+pos:
+- noun
+ipa:
+  us: /deɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: ngày tháng; ngày hẹn
+  id: date-1
+examples:
+- en: Please write today's date at the top of the application form.
+  vi: Vui lòng ghi ngày hôm nay ở đầu đơn đăng ký.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 483. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

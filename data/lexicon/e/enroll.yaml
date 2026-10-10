@@ -1,0 +1,27 @@
+schema_version: 3
+id: enroll
+lemma: enroll
+pos:
+- verb
+ipa:
+  us: /ɛnˈroʊl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: đăng ký tham gia, ghi danh
+  id: enroll-1
+examples:
+- en: Employees can enroll in the language course until the end of March.
+  vi: Nhân viên có thể đăng ký khóa học ngoại ngữ đến hết tháng Ba.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛnˈroʊl/; /ɪnˈroʊl/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 353. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

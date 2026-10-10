@@ -1,0 +1,26 @@
+schema_version: 3
+id: surface
+lemma: surface
+pos:
+- noun
+ipa:
+  us: /ˈsɝfəs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: bề mặt
+  id: surface-1
+examples:
+- en: Please wipe the surface of the table before the next meeting begins.
+  vi: Vui lòng lau bề mặt bàn trước khi cuộc họp tiếp theo bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1161. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

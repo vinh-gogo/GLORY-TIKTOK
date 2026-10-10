@@ -1,0 +1,26 @@
+schema_version: 3
+id: consider
+lemma: consider
+pos:
+- verb
+ipa:
+  us: /kənˈsɪdɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: cân nhắc, xem xét
+  id: consider-1
+examples:
+- en: The committee will consider all applications before announcing the winner.
+  vi: Ủy ban sẽ xem xét tất cả đơn đăng ký trước khi công bố người thắng cuộc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 295. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

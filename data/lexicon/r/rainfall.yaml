@@ -1,0 +1,26 @@
+schema_version: 3
+id: rainfall
+lemma: rainfall
+pos:
+- noun
+ipa:
+  us: /ˈreɪnˌfɔl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: lượng mưa
+  id: rainfall-1
+examples:
+- en: Heavy rainfall last week caused delays on several local train lines.
+  vi: Lượng mưa lớn tuần trước gây chậm trễ trên nhiều tuyến tàu địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1073. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

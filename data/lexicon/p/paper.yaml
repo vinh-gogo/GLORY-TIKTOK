@@ -1,0 +1,26 @@
+schema_version: 3
+id: paper
+lemma: paper
+pos:
+- noun
+ipa:
+  us: /ˈpeɪpɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: giấy; bài báo, tài liệu
+  id: paper-1
+examples:
+- en: We ran out of printer paper, so please order more today.
+  vi: Chúng ta hết giấy in rồi, nên hãy đặt thêm trong hôm nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 425. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

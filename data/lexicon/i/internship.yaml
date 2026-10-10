@@ -1,0 +1,26 @@
+schema_version: 3
+id: internship
+lemma: internship
+pos:
+- noun
+ipa:
+  us: /ˈɪntɚnˌʃɪp/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: kỳ thực tập
+  id: internship-1
+examples:
+- en: She completed a three-month internship at a design firm.
+  vi: Cô ấy đã hoàn thành kỳ thực tập ba tháng tại một công ty thiết kế.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 345. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

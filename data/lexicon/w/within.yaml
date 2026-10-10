@@ -1,0 +1,27 @@
+schema_version: 3
+id: within
+lemma: within
+pos:
+- preposition
+ipa:
+  us: /wɪˈðɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trong vòng, bên trong
+  id: within-1
+examples:
+- en: Your refund will be processed within five business days of your request.
+  vi: Khoản hoàn tiền của bạn sẽ được xử lý trong vòng năm ngày làm việc kể từ yêu cầu.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/wɪˈðɪn/; /wɪˈθɪn/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 285. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

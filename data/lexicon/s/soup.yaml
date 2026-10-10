@@ -1,0 +1,26 @@
+schema_version: 3
+id: soup
+lemma: soup
+pos:
+- noun
+ipa:
+  us: /sup/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: món súp, canh
+  id: soup-1
+examples:
+- en: The soup of the day is tomato with fresh basil.
+  vi: Món súp trong ngày là cà chua với húng quế tươi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 326. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

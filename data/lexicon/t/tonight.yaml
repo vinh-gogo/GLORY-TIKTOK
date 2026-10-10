@@ -1,0 +1,27 @@
+schema_version: 3
+id: tonight
+lemma: tonight
+pos:
+- adverb
+ipa:
+  us: /təˈnaɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: tối nay
+  id: tonight-1
+examples:
+- en: I have to work late tonight to finish the quarterly report.
+  vi: Tối nay tôi phải làm việc muộn để hoàn thành báo cáo quý.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/təˈnaɪt/; /tʊˈnaɪt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1414. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,28 @@
+schema_version: 3
+id: next
+lemma: next
+pos:
+- adjective
+- adverb
+ipa:
+  us: /nɛkst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tiếp theo, kế tiếp
+  id: next-1
+examples:
+- en: The next train to the airport leaves from platform three.
+  vi: Chuyến tàu tiếp theo đến sân bay khởi hành từ sân ga số ba.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/nɛkst/; /nɛks/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 151. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

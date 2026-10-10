@@ -1,0 +1,27 @@
+schema_version: 3
+id: headquarter
+lemma: headquarter
+pos:
+- noun
+ipa:
+  us: /ˈhɛdˌkwɔrtɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: trụ sở chính (thường dùng dạng số nhiều)
+  id: headquarter-1
+examples:
+- en: The company's headquarters are located in the center of the city.
+  vi: Trụ sở chính của công ty nằm ở trung tâm thành phố.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Lemma là dạng số ít hiếm dùng; thường là headquarters (số nhiều) hoặc động từ
+    hiếm — Mục từ TSL hạng 203. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

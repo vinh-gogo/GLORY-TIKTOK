@@ -1,0 +1,27 @@
+schema_version: 3
+id: yourself
+lemma: yourself
+pos:
+- pronoun
+ipa:
+  us: /jɚˈsɛlf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chính bạn, tự bạn
+  id: yourself-1
+examples:
+- en: Please introduce yourself to the team before the meeting starts tomorrow morning.
+  vi: Hãy tự giới thiệu bản thân với cả nhóm trước khi cuộc họp bắt đầu vào sáng mai.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/jɚˈsɛlf/; /jʊrˈsɛlf/; /ˈjɔrsɛlf/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 813. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

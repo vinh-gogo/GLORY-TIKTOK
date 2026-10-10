@@ -1,0 +1,26 @@
+schema_version: 3
+id: puzzle
+lemma: puzzle
+pos:
+- noun
+ipa:
+  us: /ˈpʌzəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: trò chơi ghép hình, câu đố
+  id: puzzle-1
+examples:
+- en: The children spent the whole afternoon working on a difficult puzzle.
+  vi: Bọn trẻ dành cả buổi chiều để giải một trò ghép hình khó.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 837. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

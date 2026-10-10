@@ -1,0 +1,26 @@
+schema_version: 3
+id: sweep
+lemma: sweep
+pos:
+- verb
+ipa:
+  us: /swip/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: quét (nhà, sàn)
+  id: sweep-1
+examples:
+- en: Staff sweep the floor of the shop every evening.
+  vi: Nhân viên quét sàn cửa hàng vào mỗi buổi tối.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2136. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

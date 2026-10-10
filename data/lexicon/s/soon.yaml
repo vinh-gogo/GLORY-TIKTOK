@@ -1,0 +1,26 @@
+schema_version: 3
+id: soon
+lemma: soon
+pos:
+- adverb
+ipa:
+  us: /sun/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sớm, chẳng bao lâu nữa
+  id: soon-1
+examples:
+- en: The new branch will open soon, and we are hiring more staff.
+  vi: Chi nhánh mới sắp mở cửa, và chúng tôi đang tuyển thêm nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 325. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: rainy
+lemma: rainy
+pos:
+- adjective
+ipa:
+  us: /ˈreɪni/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: có mưa, mưa nhiều
+  id: rainy-1
+examples:
+- en: The outdoor event was canceled because of the rainy weather.
+  vi: Sự kiện ngoài trời bị hủy vì thời tiết mưa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 235. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

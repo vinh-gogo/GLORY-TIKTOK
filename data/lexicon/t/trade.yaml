@@ -1,0 +1,27 @@
+schema_version: 3
+id: trade
+lemma: trade
+pos:
+- noun
+- verb
+ipa:
+  us: /treɪd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: thương mại, buôn bán
+  id: trade-1
+examples:
+- en: The two countries signed a trade agreement to reduce import taxes.
+  vi: Hai nước đã ký một hiệp định thương mại để giảm thuế nhập khẩu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 544. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

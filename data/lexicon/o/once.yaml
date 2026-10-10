@@ -1,0 +1,27 @@
+schema_version: 3
+id: once
+lemma: once
+pos:
+- adverb
+- conjunction
+ipa:
+  us: /wʌns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: một lần; khi, một khi
+  id: once-1
+examples:
+- en: The staff meets once a week to discuss current projects.
+  vi: Nhân viên họp mỗi tuần một lần để thảo luận các dự án hiện tại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 265. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

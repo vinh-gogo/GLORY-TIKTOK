@@ -1,0 +1,26 @@
+schema_version: 3
+id: layer
+lemma: layer
+pos:
+- noun
+ipa:
+  us: /ˈleɪɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: lớp
+  id: layer-1
+examples:
+- en: A thin layer of paint protects the metal from rust.
+  vi: Một lớp sơn mỏng bảo vệ kim loại khỏi bị gỉ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2024. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

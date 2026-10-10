@@ -1,0 +1,26 @@
+schema_version: 3
+id: terminal
+lemma: terminal
+pos:
+- noun
+ipa:
+  us: /ˈtɝmənəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: nhà ga, cảng (sân bay, bến xe)
+  id: terminal-1
+examples:
+- en: Our flight leaves from terminal two, so take the shuttle.
+  vi: Chuyến bay của chúng tôi khởi hành từ nhà ga số hai, vì vậy hãy đi xe đưa đón.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 193. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

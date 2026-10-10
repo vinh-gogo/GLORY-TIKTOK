@@ -1,0 +1,26 @@
+schema_version: 3
+id: anybody
+lemma: anybody
+pos:
+- pronoun
+ipa:
+  us: /ˈɛnibədi/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bất kỳ ai, có ai
+  id: anybody-1
+examples:
+- en: Is anybody available to help me move this heavy table?
+  vi: Có ai rảnh để giúp tôi chuyển chiếc bàn nặng này không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1431. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

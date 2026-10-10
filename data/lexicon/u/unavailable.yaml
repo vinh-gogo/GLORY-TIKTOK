@@ -1,0 +1,26 @@
+schema_version: 3
+id: unavailable
+lemma: unavailable
+pos:
+- adjective
+ipa:
+  us: /ˌʌnəˈveɪləbəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: không có sẵn, không rảnh
+  id: unavailable-1
+examples:
+- en: The manager is unavailable today, so please leave a message with his assistant.
+  vi: Hôm nay quản lý không rảnh, nên vui lòng để lại lời nhắn cho trợ lý của ông.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 695. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

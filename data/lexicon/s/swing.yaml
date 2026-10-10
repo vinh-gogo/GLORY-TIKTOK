@@ -1,0 +1,27 @@
+schema_version: 3
+id: swing
+lemma: swing
+pos:
+- verb
+- noun
+ipa:
+  us: /swɪŋ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: đu đưa, lắc lư; sự dao động
+  id: swing-1
+examples:
+- en: The children love to swing at the playground after lunch.
+  vi: Bọn trẻ thích đu đưa ở sân chơi sau bữa trưa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1937. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

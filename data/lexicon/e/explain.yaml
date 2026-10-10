@@ -1,0 +1,26 @@
+schema_version: 3
+id: explain
+lemma: explain
+pos:
+- verb
+ipa:
+  us: /ɪkˈspleɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: giải thích
+  id: explain-1
+examples:
+- en: The technician will explain how to use the new scanning machine.
+  vi: Kỹ thuật viên sẽ giải thích cách sử dụng máy quét mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 489. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

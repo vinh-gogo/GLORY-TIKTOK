@@ -1,0 +1,27 @@
+schema_version: 3
+id: forth
+lemma: forth
+pos:
+- adverb
+ipa:
+  us: /fɔrθ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: ra phía trước, tiếp tục (back and forth)
+  id: forth-1
+examples:
+- en: The two teams went back and forth on the price for days.
+  vi: Hai nhóm đã qua lại về mức giá trong nhiều ngày.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Từ cổ/ít dùng độc lập, thường trong cụm back and forth, and so forth — Mục từ
+    NGSL hạng 1860. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

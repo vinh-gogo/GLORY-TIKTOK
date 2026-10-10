@@ -1,0 +1,27 @@
+schema_version: 3
+id: export
+lemma: export
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈɛkspɔrt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: xuất khẩu
+  id: export-1
+examples:
+- en: The country's main export is coffee, which is sold worldwide.
+  vi: Mặt hàng xuất khẩu chính của đất nước là cà phê, được bán trên toàn thế giới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1543. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

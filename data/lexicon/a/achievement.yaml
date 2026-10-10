@@ -1,0 +1,26 @@
+schema_version: 3
+id: achievement
+lemma: achievement
+pos:
+- noun
+ipa:
+  us: /əˈtʃivmənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: thành tựu, thành tích
+  id: achievement-1
+examples:
+- en: She received an award for her outstanding achievement in sales.
+  vi: Cô ấy nhận giải thưởng cho thành tích xuất sắc trong lĩnh vực bán hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2001. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

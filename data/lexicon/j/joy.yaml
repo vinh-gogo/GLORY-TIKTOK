@@ -1,0 +1,26 @@
+schema_version: 3
+id: joy
+lemma: joy
+pos:
+- noun
+ipa:
+  us: /dʒɔɪ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: niềm vui, sự vui sướng
+  id: joy-1
+examples:
+- en: The team shouted with joy when they heard they had won the contract.
+  vi: Cả nhóm reo lên vui sướng khi nghe tin họ đã thắng hợp đồng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2510. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

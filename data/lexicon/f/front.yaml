@@ -1,0 +1,26 @@
+schema_version: 3
+id: front
+lemma: front
+pos:
+- noun
+ipa:
+  us: /frʌnt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: phía trước, mặt trước
+  id: front-1
+examples:
+- en: Visitors should check in at the front desk when they arrive.
+  vi: Khách đến nên đăng ký tại quầy lễ tân phía trước khi vừa tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 488. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

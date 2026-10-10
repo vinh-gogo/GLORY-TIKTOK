@@ -1,0 +1,26 @@
+schema_version: 3
+id: sport
+lemma: sport
+pos:
+- noun
+ipa:
+  us: /spɔrt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: thể thao, môn thể thao
+  id: sport-1
+examples:
+- en: Football is the most popular sport among our employees.
+  vi: Bóng đá là môn thể thao phổ biến nhất trong số nhân viên của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 603. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

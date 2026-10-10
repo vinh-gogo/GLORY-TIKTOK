@@ -1,0 +1,26 @@
+schema_version: 3
+id: successful
+lemma: successful
+pos:
+- adjective
+ipa:
+  us: /səkˈsɛsfəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: thành công
+  id: successful-1
+examples:
+- en: The launch of the new product was highly successful in the Asian market.
+  vi: Việc ra mắt sản phẩm mới đã rất thành công ở thị trường châu Á.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 872. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

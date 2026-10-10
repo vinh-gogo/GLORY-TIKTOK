@@ -1,0 +1,26 @@
+schema_version: 3
+id: description
+lemma: description
+pos:
+- noun
+ipa:
+  us: /dɪˈskrɪpʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự mô tả, bản mô tả
+  id: description-1
+examples:
+- en: Please read the job description carefully before you apply for the position.
+  vi: Vui lòng đọc kỹ bản mô tả công việc trước khi bạn ứng tuyển vào vị trí này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1492. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

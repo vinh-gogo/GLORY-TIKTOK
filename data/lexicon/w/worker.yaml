@@ -1,0 +1,26 @@
+schema_version: 3
+id: worker
+lemma: worker
+pos:
+- noun
+ipa:
+  us: /ˈwɝkɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: công nhân, người lao động
+  id: worker-1
+examples:
+- en: Every factory worker must attend the safety training on Monday.
+  vi: Mọi công nhân nhà máy phải tham dự buổi tập huấn an toàn vào thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 673. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

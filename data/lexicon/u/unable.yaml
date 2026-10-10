@@ -1,0 +1,26 @@
+schema_version: 3
+id: unable
+lemma: unable
+pos:
+- adjective
+ipa:
+  us: /əˈneɪbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: không thể, không có khả năng
+  id: unable-1
+examples:
+- en: We are unable to process your order without a valid address.
+  vi: Chúng tôi không thể xử lý đơn hàng của bạn nếu không có địa chỉ hợp lệ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1718. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

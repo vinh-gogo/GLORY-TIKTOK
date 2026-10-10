@@ -1,0 +1,26 @@
+schema_version: 3
+id: build
+lemma: build
+pos:
+- verb
+ipa:
+  us: /bɪld/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- housing-property
+senses:
+- meaning_vi: xây dựng, xây
+  id: build-1
+examples:
+- en: The city plans to build a new library near the train station.
+  vi: Thành phố dự định xây một thư viện mới gần nhà ga.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 221. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

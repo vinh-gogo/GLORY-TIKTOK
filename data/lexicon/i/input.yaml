@@ -1,0 +1,26 @@
+schema_version: 3
+id: input
+lemma: input
+pos:
+- noun
+ipa:
+  us: /ˈɪnˌpʊt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: ý kiến đóng góp; dữ liệu đầu vào
+  id: input-1
+examples:
+- en: We value your input on the proposed schedule changes.
+  vi: Chúng tôi coi trọng ý kiến đóng góp của bạn về các thay đổi lịch trình được đề xuất.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2079. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

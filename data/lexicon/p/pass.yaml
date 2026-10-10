@@ -1,0 +1,26 @@
+schema_version: 3
+id: pass
+lemma: pass
+pos:
+- verb
+ipa:
+  us: /pæs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đi qua; chuyển cho; vượt qua
+  id: pass-1
+examples:
+- en: Could you pass me that report on the corner of the desk?
+  vi: Bạn có thể chuyển cho tôi bản báo cáo ở góc bàn không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 416. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

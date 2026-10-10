@@ -1,0 +1,28 @@
+schema_version: 3
+id: neither
+lemma: neither
+pos:
+- determiner
+- conjunction
+ipa:
+  us: /ˈniðɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: không cái nào trong hai; cũng không
+  id: neither-1
+examples:
+- en: Neither of the two candidates had experience in international sales.
+  vi: Không ai trong hai ứng viên có kinh nghiệm bán hàng quốc tế.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈniðɚ/; /ˈnaɪðɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1216. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

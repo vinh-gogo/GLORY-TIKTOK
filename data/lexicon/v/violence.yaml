@@ -1,0 +1,26 @@
+schema_version: 3
+id: violence
+lemma: violence
+pos:
+- noun
+ipa:
+  us: /ˈvaɪələns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bạo lực
+  id: violence-1
+examples:
+- en: The film was criticized for showing too much violence.
+  vi: Bộ phim bị chỉ trích vì có quá nhiều cảnh bạo lực.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1436. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

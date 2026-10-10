@@ -1,0 +1,26 @@
+schema_version: 3
+id: court
+lemma: court
+pos:
+- noun
+ipa:
+  us: /kɔrt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tòa án; sân (thể thao)
+  id: court-1
+examples:
+- en: The dispute between the two firms went to court last year.
+  vi: Vụ tranh chấp giữa hai công ty đã được đưa ra tòa năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 615. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

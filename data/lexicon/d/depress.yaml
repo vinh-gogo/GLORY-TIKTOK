@@ -1,0 +1,26 @@
+schema_version: 3
+id: depress
+lemma: depress
+pos:
+- verb
+ipa:
+  us: /dɪˈprɛs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: làm chán nản; làm giảm; nhấn xuống
+  id: depress-1
+examples:
+- en: The long period of bad weather seemed to depress everyone.
+  vi: Thời gian dài thời tiết xấu dường như làm mọi người chán nản.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2434. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: boardroom
+lemma: boardroom
+pos:
+- noun
+ipa:
+  us: /ˈbɔrˌdrum/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: phòng họp hội đồng quản trị
+  id: boardroom-1
+examples:
+- en: The directors will meet in the boardroom at ten o'clock.
+  vi: Các giám đốc sẽ họp trong phòng họp hội đồng quản trị lúc mười giờ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 437. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

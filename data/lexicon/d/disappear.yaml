@@ -1,0 +1,27 @@
+schema_version: 3
+id: disappear
+lemma: disappear
+pos:
+- verb
+ipa:
+  us: /ˌdɪsəˈpɪr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: biến mất
+  id: disappear-1
+examples:
+- en: The files seem to disappear from the shared folder every Monday.
+  vi: Các tập tin dường như biến mất khỏi thư mục chung vào mỗi thứ Hai.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌdɪsəˈpɪr/; /ˌdɪsəˈpir/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1665. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

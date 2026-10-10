@@ -1,0 +1,26 @@
+schema_version: 3
+id: pound
+lemma: pound
+pos:
+- noun
+ipa:
+  us: /paʊnd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: đồng bảng Anh; pound (đơn vị cân)
+  id: pound-1
+examples:
+- en: The imported goods cost about ten pounds each in the London store.
+  vi: Hàng nhập khẩu có giá khoảng mười bảng mỗi món tại cửa hàng ở London.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa (đồng bảng, đơn vị cân, đập); chọn nghĩa tiền tệ — Mục từ NGSL hạng
+    984. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM
+    theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

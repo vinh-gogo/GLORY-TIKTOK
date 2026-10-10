@@ -1,0 +1,26 @@
+schema_version: 3
+id: sometime
+lemma: sometime
+pos:
+- adverb
+ipa:
+  us: /ˈsʌmˌtaɪm/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: vào một lúc nào đó
+  id: sometime-1
+examples:
+- en: Let's have lunch together sometime next week.
+  vi: Hãy cùng ăn trưa vào một lúc nào đó tuần sau nhé.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 12. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

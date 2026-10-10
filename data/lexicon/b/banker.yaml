@@ -1,0 +1,26 @@
+schema_version: 3
+id: banker
+lemma: banker
+pos:
+- noun
+ipa:
+  us: /ˈbæŋkɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: nhân viên ngân hàng, chủ ngân hàng
+  id: banker-1
+examples:
+- en: The banker explained the terms of the small business loan.
+  vi: Nhân viên ngân hàng giải thích các điều khoản của khoản vay doanh nghiệp nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 316. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: announce
+lemma: announce
+pos:
+- verb
+ipa:
+  us: /əˈnaʊns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thông báo, công bố
+  id: announce-1
+examples:
+- en: The company will announce its new product line at tomorrow's press conference.
+  vi: Công ty sẽ công bố dòng sản phẩm mới tại buổi họp báo ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1004. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

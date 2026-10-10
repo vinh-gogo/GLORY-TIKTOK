@@ -1,0 +1,26 @@
+schema_version: 3
+id: actress
+lemma: actress
+pos:
+- noun
+ipa:
+  us: /ˈæktrəs/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: nữ diễn viên
+  id: actress-1
+examples:
+- en: The actress thanked the director and the crew during her speech.
+  vi: Nữ diễn viên cảm ơn đạo diễn và đoàn làm phim trong bài phát biểu của mình.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 478. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: cart
+lemma: cart
+pos:
+- noun
+ipa:
+  us: /kɑrt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: xe đẩy; giỏ hàng
+  id: cart-1
+examples:
+- en: She put two items in her shopping cart and went to checkout.
+  vi: Cô ấy bỏ hai món vào giỏ hàng rồi đi thanh toán.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 196. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

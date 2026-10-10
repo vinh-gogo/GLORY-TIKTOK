@@ -1,0 +1,26 @@
+schema_version: 3
+id: suddenly
+lemma: suddenly
+pos:
+- adverb
+ipa:
+  us: /ˈsʌdənli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đột nhiên
+  id: suddenly-1
+examples:
+- en: The power suddenly went out in the middle of our video conference.
+  vi: Điện đột nhiên mất giữa buổi hội nghị truyền hình của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 997. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

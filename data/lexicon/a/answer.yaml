@@ -1,0 +1,27 @@
+schema_version: 3
+id: answer
+lemma: answer
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈænsɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: câu trả lời; trả lời
+  id: answer-1
+examples:
+- en: The receptionist could not answer my question about the parking fee.
+  vi: Nhân viên lễ tân không thể trả lời câu hỏi của tôi về phí đỗ xe.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 355. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

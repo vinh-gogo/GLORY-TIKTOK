@@ -1,0 +1,26 @@
+schema_version: 3
+id: become
+lemma: become
+pos:
+- verb
+ipa:
+  us: /bɪˈkʌm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trở thành, trở nên
+  id: become-1
+examples:
+- en: Online shopping has become more popular among customers of all ages.
+  vi: Mua sắm trực tuyến đã trở nên phổ biến hơn với khách hàng ở mọi lứa tuổi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 141. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

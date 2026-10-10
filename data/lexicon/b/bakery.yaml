@@ -1,0 +1,26 @@
+schema_version: 3
+id: bakery
+lemma: bakery
+pos:
+- noun
+ipa:
+  us: /ˈbeɪkɚi/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: tiệm bánh
+  id: bakery-1
+examples:
+- en: The bakery on the corner opens at six o'clock every morning.
+  vi: Tiệm bánh ở góc phố mở cửa lúc sáu giờ mỗi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 754. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

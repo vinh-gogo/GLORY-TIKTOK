@@ -1,0 +1,26 @@
+schema_version: 3
+id: should
+lemma: should
+pos:
+- modal
+ipa:
+  us: /ʃʊd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nên (lời khuyên, sự bắt buộc nhẹ)
+  id: should-1
+examples:
+- en: You should back up your files before updating the software.
+  vi: Bạn nên sao lưu các tập tin trước khi cập nhật phần mềm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 89. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

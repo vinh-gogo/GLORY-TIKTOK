@@ -1,0 +1,26 @@
+schema_version: 3
+id: division
+lemma: division
+pos:
+- noun
+ipa:
+  us: /dɪˈvɪʒən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: bộ phận, phòng; sự phân chia
+  id: division-1
+examples:
+- en: She leads the marketing division of the company's overseas office.
+  vi: Cô ấy lãnh đạo bộ phận marketing của văn phòng nước ngoài của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1522. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

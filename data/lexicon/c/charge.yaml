@@ -1,0 +1,27 @@
+schema_version: 3
+id: charge
+lemma: charge
+pos:
+- noun
+- verb
+ipa:
+  us: /tʃɑrdʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: phí; tính phí
+  id: charge-1
+examples:
+- en: There is no extra charge for delivery on orders over fifty dollars.
+  vi: Không tính thêm phí giao hàng cho đơn trên năm mươi đô la.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 498. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

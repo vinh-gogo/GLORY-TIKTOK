@@ -1,0 +1,26 @@
+schema_version: 3
+id: chairperson
+lemma: chairperson
+pos:
+- noun
+ipa:
+  us: /ˈtʃɛrˌpɝsən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- corporate-development
+senses:
+- meaning_vi: chủ tịch, người chủ trì cuộc họp
+  id: chairperson-1
+examples:
+- en: The chairperson opened the meeting and asked everyone to review the agenda.
+  vi: Chủ tịch khai mạc cuộc họp và yêu cầu mọi người xem lại chương trình nghị sự.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 852. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

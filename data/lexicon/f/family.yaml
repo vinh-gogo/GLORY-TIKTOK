@@ -1,0 +1,27 @@
+schema_version: 3
+id: family
+lemma: family
+pos:
+- noun
+ipa:
+  us: /ˈfæməli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: gia đình
+  id: family-1
+examples:
+- en: The restaurant is a family business that has operated for thirty years.
+  vi: Nhà hàng là một cơ sở kinh doanh gia đình đã hoạt động ba mươi năm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈfæməli/; /ˈfæmli/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 172. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

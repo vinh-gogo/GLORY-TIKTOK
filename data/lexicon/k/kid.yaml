@@ -1,0 +1,26 @@
+schema_version: 3
+id: kid
+lemma: kid
+pos:
+- noun
+ipa:
+  us: /kɪd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đứa trẻ, trẻ con
+  id: kid-1
+examples:
+- en: The restaurant has a play area where kids can draw while waiting.
+  vi: Nhà hàng có khu vui chơi để trẻ con vẽ tranh trong lúc chờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 529. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

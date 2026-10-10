@@ -1,0 +1,27 @@
+schema_version: 3
+id: overhead
+lemma: overhead
+pos:
+- adverb
+- adjective
+ipa:
+  us: /ˈoʊvɚˈhɛd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: ở trên cao, phía trên đầu
+  id: overhead-1
+examples:
+- en: Please place your small bags in the overhead compartment above your seat.
+  vi: Vui lòng đặt túi nhỏ vào ngăn hành lý phía trên ghế của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 506. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

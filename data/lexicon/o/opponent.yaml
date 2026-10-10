@@ -1,0 +1,26 @@
+schema_version: 3
+id: opponent
+lemma: opponent
+pos:
+- noun
+ipa:
+  us: /əˈpoʊnənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: đối thủ, người phản đối
+  id: opponent-1
+examples:
+- en: The mayor's opponent promised to lower taxes for small businesses.
+  vi: Đối thủ của thị trưởng hứa sẽ giảm thuế cho doanh nghiệp nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2395. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: aside
+lemma: aside
+pos:
+- adverb
+ipa:
+  us: /əˈsaɪd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sang một bên, ngoài ra (aside from)
+  id: aside-1
+examples:
+- en: Aside from a few small errors, the report was very good.
+  vi: Ngoài vài lỗi nhỏ, báo cáo này rất tốt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1944. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: talent
+lemma: talent
+pos:
+- noun
+ipa:
+  us: /ˈtælənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: tài năng, nhân tài
+  id: talent-1
+examples:
+- en: The firm works hard to attract and keep young talent.
+  vi: Công ty nỗ lực thu hút và giữ chân những nhân tài trẻ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1790. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

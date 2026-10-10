@@ -1,0 +1,26 @@
+schema_version: 3
+id: subway
+lemma: subway
+pos:
+- noun
+ipa:
+  us: /ˈsʌbˌweɪ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: tàu điện ngầm
+  id: subway-1
+examples:
+- en: Most employees take the subway to work every morning.
+  vi: Hầu hết nhân viên đi tàu điện ngầm đến chỗ làm mỗi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 36. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

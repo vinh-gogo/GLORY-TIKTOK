@@ -1,0 +1,26 @@
+schema_version: 3
+id: hot
+lemma: hot
+pos:
+- adjective
+ipa:
+  us: /hɑt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nóng
+  id: hot-1
+examples:
+- en: The weather was so hot that the outdoor event was moved indoors.
+  vi: Thời tiết nóng đến mức sự kiện ngoài trời được chuyển vào trong nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 885. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

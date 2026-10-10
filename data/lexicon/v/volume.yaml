@@ -1,0 +1,26 @@
+schema_version: 3
+id: volume
+lemma: volume
+pos:
+- noun
+ipa:
+  us: /ˈvɑljum/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: khối lượng, số lượng; âm lượng
+  id: volume-1
+examples:
+- en: The volume of online orders has doubled since last year.
+  vi: Số lượng đơn hàng trực tuyến đã tăng gấp đôi kể từ năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1364. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

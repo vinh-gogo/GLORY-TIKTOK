@@ -1,0 +1,26 @@
+schema_version: 3
+id: overcrowd
+lemma: overcrowd
+pos:
+- verb
+ipa:
+  us: /ˌoʊvɚˈkraʊd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- travel
+senses:
+- meaning_vi: làm quá đông, chật ních người
+  id: overcrowd-1
+examples:
+- en: Too many tourists tend to overcrowd the old town during the summer festival.
+  vi: Quá nhiều du khách thường làm khu phố cổ chật ních trong lễ hội mùa hè.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1157. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

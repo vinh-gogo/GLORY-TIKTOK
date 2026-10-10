@@ -1,0 +1,26 @@
+schema_version: 3
+id: incident
+lemma: incident
+pos:
+- noun
+ipa:
+  us: /ˈɪnsədənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự cố, sự việc
+  id: incident-1
+examples:
+- en: Please report any safety incident to your supervisor immediately.
+  vi: Vui lòng báo ngay mọi sự cố an toàn cho người giám sát của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1807. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

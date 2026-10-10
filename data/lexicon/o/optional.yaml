@@ -1,0 +1,27 @@
+schema_version: 3
+id: optional
+lemma: optional
+pos:
+- adjective
+ipa:
+  us: /ˈɑpʃənəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tùy chọn, không bắt buộc
+  id: optional-1
+examples:
+- en: Attendance at the evening dinner is optional for all staff.
+  vi: Việc tham dự bữa tối là không bắt buộc đối với toàn thể nhân viên.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɑpʃənəl/; /ˈɔpʃənəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 319. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

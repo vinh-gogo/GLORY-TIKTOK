@@ -1,0 +1,26 @@
+schema_version: 3
+id: believe
+lemma: believe
+pos:
+- verb
+ipa:
+  us: /bɪˈliv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tin, tin rằng
+  id: believe-1
+examples:
+- en: We believe that the new policy will improve employee satisfaction.
+  vi: Chúng tôi tin rằng chính sách mới sẽ nâng cao sự hài lòng của nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 225. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

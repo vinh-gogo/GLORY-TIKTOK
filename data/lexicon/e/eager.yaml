@@ -1,0 +1,26 @@
+schema_version: 3
+id: eager
+lemma: eager
+pos:
+- adjective
+ipa:
+  us: /ˈiɡɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: háo hức, nhiệt tình
+  id: eager-1
+examples:
+- en: The new interns are eager to learn about the company's products.
+  vi: Các thực tập sinh mới rất háo hức tìm hiểu về sản phẩm của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 598. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

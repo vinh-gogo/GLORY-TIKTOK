@@ -1,0 +1,26 @@
+schema_version: 3
+id: meantime
+lemma: meantime
+pos:
+- noun
+ipa:
+  us: /ˈminˌtaɪm/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: 'khoảng thời gian trong lúc chờ (in the meantime: trong khi đó)'
+  id: meantime-1
+examples:
+- en: The technician will arrive at noon; in the meantime, please save your files.
+  vi: Kỹ thuật viên sẽ đến vào buổi trưa; trong khi đó, vui lòng lưu các tập tin của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 468. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

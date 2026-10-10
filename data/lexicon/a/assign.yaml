@@ -1,0 +1,26 @@
+schema_version: 3
+id: assign
+lemma: assign
+pos:
+- verb
+ipa:
+  us: /əˈsaɪn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: giao (việc), phân công
+  id: assign-1
+examples:
+- en: The supervisor will assign each new employee to a different department.
+  vi: Người giám sát sẽ phân công mỗi nhân viên mới vào một phòng ban khác nhau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2493. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

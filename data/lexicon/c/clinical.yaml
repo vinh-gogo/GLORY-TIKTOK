@@ -1,0 +1,27 @@
+schema_version: 3
+id: clinical
+lemma: clinical
+pos:
+- adjective
+ipa:
+  us: /ˈklɪnəkəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: thuộc lâm sàng
+  id: clinical-1
+examples:
+- en: The drug is currently undergoing clinical trials at three hospitals.
+  vi: Loại thuốc này hiện đang được thử nghiệm lâm sàng tại ba bệnh viện.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈklɪnəkəl/; /ˈklɪnɪkəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2367. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

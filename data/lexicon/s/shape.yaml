@@ -1,0 +1,27 @@
+schema_version: 3
+id: shape
+lemma: shape
+pos:
+- noun
+- verb
+ipa:
+  us: /ʃeɪp/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: hình dạng; định hình
+  id: shape-1
+examples:
+- en: The designer chose a round shape for the new bottle.
+  vi: Nhà thiết kế đã chọn hình tròn cho chiếc chai mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 986. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

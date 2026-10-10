@@ -1,0 +1,27 @@
+schema_version: 3
+id: weekend
+lemma: weekend
+pos:
+- noun
+ipa:
+  us: /ˈwiˌkɛnd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cuối tuần
+  id: weekend-1
+examples:
+- en: Our office is closed on the weekend, so please call on Monday.
+  vi: Văn phòng chúng tôi đóng cửa vào cuối tuần nên xin hãy gọi vào thứ Hai.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈwiˌkɛnd/; /ˈwiˌkɪnd/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 934. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

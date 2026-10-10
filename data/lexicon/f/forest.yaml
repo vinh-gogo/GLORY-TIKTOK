@@ -1,0 +1,27 @@
+schema_version: 3
+id: forest
+lemma: forest
+pos:
+- noun
+ipa:
+  us: /ˈfɔrəst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: rừng
+  id: forest-1
+examples:
+- en: The hotel is surrounded by a quiet forest and a small lake.
+  vi: Khách sạn được bao quanh bởi một khu rừng yên tĩnh và một hồ nhỏ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈfɔrəst/; /ˈfɔrɪst/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1527. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

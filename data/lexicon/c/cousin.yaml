@@ -1,0 +1,26 @@
+schema_version: 3
+id: cousin
+lemma: cousin
+pos:
+- noun
+ipa:
+  us: /ˈkʌzən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: anh, chị, em họ
+  id: cousin-1
+examples:
+- en: My cousin works as an engineer at a large software company.
+  vi: Anh họ tôi làm kỹ sư tại một công ty phần mềm lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2361. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

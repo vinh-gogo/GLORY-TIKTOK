@@ -1,0 +1,26 @@
+schema_version: 3
+id: philosophy
+lemma: philosophy
+pos:
+- noun
+ipa:
+  us: /fəˈlɑsəfi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: triết lý; triết học
+  id: philosophy-1
+examples:
+- en: Our management philosophy is based on trust and open communication.
+  vi: Triết lý quản lý của chúng tôi dựa trên sự tin tưởng và giao tiếp cởi mở.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2298. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

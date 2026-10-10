@@ -1,0 +1,27 @@
+schema_version: 3
+id: recently
+lemma: recently
+pos:
+- adverb
+ipa:
+  us: /ˈrisəntli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: gần đây
+  id: recently-1
+examples:
+- en: We recently moved our headquarters to a larger building downtown.
+  vi: Gần đây chúng tôi đã chuyển trụ sở sang một tòa nhà lớn hơn ở trung tâm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈrisəntli/; /ˈrisənli/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 638. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

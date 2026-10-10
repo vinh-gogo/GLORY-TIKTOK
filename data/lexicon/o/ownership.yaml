@@ -1,0 +1,26 @@
+schema_version: 3
+id: ownership
+lemma: ownership
+pos:
+- noun
+ipa:
+  us: /ˈoʊnɚˌʃɪp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: quyền sở hữu
+  id: ownership-1
+examples:
+- en: The ownership of the building changed hands after the company was sold.
+  vi: Quyền sở hữu tòa nhà đã đổi chủ sau khi công ty được bán.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2752. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

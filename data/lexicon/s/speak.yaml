@@ -1,0 +1,26 @@
+schema_version: 3
+id: speak
+lemma: speak
+pos:
+- verb
+ipa:
+  us: /spik/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nói, phát biểu
+  id: speak-1
+examples:
+- en: The chief executive will speak to the staff about the merger tomorrow.
+  vi: Tổng giám đốc sẽ phát biểu với nhân viên về vụ sáp nhập vào ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 284. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

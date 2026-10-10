@@ -1,0 +1,26 @@
+schema_version: 3
+id: bread
+lemma: bread
+pos:
+- noun
+ipa:
+  us: /brɛd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: bánh mì
+  id: bread-1
+examples:
+- en: The bakery next to our office sells fresh bread every morning.
+  vi: Tiệm bánh cạnh văn phòng chúng tôi bán bánh mì tươi mỗi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2262. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

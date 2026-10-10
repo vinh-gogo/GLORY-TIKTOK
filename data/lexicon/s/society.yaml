@@ -1,0 +1,26 @@
+schema_version: 3
+id: society
+lemma: society
+pos:
+- noun
+ipa:
+  us: /səˈsaɪəti/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: xã hội; hội
+  id: society-1
+examples:
+- en: Technology has changed the way people in society communicate with each other.
+  vi: Công nghệ đã thay đổi cách mọi người trong xã hội giao tiếp với nhau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 562. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

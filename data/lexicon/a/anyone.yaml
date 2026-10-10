@@ -1,0 +1,27 @@
+schema_version: 3
+id: anyone
+lemma: anyone
+pos:
+- pronoun
+ipa:
+  us: /ˈɛniˌwʌn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bất cứ ai
+  id: anyone-1
+examples:
+- en: Does anyone know where I can find the extra chairs?
+  vi: Có ai biết tôi có thể tìm thêm ghế ở đâu không?
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛniˌwʌn/; /ˈɛniwən/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 754. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

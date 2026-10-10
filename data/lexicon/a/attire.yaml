@@ -1,0 +1,26 @@
+schema_version: 3
+id: attire
+lemma: attire
+pos:
+- noun
+ipa:
+  us: /əˈtaɪɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: trang phục
+  id: attire-1
+examples:
+- en: Business attire is required for all employees at the client meeting.
+  vi: Tất cả nhân viên phải mặc trang phục công sở khi gặp khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1029. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

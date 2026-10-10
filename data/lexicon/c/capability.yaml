@@ -1,0 +1,26 @@
+schema_version: 3
+id: capability
+lemma: capability
+pos:
+- noun
+ipa:
+  us: /ˌkeɪpəˈbɪləti/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: năng lực, khả năng
+  id: capability-1
+examples:
+- en: The new equipment will increase our production capability by half.
+  vi: Thiết bị mới sẽ tăng năng lực sản xuất của chúng tôi lên một nửa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2397. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

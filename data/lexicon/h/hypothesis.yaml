@@ -1,0 +1,26 @@
+schema_version: 3
+id: hypothesis
+lemma: hypothesis
+pos:
+- noun
+ipa:
+  us: /haɪˈpɑθəsəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: giả thuyết
+  id: hypothesis-1
+examples:
+- en: The experiment was designed to test the researcher's main hypothesis.
+  vi: Thí nghiệm được thiết kế để kiểm tra giả thuyết chính của nhà nghiên cứu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2775. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

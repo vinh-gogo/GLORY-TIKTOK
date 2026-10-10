@@ -1,0 +1,26 @@
+schema_version: 3
+id: behind
+lemma: behind
+pos:
+- preposition
+ipa:
+  us: /bɪˈhaɪnd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: phía sau; chậm hơn
+  id: behind-1
+examples:
+- en: Our project is behind schedule because of the late delivery.
+  vi: Dự án của chúng tôi bị chậm tiến độ do giao hàng trễ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 492. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: beside
+lemma: beside
+pos:
+- preposition
+ipa:
+  us: /bɪˈsaɪd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: bên cạnh
+  id: beside-1
+examples:
+- en: The printer is placed beside the window in the main office.
+  vi: Máy in được đặt bên cạnh cửa sổ trong văn phòng chính.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/bɪˈsaɪd/; /ˌbiˈsaɪd/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2115. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

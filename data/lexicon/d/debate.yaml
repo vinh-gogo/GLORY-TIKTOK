@@ -1,0 +1,27 @@
+schema_version: 3
+id: debate
+lemma: debate
+pos:
+- noun
+- verb
+ipa:
+  us: /dəˈbeɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: cuộc tranh luận; tranh luận
+  id: debate-1
+examples:
+- en: There was a long debate about whether to raise the product price.
+  vi: Đã có một cuộc tranh luận dài về việc có nên tăng giá sản phẩm hay không.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 938. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

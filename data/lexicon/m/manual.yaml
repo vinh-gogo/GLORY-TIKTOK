@@ -1,0 +1,27 @@
+schema_version: 3
+id: manual
+lemma: manual
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈmænjuəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: sách hướng dẫn sử dụng; thủ công
+  id: manual-1
+examples:
+- en: The user manual explains how to install the software step by step.
+  vi: Sách hướng dẫn sử dụng giải thích từng bước cách cài đặt phần mềm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 55. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: whole
+lemma: whole
+pos:
+- adjective
+ipa:
+  us: /hoʊl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: toàn bộ, nguyên vẹn
+  id: whole-1
+examples:
+- en: The whole team stayed late to finish the proposal before the deadline.
+  vi: Cả nhóm đã ở lại muộn để hoàn thành bản đề xuất trước hạn chót.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 310. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

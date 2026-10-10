@@ -1,0 +1,27 @@
+schema_version: 3
+id: costume
+lemma: costume
+pos:
+- noun
+ipa:
+  us: /kɑˈstum/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: trang phục biểu diễn, hóa trang
+  id: costume-1
+examples:
+- en: The actors wore traditional costumes for the opening night of the play.
+  vi: Các diễn viên mặc trang phục truyền thống trong đêm khai mạc vở kịch.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/kɑˈstum/; /ˈkɑstum/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 570. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

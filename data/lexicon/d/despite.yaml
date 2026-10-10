@@ -1,0 +1,26 @@
+schema_version: 3
+id: despite
+lemma: despite
+pos:
+- preposition
+ipa:
+  us: /dɪˈspaɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: mặc dù, bất chấp
+  id: despite-1
+examples:
+- en: Despite the heavy rain, the outdoor event started on time.
+  vi: Mặc dù mưa lớn, sự kiện ngoài trời vẫn bắt đầu đúng giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 771. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

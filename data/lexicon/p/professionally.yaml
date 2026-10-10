@@ -1,0 +1,27 @@
+schema_version: 3
+id: professionally
+lemma: professionally
+pos:
+- adverb
+ipa:
+  us: /prəˈfɛʃənəli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: một cách chuyên nghiệp
+  id: professionally-1
+examples:
+- en: The receptionist handled the angry caller calmly and professionally.
+  vi: Nhân viên lễ tân xử lý cuộc gọi của người đang tức giận một cách bình tĩnh và chuyên nghiệp.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/prəˈfɛʃənəli/; /prəˈfɛʃnəli/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 934. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

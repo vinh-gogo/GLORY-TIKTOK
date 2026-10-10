@@ -1,0 +1,26 @@
+schema_version: 3
+id: implication
+lemma: implication
+pos:
+- noun
+ipa:
+  us: /ˌɪmpləˈkeɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: hệ quả, ngụ ý
+  id: implication-1
+examples:
+- en: We must consider the financial implications of moving the factory.
+  vi: Chúng ta phải xem xét các hệ quả tài chính của việc chuyển nhà máy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1871. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

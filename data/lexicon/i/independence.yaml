@@ -1,0 +1,26 @@
+schema_version: 3
+id: independence
+lemma: independence
+pos:
+- noun
+ipa:
+  us: /ˌɪndɪˈpɛndəns/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự độc lập
+  id: independence-1
+examples:
+- en: Young employees often value independence in how they organize their work.
+  vi: Nhân viên trẻ thường coi trọng sự độc lập trong cách sắp xếp công việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2233. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

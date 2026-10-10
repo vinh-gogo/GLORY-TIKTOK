@@ -1,0 +1,26 @@
+schema_version: 3
+id: toner
+lemma: toner
+pos:
+- noun
+ipa:
+  us: /ˈtoʊnɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: mực in (máy photocopy, máy in laser)
+  id: toner-1
+examples:
+- en: The printer stopped working because the toner cartridge was completely empty.
+  vi: Máy in ngừng hoạt động vì hộp mực đã hết sạch.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 798. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

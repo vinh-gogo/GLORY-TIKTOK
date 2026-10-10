@@ -1,0 +1,26 @@
+schema_version: 3
+id: studio
+lemma: studio
+pos:
+- noun
+ipa:
+  us: /ˈstudiˌoʊ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: phòng thu, xưởng; căn hộ studio
+  id: studio-1
+examples:
+- en: The band recorded their new album in a small studio downtown.
+  vi: Ban nhạc thu âm album mới trong một phòng thu nhỏ ở trung tâm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1483. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

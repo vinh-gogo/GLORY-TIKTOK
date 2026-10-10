@@ -1,0 +1,26 @@
+schema_version: 3
+id: bone
+lemma: bone
+pos:
+- noun
+ipa:
+  us: /boʊn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: xương
+  id: bone-1
+examples:
+- en: The doctor said the bone in his arm would heal in a month.
+  vi: Bác sĩ nói xương ở tay anh ấy sẽ lành trong một tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1836. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

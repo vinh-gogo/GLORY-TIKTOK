@@ -1,0 +1,26 @@
+schema_version: 3
+id: fish
+lemma: fish
+pos:
+- noun
+ipa:
+  us: /fɪʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- dining-out
+senses:
+- meaning_vi: cá
+  id: fish-1
+examples:
+- en: The restaurant serves fresh fish that is delivered every morning from the harbor.
+  vi: Nhà hàng phục vụ cá tươi được giao mỗi sáng từ bến cảng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 828. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

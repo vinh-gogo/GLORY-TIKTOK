@@ -1,0 +1,27 @@
+schema_version: 3
+id: force
+lemma: force
+pos:
+- noun
+- verb
+ipa:
+  us: /fɔrs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: lực; buộc, ép
+  id: force-1
+examples:
+- en: Heavy rain forced the organizers to move the event indoors.
+  vi: Mưa lớn buộc ban tổ chức phải chuyển sự kiện vào trong nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 346. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

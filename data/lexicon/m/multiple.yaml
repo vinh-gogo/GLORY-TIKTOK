@@ -1,0 +1,26 @@
+schema_version: 3
+id: multiple
+lemma: multiple
+pos:
+- adjective
+ipa:
+  us: /ˈmʌltəpəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nhiều, đa dạng
+  id: multiple-1
+examples:
+- en: You can pay by multiple methods, including cash and credit card.
+  vi: Bạn có thể thanh toán bằng nhiều phương thức, kể cả tiền mặt và thẻ tín dụng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1732. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

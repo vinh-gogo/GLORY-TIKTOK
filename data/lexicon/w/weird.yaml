@@ -1,0 +1,26 @@
+schema_version: 3
+id: weird
+lemma: weird
+pos:
+- adjective
+ipa:
+  us: /wɪrd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: kỳ lạ, kỳ quặc
+  id: weird-1
+examples:
+- en: The machine started making a weird noise just before it stopped working.
+  vi: Chiếc máy bắt đầu phát ra tiếng kỳ lạ ngay trước khi nó ngừng hoạt động.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2771. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: listen
+lemma: listen
+pos:
+- verb
+ipa:
+  us: /ˈlɪsən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: lắng nghe
+  id: listen-1
+examples:
+- en: Please listen carefully to the safety instructions before the tour begins.
+  vi: Vui lòng lắng nghe kỹ hướng dẫn an toàn trước khi chuyến tham quan bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 573. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

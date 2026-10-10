@@ -1,0 +1,26 @@
+schema_version: 3
+id: virus
+lemma: virus
+pos:
+- noun
+ipa:
+  us: /ˈvaɪrəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: vi-rút; vi-rút máy tính
+  id: virus-1
+examples:
+- en: The antivirus program removed the virus from the office computer.
+  vi: Chương trình diệt vi-rút đã loại bỏ vi-rút khỏi máy tính văn phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2341. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

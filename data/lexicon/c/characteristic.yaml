@@ -1,0 +1,27 @@
+schema_version: 3
+id: characteristic
+lemma: characteristic
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˌkɛrəktɚˈɪstɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đặc điểm; đặc trưng
+  id: characteristic-1
+examples:
+- en: Reliability is the main characteristic of our company's products.
+  vi: Độ tin cậy là đặc điểm chính của các sản phẩm của công ty chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1582. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: hang
+lemma: hang
+pos:
+- verb
+ipa:
+  us: /hæŋ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: treo, móc
+  id: hang-1
+examples:
+- en: Please hang your coats on the hooks next to the entrance.
+  vi: Vui lòng treo áo khoác của bạn lên các móc cạnh lối vào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1085. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: life
+lemma: life
+pos:
+- noun
+ipa:
+  us: /laɪf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cuộc sống; tuổi thọ
+  id: life-1
+examples:
+- en: This battery has a long life and needs charging only weekly.
+  vi: Cục pin này có tuổi thọ dài và chỉ cần sạc mỗi tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 111. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

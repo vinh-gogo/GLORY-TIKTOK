@@ -1,0 +1,26 @@
+schema_version: 3
+id: truly
+lemma: truly
+pos:
+- adverb
+ipa:
+  us: /ˈtruli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: thật sự, chân thành
+  id: truly-1
+examples:
+- en: We truly appreciate your patience while we fix the problem.
+  vi: Chúng tôi thật sự cảm kích sự kiên nhẫn của bạn trong lúc chúng tôi khắc phục sự cố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1825. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

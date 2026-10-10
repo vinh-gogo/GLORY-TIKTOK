@@ -1,0 +1,26 @@
+schema_version: 3
+id: clerk
+lemma: clerk
+pos:
+- noun
+ipa:
+  us: /klɝk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: nhân viên văn phòng, nhân viên bán hàng
+  id: clerk-1
+examples:
+- en: The clerk at the front desk gave me a visitor badge.
+  vi: Nhân viên ở quầy lễ tân đã đưa cho tôi một thẻ khách.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 23. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

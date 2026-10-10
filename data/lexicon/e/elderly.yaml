@@ -1,0 +1,26 @@
+schema_version: 3
+id: elderly
+lemma: elderly
+pos:
+- adjective
+ipa:
+  us: /ˈɛldɚli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: cao tuổi
+  id: elderly-1
+examples:
+- en: The clinic offers free checkups for elderly residents every Monday.
+  vi: Phòng khám cung cấp khám sức khỏe miễn phí cho cư dân cao tuổi vào mỗi thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2052. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

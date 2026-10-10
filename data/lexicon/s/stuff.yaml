@@ -1,0 +1,26 @@
+schema_version: 3
+id: stuff
+lemma: stuff
+pos:
+- noun
+ipa:
+  us: /stʌf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đồ đạc, đồ vật (thân mật)
+  id: stuff-1
+examples:
+- en: Please move your stuff off the table before the meeting starts.
+  vi: Vui lòng dọn đồ của bạn khỏi bàn trước khi cuộc họp bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 752. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: refresh
+lemma: refresh
+pos:
+- verb
+ipa:
+  us: /rɪˈfrɛʃ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: làm mới, làm tươi lại
+  id: refresh-1
+examples:
+- en: Try to refresh the page if the website does not load properly.
+  vi: Hãy thử làm mới trang nếu trang web không tải đúng cách.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 939. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

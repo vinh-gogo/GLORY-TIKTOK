@@ -1,0 +1,26 @@
+schema_version: 3
+id: planet
+lemma: planet
+pos:
+- noun
+ipa:
+  us: /ˈplænət/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: hành tinh
+  id: planet-1
+examples:
+- en: Scientists are studying a new planet far from our solar system.
+  vi: Các nhà khoa học đang nghiên cứu một hành tinh mới nằm xa hệ mặt trời của chúng ta.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2219. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

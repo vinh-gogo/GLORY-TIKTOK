@@ -1,0 +1,26 @@
+schema_version: 3
+id: journalism
+lemma: journalism
+pos:
+- noun
+ipa:
+  us: /ˈdʒɝnəˌlɪzəm/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: nghề báo, báo chí
+  id: journalism-1
+examples:
+- en: He studied journalism at university before working for a national newspaper.
+  vi: Anh ấy học ngành báo chí ở đại học trước khi làm cho một tờ báo quốc gia.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1146. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

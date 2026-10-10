@@ -1,0 +1,26 @@
+schema_version: 3
+id: equipment
+lemma: equipment
+pos:
+- noun
+ipa:
+  us: /ɪˈkwɪpmənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: thiết bị, trang thiết bị
+  id: equipment-1
+examples:
+- en: The factory invested in new equipment to increase its daily production.
+  vi: Nhà máy đã đầu tư thiết bị mới để tăng sản lượng hằng ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1055. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

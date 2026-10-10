@@ -1,0 +1,26 @@
+schema_version: 3
+id: effort
+lemma: effort
+pos:
+- noun
+ipa:
+  us: /ˈɛfɚt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: sự nỗ lực
+  id: effort-1
+examples:
+- en: Thank you all for your effort in completing the project on time.
+  vi: Cảm ơn mọi người đã nỗ lực hoàn thành dự án đúng hạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 577. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

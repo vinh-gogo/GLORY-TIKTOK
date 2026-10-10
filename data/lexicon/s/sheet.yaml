@@ -1,0 +1,26 @@
+schema_version: 3
+id: sheet
+lemma: sheet
+pos:
+- noun
+ipa:
+  us: /ʃit/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: tờ (giấy); khăn trải giường
+  id: sheet-1
+examples:
+- en: Please write your name on the sign-in sheet at the door.
+  vi: Vui lòng viết tên của bạn lên tờ đăng ký ở cửa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1616. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

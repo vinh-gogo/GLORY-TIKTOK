@@ -1,0 +1,26 @@
+schema_version: 3
+id: swim
+lemma: swim
+pos:
+- verb
+ipa:
+  us: /swɪm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: bơi
+  id: swim-1
+examples:
+- en: Guests can swim in the hotel pool until ten at night.
+  vi: Khách có thể bơi trong hồ bơi của khách sạn đến mười giờ tối.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1391. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

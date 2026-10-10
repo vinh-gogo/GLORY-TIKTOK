@@ -1,0 +1,26 @@
+schema_version: 3
+id: private
+lemma: private
+pos:
+- adjective
+ipa:
+  us: /ˈpraɪvət/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: riêng tư, tư nhân
+  id: private-1
+examples:
+- en: This is a private meeting room, so please knock before entering.
+  vi: Đây là phòng họp riêng nên vui lòng gõ cửa trước khi vào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 648. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

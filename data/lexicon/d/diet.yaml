@@ -1,0 +1,26 @@
+schema_version: 3
+id: diet
+lemma: diet
+pos:
+- noun
+ipa:
+  us: /ˈdaɪət/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: chế độ ăn uống
+  id: diet-1
+examples:
+- en: A balanced diet can help you stay healthy and energetic at work.
+  vi: Một chế độ ăn cân bằng giúp bạn khỏe mạnh và tràn đầy năng lượng khi làm việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1847. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: terrorist
+lemma: terrorist
+pos:
+- noun
+ipa:
+  us: /ˈtɛrɚɪst/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: kẻ khủng bố
+  id: terrorist-1
+examples:
+- en: Airport security has increased to prevent any terrorist threat.
+  vi: An ninh sân bay đã được tăng cường để ngăn chặn mọi mối đe dọa khủng bố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2121. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

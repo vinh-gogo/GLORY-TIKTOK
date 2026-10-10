@@ -1,0 +1,26 @@
+schema_version: 3
+id: submit
+lemma: submit
+pos:
+- verb
+ipa:
+  us: /səbˈmɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: nộp, đệ trình
+  id: submit-1
+examples:
+- en: Employees must submit expense reports by the end of the month.
+  vi: Nhân viên phải nộp báo cáo chi phí trước cuối tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2070. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: border
+lemma: border
+pos:
+- noun
+ipa:
+  us: /ˈbɔrdɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: biên giới
+  id: border-1
+examples:
+- en: Trucks wait for hours at the border to cross into the neighboring country.
+  vi: Xe tải chờ hàng giờ ở biên giới để sang nước láng giềng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1473. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

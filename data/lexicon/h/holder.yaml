@@ -1,0 +1,26 @@
+schema_version: 3
+id: holder
+lemma: holder
+pos:
+- noun
+ipa:
+  us: /ˈhoʊldɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: người nắm giữ, người sở hữu; giá đỡ
+  id: holder-1
+examples:
+- en: Only ticket holders will be allowed to enter the concert hall.
+  vi: Chỉ những người có vé mới được vào phòng hòa nhạc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2795. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

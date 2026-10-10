@@ -1,0 +1,26 @@
+schema_version: 3
+id: microwave
+lemma: microwave
+pos:
+- noun
+ipa:
+  us: /ˈmaɪkrəˌweɪv/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: lò vi sóng
+  id: microwave-1
+examples:
+- en: You can heat your lunch in the microwave in the staff kitchen.
+  vi: Bạn có thể hâm nóng bữa trưa trong lò vi sóng ở bếp nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 995. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

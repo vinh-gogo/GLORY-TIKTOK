@@ -1,0 +1,27 @@
+schema_version: 3
+id: cheer
+lemma: cheer
+pos:
+- noun
+- verb
+ipa:
+  us: /tʃɪr/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: tiếng reo hò; cổ vũ
+  id: cheer-1
+examples:
+- en: The crowd began to cheer when the runners crossed the finish line.
+  vi: Đám đông bắt đầu reo hò khi các vận động viên chạy về đích.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1204. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

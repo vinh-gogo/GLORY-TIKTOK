@@ -1,0 +1,26 @@
+schema_version: 3
+id: manner
+lemma: manner
+pos:
+- noun
+ipa:
+  us: /ˈmænɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: cách thức; thái độ
+  id: manner-1
+examples:
+- en: The receptionist spoke to every visitor in a polite manner.
+  vi: Nhân viên lễ tân nói chuyện với mọi vị khách một cách lịch sự.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1441. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

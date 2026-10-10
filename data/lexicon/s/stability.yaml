@@ -1,0 +1,26 @@
+schema_version: 3
+id: stability
+lemma: stability
+pos:
+- noun
+ipa:
+  us: /stəˈbɪlɪti/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sự ổn định
+  id: stability-1
+examples:
+- en: Investors prefer countries with political stability and a steady economic growth rate.
+  vi: Nhà đầu tư thích các quốc gia có sự ổn định chính trị và tốc độ tăng trưởng kinh tế đều đặn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2576. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

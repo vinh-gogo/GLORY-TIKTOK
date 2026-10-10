@@ -1,0 +1,27 @@
+schema_version: 3
+id: latter
+lemma: latter
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈlætɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cái sau, thứ hai (trong hai)
+  id: latter-1
+examples:
+- en: We offer a basic plan and a premium plan; the latter includes support.
+  vi: Chúng tôi có gói cơ bản và gói cao cấp; gói sau bao gồm hỗ trợ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1704. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

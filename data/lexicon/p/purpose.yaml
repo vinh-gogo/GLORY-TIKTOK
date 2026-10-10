@@ -1,0 +1,26 @@
+schema_version: 3
+id: purpose
+lemma: purpose
+pos:
+- noun
+ipa:
+  us: /ˈpɝpəs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: mục đích
+  id: purpose-1
+examples:
+- en: The purpose of this meeting is to review next year's budget.
+  vi: Mục đích của cuộc họp này là xem xét ngân sách năm tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 735. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

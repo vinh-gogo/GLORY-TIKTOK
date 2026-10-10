@@ -1,0 +1,26 @@
+schema_version: 3
+id: gallery
+lemma: gallery
+pos:
+- noun
+ipa:
+  us: /ˈɡælɚi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: phòng trưng bày tranh
+  id: gallery-1
+examples:
+- en: The art gallery opens a new exhibition of local painters this weekend.
+  vi: Phòng trưng bày nghệ thuật khai mạc triển lãm mới của các họa sĩ địa phương cuối tuần này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2465. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

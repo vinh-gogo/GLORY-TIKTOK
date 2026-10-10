@@ -1,0 +1,27 @@
+schema_version: 3
+id: directly
+lemma: directly
+pos:
+- adverb
+ipa:
+  us: /dɚˈɛktli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: trực tiếp
+  id: directly-1
+examples:
+- en: Please send your questions directly to the sales manager by email.
+  vi: Vui lòng gửi câu hỏi của bạn trực tiếp cho giám đốc kinh doanh qua email.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/dɚˈɛktli/; /diˈrɛkli/; /daɪˈrɛkli/; /dɪˈrɛkli/);
+    IPA đang ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1051.
+    IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo
+    hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

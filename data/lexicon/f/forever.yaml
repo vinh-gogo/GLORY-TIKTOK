@@ -1,0 +1,26 @@
+schema_version: 3
+id: forever
+lemma: forever
+pos:
+- adverb
+ipa:
+  us: /fɚˈɛvɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: mãi mãi, vĩnh viễn
+  id: forever-1
+examples:
+- en: This old printer seems to take forever to finish a single page.
+  vi: Chiếc máy in cũ này dường như mất cả một thời gian dài để in xong một trang.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2507. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

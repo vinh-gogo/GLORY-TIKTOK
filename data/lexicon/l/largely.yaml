@@ -1,0 +1,26 @@
+schema_version: 3
+id: largely
+lemma: largely
+pos:
+- adverb
+ipa:
+  us: /ˈlɑrdʒli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: phần lớn, chủ yếu
+  id: largely-1
+examples:
+- en: The success of the event was largely due to the volunteers.
+  vi: Thành công của sự kiện phần lớn là nhờ các tình nguyện viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1564. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

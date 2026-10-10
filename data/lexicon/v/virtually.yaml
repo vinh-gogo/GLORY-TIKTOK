@@ -1,0 +1,27 @@
+schema_version: 3
+id: virtually
+lemma: virtually
+pos:
+- adverb
+ipa:
+  us: /ˈvɝtʃuəli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: hầu như, gần như
+  id: virtually-1
+examples:
+- en: The report is virtually complete and ready for review.
+  vi: Báo cáo gần như đã hoàn thành và sẵn sàng để xem xét.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈvɝtʃuəli/; /ˈvɝtʃuli/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2072. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

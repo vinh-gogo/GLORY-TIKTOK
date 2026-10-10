@@ -1,0 +1,28 @@
+schema_version: 3
+id: upgrade
+lemma: upgrade
+pos:
+- verb
+- noun
+ipa:
+  us: /əpˈɡreɪd/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: nâng cấp
+  id: upgrade-1
+examples:
+- en: The IT department will upgrade all computers over the weekend.
+  vi: Phòng IT sẽ nâng cấp tất cả máy tính trong cuối tuần.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/əpˈɡreɪd/; /ˈʌpˈɡreɪd/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 80. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

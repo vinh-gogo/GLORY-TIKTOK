@@ -1,0 +1,27 @@
+schema_version: 3
+id: match
+lemma: match
+pos:
+- verb
+- noun
+ipa:
+  us: /mætʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: khớp, phù hợp với; trận đấu
+  id: match-1
+examples:
+- en: Her skills match the requirements listed in the job advertisement very well.
+  vi: Kỹ năng của cô ấy rất phù hợp với các yêu cầu nêu trong tin tuyển dụng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 850. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

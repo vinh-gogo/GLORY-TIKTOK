@@ -1,0 +1,26 @@
+schema_version: 3
+id: in
+lemma: in
+pos:
+- preposition
+ipa:
+  us: /ɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trong, ở trong; chỉ nơi chốn, thời gian
+  id: in-1
+examples:
+- en: The documents are in the top drawer of my desk.
+  vi: Các tài liệu nằm trong ngăn kéo trên cùng của bàn tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 7. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

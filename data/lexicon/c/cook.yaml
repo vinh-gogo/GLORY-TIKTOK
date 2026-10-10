@@ -1,0 +1,27 @@
+schema_version: 3
+id: cook
+lemma: cook
+pos:
+- verb
+- noun
+ipa:
+  us: /kʊk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: nấu ăn; đầu bếp
+  id: cook-1
+examples:
+- en: The chef will cook a special menu for the anniversary dinner.
+  vi: Đầu bếp sẽ nấu một thực đơn đặc biệt cho bữa tối kỷ niệm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1196. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

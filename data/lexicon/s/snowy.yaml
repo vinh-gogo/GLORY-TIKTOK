@@ -1,0 +1,26 @@
+schema_version: 3
+id: snowy
+lemma: snowy
+pos:
+- adjective
+ipa:
+  us: /ˈsnoʊi/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: có tuyết, đầy tuyết
+  id: snowy-1
+examples:
+- en: Flights were delayed because of the snowy weather in the northern region.
+  vi: Các chuyến bay bị hoãn vì thời tiết có tuyết ở khu vực phía bắc.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 839. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

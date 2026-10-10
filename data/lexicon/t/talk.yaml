@@ -1,0 +1,27 @@
+schema_version: 3
+id: talk
+lemma: talk
+pos:
+- verb
+- noun
+ipa:
+  us: /tɔk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nói chuyện; buổi nói chuyện
+  id: talk-1
+examples:
+- en: I would like to talk with you about the sales figures.
+  vi: Tôi muốn nói chuyện với bạn về các số liệu bán hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 137. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

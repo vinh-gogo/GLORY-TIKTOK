@@ -1,0 +1,27 @@
+schema_version: 3
+id: panic
+lemma: panic
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈpænɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự hoảng loạn
+  id: panic-1
+examples:
+- en: Please stay calm and do not panic when the fire alarm sounds.
+  vi: Xin hãy giữ bình tĩnh và đừng hoảng loạn khi chuông báo cháy vang lên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2693. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

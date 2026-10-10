@@ -1,0 +1,26 @@
+schema_version: 3
+id: internet
+lemma: internet
+pos:
+- noun
+ipa:
+  us: /ˈɪntɚˌnɛt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: mạng Internet
+  id: internet-1
+examples:
+- en: The hotel provides free internet access in every guest room.
+  vi: Khách sạn cung cấp truy cập Internet miễn phí trong mọi phòng khách.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 577. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

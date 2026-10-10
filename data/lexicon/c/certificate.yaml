@@ -1,0 +1,26 @@
+schema_version: 3
+id: certificate
+lemma: certificate
+pos:
+- noun
+ipa:
+  us: /sɚˈtɪfɪkət/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: chứng chỉ, giấy chứng nhận
+  id: certificate-1
+examples:
+- en: She received a certificate after completing the training course.
+  vi: Cô ấy nhận được một chứng chỉ sau khi hoàn thành khóa đào tạo.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 159. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

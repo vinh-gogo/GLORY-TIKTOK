@@ -1,0 +1,27 @@
+schema_version: 3
+id: religious
+lemma: religious
+pos:
+- adjective
+ipa:
+  us: /rɪˈlɪdʒəs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: thuộc tôn giáo, sùng đạo
+  id: religious-1
+examples:
+- en: The company allows employees to take days off for religious holidays.
+  vi: Công ty cho phép nhân viên nghỉ vào các ngày lễ tôn giáo.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈlɪdʒəs/; /riˈlɪdʒəs/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1356. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

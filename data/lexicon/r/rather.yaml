@@ -1,0 +1,27 @@
+schema_version: 3
+id: rather
+lemma: rather
+pos:
+- adverb
+ipa:
+  us: /ˈræðɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: khá; hơn là (rather than)
+  id: rather-1
+examples:
+- en: Many staff prefer to take the train rather than drive to work.
+  vi: Nhiều nhân viên thích đi tàu hơn là lái xe đi làm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈræðɚ/; /ˈrʌðɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 292. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: express
+lemma: express
+pos:
+- verb
+ipa:
+  us: /ɪkˈsprɛs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: bày tỏ, diễn đạt
+  id: express-1
+examples:
+- en: Customers can express their opinions by completing the short survey online.
+  vi: Khách hàng có thể bày tỏ ý kiến bằng cách hoàn thành bản khảo sát ngắn trực tuyến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 818. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

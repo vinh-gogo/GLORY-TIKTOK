@@ -1,0 +1,28 @@
+schema_version: 3
+id: strike
+lemma: strike
+pos:
+- noun
+- verb
+ipa:
+  us: /straɪk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: cuộc đình công; đánh
+  id: strike-1
+examples:
+- en: The workers voted to go on strike over their working hours.
+  vi: Các công nhân đã bỏ phiếu đình công vì giờ làm việc của họ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Nhiều nghĩa (đình công / đánh / đập); chọn nghĩa ''đình công'' trong ngữ cảnh
+    lao động — Mục từ NGSL hạng 776. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm
+    theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ
+    do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: leap
+lemma: leap
+pos:
+- verb
+- noun
+ipa:
+  us: /lip/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: nhảy vọt, bước nhảy lớn
+  id: leap-1
+examples:
+- en: Sales took a big leap after the company launched its new product.
+  vi: Doanh số tăng vọt sau khi công ty tung ra sản phẩm mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2730. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

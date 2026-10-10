@@ -1,0 +1,28 @@
+schema_version: 3
+id: calm
+lemma: calm
+pos:
+- adjective
+- verb
+ipa:
+  us: /kɑm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bình tĩnh, yên tĩnh
+  id: calm-1
+examples:
+- en: She stayed calm and solved the customer's problem quickly.
+  vi: Cô ấy giữ bình tĩnh và giải quyết vấn đề của khách hàng nhanh chóng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/kɑm/; /kɑlm/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1964. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

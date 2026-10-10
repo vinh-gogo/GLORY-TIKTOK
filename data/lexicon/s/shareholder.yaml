@@ -1,0 +1,26 @@
+schema_version: 3
+id: shareholder
+lemma: shareholder
+pos:
+- noun
+ipa:
+  us: /ˈʃɛrˌhoʊldɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: cổ đông
+  id: shareholder-1
+examples:
+- en: Shareholders will vote on the merger at the annual meeting.
+  vi: Các cổ đông sẽ bỏ phiếu về việc sáp nhập tại cuộc họp thường niên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2290. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

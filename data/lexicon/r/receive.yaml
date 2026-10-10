@@ -1,0 +1,27 @@
+schema_version: 3
+id: receive
+lemma: receive
+pos:
+- verb
+ipa:
+  us: /rəˈsiv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: nhận, nhận được
+  id: receive-1
+examples:
+- en: All participants will receive a certificate at the end of the course.
+  vi: Tất cả người tham gia sẽ nhận được một chứng chỉ vào cuối khóa học.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rəˈsiv/; /rɪˈsiv/; /riˈsiv/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 396. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

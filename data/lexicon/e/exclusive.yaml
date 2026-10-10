@@ -1,0 +1,26 @@
+schema_version: 3
+id: exclusive
+lemma: exclusive
+pos:
+- adjective
+ipa:
+  us: /ɪkˈsklusɪv/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: độc quyền, dành riêng
+  id: exclusive-1
+examples:
+- en: Members receive exclusive discounts on all online purchases.
+  vi: Hội viên nhận được các ưu đãi độc quyền cho mọi giao dịch mua trực tuyến.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 256. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

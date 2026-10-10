@@ -1,0 +1,26 @@
+schema_version: 3
+id: distinguish
+lemma: distinguish
+pos:
+- verb
+ipa:
+  us: /dɪˈstɪŋɡwɪʃ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: phân biệt, nhận ra sự khác nhau
+  id: distinguish-1
+examples:
+- en: It is hard to distinguish the two products by their packaging.
+  vi: Rất khó phân biệt hai sản phẩm qua bao bì của chúng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1893. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

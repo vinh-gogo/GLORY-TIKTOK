@@ -1,0 +1,26 @@
+schema_version: 3
+id: apparently
+lemma: apparently
+pos:
+- adverb
+ipa:
+  us: /əˈpɛrəntli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: dường như, nghe nói là
+  id: apparently-1
+examples:
+- en: Apparently, the train was canceled, so we took a taxi instead.
+  vi: Nghe nói chuyến tàu đã bị hủy, nên chúng tôi đi taxi thay thế.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1277. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

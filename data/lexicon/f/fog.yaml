@@ -1,0 +1,27 @@
+schema_version: 3
+id: fog
+lemma: fog
+pos:
+- noun
+ipa:
+  us: /fɑɡ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- travel
+senses:
+- meaning_vi: sương mù
+  id: fog-1
+examples:
+- en: Thick fog delayed all morning flights at the regional airport.
+  vi: Sương mù dày đặc làm trễ mọi chuyến bay buổi sáng tại sân bay khu vực.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/fɑɡ/; /fɔɡ/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 983. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

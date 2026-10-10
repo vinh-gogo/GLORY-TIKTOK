@@ -1,0 +1,26 @@
+schema_version: 3
+id: highly
+lemma: highly
+pos:
+- adverb
+ipa:
+  us: /ˈhaɪli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: rất, ở mức cao
+  id: highly-1
+examples:
+- en: She is a highly skilled engineer with ten years of experience.
+  vi: Cô ấy là một kỹ sư có tay nghề rất cao với mười năm kinh nghiệm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1074. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: plumber
+lemma: plumber
+pos:
+- noun
+ipa:
+  us: /ˈplʌmɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: thợ sửa ống nước
+  id: plumber-1
+examples:
+- en: We called a plumber to fix the broken pipe in the kitchen.
+  vi: Chúng tôi gọi thợ sửa ống nước để sửa đường ống bị vỡ trong bếp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 359. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

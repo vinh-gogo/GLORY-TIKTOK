@@ -1,0 +1,27 @@
+schema_version: 3
+id: shift
+lemma: shift
+pos:
+- noun
+- verb
+ipa:
+  us: /ʃɪft/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: ca làm việc; thay đổi
+  id: shift-1
+examples:
+- en: Employees on the night shift receive an extra allowance for each hour.
+  vi: Nhân viên làm ca đêm nhận thêm phụ cấp cho mỗi giờ làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1190. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

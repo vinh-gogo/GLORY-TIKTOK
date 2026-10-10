@@ -1,0 +1,26 @@
+schema_version: 3
+id: although
+lemma: although
+pos:
+- conjunction
+ipa:
+  us: /ˌɔlˈðoʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mặc dù
+  id: although-1
+examples:
+- en: Although the schedule was tight, the team finished the project early.
+  vi: Mặc dù lịch trình rất gấp, nhóm vẫn hoàn thành dự án sớm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 278. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

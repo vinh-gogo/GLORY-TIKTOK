@@ -1,0 +1,26 @@
+schema_version: 3
+id: illustrate
+lemma: illustrate
+pos:
+- verb
+ipa:
+  us: /ˈɪləˌstreɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: minh họa, làm rõ
+  id: illustrate-1
+examples:
+- en: This graph will illustrate how our sales have grown this year.
+  vi: Biểu đồ này sẽ minh họa doanh số của chúng tôi đã tăng như thế nào trong năm nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1817. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

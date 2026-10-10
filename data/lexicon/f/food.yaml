@@ -1,0 +1,26 @@
+schema_version: 3
+id: food
+lemma: food
+pos:
+- noun
+ipa:
+  us: /fud/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- dining-out
+senses:
+- meaning_vi: thức ăn, đồ ăn
+  id: food-1
+examples:
+- en: The restaurant is known for its fresh food and friendly service.
+  vi: Nhà hàng nổi tiếng với đồ ăn tươi và phục vụ thân thiện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 367. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: attraction
+lemma: attraction
+pos:
+- noun
+ipa:
+  us: /əˈtrækʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: điểm thu hút, sự hấp dẫn
+  id: attraction-1
+examples:
+- en: The old castle is the main tourist attraction in this region.
+  vi: Lâu đài cổ là điểm thu hút khách du lịch chính ở vùng này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2670. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

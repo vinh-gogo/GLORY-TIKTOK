@@ -1,0 +1,26 @@
+schema_version: 3
+id: cable
+lemma: cable
+pos:
+- noun
+ipa:
+  us: /ˈkeɪbəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: dây cáp
+  id: cable-1
+examples:
+- en: Connect the cable to the back of the monitor firmly.
+  vi: Hãy cắm chắc dây cáp vào mặt sau của màn hình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2076. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

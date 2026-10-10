@@ -1,0 +1,26 @@
+schema_version: 3
+id: carton
+lemma: carton
+pos:
+- noun
+ipa:
+  us: /ˈkɑrtən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: hộp giấy, thùng các-tông
+  id: carton-1
+examples:
+- en: She bought a carton of milk and some bread on the way home.
+  vi: Cô ấy mua một hộp sữa và ít bánh mì trên đường về nhà.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 755. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: stack
+lemma: stack
+pos:
+- noun
+- verb
+ipa:
+  us: /stæk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: chồng, đống; xếp chồng
+  id: stack-1
+examples:
+- en: There is a stack of invoices on the manager's desk.
+  vi: Có một chồng hóa đơn trên bàn của quản lý.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 273. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

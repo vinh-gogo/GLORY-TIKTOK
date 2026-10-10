@@ -1,0 +1,26 @@
+schema_version: 3
+id: attach
+lemma: attach
+pos:
+- verb
+ipa:
+  us: /əˈtætʃ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: đính kèm, gắn vào
+  id: attach-1
+examples:
+- en: Please attach your résumé to the email before sending it.
+  vi: Vui lòng đính kèm sơ yếu lý lịch vào email trước khi gửi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1742. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

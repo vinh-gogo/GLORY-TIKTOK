@@ -1,0 +1,26 @@
+schema_version: 3
+id: security
+lemma: security
+pos:
+- noun
+ipa:
+  us: /sɪˈkjʊrəti/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: an ninh, bảo vệ
+  id: security-1
+examples:
+- en: Security guards check every visitor's badge at the main entrance.
+  vi: Nhân viên bảo vệ kiểm tra thẻ của mọi khách tại lối vào chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 541. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

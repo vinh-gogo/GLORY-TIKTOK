@@ -1,0 +1,26 @@
+schema_version: 3
+id: story
+lemma: story
+pos:
+- noun
+ipa:
+  us: /ˈstɔri/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: câu chuyện; bài báo
+  id: story-1
+examples:
+- en: The newspaper ran a story about the opening of the new library.
+  vi: Tờ báo đã đăng một bài viết về lễ khai trương thư viện mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 306. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

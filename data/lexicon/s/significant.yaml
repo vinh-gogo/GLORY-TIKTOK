@@ -1,0 +1,27 @@
+schema_version: 3
+id: significant
+lemma: significant
+pos:
+- adjective
+ipa:
+  us: /səɡˈnɪfɪkənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: đáng kể, quan trọng
+  id: significant-1
+examples:
+- en: There was a significant increase in online orders last month.
+  vi: Đơn hàng trực tuyến đã tăng đáng kể vào tháng trước.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/səɡˈnɪfɪkənt/; /sɪɡˈnɪfɪkənt/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 720. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: sudden
+lemma: sudden
+pos:
+- adjective
+ipa:
+  us: /ˈsʌdən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đột ngột, bất ngờ
+  id: sudden-1
+examples:
+- en: A sudden change in the schedule surprised the whole team.
+  vi: Một thay đổi đột ngột trong lịch trình đã làm cả nhóm bất ngờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1940. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

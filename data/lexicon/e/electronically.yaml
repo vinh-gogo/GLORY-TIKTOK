@@ -1,0 +1,27 @@
+schema_version: 3
+id: electronically
+lemma: electronically
+pos:
+- adverb
+ipa:
+  us: /ˌɪˌlɛkˈtrɑnɪkəˌli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: bằng phương tiện điện tử
+  id: electronically-1
+examples:
+- en: You can submit your application electronically through our company website.
+  vi: Bạn có thể nộp đơn ứng tuyển bằng hình thức điện tử qua trang web của công ty.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɪˌlɛkˈtrɑnɪkəˌli/; /ɪˌlɛkˈtrɑnɪkli/); IPA đang
+    ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1128. IPA lấy từ
+    CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất
+    (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

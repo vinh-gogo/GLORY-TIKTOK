@@ -1,0 +1,26 @@
+schema_version: 3
+id: footwear
+lemma: footwear
+pos:
+- noun
+ipa:
+  us: /ˈfʊˌtwɛr/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: giày dép
+  id: footwear-1
+examples:
+- en: The store sells sports clothing and comfortable footwear at reasonable prices.
+  vi: Cửa hàng bán quần áo thể thao và giày dép thoải mái với giá hợp lý.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1215. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: exact
+lemma: exact
+pos:
+- adjective
+ipa:
+  us: /ɪɡˈzækt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: chính xác, đúng
+  id: exact-1
+examples:
+- en: Please confirm the exact date and time of the interview.
+  vi: Vui lòng xác nhận chính xác ngày và giờ của buổi phỏng vấn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2327. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

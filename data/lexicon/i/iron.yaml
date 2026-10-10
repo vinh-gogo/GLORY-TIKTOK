@@ -1,0 +1,26 @@
+schema_version: 3
+id: iron
+lemma: iron
+pos:
+- noun
+ipa:
+  us: /ˈaɪɚn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: sắt; bàn là
+  id: iron-1
+examples:
+- en: The hotel provides an iron and ironing board in every room.
+  vi: Khách sạn cung cấp bàn là và bàn ủi trong mọi phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2259. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

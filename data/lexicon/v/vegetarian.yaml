@@ -1,0 +1,27 @@
+schema_version: 3
+id: vegetarian
+lemma: vegetarian
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˌvɛdʒəˈtɛˌriən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: ăn chay; người ăn chay
+  id: vegetarian-1
+examples:
+- en: The restaurant offers several vegetarian dishes on its menu.
+  vi: Nhà hàng có vài món ăn chay trong thực đơn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 377. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

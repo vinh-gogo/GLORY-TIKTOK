@@ -1,0 +1,26 @@
+schema_version: 3
+id: inspiration
+lemma: inspiration
+pos:
+- noun
+ipa:
+  us: /ˌɪnspɚˈeɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: nguồn cảm hứng
+  id: inspiration-1
+examples:
+- en: The designer found inspiration for the new collection in traditional crafts.
+  vi: Nhà thiết kế tìm thấy cảm hứng cho bộ sưu tập mới từ nghề thủ công truyền thống.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1224. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

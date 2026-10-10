@@ -1,0 +1,27 @@
+schema_version: 3
+id: escort
+lemma: escort
+pos:
+- verb
+ipa:
+  us: /ɛˈskɔrt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: hộ tống, dẫn đường
+  id: escort-1
+examples:
+- en: A security guard will escort visitors to the meeting room on the third floor.
+  vi: Một nhân viên bảo vệ sẽ dẫn khách đến phòng họp ở tầng ba.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛˈskɔrt/; /ˈɛskɔrt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 482. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

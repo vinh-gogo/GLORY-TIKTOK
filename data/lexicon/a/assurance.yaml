@@ -1,0 +1,26 @@
+schema_version: 3
+id: assurance
+lemma: assurance
+pos:
+- noun
+ipa:
+  us: /əˈʃʊrəns/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sự đảm bảo, lời cam đoan
+  id: assurance-1
+examples:
+- en: The supplier gave us an assurance that the goods would arrive on time.
+  vi: Nhà cung cấp cam đoan với chúng tôi rằng hàng sẽ đến đúng hạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1027. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

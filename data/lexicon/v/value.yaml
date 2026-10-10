@@ -1,0 +1,27 @@
+schema_version: 3
+id: value
+lemma: value
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈvælju/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: giá trị; đánh giá cao
+  id: value-1
+examples:
+- en: The value of the property has increased steadily over the past decade.
+  vi: Giá trị của bất động sản đã tăng đều đặn trong thập kỷ qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 342. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

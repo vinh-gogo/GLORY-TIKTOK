@@ -1,0 +1,27 @@
+schema_version: 3
+id: scan
+lemma: scan
+pos:
+- verb
+- noun
+ipa:
+  us: /skæn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: quét (tài liệu), xem lướt
+  id: scan-1
+examples:
+- en: Please scan the signed form and send it to us by email.
+  vi: Vui lòng quét biểu mẫu đã ký và gửi cho chúng tôi qua email.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2611. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

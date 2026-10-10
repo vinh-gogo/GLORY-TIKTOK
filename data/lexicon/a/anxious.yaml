@@ -1,0 +1,27 @@
+schema_version: 3
+id: anxious
+lemma: anxious
+pos:
+- adjective
+ipa:
+  us: /ˈæŋkʃəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: lo lắng, bồn chồn
+  id: anxious-1
+examples:
+- en: She felt anxious before the interview and arrived at the office early.
+  vi: Cô ấy cảm thấy lo lắng trước buổi phỏng vấn và đến văn phòng sớm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈæŋkʃəs/; /ˈæŋʃəs/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2666. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: motorcycle
+lemma: motorcycle
+pos:
+- noun
+ipa:
+  us: /ˈmoʊtɚˌsaɪkəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: xe máy, mô tô
+  id: motorcycle-1
+examples:
+- en: He rides a motorcycle to work to avoid the heavy morning traffic.
+  vi: Anh ấy đi xe máy đi làm để tránh giao thông đông đúc buổi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 528. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

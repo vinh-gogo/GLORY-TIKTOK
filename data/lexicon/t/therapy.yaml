@@ -1,0 +1,26 @@
+schema_version: 3
+id: therapy
+lemma: therapy
+pos:
+- noun
+ipa:
+  us: /ˈθɛrəpi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: liệu pháp, phương pháp điều trị
+  id: therapy-1
+examples:
+- en: After the accident, he attended physical therapy twice a week for months.
+  vi: Sau tai nạn, anh ấy đi vật lý trị liệu hai lần mỗi tuần trong nhiều tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2498. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

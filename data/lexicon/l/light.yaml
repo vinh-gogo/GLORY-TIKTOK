@@ -1,0 +1,27 @@
+schema_version: 3
+id: light
+lemma: light
+pos:
+- noun
+- adjective
+ipa:
+  us: /laɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: ánh sáng, đèn; nhẹ
+  id: light-1
+examples:
+- en: Please turn off the light in the meeting room when you leave.
+  vi: Vui lòng tắt đèn trong phòng họp khi bạn rời đi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 349. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

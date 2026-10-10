@@ -1,0 +1,26 @@
+schema_version: 3
+id: commit
+lemma: commit
+pos:
+- verb
+ipa:
+  us: /kəˈmɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cam kết, dốc sức
+  id: commit-1
+examples:
+- en: The company is committed to delivering high-quality service to every customer.
+  vi: Công ty cam kết cung cấp dịch vụ chất lượng cao cho mọi khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1322. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: healthy
+lemma: healthy
+pos:
+- adjective
+ipa:
+  us: /ˈhɛlθi/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: khỏe mạnh, lành mạnh
+  id: healthy-1
+examples:
+- en: The cafeteria now offers healthy meals at a reasonable price.
+  vi: Căn-tin hiện cung cấp các bữa ăn lành mạnh với giá hợp lý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1362. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: lip
+lemma: lip
+pos:
+- noun
+ipa:
+  us: /lɪp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: môi
+  id: lip-1
+examples:
+- en: The cold wind made her lips dry and painful.
+  vi: Gió lạnh làm đôi môi cô ấy khô và đau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2299. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

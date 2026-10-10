@@ -1,0 +1,26 @@
+schema_version: 3
+id: oven
+lemma: oven
+pos:
+- noun
+ipa:
+  us: /ˈʌvən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: lò nướng
+  id: oven-1
+examples:
+- en: The bakery's oven is turned on at five every morning.
+  vi: Lò nướng của tiệm bánh được bật lúc năm giờ mỗi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 371. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

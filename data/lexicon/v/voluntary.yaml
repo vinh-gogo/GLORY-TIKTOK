@@ -1,0 +1,26 @@
+schema_version: 3
+id: voluntary
+lemma: voluntary
+pos:
+- adjective
+ipa:
+  us: /ˈvɑləntɛri/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: tự nguyện
+  id: voluntary-1
+examples:
+- en: Attendance at the weekend workshop is voluntary, but strongly encouraged.
+  vi: Việc tham dự hội thảo cuối tuần là tự nguyện nhưng được khuyến khích mạnh mẽ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2756. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

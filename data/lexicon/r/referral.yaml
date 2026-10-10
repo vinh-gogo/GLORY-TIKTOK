@@ -1,0 +1,26 @@
+schema_version: 3
+id: referral
+lemma: referral
+pos:
+- noun
+ipa:
+  us: /rɪˈfɝəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: sự giới thiệu, thư giới thiệu
+  id: referral-1
+examples:
+- en: The clinic requires a referral from your regular doctor before the appointment.
+  vi: Phòng khám yêu cầu giấy giới thiệu từ bác sĩ thường xuyên của bạn trước buổi hẹn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 647. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: employ
+lemma: employ
+pos:
+- verb
+ipa:
+  us: /ɛmˈplɔɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: thuê, tuyển dụng
+  id: employ-1
+examples:
+- en: The factory employs more than two hundred workers.
+  vi: Nhà máy thuê hơn hai trăm công nhân.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛmˈplɔɪ/; /ɪmˈplɔɪ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1294. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

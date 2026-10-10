@@ -1,0 +1,26 @@
+schema_version: 3
+id: section
+lemma: section
+pos:
+- noun
+ipa:
+  us: /ˈsɛkʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: phần, bộ phận
+  id: section-1
+examples:
+- en: Please read the second section of the manual before starting.
+  vi: Vui lòng đọc phần thứ hai của sách hướng dẫn trước khi bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 668. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

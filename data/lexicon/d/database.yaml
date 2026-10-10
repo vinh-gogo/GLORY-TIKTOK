@@ -1,0 +1,27 @@
+schema_version: 3
+id: database
+lemma: database
+pos:
+- noun
+ipa:
+  us: /ˈdeɪtəˌbeɪs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: cơ sở dữ liệu
+  id: database-1
+examples:
+- en: All customer records are stored in a secure database.
+  vi: Mọi hồ sơ khách hàng được lưu trong một cơ sở dữ liệu an toàn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdeɪtəˌbeɪs/; /ˈdætəˌbeɪs/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2145. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

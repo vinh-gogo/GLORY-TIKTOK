@@ -1,0 +1,27 @@
+schema_version: 3
+id: unreliable
+lemma: unreliable
+pos:
+- adjective
+ipa:
+  us: /ˌʌnrɪˈlaɪəbəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: không đáng tin cậy
+  id: unreliable-1
+examples:
+- en: We stopped using that supplier because its deliveries were often late and unreliable.
+  vi: Chúng tôi ngừng dùng nhà cung cấp đó vì việc giao hàng thường trễ và không đáng tin cậy.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌʌnrɪˈlaɪəbəl/; /ˌʌnriˈlaɪəbəl/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1242. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

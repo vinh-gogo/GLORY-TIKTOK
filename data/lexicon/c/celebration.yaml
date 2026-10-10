@@ -1,0 +1,26 @@
+schema_version: 3
+id: celebration
+lemma: celebration
+pos:
+- noun
+ipa:
+  us: /ˌsɛləˈbreɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: lễ kỷ niệm, buổi ăn mừng
+  id: celebration-1
+examples:
+- en: The staff organized a small celebration for the company's twentieth anniversary.
+  vi: Nhân viên tổ chức một buổi ăn mừng nhỏ nhân kỷ niệm hai mươi năm thành lập công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2477. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

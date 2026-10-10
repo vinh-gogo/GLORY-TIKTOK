@@ -1,0 +1,26 @@
+schema_version: 3
+id: lazy
+lemma: lazy
+pos:
+- adjective
+ipa:
+  us: /ˈleɪzi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: lười biếng
+  id: lazy-1
+examples:
+- en: He felt lazy on Sunday and stayed at home all afternoon.
+  vi: Anh ấy thấy lười vào Chủ nhật và ở nhà cả buổi chiều.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2802. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

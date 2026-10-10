@@ -1,0 +1,26 @@
+schema_version: 3
+id: hi
+lemma: hi
+pos:
+- interjection
+ipa:
+  us: /haɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: xin chào (thân mật)
+  id: hi-1
+examples:
+- en: Hi, I am calling to confirm my appointment for tomorrow.
+  vi: Xin chào, tôi gọi để xác nhận cuộc hẹn của tôi vào ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1826. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: compose
+lemma: compose
+pos:
+- verb
+ipa:
+  us: /kəmˈpoʊz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: soạn (thư, nhạc); cấu thành
+  id: compose-1
+examples:
+- en: She will compose a short reply to the client before lunch today.
+  vi: Cô ấy sẽ soạn một thư trả lời ngắn cho khách hàng trước bữa trưa hôm nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2579. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

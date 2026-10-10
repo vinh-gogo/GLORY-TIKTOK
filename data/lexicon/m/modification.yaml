@@ -1,0 +1,26 @@
+schema_version: 3
+id: modification
+lemma: modification
+pos:
+- noun
+ipa:
+  us: /ˌmɑdəfəˈkeɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- manufacturing
+senses:
+- meaning_vi: sự sửa đổi, điều chỉnh
+  id: modification-1
+examples:
+- en: The design needs a small modification before it goes into production.
+  vi: Thiết kế cần một chỉnh sửa nhỏ trước khi đưa vào sản xuất.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 926. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

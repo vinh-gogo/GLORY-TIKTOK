@@ -1,0 +1,26 @@
+schema_version: 3
+id: appear
+lemma: appear
+pos:
+- verb
+ipa:
+  us: /əˈpɪr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: xuất hiện; có vẻ
+  id: appear-1
+examples:
+- en: The new menu will appear on the restaurant's website next week.
+  vi: Thực đơn mới sẽ xuất hiện trên trang web của nhà hàng vào tuần tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 405. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

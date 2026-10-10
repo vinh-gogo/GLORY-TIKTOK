@@ -1,0 +1,26 @@
+schema_version: 3
+id: gesture
+lemma: gesture
+pos:
+- noun
+ipa:
+  us: /ˈdʒɛstʃɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cử chỉ, hành động thể hiện thiện chí
+  id: gesture-1
+examples:
+- en: Sending flowers was a kind gesture that the client truly appreciated.
+  vi: Gửi hoa là một cử chỉ tử tế mà khách hàng thực sự trân trọng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2490. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

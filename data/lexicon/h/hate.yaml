@@ -1,0 +1,26 @@
+schema_version: 3
+id: hate
+lemma: hate
+pos:
+- verb
+ipa:
+  us: /heɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: ghét
+  id: hate-1
+examples:
+- en: I hate waiting in long lines at the airport.
+  vi: Tôi ghét phải chờ trong hàng dài ở sân bay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1380. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: safety
+lemma: safety
+pos:
+- noun
+ipa:
+  us: /ˈseɪfti/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: sự an toàn
+  id: safety-1
+examples:
+- en: All workers must wear helmets for their own safety on the site.
+  vi: Tất cả công nhân phải đội mũ bảo hộ vì sự an toàn của chính họ tại công trường.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1311. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

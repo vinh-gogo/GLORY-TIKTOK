@@ -1,0 +1,26 @@
+schema_version: 3
+id: tension
+lemma: tension
+pos:
+- noun
+ipa:
+  us: /ˈtɛnʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự căng thẳng
+  id: tension-1
+examples:
+- en: Tension in the meeting rose when the budget was discussed.
+  vi: Không khí căng thẳng trong cuộc họp tăng lên khi ngân sách được thảo luận.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2075. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

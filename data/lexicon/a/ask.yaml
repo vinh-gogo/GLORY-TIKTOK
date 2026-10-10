@@ -1,0 +1,26 @@
+schema_version: 3
+id: ask
+lemma: ask
+pos:
+- verb
+ipa:
+  us: /æsk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: hỏi; yêu cầu
+  id: ask-1
+examples:
+- en: You can ask the front desk for extra towels at any time.
+  vi: Bạn có thể hỏi quầy lễ tân xin thêm khăn tắm vào bất cứ lúc nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 134. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

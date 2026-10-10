@@ -1,0 +1,26 @@
+schema_version: 3
+id: theme
+lemma: theme
+pos:
+- noun
+ipa:
+  us: /θim/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: chủ đề
+  id: theme-1
+examples:
+- en: The theme of this year's conference is sustainable business.
+  vi: Chủ đề của hội nghị năm nay là kinh doanh bền vững.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1572. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

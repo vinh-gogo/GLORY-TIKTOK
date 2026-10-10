@@ -1,0 +1,26 @@
+schema_version: 3
+id: large
+lemma: large
+pos:
+- adjective
+ipa:
+  us: /lɑrdʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: lớn, rộng
+  id: large-1
+examples:
+- en: The conference room is large enough to seat about eighty people.
+  vi: Phòng hội nghị đủ rộng để chứa khoảng tám mươi người.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 210. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

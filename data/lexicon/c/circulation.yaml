@@ -1,0 +1,26 @@
+schema_version: 3
+id: circulation
+lemma: circulation
+pos:
+- noun
+ipa:
+  us: /ˈsɝkjəˌleɪʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: lượng phát hành, sự lưu thông
+  id: circulation-1
+examples:
+- en: The newspaper has a daily circulation of more than fifty thousand copies.
+  vi: Tờ báo có lượng phát hành hằng ngày hơn năm mươi nghìn bản.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 667. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

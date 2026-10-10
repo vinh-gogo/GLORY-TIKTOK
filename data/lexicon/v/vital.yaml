@@ -1,0 +1,26 @@
+schema_version: 3
+id: vital
+lemma: vital
+pos:
+- adjective
+ipa:
+  us: /ˈvaɪtəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: cực kỳ quan trọng, thiết yếu
+  id: vital-1
+examples:
+- en: Clear communication is vital to the success of any project.
+  vi: Giao tiếp rõ ràng là yếu tố thiết yếu cho thành công của mọi dự án.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2123. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

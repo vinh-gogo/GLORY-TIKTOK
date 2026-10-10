@@ -1,0 +1,26 @@
+schema_version: 3
+id: die
+lemma: die
+pos:
+- verb
+ipa:
+  us: /daɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chết; ngừng hoạt động
+  id: die-1
+examples:
+- en: The plants in the lobby will die without regular watering.
+  vi: Cây trong sảnh sẽ chết nếu không được tưới nước thường xuyên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 454. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

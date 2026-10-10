@@ -1,0 +1,26 @@
+schema_version: 3
+id: appraisal
+lemma: appraisal
+pos:
+- noun
+ipa:
+  us: /əˈpreɪzəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: sự đánh giá, thẩm định
+  id: appraisal-1
+examples:
+- en: Each employee has an annual appraisal with their direct supervisor in December.
+  vi: Mỗi nhân viên có một buổi đánh giá hằng năm với người giám sát trực tiếp vào tháng Mười Hai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 564. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

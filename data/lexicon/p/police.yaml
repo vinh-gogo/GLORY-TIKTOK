@@ -1,0 +1,26 @@
+schema_version: 3
+id: police
+lemma: police
+pos:
+- noun
+ipa:
+  us: /pəˈlis/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cảnh sát
+  id: police-1
+examples:
+- en: The security guard called the police after he noticed broken windows.
+  vi: Nhân viên bảo vệ đã gọi cảnh sát sau khi thấy cửa sổ bị vỡ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 616. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

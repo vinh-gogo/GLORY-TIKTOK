@@ -1,0 +1,26 @@
+schema_version: 3
+id: reminder
+lemma: reminder
+pos:
+- noun
+ipa:
+  us: /riˈmaɪndɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: lời nhắc, thư nhắc
+  id: reminder-1
+examples:
+- en: I sent a reminder to all staff about tomorrow's safety training session.
+  vi: Tôi đã gửi lời nhắc đến toàn bộ nhân viên về buổi tập huấn an toàn ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 737. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

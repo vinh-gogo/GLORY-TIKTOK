@@ -1,0 +1,26 @@
+schema_version: 3
+id: sample
+lemma: sample
+pos:
+- noun
+ipa:
+  us: /ˈsæmpəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: mẫu, hàng mẫu
+  id: sample-1
+examples:
+- en: The supplier sent us a free sample of the new fabric.
+  vi: Nhà cung cấp đã gửi cho chúng tôi một mẫu vải mới miễn phí.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1062. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: damn
+lemma: damn
+pos:
+- interjection
+- verb
+ipa:
+  us: /dæm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: chết tiệt (lời chửi nhẹ); nguyền rủa
+  id: damn-1
+examples:
+- en: He muttered a damn under his breath when the printer jammed again.
+  vi: Anh ấy lầm bầm chửi khẽ khi máy in lại bị kẹt giấy.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Từ thô tục, ít dùng trong TOEIC; từ loại thay đổi theo ngữ cảnh — Mục từ NGSL
+    hạng 2571. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band
+    TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: after
+lemma: after
+pos:
+- preposition
+- conjunction
+ipa:
+  us: /ˈæftɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sau, sau khi
+  id: after-1
+examples:
+- en: The staff meeting will be held after lunch in the main hall.
+  vi: Cuộc họp nhân viên sẽ được tổ chức sau bữa trưa tại sảnh chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 84. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

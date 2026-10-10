@@ -1,0 +1,26 @@
+schema_version: 3
+id: soil
+lemma: soil
+pos:
+- noun
+ipa:
+  us: /sɔɪl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: đất, thổ nhưỡng
+  id: soil-1
+examples:
+- en: Engineers tested the soil before the construction of the new building.
+  vi: Các kỹ sư đã kiểm tra đất trước khi xây dựng tòa nhà mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2022. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: conference
+lemma: conference
+pos:
+- noun
+ipa:
+  us: /ˈkɑnfɚəns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: hội nghị
+  id: conference-1
+examples:
+- en: Our marketing team will attend the industry conference in Singapore.
+  vi: Nhóm tiếp thị của chúng tôi sẽ tham dự hội nghị ngành tại Singapore.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkɑnfɚəns/; /ˈkɑnfrəns/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 812. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

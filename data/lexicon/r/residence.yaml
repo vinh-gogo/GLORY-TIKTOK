@@ -1,0 +1,26 @@
+schema_version: 3
+id: residence
+lemma: residence
+pos:
+- noun
+ipa:
+  us: /ˈrɛzɪdəns/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: nơi cư trú, nhà ở
+  id: residence-1
+examples:
+- en: Please provide proof of residence when you open a new bank account.
+  vi: Vui lòng cung cấp giấy tờ chứng minh nơi cư trú khi mở tài khoản ngân hàng mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1075. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

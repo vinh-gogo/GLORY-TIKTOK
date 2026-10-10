@@ -1,0 +1,26 @@
+schema_version: 3
+id: beer
+lemma: beer
+pos:
+- noun
+ipa:
+  us: /bɪr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: bia
+  id: beer-1
+examples:
+- en: He ordered a cold beer to go with his dinner.
+  vi: Anh ấy gọi một ly bia lạnh để dùng cùng bữa tối.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2062. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

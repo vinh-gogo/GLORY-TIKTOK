@@ -1,0 +1,27 @@
+schema_version: 3
+id: routine
+lemma: routine
+pos:
+- noun
+- adjective
+ipa:
+  us: /ruˈtin/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: thói quen; công việc thường lệ
+  id: routine-1
+examples:
+- en: A morning walk is part of her daily routine.
+  vi: Đi bộ buổi sáng là một phần trong thói quen hằng ngày của cô ấy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2104. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

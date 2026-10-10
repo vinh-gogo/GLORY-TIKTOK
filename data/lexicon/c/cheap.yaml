@@ -1,0 +1,26 @@
+schema_version: 3
+id: cheap
+lemma: cheap
+pos:
+- adjective
+ipa:
+  us: /tʃip/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: rẻ
+  id: cheap-1
+examples:
+- en: We found a cheap hotel near the convention center for the trip.
+  vi: Chúng tôi tìm được một khách sạn rẻ gần trung tâm hội nghị cho chuyến đi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1095. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,28 @@
+schema_version: 3
+id: surprise
+lemma: surprise
+pos:
+- noun
+- verb
+ipa:
+  us: /sɚˈpraɪz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự ngạc nhiên; làm ngạc nhiên
+  id: surprise-1
+examples:
+- en: The sudden price drop came as a surprise to many customers.
+  vi: Việc giá giảm đột ngột khiến nhiều khách hàng ngạc nhiên.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/sɚˈpraɪz/; /səˈpraɪz/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 634. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

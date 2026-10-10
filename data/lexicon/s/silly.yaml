@@ -1,0 +1,26 @@
+schema_version: 3
+id: silly
+lemma: silly
+pos:
+- adjective
+ipa:
+  us: /ˈsɪli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: ngớ ngẩn, ngốc nghếch
+  id: silly-1
+examples:
+- en: It was a silly mistake, and he quickly corrected the figure.
+  vi: Đó là một lỗi ngớ ngẩn và anh ấy đã nhanh chóng sửa lại con số.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2702. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

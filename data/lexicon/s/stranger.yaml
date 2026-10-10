@@ -1,0 +1,26 @@
+schema_version: 3
+id: stranger
+lemma: stranger
+pos:
+- noun
+ipa:
+  us: /ˈstreɪndʒɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: người lạ
+  id: stranger-1
+examples:
+- en: Employees should not let a stranger enter the building without a visitor badge.
+  vi: Nhân viên không nên để người lạ vào tòa nhà nếu không có thẻ khách.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2725. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

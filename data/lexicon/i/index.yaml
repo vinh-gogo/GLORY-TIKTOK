@@ -1,0 +1,26 @@
+schema_version: 3
+id: index
+lemma: index
+pos:
+- noun
+ipa:
+  us: /ˈɪndɛks/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: chỉ số; mục lục tra cứu
+  id: index-1
+examples:
+- en: The consumer price index rose slightly during the last quarter.
+  vi: Chỉ số giá tiêu dùng tăng nhẹ trong quý vừa qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1709. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

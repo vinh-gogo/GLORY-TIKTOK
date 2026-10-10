@@ -1,0 +1,26 @@
+schema_version: 3
+id: code
+lemma: code
+pos:
+- noun
+ipa:
+  us: /koʊd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: mã, quy tắc
+  id: code-1
+examples:
+- en: Please enter the security code to open the door to the lab.
+  vi: Vui lòng nhập mã bảo mật để mở cửa phòng thí nghiệm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1346. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

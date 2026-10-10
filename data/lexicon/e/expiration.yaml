@@ -1,0 +1,26 @@
+schema_version: 3
+id: expiration
+lemma: expiration
+pos:
+- noun
+ipa:
+  us: /ˌɛkspɚˈeɪʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự hết hạn
+  id: expiration-1
+examples:
+- en: Please check the expiration date on your passport before booking the flight.
+  vi: Vui lòng kiểm tra ngày hết hạn trên hộ chiếu trước khi đặt chuyến bay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 546. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

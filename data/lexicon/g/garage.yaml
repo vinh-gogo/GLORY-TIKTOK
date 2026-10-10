@@ -1,0 +1,26 @@
+schema_version: 3
+id: garage
+lemma: garage
+pos:
+- noun
+ipa:
+  us: /ɡɚˈɑʒ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: ga-ra, nhà để xe
+  id: garage-1
+examples:
+- en: Employees may park their cars in the garage behind the building.
+  vi: Nhân viên có thể đỗ xe trong ga-ra phía sau tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 57. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

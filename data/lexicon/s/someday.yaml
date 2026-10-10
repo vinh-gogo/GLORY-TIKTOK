@@ -1,0 +1,26 @@
+schema_version: 3
+id: someday
+lemma: someday
+pos:
+- adverb
+ipa:
+  us: /ˈsʌmˌdeɪ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: một ngày nào đó
+  id: someday-1
+examples:
+- en: She hopes to open her own restaurant someday in her hometown.
+  vi: Cô ấy hy vọng một ngày nào đó sẽ mở nhà hàng riêng ở quê nhà.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1083. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

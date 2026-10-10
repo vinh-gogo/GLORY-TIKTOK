@@ -1,0 +1,26 @@
+schema_version: 3
+id: cash
+lemma: cash
+pos:
+- noun
+ipa:
+  us: /kæʃ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tiền mặt
+  id: cash-1
+examples:
+- en: This store accepts both credit cards and cash for payment.
+  vi: Cửa hàng này chấp nhận cả thẻ tín dụng và tiền mặt để thanh toán.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1339. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

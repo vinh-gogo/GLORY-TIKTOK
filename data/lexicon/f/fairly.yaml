@@ -1,0 +1,26 @@
+schema_version: 3
+id: fairly
+lemma: fairly
+pos:
+- adverb
+ipa:
+  us: /ˈfɛrli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: khá; một cách công bằng
+  id: fairly-1
+examples:
+- en: The new software is fairly easy to learn for most employees.
+  vi: Phần mềm mới khá dễ học đối với hầu hết nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1466. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

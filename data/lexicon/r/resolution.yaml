@@ -1,0 +1,26 @@
+schema_version: 3
+id: resolution
+lemma: resolution
+pos:
+- noun
+ipa:
+  us: /ˌrɛzəˈluʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: nghị quyết; sự giải quyết; độ phân giải
+  id: resolution-1
+examples:
+- en: The board passed a resolution to open two new factories.
+  vi: Hội đồng quản trị thông qua nghị quyết mở thêm hai nhà máy mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1799. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

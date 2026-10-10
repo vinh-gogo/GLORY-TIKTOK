@@ -1,0 +1,27 @@
+schema_version: 3
+id: flat
+lemma: flat
+pos:
+- adjective
+- noun
+ipa:
+  us: /flæt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: phẳng; căn hộ
+  id: flat-1
+examples:
+- en: He rents a small flat near the train station for work.
+  vi: Anh ấy thuê một căn hộ nhỏ gần ga tàu để tiện đi làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1077. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

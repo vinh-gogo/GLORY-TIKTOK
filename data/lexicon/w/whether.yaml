@@ -1,0 +1,27 @@
+schema_version: 3
+id: whether
+lemma: whether
+pos:
+- conjunction
+ipa:
+  us: /ˈwɛðɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: liệu có hay không
+  id: whether-1
+examples:
+- en: Please tell me whether you can attend the dinner on Friday.
+  vi: Vui lòng cho tôi biết liệu bạn có thể tham dự bữa tối vào thứ Sáu hay không.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈwɛðɚ/; /ˈhwɛðɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 273. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

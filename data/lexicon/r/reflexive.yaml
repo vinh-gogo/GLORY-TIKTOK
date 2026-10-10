@@ -1,0 +1,26 @@
+schema_version: 3
+id: reflexive
+lemma: reflexive
+pos:
+- adjective
+ipa:
+  us: /rəˈflɛksɪv/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: phản thân (ngữ pháp); mang tính phản xạ
+  id: reflexive-1
+examples:
+- en: The word "himself" in this sentence is a reflexive pronoun.
+  vi: Từ "himself" trong câu này là một đại từ phản thân.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 838. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

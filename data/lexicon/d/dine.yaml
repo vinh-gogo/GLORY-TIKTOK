@@ -1,0 +1,26 @@
+schema_version: 3
+id: dine
+lemma: dine
+pos:
+- verb
+ipa:
+  us: /daɪn/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: dùng bữa, ăn tối
+  id: dine-1
+examples:
+- en: Clients often dine at the restaurant across from our office.
+  vi: Khách hàng thường dùng bữa tại nhà hàng đối diện văn phòng của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 83. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

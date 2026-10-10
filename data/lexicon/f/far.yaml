@@ -1,0 +1,27 @@
+schema_version: 3
+id: far
+lemma: far
+pos:
+- adverb
+- adjective
+ipa:
+  us: /fɑr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: xa; nhiều (trong far more)
+  id: far-1
+examples:
+- en: The new office is not far from the central train station.
+  vi: Văn phòng mới không xa ga tàu trung tâm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 245. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

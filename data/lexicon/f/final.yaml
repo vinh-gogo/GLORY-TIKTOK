@@ -1,0 +1,26 @@
+schema_version: 3
+id: final
+lemma: final
+pos:
+- adjective
+ipa:
+  us: /ˈfaɪnəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: cuối cùng, chung cuộc
+  id: final-1
+examples:
+- en: Please send the final version of the contract to our lawyer.
+  vi: Vui lòng gửi bản cuối cùng của hợp đồng cho luật sư của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 698. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

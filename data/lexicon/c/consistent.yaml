@@ -1,0 +1,26 @@
+schema_version: 3
+id: consistent
+lemma: consistent
+pos:
+- adjective
+ipa:
+  us: /kənˈsɪstənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nhất quán, kiên định
+  id: consistent-1
+examples:
+- en: Consistent quality is the key to keeping our customers happy.
+  vi: Chất lượng nhất quán là chìa khóa để giữ khách hàng hài lòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1942. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

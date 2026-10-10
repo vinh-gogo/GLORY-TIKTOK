@@ -1,0 +1,27 @@
+schema_version: 3
+id: generalization
+lemma: generalization
+pos:
+- noun
+ipa:
+  us: /ˌdʒɛnɚəlɪˈzeɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sự khái quát hóa, nhận định chung
+  id: generalization-1
+examples:
+- en: It is unfair to make a broad generalization based on one survey.
+  vi: Thật không công bằng khi đưa ra nhận định chung dựa trên một cuộc khảo sát.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌdʒɛnɚəlɪˈzeɪʃən/; /ˌdʒɛnrəlɪˈzeɪʃən/); IPA đang
+    ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 822. IPA lấy từ
+    CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất
+    (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

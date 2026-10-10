@@ -1,0 +1,27 @@
+schema_version: 3
+id: coupon
+lemma: coupon
+pos:
+- noun
+ipa:
+  us: /ˈkuˌpɔn/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: phiếu giảm giá
+  id: coupon-1
+examples:
+- en: Bring this coupon to the store to receive a ten percent discount.
+  vi: Hãy mang phiếu giảm giá này đến cửa hàng để được giảm mười phần trăm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkuˌpɔn/; /ˈkjuˌpɔn/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 75. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

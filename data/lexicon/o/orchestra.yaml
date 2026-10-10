@@ -1,0 +1,26 @@
+schema_version: 3
+id: orchestra
+lemma: orchestra
+pos:
+- noun
+ipa:
+  us: /ˈɔrkəstrə/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: dàn nhạc
+  id: orchestra-1
+examples:
+- en: The city orchestra will perform at the new concert hall on Saturday.
+  vi: Dàn nhạc thành phố sẽ biểu diễn tại nhà hát hòa nhạc mới vào thứ Bảy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 832. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

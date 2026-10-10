@@ -1,0 +1,26 @@
+schema_version: 3
+id: itself
+lemma: itself
+pos:
+- pronoun
+ipa:
+  us: /ˌɪtˈsɛlf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chính nó, tự nó
+  id: itself-1
+examples:
+- en: The software updates itself automatically every night at midnight.
+  vi: Phần mềm tự cập nhật tự động mỗi đêm lúc nửa đêm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 538. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

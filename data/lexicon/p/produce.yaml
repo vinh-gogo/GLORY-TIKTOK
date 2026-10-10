@@ -1,0 +1,27 @@
+schema_version: 3
+id: produce
+lemma: produce
+pos:
+- verb
+ipa:
+  us: /prəˈdus/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: sản xuất, tạo ra
+  id: produce-1
+examples:
+- en: The plant can produce five thousand units of this model each week.
+  vi: Nhà máy có thể sản xuất năm nghìn chiếc mẫu này mỗi tuần.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/prəˈdus/; /ˈproʊdus/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 417. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

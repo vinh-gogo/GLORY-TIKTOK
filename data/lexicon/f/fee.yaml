@@ -1,0 +1,26 @@
+schema_version: 3
+id: fee
+lemma: fee
+pos:
+- noun
+ipa:
+  us: /fi/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: phí, lệ phí
+  id: fee-1
+examples:
+- en: There is a small fee for using the meeting room after hours.
+  vi: Có một khoản phí nhỏ khi sử dụng phòng họp ngoài giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1479. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

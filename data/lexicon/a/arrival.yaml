@@ -1,0 +1,26 @@
+schema_version: 3
+id: arrival
+lemma: arrival
+pos:
+- noun
+ipa:
+  us: /ɚˈaɪvəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: sự đến; chuyến đến
+  id: arrival-1
+examples:
+- en: Please confirm your arrival time before we arrange the airport pickup.
+  vi: Vui lòng xác nhận giờ đến của bạn trước khi chúng tôi sắp xếp đón ở sân bay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2058. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

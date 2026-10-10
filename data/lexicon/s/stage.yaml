@@ -1,0 +1,26 @@
+schema_version: 3
+id: stage
+lemma: stage
+pos:
+- noun
+ipa:
+  us: /steɪdʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: giai đoạn; sân khấu
+  id: stage-1
+examples:
+- en: The project is still in the early stage of development.
+  vi: Dự án vẫn đang ở giai đoạn đầu của quá trình phát triển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 551. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

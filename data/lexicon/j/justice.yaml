@@ -1,0 +1,27 @@
+schema_version: 3
+id: justice
+lemma: justice
+pos:
+- noun
+ipa:
+  us: /ˈdʒʌstəs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: công lý, sự công bằng
+  id: justice-1
+examples:
+- en: The court worked to ensure justice for all the workers involved.
+  vi: Tòa án nỗ lực bảo đảm công lý cho tất cả người lao động liên quan.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdʒʌstəs/; /ˈdʒʌstɪs/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1696. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

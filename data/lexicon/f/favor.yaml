@@ -1,0 +1,27 @@
+schema_version: 3
+id: favor
+lemma: favor
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈfeɪvɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: sự giúp đỡ; ủng hộ
+  id: favor-1
+examples:
+- en: Could you do me a favor and cover my shift tomorrow?
+  vi: Bạn có thể giúp tôi một việc và làm thay ca của tôi ngày mai không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1134. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

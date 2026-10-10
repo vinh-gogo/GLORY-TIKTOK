@@ -1,0 +1,26 @@
+schema_version: 3
+id: dark
+lemma: dark
+pos:
+- adjective
+ipa:
+  us: /dɑrk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tối, sẫm màu
+  id: dark-1
+examples:
+- en: The parking lot is very dark at night, so please be careful.
+  vi: Bãi đỗ xe rất tối vào ban đêm nên xin hãy cẩn thận.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 923. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

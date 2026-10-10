@@ -1,0 +1,26 @@
+schema_version: 3
+id: part
+lemma: part
+pos:
+- noun
+ipa:
+  us: /pɑrt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: phần, bộ phận
+  id: part-1
+examples:
+- en: This is only one part of the new marketing plan.
+  vi: Đây chỉ là một phần của kế hoạch tiếp thị mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 130. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

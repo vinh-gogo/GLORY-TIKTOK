@@ -1,0 +1,27 @@
+schema_version: 3
+id: wind
+lemma: wind
+pos:
+- noun
+ipa:
+  us: /waɪnd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: gió
+  id: wind-1
+examples:
+- en: Strong wind forced the airline to cancel several flights this evening.
+  vi: Gió mạnh buộc hãng hàng không phải hủy một số chuyến bay tối nay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] đồng tự khác âm: danh từ ''gió'' /wɪnd/ và động từ ''quấn'' /waɪnd/; IPA đầu
+    vào theo nghĩa quấn, nghĩa chọn là ''gió'' — Mục từ NGSL hạng 1013. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

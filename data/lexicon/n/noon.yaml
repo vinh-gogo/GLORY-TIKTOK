@@ -1,0 +1,26 @@
+schema_version: 3
+id: noon
+lemma: noon
+pos:
+- noun
+ipa:
+  us: /nun/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: buổi trưa, mười hai giờ trưa
+  id: noon-1
+examples:
+- en: The staff meeting will end at noon so everyone can have lunch.
+  vi: Cuộc họp nhân viên sẽ kết thúc vào buổi trưa để mọi người có thể ăn trưa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 21. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

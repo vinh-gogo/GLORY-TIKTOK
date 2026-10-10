@@ -1,0 +1,26 @@
+schema_version: 3
+id: streamline
+lemma: streamline
+pos:
+- verb
+ipa:
+  us: /ˈstrimˌlaɪn/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tinh giản, làm cho hợp lý hơn
+  id: streamline-1
+examples:
+- en: We hope to streamline the ordering process and reduce unnecessary paperwork.
+  vi: Chúng tôi hy vọng tinh giản quy trình đặt hàng và giảm giấy tờ không cần thiết.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 793. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: sell
+lemma: sell
+pos:
+- verb
+ipa:
+  us: /sɛl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: bán
+  id: sell-1
+examples:
+- en: The store plans to sell its winter stock at a discount.
+  vi: Cửa hàng dự định bán hàng tồn mùa đông với giá giảm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 418. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: computer
+lemma: computer
+pos:
+- noun
+ipa:
+  us: /kəmˈpjutɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: máy tính
+  id: computer-1
+examples:
+- en: My computer restarted unexpectedly while I was saving the file.
+  vi: Máy tính của tôi tự khởi động lại bất ngờ khi tôi đang lưu tệp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 429. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

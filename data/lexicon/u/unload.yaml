@@ -1,0 +1,26 @@
+schema_version: 3
+id: unload
+lemma: unload
+pos:
+- verb
+ipa:
+  us: /ənˈloʊd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: dỡ hàng, bốc dỡ
+  id: unload-1
+examples:
+- en: The workers will unload the boxes from the truck at the warehouse.
+  vi: Các công nhân sẽ dỡ những thùng hàng từ xe tải xuống kho.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 881. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

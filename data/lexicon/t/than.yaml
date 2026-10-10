@@ -1,0 +1,28 @@
+schema_version: 3
+id: than
+lemma: than
+pos:
+- conjunction
+- preposition
+ipa:
+  us: /ðæn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: hơn (dùng trong so sánh)
+  id: than-1
+examples:
+- en: This model is cheaper than the one we bought last year.
+  vi: Mẫu này rẻ hơn mẫu chúng tôi đã mua năm ngoái.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ðæn/; /ðən/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 69. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

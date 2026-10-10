@@ -1,0 +1,26 @@
+schema_version: 3
+id: similarly
+lemma: similarly
+pos:
+- adverb
+ipa:
+  us: /ˈsɪməlɚli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tương tự, theo cách tương tự
+  id: similarly-1
+examples:
+- en: Similarly, the second branch reported higher profits than last year.
+  vi: Tương tự, chi nhánh thứ hai báo cáo lợi nhuận cao hơn năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2247. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

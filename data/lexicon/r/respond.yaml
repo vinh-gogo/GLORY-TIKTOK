@@ -1,0 +1,27 @@
+schema_version: 3
+id: respond
+lemma: respond
+pos:
+- verb
+ipa:
+  us: /rɪˈspɑnd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: phản hồi, trả lời
+  id: respond-1
+examples:
+- en: The support team will respond to your inquiry within one business day.
+  vi: Đội hỗ trợ sẽ phản hồi yêu cầu của bạn trong vòng một ngày làm việc.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈspɑnd/; /riˈspɑnd/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1116. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: insufficient
+lemma: insufficient
+pos:
+- adjective
+ipa:
+  us: /ˌɪnsəˈfɪʃənt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: không đủ, thiếu
+  id: insufficient-1
+examples:
+- en: The project was delayed because of insufficient funds and a shortage of staff.
+  vi: Dự án bị trì hoãn do không đủ kinh phí và thiếu nhân sự.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 722. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

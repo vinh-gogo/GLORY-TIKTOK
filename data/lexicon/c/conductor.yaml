@@ -1,0 +1,26 @@
+schema_version: 3
+id: conductor
+lemma: conductor
+pos:
+- noun
+ipa:
+  us: /kənˈdʌktɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: nhạc trưởng; người soát vé tàu
+  id: conductor-1
+examples:
+- en: The conductor led the orchestra through a beautiful piece.
+  vi: Nhạc trưởng dẫn dắt dàn nhạc qua một bản nhạc tuyệt đẹp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 305. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

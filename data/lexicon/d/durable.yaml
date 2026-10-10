@@ -1,0 +1,26 @@
+schema_version: 3
+id: durable
+lemma: durable
+pos:
+- adjective
+ipa:
+  us: /ˈdʊrəbəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: bền, lâu hỏng
+  id: durable-1
+examples:
+- en: These boots are made of durable material that lasts for years.
+  vi: Đôi ủng này được làm từ chất liệu bền, dùng được nhiều năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 442. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

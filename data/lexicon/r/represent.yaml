@@ -1,0 +1,26 @@
+schema_version: 3
+id: represent
+lemma: represent
+pos:
+- verb
+ipa:
+  us: /ˌrɛprɪˈzɛnt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: đại diện; thể hiện
+  id: represent-1
+examples:
+- en: Two managers will represent our company at the trade show.
+  vi: Hai quản lý sẽ đại diện cho công ty chúng tôi tại hội chợ thương mại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 658. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

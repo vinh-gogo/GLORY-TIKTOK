@@ -1,0 +1,26 @@
+schema_version: 3
+id: happy
+lemma: happy
+pos:
+- adjective
+ipa:
+  us: /ˈhæpi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: vui vẻ, hạnh phúc, hài lòng
+  id: happy-1
+examples:
+- en: The customers were happy with the quick delivery of their orders.
+  vi: Khách hàng hài lòng với việc giao đơn hàng nhanh chóng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 513. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

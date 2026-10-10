@@ -1,0 +1,26 @@
+schema_version: 3
+id: desk
+lemma: desk
+pos:
+- noun
+ipa:
+  us: /dɛsk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: bàn làm việc
+  id: desk-1
+examples:
+- en: Please leave the signed forms on my desk before you go.
+  vi: Vui lòng để các mẫu đơn đã ký trên bàn làm việc của tôi trước khi bạn về.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1588. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

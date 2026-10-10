@@ -1,0 +1,27 @@
+schema_version: 3
+id: automatically
+lemma: automatically
+pos:
+- adverb
+ipa:
+  us: /ˌɔtəˈmætɪkli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: một cách tự động
+  id: automatically-1
+examples:
+- en: The system automatically saves your document every five minutes while you work.
+  vi: Hệ thống tự động lưu tài liệu của bạn mỗi năm phút khi bạn làm việc.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɔtəˈmætɪkli/; /ˌɔtoʊˈmætɪkli/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2521. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

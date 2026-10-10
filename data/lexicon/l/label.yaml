@@ -1,0 +1,27 @@
+schema_version: 3
+id: label
+lemma: label
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈleɪbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: nhãn, nhãn mác
+  id: label-1
+examples:
+- en: Please check the label on the box before you ship it.
+  vi: Vui lòng kiểm tra nhãn trên thùng hàng trước khi gửi đi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1528. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

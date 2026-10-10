@@ -1,0 +1,26 @@
+schema_version: 3
+id: balloon
+lemma: balloon
+pos:
+- noun
+ipa:
+  us: /bəˈlun/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: bong bóng bay, khinh khí cầu
+  id: balloon-1
+examples:
+- en: Children received a colorful balloon at the entrance of the festival.
+  vi: Trẻ em được tặng một quả bóng bay đầy màu sắc ở cổng lễ hội.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 891. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

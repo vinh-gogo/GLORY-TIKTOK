@@ -1,0 +1,26 @@
+schema_version: 3
+id: consult
+lemma: consult
+pos:
+- verb
+ipa:
+  us: /kənˈsʌlt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tham khảo ý kiến
+  id: consult-1
+examples:
+- en: Please consult your supervisor before approving any extra spending.
+  vi: Vui lòng tham khảo ý kiến người giám sát trước khi phê duyệt bất kỳ khoản chi thêm nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2237. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

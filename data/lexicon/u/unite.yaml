@@ -1,0 +1,26 @@
+schema_version: 3
+id: unite
+lemma: unite
+pos:
+- verb
+ipa:
+  us: /ˈjuˌnaɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: hợp nhất, đoàn kết
+  id: unite-1
+examples:
+- en: The two small firms decided to unite to compete with larger rivals.
+  vi: Hai công ty nhỏ quyết định hợp nhất để cạnh tranh với các đối thủ lớn hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2767. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

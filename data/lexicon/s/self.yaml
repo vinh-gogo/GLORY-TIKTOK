@@ -1,0 +1,26 @@
+schema_version: 3
+id: self
+lemma: self
+pos:
+- noun
+ipa:
+  us: /sɛlf/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bản thân, cái tôi
+  id: self-1
+examples:
+- en: Training helps employees build self confidence and new skills.
+  vi: Đào tạo giúp nhân viên xây dựng sự tự tin vào bản thân và kỹ năng mới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Từ thường dùng trong từ ghép (self-); cần xác nhận cách đưa vào — Mục từ NGSL
+    hạng 1833. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band
+    TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

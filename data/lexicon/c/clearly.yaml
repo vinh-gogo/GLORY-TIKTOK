@@ -1,0 +1,26 @@
+schema_version: 3
+id: clearly
+lemma: clearly
+pos:
+- adverb
+ipa:
+  us: /ˈklɪrli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: rõ ràng
+  id: clearly-1
+examples:
+- en: Please state your request clearly in the subject line of the email.
+  vi: Vui lòng nêu rõ yêu cầu của bạn trong dòng tiêu đề email.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 728. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

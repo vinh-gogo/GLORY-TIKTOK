@@ -1,0 +1,26 @@
+schema_version: 3
+id: mom
+lemma: mom
+pos:
+- noun
+ipa:
+  us: /mɑm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: mẹ (cách gọi thân mật)
+  id: mom-1
+examples:
+- en: My mom picked me up from the station after work.
+  vi: Mẹ tôi đón tôi ở ga sau giờ làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2131. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

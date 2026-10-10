@@ -1,0 +1,27 @@
+schema_version: 3
+id: train
+lemma: train
+pos:
+- noun
+- verb
+ipa:
+  us: /treɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: tàu hỏa; huấn luyện, đào tạo
+  id: train-1
+examples:
+- en: The train to the airport departs every fifteen minutes from the main station.
+  vi: Chuyến tàu ra sân bay khởi hành mỗi mười lăm phút từ ga chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 289. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

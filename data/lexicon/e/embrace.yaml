@@ -1,0 +1,27 @@
+schema_version: 3
+id: embrace
+lemma: embrace
+pos:
+- verb
+ipa:
+  us: /ɛmˈbreɪs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: ôm; đón nhận, chấp nhận
+  id: embrace-1
+examples:
+- en: Many firms have started to embrace remote work as a permanent option.
+  vi: Nhiều công ty đã bắt đầu đón nhận làm việc từ xa như một lựa chọn lâu dài.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛmˈbreɪs/; /ɪmˈbreɪs/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2472. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

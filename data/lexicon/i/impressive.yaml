@@ -1,0 +1,26 @@
+schema_version: 3
+id: impressive
+lemma: impressive
+pos:
+- adjective
+ipa:
+  us: /ˌɪmˈprɛsɪv/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: ấn tượng, đáng nể
+  id: impressive-1
+examples:
+- en: Her sales record for the past year is truly impressive.
+  vi: Thành tích bán hàng của cô ấy trong năm qua thực sự ấn tượng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2421. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

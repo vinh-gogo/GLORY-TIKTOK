@@ -1,0 +1,26 @@
+schema_version: 3
+id: recreational
+lemma: recreational
+pos:
+- adjective
+ipa:
+  us: /ˌrɛkriˈeɪʃənəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: thuộc giải trí, vui chơi
+  id: recreational-1
+examples:
+- en: The resort has several recreational facilities, including tennis courts and a pool.
+  vi: Khu nghỉ dưỡng có nhiều cơ sở giải trí, gồm sân quần vợt và hồ bơi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 614. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

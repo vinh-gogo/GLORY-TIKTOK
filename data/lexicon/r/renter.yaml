@@ -1,0 +1,26 @@
+schema_version: 3
+id: renter
+lemma: renter
+pos:
+- noun
+ipa:
+  us: /ˈrɛntɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: người thuê (nhà, xe)
+  id: renter-1
+examples:
+- en: The renter must pay a deposit before receiving the keys to the apartment.
+  vi: Người thuê phải đặt cọc trước khi nhận chìa khóa căn hộ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 785. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

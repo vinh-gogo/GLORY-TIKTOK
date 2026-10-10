@@ -1,0 +1,26 @@
+schema_version: 3
+id: agent
+lemma: agent
+pos:
+- noun
+ipa:
+  us: /ˈeɪdʒənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: đại lý, nhân viên đại diện
+  id: agent-1
+examples:
+- en: Our travel agent found us a cheap flight to Bangkok.
+  vi: Nhân viên du lịch của chúng tôi đã tìm được chuyến bay giá rẻ đến Bangkok.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 992. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

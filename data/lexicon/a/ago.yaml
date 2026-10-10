@@ -1,0 +1,26 @@
+schema_version: 3
+id: ago
+lemma: ago
+pos:
+- adverb
+ipa:
+  us: /əˈɡoʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cách đây, trước đây
+  id: ago-1
+examples:
+- en: The company was founded about twenty years ago in a small garage.
+  vi: Công ty được thành lập cách đây khoảng hai mươi năm trong một gara nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 372. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

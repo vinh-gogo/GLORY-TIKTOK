@@ -1,0 +1,26 @@
+schema_version: 3
+id: screen
+lemma: screen
+pos:
+- noun
+ipa:
+  us: /skrin/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: màn hình
+  id: screen-1
+examples:
+- en: The presentation was displayed on a large screen at the front.
+  vi: Bài thuyết trình được chiếu trên một màn hình lớn ở phía trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 957. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: dear
+lemma: dear
+pos:
+- adjective
+ipa:
+  us: /dɪr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thân mến, kính gửi
+  id: dear-1
+examples:
+- en: Dear Ms. Lee, thank you for your quick reply to my message.
+  vi: Kính gửi cô Lee, cảm ơn cô đã trả lời nhanh tin nhắn của tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1401. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

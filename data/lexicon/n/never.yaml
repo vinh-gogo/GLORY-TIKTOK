@@ -1,0 +1,26 @@
+schema_version: 3
+id: never
+lemma: never
+pos:
+- adverb
+ipa:
+  us: /ˈnɛvɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: không bao giờ
+  id: never-1
+examples:
+- en: The manager has never missed a deadline in her ten years here.
+  vi: Người quản lý chưa bao giờ trễ hạn chót nào trong mười năm làm việc ở đây.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 162. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

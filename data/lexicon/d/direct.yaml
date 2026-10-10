@@ -1,0 +1,28 @@
+schema_version: 3
+id: direct
+lemma: direct
+pos:
+- adjective
+- verb
+ipa:
+  us: /dɚˈɛkt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: trực tiếp; chỉ dẫn
+  id: direct-1
+examples:
+- en: There is a direct flight from Hanoi to Tokyo every morning.
+  vi: Có một chuyến bay thẳng từ Hà Nội đến Tokyo mỗi sáng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/dɚˈɛkt/; /daɪˈrɛkt/; /dɪˈrɛkt/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 724. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

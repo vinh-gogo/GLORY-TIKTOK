@@ -1,0 +1,26 @@
+schema_version: 3
+id: afternoon
+lemma: afternoon
+pos:
+- noun
+ipa:
+  us: /ˌæftɚˈnun/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: buổi chiều
+  id: afternoon-1
+examples:
+- en: The client meeting has been rescheduled for Thursday afternoon at two o'clock.
+  vi: Cuộc họp với khách hàng đã được dời sang chiều thứ Năm lúc hai giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 948. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: locally
+lemma: locally
+pos:
+- adverb
+ipa:
+  us: /ˈloʊkəli/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tại địa phương
+  id: locally-1
+examples:
+- en: The restaurant buys most of its vegetables locally from nearby farms.
+  vi: Nhà hàng mua phần lớn rau củ tại địa phương từ các trang trại gần đó.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 606. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

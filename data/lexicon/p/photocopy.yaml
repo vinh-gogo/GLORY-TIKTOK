@@ -1,0 +1,27 @@
+schema_version: 3
+id: photocopy
+lemma: photocopy
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈfoʊtoʊˌkɑpi/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: bản photocopy; sao chụp
+  id: photocopy-1
+examples:
+- en: Could you photocopy this contract before the meeting starts?
+  vi: Bạn có thể photocopy hợp đồng này trước khi cuộc họp bắt đầu không?
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 123. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

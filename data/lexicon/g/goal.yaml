@@ -1,0 +1,26 @@
+schema_version: 3
+id: goal
+lemma: goal
+pos:
+- noun
+ipa:
+  us: /ɡoʊl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: mục tiêu
+  id: goal-1
+examples:
+- en: Our main goal this year is to expand into two new markets.
+  vi: Mục tiêu chính của chúng tôi năm nay là mở rộng sang hai thị trường mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 856. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

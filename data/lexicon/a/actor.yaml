@@ -1,0 +1,26 @@
+schema_version: 3
+id: actor
+lemma: actor
+pos:
+- noun
+ipa:
+  us: /ˈæktɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: diễn viên
+  id: actor-1
+examples:
+- en: The famous actor will attend the opening night of the film.
+  vi: Nam diễn viên nổi tiếng sẽ tham dự đêm công chiếu của bộ phim.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1369. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

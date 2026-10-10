@@ -1,0 +1,27 @@
+schema_version: 3
+id: innovative
+lemma: innovative
+pos:
+- adjective
+ipa:
+  us: /ˈɪnəˌveɪtɪv/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: đổi mới, sáng tạo
+  id: innovative-1
+examples:
+- en: The firm is known for its innovative approach to product design.
+  vi: Công ty nổi tiếng với cách tiếp cận sáng tạo trong thiết kế sản phẩm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɪnəˌveɪtɪv/; /ˈɪnoʊˌveɪtɪv/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 172. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

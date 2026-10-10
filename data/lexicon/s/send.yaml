@@ -1,0 +1,26 @@
+schema_version: 3
+id: send
+lemma: send
+pos:
+- verb
+ipa:
+  us: /sɛnd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: gửi
+  id: send-1
+examples:
+- en: Please send the signed contract to our legal department by email.
+  vi: Vui lòng gửi hợp đồng đã ký cho phòng pháp chế của chúng tôi qua email.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 323. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

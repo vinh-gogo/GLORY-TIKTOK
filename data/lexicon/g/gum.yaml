@@ -1,0 +1,26 @@
+schema_version: 3
+id: gum
+lemma: gum
+pos:
+- noun
+ipa:
+  us: /ɡʌm/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: kẹo cao su; nướu răng
+  id: gum-1
+examples:
+- en: Please do not chew gum during the client presentation.
+  vi: Vui lòng không nhai kẹo cao su trong buổi thuyết trình với khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 824. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

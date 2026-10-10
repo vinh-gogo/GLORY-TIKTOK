@@ -1,0 +1,26 @@
+schema_version: 3
+id: cumulative
+lemma: cumulative
+pos:
+- adjective
+ipa:
+  us: /ˈkjumjələtɪv/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tích lũy, cộng dồn
+  id: cumulative-1
+examples:
+- en: The cumulative sales for the year have reached one million dollars.
+  vi: Doanh số cộng dồn của cả năm đã đạt một triệu đô la.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 341. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

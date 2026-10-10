@@ -1,0 +1,26 @@
+schema_version: 3
+id: publisher
+lemma: publisher
+pos:
+- noun
+ipa:
+  us: /ˈpʌblɪʃɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: nhà xuất bản
+  id: publisher-1
+examples:
+- en: The publisher plans to release the author's new book early next spring.
+  vi: Nhà xuất bản dự định phát hành cuốn sách mới của tác giả vào đầu mùa xuân năm sau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2476. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

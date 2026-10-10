@@ -1,0 +1,26 @@
+schema_version: 3
+id: seldom
+lemma: seldom
+pos:
+- adverb
+ipa:
+  us: /ˈsɛldəm/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: hiếm khi
+  id: seldom-1
+examples:
+- en: Our manager seldom works late on Fridays.
+  vi: Quản lý của chúng tôi hiếm khi làm việc muộn vào các ngày thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 251. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: development
+lemma: development
+pos:
+- noun
+ipa:
+  us: /dɪˈvɛləpmənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự phát triển; dự án phát triển
+  id: development-1
+examples:
+- en: The development of the new product took nearly two years.
+  vi: Việc phát triển sản phẩm mới đã mất gần hai năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 363. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

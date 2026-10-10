@@ -1,0 +1,27 @@
+schema_version: 3
+id: stay
+lemma: stay
+pos:
+- verb
+- noun
+ipa:
+  us: /steɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: ở lại; lưu trú
+  id: stay-1
+examples:
+- en: We hope you enjoy your stay at our hotel this week.
+  vi: Chúng tôi hy vọng bạn hài lòng với kỳ lưu trú tại khách sạn của chúng tôi trong tuần này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 345. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

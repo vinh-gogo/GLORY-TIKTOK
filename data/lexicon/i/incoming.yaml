@@ -1,0 +1,26 @@
+schema_version: 3
+id: incoming
+lemma: incoming
+pos:
+- adjective
+ipa:
+  us: /ˈɪnˌkʌmɪŋ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- offices
+senses:
+- meaning_vi: đến, gửi đến (cuộc gọi, thư)
+  id: incoming-1
+examples:
+- en: The receptionist answers all incoming calls and passes messages to the managers.
+  vi: Lễ tân trả lời mọi cuộc gọi đến và chuyển lời nhắn cho các quản lý.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1222. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

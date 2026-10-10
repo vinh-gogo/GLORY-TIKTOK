@@ -1,0 +1,27 @@
+schema_version: 3
+id: combine
+lemma: combine
+pos:
+- verb
+ipa:
+  us: /ˈkɑmbaɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: kết hợp
+  id: combine-1
+examples:
+- en: We can combine the two departments to save money and time.
+  vi: Chúng ta có thể hợp nhất hai phòng ban để tiết kiệm tiền và thời gian.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkɑmbaɪn/; /kəmˈbaɪn/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1244. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: class
+lemma: class
+pos:
+- noun
+ipa:
+  us: /klæs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: lớp học; hạng
+  id: class-1
+examples:
+- en: Our evening cooking class is open to beginners and experienced cooks.
+  vi: Lớp nấu ăn buổi tối của chúng tôi mở cho cả người mới bắt đầu và người có kinh nghiệm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 362. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

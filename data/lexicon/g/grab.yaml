@@ -1,0 +1,26 @@
+schema_version: 3
+id: grab
+lemma: grab
+pos:
+- verb
+ipa:
+  us: /ɡræb/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: chộp lấy, nắm nhanh
+  id: grab-1
+examples:
+- en: I will grab a sandwich on my way to the meeting.
+  vi: Tôi sẽ mua nhanh một chiếc bánh sandwich trên đường đến cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2303. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

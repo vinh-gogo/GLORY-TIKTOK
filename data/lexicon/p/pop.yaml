@@ -1,0 +1,28 @@
+schema_version: 3
+id: pop
+lemma: pop
+pos:
+- verb
+- noun
+ipa:
+  us: /pɑp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: nổ bốp; nhạc pop
+  id: pop-1
+examples:
+- en: She likes to listen to pop music while she works.
+  vi: Cô ấy thích nghe nhạc pop trong lúc làm việc.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa khác nhau (động từ nổ bốp, danh từ nhạc pop, bố/ba); cần xác nhận
+    nghĩa chính — Mục từ NGSL hạng 1289. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng
+    âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví
+    dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

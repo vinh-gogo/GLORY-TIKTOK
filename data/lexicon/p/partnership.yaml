@@ -1,0 +1,26 @@
+schema_version: 3
+id: partnership
+lemma: partnership
+pos:
+- noun
+ipa:
+  us: /ˈpɑrtnɚˌʃɪp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: quan hệ đối tác, sự hợp tác
+  id: partnership-1
+examples:
+- en: The two firms formed a partnership to develop a new mobile application.
+  vi: Hai công ty đã thiết lập quan hệ đối tác để phát triển một ứng dụng di động mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2527. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

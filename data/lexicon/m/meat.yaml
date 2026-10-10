@@ -1,0 +1,26 @@
+schema_version: 3
+id: meat
+lemma: meat
+pos:
+- noun
+ipa:
+  us: /mit/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: thịt
+  id: meat-1
+examples:
+- en: The restaurant buys its meat from a local farm every week.
+  vi: Nhà hàng mua thịt từ một trang trại địa phương mỗi tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1869. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

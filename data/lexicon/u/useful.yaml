@@ -1,0 +1,26 @@
+schema_version: 3
+id: useful
+lemma: useful
+pos:
+- adjective
+ipa:
+  us: /ˈjusfəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: hữu ích
+  id: useful-1
+examples:
+- en: The training session gave us useful tips for managing our time better.
+  vi: Buổi tập huấn cho chúng tôi những mẹo hữu ích để quản lý thời gian tốt hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 918. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

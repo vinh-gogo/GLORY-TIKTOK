@@ -1,0 +1,26 @@
+schema_version: 3
+id: mister
+lemma: mister
+pos:
+- noun
+ipa:
+  us: /ˈmɪstɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: ông, ngài (danh xưng lịch sự cho nam giới)
+  id: mister-1
+examples:
+- en: Mister Lee will meet our visitors in the lobby this morning.
+  vi: Ông Lee sẽ gặp các vị khách của chúng ta ở sảnh sáng nay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.
+  checked_at: '2026-10-11'

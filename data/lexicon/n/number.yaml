@@ -1,0 +1,26 @@
+schema_version: 3
+id: number
+lemma: number
+pos:
+- noun
+ipa:
+  us: /ˈnʌmbɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: số, con số
+  id: number-1
+examples:
+- en: Please write your phone number clearly on the registration form.
+  vi: Vui lòng ghi rõ số điện thoại của bạn trên mẫu đăng ký.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 127. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

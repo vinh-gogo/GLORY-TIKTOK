@@ -1,0 +1,27 @@
+schema_version: 3
+id: tailor
+lemma: tailor
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈteɪlɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: thợ may; điều chỉnh cho phù hợp
+  id: tailor-1
+examples:
+- en: The tailor shortened my trousers and finished the work in two days.
+  vi: Thợ may đã lên gấu quần của tôi và hoàn thành trong hai ngày.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 948. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

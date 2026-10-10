@@ -1,0 +1,26 @@
+schema_version: 3
+id: vendor
+lemma: vendor
+pos:
+- noun
+ipa:
+  us: /ˈvɛndɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: nhà cung cấp, người bán hàng
+  id: vendor-1
+examples:
+- en: We signed a new contract with a vendor who supplies our office furniture.
+  vi: Chúng tôi đã ký hợp đồng mới với một nhà cung cấp đồ nội thất văn phòng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 454. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: pitch
+lemma: pitch
+pos:
+- noun
+- verb
+ipa:
+  us: /pɪtʃ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: bài chào hàng; chào bán
+  id: pitch-1
+examples:
+- en: Her sales pitch convinced the client to sign a two-year contract.
+  vi: Bài chào hàng của cô ấy đã thuyết phục khách hàng ký hợp đồng hai năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2057. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

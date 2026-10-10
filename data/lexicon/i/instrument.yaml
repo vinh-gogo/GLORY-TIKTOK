@@ -1,0 +1,26 @@
+schema_version: 3
+id: instrument
+lemma: instrument
+pos:
+- noun
+ipa:
+  us: /ˈɪnstrəmənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: dụng cụ; nhạc cụ
+  id: instrument-1
+examples:
+- en: The lab bought a new instrument for measuring air quality.
+  vi: Phòng thí nghiệm đã mua một dụng cụ mới để đo chất lượng không khí.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1596. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: earth
+lemma: earth
+pos:
+- noun
+ipa:
+  us: /ɝθ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: Trái Đất; đất
+  id: earth-1
+examples:
+- en: Many companies now try to protect the earth by using less plastic.
+  vi: Nhiều công ty hiện nay cố gắng bảo vệ Trái Đất bằng cách dùng ít nhựa hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1288. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

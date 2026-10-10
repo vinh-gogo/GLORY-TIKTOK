@@ -1,0 +1,26 @@
+schema_version: 3
+id: fly
+lemma: fly
+pos:
+- verb
+ipa:
+  us: /flaɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: bay, đi máy bay
+  id: fly-1
+examples:
+- en: I usually fly to Seoul twice a year to visit our partners.
+  vi: Tôi thường bay đến Seoul hai lần mỗi năm để thăm các đối tác của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 881. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

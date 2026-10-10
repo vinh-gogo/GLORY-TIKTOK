@@ -1,0 +1,26 @@
+schema_version: 3
+id: skateboard
+lemma: skateboard
+pos:
+- noun
+ipa:
+  us: /ˈskeɪtˌbɔrd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: ván trượt
+  id: skateboard-1
+examples:
+- en: The boy rode his skateboard down the path to the park.
+  vi: Cậu bé trượt ván xuống con đường dẫn đến công viên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 946. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: comfortable
+lemma: comfortable
+pos:
+- adjective
+ipa:
+  us: /ˈkʌmfɚtəbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: thoải mái, dễ chịu
+  id: comfortable-1
+examples:
+- en: The seats on this train are very comfortable for long trips.
+  vi: Ghế trên chuyến tàu này rất thoải mái cho những chuyến đi dài.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1384. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

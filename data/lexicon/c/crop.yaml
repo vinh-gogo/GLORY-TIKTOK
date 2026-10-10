@@ -1,0 +1,26 @@
+schema_version: 3
+id: crop
+lemma: crop
+pos:
+- noun
+ipa:
+  us: /krɑp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: vụ mùa, cây trồng
+  id: crop-1
+examples:
+- en: Bad weather reduced this year's wheat crop in several regions.
+  vi: Thời tiết xấu làm giảm vụ lúa mì năm nay ở nhiều vùng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1986. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

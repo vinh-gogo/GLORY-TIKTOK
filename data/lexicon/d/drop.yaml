@@ -1,0 +1,28 @@
+schema_version: 3
+id: drop
+lemma: drop
+pos:
+- verb
+- noun
+ipa:
+  us: /drɑp/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: giảm; đánh rơi; sự sụt giảm
+  id: drop-1
+examples:
+- en: Sales began to drop after the competitor lowered its prices.
+  vi: Doanh số bắt đầu giảm sau khi đối thủ hạ giá.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/drɑp/; /drɔp/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 640. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

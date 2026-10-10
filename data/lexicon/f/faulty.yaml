@@ -1,0 +1,26 @@
+schema_version: 3
+id: faulty
+lemma: faulty
+pos:
+- adjective
+ipa:
+  us: /ˈfɔlti/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: bị lỗi, hỏng
+  id: faulty-1
+examples:
+- en: Customers can return any faulty product within thirty days of purchase.
+  vi: Khách hàng có thể trả lại mọi sản phẩm bị lỗi trong vòng ba mươi ngày sau khi mua.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 497. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

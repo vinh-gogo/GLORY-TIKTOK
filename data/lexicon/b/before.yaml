@@ -1,0 +1,28 @@
+schema_version: 3
+id: before
+lemma: before
+pos:
+- preposition
+- conjunction
+ipa:
+  us: /bɪˈfɔr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trước, trước khi
+  id: before-1
+examples:
+- en: Please turn off all the lights before you leave the office.
+  vi: Vui lòng tắt hết đèn trước khi bạn rời văn phòng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/bɪˈfɔr/; /ˌbiˈfɔr/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 106. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

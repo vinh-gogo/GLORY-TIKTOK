@@ -1,0 +1,27 @@
+schema_version: 3
+id: review
+lemma: review
+pos:
+- noun
+- verb
+ipa:
+  us: /ˌriˈvju/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: xem xét; bài đánh giá
+  id: review-1
+examples:
+- en: The manager will review your proposal and reply by Friday.
+  vi: Người quản lý sẽ xem xét đề xuất của bạn và trả lời trước thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 730. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

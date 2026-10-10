@@ -1,0 +1,26 @@
+schema_version: 3
+id: mental
+lemma: mental
+pos:
+- adjective
+ipa:
+  us: /ˈmɛntəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: thuộc về tinh thần, trí óc
+  id: mental-1
+examples:
+- en: Regular breaks can improve your mental health and productivity at work.
+  vi: Nghỉ giải lao thường xuyên có thể cải thiện sức khỏe tinh thần và năng suất làm việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1649. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

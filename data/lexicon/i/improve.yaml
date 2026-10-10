@@ -1,0 +1,26 @@
+schema_version: 3
+id: improve
+lemma: improve
+pos:
+- verb
+ipa:
+  us: /ˌɪmˈpruv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: cải thiện, nâng cao
+  id: improve-1
+examples:
+- en: The new training program should improve customer service across all branches.
+  vi: Chương trình đào tạo mới sẽ cải thiện dịch vụ khách hàng ở tất cả chi nhánh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 508. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: birthday
+lemma: birthday
+pos:
+- noun
+ipa:
+  us: /ˈbɝθˌdeɪ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: sinh nhật
+  id: birthday-1
+examples:
+- en: The team bought a cake for her birthday celebration.
+  vi: Cả nhóm đã mua một chiếc bánh cho buổi mừng sinh nhật của cô ấy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 104. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

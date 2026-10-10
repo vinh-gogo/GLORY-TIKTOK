@@ -1,0 +1,28 @@
+schema_version: 3
+id: finance
+lemma: finance
+pos:
+- noun
+- verb
+ipa:
+  us: /fəˈnæns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tài chính; cấp vốn
+  id: finance-1
+examples:
+- en: She works in the finance department of a large bank.
+  vi: Cô ấy làm việc ở phòng tài chính của một ngân hàng lớn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/fəˈnæns/; /fɪˈnæns/; /ˈfaɪˌnæns/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1379. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

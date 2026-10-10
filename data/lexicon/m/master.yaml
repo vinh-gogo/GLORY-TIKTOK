@@ -1,0 +1,27 @@
+schema_version: 3
+id: master
+lemma: master
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈmæstɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: bậc thầy; thạo, nắm vững
+  id: master-1
+examples:
+- en: It takes months to master all the features of this software.
+  vi: Cần vài tháng để nắm vững tất cả các tính năng của phần mềm này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1556. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

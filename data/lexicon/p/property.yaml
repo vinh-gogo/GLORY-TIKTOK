@@ -1,0 +1,26 @@
+schema_version: 3
+id: property
+lemma: property
+pos:
+- noun
+ipa:
+  us: /ˈprɑpɚti/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- housing-property
+senses:
+- meaning_vi: tài sản, bất động sản
+  id: property-1
+examples:
+- en: The company bought a large property near the airport for its warehouse.
+  vi: Công ty đã mua một bất động sản lớn gần sân bay để làm nhà kho.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 921. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

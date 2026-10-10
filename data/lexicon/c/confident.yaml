@@ -1,0 +1,26 @@
+schema_version: 3
+id: confident
+lemma: confident
+pos:
+- adjective
+ipa:
+  us: /ˈkɑnfədənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tự tin; tin tưởng
+  id: confident-1
+examples:
+- en: We are confident that the project will finish on time.
+  vi: Chúng tôi tin rằng dự án sẽ hoàn thành đúng hạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2218. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

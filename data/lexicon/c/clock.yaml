@@ -1,0 +1,26 @@
+schema_version: 3
+id: clock
+lemma: clock
+pos:
+- noun
+ipa:
+  us: /klɑk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: đồng hồ treo tường
+  id: clock-1
+examples:
+- en: The clock in the lobby is five minutes behind the correct time.
+  vi: Chiếc đồng hồ ở sảnh chậm năm phút so với giờ chính xác.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 932. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

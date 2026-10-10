@@ -1,0 +1,26 @@
+schema_version: 3
+id: premise
+lemma: premise
+pos:
+- noun
+ipa:
+  us: /ˈprɛmɪs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: tiền đề; (số nhiều) khuôn viên, cơ sở
+  id: premise-1
+examples:
+- en: Smoking is not allowed anywhere on the company premises.
+  vi: Không được hút thuốc ở bất cứ đâu trong khuôn viên công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1973. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

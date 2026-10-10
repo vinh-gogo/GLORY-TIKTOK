@@ -1,0 +1,26 @@
+schema_version: 3
+id: sentence
+lemma: sentence
+pos:
+- noun
+ipa:
+  us: /ˈsɛntəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: câu (trong văn bản)
+  id: sentence-1
+examples:
+- en: Please read the first sentence of the instructions again carefully.
+  vi: Vui lòng đọc lại cẩn thận câu đầu tiên của phần hướng dẫn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1099. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

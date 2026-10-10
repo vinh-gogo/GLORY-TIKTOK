@@ -1,0 +1,26 @@
+schema_version: 3
+id: sale
+lemma: sale
+pos:
+- noun
+ipa:
+  us: /seɪl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: việc bán hàng; đợt giảm giá
+  id: sale-1
+examples:
+- en: The store is having a big sale on winter clothing this weekend.
+  vi: Cửa hàng đang có đợt giảm giá lớn cho quần áo mùa đông vào cuối tuần này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 398. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

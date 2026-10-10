@@ -1,0 +1,27 @@
+schema_version: 3
+id: enable
+lemma: enable
+pos:
+- verb
+ipa:
+  us: /ɛˈneɪbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: cho phép, giúp có thể
+  id: enable-1
+examples:
+- en: The new software enables employees to work from home securely.
+  vi: Phần mềm mới cho phép nhân viên làm việc tại nhà một cách an toàn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛˈneɪbəl/; /ɪˈneɪbəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1352. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

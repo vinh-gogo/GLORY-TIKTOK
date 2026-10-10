@@ -1,0 +1,26 @@
+schema_version: 3
+id: choice
+lemma: choice
+pos:
+- noun
+ipa:
+  us: /tʃɔɪs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: sự lựa chọn
+  id: choice-1
+examples:
+- en: Customers have a choice of three colors for this jacket.
+  vi: Khách hàng có ba màu để lựa chọn cho chiếc áo khoác này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 565. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: boost
+lemma: boost
+pos:
+- verb
+- noun
+ipa:
+  us: /bust/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: thúc đẩy, tăng cường
+  id: boost-1
+examples:
+- en: The new advertising campaign helped boost sales during the holiday season.
+  vi: Chiến dịch quảng cáo mới đã giúp thúc đẩy doanh số trong mùa lễ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2539. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: per
+lemma: per
+pos:
+- preposition
+ipa:
+  us: /pɝ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: mỗi, trên mỗi
+  id: per-1
+examples:
+- en: The hotel charges ninety dollars per night for a double room.
+  vi: Khách sạn tính chín mươi đô la mỗi đêm cho một phòng đôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 373. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

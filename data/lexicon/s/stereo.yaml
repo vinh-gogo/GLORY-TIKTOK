@@ -1,0 +1,26 @@
+schema_version: 3
+id: stereo
+lemma: stereo
+pos:
+- noun
+ipa:
+  us: /ˈstɛriˌoʊ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: dàn âm thanh nổi
+  id: stereo-1
+examples:
+- en: He turned down the stereo so the neighbors could sleep.
+  vi: Anh ấy vặn nhỏ dàn âm thanh để hàng xóm có thể ngủ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1085. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

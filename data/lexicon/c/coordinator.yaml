@@ -1,0 +1,26 @@
+schema_version: 3
+id: coordinator
+lemma: coordinator
+pos:
+- noun
+ipa:
+  us: /koʊˈɔrdəˌneɪtɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: điều phối viên, người phối hợp
+  id: coordinator-1
+examples:
+- en: The event coordinator booked the hall and arranged catering for two hundred guests.
+  vi: Điều phối viên sự kiện đã đặt hội trường và sắp xếp suất ăn cho hai trăm khách.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 460. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

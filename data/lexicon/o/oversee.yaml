@@ -1,0 +1,26 @@
+schema_version: 3
+id: oversee
+lemma: oversee
+pos:
+- verb
+ipa:
+  us: /ˈoʊvɚˌsi/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: giám sát, trông coi
+  id: oversee-1
+examples:
+- en: She will oversee the construction of the new office building.
+  vi: Cô ấy sẽ giám sát việc xây dựng tòa nhà văn phòng mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 929. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

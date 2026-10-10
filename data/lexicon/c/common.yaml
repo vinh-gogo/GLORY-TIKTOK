@@ -1,0 +1,26 @@
+schema_version: 3
+id: common
+lemma: common
+pos:
+- adjective
+ipa:
+  us: /ˈkɑmən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: phổ biến, thông thường
+  id: common-1
+examples:
+- en: It is common for employees to work from home on Fridays.
+  vi: Nhân viên làm việc tại nhà vào thứ Sáu là điều phổ biến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 567. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

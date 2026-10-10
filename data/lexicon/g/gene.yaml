@@ -1,0 +1,26 @@
+schema_version: 3
+id: gene
+lemma: gene
+pos:
+- noun
+ipa:
+  us: /dʒin/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: gen
+  id: gene-1
+examples:
+- en: Scientists at the lab are studying a gene linked to the disease.
+  vi: Các nhà khoa học trong phòng thí nghiệm đang nghiên cứu một gen liên quan đến căn bệnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1948. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

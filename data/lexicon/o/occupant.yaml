@@ -1,0 +1,26 @@
+schema_version: 3
+id: occupant
+lemma: occupant
+pos:
+- noun
+ipa:
+  us: /ˈɑkjəpənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: người ở, người sử dụng (nhà, phòng)
+  id: occupant-1
+examples:
+- en: The occupant of the apartment must sign the new rental agreement.
+  vi: Người đang ở căn hộ phải ký hợp đồng thuê mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 927. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

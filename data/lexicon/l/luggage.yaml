@@ -1,0 +1,27 @@
+schema_version: 3
+id: luggage
+lemma: luggage
+pos:
+- noun
+ipa:
+  us: /ˈlʌɡədʒ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: hành lý
+  id: luggage-1
+examples:
+- en: Please keep your luggage with you at all times in the station.
+  vi: Vui lòng luôn mang theo hành lý bên mình khi ở trong nhà ga.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈlʌɡədʒ/; /ˈlʌɡɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 37. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

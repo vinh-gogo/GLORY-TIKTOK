@@ -1,0 +1,26 @@
+schema_version: 3
+id: beneath
+lemma: beneath
+pos:
+- preposition
+ipa:
+  us: /bɪˈniθ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bên dưới
+  id: beneath-1
+examples:
+- en: The cable runs beneath the floor from the server room.
+  vi: Dây cáp chạy bên dưới sàn từ phòng máy chủ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2394. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

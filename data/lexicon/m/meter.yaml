@@ -1,0 +1,26 @@
+schema_version: 3
+id: meter
+lemma: meter
+pos:
+- noun
+ipa:
+  us: /ˈmitɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: mét; đồng hồ đo
+  id: meter-1
+examples:
+- en: The electric meter is located behind the building.
+  vi: Đồng hồ điện được đặt ở phía sau tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2112. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

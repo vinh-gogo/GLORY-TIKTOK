@@ -1,0 +1,26 @@
+schema_version: 3
+id: card
+lemma: card
+pos:
+- noun
+ipa:
+  us: /kɑrd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: thẻ; tấm thiệp
+  id: card-1
+examples:
+- en: You can pay by credit card at any of our stores.
+  vi: Bạn có thể thanh toán bằng thẻ tín dụng tại bất kỳ cửa hàng nào của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 781. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

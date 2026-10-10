@@ -1,0 +1,28 @@
+schema_version: 3
+id: increase
+lemma: increase
+pos:
+- verb
+- noun
+ipa:
+  us: /ˌɪnˈkris/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tăng; sự gia tăng
+  id: increase-1
+examples:
+- en: The company expects a sharp increase in sales during the holiday season.
+  vi: Công ty kỳ vọng doanh số tăng mạnh trong mùa lễ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɪnˈkris/; /ˈɪnˌkris/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 230. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

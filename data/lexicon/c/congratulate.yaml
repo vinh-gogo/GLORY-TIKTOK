@@ -1,0 +1,26 @@
+schema_version: 3
+id: congratulate
+lemma: congratulate
+pos:
+- verb
+ipa:
+  us: /kənˈɡrætʃəˌleɪt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: chúc mừng
+  id: congratulate-1
+examples:
+- en: The director called to congratulate the team on winning the national award.
+  vi: Giám đốc gọi điện chúc mừng cả nhóm đã giành giải thưởng quốc gia.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 481. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

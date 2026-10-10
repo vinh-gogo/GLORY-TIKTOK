@@ -1,0 +1,26 @@
+schema_version: 3
+id: pizza
+lemma: pizza
+pos:
+- noun
+ipa:
+  us: /ˈpitsə/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: bánh pizza
+  id: pizza-1
+examples:
+- en: We ordered a large pizza for the team during the late meeting.
+  vi: Chúng tôi đã gọi một chiếc pizza lớn cho cả nhóm trong buổi họp muộn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 472. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: partial
+lemma: partial
+pos:
+- adjective
+ipa:
+  us: /ˈpɑrʃəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: một phần, không toàn bộ
+  id: partial-1
+examples:
+- en: We received only a partial payment, so the balance is still due.
+  vi: Chúng tôi chỉ nhận được một phần khoản thanh toán nên số dư vẫn còn phải trả.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1067. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

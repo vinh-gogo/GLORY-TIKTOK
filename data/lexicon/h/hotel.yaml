@@ -1,0 +1,26 @@
+schema_version: 3
+id: hotel
+lemma: hotel
+pos:
+- noun
+ipa:
+  us: /hoʊˈtɛl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: khách sạn
+  id: hotel-1
+examples:
+- en: We booked a hotel near the conference center for three nights.
+  vi: Chúng tôi đã đặt một khách sạn gần trung tâm hội nghị trong ba đêm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 759. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

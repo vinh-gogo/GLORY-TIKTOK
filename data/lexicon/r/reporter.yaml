@@ -1,0 +1,26 @@
+schema_version: 3
+id: reporter
+lemma: reporter
+pos:
+- noun
+ipa:
+  us: /rɪˈpɔrtɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: phóng viên
+  id: reporter-1
+examples:
+- en: A reporter from the local paper interviewed our chief executive.
+  vi: Một phóng viên của tờ báo địa phương đã phỏng vấn giám đốc điều hành của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1905. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

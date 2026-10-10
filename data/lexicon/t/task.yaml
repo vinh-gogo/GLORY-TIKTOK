@@ -1,0 +1,26 @@
+schema_version: 3
+id: task
+lemma: task
+pos:
+- noun
+ipa:
+  us: /tæsk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: nhiệm vụ, công việc
+  id: task-1
+examples:
+- en: Each team member received a clear task at the start of the project.
+  vi: Mỗi thành viên trong nhóm nhận được một nhiệm vụ rõ ràng khi dự án bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 854. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

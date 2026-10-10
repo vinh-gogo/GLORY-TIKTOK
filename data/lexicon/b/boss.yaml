@@ -1,0 +1,27 @@
+schema_version: 3
+id: boss
+lemma: boss
+pos:
+- noun
+ipa:
+  us: /bɑs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: sếp, ông chủ
+  id: boss-1
+examples:
+- en: My boss asked me to prepare the monthly report by noon.
+  vi: Sếp của tôi yêu cầu tôi chuẩn bị báo cáo hàng tháng trước buổi trưa.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/bɑs/; /bɔs/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1854. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

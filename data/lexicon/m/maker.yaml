@@ -1,0 +1,26 @@
+schema_version: 3
+id: maker
+lemma: maker
+pos:
+- noun
+ipa:
+  us: /ˈmeɪkɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: nhà sản xuất, người làm ra
+  id: maker-1
+examples:
+- en: The car maker plans to build a new factory in the south.
+  vi: Hãng sản xuất ô tô dự định xây một nhà máy mới ở miền nam.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2619. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

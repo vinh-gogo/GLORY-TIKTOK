@@ -1,0 +1,27 @@
+schema_version: 3
+id: pause
+lemma: pause
+pos:
+- noun
+- verb
+ipa:
+  us: /pɔz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tạm dừng; sự dừng lại
+  id: pause-1
+examples:
+- en: The speaker made a short pause before answering the question.
+  vi: Diễn giả dừng lại một chút trước khi trả lời câu hỏi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 649. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

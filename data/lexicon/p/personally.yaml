@@ -1,0 +1,27 @@
+schema_version: 3
+id: personally
+lemma: personally
+pos:
+- adverb
+ipa:
+  us: /ˈpɝsənəli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đích thân, cá nhân tôi
+  id: personally-1
+examples:
+- en: The director personally thanked every employee for their hard work.
+  vi: Giám đốc đích thân cảm ơn từng nhân viên vì sự chăm chỉ của họ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈpɝsənəli/; /ˈpɝsənli/; /ˈpɝsnəli/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1899. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

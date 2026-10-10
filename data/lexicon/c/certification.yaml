@@ -1,0 +1,26 @@
+schema_version: 3
+id: certification
+lemma: certification
+pos:
+- noun
+ipa:
+  us: /ˌsɝtəfəˈkeɪʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: chứng chỉ, sự chứng nhận
+  id: certification-1
+examples:
+- en: All technicians need a safety certification before operating the new machines.
+  vi: Tất cả kỹ thuật viên cần có chứng chỉ an toàn trước khi vận hành máy mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 542. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: employee
+lemma: employee
+pos:
+- noun
+ipa:
+  us: /ɛmˈplɔɪi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: nhân viên
+  id: employee-1
+examples:
+- en: Each new employee receives a copy of the company handbook.
+  vi: Mỗi nhân viên mới nhận một bản cẩm nang của công ty.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛmˈplɔɪi/; /ɪmˈplɔɪi/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 624. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

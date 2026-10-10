@@ -1,0 +1,26 @@
+schema_version: 3
+id: fill
+lemma: fill
+pos:
+- verb
+ipa:
+  us: /fɪl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: điền, làm đầy
+  id: fill-1
+examples:
+- en: Please fill out the attached form and return it to the front desk.
+  vi: Vui lòng điền vào mẫu đính kèm và nộp lại cho quầy lễ tân.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 845. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

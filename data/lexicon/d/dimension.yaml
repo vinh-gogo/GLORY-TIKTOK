@@ -1,0 +1,26 @@
+schema_version: 3
+id: dimension
+lemma: dimension
+pos:
+- noun
+ipa:
+  us: /dɪˈmɛnʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: kích thước; khía cạnh
+  id: dimension-1
+examples:
+- en: Please check the dimensions of the box before ordering the shelves.
+  vi: Vui lòng kiểm tra kích thước của chiếc hộp trước khi đặt mua kệ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2250. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

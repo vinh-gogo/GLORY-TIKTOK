@@ -1,0 +1,26 @@
+schema_version: 3
+id: anticipate
+lemma: anticipate
+pos:
+- verb
+ipa:
+  us: /ænˈtɪsəˌpeɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: dự đoán, lường trước
+  id: anticipate-1
+examples:
+- en: We anticipate a large increase in orders during the holiday season.
+  vi: Chúng tôi dự đoán đơn hàng sẽ tăng mạnh trong mùa lễ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2335. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

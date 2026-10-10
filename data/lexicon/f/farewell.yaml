@@ -1,0 +1,26 @@
+schema_version: 3
+id: farewell
+lemma: farewell
+pos:
+- noun
+ipa:
+  us: /ˌfɛrˈwɛl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- offices
+senses:
+- meaning_vi: lời chia tay, buổi tiễn biệt
+  id: farewell-1
+examples:
+- en: We held a farewell party for our manager on her last day.
+  vi: Chúng tôi tổ chức tiệc chia tay quản lý vào ngày làm việc cuối cùng của cô ấy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 978. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: patience
+lemma: patience
+pos:
+- noun
+ipa:
+  us: /ˈpeɪʃəns/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự kiên nhẫn
+  id: patience-1
+examples:
+- en: Thank you for your patience while we repair the system.
+  vi: Cảm ơn sự kiên nhẫn của quý vị trong lúc chúng tôi sửa hệ thống.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 447. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

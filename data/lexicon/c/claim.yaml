@@ -1,0 +1,27 @@
+schema_version: 3
+id: claim
+lemma: claim
+pos:
+- noun
+- verb
+ipa:
+  us: /kleɪm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: yêu cầu bồi thường; tuyên bố
+  id: claim-1
+examples:
+- en: You can file an insurance claim online within thirty days of the accident.
+  vi: Bạn có thể nộp yêu cầu bồi thường bảo hiểm trực tuyến trong vòng ba mươi ngày sau tai nạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 501. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

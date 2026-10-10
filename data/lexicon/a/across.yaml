@@ -1,0 +1,26 @@
+schema_version: 3
+id: across
+lemma: across
+pos:
+- preposition
+ipa:
+  us: /əˈkrɔs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: qua, băng qua; khắp
+  id: across-1
+examples:
+- en: The bank has branches across the country and in several cities abroad.
+  vi: Ngân hàng có chi nhánh trên khắp cả nước và ở một số thành phố nước ngoài.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 383. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

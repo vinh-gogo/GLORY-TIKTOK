@@ -1,0 +1,26 @@
+schema_version: 3
+id: wealthy
+lemma: wealthy
+pos:
+- adjective
+ipa:
+  us: /ˈwɛlθi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: giàu có
+  id: wealthy-1
+examples:
+- en: Wealthy customers often prefer personal service from the bank.
+  vi: Khách hàng giàu có thường thích dịch vụ cá nhân từ ngân hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2426. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

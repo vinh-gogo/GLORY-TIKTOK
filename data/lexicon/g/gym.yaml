@@ -1,0 +1,26 @@
+schema_version: 3
+id: gym
+lemma: gym
+pos:
+- noun
+ipa:
+  us: /dʒɪm/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: phòng tập thể dục
+  id: gym-1
+examples:
+- en: The company offers employees a free membership at the local gym.
+  vi: Công ty tặng nhân viên thẻ hội viên miễn phí tại phòng tập địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 160. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: style
+lemma: style
+pos:
+- noun
+ipa:
+  us: /staɪl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: phong cách, kiểu dáng
+  id: style-1
+examples:
+- en: The designer introduced a modern style that appeals to younger shoppers.
+  vi: Nhà thiết kế giới thiệu một phong cách hiện đại thu hút những người mua sắm trẻ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 865. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

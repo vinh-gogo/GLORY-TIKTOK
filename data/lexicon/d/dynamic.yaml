@@ -1,0 +1,26 @@
+schema_version: 3
+id: dynamic
+lemma: dynamic
+pos:
+- adjective
+ipa:
+  us: /daɪˈnæmɪk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: năng động, đầy sức sống
+  id: dynamic-1
+examples:
+- en: The company is looking for a dynamic manager to lead the new sales team.
+  vi: Công ty đang tìm một quản lý năng động để dẫn dắt đội bán hàng mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 862. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

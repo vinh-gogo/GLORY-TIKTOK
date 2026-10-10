@@ -1,0 +1,26 @@
+schema_version: 3
+id: radio
+lemma: radio
+pos:
+- noun
+ipa:
+  us: /ˈreɪdiˌoʊ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: đài phát thanh, radio
+  id: radio-1
+examples:
+- en: The company advertises its new products on the local radio every week.
+  vi: Công ty quảng cáo sản phẩm mới trên đài phát thanh địa phương mỗi tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1045. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

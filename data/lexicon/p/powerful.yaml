@@ -1,0 +1,26 @@
+schema_version: 3
+id: powerful
+lemma: powerful
+pos:
+- adjective
+ipa:
+  us: /ˈpaʊɚfəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: mạnh mẽ, có sức mạnh
+  id: powerful-1
+examples:
+- en: This laptop has a powerful processor that runs large programs easily.
+  vi: Máy tính xách tay này có bộ xử lý mạnh chạy các chương trình lớn dễ dàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1300. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: comprehension
+lemma: comprehension
+pos:
+- noun
+ipa:
+  us: /ˌkɑmpriˈhɛnʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự hiểu, khả năng hiểu
+  id: comprehension-1
+examples:
+- en: The test measures reading comprehension and vocabulary knowledge.
+  vi: Bài kiểm tra đo khả năng đọc hiểu và vốn từ vựng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 106. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

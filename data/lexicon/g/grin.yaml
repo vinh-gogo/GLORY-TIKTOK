@@ -1,0 +1,27 @@
+schema_version: 3
+id: grin
+lemma: grin
+pos:
+- noun
+- verb
+ipa:
+  us: /ɡrɪn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: nụ cười toe toét
+  id: grin-1
+examples:
+- en: He walked out of the interview with a big grin on his face.
+  vi: Anh ấy bước ra khỏi buổi phỏng vấn với nụ cười toe toét trên mặt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2797. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

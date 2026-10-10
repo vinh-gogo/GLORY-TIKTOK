@@ -1,0 +1,26 @@
+schema_version: 3
+id: frequency
+lemma: frequency
+pos:
+- noun
+ipa:
+  us: /ˈfrikwənsi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tần suất; tần số
+  id: frequency-1
+examples:
+- en: We are increasing the frequency of bus services during rush hour.
+  vi: Chúng tôi đang tăng tần suất các chuyến xe buýt vào giờ cao điểm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2295. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: specification
+lemma: specification
+pos:
+- noun
+ipa:
+  us: /ˌspɛsɪfɪˈkeɪʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: thông số kỹ thuật, yêu cầu chi tiết
+  id: specification-1
+examples:
+- en: The product must meet every specification listed in the contract.
+  vi: Sản phẩm phải đáp ứng mọi thông số kỹ thuật được nêu trong hợp đồng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 360. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: leader
+lemma: leader
+pos:
+- noun
+ipa:
+  us: /ˈlidɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: người lãnh đạo, trưởng nhóm
+  id: leader-1
+examples:
+- en: The team leader assigned tasks to each member after the meeting.
+  vi: Trưởng nhóm đã giao việc cho từng thành viên sau cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 596. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: interior
+lemma: interior
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˌɪnˈtɪriɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: nội thất, bên trong
+  id: interior-1
+examples:
+- en: The interior of the new office is bright and very modern.
+  vi: Nội thất của văn phòng mới sáng sủa và rất hiện đại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2636. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

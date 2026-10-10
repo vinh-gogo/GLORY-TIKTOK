@@ -1,0 +1,26 @@
+schema_version: 3
+id: department
+lemma: department
+pos:
+- noun
+ipa:
+  us: /dɪˈpɑrtmənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: phòng, ban, bộ phận
+  id: department-1
+examples:
+- en: The accounting department is located on the third floor of the building.
+  vi: Phòng kế toán nằm ở tầng ba của tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 736. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

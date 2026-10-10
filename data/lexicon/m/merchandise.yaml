@@ -1,0 +1,26 @@
+schema_version: 3
+id: merchandise
+lemma: merchandise
+pos:
+- noun
+ipa:
+  us: /ˈmɝtʃənˌdaɪz/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: hàng hóa (để bán)
+  id: merchandise-1
+examples:
+- en: All merchandise in the store is twenty percent off this weekend.
+  vi: Tất cả hàng hóa trong cửa hàng được giảm hai mươi phần trăm vào cuối tuần này.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 71. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

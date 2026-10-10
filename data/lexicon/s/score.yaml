@@ -1,0 +1,26 @@
+schema_version: 3
+id: score
+lemma: score
+pos:
+- noun
+ipa:
+  us: /skɔr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: điểm số
+  id: score-1
+examples:
+- en: Applicants with a high test score will be invited for an interview.
+  vi: Ứng viên có điểm kiểm tra cao sẽ được mời phỏng vấn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 823. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: mainly
+lemma: mainly
+pos:
+- adverb
+ipa:
+  us: /ˈmeɪnli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: chủ yếu
+  id: mainly-1
+examples:
+- en: The shop mainly sells handmade goods made by local artists.
+  vi: Cửa hàng chủ yếu bán đồ thủ công do các nghệ sĩ địa phương làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1438. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: engage
+lemma: engage
+pos:
+- verb
+ipa:
+  us: /ɛnˈɡeɪdʒ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thu hút sự tham gia; tham gia
+  id: engage-1
+examples:
+- en: The speaker tried to engage the audience with a few simple questions.
+  vi: Diễn giả cố thu hút khán giả tham gia bằng vài câu hỏi đơn giản.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1299. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

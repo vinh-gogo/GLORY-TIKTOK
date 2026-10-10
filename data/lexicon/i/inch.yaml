@@ -1,0 +1,26 @@
+schema_version: 3
+id: inch
+lemma: inch
+pos:
+- noun
+ipa:
+  us: /ɪntʃ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: inch (đơn vị đo, khoảng 2,54 cm)
+  id: inch-1
+examples:
+- en: The table is thirty inches wide and fits beside the window.
+  vi: Chiếc bàn rộng ba mươi inch và vừa vặn đặt cạnh cửa sổ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2048. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

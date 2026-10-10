@@ -1,0 +1,26 @@
+schema_version: 3
+id: blog
+lemma: blog
+pos:
+- noun
+ipa:
+  us: /blɔɡ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: nhật ký trực tuyến, blog
+  id: blog-1
+examples:
+- en: The company writes a weekly blog about new trends in online shopping.
+  vi: Công ty viết một blog hằng tuần về các xu hướng mới trong mua sắm trực tuyến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2808. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

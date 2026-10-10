@@ -1,0 +1,26 @@
+schema_version: 3
+id: define
+lemma: define
+pos:
+- verb
+ipa:
+  us: /dɪˈfaɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: định nghĩa, xác định rõ
+  id: define-1
+examples:
+- en: The contract clearly defines the duties of both parties in the agreement.
+  vi: Hợp đồng xác định rõ nhiệm vụ của cả hai bên trong thỏa thuận.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 930. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

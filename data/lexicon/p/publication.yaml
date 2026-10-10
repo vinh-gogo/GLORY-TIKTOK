@@ -1,0 +1,26 @@
+schema_version: 3
+id: publication
+lemma: publication
+pos:
+- noun
+ipa:
+  us: /ˌpʌblɪˈkeɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: ấn phẩm; sự xuất bản
+  id: publication-1
+examples:
+- en: The publication of the annual report is scheduled for next month.
+  vi: Việc xuất bản báo cáo thường niên được lên lịch vào tháng sau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2041. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

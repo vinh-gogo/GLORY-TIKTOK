@@ -1,0 +1,26 @@
+schema_version: 3
+id: club
+lemma: club
+pos:
+- noun
+ipa:
+  us: /klʌb/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: câu lạc bộ
+  id: club-1
+examples:
+- en: Many employees joined the company running club last spring.
+  vi: Nhiều nhân viên đã tham gia câu lạc bộ chạy bộ của công ty vào mùa xuân năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 760. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

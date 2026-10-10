@@ -1,0 +1,27 @@
+schema_version: 3
+id: relate
+lemma: relate
+pos:
+- verb
+ipa:
+  us: /rɪˈleɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: liên quan đến
+  id: relate-1
+examples:
+- en: Several questions in the survey relate to customer service quality.
+  vi: Một số câu hỏi trong khảo sát liên quan đến chất lượng dịch vụ khách hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈleɪt/; /riˈleɪt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 642. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

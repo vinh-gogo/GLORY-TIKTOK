@@ -1,0 +1,26 @@
+schema_version: 3
+id: distinction
+lemma: distinction
+pos:
+- noun
+ipa:
+  us: /dɪˈstɪŋkʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự khác biệt; sự ưu tú
+  id: distinction-1
+examples:
+- en: There is a clear distinction between a bonus and a salary.
+  vi: Có sự khác biệt rõ ràng giữa tiền thưởng và tiền lương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2132. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

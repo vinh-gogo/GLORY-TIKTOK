@@ -1,0 +1,26 @@
+schema_version: 3
+id: completely
+lemma: completely
+pos:
+- adverb
+ipa:
+  us: /kəmˈplitli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: hoàn toàn
+  id: completely-1
+examples:
+- en: The old office was completely renovated before the staff moved back in.
+  vi: Văn phòng cũ đã được cải tạo hoàn toàn trước khi nhân viên chuyển về.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 960. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

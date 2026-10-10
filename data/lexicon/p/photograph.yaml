@@ -1,0 +1,26 @@
+schema_version: 3
+id: photograph
+lemma: photograph
+pos:
+- noun
+ipa:
+  us: /ˈfoʊtəˌɡræf/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: bức ảnh
+  id: photograph-1
+examples:
+- en: Please attach a recent photograph to your job application form.
+  vi: Vui lòng đính kèm một bức ảnh gần đây vào đơn xin việc của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1182. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

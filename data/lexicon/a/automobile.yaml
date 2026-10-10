@@ -1,0 +1,27 @@
+schema_version: 3
+id: automobile
+lemma: automobile
+pos:
+- noun
+ipa:
+  us: /ˈɔtəmoʊˌbil/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: ô tô
+  id: automobile-1
+examples:
+- en: The automobile industry has hired many new engineers this year.
+  vi: Ngành công nghiệp ô tô đã tuyển nhiều kỹ sư mới trong năm nay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɔtəmoʊˌbil/; /ˌɔtəmoʊˈbil/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 241. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: book
+lemma: book
+pos:
+- noun
+- verb
+ipa:
+  us: /bʊk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: quyển sách; đặt chỗ
+  id: book-1
+examples:
+- en: I need to book a hotel room for the conference in March.
+  vi: Tôi cần đặt một phòng khách sạn cho hội nghị vào tháng Ba.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 171. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

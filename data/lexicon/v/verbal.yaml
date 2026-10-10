@@ -1,0 +1,26 @@
+schema_version: 3
+id: verbal
+lemma: verbal
+pos:
+- adjective
+ipa:
+  us: /ˈvɝbəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: bằng lời nói, thuộc ngôn từ
+  id: verbal-1
+examples:
+- en: We reached a verbal agreement, but we still need to sign the contract.
+  vi: Chúng tôi đã đạt thỏa thuận bằng lời, nhưng vẫn cần ký hợp đồng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 558. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

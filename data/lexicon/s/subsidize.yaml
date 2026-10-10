@@ -1,0 +1,26 @@
+schema_version: 3
+id: subsidize
+lemma: subsidize
+pos:
+- verb
+ipa:
+  us: /ˈsʌbsɪˌdaɪz/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: trợ cấp, hỗ trợ tài chính
+  id: subsidize-1
+examples:
+- en: The government will subsidize the cost of installing solar panels.
+  vi: Chính phủ sẽ trợ cấp chi phí lắp đặt các tấm pin mặt trời.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1087. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

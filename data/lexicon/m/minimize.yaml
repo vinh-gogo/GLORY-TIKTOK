@@ -1,0 +1,26 @@
+schema_version: 3
+id: minimize
+lemma: minimize
+pos:
+- verb
+ipa:
+  us: /ˈmɪnəˌmaɪz/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: giảm đến mức tối thiểu
+  id: minimize-1
+examples:
+- en: We should minimize costs without lowering the quality of our service.
+  vi: Chúng ta nên giảm chi phí tối đa mà không làm giảm chất lượng dịch vụ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 318. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

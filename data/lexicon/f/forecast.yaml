@@ -1,0 +1,27 @@
+schema_version: 3
+id: forecast
+lemma: forecast
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈfɔrˌkæst/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: dự báo
+  id: forecast-1
+examples:
+- en: The sales forecast for next quarter looks very promising.
+  vi: Dự báo doanh số cho quý tới trông rất triển vọng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2369. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

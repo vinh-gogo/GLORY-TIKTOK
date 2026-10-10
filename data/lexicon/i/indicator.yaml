@@ -1,0 +1,26 @@
+schema_version: 3
+id: indicator
+lemma: indicator
+pos:
+- noun
+ipa:
+  us: /ˈɪndəˌkeɪtɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: chỉ số, dấu hiệu
+  id: indicator-1
+examples:
+- en: Rising employment is an important indicator of a healthy economy.
+  vi: Việc làm tăng là một chỉ số quan trọng của nền kinh tế lành mạnh.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 826. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

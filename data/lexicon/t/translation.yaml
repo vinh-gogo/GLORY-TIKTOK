@@ -1,0 +1,27 @@
+schema_version: 3
+id: translation
+lemma: translation
+pos:
+- noun
+ipa:
+  us: /trænzˈleɪʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: bản dịch, việc dịch thuật
+  id: translation-1
+examples:
+- en: We need a Korean translation of the user manual before the product launch.
+  vi: Chúng tôi cần bản dịch tiếng Hàn của sách hướng dẫn trước khi ra mắt sản phẩm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/trænzˈleɪʃən/; /trænˈsleɪʃən/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 476. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

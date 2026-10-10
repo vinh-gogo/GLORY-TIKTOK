@@ -1,0 +1,26 @@
+schema_version: 3
+id: propose
+lemma: propose
+pos:
+- verb
+ipa:
+  us: /prəˈpoʊz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: đề xuất
+  id: propose-1
+examples:
+- en: I would like to propose a change to the current meeting schedule.
+  vi: Tôi muốn đề xuất một thay đổi đối với lịch họp hiện tại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 877. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

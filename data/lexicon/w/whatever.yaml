@@ -1,0 +1,28 @@
+schema_version: 3
+id: whatever
+lemma: whatever
+pos:
+- pronoun
+- determiner
+ipa:
+  us: /ˌwʌˈtɛvɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bất cứ điều gì; bất kể
+  id: whatever-1
+examples:
+- en: You can choose whatever time works best for your schedule.
+  vi: Bạn có thể chọn bất kỳ thời gian nào phù hợp nhất với lịch của mình.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌwʌˈtɛvɚ/; /ˌhwʌˈtɛvɚ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 675. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: stripe
+lemma: stripe
+pos:
+- noun
+ipa:
+  us: /straɪp/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: sọc, vằn
+  id: stripe-1
+examples:
+- en: He wore a navy suit with a thin white stripe to the interview.
+  vi: Anh ấy mặc bộ vest xanh navy có sọc trắng mảnh đến buổi phỏng vấn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 877. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

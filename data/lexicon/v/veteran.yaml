@@ -1,0 +1,27 @@
+schema_version: 3
+id: veteran
+lemma: veteran
+pos:
+- noun
+ipa:
+  us: /ˈvɛtɚən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: cựu chiến binh; người nhiều kinh nghiệm
+  id: veteran-1
+examples:
+- en: The company hired a veteran engineer to lead the new project team.
+  vi: Công ty đã thuê một kỹ sư dày dạn kinh nghiệm để dẫn dắt nhóm dự án mới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈvɛtɚən/; /ˈvɛtrən/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2674. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

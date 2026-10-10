@@ -1,0 +1,27 @@
+schema_version: 3
+id: substitute
+lemma: substitute
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈsʌbstəˌtut/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: người/vật thay thế; thay thế
+  id: substitute-1
+examples:
+- en: You can use margarine as a substitute for butter in this recipe.
+  vi: Bạn có thể dùng bơ thực vật thay cho bơ trong công thức này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2715. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

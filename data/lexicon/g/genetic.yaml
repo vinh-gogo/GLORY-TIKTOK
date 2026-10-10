@@ -1,0 +1,26 @@
+schema_version: 3
+id: genetic
+lemma: genetic
+pos:
+- adjective
+ipa:
+  us: /dʒəˈnɛtɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: thuộc di truyền, gen
+  id: genetic-1
+examples:
+- en: Doctors believe the disease may be caused by a genetic condition.
+  vi: Các bác sĩ cho rằng căn bệnh này có thể do một tình trạng di truyền gây ra.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2466. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

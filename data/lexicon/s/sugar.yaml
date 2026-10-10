@@ -1,0 +1,26 @@
+schema_version: 3
+id: sugar
+lemma: sugar
+pos:
+- noun
+ipa:
+  us: /ˈʃʊɡɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: đường
+  id: sugar-1
+examples:
+- en: Would you like some sugar in your coffee this morning?
+  vi: Sáng nay bạn có muốn thêm chút đường vào cà phê không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2234. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

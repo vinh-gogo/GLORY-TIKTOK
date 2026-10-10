@@ -1,0 +1,26 @@
+schema_version: 3
+id: come
+lemma: come
+pos:
+- verb
+ipa:
+  us: /kʌm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đến, tới
+  id: come-1
+examples:
+- en: Please come to the reception desk to pick up your visitor badge.
+  vi: Vui lòng đến quầy lễ tân để nhận thẻ khách của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 65. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

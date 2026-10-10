@@ -1,0 +1,26 @@
+schema_version: 3
+id: singer
+lemma: singer
+pos:
+- noun
+ipa:
+  us: /ˈsɪŋɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: ca sĩ
+  id: singer-1
+examples:
+- en: The famous singer will perform at the city hall on Saturday.
+  vi: Ca sĩ nổi tiếng sẽ biểu diễn tại tòa thị chính vào thứ Bảy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2182. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

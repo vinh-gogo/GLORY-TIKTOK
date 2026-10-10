@@ -1,0 +1,26 @@
+schema_version: 3
+id: unattended
+lemma: unattended
+pos:
+- adjective
+ipa:
+  us: /ənəˈtɛndɪd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: không có người trông coi
+  id: unattended-1
+examples:
+- en: Please do not leave your bags unattended at the station.
+  vi: Vui lòng không để túi xách của bạn không người trông coi ở nhà ga.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 431. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

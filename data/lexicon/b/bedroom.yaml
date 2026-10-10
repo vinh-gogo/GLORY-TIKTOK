@@ -1,0 +1,26 @@
+schema_version: 3
+id: bedroom
+lemma: bedroom
+pos:
+- noun
+ipa:
+  us: /ˈbɛˌdrum/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: phòng ngủ
+  id: bedroom-1
+examples:
+- en: The apartment has two bedrooms and a small balcony.
+  vi: Căn hộ có hai phòng ngủ và một ban công nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1432. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

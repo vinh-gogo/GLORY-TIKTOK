@@ -1,0 +1,26 @@
+schema_version: 3
+id: such
+lemma: such
+pos:
+- determiner
+ipa:
+  us: /sʌtʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: như vậy, như thế; đến mức
+  id: such-1
+examples:
+- en: We received such positive feedback that we decided to expand the program.
+  vi: Chúng tôi nhận được phản hồi tích cực đến mức quyết định mở rộng chương trình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 100. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

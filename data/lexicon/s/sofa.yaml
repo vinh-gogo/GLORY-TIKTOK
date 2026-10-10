@@ -1,0 +1,26 @@
+schema_version: 3
+id: sofa
+lemma: sofa
+pos:
+- noun
+ipa:
+  us: /ˈsoʊfə/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: ghế sô-pha
+  id: sofa-1
+examples:
+- en: The waiting area has a comfortable sofa and several chairs.
+  vi: Khu vực chờ có một chiếc sô-pha thoải mái và vài chiếc ghế.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 216. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

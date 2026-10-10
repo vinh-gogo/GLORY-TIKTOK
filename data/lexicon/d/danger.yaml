@@ -1,0 +1,26 @@
+schema_version: 3
+id: danger
+lemma: danger
+pos:
+- noun
+ipa:
+  us: /ˈdeɪndʒɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: mối nguy hiểm
+  id: danger-1
+examples:
+- en: Workers are in danger if they do not wear proper safety gear.
+  vi: Công nhân gặp nguy hiểm nếu họ không mang đồ bảo hộ phù hợp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1416. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

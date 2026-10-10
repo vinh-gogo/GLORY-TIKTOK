@@ -1,0 +1,26 @@
+schema_version: 3
+id: chocolate
+lemma: chocolate
+pos:
+- noun
+ipa:
+  us: /ˈtʃɔklət/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: sô-cô-la
+  id: chocolate-1
+examples:
+- en: For dessert, she ordered a slice of chocolate cake and a coffee.
+  vi: Cho món tráng miệng, cô ấy gọi một miếng bánh sô-cô-la và một ly cà phê.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2620. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

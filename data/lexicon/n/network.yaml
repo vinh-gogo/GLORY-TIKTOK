@@ -1,0 +1,26 @@
+schema_version: 3
+id: network
+lemma: network
+pos:
+- noun
+ipa:
+  us: /ˈnɛˌtwɝk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: mạng lưới, mạng máy tính
+  id: network-1
+examples:
+- en: The technician repaired the office network after it stopped working this morning.
+  vi: Kỹ thuật viên đã sửa mạng văn phòng sau khi nó ngừng hoạt động sáng nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 847. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

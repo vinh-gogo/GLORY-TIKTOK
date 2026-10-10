@@ -1,0 +1,26 @@
+schema_version: 3
+id: instance
+lemma: instance
+pos:
+- noun
+ipa:
+  us: /ˈɪnstəns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: trường hợp, ví dụ
+  id: instance-1
+examples:
+- en: In this instance, the delay was caused by bad weather, not by staff.
+  vi: Trong trường hợp này, sự chậm trễ là do thời tiết xấu chứ không phải do nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 864. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

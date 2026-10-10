@@ -1,0 +1,27 @@
+schema_version: 3
+id: collapse
+lemma: collapse
+pos:
+- verb
+- noun
+ipa:
+  us: /kəˈlæps/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sụp đổ, đổ sập
+  id: collapse-1
+examples:
+- en: Several small banks collapsed during the financial crisis.
+  vi: Một số ngân hàng nhỏ đã sụp đổ trong cuộc khủng hoảng tài chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1879. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

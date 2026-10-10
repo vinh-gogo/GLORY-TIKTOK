@@ -1,0 +1,26 @@
+schema_version: 3
+id: gift
+lemma: gift
+pos:
+- noun
+ipa:
+  us: /ɡɪft/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: món quà
+  id: gift-1
+examples:
+- en: The company gave every employee a small gift at the end of the year.
+  vi: Công ty tặng mỗi nhân viên một món quà nhỏ vào cuối năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1427. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

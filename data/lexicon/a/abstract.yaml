@@ -1,0 +1,28 @@
+schema_version: 3
+id: abstract
+lemma: abstract
+pos:
+- adjective
+- noun
+ipa:
+  us: /æbˈstrækt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: trừu tượng; bản tóm tắt
+  id: abstract-1
+examples:
+- en: The idea is too abstract for the customers to understand clearly.
+  vi: Ý tưởng này quá trừu tượng nên khách hàng khó hiểu rõ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/æbˈstrækt/; /ˈæbˌstrækt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2721. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: long
+lemma: long
+pos:
+- adjective
+- adverb
+ipa:
+  us: /lɔŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: dài; lâu
+  id: long-1
+examples:
+- en: The line at the bank was long, so I returned later.
+  vi: Hàng chờ ở ngân hàng rất dài, nên tôi quay lại sau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 115. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

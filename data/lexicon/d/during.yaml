@@ -1,0 +1,27 @@
+schema_version: 3
+id: during
+lemma: during
+pos:
+- preposition
+ipa:
+  us: /ˈdʊrɪŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trong suốt, trong lúc
+  id: during-1
+examples:
+- en: Please silence your phones during the presentation in the main hall.
+  vi: Vui lòng tắt tiếng điện thoại trong lúc diễn ra bài thuyết trình ở sảnh chính.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdʊrɪŋ/; /ˈdjʊrɪŋ/; /ˈdɝɪŋ/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 182. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

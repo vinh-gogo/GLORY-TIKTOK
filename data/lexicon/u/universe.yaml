@@ -1,0 +1,26 @@
+schema_version: 3
+id: universe
+lemma: universe
+pos:
+- noun
+ipa:
+  us: /ˈjunəˌvɝs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: vũ trụ
+  id: universe-1
+examples:
+- en: Scientists are still trying to understand how the universe began.
+  vi: Các nhà khoa học vẫn đang cố hiểu vũ trụ đã bắt đầu như thế nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2708. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: locker
+lemma: locker
+pos:
+- noun
+ipa:
+  us: /ˈlɑkɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: tủ khóa cá nhân
+  id: locker-1
+examples:
+- en: You can leave your coat and bag in the locker during the tour.
+  vi: Bạn có thể để áo khoác và túi trong tủ khóa trong suốt chuyến tham quan.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 683. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

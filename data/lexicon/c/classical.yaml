@@ -1,0 +1,26 @@
+schema_version: 3
+id: classical
+lemma: classical
+pos:
+- adjective
+ipa:
+  us: /ˈklæsɪkəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: cổ điển
+  id: classical-1
+examples:
+- en: The restaurant plays soft classical music during dinner every evening.
+  vi: Nhà hàng phát nhạc cổ điển nhẹ nhàng trong bữa tối mỗi buổi chiều.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2480. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

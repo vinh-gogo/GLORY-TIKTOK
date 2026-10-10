@@ -1,0 +1,26 @@
+schema_version: 3
+id: skirt
+lemma: skirt
+pos:
+- noun
+ipa:
+  us: /skɝt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: váy ngắn, chân váy
+  id: skirt-1
+examples:
+- en: She bought a blue skirt to wear with her white shirt at work.
+  vi: Cô ấy mua một chiếc chân váy xanh để mặc với áo sơ mi trắng đi làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2451. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

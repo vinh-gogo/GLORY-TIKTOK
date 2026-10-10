@@ -1,0 +1,26 @@
+schema_version: 3
+id: otherwise
+lemma: otherwise
+pos:
+- adverb
+ipa:
+  us: /ˈʌðɚˌwaɪz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nếu không thì; khác đi
+  id: otherwise-1
+examples:
+- en: Please arrive early; otherwise, you may miss the opening of the presentation.
+  vi: Vui lòng đến sớm; nếu không, bạn có thể lỡ phần mở đầu bài thuyết trình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1056. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

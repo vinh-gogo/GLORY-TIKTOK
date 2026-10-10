@@ -1,0 +1,26 @@
+schema_version: 3
+id: foundation
+lemma: foundation
+pos:
+- noun
+ipa:
+  us: /faʊnˈdeɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: nền tảng; quỹ (tổ chức)
+  id: foundation-1
+examples:
+- en: A strong customer base is the foundation of our company's success.
+  vi: Một tập khách hàng vững mạnh là nền tảng cho thành công của công ty chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2177. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

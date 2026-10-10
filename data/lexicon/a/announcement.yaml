@@ -1,0 +1,27 @@
+schema_version: 3
+id: announcement
+lemma: announcement
+pos:
+- noun
+ipa:
+  us: /əˈnaʊnsmənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: thông báo
+  id: announcement-1
+examples:
+- en: The director made an announcement about the new office hours this morning.
+  vi: Giám đốc đã đưa ra thông báo về giờ làm việc mới của văn phòng sáng nay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/əˈnaʊnsmənt/; /əˈnaʊnsmɛnt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2458. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

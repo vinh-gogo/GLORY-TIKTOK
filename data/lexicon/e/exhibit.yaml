@@ -1,0 +1,27 @@
+schema_version: 3
+id: exhibit
+lemma: exhibit
+pos:
+- verb
+- noun
+ipa:
+  us: /ɪɡˈzɪbɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: trưng bày; vật trưng bày
+  id: exhibit-1
+examples:
+- en: Local artists will exhibit their paintings at the community gallery.
+  vi: Các nghệ sĩ địa phương sẽ trưng bày tranh của họ tại phòng triển lãm cộng đồng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1996. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

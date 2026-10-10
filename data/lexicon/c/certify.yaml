@@ -1,0 +1,26 @@
+schema_version: 3
+id: certify
+lemma: certify
+pos:
+- verb
+ipa:
+  us: /ˈsɝtəˌfaɪ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: chứng nhận, xác nhận
+  id: certify-1
+examples:
+- en: An independent inspector will certify that the machines meet all safety standards.
+  vi: Một thanh tra độc lập sẽ chứng nhận máy móc đạt mọi tiêu chuẩn an toàn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 664. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

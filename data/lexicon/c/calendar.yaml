@@ -1,0 +1,26 @@
+schema_version: 3
+id: calendar
+lemma: calendar
+pos:
+- noun
+ipa:
+  us: /ˈkæləndɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: lịch
+  id: calendar-1
+examples:
+- en: I marked the deadline on my calendar so I won't forget.
+  vi: Tôi đã đánh dấu hạn chót vào lịch để không quên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 126. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: only
+lemma: only
+pos:
+- adverb
+- adjective
+ipa:
+  us: /ˈoʊnli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chỉ, duy nhất
+  id: only-1
+examples:
+- en: The discount is available only to members of the loyalty program.
+  vi: Ưu đãi giảm giá chỉ dành cho thành viên của chương trình khách hàng thân thiết.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 74. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: contraction
+lemma: contraction
+pos:
+- noun
+ipa:
+  us: /kənˈtrækʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sự co lại, sự suy giảm
+  id: contraction-1
+examples:
+- en: Experts predict a contraction of the economy during the next quarter.
+  vi: Các chuyên gia dự đoán nền kinh tế sẽ suy giảm trong quý tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1039. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

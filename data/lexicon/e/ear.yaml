@@ -1,0 +1,27 @@
+schema_version: 3
+id: ear
+lemma: ear
+pos:
+- noun
+ipa:
+  us: /ir/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: tai
+  id: ear-1
+examples:
+- en: The nurse checked the child's ear for any sign of infection.
+  vi: Y tá kiểm tra tai của đứa trẻ xem có dấu hiệu nhiễm trùng không.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ir/; /ɪr/); IPA đang ghi là cách đầu tiên, cần kiểm
+    tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1664. IPA lấy từ CMUdict (đổi sang IPA bằng quy
+    tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

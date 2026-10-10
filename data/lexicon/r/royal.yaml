@@ -1,0 +1,26 @@
+schema_version: 3
+id: royal
+lemma: royal
+pos:
+- adjective
+ipa:
+  us: /ˈrɔɪəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: thuộc hoàng gia
+  id: royal-1
+examples:
+- en: Tourists can visit the royal palace every day except on Mondays.
+  vi: Du khách có thể tham quan cung điện hoàng gia mỗi ngày trừ thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2776. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

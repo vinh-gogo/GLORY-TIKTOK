@@ -1,0 +1,26 @@
+schema_version: 3
+id: liberal
+lemma: liberal
+pos:
+- adjective
+ipa:
+  us: /ˈlɪˌbɝəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: phóng khoáng, tự do; hào phóng
+  id: liberal-1
+examples:
+- en: The company has a liberal policy on working from home.
+  vi: Công ty có chính sách thoải mái về việc làm việc tại nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1821. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

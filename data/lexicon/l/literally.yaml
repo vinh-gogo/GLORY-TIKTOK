@@ -1,0 +1,27 @@
+schema_version: 3
+id: literally
+lemma: literally
+pos:
+- adverb
+ipa:
+  us: /ˈlɪtɚəli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: theo nghĩa đen; thật sự là
+  id: literally-1
+examples:
+- en: The sign literally means that no one is allowed to park here.
+  vi: Biển báo theo nghĩa đen có nghĩa là không ai được đỗ xe ở đây.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈlɪtɚəli/; /ˈlɪtrəli/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2488. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

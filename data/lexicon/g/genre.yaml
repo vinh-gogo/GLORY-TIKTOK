@@ -1,0 +1,26 @@
+schema_version: 3
+id: genre
+lemma: genre
+pos:
+- noun
+ipa:
+  us: /ˈʒɑnrə/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: thể loại (phim, sách, nhạc)
+  id: genre-1
+examples:
+- en: Her favorite music genre is jazz, especially live performances in small clubs.
+  vi: Thể loại nhạc yêu thích của cô ấy là jazz, nhất là các buổi diễn trực tiếp ở câu lạc bộ nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1216. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

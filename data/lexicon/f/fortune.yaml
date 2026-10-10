@@ -1,0 +1,27 @@
+schema_version: 3
+id: fortune
+lemma: fortune
+pos:
+- noun
+ipa:
+  us: /ˈfɔrtʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tài sản lớn; vận may
+  id: fortune-1
+examples:
+- en: He made a fortune by selling his software company to a larger firm.
+  vi: Ông ấy kiếm được một gia tài nhờ bán công ty phần mềm cho một hãng lớn hơn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈfɔrtʃən/; /ˈfɔrtʃun/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2516. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

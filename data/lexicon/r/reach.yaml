@@ -1,0 +1,26 @@
+schema_version: 3
+id: reach
+lemma: reach
+pos:
+- verb
+ipa:
+  us: /ritʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: đạt đến; liên lạc được; với tới
+  id: reach-1
+examples:
+- en: You can reach me at this number any time after nine.
+  vi: Bạn có thể liên lạc với tôi qua số này bất cứ lúc nào sau chín giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 380. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

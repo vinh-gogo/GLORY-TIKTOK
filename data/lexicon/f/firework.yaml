@@ -1,0 +1,26 @@
+schema_version: 3
+id: firework
+lemma: firework
+pos:
+- noun
+ipa:
+  us: /ˈfaɪrˌwɝk/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: pháo hoa
+  id: firework-1
+examples:
+- en: The city holds a firework show by the river every New Year.
+  vi: Thành phố tổ chức màn bắn pháo hoa bên sông vào mỗi dịp Năm Mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 715. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

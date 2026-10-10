@@ -1,0 +1,26 @@
+schema_version: 3
+id: upstairs
+lemma: upstairs
+pos:
+- adverb
+ipa:
+  us: /əpˈstɛrz/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: ở tầng trên, lên tầng trên
+  id: upstairs-1
+examples:
+- en: The accounting department is upstairs, just past the large meeting room.
+  vi: Phòng kế toán ở tầng trên, ngay sau phòng họp lớn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 557. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

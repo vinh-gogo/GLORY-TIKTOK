@@ -1,0 +1,27 @@
+schema_version: 3
+id: seal
+lemma: seal
+pos:
+- verb
+- noun
+ipa:
+  us: /sil/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: niêm phong, dán kín; con dấu
+  id: seal-1
+examples:
+- en: Please seal the box tightly before the courier arrives.
+  vi: Vui lòng dán kín thùng hàng trước khi nhân viên chuyển phát đến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2322. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

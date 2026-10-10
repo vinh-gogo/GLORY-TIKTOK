@@ -1,0 +1,27 @@
+schema_version: 3
+id: visit
+lemma: visit
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈvɪzɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: thăm, ghé thăm; chuyến thăm
+  id: visit-1
+examples:
+- en: The regional director will visit our branch office next Tuesday.
+  vi: Giám đốc khu vực sẽ đến thăm văn phòng chi nhánh của chúng tôi vào thứ Ba tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 333. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: ceremony
+lemma: ceremony
+pos:
+- noun
+ipa:
+  us: /ˈsɛrəˌmoʊni/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: buổi lễ
+  id: ceremony-1
+examples:
+- en: The awards ceremony will take place in the main hall at seven.
+  vi: Lễ trao giải sẽ diễn ra tại hội trường chính lúc bảy giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2517. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

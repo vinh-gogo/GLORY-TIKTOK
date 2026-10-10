@@ -1,0 +1,26 @@
+schema_version: 3
+id: inefficient
+lemma: inefficient
+pos:
+- adjective
+ipa:
+  us: /ˌɪnɪˈfɪʃənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- manufacturing
+senses:
+- meaning_vi: kém hiệu quả, lãng phí
+  id: inefficient-1
+examples:
+- en: The old machines are inefficient and use too much energy.
+  vi: Những chiếc máy cũ kém hiệu quả và tiêu tốn quá nhiều năng lượng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1238. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

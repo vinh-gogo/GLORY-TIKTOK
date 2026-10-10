@@ -1,0 +1,26 @@
+schema_version: 3
+id: invite
+lemma: invite
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈvaɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: mời
+  id: invite-1
+examples:
+- en: We would like to invite you to our annual customer appreciation dinner.
+  vi: Chúng tôi trân trọng mời bạn tham dự bữa tối tri ân khách hàng thường niên của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1028. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

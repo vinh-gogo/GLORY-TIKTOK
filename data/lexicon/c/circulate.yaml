@@ -1,0 +1,26 @@
+schema_version: 3
+id: circulate
+lemma: circulate
+pos:
+- verb
+ipa:
+  us: /ˈsɝkjəˌleɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- offices
+senses:
+- meaning_vi: lưu hành, chuyển đi vòng quanh
+  id: circulate-1
+examples:
+- en: Please circulate the meeting notes to everyone on the project team.
+  vi: Vui lòng chuyển biên bản cuộc họp đến mọi người trong nhóm dự án.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1035. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

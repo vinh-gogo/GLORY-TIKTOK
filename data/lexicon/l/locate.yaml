@@ -1,0 +1,26 @@
+schema_version: 3
+id: locate
+lemma: locate
+pos:
+- verb
+ipa:
+  us: /ˈloʊˌkeɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: xác định vị trí; đặt tại
+  id: locate-1
+examples:
+- en: The company plans to locate its new office near the airport.
+  vi: Công ty dự định đặt văn phòng mới gần sân bay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1450. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

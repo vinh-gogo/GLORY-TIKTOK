@@ -1,0 +1,26 @@
+schema_version: 3
+id: informal
+lemma: informal
+pos:
+- adjective
+ipa:
+  us: /ˌɪnˈfɔrməl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: thân mật, không chính thức
+  id: informal-1
+examples:
+- en: We held an informal meeting over coffee to discuss the new project.
+  vi: Chúng tôi tổ chức một cuộc họp thân mật bên ly cà phê để bàn về dự án mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 499. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

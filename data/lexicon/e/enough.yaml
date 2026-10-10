@@ -1,0 +1,28 @@
+schema_version: 3
+id: enough
+lemma: enough
+pos:
+- determiner
+- adverb
+ipa:
+  us: /ɪˈnʌf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đủ
+  id: enough-1
+examples:
+- en: We don't have enough chairs for everyone attending the seminar.
+  vi: Chúng ta không có đủ ghế cho tất cả những người dự hội thảo.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɪˈnʌf/; /iˈnʌf/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 267. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

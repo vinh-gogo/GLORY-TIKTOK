@@ -1,0 +1,26 @@
+schema_version: 3
+id: girl
+lemma: girl
+pos:
+- noun
+ipa:
+  us: /ɡɝl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cô gái, bé gái
+  id: girl-1
+examples:
+- en: The little girl waited patiently at the bus stop with her mother.
+  vi: Cô bé kiên nhẫn đợi ở trạm xe buýt cùng mẹ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 463. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

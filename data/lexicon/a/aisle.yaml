@@ -1,0 +1,27 @@
+schema_version: 3
+id: aisle
+lemma: aisle
+pos:
+- noun
+ipa:
+  us: /aɪl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: lối đi (giữa các dãy hàng, ghế)
+  id: aisle-1
+examples:
+- en: Fresh vegetables are located in the third aisle of the store.
+  vi: Rau tươi nằm ở lối đi thứ ba của cửa hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/aɪl/; /ˈaɪəl/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 138. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

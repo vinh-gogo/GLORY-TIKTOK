@@ -1,0 +1,26 @@
+schema_version: 3
+id: nevertheless
+lemma: nevertheless
+pos:
+- adverb
+ipa:
+  us: /ˌnɛvɚðəˈlɛs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tuy nhiên, dù vậy
+  id: nevertheless-1
+examples:
+- en: The plan is risky; nevertheless, the board decided to approve it.
+  vi: Kế hoạch này rủi ro; tuy nhiên, hội đồng quản trị vẫn quyết định phê duyệt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1560. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

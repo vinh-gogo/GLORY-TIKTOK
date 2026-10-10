@@ -1,0 +1,28 @@
+schema_version: 3
+id: request
+lemma: request
+pos:
+- noun
+- verb
+ipa:
+  us: /rɪˈkwɛst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: yêu cầu
+  id: request-1
+examples:
+- en: Please submit your vacation request to the personnel office two weeks early.
+  vi: Vui lòng nộp đơn xin nghỉ phép cho phòng nhân sự trước hai tuần.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈkwɛst/; /riˈkwɛst/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1011. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

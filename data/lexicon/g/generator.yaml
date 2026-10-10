@@ -1,0 +1,26 @@
+schema_version: 3
+id: generator
+lemma: generator
+pos:
+- noun
+ipa:
+  us: /ˈdʒɛnɚˌeɪtɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: máy phát điện
+  id: generator-1
+examples:
+- en: The hospital switched to a backup generator during the power outage.
+  vi: Bệnh viện chuyển sang máy phát điện dự phòng trong lúc mất điện.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 914. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

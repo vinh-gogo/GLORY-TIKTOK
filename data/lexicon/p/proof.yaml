@@ -1,0 +1,26 @@
+schema_version: 3
+id: proof
+lemma: proof
+pos:
+- noun
+ipa:
+  us: /pruf/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: bằng chứng, chứng cứ
+  id: proof-1
+examples:
+- en: Please bring proof of purchase if you want to return an item.
+  vi: Vui lòng mang theo bằng chứng mua hàng nếu bạn muốn trả lại sản phẩm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2021. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: cautious
+lemma: cautious
+pos:
+- adjective
+ipa:
+  us: /ˈkɔʃəs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: thận trọng, cẩn thận
+  id: cautious-1
+examples:
+- en: Investors remain cautious about spending money in an uncertain market.
+  vi: Các nhà đầu tư vẫn thận trọng khi chi tiền trong một thị trường bất ổn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 894. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

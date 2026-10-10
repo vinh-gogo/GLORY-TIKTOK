@@ -1,0 +1,27 @@
+schema_version: 3
+id: knowledge
+lemma: knowledge
+pos:
+- noun
+ipa:
+  us: /ˈnɑlədʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: kiến thức, sự hiểu biết
+  id: knowledge-1
+examples:
+- en: The job requires basic knowledge of accounting software and spreadsheets.
+  vi: Công việc đòi hỏi kiến thức cơ bản về phần mềm kế toán và bảng tính.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈnɑlədʒ/; /ˈnɑlɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 619. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

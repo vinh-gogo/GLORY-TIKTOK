@@ -1,0 +1,26 @@
+schema_version: 3
+id: garment
+lemma: garment
+pos:
+- noun
+ipa:
+  us: /ˈɡɑrmənt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: quần áo, trang phục (sản xuất)
+  id: garment-1
+examples:
+- en: The factory produces garments for several international brands.
+  vi: Nhà máy sản xuất quần áo cho một số thương hiệu quốc tế.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 355. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

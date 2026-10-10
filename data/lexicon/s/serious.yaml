@@ -1,0 +1,26 @@
+schema_version: 3
+id: serious
+lemma: serious
+pos:
+- adjective
+ipa:
+  us: /ˈsɪriəs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: nghiêm trọng; nghiêm túc
+  id: serious-1
+examples:
+- en: The report describes a serious problem with the cooling system.
+  vi: Báo cáo mô tả một vấn đề nghiêm trọng với hệ thống làm mát.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 796. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

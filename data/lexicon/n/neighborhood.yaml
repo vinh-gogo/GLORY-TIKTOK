@@ -1,0 +1,26 @@
+schema_version: 3
+id: neighborhood
+lemma: neighborhood
+pos:
+- noun
+ipa:
+  us: /ˈneɪbɚˌhʊd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: khu phố, vùng lân cận
+  id: neighborhood-1
+examples:
+- en: They moved to a quiet neighborhood close to the elementary school.
+  vi: Họ chuyển đến một khu phố yên tĩnh gần trường tiểu học.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1694. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

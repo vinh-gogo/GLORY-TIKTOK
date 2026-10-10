@@ -1,0 +1,28 @@
+schema_version: 3
+id: which
+lemma: which
+pos:
+- determiner
+- pronoun
+ipa:
+  us: /wɪtʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nào, cái nào; mà (đại từ quan hệ chỉ vật)
+  id: which-1
+examples:
+- en: Which of these candidates has the most experience in marketing?
+  vi: Trong số các ứng viên này, ai có nhiều kinh nghiệm nhất về tiếp thị?
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/wɪtʃ/; /hwɪtʃ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 39. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

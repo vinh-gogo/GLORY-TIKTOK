@@ -1,0 +1,27 @@
+schema_version: 3
+id: tour
+lemma: tour
+pos:
+- noun
+- verb
+ipa:
+  us: /tʊr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: chuyến tham quan
+  id: tour-1
+examples:
+- en: The hotel offers a guided tour of the historic city center.
+  vi: Khách sạn tổ chức một chuyến tham quan có hướng dẫn quanh trung tâm thành phố lịch sử.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1089. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: statement
+lemma: statement
+pos:
+- noun
+ipa:
+  us: /ˈsteɪtmənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: bản tuyên bố; bản sao kê
+  id: statement-1
+examples:
+- en: Your bank statement shows every payment made this month.
+  vi: Bản sao kê ngân hàng của bạn cho thấy mọi khoản thanh toán trong tháng này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 769. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

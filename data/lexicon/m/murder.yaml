@@ -1,0 +1,26 @@
+schema_version: 3
+id: murder
+lemma: murder
+pos:
+- noun
+ipa:
+  us: /ˈmɝdɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: vụ giết người
+  id: murder-1
+examples:
+- en: The newspaper reported on a murder that took place downtown last night.
+  vi: Tờ báo đưa tin về một vụ giết người xảy ra ở trung tâm tối qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1376. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

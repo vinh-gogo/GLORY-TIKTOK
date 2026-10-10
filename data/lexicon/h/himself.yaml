@@ -1,0 +1,26 @@
+schema_version: 3
+id: himself
+lemma: himself
+pos:
+- pronoun
+ipa:
+  us: /hɪmˈsɛlf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chính anh ấy, tự anh ấy
+  id: himself-1
+examples:
+- en: The director introduced himself to the new employees on Monday.
+  vi: Giám đốc đã tự giới thiệu với các nhân viên mới vào thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 458. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

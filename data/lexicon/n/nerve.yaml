@@ -1,0 +1,26 @@
+schema_version: 3
+id: nerve
+lemma: nerve
+pos:
+- noun
+ipa:
+  us: /nɝv/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: dây thần kinh; sự can đảm
+  id: nerve-1
+examples:
+- en: The doctor said a damaged nerve was causing the pain in his arm.
+  vi: Bác sĩ nói một dây thần kinh bị tổn thương đang gây đau ở cánh tay anh ấy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2676. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

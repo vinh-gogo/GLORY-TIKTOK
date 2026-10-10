@@ -1,0 +1,26 @@
+schema_version: 3
+id: suspicious
+lemma: suspicious
+pos:
+- adjective
+ipa:
+  us: /səˈspɪʃəs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: đáng ngờ, khả nghi
+  id: suspicious-1
+examples:
+- en: Please report any suspicious package that you see in the lobby.
+  vi: Vui lòng báo cáo mọi gói hàng khả nghi mà bạn thấy ở sảnh.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1088. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

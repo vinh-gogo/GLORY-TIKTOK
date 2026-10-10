@@ -1,0 +1,26 @@
+schema_version: 3
+id: depth
+lemma: depth
+pos:
+- noun
+ipa:
+  us: /dɛpθ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: độ sâu; chiều sâu
+  id: depth-1
+examples:
+- en: The report analyzes customer feedback in great depth.
+  vi: Báo cáo phân tích phản hồi của khách hàng một cách rất sâu sắc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2224. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

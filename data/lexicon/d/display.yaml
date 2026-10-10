@@ -1,0 +1,27 @@
+schema_version: 3
+id: display
+lemma: display
+pos:
+- verb
+- noun
+ipa:
+  us: /dɪˈspleɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: trưng bày; sự trưng bày
+  id: display-1
+examples:
+- en: The store will display the new products near the main entrance.
+  vi: Cửa hàng sẽ trưng bày các sản phẩm mới gần lối vào chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1109. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

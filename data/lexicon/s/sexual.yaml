@@ -1,0 +1,26 @@
+schema_version: 3
+id: sexual
+lemma: sexual
+pos:
+- adjective
+ipa:
+  us: /ˈsɛkʃuəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: thuộc tình dục, giới tính
+  id: sexual-1
+examples:
+- en: The company has a strict policy against sexual harassment at work.
+  vi: Công ty có chính sách nghiêm ngặt chống quấy rối tình dục tại nơi làm việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1609. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

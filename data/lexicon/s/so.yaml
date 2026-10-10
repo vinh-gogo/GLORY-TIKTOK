@@ -1,0 +1,27 @@
+schema_version: 3
+id: so
+lemma: so
+pos:
+- conjunction
+- adverb
+ipa:
+  us: /soʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: vì vậy, nên; rất, đến mức
+  id: so-1
+examples:
+- en: The road was closed, so we took a different route to the airport.
+  vi: Con đường bị đóng, nên chúng tôi đi một tuyến khác đến sân bay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 32. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

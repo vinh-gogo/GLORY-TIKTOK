@@ -1,0 +1,26 @@
+schema_version: 3
+id: textbook
+lemma: textbook
+pos:
+- noun
+ipa:
+  us: /ˈtɛkstˌbʊk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: sách giáo khoa
+  id: textbook-1
+examples:
+- en: Students can buy the required textbook at the campus store.
+  vi: Sinh viên có thể mua sách giáo khoa bắt buộc ở cửa hàng trong khuôn viên trường.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 302. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: absence
+lemma: absence
+pos:
+- noun
+ipa:
+  us: /ˈæbsəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: sự vắng mặt
+  id: absence-1
+examples:
+- en: In the absence of the manager, Ms. Lee will lead the meeting.
+  vi: Khi quản lý vắng mặt, cô Lee sẽ chủ trì cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1758. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

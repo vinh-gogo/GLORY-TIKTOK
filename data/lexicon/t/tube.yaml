@@ -1,0 +1,27 @@
+schema_version: 3
+id: tube
+lemma: tube
+pos:
+- noun
+ipa:
+  us: /tub/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: ống; tuýp
+  id: tube-1
+examples:
+- en: A plastic tube carries water from the tank to the sink.
+  vi: Một ống nhựa dẫn nước từ bể đến bồn rửa.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/tub/; /tjub/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2323. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

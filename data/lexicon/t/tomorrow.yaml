@@ -1,0 +1,28 @@
+schema_version: 3
+id: tomorrow
+lemma: tomorrow
+pos:
+- adverb
+- noun
+ipa:
+  us: /təˈmɑˌroʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: ngày mai
+  id: tomorrow-1
+examples:
+- en: The inspector will visit our factory tomorrow at nine o'clock.
+  vi: Thanh tra sẽ đến thăm nhà máy của chúng tôi vào ngày mai lúc chín giờ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/təˈmɑˌroʊ/; /tuˈmɑˌroʊ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 726. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

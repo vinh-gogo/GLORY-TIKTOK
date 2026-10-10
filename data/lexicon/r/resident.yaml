@@ -1,0 +1,26 @@
+schema_version: 3
+id: resident
+lemma: resident
+pos:
+- noun
+ipa:
+  us: /ˈrɛzɪdənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: cư dân
+  id: resident-1
+examples:
+- en: Residents of the building must park in the underground garage.
+  vi: Cư dân của tòa nhà phải đậu xe trong nhà để xe ngầm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1539. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

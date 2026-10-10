@@ -1,0 +1,26 @@
+schema_version: 3
+id: gate
+lemma: gate
+pos:
+- noun
+ipa:
+  us: /ɡeɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: cổng; cửa lên máy bay
+  id: gate-1
+examples:
+- en: Passengers should proceed to gate twelve for boarding.
+  vi: Hành khách vui lòng đến cửa số mười hai để lên máy bay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2060. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

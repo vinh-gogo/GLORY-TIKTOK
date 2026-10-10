@@ -1,0 +1,26 @@
+schema_version: 3
+id: grammar
+lemma: grammar
+pos:
+- noun
+ipa:
+  us: /ˈɡræmɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: ngữ pháp
+  id: grammar-1
+examples:
+- en: Please check the grammar and spelling in your email before sending it.
+  vi: Vui lòng kiểm tra ngữ pháp và chính tả trong email trước khi gửi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2687. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

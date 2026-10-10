@@ -1,0 +1,26 @@
+schema_version: 3
+id: asleep
+lemma: asleep
+pos:
+- adjective
+ipa:
+  us: /əˈslip/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: đang ngủ
+  id: asleep-1
+examples:
+- en: The baby was fast asleep when we arrived at the hotel late.
+  vi: Em bé đang ngủ say khi chúng tôi đến khách sạn muộn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 752. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

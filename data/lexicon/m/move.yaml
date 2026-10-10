@@ -1,0 +1,26 @@
+schema_version: 3
+id: move
+lemma: move
+pos:
+- verb
+ipa:
+  us: /muv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: di chuyển; chuyển (chỗ ở, văn phòng)
+  id: move-1
+examples:
+- en: Our department will move to the new building next month.
+  vi: Phòng ban của chúng tôi sẽ chuyển đến tòa nhà mới vào tháng tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 200. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

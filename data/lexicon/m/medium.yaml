@@ -1,0 +1,27 @@
+schema_version: 3
+id: medium
+lemma: medium
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈmidiəm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: vừa, cỡ trung; phương tiện
+  id: medium-1
+examples:
+- en: I would like a medium coffee and a small sandwich, please.
+  vi: Cho tôi một cà phê cỡ vừa và một bánh sandwich nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 689. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

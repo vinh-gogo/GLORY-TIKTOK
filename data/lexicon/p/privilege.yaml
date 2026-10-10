@@ -1,0 +1,27 @@
+schema_version: 3
+id: privilege
+lemma: privilege
+pos:
+- noun
+ipa:
+  us: /ˈprɪvlədʒ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: đặc quyền; vinh dự
+  id: privilege-1
+examples:
+- en: Senior staff enjoy the privilege of flexible working hours.
+  vi: Nhân viên cấp cao được hưởng đặc quyền làm việc giờ giấc linh hoạt.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈprɪvlədʒ/; /ˈprɪvlɪdʒ/; /ˈprɪvɪlədʒ/; /ˈprɪvɪlɪdʒ/);
+    IPA đang ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2437.
+    IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo
+    hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

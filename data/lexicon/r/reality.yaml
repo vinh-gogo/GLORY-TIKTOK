@@ -1,0 +1,26 @@
+schema_version: 3
+id: reality
+lemma: reality
+pos:
+- noun
+ipa:
+  us: /ˌriˈæləˌti/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thực tế, thực tại
+  id: reality-1
+examples:
+- en: In reality, the project took twice as long as we had planned.
+  vi: Trên thực tế, dự án mất thời gian gấp đôi so với kế hoạch của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1181. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

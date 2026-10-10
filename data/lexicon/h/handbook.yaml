@@ -1,0 +1,26 @@
+schema_version: 3
+id: handbook
+lemma: handbook
+pos:
+- noun
+ipa:
+  us: /ˈhændˌbʊk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: sổ tay hướng dẫn
+  id: handbook-1
+examples:
+- en: Every new employee receives a handbook that explains company policies.
+  vi: Mỗi nhân viên mới nhận một cuốn sổ tay giải thích các chính sách của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 986. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

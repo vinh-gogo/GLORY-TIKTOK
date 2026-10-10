@@ -1,0 +1,26 @@
+schema_version: 3
+id: be
+lemma: be
+pos:
+- verb
+ipa:
+  us: /bi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thì, là, ở; có mặt
+  id: be-1
+examples:
+- en: You will be in the meeting room until the afternoon.
+  vi: Bạn sẽ ở trong phòng họp đến hết buổi chiều.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

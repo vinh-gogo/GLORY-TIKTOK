@@ -1,0 +1,26 @@
+schema_version: 3
+id: faith
+lemma: faith
+pos:
+- noun
+ipa:
+  us: /feɪθ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: niềm tin, sự tin tưởng; đức tin
+  id: faith-1
+examples:
+- en: Investors have lost faith in the company after the announcement.
+  vi: Các nhà đầu tư đã mất niềm tin vào công ty sau thông báo đó.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1686. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

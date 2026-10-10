@@ -1,0 +1,26 @@
+schema_version: 3
+id: team
+lemma: team
+pos:
+- noun
+ipa:
+  us: /tim/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: nhóm, đội
+  id: team-1
+examples:
+- en: Our marketing team meets every Monday to review the weekly schedule.
+  vi: Nhóm tiếp thị của chúng tôi họp vào mỗi thứ Hai để xem lại lịch tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 407. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

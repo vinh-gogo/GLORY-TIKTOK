@@ -1,0 +1,26 @@
+schema_version: 3
+id: debt
+lemma: debt
+pos:
+- noun
+ipa:
+  us: /dɛt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: khoản nợ
+  id: debt-1
+examples:
+- en: The company worked hard to pay off its debt within two years.
+  vi: Công ty đã nỗ lực trả hết khoản nợ trong vòng hai năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1624. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

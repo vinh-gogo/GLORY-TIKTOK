@@ -1,0 +1,26 @@
+schema_version: 3
+id: laughter
+lemma: laughter
+pos:
+- noun
+ipa:
+  us: /ˈlæftɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: tiếng cười
+  id: laughter-1
+examples:
+- en: Laughter filled the room when the manager told the story.
+  vi: Tiếng cười vang khắp phòng khi người quản lý kể câu chuyện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2011. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

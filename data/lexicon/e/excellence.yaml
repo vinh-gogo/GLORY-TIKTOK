@@ -1,0 +1,26 @@
+schema_version: 3
+id: excellence
+lemma: excellence
+pos:
+- noun
+ipa:
+  us: /ˈɛksələns/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự xuất sắc, sự ưu tú
+  id: excellence-1
+examples:
+- en: The company is known for its excellence in customer service.
+  vi: Công ty nổi tiếng về sự xuất sắc trong dịch vụ khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 976. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

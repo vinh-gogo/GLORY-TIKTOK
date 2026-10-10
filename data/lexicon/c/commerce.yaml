@@ -1,0 +1,26 @@
+schema_version: 3
+id: commerce
+lemma: commerce
+pos:
+- noun
+ipa:
+  us: /ˈkɑmɚs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: thương mại, buôn bán
+  id: commerce-1
+examples:
+- en: The city has long been a center of commerce in the region.
+  vi: Thành phố từ lâu đã là trung tâm thương mại của khu vực.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 897. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

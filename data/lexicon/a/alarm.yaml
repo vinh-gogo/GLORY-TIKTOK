@@ -1,0 +1,26 @@
+schema_version: 3
+id: alarm
+lemma: alarm
+pos:
+- noun
+ipa:
+  us: /əˈlɑrm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: chuông báo động; báo thức
+  id: alarm-1
+examples:
+- en: The fire alarm went off during the morning meeting.
+  vi: Chuông báo cháy đã reo lên trong cuộc họp buổi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2271. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

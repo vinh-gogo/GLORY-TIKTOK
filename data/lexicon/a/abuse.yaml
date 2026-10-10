@@ -1,0 +1,28 @@
+schema_version: 3
+id: abuse
+lemma: abuse
+pos:
+- noun
+- verb
+ipa:
+  us: /əˈbjus/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: sự lạm dụng, ngược đãi
+  id: abuse-1
+examples:
+- en: The company has a strict policy against the abuse of company equipment.
+  vi: Công ty có chính sách nghiêm ngặt chống lại việc lạm dụng thiết bị của công ty.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/əˈbjus/; /əˈbjuz/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1553. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

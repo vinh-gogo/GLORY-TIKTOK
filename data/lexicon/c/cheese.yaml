@@ -1,0 +1,26 @@
+schema_version: 3
+id: cheese
+lemma: cheese
+pos:
+- noun
+ipa:
+  us: /tʃiz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: phô mai
+  id: cheese-1
+examples:
+- en: He ordered a sandwich with ham and cheese for his lunch.
+  vi: Anh ấy gọi một chiếc bánh mì kẹp giăm bông và phô mai cho bữa trưa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2585. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

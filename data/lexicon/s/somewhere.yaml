@@ -1,0 +1,26 @@
+schema_version: 3
+id: somewhere
+lemma: somewhere
+pos:
+- adverb
+ipa:
+  us: /ˈsʌmˌwɛr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đâu đó, một nơi nào đó
+  id: somewhere-1
+examples:
+- en: I must have left my phone somewhere in the meeting room.
+  vi: Chắc tôi đã để quên điện thoại ở đâu đó trong phòng họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1320. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

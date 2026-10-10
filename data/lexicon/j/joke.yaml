@@ -1,0 +1,27 @@
+schema_version: 3
+id: joke
+lemma: joke
+pos:
+- noun
+- verb
+ipa:
+  us: /dʒoʊk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: câu đùa, chuyện cười
+  id: joke-1
+examples:
+- en: He told a funny joke at the start of the meeting.
+  vi: Anh ấy kể một câu chuyện cười vui vào đầu cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1719. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

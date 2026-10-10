@@ -1,0 +1,26 @@
+schema_version: 3
+id: nutrition
+lemma: nutrition
+pos:
+- noun
+ipa:
+  us: /nuˈtrɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: dinh dưỡng
+  id: nutrition-1
+examples:
+- en: Good nutrition is important for the health of all employees.
+  vi: Dinh dưỡng tốt rất quan trọng đối với sức khỏe của mọi nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1227. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

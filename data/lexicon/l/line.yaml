@@ -1,0 +1,26 @@
+schema_version: 3
+id: line
+lemma: line
+pos:
+- noun
+ipa:
+  us: /laɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: hàng, đường kẻ; dòng sản phẩm
+  id: line-1
+examples:
+- en: Customers waited in a long line outside the store before it opened.
+  vi: Khách hàng xếp một hàng dài bên ngoài cửa hàng trước khi nó mở cửa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 274. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

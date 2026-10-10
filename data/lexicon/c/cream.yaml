@@ -1,0 +1,26 @@
+schema_version: 3
+id: cream
+lemma: cream
+pos:
+- noun
+ipa:
+  us: /krim/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: kem; váng sữa
+  id: cream-1
+examples:
+- en: Would you like cream in your coffee or just milk?
+  vi: Bạn muốn cho kem vào cà phê hay chỉ dùng sữa?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2388. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

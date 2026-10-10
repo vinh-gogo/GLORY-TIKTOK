@@ -1,0 +1,26 @@
+schema_version: 3
+id: son
+lemma: son
+pos:
+- noun
+ipa:
+  us: /sʌn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: con trai
+  id: son-1
+examples:
+- en: Her son starts at a new school in September.
+  vi: Con trai cô ấy bắt đầu học ở một trường mới vào tháng Chín.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 687. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

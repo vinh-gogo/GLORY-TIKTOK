@@ -1,0 +1,26 @@
+schema_version: 3
+id: if
+lemma: if
+pos:
+- conjunction
+ipa:
+  us: /ɪf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nếu; liệu (có hay không)
+  id: if-1
+examples:
+- en: Please call me if the delivery does not arrive on time.
+  vi: Vui lòng gọi cho tôi nếu hàng giao không đến đúng giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 34. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

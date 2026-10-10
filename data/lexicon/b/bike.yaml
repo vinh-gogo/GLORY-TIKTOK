@@ -1,0 +1,26 @@
+schema_version: 3
+id: bike
+lemma: bike
+pos:
+- noun
+ipa:
+  us: /baɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: xe đạp
+  id: bike-1
+examples:
+- en: Many employees ride a bike to work to avoid heavy traffic.
+  vi: Nhiều nhân viên đi xe đạp đến chỗ làm để tránh kẹt xe.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1979. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

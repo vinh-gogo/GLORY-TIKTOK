@@ -1,0 +1,27 @@
+schema_version: 3
+id: unfortunately
+lemma: unfortunately
+pos:
+- adverb
+ipa:
+  us: /ənˈfɔrtʃənətli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: không may, đáng tiếc là
+  id: unfortunately-1
+examples:
+- en: Unfortunately, the item you ordered is currently out of stock.
+  vi: Đáng tiếc là món hàng bạn đặt hiện đang hết hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ənˈfɔrtʃənətli/; /ənˈfɔrtʃunətli/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1269. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

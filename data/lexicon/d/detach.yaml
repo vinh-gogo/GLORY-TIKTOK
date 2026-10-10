@@ -1,0 +1,27 @@
+schema_version: 3
+id: detach
+lemma: detach
+pos:
+- verb
+ipa:
+  us: /ˈdɪˌtætʃ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: tháo rời, tách ra
+  id: detach-1
+examples:
+- en: Please detach the bottom part of the form and keep it for your records.
+  vi: Vui lòng xé phần dưới của mẫu đơn và giữ lại làm hồ sơ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdɪˌtætʃ/; /diˈtætʃ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 674. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

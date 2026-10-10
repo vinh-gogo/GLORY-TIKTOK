@@ -1,0 +1,26 @@
+schema_version: 3
+id: month
+lemma: month
+pos:
+- noun
+ipa:
+  us: /mʌnθ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tháng
+  id: month-1
+examples:
+- en: The rent is due on the first day of every month.
+  vi: Tiền thuê nhà đến hạn vào ngày đầu tiên của mỗi tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 209. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

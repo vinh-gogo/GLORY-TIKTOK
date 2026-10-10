@@ -1,0 +1,26 @@
+schema_version: 3
+id: coach
+lemma: coach
+pos:
+- noun
+ipa:
+  us: /koʊtʃ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: huấn luyện viên
+  id: coach-1
+examples:
+- en: The new coach helped the sales team improve its presentation skills.
+  vi: Huấn luyện viên mới đã giúp nhóm bán hàng cải thiện kỹ năng thuyết trình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1342. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

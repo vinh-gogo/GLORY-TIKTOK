@@ -1,0 +1,27 @@
+schema_version: 3
+id: entitle
+lemma: entitle
+pos:
+- verb
+ipa:
+  us: /ɛnˈtaɪtəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: cho quyền, đủ tư cách được hưởng
+  id: entitle-1
+examples:
+- en: This card entitles you to a ten percent discount on all items.
+  vi: Thẻ này cho phép bạn được giảm giá mười phần trăm cho mọi mặt hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛnˈtaɪtəl/; /ɪnˈtaɪtəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2304. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

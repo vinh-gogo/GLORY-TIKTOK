@@ -1,0 +1,28 @@
+schema_version: 3
+id: documentary
+lemma: documentary
+pos:
+- noun
+ipa:
+  us: /ˌdɑkjəˈmɛntɚi/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: phim tài liệu
+  id: documentary-1
+examples:
+- en: We watched a documentary about the history of the railway last night.
+  vi: Tối qua chúng tôi đã xem một bộ phim tài liệu về lịch sử đường sắt.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌdɑkjəˈmɛntɚi/; /ˌdɑkjəˈmɛnɚi/; /ˌdɑkjuˈmɛntɚi/;
+    /ˌdɑkjuˈmɛnɚi/); IPA đang ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ
+    TSL hạng 630. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

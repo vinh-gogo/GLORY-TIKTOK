@@ -1,0 +1,26 @@
+schema_version: 3
+id: correction
+lemma: correction
+pos:
+- noun
+ipa:
+  us: /kɚˈɛkʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: sự sửa chữa, chỗ sửa lỗi
+  id: correction-1
+examples:
+- en: Please make the correction on page three and send me the final version.
+  vi: Vui lòng sửa lỗi ở trang ba và gửi cho tôi bản cuối cùng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 706. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

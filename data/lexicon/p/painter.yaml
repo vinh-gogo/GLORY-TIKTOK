@@ -1,0 +1,26 @@
+schema_version: 3
+id: painter
+lemma: painter
+pos:
+- noun
+ipa:
+  us: /ˈpeɪntɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: thợ sơn; họa sĩ
+  id: painter-1
+examples:
+- en: The painter will start working on the hallway on Monday.
+  vi: Thợ sơn sẽ bắt đầu sơn hành lang vào thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 268. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

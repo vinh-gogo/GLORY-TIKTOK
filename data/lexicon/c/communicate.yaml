@@ -1,0 +1,26 @@
+schema_version: 3
+id: communicate
+lemma: communicate
+pos:
+- verb
+ipa:
+  us: /kəˈmjunəˌkeɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: giao tiếp, truyền đạt
+  id: communicate-1
+examples:
+- en: Managers should communicate changes to their teams as early as possible.
+  vi: Các quản lý nên thông báo những thay đổi cho nhóm của mình càng sớm càng tốt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1800. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

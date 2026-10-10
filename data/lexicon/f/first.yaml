@@ -1,0 +1,27 @@
+schema_version: 3
+id: first
+lemma: first
+pos:
+- adjective
+- adverb
+ipa:
+  us: /fɝst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thứ nhất, đầu tiên
+  id: first-1
+examples:
+- en: The first step is to fill out the registration form online.
+  vi: Bước đầu tiên là điền vào mẫu đăng ký trực tuyến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 78. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

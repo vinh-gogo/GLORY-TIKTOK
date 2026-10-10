@@ -1,0 +1,27 @@
+schema_version: 3
+id: access
+lemma: access
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈækˌsɛs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: quyền truy cập; truy cập
+  id: access-1
+examples:
+- en: Only authorized staff have access to the confidential customer files.
+  vi: Chỉ nhân viên được ủy quyền mới có quyền truy cập các hồ sơ khách hàng mật.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 802. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: cleanliness
+lemma: cleanliness
+pos:
+- noun
+ipa:
+  us: /ˈklɛnlinɪs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: sự sạch sẽ
+  id: cleanliness-1
+examples:
+- en: Guests often comment on the cleanliness of our rooms in their reviews.
+  vi: Khách thường nhận xét về sự sạch sẽ của phòng chúng tôi trong các đánh giá.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1234. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: fancy
+lemma: fancy
+pos:
+- adjective
+ipa:
+  us: /ˈfænsi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: sang trọng, cầu kỳ
+  id: fancy-1
+examples:
+- en: They celebrated their anniversary at a fancy restaurant overlooking the river.
+  vi: Họ kỷ niệm ngày cưới tại một nhà hàng sang trọng nhìn ra sông.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2532. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

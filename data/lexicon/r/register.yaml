@@ -1,0 +1,27 @@
+schema_version: 3
+id: register
+lemma: register
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈrɛdʒɪstɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đăng ký; sổ đăng ký
+  id: register-1
+examples:
+- en: Please register online before the seminar to reserve your seat.
+  vi: Vui lòng đăng ký trực tuyến trước buổi hội thảo để giữ chỗ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1500. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

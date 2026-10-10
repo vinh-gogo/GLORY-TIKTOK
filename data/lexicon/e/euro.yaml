@@ -1,0 +1,27 @@
+schema_version: 3
+id: euro
+lemma: euro
+pos:
+- noun
+ipa:
+  us: /ˈjuroʊ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: đồng euro (tiền châu Âu)
+  id: euro-1
+examples:
+- en: The supplier asked us to pay the invoice in euros.
+  vi: Nhà cung cấp yêu cầu chúng tôi thanh toán hóa đơn bằng đồng euro.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈjuroʊ/; /ˈjʊroʊ/; /ˈjʊrə/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1132. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

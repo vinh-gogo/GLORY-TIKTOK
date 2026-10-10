@@ -1,0 +1,26 @@
+schema_version: 3
+id: room
+lemma: room
+pos:
+- noun
+ipa:
+  us: /rum/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: phòng; chỗ trống
+  id: room-1
+examples:
+- en: The meeting room is booked until two o'clock this afternoon.
+  vi: Phòng họp đã được đặt đến hai giờ chiều nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 254. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: unspecified
+lemma: unspecified
+pos:
+- adjective
+ipa:
+  us: /ənˈspɛsəˌfaɪd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: không được chỉ rõ, chưa xác định
+  id: unspecified-1
+examples:
+- en: The email mentioned an unspecified amount of money for travel expenses.
+  vi: Email đề cập đến một khoản tiền không rõ cụ thể cho chi phí đi lại.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 590. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

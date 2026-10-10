@@ -1,0 +1,26 @@
+schema_version: 3
+id: spouse
+lemma: spouse
+pos:
+- noun
+ipa:
+  us: /spaʊs/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: vợ hoặc chồng
+  id: spouse-1
+examples:
+- en: Employees may bring their spouse to the annual dinner at no charge.
+  vi: Nhân viên có thể đưa vợ hoặc chồng đến bữa tối thường niên miễn phí.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 744. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

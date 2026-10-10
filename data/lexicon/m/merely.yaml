@@ -1,0 +1,26 @@
+schema_version: 3
+id: merely
+lemma: merely
+pos:
+- adverb
+ipa:
+  us: /ˈmɪrli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: chỉ là, đơn thuần
+  id: merely-1
+examples:
+- en: This is merely a draft, so please do not share it yet.
+  vi: Đây chỉ là bản nháp, nên vui lòng chưa chia sẻ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1798. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

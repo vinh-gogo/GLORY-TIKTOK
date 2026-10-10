@@ -1,0 +1,26 @@
+schema_version: 3
+id: threat
+lemma: threat
+pos:
+- noun
+ipa:
+  us: /θrɛt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: mối đe dọa
+  id: threat-1
+examples:
+- en: Cheaper imports are a serious threat to local manufacturers.
+  vi: Hàng nhập khẩu rẻ hơn là mối đe dọa nghiêm trọng đối với các nhà sản xuất địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1348. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: impatient
+lemma: impatient
+pos:
+- adjective
+ipa:
+  us: /ˌɪmˈpeɪʃənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: thiếu kiên nhẫn, sốt ruột
+  id: impatient-1
+examples:
+- en: Customers became impatient when the line at the counter moved slowly.
+  vi: Khách hàng trở nên sốt ruột khi hàng người ở quầy di chuyển chậm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1140. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

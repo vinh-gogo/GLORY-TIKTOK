@@ -1,0 +1,26 @@
+schema_version: 3
+id: stimulate
+lemma: stimulate
+pos:
+- verb
+ipa:
+  us: /ˈstɪmjəˌleɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: kích thích, thúc đẩy
+  id: stimulate-1
+examples:
+- en: Lower interest rates may stimulate spending and help the economy grow.
+  vi: Lãi suất thấp hơn có thể kích thích chi tiêu và giúp nền kinh tế tăng trưởng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2621. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

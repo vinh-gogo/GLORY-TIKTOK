@@ -1,0 +1,26 @@
+schema_version: 3
+id: tile
+lemma: tile
+pos:
+- noun
+ipa:
+  us: /taɪl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: gạch lát, ngói
+  id: tile-1
+examples:
+- en: They chose white tile for the kitchen floor during the renovation.
+  vi: Họ chọn gạch lát màu trắng cho sàn bếp trong đợt cải tạo.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1185. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

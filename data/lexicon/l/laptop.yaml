@@ -1,0 +1,26 @@
+schema_version: 3
+id: laptop
+lemma: laptop
+pos:
+- noun
+ipa:
+  us: /ˈlæpˌtɑp/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: máy tính xách tay
+  id: laptop-1
+examples:
+- en: Employees may bring their own laptop to the training session.
+  vi: Nhân viên có thể mang máy tính xách tay của riêng mình đến buổi đào tạo.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 96. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

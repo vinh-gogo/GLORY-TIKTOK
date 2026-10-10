@@ -1,0 +1,27 @@
+schema_version: 3
+id: message
+lemma: message
+pos:
+- noun
+ipa:
+  us: /ˈmɛsədʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: tin nhắn, lời nhắn
+  id: message-1
+examples:
+- en: I left a message for Mr. Kim, but he has not replied.
+  vi: Tôi đã để lại lời nhắn cho ông Kim nhưng ông ấy chưa trả lời.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈmɛsədʒ/; /ˈmɛsɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 863. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

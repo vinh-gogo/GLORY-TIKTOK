@@ -1,0 +1,27 @@
+schema_version: 3
+id: consumption
+lemma: consumption
+pos:
+- noun
+ipa:
+  us: /kənˈsʌmpʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự tiêu thụ, mức tiêu thụ
+  id: consumption-1
+examples:
+- en: The new machines have reduced our energy consumption by twenty percent.
+  vi: Các máy mới đã giảm mức tiêu thụ năng lượng của chúng tôi hai mươi phần trăm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/kənˈsʌmpʃən/; /kənˈsʌmʃən/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 758. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

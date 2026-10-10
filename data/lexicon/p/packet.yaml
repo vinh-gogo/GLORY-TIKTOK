@@ -1,0 +1,27 @@
+schema_version: 3
+id: packet
+lemma: packet
+pos:
+- noun
+ipa:
+  us: /ˈpækət/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: gói nhỏ, xấp tài liệu
+  id: packet-1
+examples:
+- en: Each participant received an information packet at the registration desk.
+  vi: Mỗi người tham gia nhận được một xấp tài liệu thông tin tại quầy đăng ký.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈpækət/; /ˈpækɪt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 358. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

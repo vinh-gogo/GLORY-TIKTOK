@@ -1,0 +1,26 @@
+schema_version: 3
+id: sister
+lemma: sister
+pos:
+- noun
+ipa:
+  us: /ˈsɪstɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chị gái, em gái
+  id: sister-1
+examples:
+- en: My older sister manages a small bookstore in the city center.
+  vi: Chị gái tôi quản lý một hiệu sách nhỏ ở trung tâm thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 964. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

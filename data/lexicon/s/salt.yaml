@@ -1,0 +1,26 @@
+schema_version: 3
+id: salt
+lemma: salt
+pos:
+- noun
+ipa:
+  us: /sɔlt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: muối
+  id: salt-1
+examples:
+- en: Please pass the salt, because this soup needs a little more flavor.
+  vi: Làm ơn đưa giúp muối, vì món súp này cần thêm chút hương vị.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2459. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

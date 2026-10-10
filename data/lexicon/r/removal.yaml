@@ -1,0 +1,26 @@
+schema_version: 3
+id: removal
+lemma: removal
+pos:
+- noun
+ipa:
+  us: /rɪˈmuvəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự loại bỏ, việc dọn đi
+  id: removal-1
+examples:
+- en: The removal of old files from the server will begin next Monday.
+  vi: Việc xóa các tập tin cũ khỏi máy chủ sẽ bắt đầu vào thứ Hai tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 616. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

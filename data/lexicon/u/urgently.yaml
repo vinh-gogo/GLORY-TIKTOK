@@ -1,0 +1,26 @@
+schema_version: 3
+id: urgently
+lemma: urgently
+pos:
+- adverb
+ipa:
+  us: /ˈɝdʒəntli/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: một cách khẩn cấp
+  id: urgently-1
+examples:
+- en: We urgently need more staff to handle the increase in customer orders.
+  vi: Chúng tôi cần gấp thêm nhân viên để xử lý lượng đơn hàng tăng lên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 799. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

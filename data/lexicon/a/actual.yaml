@@ -1,0 +1,27 @@
+schema_version: 3
+id: actual
+lemma: actual
+pos:
+- adjective
+ipa:
+  us: /ˈæktʃəwəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: thực tế, có thật
+  id: actual-1
+examples:
+- en: The actual cost of the project was lower than we expected.
+  vi: Chi phí thực tế của dự án thấp hơn chúng tôi dự kiến.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈæktʃəwəl/; /ˈækʃəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1335. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

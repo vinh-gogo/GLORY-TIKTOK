@@ -1,0 +1,26 @@
+schema_version: 3
+id: exam
+lemma: exam
+pos:
+- noun
+ipa:
+  us: /ɪɡˈzæm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: kỳ thi; cuộc kiểm tra
+  id: exam-1
+examples:
+- en: Employees must pass a safety exam before using the machinery.
+  vi: Nhân viên phải vượt qua bài kiểm tra an toàn trước khi sử dụng máy móc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2244. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

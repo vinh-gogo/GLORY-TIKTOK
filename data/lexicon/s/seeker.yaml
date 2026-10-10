@@ -1,0 +1,26 @@
+schema_version: 3
+id: seeker
+lemma: seeker
+pos:
+- noun
+ipa:
+  us: /ˈsikɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: người tìm kiếm (vd job seeker)
+  id: seeker-1
+examples:
+- en: Job seekers lined up outside the building for the career fair.
+  vi: Những người tìm việc xếp hàng bên ngoài tòa nhà để dự ngày hội việc làm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 428. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: mortgage
+lemma: mortgage
+pos:
+- noun
+ipa:
+  us: /ˈmɔrɡədʒ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: khoản vay thế chấp mua nhà
+  id: mortgage-1
+examples:
+- en: They applied for a mortgage to buy a small house near the city center.
+  vi: Họ xin vay thế chấp để mua một căn nhà nhỏ gần trung tâm thành phố.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈmɔrɡədʒ/; /ˈmɔrɡɪdʒ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2443. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

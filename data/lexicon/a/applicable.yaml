@@ -1,0 +1,26 @@
+schema_version: 3
+id: applicable
+lemma: applicable
+pos:
+- adjective
+ipa:
+  us: /ˈæpləkəbəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: có thể áp dụng, thích hợp
+  id: applicable-1
+examples:
+- en: This discount is not applicable to products that are already on sale.
+  vi: Giảm giá này không áp dụng cho các sản phẩm đang được khuyến mãi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 624. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

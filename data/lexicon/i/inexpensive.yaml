@@ -1,0 +1,26 @@
+schema_version: 3
+id: inexpensive
+lemma: inexpensive
+pos:
+- adjective
+ipa:
+  us: /ˌɪnɪkˈspɛnsɪv/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: rẻ, không đắt
+  id: inexpensive-1
+examples:
+- en: We found an inexpensive restaurant near the convention center for lunch.
+  vi: Chúng tôi tìm được một nhà hàng giá rẻ gần trung tâm hội nghị để ăn trưa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 483. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

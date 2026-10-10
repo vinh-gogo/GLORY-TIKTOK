@@ -1,0 +1,26 @@
+schema_version: 3
+id: planner
+lemma: planner
+pos:
+- noun
+ipa:
+  us: /ˈplænɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: người lập kế hoạch; sổ kế hoạch
+  id: planner-1
+examples:
+- en: The wedding planner confirmed the flowers, the music, and the dinner menu.
+  vi: Người lập kế hoạch đám cưới đã xác nhận hoa, nhạc và thực đơn bữa tối.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 530. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

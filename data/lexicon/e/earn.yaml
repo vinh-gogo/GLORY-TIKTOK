@@ -1,0 +1,26 @@
+schema_version: 3
+id: earn
+lemma: earn
+pos:
+- verb
+ipa:
+  us: /ɝn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: kiếm được, giành được
+  id: earn-1
+examples:
+- en: Employees can earn extra bonuses when they exceed their monthly sales targets.
+  vi: Nhân viên có thể kiếm thêm tiền thưởng khi vượt chỉ tiêu doanh số hằng tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 926. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

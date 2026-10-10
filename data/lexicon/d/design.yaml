@@ -1,0 +1,27 @@
+schema_version: 3
+id: design
+lemma: design
+pos:
+- noun
+- verb
+ipa:
+  us: /dɪˈzaɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: thiết kế
+  id: design-1
+examples:
+- en: The team presented a new design for the company's mobile app.
+  vi: Nhóm đã trình bày một thiết kế mới cho ứng dụng di động của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 441. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

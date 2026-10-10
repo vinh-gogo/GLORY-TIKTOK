@@ -1,0 +1,27 @@
+schema_version: 3
+id: wire
+lemma: wire
+pos:
+- noun
+ipa:
+  us: /ˈwaɪɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: dây điện, dây kim loại
+  id: wire-1
+examples:
+- en: An electrician replaced the damaged wire behind the wall panel.
+  vi: Một thợ điện đã thay sợi dây bị hỏng phía sau tấm ốp tường.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈwaɪɚ/; /waɪr/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2038. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: bound
+lemma: bound
+pos:
+- adjective
+ipa:
+  us: /baʊnd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: chắc chắn sẽ; có nghĩa vụ; đang đi tới
+  id: bound-1
+examples:
+- en: Prices are bound to rise if the supply of raw materials drops.
+  vi: Giá chắc chắn sẽ tăng nếu nguồn cung nguyên liệu giảm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Nhiều nghĩa/từ loại (bound to, bound for, bound by; danh từ/động từ bound =
+    bước nhảy, giới hạn); cần xác nhận nghĩa ưu tiên. — Mục từ TSL hạng 1107. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

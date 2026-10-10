@@ -1,0 +1,26 @@
+schema_version: 3
+id: checkout
+lemma: checkout
+pos:
+- noun
+ipa:
+  us: /ˈtʃɛˌkaʊt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: quầy thanh toán, việc trả phòng
+  id: checkout-1
+examples:
+- en: There were only two staff members at the checkout during the lunch rush.
+  vi: Chỉ có hai nhân viên ở quầy thanh toán trong giờ cao điểm buổi trưa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 665. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

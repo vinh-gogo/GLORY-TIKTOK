@@ -1,0 +1,26 @@
+schema_version: 3
+id: cat
+lemma: cat
+pos:
+- noun
+ipa:
+  us: /kæt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: con mèo
+  id: cat-1
+examples:
+- en: Our neighbor's cat sleeps on the wall outside my window.
+  vi: Con mèo của nhà hàng xóm ngủ trên bức tường ngoài cửa sổ nhà tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1678. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

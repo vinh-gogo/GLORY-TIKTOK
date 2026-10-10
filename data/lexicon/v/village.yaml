@@ -1,0 +1,27 @@
+schema_version: 3
+id: village
+lemma: village
+pos:
+- noun
+ipa:
+  us: /ˈvɪlədʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: ngôi làng
+  id: village-1
+examples:
+- en: My grandparents still live in a quiet village near the northern mountains.
+  vi: Ông bà tôi vẫn sống trong một ngôi làng yên tĩnh gần vùng núi phía bắc.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈvɪlədʒ/; /ˈvɪlɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 815. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

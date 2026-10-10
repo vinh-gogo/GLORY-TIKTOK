@@ -1,0 +1,26 @@
+schema_version: 3
+id: hide
+lemma: hide
+pos:
+- verb
+ipa:
+  us: /haɪd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: giấu, che giấu
+  id: hide-1
+examples:
+- en: He tried to hide his disappointment when he heard the news.
+  vi: Anh ấy cố giấu sự thất vọng khi nghe tin đó.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1247. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

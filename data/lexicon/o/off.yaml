@@ -1,0 +1,27 @@
+schema_version: 3
+id: 'off'
+lemma: 'off'
+pos:
+- adverb
+- preposition
+ipa:
+  us: /ɔf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tắt; rời khỏi; nghỉ (không làm việc)
+  id: off-1
+examples:
+- en: Please turn off the lights and lock the door when you leave.
+  vi: Vui lòng tắt đèn và khóa cửa khi bạn rời đi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 150. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

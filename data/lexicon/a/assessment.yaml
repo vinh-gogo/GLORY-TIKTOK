@@ -1,0 +1,26 @@
+schema_version: 3
+id: assessment
+lemma: assessment
+pos:
+- noun
+ipa:
+  us: /əˈsɛsmənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: sự đánh giá
+  id: assessment-1
+examples:
+- en: The manager completed an assessment of each employee's performance.
+  vi: Người quản lý đã hoàn thành việc đánh giá hiệu suất của từng nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1475. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

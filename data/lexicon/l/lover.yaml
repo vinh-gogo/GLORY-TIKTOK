@@ -1,0 +1,26 @@
+schema_version: 3
+id: lover
+lemma: lover
+pos:
+- noun
+ipa:
+  us: /ˈlʌvɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: người yêu; người yêu thích (một thứ gì)
+  id: lover-1
+examples:
+- en: As a music lover, he attends every concert held in the city.
+  vi: Là người yêu âm nhạc, anh ấy tham dự mọi buổi hòa nhạc trong thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2711. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: ladder
+lemma: ladder
+pos:
+- noun
+ipa:
+  us: /ˈlædɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: cái thang
+  id: ladder-1
+examples:
+- en: The worker climbed a ladder to change the light bulb.
+  vi: Người công nhân leo lên thang để thay bóng đèn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 285. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

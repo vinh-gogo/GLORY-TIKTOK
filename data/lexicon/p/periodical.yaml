@@ -1,0 +1,26 @@
+schema_version: 3
+id: periodical
+lemma: periodical
+pos:
+- noun
+ipa:
+  us: /ˌpɪriˈɑdɪkəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tạp chí, ấn phẩm định kỳ
+  id: periodical-1
+examples:
+- en: The library keeps many business periodicals in the reading room on the second floor.
+  vi: Thư viện lưu nhiều tạp chí kinh doanh trong phòng đọc ở tầng hai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 731. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

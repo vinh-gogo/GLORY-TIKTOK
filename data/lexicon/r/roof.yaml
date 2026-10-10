@@ -1,0 +1,27 @@
+schema_version: 3
+id: roof
+lemma: roof
+pos:
+- noun
+ipa:
+  us: /ruf/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: mái nhà
+  id: roof-1
+examples:
+- en: The company installed solar panels on the roof of its warehouse.
+  vi: Công ty đã lắp các tấm pin mặt trời trên mái nhà kho của mình.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ruf/; /rʊf/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2016. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

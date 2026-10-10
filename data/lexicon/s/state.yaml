@@ -1,0 +1,27 @@
+schema_version: 3
+id: state
+lemma: state
+pos:
+- noun
+- verb
+ipa:
+  us: /steɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tiểu bang; tình trạng; nêu rõ
+  id: state-1
+examples:
+- en: Please state your full name and address on the application form.
+  vi: Vui lòng ghi rõ họ tên đầy đủ và địa chỉ của bạn trên đơn đăng ký.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 199. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

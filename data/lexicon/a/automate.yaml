@@ -1,0 +1,26 @@
+schema_version: 3
+id: automate
+lemma: automate
+pos:
+- verb
+ipa:
+  us: /ˈɔtəˌmeɪt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: tự động hóa
+  id: automate-1
+examples:
+- en: The plant plans to automate several steps of the assembly line.
+  vi: Nhà máy dự định tự động hóa một số công đoạn của dây chuyền lắp ráp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 388. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

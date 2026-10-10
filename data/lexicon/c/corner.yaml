@@ -1,0 +1,26 @@
+schema_version: 3
+id: corner
+lemma: corner
+pos:
+- noun
+ipa:
+  us: /ˈkɔrnɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: góc (phố, phòng)
+  id: corner-1
+examples:
+- en: The bank is on the corner of Main Street and Oak Avenue.
+  vi: Ngân hàng nằm ở góc đường Main và đại lộ Oak.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1188. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: coast
+lemma: coast
+pos:
+- noun
+ipa:
+  us: /koʊst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: bờ biển, duyên hải
+  id: coast-1
+examples:
+- en: The hotel is located on the coast, just a short walk from the beach.
+  vi: Khách sạn nằm ven biển, chỉ cách bãi biển một đoạn đi bộ ngắn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1728. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: strategic
+lemma: strategic
+pos:
+- adjective
+ipa:
+  us: /strəˈtidʒɪk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- corporate-development
+senses:
+- meaning_vi: mang tính chiến lược
+  id: strategic-1
+examples:
+- en: The board approved a strategic plan to expand into Asian markets.
+  vi: Hội đồng quản trị đã phê duyệt kế hoạch chiến lược mở rộng sang thị trường châu Á.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 876. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

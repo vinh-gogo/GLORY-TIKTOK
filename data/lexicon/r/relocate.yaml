@@ -1,0 +1,26 @@
+schema_version: 3
+id: relocate
+lemma: relocate
+pos:
+- verb
+ipa:
+  us: /ˌriˈloʊkeɪt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: chuyển địa điểm, di dời
+  id: relocate-1
+examples:
+- en: The company plans to relocate its headquarters to a larger building.
+  vi: Công ty có kế hoạch di dời trụ sở sang một tòa nhà lớn hơn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 236. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

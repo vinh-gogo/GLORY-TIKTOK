@@ -1,0 +1,27 @@
+schema_version: 3
+id: bargain
+lemma: bargain
+pos:
+- noun
+ipa:
+  us: /ˈbɑrɡən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: món hời, hàng giá rẻ
+  id: bargain-1
+examples:
+- en: At that price, the laptop is a real bargain.
+  vi: Với mức giá đó, chiếc máy tính xách tay này thực sự là một món hời.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈbɑrɡən/; /ˈbɑrɡɪn/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 230. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

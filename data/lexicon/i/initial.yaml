@@ -1,0 +1,26 @@
+schema_version: 3
+id: initial
+lemma: initial
+pos:
+- adjective
+ipa:
+  us: /ˌɪˈnɪʃəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: ban đầu, đầu tiên
+  id: initial-1
+examples:
+- en: The initial cost of the equipment is high but it saves money later.
+  vi: Chi phí ban đầu của thiết bị cao nhưng sau này tiết kiệm được tiền.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1282. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

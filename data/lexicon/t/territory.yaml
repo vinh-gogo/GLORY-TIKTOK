@@ -1,0 +1,26 @@
+schema_version: 3
+id: territory
+lemma: territory
+pos:
+- noun
+ipa:
+  us: /ˈtɛrɪˌtɔri/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: lãnh thổ; địa bàn phụ trách
+  id: territory-1
+examples:
+- en: Each sales manager covers a different territory in the region.
+  vi: Mỗi giám đốc kinh doanh phụ trách một địa bàn khác nhau trong khu vực.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2147. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

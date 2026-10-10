@@ -1,0 +1,28 @@
+schema_version: 3
+id: excuse
+lemma: excuse
+pos:
+- noun
+- verb
+ipa:
+  us: /ɪksˈkjus/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: lời bào chữa; tha thứ, miễn cho
+  id: excuse-1
+examples:
+- en: He gave no excuse for missing the morning meeting.
+  vi: Anh ấy không đưa ra lý do nào cho việc vắng mặt trong cuộc họp buổi sáng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɪksˈkjus/; /ɪksˈkjuz/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1915. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

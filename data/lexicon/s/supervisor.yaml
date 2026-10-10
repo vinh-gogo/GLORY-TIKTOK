@@ -1,0 +1,26 @@
+schema_version: 3
+id: supervisor
+lemma: supervisor
+pos:
+- noun
+ipa:
+  us: /ˈsupɚˌvaɪzɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: người giám sát, cấp trên trực tiếp
+  id: supervisor-1
+examples:
+- en: Please ask your supervisor to approve the vacation request.
+  vi: Hãy nhờ cấp trên trực tiếp của bạn phê duyệt đơn xin nghỉ phép.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 13. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: sleepy
+lemma: sleepy
+pos:
+- adjective
+ipa:
+  us: /ˈslipi/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: buồn ngủ
+  id: sleepy-1
+examples:
+- en: I felt sleepy during the long afternoon meeting after lunch.
+  vi: Tôi thấy buồn ngủ trong cuộc họp dài vào buổi chiều sau bữa trưa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 947. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

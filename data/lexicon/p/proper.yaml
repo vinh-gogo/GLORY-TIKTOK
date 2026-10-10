@@ -1,0 +1,26 @@
+schema_version: 3
+id: proper
+lemma: proper
+pos:
+- adjective
+ipa:
+  us: /ˈprɑpɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đúng đắn, phù hợp
+  id: proper-1
+examples:
+- en: Please follow the proper procedure when you submit a travel request.
+  vi: Vui lòng làm theo đúng quy trình khi bạn nộp yêu cầu đi công tác.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1484. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: memorize
+lemma: memorize
+pos:
+- verb
+ipa:
+  us: /ˈmɛmɚˌaɪz/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: ghi nhớ, học thuộc lòng
+  id: memorize-1
+examples:
+- en: You should memorize your password and never write it on paper.
+  vi: Bạn nên ghi nhớ mật khẩu và đừng bao giờ viết nó ra giấy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 924. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

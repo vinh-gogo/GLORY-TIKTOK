@@ -1,0 +1,26 @@
+schema_version: 3
+id: login
+lemma: login
+pos:
+- noun
+ipa:
+  us: /ˈlɔˌɡɪn/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: việc đăng nhập, tên đăng nhập
+  id: login-1
+examples:
+- en: Please enter your login and password to access the employee website.
+  vi: Vui lòng nhập tên đăng nhập và mật khẩu để vào trang web nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 525. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

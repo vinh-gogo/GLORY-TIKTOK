@@ -1,0 +1,26 @@
+schema_version: 3
+id: booklet
+lemma: booklet
+pos:
+- noun
+ipa:
+  us: /ˈbʊklɪt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tập sách nhỏ
+  id: booklet-1
+examples:
+- en: A booklet with safety instructions is included in the box.
+  vi: Một tập sách nhỏ có hướng dẫn an toàn được kèm trong hộp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 351. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

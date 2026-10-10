@@ -1,0 +1,26 @@
+schema_version: 3
+id: contain
+lemma: contain
+pos:
+- verb
+ipa:
+  us: /kənˈteɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: chứa, bao gồm
+  id: contain-1
+examples:
+- en: This box contains twenty samples of our latest products.
+  vi: Chiếc hộp này chứa hai mươi mẫu sản phẩm mới nhất của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 663. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

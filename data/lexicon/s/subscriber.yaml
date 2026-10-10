@@ -1,0 +1,26 @@
+schema_version: 3
+id: subscriber
+lemma: subscriber
+pos:
+- noun
+ipa:
+  us: /səbˈskraɪbɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: người đăng ký (báo, dịch vụ)
+  id: subscriber-1
+examples:
+- en: Subscribers receive the magazine at their homes every month.
+  vi: Người đăng ký nhận tạp chí tại nhà mỗi tháng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 350. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

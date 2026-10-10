@@ -1,0 +1,26 @@
+schema_version: 3
+id: strongly
+lemma: strongly
+pos:
+- adverb
+ipa:
+  us: /ˈstrɔŋli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: một cách mạnh mẽ
+  id: strongly-1
+examples:
+- en: We strongly recommend that you book your tickets early.
+  vi: Chúng tôi rất khuyên bạn nên đặt vé sớm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1545. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

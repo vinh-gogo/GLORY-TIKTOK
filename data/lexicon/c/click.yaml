@@ -1,0 +1,27 @@
+schema_version: 3
+id: click
+lemma: click
+pos:
+- verb
+- noun
+ipa:
+  us: /klɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: nhấp chuột
+  id: click-1
+examples:
+- en: Click the blue button at the bottom of the page to submit your form.
+  vi: Hãy nhấp vào nút màu xanh ở cuối trang để gửi biểu mẫu của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2514. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

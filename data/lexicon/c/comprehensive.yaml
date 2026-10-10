@@ -1,0 +1,26 @@
+schema_version: 3
+id: comprehensive
+lemma: comprehensive
+pos:
+- adjective
+ipa:
+  us: /ˌkɑmpriˈhɛnsɪv/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: toàn diện, bao quát
+  id: comprehensive-1
+examples:
+- en: The company offers a comprehensive training program for new staff.
+  vi: Công ty cung cấp chương trình đào tạo toàn diện cho nhân viên mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2384. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

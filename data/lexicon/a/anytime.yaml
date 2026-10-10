@@ -1,0 +1,26 @@
+schema_version: 3
+id: anytime
+lemma: anytime
+pos:
+- adverb
+ipa:
+  us: /ˈɛniˌtaɪm/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bất cứ lúc nào
+  id: anytime-1
+examples:
+- en: You can call our support team anytime if the software stops working.
+  vi: Bạn có thể gọi đội hỗ trợ bất cứ lúc nào nếu phần mềm ngừng hoạt động.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 456. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: upcoming
+lemma: upcoming
+pos:
+- adjective
+ipa:
+  us: /ˈʌpˌkʌmɪŋ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sắp tới
+  id: upcoming-1
+examples:
+- en: Everyone should prepare for the upcoming product launch.
+  vi: Mọi người nên chuẩn bị cho đợt ra mắt sản phẩm sắp tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 86. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

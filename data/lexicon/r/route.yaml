@@ -1,0 +1,27 @@
+schema_version: 3
+id: route
+lemma: route
+pos:
+- noun
+ipa:
+  us: /rut/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: tuyến đường, lộ trình
+  id: route-1
+examples:
+- en: The delivery driver took a shorter route to avoid the traffic.
+  vi: Tài xế giao hàng chọn một tuyến đường ngắn hơn để tránh kẹt xe.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rut/; /raʊt/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1410. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

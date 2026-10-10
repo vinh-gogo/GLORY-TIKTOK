@@ -1,0 +1,26 @@
+schema_version: 3
+id: myself
+lemma: myself
+pos:
+- pronoun
+ipa:
+  us: /ˌmaɪˈsɛlf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chính tôi, tự tôi
+  id: myself-1
+examples:
+- en: I will finish the report myself before the meeting tomorrow.
+  vi: Tôi sẽ tự hoàn thành báo cáo trước cuộc họp ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 669. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

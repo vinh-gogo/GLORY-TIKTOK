@@ -1,0 +1,27 @@
+schema_version: 3
+id: classic
+lemma: classic
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈklæsɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: kinh điển, cổ điển
+  id: classic-1
+examples:
+- en: The theater will show several classic films this summer.
+  vi: Rạp chiếu phim sẽ chiếu một số phim kinh điển vào mùa hè này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1875. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

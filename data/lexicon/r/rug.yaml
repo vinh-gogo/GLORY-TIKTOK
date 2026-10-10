@@ -1,0 +1,26 @@
+schema_version: 3
+id: rug
+lemma: rug
+pos:
+- noun
+ipa:
+  us: /rʌɡ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: tấm thảm nhỏ
+  id: rug-1
+examples:
+- en: A thick rug covers the wooden floor of the meeting room.
+  vi: Một tấm thảm dày phủ lên sàn gỗ của phòng họp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1079. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

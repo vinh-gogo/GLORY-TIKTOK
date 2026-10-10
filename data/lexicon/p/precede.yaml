@@ -1,0 +1,26 @@
+schema_version: 3
+id: precede
+lemma: precede
+pos:
+- verb
+ipa:
+  us: /prɪˈsid/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đi trước, xảy ra trước
+  id: precede-1
+examples:
+- en: A short introduction will precede the main presentation.
+  vi: Một phần giới thiệu ngắn sẽ diễn ra trước bài thuyết trình chính.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 81. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: young
+lemma: young
+pos:
+- adjective
+ipa:
+  us: /jʌŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trẻ, trẻ tuổi
+  id: young-1
+examples:
+- en: The firm hires many young graduates who are eager to learn.
+  vi: Công ty tuyển nhiều sinh viên mới tốt nghiệp còn trẻ và ham học hỏi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 238. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

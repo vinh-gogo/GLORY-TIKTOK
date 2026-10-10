@@ -1,0 +1,27 @@
+schema_version: 3
+id: dispute
+lemma: dispute
+pos:
+- noun
+- verb
+ipa:
+  us: /dɪsˈpjut/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tranh chấp, cuộc tranh cãi
+  id: dispute-1
+examples:
+- en: The two firms are trying to settle their dispute over the contract.
+  vi: Hai công ty đang cố gắng giải quyết tranh chấp về hợp đồng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2029. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

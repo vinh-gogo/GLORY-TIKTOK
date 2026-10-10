@@ -1,0 +1,26 @@
+schema_version: 3
+id: indeed
+lemma: indeed
+pos:
+- adverb
+ipa:
+  us: /ˌɪnˈdid/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: quả thật, thực sự
+  id: indeed-1
+examples:
+- en: The presentation was indeed helpful for all the new employees.
+  vi: Buổi thuyết trình quả thật hữu ích cho tất cả nhân viên mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 697. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

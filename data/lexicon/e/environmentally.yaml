@@ -1,0 +1,27 @@
+schema_version: 3
+id: environmentally
+lemma: environmentally
+pos:
+- adverb
+ipa:
+  us: /ɪnˌvaɪrənˈmɛntəli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- manufacturing
+senses:
+- meaning_vi: về mặt môi trường
+  id: environmentally-1
+examples:
+- en: The company is committed to making environmentally friendly packaging for all products.
+  vi: Công ty cam kết làm bao bì thân thiện với môi trường cho mọi sản phẩm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɪnˌvaɪrənˈmɛntəli/; /ɪnˌvaɪrənˈmɛnəli/); IPA đang
+    ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 818. IPA lấy từ
+    CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất
+    (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

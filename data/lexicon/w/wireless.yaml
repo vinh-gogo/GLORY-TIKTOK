@@ -1,0 +1,26 @@
+schema_version: 3
+id: wireless
+lemma: wireless
+pos:
+- adjective
+ipa:
+  us: /ˈwaɪrlɪs/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: không dây
+  id: wireless-1
+examples:
+- en: Guests can use the wireless Internet in all hotel rooms.
+  vi: Khách có thể dùng Internet không dây trong tất cả các phòng khách sạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 410. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

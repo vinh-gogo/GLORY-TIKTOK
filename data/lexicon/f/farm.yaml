@@ -1,0 +1,26 @@
+schema_version: 3
+id: farm
+lemma: farm
+pos:
+- noun
+ipa:
+  us: /fɑrm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: nông trại
+  id: farm-1
+examples:
+- en: The restaurant buys fresh vegetables directly from a farm outside the city.
+  vi: Nhà hàng mua rau tươi trực tiếp từ một nông trại ngoài thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1083. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

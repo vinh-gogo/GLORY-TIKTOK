@@ -1,0 +1,26 @@
+schema_version: 3
+id: consideration
+lemma: consideration
+pos:
+- noun
+ipa:
+  us: /kənˌsɪdɚˈeɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự cân nhắc, xem xét
+  id: consideration-1
+examples:
+- en: After careful consideration, the board approved the new budget plan.
+  vi: Sau khi cân nhắc kỹ lưỡng, hội đồng quản trị đã phê duyệt kế hoạch ngân sách mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1344. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

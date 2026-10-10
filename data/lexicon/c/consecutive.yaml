@@ -1,0 +1,26 @@
+schema_version: 3
+id: consecutive
+lemma: consecutive
+pos:
+- adjective
+ipa:
+  us: /kənˈsɛkjətɪv/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: liên tiếp, liên tục
+  id: consecutive-1
+examples:
+- en: Sales have increased for five consecutive months at our Seoul branch.
+  vi: Doanh số đã tăng trong năm tháng liên tiếp tại chi nhánh Seoul của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 966. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

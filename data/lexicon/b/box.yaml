@@ -1,0 +1,26 @@
+schema_version: 3
+id: box
+lemma: box
+pos:
+- noun
+ipa:
+  us: /bɑks/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: cái hộp, thùng
+  id: box-1
+examples:
+- en: The package arrived in a large box that was slightly damaged.
+  vi: Gói hàng đến trong một chiếc hộp lớn bị hư hại nhẹ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 861. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

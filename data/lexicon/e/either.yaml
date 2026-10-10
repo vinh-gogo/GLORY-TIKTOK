@@ -1,0 +1,28 @@
+schema_version: 3
+id: either
+lemma: either
+pos:
+- determiner
+- conjunction
+ipa:
+  us: /ˈiðɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: một trong hai; cũng không
+  id: either-1
+examples:
+- en: You can pay either by credit card or by bank transfer.
+  vi: Bạn có thể thanh toán bằng thẻ tín dụng hoặc bằng chuyển khoản ngân hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈiðɚ/; /ˈaɪðɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 371. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: band
+lemma: band
+pos:
+- noun
+ipa:
+  us: /bænd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: ban nhạc; dải, băng
+  id: band-1
+examples:
+- en: A local band will perform at the company's anniversary party on Friday.
+  vi: Một ban nhạc địa phương sẽ biểu diễn tại tiệc kỷ niệm của công ty vào thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1087. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

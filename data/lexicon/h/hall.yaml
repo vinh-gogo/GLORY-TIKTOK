@@ -1,0 +1,26 @@
+schema_version: 3
+id: hall
+lemma: hall
+pos:
+- noun
+ipa:
+  us: /hɔl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: hội trường, sảnh
+  id: hall-1
+examples:
+- en: The seminar will be held in the main hall on the second floor.
+  vi: Buổi hội thảo sẽ được tổ chức tại hội trường chính trên tầng hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1480. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

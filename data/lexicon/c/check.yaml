@@ -1,0 +1,27 @@
+schema_version: 3
+id: check
+lemma: check
+pos:
+- verb
+- noun
+ipa:
+  us: /tʃɛk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: kiểm tra; séc
+  id: check-1
+examples:
+- en: Please check the figures again before sending the report to the director.
+  vi: Vui lòng kiểm tra lại các số liệu trước khi gửi báo cáo cho giám đốc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 580. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

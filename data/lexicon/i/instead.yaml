@@ -1,0 +1,26 @@
+schema_version: 3
+id: instead
+lemma: instead
+pos:
+- adverb
+ipa:
+  us: /ˌɪnˈstɛd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thay vào đó
+  id: instead-1
+examples:
+- en: The train was canceled, so we took a bus instead.
+  vi: Chuyến tàu bị hủy nên chúng tôi đi xe buýt thay vào đó.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 553. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

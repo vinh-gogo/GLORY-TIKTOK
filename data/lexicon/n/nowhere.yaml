@@ -1,0 +1,27 @@
+schema_version: 3
+id: nowhere
+lemma: nowhere
+pos:
+- adverb
+ipa:
+  us: /ˈnoʊˌwɛr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: không nơi nào, chẳng ở đâu
+  id: nowhere-1
+examples:
+- en: The missing file was nowhere to be found on the shared drive.
+  vi: Không thể tìm thấy tệp bị mất ở bất cứ đâu trên ổ đĩa chung.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈnoʊˌwɛr/; /ˈnoʊhˌwɛr/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2638. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

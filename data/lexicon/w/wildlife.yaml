@@ -1,0 +1,26 @@
+schema_version: 3
+id: wildlife
+lemma: wildlife
+pos:
+- noun
+ipa:
+  us: /ˈwaɪldˌlaɪf/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: động vật hoang dã
+  id: wildlife-1
+examples:
+- en: The national park is a great place to see rare wildlife.
+  vi: Công viên quốc gia là nơi tuyệt vời để ngắm động vật hoang dã quý hiếm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 560. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

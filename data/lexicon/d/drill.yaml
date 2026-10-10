@@ -1,0 +1,27 @@
+schema_version: 3
+id: drill
+lemma: drill
+pos:
+- noun
+- verb
+ipa:
+  us: /drɪl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: máy khoan; cuộc diễn tập
+  id: drill-1
+examples:
+- en: The workers used an electric drill to make holes in the wall.
+  vi: Công nhân dùng máy khoan điện để khoan lỗ trên tường.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 331. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

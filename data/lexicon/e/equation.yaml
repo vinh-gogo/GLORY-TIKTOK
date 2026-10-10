@@ -1,0 +1,26 @@
+schema_version: 3
+id: equation
+lemma: equation
+pos:
+- noun
+ipa:
+  us: /ɪˈkweɪʒən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: phương trình
+  id: equation-1
+examples:
+- en: The engineer used a simple equation to calculate the strength of the bridge.
+  vi: Kỹ sư dùng một phương trình đơn giản để tính độ bền của cây cầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2489. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

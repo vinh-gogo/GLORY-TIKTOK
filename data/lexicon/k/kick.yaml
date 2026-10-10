@@ -1,0 +1,27 @@
+schema_version: 3
+id: kick
+lemma: kick
+pos:
+- verb
+- noun
+ipa:
+  us: /kɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: đá; cú đá
+  id: kick-1
+examples:
+- en: The children like to kick a ball in the park after school.
+  vi: Bọn trẻ thích đá bóng trong công viên sau giờ học.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1730. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

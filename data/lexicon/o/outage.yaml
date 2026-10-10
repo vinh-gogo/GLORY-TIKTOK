@@ -1,0 +1,27 @@
+schema_version: 3
+id: outage
+lemma: outage
+pos:
+- noun
+ipa:
+  us: /ˈaʊtədʒ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: sự cố mất điện, gián đoạn dịch vụ
+  id: outage-1
+examples:
+- en: A power outage stopped production at the plant for several hours.
+  vi: Sự cố mất điện đã làm ngừng sản xuất ở nhà máy trong nhiều giờ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈaʊtədʒ/; /ˈaʊtɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1156. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

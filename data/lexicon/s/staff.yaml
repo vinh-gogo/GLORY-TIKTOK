@@ -1,0 +1,26 @@
+schema_version: 3
+id: staff
+lemma: staff
+pos:
+- noun
+ipa:
+  us: /stæf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: nhân viên, đội ngũ nhân sự
+  id: staff-1
+examples:
+- en: All staff members are invited to the annual company picnic.
+  vi: Tất cả nhân viên đều được mời đến buổi dã ngoại thường niên của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 431. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

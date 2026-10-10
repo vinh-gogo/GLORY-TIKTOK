@@ -1,0 +1,26 @@
+schema_version: 3
+id: invitation
+lemma: invitation
+pos:
+- noun
+ipa:
+  us: /ˌɪnvɪˈteɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: lời mời, thiệp mời
+  id: invitation-1
+examples:
+- en: We received an invitation to the annual trade fair in Singapore.
+  vi: Chúng tôi nhận được lời mời tham dự hội chợ thương mại thường niên ở Singapore.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2194. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: ability
+lemma: ability
+pos:
+- noun
+ipa:
+  us: /əˈbɪləˌti/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: khả năng, năng lực
+  id: ability-1
+examples:
+- en: The job requires the ability to work well under pressure.
+  vi: Công việc đòi hỏi khả năng làm việc tốt dưới áp lực.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 779. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: whenever
+lemma: whenever
+pos:
+- conjunction
+ipa:
+  us: /wɛˈnɛvɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bất cứ khi nào
+  id: whenever-1
+examples:
+- en: Call me whenever you have questions about the schedule.
+  vi: Hãy gọi cho tôi bất cứ khi nào bạn có câu hỏi về lịch trình.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/wɛˈnɛvɚ/; /hwɛˈnɛvɚ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2127. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

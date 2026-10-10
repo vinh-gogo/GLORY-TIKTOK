@@ -1,0 +1,26 @@
+schema_version: 3
+id: music
+lemma: music
+pos:
+- noun
+ipa:
+  us: /ˈmjuzɪk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: âm nhạc
+  id: music-1
+examples:
+- en: The café plays soft music in the background during lunch hours.
+  vi: Quán cà phê mở nhạc nhẹ ở nền trong giờ ăn trưa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 392. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

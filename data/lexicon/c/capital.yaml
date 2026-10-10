@@ -1,0 +1,27 @@
+schema_version: 3
+id: capital
+lemma: capital
+pos:
+- noun
+ipa:
+  us: /ˈkæpətəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: vốn; thủ đô
+  id: capital-1
+examples:
+- en: The start-up needs more capital to expand into overseas markets.
+  vi: Công ty khởi nghiệp cần thêm vốn để mở rộng sang thị trường nước ngoài.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkæpətəl/; /ˈkæpɪtəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 789. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: combination
+lemma: combination
+pos:
+- noun
+ipa:
+  us: /ˌkɑmbəˈneɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự kết hợp
+  id: combination-1
+examples:
+- en: The product is a combination of simple design and strong performance.
+  vi: Sản phẩm là sự kết hợp giữa thiết kế đơn giản và hiệu suất mạnh mẽ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1552. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

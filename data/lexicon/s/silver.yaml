@@ -1,0 +1,27 @@
+schema_version: 3
+id: silver
+lemma: silver
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈsɪlvɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bạc; màu bạc
+  id: silver-1
+examples:
+- en: The company gave her a silver watch for ten years of service.
+  vi: Công ty tặng cô ấy một chiếc đồng hồ bạc cho mười năm công tác.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2033. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

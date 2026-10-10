@@ -1,0 +1,26 @@
+schema_version: 3
+id: entirely
+lemma: entirely
+pos:
+- adverb
+ipa:
+  us: /ɪnˈtaɪɚli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: hoàn toàn
+  id: entirely-1
+examples:
+- en: The project was entirely funded by a local investor.
+  vi: Dự án được tài trợ hoàn toàn bởi một nhà đầu tư địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1544. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: error
+lemma: error
+pos:
+- noun
+ipa:
+  us: /ˈɛrɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: lỗi, sai sót
+  id: error-1
+examples:
+- en: An error in the invoice caused a delay in the payment.
+  vi: Một sai sót trong hóa đơn đã gây ra sự chậm trễ trong thanh toán.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1497. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

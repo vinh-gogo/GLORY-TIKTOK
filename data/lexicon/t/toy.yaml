@@ -1,0 +1,26 @@
+schema_version: 3
+id: toy
+lemma: toy
+pos:
+- noun
+ipa:
+  us: /tɔɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: đồ chơi
+  id: toy-1
+examples:
+- en: The store sells a wide range of toys for children of all ages.
+  vi: Cửa hàng bán nhiều loại đồ chơi cho trẻ em mọi lứa tuổi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1994. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

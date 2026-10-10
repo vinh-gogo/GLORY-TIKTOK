@@ -1,0 +1,26 @@
+schema_version: 3
+id: auditor
+lemma: auditor
+pos:
+- noun
+ipa:
+  us: /ˈɔdɪtɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: kiểm toán viên
+  id: auditor-1
+examples:
+- en: An outside auditor will review our financial records next month.
+  vi: Một kiểm toán viên bên ngoài sẽ xem xét hồ sơ tài chính của chúng tôi vào tháng tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1030. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

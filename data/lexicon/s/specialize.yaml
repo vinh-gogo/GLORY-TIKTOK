@@ -1,0 +1,26 @@
+schema_version: 3
+id: specialize
+lemma: specialize
+pos:
+- verb
+ipa:
+  us: /ˈspɛʃəˌlaɪz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: chuyên về, chuyên môn hóa
+  id: specialize-1
+examples:
+- en: Our firm specializes in designing small apartments for young families.
+  vi: Công ty chúng tôi chuyên thiết kế các căn hộ nhỏ cho gia đình trẻ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2337. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

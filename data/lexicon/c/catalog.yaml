@@ -1,0 +1,26 @@
+schema_version: 3
+id: catalog
+lemma: catalog
+pos:
+- noun
+ipa:
+  us: /ˈkætəlɔɡ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: cuốn danh mục sản phẩm
+  id: catalog-1
+examples:
+- en: The new spring catalog includes over two hundred discounted items.
+  vi: Danh mục mùa xuân mới có hơn hai trăm mặt hàng giảm giá.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2651. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

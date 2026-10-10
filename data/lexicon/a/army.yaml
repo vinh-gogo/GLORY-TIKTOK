@@ -1,0 +1,26 @@
+schema_version: 3
+id: army
+lemma: army
+pos:
+- noun
+ipa:
+  us: /ˈɑrmi/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: quân đội
+  id: army-1
+examples:
+- en: He served in the army for several years before starting his business.
+  vi: Anh ấy phục vụ trong quân đội vài năm trước khi bắt đầu kinh doanh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1418. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

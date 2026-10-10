@@ -1,0 +1,26 @@
+schema_version: 3
+id: column
+lemma: column
+pos:
+- noun
+ipa:
+  us: /ˈkɑləm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cột (bảng biểu, báo, kiến trúc)
+  id: column-1
+examples:
+- en: Enter the total amount in the last column of the spreadsheet.
+  vi: Hãy nhập tổng số tiền vào cột cuối cùng của bảng tính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1721. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

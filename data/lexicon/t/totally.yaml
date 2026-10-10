@@ -1,0 +1,26 @@
+schema_version: 3
+id: totally
+lemma: totally
+pos:
+- adverb
+ipa:
+  us: /ˈtoʊtəli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: hoàn toàn
+  id: totally-1
+examples:
+- en: I totally agree with your plan to reduce the delivery time.
+  vi: Tôi hoàn toàn đồng ý với kế hoạch rút ngắn thời gian giao hàng của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1396. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

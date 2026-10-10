@@ -1,0 +1,27 @@
+schema_version: 3
+id: purchase
+lemma: purchase
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈpɝtʃəs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: mua; việc mua hàng
+  id: purchase-1
+examples:
+- en: Customers must show their receipt to return any purchase within thirty days.
+  vi: Khách hàng phải xuất trình biên lai để trả lại bất kỳ món hàng nào trong vòng ba mươi ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1002. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

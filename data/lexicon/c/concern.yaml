@@ -1,0 +1,27 @@
+schema_version: 3
+id: concern
+lemma: concern
+pos:
+- noun
+- verb
+ipa:
+  us: /kənˈsɝn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: mối lo ngại; liên quan đến
+  id: concern-1
+examples:
+- en: Several customers raised concerns about the delay in delivery.
+  vi: Một số khách hàng đã nêu lên mối lo ngại về việc giao hàng bị chậm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 303. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

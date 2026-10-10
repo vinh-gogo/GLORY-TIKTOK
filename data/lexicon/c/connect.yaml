@@ -1,0 +1,26 @@
+schema_version: 3
+id: connect
+lemma: connect
+pos:
+- verb
+ipa:
+  us: /kəˈnɛkt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: kết nối, nối
+  id: connect-1
+examples:
+- en: Please connect the printer to the computer using this cable.
+  vi: Vui lòng kết nối máy in với máy tính bằng dây cáp này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1264. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

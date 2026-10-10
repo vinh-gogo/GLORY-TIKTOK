@@ -1,0 +1,26 @@
+schema_version: 3
+id: program
+lemma: program
+pos:
+- noun
+ipa:
+  us: /ˈproʊˌɡræm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: chương trình
+  id: program-1
+examples:
+- en: The company launched a training program for all new sales staff.
+  vi: Công ty đã triển khai một chương trình đào tạo cho tất cả nhân viên bán hàng mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 240. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

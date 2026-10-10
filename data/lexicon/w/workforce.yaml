@@ -1,0 +1,26 @@
+schema_version: 3
+id: workforce
+lemma: workforce
+pos:
+- noun
+ipa:
+  us: /ˈwɝkˌfɔrs/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: lực lượng lao động
+  id: workforce-1
+examples:
+- en: The company plans to expand its workforce by fifty people this year.
+  vi: Công ty dự định tăng lực lượng lao động thêm năm mươi người trong năm nay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 561. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

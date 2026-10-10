@@ -1,0 +1,26 @@
+schema_version: 3
+id: rearrange
+lemma: rearrange
+pos:
+- verb
+ipa:
+  us: /ˌriɚˈeɪndʒ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: sắp xếp lại
+  id: rearrange-1
+examples:
+- en: We had to rearrange the schedule because the speaker arrived late.
+  vi: Chúng tôi phải sắp xếp lại lịch trình vì diễn giả đến muộn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 488. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

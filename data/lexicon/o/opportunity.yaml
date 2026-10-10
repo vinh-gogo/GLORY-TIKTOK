@@ -1,0 +1,26 @@
+schema_version: 3
+id: opportunity
+lemma: opportunity
+pos:
+- noun
+ipa:
+  us: /ˌɑpɚˈtunəti/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: cơ hội
+  id: opportunity-1
+examples:
+- en: This training is a great opportunity to learn new technical skills.
+  vi: Khóa đào tạo này là cơ hội tuyệt vời để học các kỹ năng kỹ thuật mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 520. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

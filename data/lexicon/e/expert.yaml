@@ -1,0 +1,26 @@
+schema_version: 3
+id: expert
+lemma: expert
+pos:
+- noun
+ipa:
+  us: /ˈɛkspɚt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: chuyên gia
+  id: expert-1
+examples:
+- en: We hired an expert to help us improve our network security.
+  vi: Chúng tôi đã thuê một chuyên gia giúp cải thiện an ninh mạng của mình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1157. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

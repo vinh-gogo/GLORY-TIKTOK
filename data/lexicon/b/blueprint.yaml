@@ -1,0 +1,26 @@
+schema_version: 3
+id: blueprint
+lemma: blueprint
+pos:
+- noun
+ipa:
+  us: /ˈbluˌprɪnt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: bản thiết kế, bản vẽ kỹ thuật
+  id: blueprint-1
+examples:
+- en: The engineer showed us the blueprint of the new factory building.
+  vi: Kỹ sư cho chúng tôi xem bản thiết kế của tòa nhà nhà máy mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 892. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

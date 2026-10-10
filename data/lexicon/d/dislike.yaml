@@ -1,0 +1,26 @@
+schema_version: 3
+id: dislike
+lemma: dislike
+pos:
+- verb
+ipa:
+  us: /dɪˈslaɪk/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: không thích, ghét
+  id: dislike-1
+examples:
+- en: Many customers dislike waiting in long lines at the bank on Fridays.
+  vi: Nhiều khách hàng không thích xếp hàng dài ở ngân hàng vào các ngày thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 544. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

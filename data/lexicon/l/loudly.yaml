@@ -1,0 +1,26 @@
+schema_version: 3
+id: loudly
+lemma: loudly
+pos:
+- adverb
+ipa:
+  us: /ˈlaʊdli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: một cách ồn ào, to tiếng
+  id: loudly-1
+examples:
+- en: Please do not talk loudly on the phone in the quiet area.
+  vi: Xin đừng nói chuyện điện thoại to tiếng trong khu vực yên tĩnh.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 993. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

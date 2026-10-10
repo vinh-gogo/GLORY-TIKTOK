@@ -1,0 +1,26 @@
+schema_version: 3
+id: jeans
+lemma: jeans
+pos:
+- noun
+ipa:
+  us: /dʒinz/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: quần jeans
+  id: jeans-1
+examples:
+- en: Employees may wear jeans on Fridays, but not to meet clients.
+  vi: Nhân viên được mặc quần jeans vào thứ Sáu nhưng không được mặc khi gặp khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1145. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

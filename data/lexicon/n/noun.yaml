@@ -1,0 +1,26 @@
+schema_version: 3
+id: noun
+lemma: noun
+pos:
+- noun
+ipa:
+  us: /naʊn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: danh từ
+  id: noun-1
+examples:
+- en: In the phrase 'a new desk', the word desk is a noun.
+  vi: Trong cụm 'a new desk', từ desk là một danh từ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2799. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

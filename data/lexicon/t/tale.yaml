@@ -1,0 +1,26 @@
+schema_version: 3
+id: tale
+lemma: tale
+pos:
+- noun
+ipa:
+  us: /teɪl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: câu chuyện, truyện kể
+  id: tale-1
+examples:
+- en: The author wrote a short tale about a young sailor lost at sea.
+  vi: Tác giả viết một truyện ngắn về một chàng thủy thủ trẻ bị lạc trên biển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2546. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

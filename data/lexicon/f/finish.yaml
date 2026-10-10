@@ -1,0 +1,26 @@
+schema_version: 3
+id: finish
+lemma: finish
+pos:
+- verb
+ipa:
+  us: /ˈfɪnɪʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: hoàn thành, kết thúc
+  id: finish-1
+examples:
+- en: I need to finish this report before I leave the office today.
+  vi: Tôi cần hoàn thành bản báo cáo này trước khi rời văn phòng hôm nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 609. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

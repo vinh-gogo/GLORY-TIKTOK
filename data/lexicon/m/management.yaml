@@ -1,0 +1,27 @@
+schema_version: 3
+id: management
+lemma: management
+pos:
+- noun
+ipa:
+  us: /ˈmænədʒmənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự quản lý; ban quản lý
+  id: management-1
+examples:
+- en: The management announced a new policy on remote work yesterday.
+  vi: Ban quản lý hôm qua đã công bố chính sách mới về làm việc từ xa.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈmænədʒmənt/; /ˈmænɪdʒmənt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 692. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

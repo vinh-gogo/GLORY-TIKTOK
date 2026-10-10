@@ -1,0 +1,26 @@
+schema_version: 3
+id: raise
+lemma: raise
+pos:
+- verb
+ipa:
+  us: /reɪz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tăng lên; nâng lên; gây quỹ
+  id: raise-1
+examples:
+- en: The company plans to raise prices slightly at the start of the year.
+  vi: Công ty dự định tăng giá nhẹ vào đầu năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 486. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

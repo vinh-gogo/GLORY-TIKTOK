@@ -1,0 +1,26 @@
+schema_version: 3
+id: recycle
+lemma: recycle
+pos:
+- verb
+ipa:
+  us: /riˈsaɪkəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: tái chế
+  id: recycle-1
+examples:
+- en: Our office tries to recycle all paper and plastic bottles.
+  vi: Văn phòng của chúng tôi cố gắng tái chế toàn bộ giấy và chai nhựa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 109. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

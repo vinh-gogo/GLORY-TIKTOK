@@ -1,0 +1,26 @@
+schema_version: 3
+id: student
+lemma: student
+pos:
+- noun
+ipa:
+  us: /ˈstudənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: học sinh, sinh viên
+  id: student-1
+examples:
+- en: Every student receives a discount when showing a valid school card.
+  vi: Mỗi sinh viên được giảm giá khi xuất trình thẻ trường hợp lệ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 248. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

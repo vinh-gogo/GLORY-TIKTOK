@@ -1,0 +1,26 @@
+schema_version: 3
+id: surround
+lemma: surround
+pos:
+- verb
+ipa:
+  us: /sɚˈaʊnd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: bao quanh
+  id: surround-1
+examples:
+- en: A beautiful garden surrounds the hotel and offers a peaceful atmosphere.
+  vi: Một khu vườn đẹp bao quanh khách sạn và mang lại bầu không khí yên bình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1174. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

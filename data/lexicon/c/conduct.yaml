@@ -1,0 +1,27 @@
+schema_version: 3
+id: conduct
+lemma: conduct
+pos:
+- verb
+ipa:
+  us: /ˈkɑndəkt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tiến hành, thực hiện
+  id: conduct-1
+examples:
+- en: The research team will conduct a survey of customers next month.
+  vi: Nhóm nghiên cứu sẽ tiến hành một cuộc khảo sát khách hàng vào tháng tới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] đồng tự khác âm: động từ ''tiến hành'' / danh từ ''hạnh kiểm''; IPA đầu vào
+    theo danh từ, nghĩa chọn là động từ — Mục từ NGSL hạng 1054. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

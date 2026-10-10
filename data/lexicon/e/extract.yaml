@@ -1,0 +1,28 @@
+schema_version: 3
+id: extract
+lemma: extract
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈɛkˌstrækt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: trích xuất, chiết lấy
+  id: extract-1
+examples:
+- en: The software can extract key data from hundreds of invoices automatically.
+  vi: Phần mềm có thể tự động trích xuất dữ liệu chính từ hàng trăm hóa đơn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛkˌstrækt/; /ɪkˈstrækt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2647. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

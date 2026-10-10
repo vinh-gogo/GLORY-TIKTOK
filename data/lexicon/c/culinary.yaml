@@ -1,0 +1,26 @@
+schema_version: 3
+id: culinary
+lemma: culinary
+pos:
+- adjective
+ipa:
+  us: /ˈkjulɪˌnɛri/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: thuộc nấu nướng, ẩm thực
+  id: culinary-1
+examples:
+- en: She attended a culinary school before becoming head chef at the hotel.
+  vi: Cô ấy học trường nấu ăn trước khi trở thành bếp trưởng của khách sạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 629. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

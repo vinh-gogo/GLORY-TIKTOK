@@ -1,0 +1,26 @@
+schema_version: 3
+id: majority
+lemma: majority
+pos:
+- noun
+ipa:
+  us: /məˈdʒɔrəti/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đa số
+  id: majority-1
+examples:
+- en: The majority of employees voted in favor of the new work schedule.
+  vi: Đa số nhân viên đã bỏ phiếu ủng hộ lịch làm việc mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1009. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

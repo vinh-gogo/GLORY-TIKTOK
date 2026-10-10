@@ -1,0 +1,26 @@
+schema_version: 3
+id: none
+lemma: none
+pos:
+- pronoun
+ipa:
+  us: /nʌn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: không ai, không cái nào
+  id: none-1
+examples:
+- en: None of the applicants had experience with this kind of software.
+  vi: Không ứng viên nào có kinh nghiệm với loại phần mềm này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1014. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

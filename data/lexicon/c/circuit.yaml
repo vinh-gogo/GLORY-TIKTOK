@@ -1,0 +1,26 @@
+schema_version: 3
+id: circuit
+lemma: circuit
+pos:
+- noun
+ipa:
+  us: /ˈsɝkət/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: mạch điện
+  id: circuit-1
+examples:
+- en: A damaged circuit caused the machine to stop working suddenly.
+  vi: Một mạch điện bị hỏng đã khiến chiếc máy đột ngột ngừng hoạt động.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 895. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

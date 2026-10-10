@@ -1,0 +1,26 @@
+schema_version: 3
+id: arise
+lemma: arise
+pos:
+- verb
+ipa:
+  us: /ɚˈaɪz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nảy sinh, xuất hiện
+  id: arise-1
+examples:
+- en: Please call me if any problems arise during the installation.
+  vi: Vui lòng gọi cho tôi nếu có vấn đề nào nảy sinh trong lúc lắp đặt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1629. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

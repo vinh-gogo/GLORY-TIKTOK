@@ -1,0 +1,27 @@
+schema_version: 3
+id: stick
+lemma: stick
+pos:
+- verb
+- noun
+ipa:
+  us: /stɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: dán, dính; cây gậy
+  id: stick-1
+examples:
+- en: Please stick the address label on the front of the package.
+  vi: Vui lòng dán nhãn địa chỉ lên mặt trước của gói hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa (dán/dính, gậy, bám theo); chọn nghĩa dán — Mục từ NGSL hạng 1010.
+    IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo
+    hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

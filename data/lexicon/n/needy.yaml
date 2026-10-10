@@ -1,0 +1,26 @@
+schema_version: 3
+id: needy
+lemma: needy
+pos:
+- adjective
+ipa:
+  us: /ˈnidi/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: nghèo khó, thiếu thốn
+  id: needy-1
+examples:
+- en: The company donates food to needy families every winter.
+  vi: Công ty quyên góp thực phẩm cho các gia đình nghèo khó mỗi mùa đông.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1064. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

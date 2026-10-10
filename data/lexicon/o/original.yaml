@@ -1,0 +1,27 @@
+schema_version: 3
+id: original
+lemma: original
+pos:
+- adjective
+- noun
+ipa:
+  us: /ɚˈɪdʒənəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: nguyên bản, ban đầu
+  id: original-1
+examples:
+- en: Please keep the original receipt in case you need to return it.
+  vi: Vui lòng giữ biên lai gốc phòng khi bạn cần trả lại hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 963. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

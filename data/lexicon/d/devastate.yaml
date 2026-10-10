@@ -1,0 +1,26 @@
+schema_version: 3
+id: devastate
+lemma: devastate
+pos:
+- verb
+ipa:
+  us: /ˈdɛvəˌsteɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: tàn phá, làm tan hoang
+  id: devastate-1
+examples:
+- en: The flood threatened to devastate the farms along the river.
+  vi: Trận lũ đe dọa tàn phá các trang trại dọc theo dòng sông.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1120. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

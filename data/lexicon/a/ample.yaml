@@ -1,0 +1,26 @@
+schema_version: 3
+id: ample
+lemma: ample
+pos:
+- adjective
+ipa:
+  us: /ˈæmpəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: rộng rãi, dồi dào, dư dả
+  id: ample-1
+examples:
+- en: There is ample parking behind the building for employees and visitors.
+  vi: Có nhiều chỗ đỗ xe phía sau tòa nhà cho nhân viên và khách.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 803. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: mention
+lemma: mention
+pos:
+- verb
+ipa:
+  us: /ˈmɛnʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: đề cập, nhắc đến
+  id: mention-1
+examples:
+- en: She did not mention the delay in her email to clients.
+  vi: Cô ấy không đề cập đến sự chậm trễ trong email gửi khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 564. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

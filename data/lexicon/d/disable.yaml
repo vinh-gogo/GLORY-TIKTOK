@@ -1,0 +1,26 @@
+schema_version: 3
+id: disable
+lemma: disable
+pos:
+- verb
+ipa:
+  us: /dɪˈseɪbəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: vô hiệu hóa, làm mất khả năng hoạt động
+  id: disable-1
+examples:
+- en: You can disable the alarm by entering the four digit security code.
+  vi: Bạn có thể tắt báo động bằng cách nhập mã bảo mật gồm bốn chữ số.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1124. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,28 @@
+schema_version: 3
+id: contrast
+lemma: contrast
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈkɑntræst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự tương phản
+  id: contrast-1
+examples:
+- en: In contrast to last year, our profits have increased significantly this quarter.
+  vi: Trái với năm ngoái, lợi nhuận của chúng tôi đã tăng đáng kể trong quý này.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkɑntræst/; /kənˈtræst/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1179. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

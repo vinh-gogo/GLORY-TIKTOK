@@ -1,0 +1,26 @@
+schema_version: 3
+id: leave
+lemma: leave
+pos:
+- verb
+ipa:
+  us: /liv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: rời đi, để lại; nghỉ phép
+  id: leave-1
+examples:
+- en: The last bus leaves the terminal at eleven o'clock every night.
+  vi: Chuyến xe buýt cuối cùng rời bến lúc mười một giờ mỗi đêm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 126. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

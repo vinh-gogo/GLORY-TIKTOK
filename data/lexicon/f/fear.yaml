@@ -1,0 +1,27 @@
+schema_version: 3
+id: fear
+lemma: fear
+pos:
+- noun
+- verb
+ipa:
+  us: /fɪr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nỗi sợ; sợ hãi
+  id: fear-1
+examples:
+- en: Many people have a fear of speaking in front of large groups.
+  vi: Nhiều người sợ nói trước đám đông.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 793. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

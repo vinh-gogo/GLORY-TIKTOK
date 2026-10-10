@@ -1,0 +1,26 @@
+schema_version: 3
+id: channel
+lemma: channel
+pos:
+- noun
+ipa:
+  us: /ˈtʃænəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: kênh
+  id: channel-1
+examples:
+- en: Social media is now an important channel for reaching new customers.
+  vi: Mạng xã hội hiện là một kênh quan trọng để tiếp cận khách hàng mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1532. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

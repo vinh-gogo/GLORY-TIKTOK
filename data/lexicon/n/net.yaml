@@ -1,0 +1,28 @@
+schema_version: 3
+id: net
+lemma: net
+pos:
+- noun
+- adjective
+ipa:
+  us: /nɛt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: ròng; lưới
+  id: net-1
+examples:
+- en: The company's net profit rose by eight percent compared with last year.
+  vi: Lợi nhuận ròng của công ty tăng tám phần trăm so với năm ngoái.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa (lưới, mạng, ròng); chọn nghĩa ''ròng'' trong tài chính — Mục từ
+    NGSL hạng 1191. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

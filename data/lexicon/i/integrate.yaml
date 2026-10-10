@@ -1,0 +1,27 @@
+schema_version: 3
+id: integrate
+lemma: integrate
+pos:
+- verb
+ipa:
+  us: /ˈɪntəˌɡreɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: tích hợp, hòa nhập
+  id: integrate-1
+examples:
+- en: We plan to integrate the new system with our existing software.
+  vi: Chúng tôi dự định tích hợp hệ thống mới với phần mềm hiện có.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɪntəˌɡreɪt/; /ˈɪnəˌɡreɪt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1955. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

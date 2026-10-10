@@ -1,0 +1,26 @@
+schema_version: 3
+id: unique
+lemma: unique
+pos:
+- adjective
+ipa:
+  us: /juˈnik/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: độc đáo, duy nhất
+  id: unique-1
+examples:
+- en: The shop sells unique gifts made by local artists.
+  vi: Cửa hàng bán những món quà độc đáo do các nghệ sĩ địa phương làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1594. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: whereas
+lemma: whereas
+pos:
+- conjunction
+ipa:
+  us: /wɛˈræz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: trong khi đó, còn
+  id: whereas-1
+examples:
+- en: Sales rose in Asia, whereas they fell slightly in Europe.
+  vi: Doanh số tăng ở châu Á, trong khi giảm nhẹ ở châu Âu.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/wɛˈræz/; /hwɛˈræz/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1372. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

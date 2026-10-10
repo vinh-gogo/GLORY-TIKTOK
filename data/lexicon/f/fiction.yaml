@@ -1,0 +1,26 @@
+schema_version: 3
+id: fiction
+lemma: fiction
+pos:
+- noun
+ipa:
+  us: /ˈfɪkʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: tiểu thuyết, truyện hư cấu
+  id: fiction-1
+examples:
+- en: She prefers reading fiction on the train instead of business magazines.
+  vi: Cô ấy thích đọc tiểu thuyết trên tàu hơn là tạp chí kinh doanh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2679. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

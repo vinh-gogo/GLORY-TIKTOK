@@ -1,0 +1,26 @@
+schema_version: 3
+id: degree
+lemma: degree
+pos:
+- noun
+ipa:
+  us: /dɪˈɡri/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: bằng cấp; mức độ; độ
+  id: degree-1
+examples:
+- en: The position requires a degree in engineering or a related field.
+  vi: Vị trí này yêu cầu bằng kỹ thuật hoặc một lĩnh vực liên quan.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 798. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

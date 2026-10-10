@@ -1,0 +1,26 @@
+schema_version: 3
+id: shoulder
+lemma: shoulder
+pos:
+- noun
+ipa:
+  us: /ˈʃoʊldɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: vai
+  id: shoulder-1
+examples:
+- en: He carried a heavy bag on his left shoulder all day.
+  vi: Anh ấy đeo một chiếc túi nặng trên vai trái suốt cả ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1610. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

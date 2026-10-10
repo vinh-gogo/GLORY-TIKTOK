@@ -1,0 +1,26 @@
+schema_version: 3
+id: garden
+lemma: garden
+pos:
+- noun
+ipa:
+  us: /ˈɡɑrdən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- housing-property
+senses:
+- meaning_vi: khu vườn
+  id: garden-1
+examples:
+- en: The apartment has a small garden where residents can grow vegetables.
+  vi: Căn hộ có một khu vườn nhỏ nơi cư dân có thể trồng rau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 972. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

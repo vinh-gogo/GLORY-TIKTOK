@@ -1,0 +1,27 @@
+schema_version: 3
+id: lead
+lemma: lead
+pos:
+- verb
+ipa:
+  us: /lɛd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: dẫn dắt, lãnh đạo
+  id: lead-1
+examples:
+- en: She will lead the design team during the product launch.
+  vi: Cô ấy sẽ dẫn dắt nhóm thiết kế trong đợt ra mắt sản phẩm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/lɛd/; /lid/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 241. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

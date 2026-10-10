@@ -1,0 +1,26 @@
+schema_version: 3
+id: salon
+lemma: salon
+pos:
+- noun
+ipa:
+  us: /səˈlɑn/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: tiệm làm tóc, tiệm làm đẹp
+  id: salon-1
+examples:
+- en: She booked an appointment at the hair salon for Saturday morning.
+  vi: Cô ấy đặt lịch hẹn ở tiệm làm tóc vào sáng thứ Bảy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1172. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

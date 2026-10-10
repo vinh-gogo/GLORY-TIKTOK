@@ -1,0 +1,26 @@
+schema_version: 3
+id: alongside
+lemma: alongside
+pos:
+- preposition
+ipa:
+  us: /əˈlɔŋˈsaɪd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: bên cạnh, cùng với
+  id: alongside-1
+examples:
+- en: She worked alongside engineers to design the new factory layout.
+  vi: Cô ấy làm việc cùng các kỹ sư để thiết kế bố trí nhà máy mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2766. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

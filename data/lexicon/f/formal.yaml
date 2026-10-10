@@ -1,0 +1,26 @@
+schema_version: 3
+id: formal
+lemma: formal
+pos:
+- adjective
+ipa:
+  us: /ˈfɔrməl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: trang trọng, chính thức
+  id: formal-1
+examples:
+- en: A formal dress code is required for the awards dinner.
+  vi: Bữa tối trao giải yêu cầu trang phục trang trọng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1700. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

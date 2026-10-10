@@ -1,0 +1,27 @@
+schema_version: 3
+id: relative
+lemma: relative
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈrɛlətɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: họ hàng, người thân; tương đối
+  id: relative-1
+examples:
+- en: I am visiting a relative who lives near the airport this weekend.
+  vi: Cuối tuần này tôi đến thăm một người họ hàng sống gần sân bay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1088. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

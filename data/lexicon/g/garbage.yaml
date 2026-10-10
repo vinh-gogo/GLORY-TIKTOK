@@ -1,0 +1,26 @@
+schema_version: 3
+id: garbage
+lemma: garbage
+pos:
+- noun
+ipa:
+  us: /ˈɡɑrbɪdʒ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: rác
+  id: garbage-1
+examples:
+- en: Garbage is collected from our street every Tuesday morning.
+  vi: Rác được thu gom ở đường của chúng tôi vào sáng thứ Ba hằng tuần.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 279. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

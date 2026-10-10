@@ -1,0 +1,26 @@
+schema_version: 3
+id: curtain
+lemma: curtain
+pos:
+- noun
+ipa:
+  us: /ˈkɝtən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: rèm cửa, màn
+  id: curtain-1
+examples:
+- en: She closed the curtains to keep the afternoon sun out of the room.
+  vi: Cô ấy kéo rèm để chắn nắng chiều ra khỏi phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2778. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

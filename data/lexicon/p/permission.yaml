@@ -1,0 +1,26 @@
+schema_version: 3
+id: permission
+lemma: permission
+pos:
+- noun
+ipa:
+  us: /pɚˈmɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự cho phép
+  id: permission-1
+examples:
+- en: You need written permission to use the meeting room after hours.
+  vi: Bạn cần có sự cho phép bằng văn bản để dùng phòng họp ngoài giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2414. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

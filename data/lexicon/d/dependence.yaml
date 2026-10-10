@@ -1,0 +1,26 @@
+schema_version: 3
+id: dependence
+lemma: dependence
+pos:
+- noun
+ipa:
+  us: /dɪˈpɛndəns/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sự phụ thuộc
+  id: dependence-1
+examples:
+- en: The firm wants to reduce its dependence on a single supplier.
+  vi: Công ty muốn giảm sự phụ thuộc vào một nhà cung cấp duy nhất.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 903. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

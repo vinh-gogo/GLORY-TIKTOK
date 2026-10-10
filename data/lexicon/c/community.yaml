@@ -1,0 +1,27 @@
+schema_version: 3
+id: community
+lemma: community
+pos:
+- noun
+ipa:
+  us: /kəˈmjunəti/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cộng đồng
+  id: community-1
+examples:
+- en: The company sponsors several programs to support the local community.
+  vi: Công ty tài trợ nhiều chương trình để hỗ trợ cộng đồng địa phương.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/kəˈmjunəti/; /kəˈmjunɪti/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 465. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

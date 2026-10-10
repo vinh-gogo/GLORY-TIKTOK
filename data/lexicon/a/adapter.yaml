@@ -1,0 +1,26 @@
+schema_version: 3
+id: adapter
+lemma: adapter
+pos:
+- noun
+ipa:
+  us: /əˈdæptɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: bộ chuyển đổi (phích cắm, thiết bị)
+  id: adapter-1
+examples:
+- en: You will need a travel adapter to charge your laptop abroad.
+  vi: Bạn sẽ cần một bộ chuyển đổi du lịch để sạc máy tính xách tay ở nước ngoài.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1023. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

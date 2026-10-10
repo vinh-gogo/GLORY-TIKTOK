@@ -1,0 +1,26 @@
+schema_version: 3
+id: butter
+lemma: butter
+pos:
+- noun
+ipa:
+  us: /ˈbʌtɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: bơ (làm từ sữa)
+  id: butter-1
+examples:
+- en: The chef added a little butter to the sauce before serving.
+  vi: Đầu bếp thêm một chút bơ vào nước sốt trước khi dọn ra.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1033. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

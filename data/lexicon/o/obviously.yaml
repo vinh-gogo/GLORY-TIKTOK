@@ -1,0 +1,26 @@
+schema_version: 3
+id: obviously
+lemma: obviously
+pos:
+- adverb
+ipa:
+  us: /ˈɑbviəsli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: rõ ràng là, hiển nhiên
+  id: obviously-1
+examples:
+- en: Obviously, we cannot launch the product until the safety tests are finished.
+  vi: Rõ ràng là chúng ta không thể tung sản phẩm ra trước khi các cuộc kiểm tra an toàn hoàn tất.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 886. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

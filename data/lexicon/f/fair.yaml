@@ -1,0 +1,27 @@
+schema_version: 3
+id: fair
+lemma: fair
+pos:
+- adjective
+- noun
+ipa:
+  us: /fɛr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: công bằng; hội chợ
+  id: fair-1
+examples:
+- en: The manager promised to give every applicant a fair chance in the interview.
+  vi: Người quản lý hứa sẽ cho mọi ứng viên cơ hội công bằng trong buổi phỏng vấn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1080. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

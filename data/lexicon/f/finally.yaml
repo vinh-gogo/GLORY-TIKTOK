@@ -1,0 +1,26 @@
+schema_version: 3
+id: finally
+lemma: finally
+pos:
+- adverb
+ipa:
+  us: /ˈfaɪnəli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cuối cùng
+  id: finally-1
+examples:
+- en: The new software was finally installed on all office computers.
+  vi: Phần mềm mới cuối cùng đã được cài đặt trên tất cả máy tính văn phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 499. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

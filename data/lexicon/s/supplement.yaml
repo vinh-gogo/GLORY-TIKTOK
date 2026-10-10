@@ -1,0 +1,27 @@
+schema_version: 3
+id: supplement
+lemma: supplement
+pos:
+- noun
+ipa:
+  us: /ˈsʌpləmənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: phần bổ sung; thực phẩm chức năng
+  id: supplement-1
+examples:
+- en: The doctor advised her to take a vitamin supplement every morning.
+  vi: Bác sĩ khuyên cô ấy uống một viên vitamin bổ sung mỗi sáng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈsʌpləmənt/; /ˌsʌpləˈmɛnt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2716. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

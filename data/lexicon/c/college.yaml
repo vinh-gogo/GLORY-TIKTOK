@@ -1,0 +1,26 @@
+schema_version: 3
+id: college
+lemma: college
+pos:
+- noun
+ipa:
+  us: /ˈkɑlɪdʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trường cao đẳng, đại học
+  id: college-1
+examples:
+- en: She studied business at a local college before joining the firm.
+  vi: Cô ấy đã học kinh doanh ở một trường cao đẳng địa phương trước khi vào công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 739. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

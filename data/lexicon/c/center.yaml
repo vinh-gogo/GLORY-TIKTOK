@@ -1,0 +1,27 @@
+schema_version: 3
+id: center
+lemma: center
+pos:
+- noun
+ipa:
+  us: /ˈsɛntɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: trung tâm
+  id: center-1
+examples:
+- en: The new shopping center will open near the central train station.
+  vi: Trung tâm mua sắm mới sẽ mở gần ga tàu trung tâm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈsɛntɚ/; /ˈsɛnɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 334. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

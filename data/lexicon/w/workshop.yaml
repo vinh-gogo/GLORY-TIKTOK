@@ -1,0 +1,26 @@
+schema_version: 3
+id: workshop
+lemma: workshop
+pos:
+- noun
+ipa:
+  us: /ˈwɝkˌʃɑp/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: buổi hội thảo thực hành, xưởng
+  id: workshop-1
+examples:
+- en: Employees are invited to a workshop on time management on Tuesday.
+  vi: Nhân viên được mời tham dự buổi hội thảo thực hành về quản lý thời gian vào thứ Ba.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 16. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

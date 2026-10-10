@@ -1,0 +1,26 @@
+schema_version: 3
+id: vacant
+lemma: vacant
+pos:
+- adjective
+ipa:
+  us: /ˈveɪkənt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: bỏ trống, còn trống
+  id: vacant-1
+examples:
+- en: The company is looking for a vacant office space downtown to rent.
+  vi: Công ty đang tìm một mặt bằng văn phòng còn trống ở trung tâm để thuê.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 538. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

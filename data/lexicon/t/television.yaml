@@ -1,0 +1,26 @@
+schema_version: 3
+id: television
+lemma: television
+pos:
+- noun
+ipa:
+  us: /ˈtɛləˌvɪʒən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: ti vi, truyền hình
+  id: television-1
+examples:
+- en: The lobby has a large television that shows the daily news.
+  vi: Sảnh có một chiếc ti vi lớn chiếu tin tức hằng ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 795. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

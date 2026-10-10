@@ -1,0 +1,26 @@
+schema_version: 3
+id: body
+lemma: body
+pos:
+- noun
+ipa:
+  us: /ˈbɑdi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- health
+senses:
+- meaning_vi: cơ thể; tổ chức, cơ quan
+  id: body-1
+examples:
+- en: Regular exercise is good for both the body and the mind.
+  vi: Tập thể dục đều đặn tốt cho cả cơ thể lẫn tinh thần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 401. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

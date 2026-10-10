@@ -1,0 +1,26 @@
+schema_version: 3
+id: situation
+lemma: situation
+pos:
+- noun
+ipa:
+  us: /ˌsɪtʃuˈeɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tình huống, tình hình
+  id: situation-1
+examples:
+- en: The manager explained the situation to the whole team calmly.
+  vi: Người quản lý đã giải thích tình hình với cả nhóm một cách bình tĩnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 430. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

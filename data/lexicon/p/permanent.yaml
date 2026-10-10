@@ -1,0 +1,26 @@
+schema_version: 3
+id: permanent
+lemma: permanent
+pos:
+- adjective
+ipa:
+  us: /ˈpɝmənənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: lâu dài, vĩnh viễn, chính thức
+  id: permanent-1
+examples:
+- en: After six months, the intern was offered a permanent position.
+  vi: Sau sáu tháng, thực tập sinh được mời làm vị trí chính thức.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1782. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

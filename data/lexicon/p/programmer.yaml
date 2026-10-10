@@ -1,0 +1,26 @@
+schema_version: 3
+id: programmer
+lemma: programmer
+pos:
+- noun
+ipa:
+  us: /ˈproʊˌɡræmɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: lập trình viên
+  id: programmer-1
+examples:
+- en: The programmer fixed the software error before the customers noticed any problem.
+  vi: Lập trình viên đã sửa lỗi phần mềm trước khi khách hàng nhận thấy vấn đề.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 531. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

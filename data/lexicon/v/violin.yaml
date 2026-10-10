@@ -1,0 +1,26 @@
+schema_version: 3
+id: violin
+lemma: violin
+pos:
+- noun
+ipa:
+  us: /vaɪəˈlɪn/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: đàn vĩ cầm, violin
+  id: violin-1
+examples:
+- en: She has played the violin in the city orchestra for ten years.
+  vi: Cô ấy đã chơi đàn violin trong dàn nhạc thành phố được mười năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1020. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

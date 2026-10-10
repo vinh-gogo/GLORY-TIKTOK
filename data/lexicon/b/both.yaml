@@ -1,0 +1,27 @@
+schema_version: 3
+id: both
+lemma: both
+pos:
+- determiner
+- pronoun
+ipa:
+  us: /boʊθ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cả hai
+  id: both-1
+examples:
+- en: Both candidates have impressive resumes and strong references from past employers.
+  vi: Cả hai ứng viên đều có sơ yếu lý lịch ấn tượng và thư giới thiệu tốt từ các nhà tuyển dụng cũ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 128. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

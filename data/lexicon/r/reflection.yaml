@@ -1,0 +1,26 @@
+schema_version: 3
+id: reflection
+lemma: reflection
+pos:
+- noun
+ipa:
+  us: /rɪˈflɛkʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự phản chiếu; sự suy ngẫm
+  id: reflection-1
+examples:
+- en: She saw her reflection in the glass wall of the lobby.
+  vi: Cô ấy nhìn thấy hình phản chiếu của mình trên bức tường kính ở sảnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2675. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

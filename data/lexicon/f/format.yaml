@@ -1,0 +1,27 @@
+schema_version: 3
+id: format
+lemma: format
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈfɔrˌmæt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: định dạng; định dạng lại
+  id: format-1
+examples:
+- en: Please send the report in PDF format so everyone can open it.
+  vi: Vui lòng gửi báo cáo ở định dạng PDF để mọi người đều mở được.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2469. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

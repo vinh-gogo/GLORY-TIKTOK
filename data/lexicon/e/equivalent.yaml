@@ -1,0 +1,27 @@
+schema_version: 3
+id: equivalent
+lemma: equivalent
+pos:
+- adjective
+- noun
+ipa:
+  us: /ɪˈkwɪvələnt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: tương đương
+  id: equivalent-1
+examples:
+- en: A bachelor's degree or equivalent experience is required for this position.
+  vi: Vị trí này yêu cầu bằng cử nhân hoặc kinh nghiệm tương đương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2049. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,28 @@
+schema_version: 3
+id: contrary
+lemma: contrary
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈkɑntrɛri/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: trái ngược; điều trái ngược
+  id: contrary-1
+examples:
+- en: Contrary to our expectations, sales rose sharply during the summer months.
+  vi: Trái với kỳ vọng của chúng tôi, doanh số tăng mạnh trong những tháng hè.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkɑntrɛri/; /kənˈtrɛri/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 813. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

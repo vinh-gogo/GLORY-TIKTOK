@@ -1,0 +1,26 @@
+schema_version: 3
+id: researcher
+lemma: researcher
+pos:
+- noun
+ipa:
+  us: /ˈrisɚtʃɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: nhà nghiên cứu
+  id: researcher-1
+examples:
+- en: The researcher presented her findings at the international conference.
+  vi: Nhà nghiên cứu trình bày kết quả của cô ấy tại hội nghị quốc tế.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1645. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

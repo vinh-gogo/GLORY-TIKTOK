@@ -1,0 +1,26 @@
+schema_version: 3
+id: deeply
+lemma: deeply
+pos:
+- adverb
+ipa:
+  us: /ˈdipli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sâu sắc, rất
+  id: deeply-1
+examples:
+- en: We deeply regret the inconvenience caused by the sudden closure.
+  vi: Chúng tôi vô cùng lấy làm tiếc về sự bất tiện do việc đóng cửa đột ngột.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2012. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

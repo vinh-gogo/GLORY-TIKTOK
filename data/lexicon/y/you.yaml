@@ -1,0 +1,26 @@
+schema_version: 3
+id: you
+lemma: you
+pos:
+- pronoun
+ipa:
+  us: /ju/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bạn, các bạn, ông/bà
+  id: you-1
+examples:
+- en: Can you send me the schedule before the end of the day?
+  vi: Bạn có thể gửi cho tôi lịch trình trước khi hết ngày không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 10. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

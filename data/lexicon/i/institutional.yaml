@@ -1,0 +1,26 @@
+schema_version: 3
+id: institutional
+lemma: institutional
+pos:
+- adjective
+ipa:
+  us: /ˌɪnstɪˈtuʃənəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: thuộc tổ chức, định chế
+  id: institutional-1
+examples:
+- en: Institutional investors hold a large share of the company's stock.
+  vi: Các nhà đầu tư tổ chức nắm giữ một phần lớn cổ phiếu của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2745. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

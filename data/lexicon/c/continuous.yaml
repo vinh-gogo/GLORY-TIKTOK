@@ -1,0 +1,26 @@
+schema_version: 3
+id: continuous
+lemma: continuous
+pos:
+- adjective
+ipa:
+  us: /kənˈtɪnjuəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: liên tục, không ngừng
+  id: continuous-1
+examples:
+- en: The factory requires continuous power to keep its machines running all night.
+  vi: Nhà máy cần nguồn điện liên tục để máy móc chạy suốt đêm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2652. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

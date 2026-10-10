@@ -1,0 +1,26 @@
+schema_version: 3
+id: income
+lemma: income
+pos:
+- noun
+ipa:
+  us: /ˈɪnˌkʌm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: thu nhập
+  id: income-1
+examples:
+- en: The family's monthly income increased after she received a promotion at work.
+  vi: Thu nhập hằng tháng của gia đình tăng lên sau khi cô ấy được thăng chức.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 920. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

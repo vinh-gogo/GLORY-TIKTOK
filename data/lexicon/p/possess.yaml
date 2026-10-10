@@ -1,0 +1,26 @@
+schema_version: 3
+id: possess
+lemma: possess
+pos:
+- verb
+ipa:
+  us: /pəˈzɛs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: sở hữu, có
+  id: possess-1
+examples:
+- en: Applicants must possess a valid driver's license for this job.
+  vi: Ứng viên phải có bằng lái xe hợp lệ cho công việc này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2413. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

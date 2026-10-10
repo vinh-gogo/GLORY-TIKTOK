@@ -1,0 +1,26 @@
+schema_version: 3
+id: hook
+lemma: hook
+pos:
+- noun
+ipa:
+  us: /hʊk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cái móc
+  id: hook-1
+examples:
+- en: He hung his coat on the hook behind the office door.
+  vi: Anh ấy treo áo khoác lên cái móc phía sau cửa văn phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2690. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

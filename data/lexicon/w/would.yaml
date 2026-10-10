@@ -1,0 +1,26 @@
+schema_version: 3
+id: would
+lemma: would
+pos:
+- modal
+ipa:
+  us: /wʊd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sẽ, muốn (dùng trong câu giả định hoặc lịch sự)
+  id: would-1
+examples:
+- en: Would you mind sending me the updated schedule this afternoon?
+  vi: Bạn có phiền gửi cho tôi lịch trình cập nhật vào chiều nay không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 36. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

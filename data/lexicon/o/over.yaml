@@ -1,0 +1,27 @@
+schema_version: 3
+id: over
+lemma: over
+pos:
+- preposition
+- adverb
+ipa:
+  us: /ˈoʊvɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: trên, qua; hơn (một số lượng)
+  id: over-1
+examples:
+- en: Over fifty guests have already confirmed their attendance at the banquet.
+  vi: Hơn năm mươi khách đã xác nhận sẽ tham dự bữa tiệc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 82. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

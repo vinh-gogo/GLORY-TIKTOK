@@ -1,0 +1,27 @@
+schema_version: 3
+id: traditionally
+lemma: traditionally
+pos:
+- adverb
+ipa:
+  us: /trəˈdɪʃənəli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: theo truyền thống
+  id: traditionally-1
+examples:
+- en: Traditionally, the company holds its annual party in the first week of December.
+  vi: Theo truyền thống, công ty tổ chức tiệc thường niên vào tuần đầu tháng Mười Hai.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/trəˈdɪʃənəli/; /trəˈdɪʃnəli/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1016. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

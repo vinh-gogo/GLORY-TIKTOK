@@ -1,0 +1,28 @@
+schema_version: 3
+id: return
+lemma: return
+pos:
+- verb
+- noun
+ipa:
+  us: /rɪˈtɝn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: trả lại; quay lại; sự trả lại
+  id: return-1
+examples:
+- en: Customers may return any unused item within thirty days for a refund.
+  vi: Khách hàng có thể trả lại bất kỳ món hàng chưa dùng nào trong vòng ba mươi ngày để được hoàn tiền.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈtɝn/; /riˈtɝn/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 337. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

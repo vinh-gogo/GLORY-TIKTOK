@@ -1,0 +1,26 @@
+schema_version: 3
+id: spectator
+lemma: spectator
+pos:
+- noun
+ipa:
+  us: /ˈspɛkteɪtɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: khán giả (xem thể thao, sự kiện)
+  id: spectator-1
+examples:
+- en: Thousands of spectators filled the stadium for the championship game.
+  vi: Hàng nghìn khán giả đã lấp đầy sân vận động cho trận chung kết.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1084. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: slightly
+lemma: slightly
+pos:
+- adverb
+ipa:
+  us: /ˈslaɪtli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: một chút, hơi
+  id: slightly-1
+examples:
+- en: Prices have risen slightly since we last updated the product catalog.
+  vi: Giá đã tăng nhẹ kể từ lần chúng tôi cập nhật danh mục sản phẩm gần nhất.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1112. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

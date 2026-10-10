@@ -1,0 +1,26 @@
+schema_version: 3
+id: formation
+lemma: formation
+pos:
+- noun
+ipa:
+  us: /fɔrˈmeɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự hình thành, sự thành lập
+  id: formation-1
+examples:
+- en: The formation of the new committee was announced on Monday.
+  vi: Việc thành lập ủy ban mới đã được thông báo vào thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2312. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

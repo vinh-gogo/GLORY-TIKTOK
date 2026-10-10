@@ -1,0 +1,26 @@
+schema_version: 3
+id: immediate
+lemma: immediate
+pos:
+- adjective
+ipa:
+  us: /ˌɪˈmiˌdiət/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: ngay lập tức, tức thì
+  id: immediate-1
+examples:
+- en: The broken pipe requires immediate attention from the maintenance team.
+  vi: Đường ống bị vỡ cần được đội bảo trì xử lý ngay lập tức.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1806. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

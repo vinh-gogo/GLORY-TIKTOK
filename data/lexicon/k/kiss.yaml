@@ -1,0 +1,27 @@
+schema_version: 3
+id: kiss
+lemma: kiss
+pos:
+- noun
+- verb
+ipa:
+  us: /kɪs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: nụ hôn; hôn
+  id: kiss-1
+examples:
+- en: She gave her little daughter a kiss before leaving for work.
+  vi: Cô ấy hôn con gái nhỏ trước khi đi làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1680. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

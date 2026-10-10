@@ -1,0 +1,27 @@
+schema_version: 3
+id: package
+lemma: package
+pos:
+- noun
+ipa:
+  us: /ˈpækədʒ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: gói hàng, bưu kiện
+  id: package-1
+examples:
+- en: A package for you arrived at the front desk this morning.
+  vi: Một gói hàng cho bạn đã đến quầy lễ tân sáng nay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈpækədʒ/; /ˈpækɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1319. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

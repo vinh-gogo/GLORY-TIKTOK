@@ -1,0 +1,26 @@
+schema_version: 3
+id: attendance
+lemma: attendance
+pos:
+- noun
+ipa:
+  us: /əˈtɛndəns/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: sự có mặt, số người tham dự
+  id: attendance-1
+examples:
+- en: Attendance at the safety training session is required for all employees.
+  vi: Việc có mặt tại buổi tập huấn an toàn là bắt buộc đối với mọi nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2751. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

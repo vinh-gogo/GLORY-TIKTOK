@@ -1,0 +1,26 @@
+schema_version: 3
+id: scope
+lemma: scope
+pos:
+- noun
+ipa:
+  us: /skoʊp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: phạm vi
+  id: scope-1
+examples:
+- en: We must define the scope of the project before assigning any tasks.
+  vi: Chúng ta phải xác định phạm vi dự án trước khi giao bất kỳ nhiệm vụ nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2559. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

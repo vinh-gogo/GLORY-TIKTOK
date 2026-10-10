@@ -1,0 +1,26 @@
+schema_version: 3
+id: pot
+lemma: pot
+pos:
+- noun
+ipa:
+  us: /pɑt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: cái nồi, cái ấm
+  id: pot-1
+examples:
+- en: She put a large pot of water on the stove to boil.
+  vi: Cô ấy đặt một chiếc nồi nước lớn lên bếp để đun sôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2550. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

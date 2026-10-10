@@ -1,0 +1,26 @@
+schema_version: 3
+id: survival
+lemma: survival
+pos:
+- noun
+ipa:
+  us: /sɚˈvaɪvəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự sống sót, sự tồn tại
+  id: survival-1
+examples:
+- en: Cutting costs was necessary for the survival of the small firm.
+  vi: Cắt giảm chi phí là điều cần thiết để công ty nhỏ tồn tại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2411. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

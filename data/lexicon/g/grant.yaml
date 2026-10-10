@@ -1,0 +1,27 @@
+schema_version: 3
+id: grant
+lemma: grant
+pos:
+- noun
+- verb
+ipa:
+  us: /ɡrænt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: khoản tài trợ; cấp cho
+  id: grant-1
+examples:
+- en: The research team received a grant to study renewable energy sources.
+  vi: Nhóm nghiên cứu đã nhận được khoản tài trợ để nghiên cứu các nguồn năng lượng tái tạo.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1147. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

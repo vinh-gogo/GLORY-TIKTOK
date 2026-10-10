@@ -1,0 +1,26 @@
+schema_version: 3
+id: sauna
+lemma: sauna
+pos:
+- noun
+ipa:
+  us: /ˈsɔnə/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: phòng xông hơi
+  id: sauna-1
+examples:
+- en: The fitness center has a sauna that is open until ten o'clock.
+  vi: Phòng tập có phòng xông hơi mở cửa đến mười giờ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 689. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

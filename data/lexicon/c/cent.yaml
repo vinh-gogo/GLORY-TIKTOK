@@ -1,0 +1,26 @@
+schema_version: 3
+id: cent
+lemma: cent
+pos:
+- noun
+ipa:
+  us: /sɛnt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: xu (một phần trăm đô la)
+  id: cent-1
+examples:
+- en: The new stamp costs fifty cents more than the old one.
+  vi: Con tem mới đắt hơn con tem cũ năm mươi xu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 749. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

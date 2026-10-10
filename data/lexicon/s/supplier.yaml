@@ -1,0 +1,26 @@
+schema_version: 3
+id: supplier
+lemma: supplier
+pos:
+- noun
+ipa:
+  us: /səˈplaɪɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: nhà cung cấp
+  id: supplier-1
+examples:
+- en: We changed our supplier because the old one often delivered late.
+  vi: Chúng tôi đổi nhà cung cấp vì nhà cũ thường giao hàng trễ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2004. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

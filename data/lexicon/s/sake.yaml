@@ -1,0 +1,26 @@
+schema_version: 3
+id: sake
+lemma: sake
+pos:
+- noun
+ipa:
+  us: /seɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: vì lợi ích của, vì (for the sake of)
+  id: sake-1
+examples:
+- en: For the sake of safety, please wear a helmet when entering the site.
+  vi: Vì sự an toàn, xin hãy đội mũ bảo hộ khi vào công trường.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2537. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

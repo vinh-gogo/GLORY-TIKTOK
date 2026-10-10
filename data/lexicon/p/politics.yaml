@@ -1,0 +1,26 @@
+schema_version: 3
+id: politics
+lemma: politics
+pos:
+- noun
+ipa:
+  us: /ˈpɑləˌtɪks/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: chính trị
+  id: politics-1
+examples:
+- en: Many employees avoid talking about politics during lunch breaks at the office.
+  vi: Nhiều nhân viên tránh nói về chính trị trong giờ nghỉ trưa ở văn phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1107. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

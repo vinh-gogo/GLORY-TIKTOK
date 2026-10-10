@@ -1,0 +1,26 @@
+schema_version: 3
+id: defend
+lemma: defend
+pos:
+- verb
+ipa:
+  us: /dɪˈfɛnd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: bảo vệ, bênh vực
+  id: defend-1
+examples:
+- en: The manager defended her team's decision during the board meeting.
+  vi: Người quản lý bênh vực quyết định của nhóm mình trong cuộc họp hội đồng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1874. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

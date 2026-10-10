@@ -1,0 +1,26 @@
+schema_version: 3
+id: choose
+lemma: choose
+pos:
+- verb
+ipa:
+  us: /tʃuz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chọn, lựa chọn
+  id: choose-1
+examples:
+- en: You can choose any dessert from the menu after your main course.
+  vi: Bạn có thể chọn bất kỳ món tráng miệng nào trong thực đơn sau món chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 447. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

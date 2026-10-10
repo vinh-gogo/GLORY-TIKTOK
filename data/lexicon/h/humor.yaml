@@ -1,0 +1,26 @@
+schema_version: 3
+id: humor
+lemma: humor
+pos:
+- noun
+ipa:
+  us: /ˈhjumɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự hài hước, tính hài hước
+  id: humor-1
+examples:
+- en: Her sense of humor made the long training session much more enjoyable.
+  vi: Khiếu hài hước của cô ấy khiến buổi đào tạo dài trở nên thú vị hơn nhiều.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2573. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

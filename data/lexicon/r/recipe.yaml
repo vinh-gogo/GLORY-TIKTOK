@@ -1,0 +1,26 @@
+schema_version: 3
+id: recipe
+lemma: recipe
+pos:
+- noun
+ipa:
+  us: /ˈrɛsəpi/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: công thức nấu ăn
+  id: recipe-1
+examples:
+- en: The chef shared his recipe for the famous tomato soup.
+  vi: Đầu bếp chia sẻ công thức món súp cà chua nổi tiếng của mình.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 210. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

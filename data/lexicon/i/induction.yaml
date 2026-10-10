@@ -1,0 +1,27 @@
+schema_version: 3
+id: induction
+lemma: induction
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈdʌkʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: buổi định hướng cho nhân viên mới; sự cảm ứng
+  id: induction-1
+examples:
+- en: New employees must attend an induction session during their first week.
+  vi: Nhân viên mới phải tham dự buổi định hướng trong tuần đầu tiên.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Nghĩa trong ngữ cảnh công sở (buổi định hướng nhân viên mới) khác với nghĩa
+    kỹ thuật/logic (cảm ứng, quy nạp); cần xác nhận. — Mục từ TSL hạng 1223. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

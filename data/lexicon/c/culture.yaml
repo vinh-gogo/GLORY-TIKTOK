@@ -1,0 +1,26 @@
+schema_version: 3
+id: culture
+lemma: culture
+pos:
+- noun
+ipa:
+  us: /ˈkʌltʃɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: văn hóa
+  id: culture-1
+examples:
+- en: The company has a friendly culture that encourages teamwork and learning.
+  vi: Công ty có văn hóa thân thiện khuyến khích làm việc nhóm và học hỏi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 568. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

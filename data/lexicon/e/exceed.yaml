@@ -1,0 +1,26 @@
+schema_version: 3
+id: exceed
+lemma: exceed
+pos:
+- verb
+ipa:
+  us: /ɪkˈsid/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: vượt quá
+  id: exceed-1
+examples:
+- en: Travel expenses must not exceed the budget approved by the finance department.
+  vi: Chi phí đi lại không được vượt quá ngân sách do phòng tài chính phê duyệt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2508. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

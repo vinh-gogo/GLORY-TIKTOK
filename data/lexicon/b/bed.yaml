@@ -1,0 +1,26 @@
+schema_version: 3
+id: bed
+lemma: bed
+pos:
+- noun
+ipa:
+  us: /bɛd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: cái giường
+  id: bed-1
+examples:
+- en: The hotel room has two beds and a small desk by the window.
+  vi: Phòng khách sạn có hai giường và một bàn nhỏ cạnh cửa sổ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 694. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: logical
+lemma: logical
+pos:
+- adjective
+ipa:
+  us: /ˈlɑdʒɪkəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: hợp lý, có logic
+  id: logical-1
+examples:
+- en: Moving the meeting to Friday seems like the most logical solution.
+  vi: Dời cuộc họp sang thứ Sáu có vẻ là giải pháp hợp lý nhất.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 8. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.
+  checked_at: '2026-10-11'

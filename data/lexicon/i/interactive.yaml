@@ -1,0 +1,27 @@
+schema_version: 3
+id: interactive
+lemma: interactive
+pos:
+- adjective
+ipa:
+  us: /ˌɪntɚˈæktɪv/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: có tính tương tác
+  id: interactive-1
+examples:
+- en: The museum offers interactive displays that children can touch and explore.
+  vi: Bảo tàng có các trưng bày tương tác mà trẻ em có thể chạm vào và khám phá.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɪntɚˈæktɪv/; /ˌɪnɚˈæktɪv/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1057. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

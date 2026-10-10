@@ -1,0 +1,26 @@
+schema_version: 3
+id: wash
+lemma: wash
+pos:
+- verb
+ipa:
+  us: /wɑʃ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: rửa, giặt
+  id: wash-1
+examples:
+- en: Please wash your hands before you handle any of the food.
+  vi: Vui lòng rửa tay trước khi chạm vào bất kỳ thức ăn nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1368. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

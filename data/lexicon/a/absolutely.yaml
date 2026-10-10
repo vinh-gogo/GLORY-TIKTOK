@@ -1,0 +1,26 @@
+schema_version: 3
+id: absolutely
+lemma: absolutely
+pos:
+- adverb
+ipa:
+  us: /ˌæbsəˈlutli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: hoàn toàn, tuyệt đối
+  id: absolutely-1
+examples:
+- en: You are absolutely right that we should review the contract again.
+  vi: Bạn hoàn toàn đúng khi cho rằng chúng ta nên xem lại hợp đồng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1078. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

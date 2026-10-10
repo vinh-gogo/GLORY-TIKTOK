@@ -1,0 +1,27 @@
+schema_version: 3
+id: arrest
+lemma: arrest
+pos:
+- verb
+- noun
+ipa:
+  us: /ɚˈɛst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bắt giữ
+  id: arrest-1
+examples:
+- en: The police arrested a man who had stolen several laptops from the store.
+  vi: Cảnh sát đã bắt một người đàn ông đã lấy trộm vài chiếc máy tính xách tay từ cửa hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1498. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

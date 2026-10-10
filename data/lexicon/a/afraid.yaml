@@ -1,0 +1,26 @@
+schema_version: 3
+id: afraid
+lemma: afraid
+pos:
+- adjective
+ipa:
+  us: /əˈfreɪd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: sợ, e rằng
+  id: afraid-1
+examples:
+- en: I am afraid the manager is not available until three o'clock.
+  vi: Tôi e rằng người quản lý không rảnh cho đến ba giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1353. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: let
+lemma: let
+pos:
+- verb
+ipa:
+  us: /lɛt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: để cho, cho phép
+  id: let-1
+examples:
+- en: Please let me know if you cannot attend the meeting.
+  vi: Vui lòng cho tôi biết nếu bạn không thể tham dự cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 174. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

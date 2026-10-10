@@ -1,0 +1,26 @@
+schema_version: 3
+id: bell
+lemma: bell
+pos:
+- noun
+ipa:
+  us: /bɛl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cái chuông
+  id: bell-1
+examples:
+- en: The bell rang at noon, and everyone left the office for lunch.
+  vi: Chuông reo lúc trưa và mọi người rời văn phòng đi ăn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2691. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

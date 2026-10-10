@@ -1,0 +1,26 @@
+schema_version: 3
+id: newsstand
+lemma: newsstand
+pos:
+- noun
+ipa:
+  us: /ˈnuzˌstænd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: quầy báo
+  id: newsstand-1
+examples:
+- en: He bought a business magazine at the newsstand outside the subway station.
+  vi: Anh ấy mua một tạp chí kinh doanh ở quầy báo ngoài ga tàu điện ngầm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 505. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

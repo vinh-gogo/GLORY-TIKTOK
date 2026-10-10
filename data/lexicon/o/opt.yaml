@@ -1,0 +1,26 @@
+schema_version: 3
+id: opt
+lemma: opt
+pos:
+- verb
+ipa:
+  us: /ɑpt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: chọn, lựa chọn
+  id: opt-1
+examples:
+- en: Many customers opt for the monthly payment plan instead of paying in full.
+  vi: Nhiều khách hàng chọn gói trả góp hằng tháng thay vì trả đủ một lần.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 609. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

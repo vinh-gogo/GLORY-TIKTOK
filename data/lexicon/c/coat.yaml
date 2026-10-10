@@ -1,0 +1,26 @@
+schema_version: 3
+id: coat
+lemma: coat
+pos:
+- noun
+ipa:
+  us: /koʊt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: áo khoác
+  id: coat-1
+examples:
+- en: Please hang your coat in the closet next to the entrance.
+  vi: Vui lòng treo áo khoác của bạn vào tủ cạnh lối vào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1863. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,28 @@
+schema_version: 3
+id: to
+lemma: to
+pos:
+- preposition
+- particle
+ipa:
+  us: /tu/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đến, tới; dùng trước động từ nguyên mẫu
+  id: to-1
+examples:
+- en: I need to go to the bank before it closes today.
+  vi: Tôi cần đi đến ngân hàng trước khi nó đóng cửa hôm nay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/tu/; /tɪ/; /tə/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 5. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

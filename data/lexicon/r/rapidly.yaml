@@ -1,0 +1,26 @@
+schema_version: 3
+id: rapidly
+lemma: rapidly
+pos:
+- adverb
+ipa:
+  us: /ˈræpədli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nhanh chóng
+  id: rapidly-1
+examples:
+- en: The company is growing rapidly and needs to hire more staff.
+  vi: Công ty đang phát triển nhanh chóng và cần tuyển thêm nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1968. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

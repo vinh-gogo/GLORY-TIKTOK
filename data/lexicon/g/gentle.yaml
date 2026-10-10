@@ -1,0 +1,27 @@
+schema_version: 3
+id: gentle
+lemma: gentle
+pos:
+- adjective
+ipa:
+  us: /ˈdʒɛntəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: nhẹ nhàng, dịu dàng
+  id: gentle-1
+examples:
+- en: A gentle breeze came through the open window of the meeting room.
+  vi: Một cơn gió nhẹ thổi qua cửa sổ mở của phòng họp.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdʒɛntəl/; /ˈdʒɛnəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2750. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

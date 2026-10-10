@@ -1,0 +1,26 @@
+schema_version: 3
+id: carpet
+lemma: carpet
+pos:
+- noun
+ipa:
+  us: /ˈkɑrpət/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: tấm thảm trải sàn
+  id: carpet-1
+examples:
+- en: The cleaners will replace the old carpet in the hallway next week.
+  vi: Nhân viên vệ sinh sẽ thay tấm thảm cũ ở hành lang vào tuần tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2680. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

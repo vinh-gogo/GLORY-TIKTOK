@@ -1,0 +1,27 @@
+schema_version: 3
+id: passage
+lemma: passage
+pos:
+- noun
+ipa:
+  us: /ˈpæsədʒ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đoạn văn; lối đi; sự trôi qua
+  id: passage-1
+examples:
+- en: Read the passage below and answer the questions that follow.
+  vi: Hãy đọc đoạn văn dưới đây và trả lời các câu hỏi tiếp theo.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈpæsədʒ/; /ˈpæsɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1858. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

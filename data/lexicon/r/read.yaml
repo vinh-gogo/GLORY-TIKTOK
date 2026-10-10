@@ -1,0 +1,27 @@
+schema_version: 3
+id: read
+lemma: read
+pos:
+- verb
+ipa:
+  us: /rɛd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đọc
+  id: read-1
+examples:
+- en: Please read the safety instructions carefully before operating the machine.
+  vi: Vui lòng đọc kỹ hướng dẫn an toàn trước khi vận hành máy.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɛd/; /rid/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 207. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

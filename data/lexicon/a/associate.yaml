@@ -1,0 +1,28 @@
+schema_version: 3
+id: associate
+lemma: associate
+pos:
+- noun
+- verb
+ipa:
+  us: /əˈsoʊsiət/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: đồng nghiệp, cộng sự; liên kết
+  id: associate-1
+examples:
+- en: She started as a sales associate and later became a regional manager.
+  vi: Cô ấy bắt đầu là nhân viên bán hàng rồi sau đó trở thành quản lý khu vực.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/əˈsoʊsiət/; /əˈsoʊsiˌeɪt/; /əˈsoʊʃiət/; /əˈsoʊʃiˌeɪt/);
+    IPA đang ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 857. IPA
+    lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng
+    tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

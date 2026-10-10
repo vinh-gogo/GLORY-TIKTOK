@@ -1,0 +1,26 @@
+schema_version: 3
+id: steadily
+lemma: steadily
+pos:
+- adverb
+ipa:
+  us: /ˈstɛdəli/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: đều đặn, liên tục
+  id: steadily-1
+examples:
+- en: The number of online customers has grown steadily over the past five years.
+  vi: Số lượng khách hàng trực tuyến đã tăng đều đặn trong năm năm qua.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 536. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

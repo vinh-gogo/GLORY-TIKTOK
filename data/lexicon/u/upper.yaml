@@ -1,0 +1,26 @@
+schema_version: 3
+id: upper
+lemma: upper
+pos:
+- adjective
+ipa:
+  us: /ˈʌpɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: ở phía trên, cấp cao
+  id: upper-1
+examples:
+- en: The accounting department is on the upper floor of the building.
+  vi: Phòng kế toán nằm ở tầng trên của tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1928. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

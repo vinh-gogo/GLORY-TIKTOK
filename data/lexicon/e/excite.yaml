@@ -1,0 +1,26 @@
+schema_version: 3
+id: excite
+lemma: excite
+pos:
+- verb
+ipa:
+  us: /ɪkˈsaɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: làm phấn khích
+  id: excite-1
+examples:
+- en: The announcement of the new project will excite many of our employees.
+  vi: Thông báo về dự án mới sẽ làm nhiều nhân viên của chúng tôi phấn khích.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1142. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

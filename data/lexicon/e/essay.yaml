@@ -1,0 +1,27 @@
+schema_version: 3
+id: essay
+lemma: essay
+pos:
+- noun
+ipa:
+  us: /ɛˈseɪ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bài luận
+  id: essay-1
+examples:
+- en: Students must submit a short essay by next Friday.
+  vi: Sinh viên phải nộp một bài luận ngắn trước thứ Sáu tuần sau.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛˈseɪ/; /ˈɛˌseɪ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2161. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: subsequently
+lemma: subsequently
+pos:
+- adverb
+ipa:
+  us: /ˈsʌbsəkwəntli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sau đó, về sau
+  id: subsequently-1
+examples:
+- en: The firm was founded in 1998 and subsequently expanded into several countries.
+  vi: Công ty được thành lập năm 1998 và sau đó mở rộng sang nhiều quốc gia.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2749. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

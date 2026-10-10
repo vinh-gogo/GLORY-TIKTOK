@@ -1,0 +1,26 @@
+schema_version: 3
+id: album
+lemma: album
+pos:
+- noun
+ipa:
+  us: /ˈælbəm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: album (nhạc, ảnh)
+  id: album-1
+examples:
+- en: The band will release its third album early next year.
+  vi: Ban nhạc sẽ phát hành album thứ ba vào đầu năm sau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2181. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: everything
+lemma: everything
+pos:
+- pronoun
+ipa:
+  us: /ˈɛvriˌθɪŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mọi thứ, tất cả
+  id: everything-1
+examples:
+- en: Everything you need for the presentation is in the blue folder.
+  vi: Mọi thứ bạn cần cho buổi thuyết trình đều nằm trong tập hồ sơ xanh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 422. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

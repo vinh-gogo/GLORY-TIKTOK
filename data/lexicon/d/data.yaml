@@ -1,0 +1,27 @@
+schema_version: 3
+id: data
+lemma: data
+pos:
+- noun
+ipa:
+  us: /ˈdeɪtə/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: dữ liệu
+  id: data-1
+examples:
+- en: The analyst collected sales data from all regional offices.
+  vi: Nhà phân tích đã thu thập dữ liệu bán hàng từ tất cả các văn phòng khu vực.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdeɪtə/; /ˈdætə/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 556. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

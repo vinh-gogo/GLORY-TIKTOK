@@ -1,0 +1,26 @@
+schema_version: 3
+id: paycheck
+lemma: paycheck
+pos:
+- noun
+ipa:
+  us: /ˈpeɪˌtʃɛk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: phiếu lương, tiền lương
+  id: paycheck-1
+examples:
+- en: Employees receive their paycheck on the last day of each month.
+  vi: Nhân viên nhận lương vào ngày cuối cùng của mỗi tháng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 320. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

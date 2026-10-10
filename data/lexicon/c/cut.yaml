@@ -1,0 +1,26 @@
+schema_version: 3
+id: cut
+lemma: cut
+pos:
+- verb
+ipa:
+  us: /kʌt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: cắt; cắt giảm
+  id: cut-1
+examples:
+- en: The firm decided to cut its advertising budget by ten percent.
+  vi: Công ty quyết định cắt giảm ngân sách quảng cáo mười phần trăm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 456. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

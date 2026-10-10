@@ -1,0 +1,26 @@
+schema_version: 3
+id: gymnasium
+lemma: gymnasium
+pos:
+- noun
+ipa:
+  us: /dʒɪmˈneɪziəm/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: phòng tập thể dục, nhà thi đấu
+  id: gymnasium-1
+examples:
+- en: The school gymnasium is open to local residents on weekday evenings.
+  vi: Phòng tập thể dục của trường mở cửa cho cư dân địa phương vào các buổi tối trong tuần.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1217. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

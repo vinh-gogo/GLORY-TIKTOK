@@ -1,0 +1,26 @@
+schema_version: 3
+id: dishwasher
+lemma: dishwasher
+pos:
+- noun
+ipa:
+  us: /ˈdɪʃˌwɑʃɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: máy rửa bát; người rửa bát
+  id: dishwasher-1
+examples:
+- en: Please load the dirty cups into the dishwasher before leaving the kitchen.
+  vi: Vui lòng xếp cốc bẩn vào máy rửa bát trước khi rời bếp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 711. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: popular
+lemma: popular
+pos:
+- adjective
+ipa:
+  us: /ˈpɑpjəlɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: phổ biến, được ưa chuộng
+  id: popular-1
+examples:
+- en: This model is very popular among young customers in the city.
+  vi: Mẫu này rất được khách hàng trẻ trong thành phố ưa chuộng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 790. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: credit
+lemma: credit
+pos:
+- noun
+ipa:
+  us: /ˈkrɛdət/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tín dụng; sự ghi nhận
+  id: credit-1
+examples:
+- en: You can pay by credit card or transfer money from your bank account.
+  vi: Bạn có thể thanh toán bằng thẻ tín dụng hoặc chuyển tiền từ tài khoản ngân hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkrɛdət/; /ˈkrɛdɪt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 944. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

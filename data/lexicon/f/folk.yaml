@@ -1,0 +1,27 @@
+schema_version: 3
+id: folk
+lemma: folk
+pos:
+- noun
+- adjective
+ipa:
+  us: /foʊk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: dân gian; người (nói chung)
+  id: folk-1
+examples:
+- en: The festival features folk music from several countries in the region.
+  vi: Lễ hội có nhạc dân gian từ nhiều quốc gia trong khu vực.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1675. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

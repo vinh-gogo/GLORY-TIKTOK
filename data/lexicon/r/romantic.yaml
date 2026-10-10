@@ -1,0 +1,26 @@
+schema_version: 3
+id: romantic
+lemma: romantic
+pos:
+- adjective
+ipa:
+  us: /roʊˈmæntɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: lãng mạn
+  id: romantic-1
+examples:
+- en: They had a romantic dinner at a quiet restaurant by the lake.
+  vi: Họ có một bữa tối lãng mạn tại một nhà hàng yên tĩnh bên hồ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2634. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

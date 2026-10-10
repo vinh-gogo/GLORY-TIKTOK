@@ -1,0 +1,27 @@
+schema_version: 3
+id: defeat
+lemma: defeat
+pos:
+- verb
+- noun
+ipa:
+  us: /dɪˈfit/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: đánh bại; thất bại
+  id: defeat-1
+examples:
+- en: Our local team managed to defeat the champions last night.
+  vi: Đội địa phương của chúng tôi đã đánh bại nhà vô địch đêm qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1886. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

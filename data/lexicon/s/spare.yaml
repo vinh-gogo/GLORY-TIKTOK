@@ -1,0 +1,26 @@
+schema_version: 3
+id: spare
+lemma: spare
+pos:
+- adjective
+ipa:
+  us: /spɛr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: dự phòng; rảnh rỗi
+  id: spare-1
+examples:
+- en: Keep a spare key in the office in case of emergencies.
+  vi: Hãy giữ một chìa khóa dự phòng ở văn phòng phòng khi khẩn cấp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2126. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: unknown
+lemma: unknown
+pos:
+- adjective
+ipa:
+  us: /ənˈnoʊn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: không rõ, chưa biết
+  id: unknown-1
+examples:
+- en: The cause of the power failure is still unknown.
+  vi: Nguyên nhân của sự cố mất điện vẫn chưa được biết.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2043. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: product
+lemma: product
+pos:
+- noun
+ipa:
+  us: /ˈprɑdəkt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: sản phẩm
+  id: product-1
+examples:
+- en: The company will release its latest product at the trade show.
+  vi: Công ty sẽ ra mắt sản phẩm mới nhất tại hội chợ thương mại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 304. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

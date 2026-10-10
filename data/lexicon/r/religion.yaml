@@ -1,0 +1,27 @@
+schema_version: 3
+id: religion
+lemma: religion
+pos:
+- noun
+ipa:
+  us: /rɪˈlɪdʒən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: tôn giáo
+  id: religion-1
+examples:
+- en: The survey did not ask employees about their religion or age.
+  vi: Cuộc khảo sát không hỏi nhân viên về tôn giáo hay tuổi tác.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈlɪdʒən/; /riˈlɪdʒən/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1701. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

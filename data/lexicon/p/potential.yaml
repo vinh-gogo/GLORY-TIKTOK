@@ -1,0 +1,27 @@
+schema_version: 3
+id: potential
+lemma: potential
+pos:
+- adjective
+- noun
+ipa:
+  us: /pəˈtɛnʃəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tiềm năng; có khả năng
+  id: potential-1
+examples:
+- en: We met several potential clients at the trade show last weekend.
+  vi: Chúng tôi đã gặp một số khách hàng tiềm năng tại hội chợ thương mại cuối tuần trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 830. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

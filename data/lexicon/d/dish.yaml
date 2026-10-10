@@ -1,0 +1,26 @@
+schema_version: 3
+id: dish
+lemma: dish
+pos:
+- noun
+ipa:
+  us: /dɪʃ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: món ăn; cái đĩa
+  id: dish-1
+examples:
+- en: The chef recommended a seafood dish served with fresh vegetables.
+  vi: Đầu bếp gợi ý một món hải sản ăn kèm rau tươi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1882. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

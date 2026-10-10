@@ -1,0 +1,26 @@
+schema_version: 3
+id: inspector
+lemma: inspector
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈspɛktɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: thanh tra viên, người kiểm tra
+  id: inspector-1
+examples:
+- en: The safety inspector visited the factory on Wednesday afternoon.
+  vi: Thanh tra an toàn đã đến thăm nhà máy vào chiều thứ Tư.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 306. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

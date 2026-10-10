@@ -1,0 +1,27 @@
+schema_version: 3
+id: repeat
+lemma: repeat
+pos:
+- verb
+ipa:
+  us: /rɪˈpit/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: lặp lại, nhắc lại
+  id: repeat-1
+examples:
+- en: Could you repeat the last sentence? I did not hear it clearly.
+  vi: Bạn có thể nhắc lại câu cuối không? Tôi nghe không rõ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈpit/; /riˈpit/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1253. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: fork
+lemma: fork
+pos:
+- noun
+ipa:
+  us: /fɔrk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: cái nĩa
+  id: fork-1
+examples:
+- en: The waiter placed a clean fork and knife beside each plate.
+  vi: Người phục vụ đặt một chiếc nĩa và dao sạch cạnh mỗi đĩa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1134. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

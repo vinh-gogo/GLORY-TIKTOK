@@ -1,0 +1,27 @@
+schema_version: 3
+id: public
+lemma: public
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈpʌblɪk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: công cộng; công chúng
+  id: public-1
+examples:
+- en: The new museum will be open to the public starting in June.
+  vi: Bảo tàng mới sẽ mở cửa cho công chúng bắt đầu từ tháng Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 287. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

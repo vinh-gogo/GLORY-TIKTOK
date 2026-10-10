@@ -1,0 +1,26 @@
+schema_version: 3
+id: bill
+lemma: bill
+pos:
+- noun
+ipa:
+  us: /bɪl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: hóa đơn
+  id: bill-1
+examples:
+- en: The electricity bill for this month was higher than we had expected.
+  vi: Hóa đơn tiền điện tháng này cao hơn chúng tôi dự kiến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 888. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

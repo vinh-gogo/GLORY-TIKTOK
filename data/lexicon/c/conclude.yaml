@@ -1,0 +1,26 @@
+schema_version: 3
+id: conclude
+lemma: conclude
+pos:
+- verb
+ipa:
+  us: /kənˈklud/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: kết luận, kết thúc
+  id: conclude-1
+examples:
+- en: The speaker concluded the presentation with a short summary of results.
+  vi: Diễn giả kết thúc bài thuyết trình bằng một bản tóm tắt ngắn về kết quả.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1355. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

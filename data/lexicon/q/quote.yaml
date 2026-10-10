@@ -1,0 +1,27 @@
+schema_version: 3
+id: quote
+lemma: quote
+pos:
+- noun
+- verb
+ipa:
+  us: /kwoʊt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: bảng báo giá; trích dẫn
+  id: quote-1
+examples:
+- en: Please send us a quote for the printing of five hundred brochures.
+  vi: Vui lòng gửi cho chúng tôi bảng báo giá in năm trăm tờ rơi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1433. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

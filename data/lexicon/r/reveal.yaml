@@ -1,0 +1,27 @@
+schema_version: 3
+id: reveal
+lemma: reveal
+pos:
+- verb
+ipa:
+  us: /rɪˈvil/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tiết lộ, cho thấy
+  id: reveal-1
+examples:
+- en: The survey results reveal that customers want faster delivery options.
+  vi: Kết quả khảo sát cho thấy khách hàng muốn có các lựa chọn giao hàng nhanh hơn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈvil/; /riˈvil/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1124. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

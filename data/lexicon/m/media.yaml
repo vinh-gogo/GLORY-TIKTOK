@@ -1,0 +1,26 @@
+schema_version: 3
+id: media
+lemma: media
+pos:
+- noun
+ipa:
+  us: /ˈmidiə/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: truyền thông, phương tiện thông tin
+  id: media-1
+examples:
+- en: The local media covered the opening of our new factory.
+  vi: Truyền thông địa phương đã đưa tin về lễ khai trương nhà máy mới của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 92. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

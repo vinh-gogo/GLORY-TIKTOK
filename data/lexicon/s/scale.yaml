@@ -1,0 +1,26 @@
+schema_version: 3
+id: scale
+lemma: scale
+pos:
+- noun
+ipa:
+  us: /skeɪl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: quy mô; thang đo
+  id: scale-1
+examples:
+- en: The company is planning to expand its operations on a global scale.
+  vi: Công ty đang lên kế hoạch mở rộng hoạt động trên quy mô toàn cầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1199. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

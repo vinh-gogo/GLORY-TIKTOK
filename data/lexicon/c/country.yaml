@@ -1,0 +1,26 @@
+schema_version: 3
+id: country
+lemma: country
+pos:
+- noun
+ipa:
+  us: /ˈkʌntri/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đất nước, quốc gia; miền quê
+  id: country-1
+examples:
+- en: Our products are now sold in more than thirty countries.
+  vi: Sản phẩm của chúng tôi hiện được bán tại hơn ba mươi quốc gia.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 143. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

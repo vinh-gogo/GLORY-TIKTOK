@@ -1,0 +1,26 @@
+schema_version: 3
+id: stone
+lemma: stone
+pos:
+- noun
+ipa:
+  us: /stoʊn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đá, hòn đá
+  id: stone-1
+examples:
+- en: The old bridge was built with large pieces of stone.
+  vi: Cây cầu cũ được xây bằng những khối đá lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1374. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: well
+lemma: well
+pos:
+- adverb
+- adjective
+ipa:
+  us: /wɛl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tốt, giỏi (trạng từ); khỏe
+  id: well-1
+examples:
+- en: The new software works well with our existing accounting system.
+  vi: Phần mềm mới hoạt động tốt với hệ thống kế toán hiện có của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 61. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

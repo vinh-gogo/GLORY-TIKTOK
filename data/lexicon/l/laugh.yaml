@@ -1,0 +1,26 @@
+schema_version: 3
+id: laugh
+lemma: laugh
+pos:
+- verb
+ipa:
+  us: /læf/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cười
+  id: laugh-1
+examples:
+- en: Everyone started to laugh when the speaker told a funny story.
+  vi: Mọi người bật cười khi diễn giả kể một câu chuyện hài hước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 620. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

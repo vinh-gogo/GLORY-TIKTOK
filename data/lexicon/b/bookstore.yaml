@@ -1,0 +1,26 @@
+schema_version: 3
+id: bookstore
+lemma: bookstore
+pos:
+- noun
+ipa:
+  us: /ˈbʊkˌstɔr/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: hiệu sách
+  id: bookstore-1
+examples:
+- en: The bookstore on Main Street sells both new and used books.
+  vi: Hiệu sách trên phố Main bán cả sách mới lẫn sách cũ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 263. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: online
+lemma: online
+pos:
+- adjective
+- adverb
+ipa:
+  us: /ˈɔnˌlaɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: trực tuyến
+  id: online-1
+examples:
+- en: You can pay your electricity bill online at any time.
+  vi: Bạn có thể thanh toán hóa đơn tiền điện trực tuyến bất cứ lúc nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1794. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

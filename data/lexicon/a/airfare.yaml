@@ -1,0 +1,26 @@
+schema_version: 3
+id: airfare
+lemma: airfare
+pos:
+- noun
+ipa:
+  us: /ˈɛrˌfɛr/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: giá vé máy bay
+  id: airfare-1
+examples:
+- en: The company will reimburse your airfare after you submit the receipt.
+  vi: Công ty sẽ hoàn lại tiền vé máy bay sau khi bạn nộp biên lai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 493. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

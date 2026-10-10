@@ -1,0 +1,26 @@
+schema_version: 3
+id: opera
+lemma: opera
+pos:
+- noun
+ipa:
+  us: /ˈɑprə/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: nhạc kịch opera
+  id: opera-1
+examples:
+- en: We bought tickets to see an opera at the city theater on Saturday.
+  vi: Chúng tôi mua vé xem một vở opera tại nhà hát thành phố vào thứ Bảy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2461. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

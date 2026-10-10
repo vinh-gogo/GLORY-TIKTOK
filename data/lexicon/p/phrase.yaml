@@ -1,0 +1,27 @@
+schema_version: 3
+id: phrase
+lemma: phrase
+pos:
+- noun
+- verb
+ipa:
+  us: /freɪz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cụm từ
+  id: phrase-1
+examples:
+- en: Please avoid using that phrase in formal business letters.
+  vi: Vui lòng tránh dùng cụm từ đó trong thư kinh doanh trang trọng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1795. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: instruct
+lemma: instruct
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈstrʌkt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: hướng dẫn, chỉ thị
+  id: instruct-1
+examples:
+- en: The manager will instruct new staff on how to use the system.
+  vi: Quản lý sẽ hướng dẫn nhân viên mới cách sử dụng hệ thống.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 392. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: exclude
+lemma: exclude
+pos:
+- verb
+ipa:
+  us: /ɪkˈsklud/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: loại trừ, không bao gồm
+  id: exclude-1
+examples:
+- en: The quoted price excludes tax and any delivery charges.
+  vi: Giá báo chưa bao gồm thuế và mọi chi phí giao hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2088. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

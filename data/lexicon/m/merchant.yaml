@@ -1,0 +1,26 @@
+schema_version: 3
+id: merchant
+lemma: merchant
+pos:
+- noun
+ipa:
+  us: /ˈmɝtʃənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: thương nhân, người bán hàng
+  id: merchant-1
+examples:
+- en: The merchant offered a discount to customers who bought in large quantities.
+  vi: Thương nhân giảm giá cho những khách hàng mua số lượng lớn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 925. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: simple
+lemma: simple
+pos:
+- adjective
+ipa:
+  us: /ˈsɪmpəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đơn giản, dễ
+  id: simple-1
+examples:
+- en: The instructions are simple, so anyone can set up the machine.
+  vi: Hướng dẫn rất đơn giản nên ai cũng có thể lắp đặt máy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 688. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

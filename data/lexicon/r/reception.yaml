@@ -1,0 +1,27 @@
+schema_version: 3
+id: reception
+lemma: reception
+pos:
+- noun
+ipa:
+  us: /rɪˈsɛpʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: quầy lễ tân; buổi chiêu đãi
+  id: reception-1
+examples:
+- en: Guests are invited to a reception after the award ceremony.
+  vi: Khách được mời dự một buổi chiêu đãi sau lễ trao giải.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈsɛpʃən/; /riˈsɛpʃən/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 46. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

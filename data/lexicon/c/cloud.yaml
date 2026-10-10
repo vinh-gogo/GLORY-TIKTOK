@@ -1,0 +1,26 @@
+schema_version: 3
+id: cloud
+lemma: cloud
+pos:
+- noun
+ipa:
+  us: /klaʊd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: đám mây; điện toán đám mây
+  id: cloud-1
+examples:
+- en: Our files are stored safely in the cloud.
+  vi: Các tệp của chúng tôi được lưu trữ an toàn trên đám mây.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2090. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

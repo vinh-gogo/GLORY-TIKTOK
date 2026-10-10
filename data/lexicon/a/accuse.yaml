@@ -1,0 +1,26 @@
+schema_version: 3
+id: accuse
+lemma: accuse
+pos:
+- verb
+ipa:
+  us: /əˈkjuz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: buộc tội, cáo buộc
+  id: accuse-1
+examples:
+- en: The report did not accuse any employee of breaking company rules.
+  vi: Báo cáo không cáo buộc nhân viên nào vi phạm quy định của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1755. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

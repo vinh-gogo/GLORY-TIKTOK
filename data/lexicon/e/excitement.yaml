@@ -1,0 +1,26 @@
+schema_version: 3
+id: excitement
+lemma: excitement
+pos:
+- noun
+ipa:
+  us: /ɪkˈsaɪtmənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: sự phấn khích, sự hào hứng
+  id: excitement-1
+examples:
+- en: There was great excitement in the office when the new product was announced.
+  vi: Cả văn phòng vô cùng hào hứng khi sản phẩm mới được công bố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2741. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

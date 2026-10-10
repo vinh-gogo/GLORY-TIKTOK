@@ -1,0 +1,28 @@
+schema_version: 3
+id: respect
+lemma: respect
+pos:
+- noun
+- verb
+ipa:
+  us: /rɪˈspɛkt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: sự tôn trọng; tôn trọng
+  id: respect-1
+examples:
+- en: Good managers show respect for the opinions of their team members.
+  vi: Những quản lý giỏi thể hiện sự tôn trọng ý kiến của các thành viên trong nhóm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈspɛkt/; /riˈspɛkt/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 681. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

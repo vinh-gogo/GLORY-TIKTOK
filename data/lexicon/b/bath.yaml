@@ -1,0 +1,26 @@
+schema_version: 3
+id: bath
+lemma: bath
+pos:
+- noun
+ipa:
+  us: /bæθ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: bồn tắm; việc tắm
+  id: bath-1
+examples:
+- en: Each hotel room has a private bath and a small balcony.
+  vi: Mỗi phòng khách sạn có phòng tắm riêng và một ban công nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2294. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

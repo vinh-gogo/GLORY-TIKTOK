@@ -1,0 +1,27 @@
+schema_version: 3
+id: tremendous
+lemma: tremendous
+pos:
+- adjective
+ipa:
+  us: /trəˈmɛndəs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: to lớn, khổng lồ
+  id: tremendous-1
+examples:
+- en: The new advertising campaign had a tremendous effect on our online sales.
+  vi: Chiến dịch quảng cáo mới có tác động rất lớn đến doanh số trực tuyến của chúng tôi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/trəˈmɛndəs/; /trɪˈmɛndəs/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1017. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

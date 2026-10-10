@@ -1,0 +1,26 @@
+schema_version: 3
+id: wellness
+lemma: wellness
+pos:
+- noun
+ipa:
+  us: /ˈwɛlnəs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: sức khỏe tốt, sự khỏe mạnh toàn diện
+  id: wellness-1
+examples:
+- en: The company runs a wellness program that includes yoga and healthy lunches.
+  vi: Công ty có chương trình chăm sóc sức khỏe gồm yoga và bữa trưa lành mạnh.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1231. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

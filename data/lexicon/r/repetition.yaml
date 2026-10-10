@@ -1,0 +1,26 @@
+schema_version: 3
+id: repetition
+lemma: repetition
+pos:
+- noun
+ipa:
+  us: /ˌrɛpəˈtɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sự lặp lại
+  id: repetition-1
+examples:
+- en: Please avoid repetition in your report so that readers stay interested.
+  vi: Xin tránh lặp lại trong báo cáo để người đọc luôn hứng thú.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1170. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

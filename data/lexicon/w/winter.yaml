@@ -1,0 +1,26 @@
+schema_version: 3
+id: winter
+lemma: winter
+pos:
+- noun
+ipa:
+  us: /ˈwɪntɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: mùa đông
+  id: winter-1
+examples:
+- en: Sales of warm clothing usually rise sharply in the winter.
+  vi: Doanh số quần áo ấm thường tăng mạnh vào mùa đông.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1328. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

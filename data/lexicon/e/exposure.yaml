@@ -1,0 +1,26 @@
+schema_version: 3
+id: exposure
+lemma: exposure
+pos:
+- noun
+ipa:
+  us: /ɪkˈspoʊʒɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự tiếp xúc; sự quảng bá
+  id: exposure-1
+examples:
+- en: The new advertisement gave our brand more exposure in overseas markets.
+  vi: Quảng cáo mới giúp thương hiệu của chúng tôi được biết đến nhiều hơn ở thị trường nước ngoài.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2307. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

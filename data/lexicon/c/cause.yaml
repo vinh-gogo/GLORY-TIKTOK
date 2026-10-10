@@ -1,0 +1,28 @@
+schema_version: 3
+id: cause
+lemma: cause
+pos:
+- noun
+- verb
+ipa:
+  us: /kɑz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: nguyên nhân; gây ra
+  id: cause-1
+examples:
+- en: Engineers are still trying to find the cause of the power failure.
+  vi: Các kỹ sư vẫn đang cố tìm nguyên nhân của sự cố mất điện.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/kɑz/; /kɔz/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 319. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: renewal
+lemma: renewal
+pos:
+- noun
+ipa:
+  us: /rɪˈnuəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự gia hạn, đổi mới
+  id: renewal-1
+examples:
+- en: The renewal of your contract will be discussed next week.
+  vi: Việc gia hạn hợp đồng của bạn sẽ được thảo luận vào tuần tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 295. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

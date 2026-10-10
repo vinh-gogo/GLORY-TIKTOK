@@ -1,0 +1,26 @@
+schema_version: 3
+id: outstanding
+lemma: outstanding
+pos:
+- adjective
+ipa:
+  us: /ˌaʊtˈstændɪŋ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: xuất sắc; còn tồn đọng (chưa thanh toán)
+  id: outstanding-1
+examples:
+- en: He received an award for his outstanding work this year.
+  vi: Anh ấy nhận được giải thưởng vì thành tích làm việc xuất sắc trong năm nay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 167. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

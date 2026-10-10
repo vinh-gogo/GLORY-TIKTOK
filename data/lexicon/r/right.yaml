@@ -1,0 +1,27 @@
+schema_version: 3
+id: right
+lemma: right
+pos:
+- adjective
+- noun
+ipa:
+  us: /raɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đúng; bên phải; quyền
+  id: right-1
+examples:
+- en: Make sure you have the right documents before you apply for the visa.
+  vi: Hãy chắc chắn bạn có đúng các giấy tờ trước khi nộp đơn xin thị thực.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 92. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

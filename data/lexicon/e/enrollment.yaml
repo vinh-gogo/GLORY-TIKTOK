@@ -1,0 +1,26 @@
+schema_version: 3
+id: enrollment
+lemma: enrollment
+pos:
+- noun
+ipa:
+  us: /ɛnˈroʊlmənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sự ghi danh, đăng ký học
+  id: enrollment-1
+examples:
+- en: Enrollment in the evening course begins on the first of September.
+  vi: Việc ghi danh vào khóa học buổi tối bắt đầu từ ngày một tháng Chín.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1131. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

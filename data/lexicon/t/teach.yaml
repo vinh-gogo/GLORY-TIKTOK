@@ -1,0 +1,26 @@
+schema_version: 3
+id: teach
+lemma: teach
+pos:
+- verb
+ipa:
+  us: /titʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: dạy, giảng dạy
+  id: teach-1
+examples:
+- en: She will teach an evening class on basic accounting this fall.
+  vi: Cô ấy sẽ dạy một lớp buổi tối về kế toán cơ bản vào mùa thu này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 539. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

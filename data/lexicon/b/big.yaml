@@ -1,0 +1,26 @@
+schema_version: 3
+id: big
+lemma: big
+pos:
+- adjective
+ipa:
+  us: /bɪɡ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: to, lớn
+  id: big-1
+examples:
+- en: The company is planning a big sale for the end of the season.
+  vi: Công ty đang lên kế hoạch cho một đợt giảm giá lớn vào cuối mùa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 184. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

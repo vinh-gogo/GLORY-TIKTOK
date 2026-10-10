@@ -1,0 +1,26 @@
+schema_version: 3
+id: sightsee
+lemma: sightsee
+pos:
+- verb
+ipa:
+  us: /ˈsaɪtˈsi/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: đi tham quan, ngắm cảnh
+  id: sightsee-1
+examples:
+- en: We plan to sightsee in the old town after the conference.
+  vi: Chúng tôi dự định đi tham quan khu phố cổ sau hội nghị.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 325. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: area
+lemma: area
+pos:
+- noun
+ipa:
+  us: /ˈɛriə/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: khu vực; lĩnh vực
+  id: area-1
+examples:
+- en: The company is looking for office space in the downtown area.
+  vi: Công ty đang tìm mặt bằng văn phòng ở khu vực trung tâm thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 204. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

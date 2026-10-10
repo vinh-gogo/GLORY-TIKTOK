@@ -1,0 +1,27 @@
+schema_version: 3
+id: rush
+lemma: rush
+pos:
+- verb
+- noun
+ipa:
+  us: /rʌʃ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: vội vã, gấp rút
+  id: rush-1
+examples:
+- en: Commuters rush to the station every morning during rush hour.
+  vi: Người đi làm vội vã đến nhà ga mỗi sáng vào giờ cao điểm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1699. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

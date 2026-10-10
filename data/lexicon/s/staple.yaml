@@ -1,0 +1,27 @@
+schema_version: 3
+id: staple
+lemma: staple
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈsteɪpəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- offices
+senses:
+- meaning_vi: ghim bấm giấy; bấm ghim
+  id: staple-1
+examples:
+- en: Please staple the receipts to the expense form before submitting it.
+  vi: Vui lòng bấm ghim các biên lai vào mẫu chi phí trước khi nộp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 875. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

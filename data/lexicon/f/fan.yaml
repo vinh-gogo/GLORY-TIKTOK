@@ -1,0 +1,26 @@
+schema_version: 3
+id: fan
+lemma: fan
+pos:
+- noun
+ipa:
+  us: /fæn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: người hâm mộ; quạt
+  id: fan-1
+examples:
+- en: He is a big fan of the local football team.
+  vi: Anh ấy là một người hâm mộ lớn của đội bóng đá địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1306. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,28 @@
+schema_version: 3
+id: cast
+lemma: cast
+pos:
+- noun
+- verb
+ipa:
+  us: /kæst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: dàn diễn viên; ném, đúc
+  id: cast-1
+examples:
+- en: The cast of the new play will meet fans after the show.
+  vi: Dàn diễn viên của vở kịch mới sẽ gặp người hâm mộ sau buổi diễn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa khác nhau (dàn diễn viên, ném, đúc, bó bột); cần xác nhận nghĩa
+    chính — Mục từ NGSL hạng 1618. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm
+    theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ
+    do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

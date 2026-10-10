@@ -1,0 +1,26 @@
+schema_version: 3
+id: priority
+lemma: priority
+pos:
+- noun
+ipa:
+  us: /praɪˈɔrəti/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự ưu tiên, việc ưu tiên
+  id: priority-1
+examples:
+- en: Customer satisfaction is our top priority this year.
+  vi: Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi năm nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1793. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: discover
+lemma: discover
+pos:
+- verb
+ipa:
+  us: /dɪˈskʌvɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: phát hiện, khám phá
+  id: discover-1
+examples:
+- en: The auditor discovered a small error in last month's financial report.
+  vi: Kiểm toán viên đã phát hiện một lỗi nhỏ trong báo cáo tài chính tháng trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 946. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

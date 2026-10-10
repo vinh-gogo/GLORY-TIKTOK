@@ -1,0 +1,26 @@
+schema_version: 3
+id: inspire
+lemma: inspire
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈspaɪr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: truyền cảm hứng
+  id: inspire-1
+examples:
+- en: Her speech inspired the whole team to work harder.
+  vi: Bài phát biểu của cô ấy đã truyền cảm hứng cho cả nhóm làm việc chăm chỉ hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2092. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

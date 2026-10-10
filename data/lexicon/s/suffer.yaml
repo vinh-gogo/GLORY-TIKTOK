@@ -1,0 +1,26 @@
+schema_version: 3
+id: suffer
+lemma: suffer
+pos:
+- verb
+ipa:
+  us: /ˈsʌfɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- health
+senses:
+- meaning_vi: chịu đựng, đau khổ
+  id: suffer-1
+examples:
+- en: Many workers suffer from back pain after sitting at desks all day.
+  vi: Nhiều nhân viên bị đau lưng do ngồi bàn làm việc cả ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 838. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

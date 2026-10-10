@@ -1,0 +1,27 @@
+schema_version: 3
+id: this
+lemma: this
+pos:
+- determiner
+- pronoun
+ipa:
+  us: /ðɪs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: này, cái này (chỉ người/vật ở gần)
+  id: this-1
+examples:
+- en: This printer is out of toner, so please use the one downstairs.
+  vi: Chiếc máy in này hết mực, nên hãy dùng chiếc ở tầng dưới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 19. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

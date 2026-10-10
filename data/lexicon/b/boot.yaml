@@ -1,0 +1,26 @@
+schema_version: 3
+id: boot
+lemma: boot
+pos:
+- noun
+ipa:
+  us: /but/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: giày ống; cốp xe (Anh)
+  id: boot-1
+examples:
+- en: Workers on the site must wear safety boots at all times.
+  vi: Công nhân tại công trường phải luôn đi ủng bảo hộ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2282. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

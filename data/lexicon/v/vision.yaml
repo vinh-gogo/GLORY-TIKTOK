@@ -1,0 +1,26 @@
+schema_version: 3
+id: vision
+lemma: vision
+pos:
+- noun
+ipa:
+  us: /ˈvɪʒən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: tầm nhìn; thị lực
+  id: vision-1
+examples:
+- en: The new director shared her vision for the company's future growth.
+  vi: Giám đốc mới chia sẻ tầm nhìn của bà về sự phát triển tương lai của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1651. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: structural
+lemma: structural
+pos:
+- adjective
+ipa:
+  us: /ˈstrʌktʃɚəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: thuộc cấu trúc, kết cấu
+  id: structural-1
+examples:
+- en: Engineers found structural damage in the bridge after the earthquake.
+  vi: Các kỹ sư phát hiện hư hại kết cấu ở cây cầu sau trận động đất.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2763. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

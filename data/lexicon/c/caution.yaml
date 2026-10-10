@@ -1,0 +1,27 @@
+schema_version: 3
+id: caution
+lemma: caution
+pos:
+- noun
+ipa:
+  us: /ˈkɑʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự thận trọng, lời cảnh báo
+  id: caution-1
+examples:
+- en: Please use caution when walking on the wet floor near the entrance.
+  vi: Vui lòng cẩn thận khi đi trên sàn ướt gần lối vào.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkɑʃən/; /ˈkɔʃən/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 593. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

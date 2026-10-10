@@ -1,0 +1,26 @@
+schema_version: 3
+id: swear
+lemma: swear
+pos:
+- verb
+ipa:
+  us: /swɛr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: thề; chửi thề
+  id: swear-1
+examples:
+- en: The witness had to swear to tell the truth before speaking.
+  vi: Nhân chứng phải thề nói sự thật trước khi phát biểu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2735. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

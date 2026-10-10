@@ -1,0 +1,26 @@
+schema_version: 3
+id: commission
+lemma: commission
+pos:
+- noun
+ipa:
+  us: /kəˈmɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tiền hoa hồng; ủy ban
+  id: commission-1
+examples:
+- en: Sales staff earn a commission on every product they sell.
+  vi: Nhân viên bán hàng được hưởng tiền hoa hồng trên mỗi sản phẩm họ bán.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1593. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

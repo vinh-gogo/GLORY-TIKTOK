@@ -1,0 +1,27 @@
+schema_version: 3
+id: about
+lemma: about
+pos:
+- preposition
+- adverb
+ipa:
+  us: /əˈbaʊt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: về (một chủ đề); khoảng, xấp xỉ
+  id: about-1
+examples:
+- en: Do you have any questions about the new vacation policy?
+  vi: Bạn có câu hỏi nào về chính sách nghỉ phép mới không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 37. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

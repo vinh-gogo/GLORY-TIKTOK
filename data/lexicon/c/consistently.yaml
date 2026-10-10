@@ -1,0 +1,26 @@
+schema_version: 3
+id: consistently
+lemma: consistently
+pos:
+- adverb
+ipa:
+  us: /kənˈsɪstəntli/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: một cách nhất quán, đều đặn
+  id: consistently-1
+examples:
+- en: Our team has consistently met its monthly sales targets for two years.
+  vi: Nhóm chúng tôi đã đạt chỉ tiêu doanh số hằng tháng một cách đều đặn trong hai năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 670. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

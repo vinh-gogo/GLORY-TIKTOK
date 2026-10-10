@@ -1,0 +1,26 @@
+schema_version: 3
+id: cafeteria
+lemma: cafeteria
+pos:
+- noun
+ipa:
+  us: /ˌkæfəˈtɪriə/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: căng tin, nhà ăn tự phục vụ
+  id: cafeteria-1
+examples:
+- en: Employees usually eat lunch in the cafeteria on the second floor.
+  vi: Nhân viên thường ăn trưa ở căng tin trên tầng hai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 43. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

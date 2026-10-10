@@ -1,0 +1,26 @@
+schema_version: 3
+id: extension
+lemma: extension
+pos:
+- noun
+ipa:
+  us: /ɪkˈstɛnʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: số máy nhánh; sự gia hạn; phần mở rộng
+  id: extension-1
+examples:
+- en: Please dial extension 204 to reach the accounting department.
+  vi: Vui lòng bấm số máy nhánh 204 để gọi phòng kế toán.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2186. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

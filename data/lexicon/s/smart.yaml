@@ -1,0 +1,26 @@
+schema_version: 3
+id: smart
+lemma: smart
+pos:
+- adjective
+ipa:
+  us: /smɑrt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: thông minh
+  id: smart-1
+examples:
+- en: The company sells smart devices that help people save energy at home.
+  vi: Công ty bán các thiết bị thông minh giúp mọi người tiết kiệm năng lượng ở nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2023. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

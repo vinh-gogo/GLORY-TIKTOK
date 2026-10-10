@@ -1,0 +1,27 @@
+schema_version: 3
+id: reduce
+lemma: reduce
+pos:
+- verb
+ipa:
+  us: /rəˈdus/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: giảm, cắt giảm
+  id: reduce-1
+examples:
+- en: The new machine will reduce our energy costs by fifteen percent.
+  vi: Chiếc máy mới sẽ giảm chi phí năng lượng của chúng tôi mười lăm phần trăm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rəˈdus/; /rɪˈdus/; /riˈdus/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 584. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

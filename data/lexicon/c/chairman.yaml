@@ -1,0 +1,26 @@
+schema_version: 3
+id: chairman
+lemma: chairman
+pos:
+- noun
+ipa:
+  us: /ˈtʃɛrmən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: chủ tịch
+  id: chairman-1
+examples:
+- en: The chairman will open the annual shareholders meeting at nine.
+  vi: Chủ tịch sẽ khai mạc cuộc họp cổ đông thường niên lúc chín giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1662. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: economic
+lemma: economic
+pos:
+- adjective
+ipa:
+  us: /ˌɛkəˈnɑmɪk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: thuộc kinh tế
+  id: economic-1
+examples:
+- en: The report describes the economic effects of the new tax policy.
+  vi: Báo cáo mô tả các tác động kinh tế của chính sách thuế mới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɛkəˈnɑmɪk/; /ˌikəˈnɑmɪk/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 493. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

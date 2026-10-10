@@ -1,0 +1,26 @@
+schema_version: 3
+id: root
+lemma: root
+pos:
+- noun
+ipa:
+  us: /rut/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: rễ; gốc rễ, nguyên nhân
+  id: root-1
+examples:
+- en: We need to find the root of the problem before fixing it.
+  vi: Chúng ta cần tìm ra gốc rễ của vấn đề trước khi sửa nó.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1529. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

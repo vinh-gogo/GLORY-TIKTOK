@@ -1,0 +1,26 @@
+schema_version: 3
+id: size
+lemma: size
+pos:
+- noun
+ipa:
+  us: /saɪz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: kích cỡ
+  id: size-1
+examples:
+- en: This jacket is available in every size from small to extra large.
+  vi: Chiếc áo khoác này có đủ mọi cỡ từ nhỏ đến cực lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 705. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

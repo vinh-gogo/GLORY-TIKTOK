@@ -1,0 +1,27 @@
+schema_version: 3
+id: store
+lemma: store
+pos:
+- noun
+- verb
+ipa:
+  us: /stɔr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: cửa hàng; lưu trữ
+  id: store-1
+examples:
+- en: Please store the cleaning supplies in the cabinet near the kitchen.
+  vi: Vui lòng cất đồ dùng vệ sinh trong tủ gần nhà bếp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 617. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

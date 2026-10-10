@@ -1,0 +1,27 @@
+schema_version: 3
+id: document
+lemma: document
+pos:
+- noun
+ipa:
+  us: /ˈdɑkjəmɛnt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: tài liệu, văn bản
+  id: document-1
+examples:
+- en: Please sign the document and send it back to the legal department.
+  vi: Vui lòng ký vào văn bản và gửi lại cho phòng pháp chế.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdɑkjəmɛnt/; /ˈdɑkjumɛnt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 882. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

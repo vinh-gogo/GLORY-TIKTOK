@@ -1,0 +1,26 @@
+schema_version: 3
+id: speech
+lemma: speech
+pos:
+- noun
+ipa:
+  us: /spitʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: bài phát biểu
+  id: speech-1
+examples:
+- en: The chairman gave a short speech at the opening of the conference.
+  vi: Chủ tịch đã có một bài phát biểu ngắn tại lễ khai mạc hội nghị.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 894. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

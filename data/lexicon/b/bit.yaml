@@ -1,0 +1,26 @@
+schema_version: 3
+id: bit
+lemma: bit
+pos:
+- noun
+ipa:
+  us: /bɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: một chút, một ít
+  id: bit-1
+examples:
+- en: The new schedule is a bit confusing, so please read it carefully.
+  vi: Lịch mới hơi rối một chút, nên vui lòng đọc cẩn thận.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 352. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

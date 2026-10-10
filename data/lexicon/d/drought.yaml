@@ -1,0 +1,26 @@
+schema_version: 3
+id: drought
+lemma: drought
+pos:
+- noun
+ipa:
+  us: /draʊt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: hạn hán
+  id: drought-1
+examples:
+- en: The long drought has reduced the harvest in many farming regions.
+  vi: Đợt hạn hán kéo dài đã làm giảm vụ mùa ở nhiều vùng nông nghiệp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 712. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

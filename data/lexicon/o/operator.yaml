@@ -1,0 +1,26 @@
+schema_version: 3
+id: operator
+lemma: operator
+pos:
+- noun
+ipa:
+  us: /ˈɑpɚˌeɪtɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: người vận hành; tổng đài viên
+  id: operator-1
+examples:
+- en: The machine operator must wear a helmet at all times.
+  vi: Người vận hành máy phải luôn đội mũ bảo hộ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2329. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

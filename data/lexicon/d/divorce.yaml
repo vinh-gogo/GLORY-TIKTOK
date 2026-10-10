@@ -1,0 +1,26 @@
+schema_version: 3
+id: divorce
+lemma: divorce
+pos:
+- noun
+ipa:
+  us: /dɪˈvɔrs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự ly hôn
+  id: divorce-1
+examples:
+- en: After her divorce, she moved into a small apartment downtown.
+  vi: Sau khi ly hôn, cô ấy chuyển đến một căn hộ nhỏ ở trung tâm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2404. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

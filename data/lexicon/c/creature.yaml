@@ -1,0 +1,26 @@
+schema_version: 3
+id: creature
+lemma: creature
+pos:
+- noun
+ipa:
+  us: /ˈkritʃɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sinh vật, tạo vật
+  id: creature-1
+examples:
+- en: Scientists discovered a strange creature living deep at the bottom of the sea.
+  vi: Các nhà khoa học phát hiện một sinh vật lạ sống sâu dưới đáy biển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2526. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: deduct
+lemma: deduct
+pos:
+- verb
+ipa:
+  us: /dɪˈdʌkt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: khấu trừ, trừ đi
+  id: deduct-1
+examples:
+- en: The company will deduct the cost of the uniform from your first paycheck.
+  vi: Công ty sẽ trừ chi phí đồng phục vào kỳ lương đầu tiên của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 518. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

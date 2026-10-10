@@ -1,0 +1,26 @@
+schema_version: 3
+id: bankrupt
+lemma: bankrupt
+pos:
+- adjective
+ipa:
+  us: /ˈbæŋkrəpt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: phá sản
+  id: bankrupt-1
+examples:
+- en: The small manufacturer went bankrupt after losing its largest customer last year.
+  vi: Nhà sản xuất nhỏ đó đã phá sản sau khi mất khách hàng lớn nhất năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 592. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

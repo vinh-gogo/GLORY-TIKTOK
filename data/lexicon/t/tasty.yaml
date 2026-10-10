@@ -1,0 +1,26 @@
+schema_version: 3
+id: tasty
+lemma: tasty
+pos:
+- adjective
+ipa:
+  us: /ˈteɪsti/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: ngon, hấp dẫn về vị
+  id: tasty-1
+examples:
+- en: The soup was tasty, and the portion was big enough for two.
+  vi: Món súp rất ngon và phần ăn đủ lớn cho hai người.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1089. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: rid
+lemma: rid
+pos:
+- verb
+ipa:
+  us: /rɪd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: loại bỏ (trong cụm get rid of)
+  id: rid-1
+examples:
+- en: We need to get rid of the old files in the storeroom.
+  vi: Chúng ta cần loại bỏ các hồ sơ cũ trong kho.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2403. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

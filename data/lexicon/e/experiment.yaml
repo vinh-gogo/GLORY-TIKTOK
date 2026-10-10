@@ -1,0 +1,26 @@
+schema_version: 3
+id: experiment
+lemma: experiment
+pos:
+- noun
+ipa:
+  us: /ɪkˈspɛrəmənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: thí nghiệm
+  id: experiment-1
+examples:
+- en: The scientists repeated the experiment three times to confirm the results.
+  vi: Các nhà khoa học lặp lại thí nghiệm ba lần để xác nhận kết quả.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1343. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

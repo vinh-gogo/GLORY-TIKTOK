@@ -1,0 +1,28 @@
+schema_version: 3
+id: estimate
+lemma: estimate
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈɛstəmət/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: ước tính; bản dự toán
+  id: estimate-1
+examples:
+- en: The contractor gave us an estimate of the total repair costs.
+  vi: Nhà thầu đã đưa cho chúng tôi bản dự toán tổng chi phí sửa chữa.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛstəmət/; /ˈɛstəˌmeɪt/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 999. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

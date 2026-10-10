@@ -1,0 +1,26 @@
+schema_version: 3
+id: designer
+lemma: designer
+pos:
+- noun
+ipa:
+  us: /dɪˈzaɪnɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: nhà thiết kế
+  id: designer-1
+examples:
+- en: The designer showed us three sketches for the new logo.
+  vi: Nhà thiết kế đã cho chúng tôi xem ba bản phác thảo cho logo mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2178. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

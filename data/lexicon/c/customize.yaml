@@ -1,0 +1,26 @@
+schema_version: 3
+id: customize
+lemma: customize
+pos:
+- verb
+ipa:
+  us: /ˈkʌstəˌmaɪz/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: tùy chỉnh, làm theo yêu cầu riêng
+  id: customize-1
+examples:
+- en: You can customize the software settings to match your own work style.
+  vi: Bạn có thể tùy chỉnh cài đặt phần mềm cho phù hợp với cách làm việc của mình.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 707. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: mall
+lemma: mall
+pos:
+- noun
+ipa:
+  us: /mɔl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: trung tâm mua sắm
+  id: mall-1
+examples:
+- en: The new mall has more than one hundred stores and restaurants.
+  vi: Trung tâm mua sắm mới có hơn một trăm cửa hàng và nhà hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 107. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

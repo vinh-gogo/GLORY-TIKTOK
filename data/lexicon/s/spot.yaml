@@ -1,0 +1,26 @@
+schema_version: 3
+id: spot
+lemma: spot
+pos:
+- noun
+ipa:
+  us: /spɑt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: chỗ, địa điểm; vết
+  id: spot-1
+examples:
+- en: We found a good parking spot close to the main entrance.
+  vi: Chúng tôi tìm được một chỗ đỗ xe tốt gần lối vào chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1138. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

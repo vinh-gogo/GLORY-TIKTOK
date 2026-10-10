@@ -1,0 +1,26 @@
+schema_version: 3
+id: basketball
+lemma: basketball
+pos:
+- noun
+ipa:
+  us: /ˈbæskətˌbɔl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: bóng rổ
+  id: basketball-1
+examples:
+- en: Our team plays basketball in the community center on Wednesdays.
+  vi: Nhóm chúng tôi chơi bóng rổ ở trung tâm cộng đồng vào các ngày thứ Tư.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 298. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'
