@@ -1,0 +1,32 @@
+# Mẫu lô nhập từ vựng (PLAN_NEN_MONG 7.3). Mỗi lô ≈ 50 mục cùng chủ đề hoặc cùng dải tần suất.
+# Đặt file thật tại sources/batches/NNN-<chu-de>.yaml, rồi chạy:
+#   python scripts/import/import_batch.py sources/batches/NNN-<chu-de>.yaml --dry-run
+#   python scripts/import/import_batch.py sources/batches/NNN-<chu-de>.yaml
+#
+# QUY TẮC (AGENTS.md):
+# - Không bịa: IPA/nghĩa/collocation chưa chắc → bỏ trống phần đó hoặc để review.status: needs_review + reason.
+# - Câu ví dụ tự viết, không chép từ điển hay đề thi.
+# - Mục nhập mới mặc định có review.status = ai_draft (KHÔNG hiện trên web) cho tới khi qua đối chiếu.
+# - collocations[].evidence.source chỉ được ghi nguồn đã thật sự kiểm tra (xem data/sources.yaml);
+#   chưa kiểm tra thì bỏ trống `evidence` hoặc dùng source: unverified.
+
+batch:
+  id: "000-template"          # trùng tên file
+  topic: offices              # slug trong data/topics.yaml (mặc định cho entries không ghi topics)
+  band: core                  # foundation | core | target | advanced (mặc định)
+  author: "ai-model-a"        # ai soạn lô này (ghi vào review.checked_by khi duyệt, không tự nhận đã kiểm)
+  created_at: "YYYY-MM-DD"
+
+entries:
+  - lemma: example            # id sinh từ lemma (chữ thường, dấu gạch ngang) nếu không ghi `id`
+    pos: [noun]
+    ipa: { us: "/ɪɡˈzæmpəl/" }
+    senses:
+      - meaning_vi: "Ví dụ, mẫu"
+        note_vi: "Ngữ cảnh dùng"
+    collocations:
+      - phrase: "for example"
+        meaning_vi: "ví dụ như"
+    examples:
+      - en: "Please give an example of a successful campaign."
+        vi: "Vui lòng đưa ra một ví dụ về chiến dịch thành công."

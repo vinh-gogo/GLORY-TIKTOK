@@ -1,0 +1,140 @@
+# Lô thử nghiệm pipeline (PLAN T2.6): 10 từ tầng foundation.
+# Trạng thái: AI soạn, CHƯA đối chiếu độc lập → mọi mục là ai_draft (không hiện trên web, không có trang riêng).
+# IPA, nghĩa và collocation do AI viết theo hiểu biết chung, chưa đối chiếu CMUdict/từ điển; evidence = unverified.
+batch:
+  id: "001-foundation-pilot"
+  topic: offices
+  band: foundation
+  author: "antigravity-ai"
+  created_at: "2026-10-11"
+
+entries:
+  - lemma: price
+    pos: [noun]
+    ipa: { us: "/praɪs/" }
+    topics: [general-business, purchasing]
+    senses:
+      - meaning_vi: "Giá, giá cả của hàng hóa hoặc dịch vụ"
+    collocations:
+      - { phrase: "reasonable price", meaning_vi: "giá hợp lý", pattern: "ADJ+N" }
+      - { phrase: "price list", meaning_vi: "bảng giá", pattern: "N+N" }
+      - { phrase: "raise the price", meaning_vi: "tăng giá", pattern: "V+N" }
+    examples:
+      - { en: "The price includes delivery to your office.", vi: "Giá đã bao gồm phí giao hàng đến văn phòng của bạn." }
+
+  - lemma: customer
+    pos: [noun]
+    ipa: { us: "/ˈkʌstəmər/" }
+    topics: [general-business]
+    senses:
+      - meaning_vi: "Khách hàng, người mua hàng hoặc sử dụng dịch vụ"
+    collocations:
+      - { phrase: "regular customer", meaning_vi: "khách hàng thường xuyên", pattern: "ADJ+N" }
+      - { phrase: "customer service", meaning_vi: "dịch vụ chăm sóc khách hàng", pattern: "N+N" }
+      - { phrase: "customer satisfaction", meaning_vi: "sự hài lòng của khách hàng", pattern: "N+N" }
+    examples:
+      - { en: "Every customer receives a receipt after payment.", vi: "Mỗi khách hàng đều nhận được biên lai sau khi thanh toán." }
+
+  - lemma: order
+    pos: [noun, verb]
+    ipa: { us: "/ˈɔːrdər/" }
+    topics: [purchasing]
+    senses:
+      - meaning_vi: "Đơn đặt hàng; (động từ) đặt hàng"
+    collocations:
+      - { phrase: "place an order", meaning_vi: "đặt hàng", pattern: "V+N" }
+      - { phrase: "cancel an order", meaning_vi: "hủy đơn hàng", pattern: "V+N" }
+      - { phrase: "order confirmation", meaning_vi: "xác nhận đơn hàng", pattern: "N+N" }
+    examples:
+      - { en: "We placed an order for new office chairs.", vi: "Chúng tôi đã đặt hàng một lô ghế văn phòng mới." }
+
+  - lemma: service
+    pos: [noun]
+    ipa: { us: "/ˈsɜːrvɪs/" }
+    topics: [general-business]
+    senses:
+      - meaning_vi: "Dịch vụ; sự phục vụ dành cho khách hàng"
+    collocations:
+      - { phrase: "customer service", meaning_vi: "dịch vụ chăm sóc khách hàng", pattern: "N+N" }
+      - { phrase: "room service", meaning_vi: "dịch vụ phòng (khách sạn)", pattern: "N+N" }
+      - { phrase: "service charge", meaning_vi: "phí dịch vụ", pattern: "N+N" }
+    examples:
+      - { en: "The hotel is known for its excellent service.", vi: "Khách sạn này nổi tiếng nhờ dịch vụ xuất sắc." }
+
+  - lemma: payment
+    pos: [noun]
+    ipa: { us: "/ˈpeɪmənt/" }
+    topics: [finance-budgeting]
+    senses:
+      - meaning_vi: "Sự thanh toán; khoản tiền được trả"
+    collocations:
+      - { phrase: "make a payment", meaning_vi: "thực hiện thanh toán", pattern: "V+N" }
+      - { phrase: "payment method", meaning_vi: "phương thức thanh toán", pattern: "N+N" }
+      - { phrase: "late payment", meaning_vi: "thanh toán trễ hạn", pattern: "ADJ+N" }
+    examples:
+      - { en: "Payment is due within thirty days.", vi: "Khoản thanh toán đến hạn trong vòng ba mươi ngày." }
+
+  - lemma: office
+    pos: [noun]
+    ipa: { us: "/ˈɑːfɪs/", uk: "/ˈɒfɪs/" }
+    topics: [offices]
+    senses:
+      - meaning_vi: "Văn phòng, nơi làm việc của nhân viên công ty"
+    collocations:
+      - { phrase: "head office", meaning_vi: "trụ sở chính", pattern: "ADJ+N" }
+      - { phrase: "office hours", meaning_vi: "giờ làm việc", pattern: "N+N" }
+      - { phrase: "office supplies", meaning_vi: "văn phòng phẩm", pattern: "N+N" }
+    examples:
+      - { en: "Our office opens at eight o'clock.", vi: "Văn phòng của chúng tôi mở cửa lúc tám giờ." }
+
+  - lemma: manager
+    pos: [noun]
+    ipa: { us: "/ˈmænɪdʒər/" }
+    topics: [offices, personnel]
+    senses:
+      - meaning_vi: "Quản lý, người điều hành một bộ phận hoặc nhóm"
+    collocations:
+      - { phrase: "sales manager", meaning_vi: "trưởng phòng kinh doanh", pattern: "N+N" }
+      - { phrase: "project manager", meaning_vi: "quản lý dự án", pattern: "N+N" }
+      - { phrase: "general manager", meaning_vi: "tổng giám đốc / giám đốc điều hành", pattern: "ADJ+N" }
+    examples:
+      - { en: "The manager approved the schedule this morning.", vi: "Quản lý đã phê duyệt lịch trình vào sáng nay." }
+
+  - lemma: report
+    pos: [noun, verb]
+    ipa: { us: "/rɪˈpɔːrt/" }
+    topics: [offices]
+    senses:
+      - meaning_vi: "Báo cáo; (động từ) báo cáo, thông báo lại"
+    collocations:
+      - { phrase: "annual report", meaning_vi: "báo cáo thường niên", pattern: "ADJ+N" }
+      - { phrase: "submit a report", meaning_vi: "nộp báo cáo", pattern: "V+N" }
+      - { phrase: "sales report", meaning_vi: "báo cáo doanh số", pattern: "N+N" }
+    examples:
+      - { en: "Please send me the report by Friday.", vi: "Vui lòng gửi cho tôi bản báo cáo trước thứ Sáu." }
+
+  - lemma: meeting
+    pos: [noun]
+    ipa: { us: "/ˈmiːtɪŋ/" }
+    topics: [offices]
+    senses:
+      - meaning_vi: "Cuộc họp"
+    collocations:
+      - { phrase: "attend a meeting", meaning_vi: "tham dự cuộc họp", pattern: "V+N" }
+      - { phrase: "schedule a meeting", meaning_vi: "lên lịch một cuộc họp", pattern: "V+N" }
+      - { phrase: "board meeting", meaning_vi: "cuộc họp hội đồng quản trị", pattern: "N+N" }
+    examples:
+      - { en: "The meeting starts at nine thirty.", vi: "Cuộc họp bắt đầu lúc chín giờ ba mươi." }
+
+  - lemma: email
+    pos: [noun, verb]
+    ipa: { us: "/ˈiːmeɪl/" }
+    topics: [offices]
+    senses:
+      - meaning_vi: "Thư điện tử; (động từ) gửi thư điện tử"
+    collocations:
+      - { phrase: "send an email", meaning_vi: "gửi email", pattern: "V+N" }
+      - { phrase: "reply to an email", meaning_vi: "trả lời email", pattern: "V+PREP" }
+      - { phrase: "email address", meaning_vi: "địa chỉ email", pattern: "N+N" }
+    examples:
+      - { en: "I will email the documents to you today.", vi: "Hôm nay tôi sẽ gửi tài liệu cho bạn qua email." }

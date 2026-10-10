@@ -1,0 +1,47 @@
+schema_version: 3
+id: email
+lemma: email
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈiːmeɪl/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- offices
+senses:
+- meaning_vi: Thư điện tử; (động từ) gửi thư điện tử
+  id: email-1
+collocations:
+- phrase: send an email
+  meaning_vi: gửi email
+  pattern: V+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: reply to an email
+  meaning_vi: trả lời email
+  pattern: V+PREP
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: email address
+  meaning_vi: địa chỉ email
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: I will email the documents to you today.
+  vi: Hôm nay tôi sẽ gửi tài liệu cho bạn qua email.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

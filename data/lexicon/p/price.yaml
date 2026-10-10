@@ -1,0 +1,47 @@
+schema_version: 3
+id: price
+lemma: price
+pos:
+- noun
+ipa:
+  us: /praɪs/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- general-business
+- purchasing
+senses:
+- meaning_vi: Giá, giá cả của hàng hóa hoặc dịch vụ
+  id: price-1
+collocations:
+- phrase: reasonable price
+  meaning_vi: giá hợp lý
+  pattern: ADJ+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: price list
+  meaning_vi: bảng giá
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: raise the price
+  meaning_vi: tăng giá
+  pattern: V+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: The price includes delivery to your office.
+  vi: Giá đã bao gồm phí giao hàng đến văn phòng của bạn.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

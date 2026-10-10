@@ -1,0 +1,47 @@
+schema_version: 3
+id: office
+lemma: office
+pos:
+- noun
+ipa:
+  us: /ˈɑːfɪs/
+  uk: /ˈɒfɪs/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- offices
+senses:
+- meaning_vi: Văn phòng, nơi làm việc của nhân viên công ty
+  id: office-1
+collocations:
+- phrase: head office
+  meaning_vi: trụ sở chính
+  pattern: ADJ+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: office hours
+  meaning_vi: giờ làm việc
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: office supplies
+  meaning_vi: văn phòng phẩm
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: Our office opens at eight o'clock.
+  vi: Văn phòng của chúng tôi mở cửa lúc tám giờ.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

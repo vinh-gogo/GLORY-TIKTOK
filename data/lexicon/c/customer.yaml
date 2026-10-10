@@ -1,0 +1,46 @@
+schema_version: 3
+id: customer
+lemma: customer
+pos:
+- noun
+ipa:
+  us: /ˈkʌstəmər/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- general-business
+senses:
+- meaning_vi: Khách hàng, người mua hàng hoặc sử dụng dịch vụ
+  id: customer-1
+collocations:
+- phrase: regular customer
+  meaning_vi: khách hàng thường xuyên
+  pattern: ADJ+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: customer service
+  meaning_vi: dịch vụ chăm sóc khách hàng
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: customer satisfaction
+  meaning_vi: sự hài lòng của khách hàng
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: Every customer receives a receipt after payment.
+  vi: Mỗi khách hàng đều nhận được biên lai sau khi thanh toán.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

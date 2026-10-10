@@ -1,0 +1,47 @@
+schema_version: 3
+id: report
+lemma: report
+pos:
+- noun
+- verb
+ipa:
+  us: /rɪˈpɔːrt/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- offices
+senses:
+- meaning_vi: Báo cáo; (động từ) báo cáo, thông báo lại
+  id: report-1
+collocations:
+- phrase: annual report
+  meaning_vi: báo cáo thường niên
+  pattern: ADJ+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: submit a report
+  meaning_vi: nộp báo cáo
+  pattern: V+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: sales report
+  meaning_vi: báo cáo doanh số
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: Please send me the report by Friday.
+  vi: Vui lòng gửi cho tôi bản báo cáo trước thứ Sáu.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

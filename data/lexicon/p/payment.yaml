@@ -1,0 +1,46 @@
+schema_version: 3
+id: payment
+lemma: payment
+pos:
+- noun
+ipa:
+  us: /ˈpeɪmənt/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: Sự thanh toán; khoản tiền được trả
+  id: payment-1
+collocations:
+- phrase: make a payment
+  meaning_vi: thực hiện thanh toán
+  pattern: V+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: payment method
+  meaning_vi: phương thức thanh toán
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: late payment
+  meaning_vi: thanh toán trễ hạn
+  pattern: ADJ+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: Payment is due within thirty days.
+  vi: Khoản thanh toán đến hạn trong vòng ba mươi ngày.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.
