@@ -1,0 +1,26 @@
+schema_version: 3
+id: heavily
+lemma: heavily
+pos:
+- adverb
+ipa:
+  us: /ˈhɛvəli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: nặng nề; rất nhiều
+  id: heavily-1
+examples:
+- en: It rained heavily all afternoon, so the event was canceled.
+  vi: Trời mưa rất to suốt buổi chiều nên sự kiện đã bị hủy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2119. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: alcohol
+lemma: alcohol
+pos:
+- noun
+ipa:
+  us: /ˈælkəˌhɑl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: rượu, đồ uống có cồn
+  id: alcohol-1
+examples:
+- en: The restaurant does not serve alcohol before noon.
+  vi: Nhà hàng không phục vụ đồ uống có cồn trước buổi trưa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2214. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

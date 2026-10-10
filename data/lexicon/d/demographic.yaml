@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: demographic
 lemma: demographic
 pos:
@@ -10,37 +10,44 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: demographic-1
   meaning_vi: Nhóm nhân khẩu học cụ thể (độ tuổi, thu nhập, giới tính); (adj) thuộc nhân khẩu học
   note_vi: Yếu tố căn bản để phân đoạn thị trường khách hàng mục tiêu.
+collocations:
+- phrase: target demographic
+  meaning_vi: nhóm khách hàng mục tiêu nhân khẩu học
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: demographic data
+  meaning_vi: dữ liệu nhân khẩu học
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: younger demographic
+  meaning_vi: phân khúc khách hàng trẻ tuổi
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: population group
+  meaning_vi: nhóm dân số
+- word: target market
+  meaning_vi: thị trường mục tiêu
 confused_words:
 - word: geographic
   ipa: /ˌdʒiːəˈɡræfɪk/
   difference_vi: Geographic là thuộc về địa lý vùng miền; demographic là thuộc về đặc điểm dân cư nhân khẩu học.
 confusing_meanings:
 - difference_vi: Dạng số nhiều 'demographics' chỉ toàn bộ số liệu thống kê dân số của một thị trường.
-collocations:
-- phrase: target demographic
-  meaning_vi: nhóm khách hàng mục tiêu nhân khẩu học
-  evidence: corpus
-- phrase: demographic data
-  meaning_vi: dữ liệu nhân khẩu học
-  evidence: corpus
-- phrase: younger demographic
-  meaning_vi: phân khúc khách hàng trẻ tuổi
-  evidence: corpus
-synonyms:
-- word: population group
-  meaning_vi: nhóm dân số
-- word: target market
-  meaning_vi: thị trường mục tiêu
 examples:
 - en: The new smartphone campaign is tailored specifically to appeal to the younger demographic.
   vi: Chiến dịch điện thoại thông minh mới được thiết kế riêng nhằm thu hút nhóm khách hàng trẻ tuổi.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

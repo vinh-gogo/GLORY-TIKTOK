@@ -1,0 +1,26 @@
+schema_version: 3
+id: necessary
+lemma: necessary
+pos:
+- adjective
+ipa:
+  us: /ˈnɛsəˌsɛri/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: cần thiết
+  id: necessary-1
+examples:
+- en: It is necessary to submit the form before the end of June.
+  vi: Cần phải nộp đơn trước cuối tháng Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 676. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

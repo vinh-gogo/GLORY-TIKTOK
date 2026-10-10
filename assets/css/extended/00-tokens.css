@@ -1,0 +1,29 @@
+/* 00-tokens — biến thiết kế dùng chung. PaperMod đã định nghĩa --theme/--entry/--primary/--secondary/--tertiary/--content/--border (sáng/tối). */
+:root {
+  --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* IPA cần font có ký tự ngữ âm: ưu tiên font hệ thống có đủ glyph. */
+  --font-ipa: "Charis SIL", "Gentium Plus", "Noto Sans", "Segoe UI", "DejaVu Sans", system-ui, sans-serif;
+  --accent: #0e7490;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(14, 116, 144, .1);
+  --warn-bg: #fef3c7;
+  --warn-ink: #78350f;
+  --tap: 44px;
+  --r: 12px;
+  --tabbar-h: 58px;
+  --band-foundation: #15803d; --band-foundation-bg: #dcfce7;
+  --band-core: #1d4ed8;       --band-core-bg: #dbeafe;
+  --band-target: #b45309;     --band-target-bg: #fef3c7;
+  --band-advanced: #be123c;   --band-advanced-bg: #ffe4e6;
+}
+:root[data-theme="dark"] {
+  --accent: #22d3ee;
+  --accent-ink: #082f49;
+  --accent-soft: rgba(34, 211, 238, .12);
+  --warn-bg: #422006;
+  --warn-ink: #fde68a;
+  --band-foundation: #86efac; --band-foundation-bg: rgba(34, 197, 94, .16);
+  --band-core: #93c5fd;       --band-core-bg: rgba(59, 130, 246, .18);
+  --band-target: #fcd34d;     --band-target-bg: rgba(245, 158, 11, .16);
+  --band-advanced: #fda4af;   --band-advanced-bg: rgba(244, 63, 94, .16);
+}

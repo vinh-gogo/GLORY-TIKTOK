@@ -1,0 +1,27 @@
+schema_version: 3
+id: festival
+lemma: festival
+pos:
+- noun
+ipa:
+  us: /ˈfɛstəvəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: lễ hội
+  id: festival-1
+examples:
+- en: Thousands of visitors attend the music festival in the city each summer.
+  vi: Hàng nghìn du khách tham dự lễ hội âm nhạc trong thành phố mỗi mùa hè.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈfɛstəvəl/; /ˈfɛstɪvəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2215. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

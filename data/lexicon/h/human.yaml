@@ -1,0 +1,28 @@
+schema_version: 3
+id: human
+lemma: human
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈhjumən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: thuộc con người; con người
+  id: human-1
+examples:
+- en: The human resources department will announce the new vacation policy.
+  vi: Phòng nhân sự sẽ thông báo chính sách nghỉ phép mới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈhjumən/; /ˈjumən/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 428. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

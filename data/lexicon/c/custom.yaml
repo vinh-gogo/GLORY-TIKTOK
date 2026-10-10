@@ -1,0 +1,26 @@
+schema_version: 3
+id: custom
+lemma: custom
+pos:
+- noun
+ipa:
+  us: /ˈkʌstəm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: phong tục, tập quán
+  id: custom-1
+examples:
+- en: It is a local custom to exchange small gifts at meetings.
+  vi: Trao đổi những món quà nhỏ trong các cuộc họp là một phong tục địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2371. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: substantial
+lemma: substantial
+pos:
+- adjective
+ipa:
+  us: /səbˈstænʃəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: đáng kể, lớn
+  id: substantial-1
+examples:
+- en: The company reported a substantial increase in profits this quarter.
+  vi: Công ty báo cáo mức tăng lợi nhuận đáng kể trong quý này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1894. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

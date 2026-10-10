@@ -1,0 +1,26 @@
+schema_version: 3
+id: notify
+lemma: notify
+pos:
+- verb
+ipa:
+  us: /ˈnoʊtəˌfaɪ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thông báo cho (ai đó)
+  id: notify-1
+examples:
+- en: We will notify you by email as soon as your order ships.
+  vi: Chúng tôi sẽ thông báo cho bạn qua email ngay khi đơn hàng được gửi đi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 50. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

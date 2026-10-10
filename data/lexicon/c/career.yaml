@@ -1,0 +1,26 @@
+schema_version: 3
+id: career
+lemma: career
+pos:
+- noun
+ipa:
+  us: /kɚˈɪr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: sự nghiệp, nghề nghiệp
+  id: career-1
+examples:
+- en: He began his career as an assistant at a small advertising agency.
+  vi: Anh ấy bắt đầu sự nghiệp là trợ lý tại một công ty quảng cáo nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 892. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

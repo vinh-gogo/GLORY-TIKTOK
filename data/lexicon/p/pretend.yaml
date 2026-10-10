@@ -1,0 +1,26 @@
+schema_version: 3
+id: pretend
+lemma: pretend
+pos:
+- verb
+ipa:
+  us: /priˈtɛnd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: giả vờ
+  id: pretend-1
+examples:
+- en: He did not pretend to understand the technical details of the plan.
+  vi: Anh ấy không giả vờ hiểu các chi tiết kỹ thuật của kế hoạch.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2560. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

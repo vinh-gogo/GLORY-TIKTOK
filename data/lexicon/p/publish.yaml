@@ -1,0 +1,26 @@
+schema_version: 3
+id: publish
+lemma: publish
+pos:
+- verb
+ipa:
+  us: /ˈpʌblɪʃ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: xuất bản, công bố
+  id: publish-1
+examples:
+- en: The company will publish its quarterly results on the website tomorrow.
+  vi: Công ty sẽ công bố kết quả hoạt động quý trên trang web vào ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 25. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

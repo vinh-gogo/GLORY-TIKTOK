@@ -1,0 +1,26 @@
+schema_version: 3
+id: pick
+lemma: pick
+pos:
+- verb
+ipa:
+  us: /pɪk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chọn; nhặt, hái
+  id: pick-1
+examples:
+- en: You can pick up your order at the store after two o'clock.
+  vi: Bạn có thể đến cửa hàng lấy đơn hàng sau hai giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 583. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

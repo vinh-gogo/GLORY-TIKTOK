@@ -1,0 +1,26 @@
+schema_version: 3
+id: disk
+lemma: disk
+pos:
+- noun
+ipa:
+  us: /dɪsk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: đĩa (lưu trữ dữ liệu)
+  id: disk-1
+examples:
+- en: The server ran out of disk space and stopped working.
+  vi: Máy chủ hết dung lượng đĩa và ngừng hoạt động.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1829. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: pose
+lemma: pose
+pos:
+- verb
+ipa:
+  us: /poʊz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: đặt ra (vấn đề, câu hỏi); tạo dáng
+  id: pose-1
+examples:
+- en: The new competitor could pose a serious threat to our sales.
+  vi: Đối thủ mới có thể gây ra mối đe dọa nghiêm trọng cho doanh số của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2207. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

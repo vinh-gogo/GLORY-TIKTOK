@@ -1,0 +1,27 @@
+schema_version: 3
+id: remain
+lemma: remain
+pos:
+- verb
+ipa:
+  us: /rɪˈmeɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: vẫn còn, duy trì; còn lại
+  id: remain-1
+examples:
+- en: Only a few tickets remain for tomorrow's evening performance.
+  vi: Chỉ còn lại vài vé cho buổi biểu diễn tối mai.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈmeɪn/; /riˈmeɪn/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 374. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

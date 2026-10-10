@@ -1,0 +1,26 @@
+schema_version: 3
+id: refreshment
+lemma: refreshment
+pos:
+- noun
+ipa:
+  us: /rəˈfrɛʃmənt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: đồ ăn nhẹ và nước uống
+  id: refreshment-1
+examples:
+- en: Refreshments will be served in the lobby after the lecture.
+  vi: Đồ ăn nhẹ và nước uống sẽ được phục vụ ở sảnh sau buổi giảng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 211. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

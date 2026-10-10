@@ -1,0 +1,26 @@
+schema_version: 3
+id: crisis
+lemma: crisis
+pos:
+- noun
+ipa:
+  us: /ˈkraɪsəs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: cuộc khủng hoảng
+  id: crisis-1
+examples:
+- en: The company survived the financial crisis by reducing its costs.
+  vi: Công ty đã vượt qua cuộc khủng hoảng tài chính bằng cách cắt giảm chi phí.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1302. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

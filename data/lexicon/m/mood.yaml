@@ -1,0 +1,26 @@
+schema_version: 3
+id: mood
+lemma: mood
+pos:
+- noun
+ipa:
+  us: /mud/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: tâm trạng
+  id: mood-1
+examples:
+- en: Good weather put everyone in a cheerful mood this morning.
+  vi: Thời tiết đẹp khiến mọi người có tâm trạng vui vẻ sáng nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2066. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

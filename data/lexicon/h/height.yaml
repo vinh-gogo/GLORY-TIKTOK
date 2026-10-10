@@ -1,0 +1,26 @@
+schema_version: 3
+id: height
+lemma: height
+pos:
+- noun
+ipa:
+  us: /haɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: chiều cao
+  id: height-1
+examples:
+- en: The height of the ceiling allows for tall shelves.
+  vi: Chiều cao của trần nhà cho phép đặt các kệ cao.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2150. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

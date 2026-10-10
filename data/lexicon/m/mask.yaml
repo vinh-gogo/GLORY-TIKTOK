@@ -1,0 +1,26 @@
+schema_version: 3
+id: mask
+lemma: mask
+pos:
+- noun
+ipa:
+  us: /mæsk/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: khẩu trang, mặt nạ
+  id: mask-1
+examples:
+- en: Workers in the laboratory must wear a protective mask at all times.
+  vi: Nhân viên trong phòng thí nghiệm phải đeo khẩu trang bảo hộ mọi lúc.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 484. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: plug
+lemma: plug
+pos:
+- noun
+- verb
+ipa:
+  us: /plʌɡ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: phích cắm; cắm điện
+  id: plug-1
+examples:
+- en: Please plug the projector into the outlet behind the conference table.
+  vi: Vui lòng cắm máy chiếu vào ổ điện phía sau bàn hội nghị.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 644. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

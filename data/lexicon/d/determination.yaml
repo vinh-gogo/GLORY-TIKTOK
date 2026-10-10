@@ -1,0 +1,26 @@
+schema_version: 3
+id: determination
+lemma: determination
+pos:
+- noun
+ipa:
+  us: /dɪˌtɝməˈneɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự quyết tâm; sự xác định
+  id: determination-1
+examples:
+- en: Her determination helped the team finish the difficult project on schedule.
+  vi: Sự quyết tâm của cô ấy giúp nhóm hoàn thành dự án khó khăn đúng tiến độ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2677. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: machine
+lemma: machine
+pos:
+- noun
+ipa:
+  us: /məˈʃin/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: máy móc
+  id: machine-1
+examples:
+- en: The new machine can package two hundred boxes every hour.
+  vi: Chiếc máy mới có thể đóng gói hai trăm hộp mỗi giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 745. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

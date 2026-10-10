@@ -1,0 +1,26 @@
+schema_version: 3
+id: headphone
+lemma: headphone
+pos:
+- noun
+ipa:
+  us: /ˈhɛdˌfoʊn/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: tai nghe
+  id: headphone-1
+examples:
+- en: He wore a headphone to listen to the online training session.
+  vi: Anh ấy đeo tai nghe để nghe buổi đào tạo trực tuyến.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 987. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

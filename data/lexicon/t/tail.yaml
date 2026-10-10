@@ -1,0 +1,26 @@
+schema_version: 3
+id: tail
+lemma: tail
+pos:
+- noun
+ipa:
+  us: /teɪl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cái đuôi
+  id: tail-1
+examples:
+- en: The dog wagged its tail happily when its owner came home.
+  vi: Con chó vẫy đuôi vui vẻ khi chủ về nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2540. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: ma-am
+lemma: ma'am
+pos:
+- noun
+ipa:
+  us: /mæm/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cách gọi lịch sự dành cho phụ nữ (thưa bà, thưa cô)
+  id: ma-am-1
+examples:
+- en: Excuse me, ma'am, your table by the window is ready now.
+  vi: Xin lỗi quý bà, bàn cạnh cửa sổ của bà đã sẵn sàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 725. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

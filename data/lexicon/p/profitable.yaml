@@ -1,0 +1,26 @@
+schema_version: 3
+id: profitable
+lemma: profitable
+pos:
+- adjective
+ipa:
+  us: /ˈprɑfətəbəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: có lợi nhuận, sinh lời
+  id: profitable-1
+examples:
+- en: The new branch became profitable within its first year.
+  vi: Chi nhánh mới đã có lợi nhuận ngay trong năm đầu tiên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 373. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

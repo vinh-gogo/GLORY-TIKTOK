@@ -1,0 +1,27 @@
+schema_version: 3
+id: target
+lemma: target
+pos:
+- noun
+ipa:
+  us: /ˈtɑrɡət/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: mục tiêu, chỉ tiêu
+  id: target-1
+examples:
+- en: We met our sales target two weeks before the end of the year.
+  vi: Chúng tôi đã đạt chỉ tiêu doanh số hai tuần trước cuối năm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈtɑrɡət/; /ˈtɝɡət/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 797. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

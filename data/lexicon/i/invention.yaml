@@ -1,0 +1,26 @@
+schema_version: 3
+id: invention
+lemma: invention
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈvɛnʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: phát minh, sáng chế
+  id: invention-1
+examples:
+- en: The invention of the telephone changed the way businesses communicate with clients.
+  vi: Việc phát minh ra điện thoại đã thay đổi cách doanh nghiệp liên lạc với khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 681. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

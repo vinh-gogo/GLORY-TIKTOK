@@ -1,0 +1,26 @@
+schema_version: 3
+id: caller
+lemma: caller
+pos:
+- noun
+ipa:
+  us: /ˈkɔlɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: người gọi điện thoại
+  id: caller-1
+examples:
+- en: The receptionist asked the caller to leave a message.
+  vi: Nhân viên lễ tân đề nghị người gọi để lại lời nhắn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 35. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

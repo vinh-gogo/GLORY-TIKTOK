@@ -1,0 +1,26 @@
+schema_version: 3
+id: noise
+lemma: noise
+pos:
+- noun
+ipa:
+  us: /nɔɪz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: tiếng ồn
+  id: noise-1
+examples:
+- en: The noise from the construction site makes it hard to concentrate.
+  vi: Tiếng ồn từ công trường khiến khó tập trung.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1440. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

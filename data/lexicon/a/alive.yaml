@@ -1,0 +1,26 @@
+schema_version: 3
+id: alive
+lemma: alive
+pos:
+- adjective
+ipa:
+  us: /əˈlaɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: còn sống, sống động
+  id: alive-1
+examples:
+- en: The old shop has stayed alive thanks to loyal local customers.
+  vi: Cửa hàng cũ vẫn còn tồn tại nhờ những khách hàng địa phương trung thành.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1774. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

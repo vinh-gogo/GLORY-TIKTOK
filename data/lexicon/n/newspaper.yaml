@@ -1,0 +1,26 @@
+schema_version: 3
+id: newspaper
+lemma: newspaper
+pos:
+- noun
+ipa:
+  us: /ˈnuzˌpeɪpɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: tờ báo
+  id: newspaper-1
+examples:
+- en: The local newspaper published an article about our new community center.
+  vi: Tờ báo địa phương đã đăng một bài viết về trung tâm cộng đồng mới của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 929. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

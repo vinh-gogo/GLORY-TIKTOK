@@ -1,0 +1,27 @@
+schema_version: 3
+id: limit
+lemma: limit
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈlɪmət/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: giới hạn; hạn chế
+  id: limit-1
+examples:
+- en: There is a limit of two bags per passenger on this flight.
+  vi: Mỗi hành khách chỉ được mang tối đa hai túi trên chuyến bay này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 572. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

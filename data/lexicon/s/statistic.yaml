@@ -1,0 +1,26 @@
+schema_version: 3
+id: statistic
+lemma: statistic
+pos:
+- noun
+ipa:
+  us: /stəˈtɪstɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: số liệu thống kê
+  id: statistic-1
+examples:
+- en: One surprising statistic in the report is the drop in sales.
+  vi: Một số liệu thống kê đáng ngạc nhiên trong báo cáo là mức giảm doanh số.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2256. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

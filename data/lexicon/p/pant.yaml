@@ -1,0 +1,27 @@
+schema_version: 3
+id: pant
+lemma: pant
+pos:
+- noun
+ipa:
+  us: /pænt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: 'quần dài (thường dùng số nhiều: pants)'
+  id: pant-1
+examples:
+- en: I need to buy a new pair of pants for the interview.
+  vi: Tôi cần mua một chiếc quần dài mới cho buổi phỏng vấn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Lemma ''pant'' số ít; nghĩa ''quần'' thường dùng số nhiều ''pants'', còn động
+    từ ''pant'' là thở hổn hển — Mục từ TSL hạng 372. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị
+    trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại,
+    chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: investigation
+lemma: investigation
+pos:
+- noun
+ipa:
+  us: /ˌɪnˌvɛstəˈɡeɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cuộc điều tra
+  id: investigation-1
+examples:
+- en: An investigation into the cause of the delay is now under way.
+  vi: Một cuộc điều tra về nguyên nhân của sự chậm trễ hiện đang được tiến hành.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1318. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

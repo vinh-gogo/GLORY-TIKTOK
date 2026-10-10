@@ -1,0 +1,26 @@
+schema_version: 3
+id: marry
+lemma: marry
+pos:
+- verb
+ipa:
+  us: /ˈmɛri/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: kết hôn, cưới
+  id: marry-1
+examples:
+- en: Two of our colleagues plan to marry in the summer.
+  vi: Hai đồng nghiệp của chúng tôi dự định kết hôn vào mùa hè.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 775. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

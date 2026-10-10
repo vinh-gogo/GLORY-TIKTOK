@@ -1,0 +1,26 @@
+schema_version: 3
+id: oblige
+lemma: oblige
+pos:
+- verb
+ipa:
+  us: /əˈblaɪdʒ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: bắt buộc; giúp đỡ, làm vừa lòng
+  id: oblige-1
+examples:
+- en: The new law will oblige companies to report their annual carbon emissions.
+  vi: Luật mới sẽ buộc các công ty phải báo cáo lượng khí thải carbon hằng năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1153. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

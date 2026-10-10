@@ -1,0 +1,26 @@
+schema_version: 3
+id: eat
+lemma: eat
+pos:
+- verb
+ipa:
+  us: /it/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- dining-out
+senses:
+- meaning_vi: ăn
+  id: eat-1
+examples:
+- en: Most employees eat lunch in the cafeteria on the first floor.
+  vi: Hầu hết nhân viên ăn trưa tại căng tin ở tầng một.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 476. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

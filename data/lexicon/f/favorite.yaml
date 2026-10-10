@@ -1,0 +1,28 @@
+schema_version: 3
+id: favorite
+lemma: favorite
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈfeɪvɚɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: yêu thích; thứ được yêu thích
+  id: favorite-1
+examples:
+- en: This café is my favorite place to meet clients near the office.
+  vi: Quán cà phê này là nơi tôi yêu thích để gặp khách hàng gần văn phòng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈfeɪvɚɪt/; /ˈfeɪvrət/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1000. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

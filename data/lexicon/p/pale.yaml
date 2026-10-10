@@ -1,0 +1,26 @@
+schema_version: 3
+id: pale
+lemma: pale
+pos:
+- adjective
+ipa:
+  us: /peɪl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: nhợt nhạt, nhạt màu
+  id: pale-1
+examples:
+- en: The walls of the lobby were painted a pale shade of yellow.
+  vi: Các bức tường sảnh được sơn màu vàng nhạt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2757. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

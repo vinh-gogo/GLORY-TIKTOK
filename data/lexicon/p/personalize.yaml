@@ -1,0 +1,26 @@
+schema_version: 3
+id: personalize
+lemma: personalize
+pos:
+- verb
+ipa:
+  us: /ˈpɝsənəˌlaɪz/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: cá nhân hóa, làm theo yêu cầu riêng
+  id: personalize-1
+examples:
+- en: You can personalize the gift box with your name and a message.
+  vi: Bạn có thể cá nhân hóa hộp quà bằng tên và lời nhắn của mình.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1002. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

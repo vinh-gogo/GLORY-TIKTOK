@@ -1,0 +1,26 @@
+schema_version: 3
+id: identify
+lemma: identify
+pos:
+- verb
+ipa:
+  us: /aɪˈdɛntəˌfaɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: xác định, nhận diện
+  id: identify-1
+examples:
+- en: The audit helped us identify several ways to cut our costs.
+  vi: Cuộc kiểm toán giúp chúng tôi xác định nhiều cách để cắt giảm chi phí.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 805. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

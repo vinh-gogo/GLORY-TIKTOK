@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: confidential
 lemma: confidential
 pos:
@@ -9,33 +9,33 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- legal-compliance
-- contracts-negotiation
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: confidential-1
   meaning_vi: Bảo mật, tuyệt mật, không được phép tiết lộ ra ngoài
   note_vi: Đóng dấu đỏ 'CONFIDENTIAL' trên hồ sơ nhân sự, tài chính hoặc bí mật công nghệ.
-confused_words:
-- word: confident
-  ipa: /ˈkɑːnfɪdənt/
-  difference_vi: Confident là tự tin (trọng âm 1); confidential là bí mật, mang tính bảo mật cao (trọng âm 3).
-confusing_meanings:
-- difference_vi: Confidential information = thông tin tuyệt mật; strictly confidential = bảo mật tuyệt đối.
 collocations:
 - phrase: strictly confidential
   meaning_vi: tuyệt mật, bảo mật nghiêm ngặt
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: confidential documents
   meaning_vi: tài liệu bảo mật
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: keep information confidential
   meaning_vi: giữ kín thông tin bảo mật
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: secret
   meaning_vi: bí mật
@@ -43,6 +43,12 @@ synonyms:
   meaning_vi: thuộc diện tuyệt mật
 - word: private
   meaning_vi: riêng tư, không công khai
+confused_words:
+- word: confident
+  ipa: /ˈkɑːnfɪdənt/
+  difference_vi: Confident là tự tin (trọng âm 1); confidential là bí mật, mang tính bảo mật cao (trọng âm 3).
+confusing_meanings:
+- difference_vi: Confidential information = thông tin tuyệt mật; strictly confidential = bảo mật tuyệt đối.
 examples:
 - en: All employees must sign a non-disclosure agreement to keep client records strictly confidential.
   vi: Tất cả nhân viên phải ký thỏa thuận không tiết lộ để giữ cho hồ sơ khách hàng được bảo mật tuyệt đối.
@@ -53,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

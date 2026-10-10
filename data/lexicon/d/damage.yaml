@@ -1,0 +1,28 @@
+schema_version: 3
+id: damage
+lemma: damage
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈdæmədʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: sự hư hại; làm hỏng
+  id: damage-1
+examples:
+- en: The shipment arrived with serious damage, so we requested a full refund.
+  vi: Lô hàng đến nơi bị hư hại nặng nên chúng tôi yêu cầu hoàn tiền đầy đủ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdæmədʒ/; /ˈdæmɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 908. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

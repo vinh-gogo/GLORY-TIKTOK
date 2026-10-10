@@ -1,0 +1,26 @@
+schema_version: 3
+id: exception
+lemma: exception
+pos:
+- noun
+ipa:
+  us: /ɪkˈsɛpʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: ngoại lệ
+  id: exception-1
+examples:
+- en: We cannot make an exception to the refund policy this time.
+  vi: Lần này chúng tôi không thể tạo ngoại lệ cho chính sách hoàn tiền.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1908. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: helpful
+lemma: helpful
+pos:
+- adjective
+ipa:
+  us: /ˈhɛlpfəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: hữu ích, hay giúp đỡ
+  id: helpful-1
+examples:
+- en: The staff at the front desk were very helpful and polite.
+  vi: Nhân viên ở quầy lễ tân rất nhiệt tình giúp đỡ và lịch sự.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1713. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

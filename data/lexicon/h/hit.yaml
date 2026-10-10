@@ -1,0 +1,28 @@
+schema_version: 3
+id: hit
+lemma: hit
+pos:
+- verb
+- noun
+ipa:
+  us: /hɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đánh, va vào; thành công lớn
+  id: hit-1
+examples:
+- en: The new game was a hit with customers during the holiday season.
+  vi: Trò chơi mới đã gây được tiếng vang với khách hàng trong mùa lễ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Nhiều nghĩa (đánh/va/thành công); chọn ví dụ nghĩa ''thành công lớn'' — Mục
+    từ NGSL hạng 695. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

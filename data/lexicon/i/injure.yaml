@@ -1,0 +1,26 @@
+schema_version: 3
+id: injure
+lemma: injure
+pos:
+- verb
+ipa:
+  us: /ˈɪndʒɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: làm bị thương
+  id: injure-1
+examples:
+- en: Two workers were injured when a heavy box fell from the shelf.
+  vi: Hai công nhân bị thương khi một thùng nặng rơi từ kệ xuống.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2496. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

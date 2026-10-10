@@ -1,0 +1,26 @@
+schema_version: 3
+id: write
+lemma: write
+pos:
+- verb
+ipa:
+  us: /raɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: viết
+  id: write-1
+examples:
+- en: Please write your name and phone number on the sign-in sheet.
+  vi: Vui lòng viết tên và số điện thoại của bạn vào phiếu đăng ký.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 121. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

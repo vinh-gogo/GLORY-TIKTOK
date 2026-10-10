@@ -1,0 +1,26 @@
+schema_version: 3
+id: furnish
+lemma: furnish
+pos:
+- verb
+ipa:
+  us: /ˈfɝnɪʃ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: trang bị đồ đạc; cung cấp
+  id: furnish-1
+examples:
+- en: The landlord will furnish the apartment with a bed and a desk.
+  vi: Chủ nhà sẽ trang bị cho căn hộ một chiếc giường và một cái bàn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 418. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

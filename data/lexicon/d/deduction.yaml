@@ -1,0 +1,26 @@
+schema_version: 3
+id: deduction
+lemma: deduction
+pos:
+- noun
+ipa:
+  us: /dɪˈdʌkʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: khoản khấu trừ
+  id: deduction-1
+examples:
+- en: A deduction for health insurance appears on your pay slip.
+  vi: Một khoản khấu trừ bảo hiểm y tế xuất hiện trên phiếu lương của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 363. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

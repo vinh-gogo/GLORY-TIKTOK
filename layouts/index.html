@@ -1,62 +1,61 @@
 {{- define "main" }}
-{{- $allWords := slice }}
-{{- range $letter, $dict := site.Data.lexicon }}
-  {{- range $id, $w := $dict }}
-    {{- $allWords = $allWords | append $w }}
-  {{- end }}
-{{- end }}
-{{- $totalWordsCount := len $allWords }}
-
-<div class="home-simple-wrapper">
-  
-  <header class="home-simple-header">
-    <h1 class="home-simple-title">Từ Điển &amp; Luyện Nói TOEIC</h1>
+{{- $words := partial "words-visible.html" . -}}
+{{- $bands := site.Data.levels.bands -}}
+{{- $nColl := 0 -}}
+{{- range $words }}{{ $nColl = add $nColl (len (.collocations | default slice)) }}{{ end -}}
+<section class="home">
+  <header class="home-hero">
+    <h1 class="home-title">Từ vựng TOEIC, học nhanh trên điện thoại</h1>
+    <p class="home-sub">Nghĩa tiếng Việt, IPA, collocations và từ đồng nghĩa — phân theo cấp độ, tra trong vài giây sau mỗi video TikTok.</p>
+    <form class="home-search" action="/search/" method="get" role="search">
+      <input type="search" name="q" placeholder="Tìm từ, cụm từ hoặc nghĩa tiếng Việt…" aria-label="Tìm kiếm từ vựng" autocomplete="off" enterkeyhint="search">
+      <button type="submit" class="btn btn-primary">Tìm</button>
+    </form>
   </header>
 
-  <!-- Thanh tìm kiếm trực tiếp -->
-  <form action="/glossary/" method="GET" class="home-simple-search">
-    <span class="search-icon">🔍</span>
-    <input type="text" name="q" placeholder="Tra từ vựng, phiên âm IPA, nghĩa tiếng Việt..." autocomplete="off">
-    <button type="submit">Tra từ</button>
-  </form>
-
-  <!-- 2 CỔNG CHÍNH ĐỂ VÀO HỌC -->
-  <div class="home-simple-gateways">
-    
-    <!-- Cổng 1: Từ Điển A-Z (Glossary) -->
-    <a href="/glossary/" class="gateway-card card-glossary">
-      <div class="gateway-icon">📖</div>
-      <div class="gateway-content">
-        <span class="gateway-badge badge-blue">Bảng Tra Cứu Toàn Diện</span>
-        <h2 class="gateway-title">Từ Điển A–Z</h2>
-        <p class="gateway-desc">Xem toàn bộ {{ $totalWordsCount }} từ vựng, lọc tức thì theo vần A–Z và 3 cấp độ Core, Target, Advanced.</p>
-      </div>
-      <span class="gateway-btn btn-blue">Vào Từ Điển A–Z →</span>
-    </a>
-
-    <!-- Cổng 2: Chi Tiết Từ Vựng (Word Detail) -->
-    <a href="/words/deadline/" class="gateway-card card-words">
-      <div class="gateway-icon">🔍</div>
-      <div class="gateway-content">
-        <span class="gateway-badge badge-emerald">Học Sâu &amp; Phản Xạ</span>
-        <h2 class="gateway-title">Chi Tiết Từ Vựng</h2>
-        <p class="gateway-desc">Phát âm IPA chuẩn, lưu ý phòng thi, collocations ăn điểm và luyện phản xạ với phím tắt ← →.</p>
-      </div>
-      <span class="gateway-btn btn-emerald">Xem Chi Tiết Từ Vựng →</span>
-    </a>
-
-  </div>
-
-  <!-- Các liên kết phụ ngắn gọn -->
-  <nav class="home-simple-links" aria-label="Liên kết nhanh">
-    <a href="/sets/">📚 Bộ bài học</a>
-    <span class="sep">•</span>
-    <a href="/topics/">🏷️ Theo chủ đề</a>
-    <span class="sep">•</span>
-    <a href="/quotes/">💡 Câu nói hay</a>
-    <span class="sep">•</span>
-    <a href="https://www.tiktok.com/@wbk.lqv" target="_blank" rel="noopener noreferrer">🎬 TikTok @wbk.lqv</a>
+  <nav class="pillars" aria-label="Các mục chính">
+    <a class="pillar" href="/glossary/"><span class="pillar-ico" aria-hidden="true">📖</span><strong>Từ vựng</strong><span class="pillar-sub">{{ len $words }} từ đã duyệt</span></a>
+    <a class="pillar" href="/collocations/"><span class="pillar-ico" aria-hidden="true">🔗</span><strong>Collocations</strong><span class="pillar-sub">{{ $nColl }} cụm từ</span></a>
+    <a class="pillar" href="/synonyms/"><span class="pillar-ico" aria-hidden="true">🔄</span><strong>Đồng nghĩa</strong><span class="pillar-sub">Sắc thái khác nhau</span></a>
+    <a class="pillar" href="/quotes/"><span class="pillar-ico" aria-hidden="true">💡</span><strong>Câu hay</strong><span class="pillar-sub">Học qua câu nói</span></a>
   </nav>
 
-</div>
+  <section class="home-block">
+    <h2>Chọn cấp độ</h2>
+    <p class="muted">Phân loại biên tập của Glory 01, quy chiếu CEFR để tham khảo — không phải danh sách chính thức của ETS.</p>
+    <div class="chips">
+      {{- range $key := site.Data.levels.band_order }}{{ $b := index $bands $key }}
+        {{- $n := 0 }}
+        {{- range $words }}{{ if eq .level.band $key }}{{ $n = add $n 1 }}{{ end }}{{ end }}
+        {{- if gt $n 0 }}
+      <a class="chip band band-{{ $key }}" href="/levels/{{ $key }}/">{{ $b.label_vi }} · {{ $b.cefr }} <span class="chip-n">{{ $n }}</span></a>
+        {{- else }}
+      <span class="chip band band-{{ $key }} is-empty" title="Sắp có">{{ $b.label_vi }} · {{ $b.cefr }} <span class="chip-n">0</span></span>
+        {{- end }}
+      {{- end }}
+    </div>
+  </section>
+
+  {{- /* Từ gợi ý: chọn theo ngày build (trang tĩnh, không dùng JS) */ -}}
+  {{- if $words }}
+  {{- $pick := index $words (mod now.YearDay (len $words)) }}
+  <section class="home-block">
+    <h2>Từ gợi ý hôm nay</h2>
+    <div class="wlist">{{ partial "wcard.html" $pick }}</div>
+  </section>
+  {{- end }}
+
+  {{- with (where site.RegularPages "Section" "sets").ByDate.Reverse }}
+  <section class="home-block">
+    <h2>Bộ từ mới nhất</h2>
+    {{- range first 1 . }}
+    <a class="setcard" href="{{ .RelPermalink }}">
+      <strong>{{ .Title }}</strong>
+      {{- with .Params.summary }}<span class="muted">{{ . }}</span>{{ end }}
+    </a>
+    {{- end }}
+    <p><a href="/sets/">Xem tất cả bộ từ theo video →</a></p>
+  </section>
+  {{- end }}
+</section>
 {{- end }}

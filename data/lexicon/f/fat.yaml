@@ -1,0 +1,27 @@
+schema_version: 3
+id: fat
+lemma: fat
+pos:
+- noun
+- adjective
+ipa:
+  us: /fæt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: chất béo; béo
+  id: fat-1
+examples:
+- en: The doctor advised him to eat less fat and more vegetables.
+  vi: Bác sĩ khuyên anh ấy ăn ít chất béo hơn và nhiều rau hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1654. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

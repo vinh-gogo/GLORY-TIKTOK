@@ -1,0 +1,27 @@
+schema_version: 3
+id: mass
+lemma: mass
+pos:
+- noun
+- adjective
+ipa:
+  us: /mæs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: khối lượng lớn; đại chúng
+  id: mass-1
+examples:
+- en: The company plans to start mass production of the new phone next month.
+  vi: Công ty dự định bắt đầu sản xuất hàng loạt chiếc điện thoại mới vào tháng sau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1236. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

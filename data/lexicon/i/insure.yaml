@@ -1,0 +1,26 @@
+schema_version: 3
+id: insure
+lemma: insure
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈʃʊr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: bảo hiểm (cho), mua bảo hiểm
+  id: insure-1
+examples:
+- en: We decided to insure the shipment against damage during transport.
+  vi: Chúng tôi quyết định mua bảo hiểm cho lô hàng để phòng hư hỏng khi vận chuyển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2805. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: cite
+lemma: cite
+pos:
+- verb
+ipa:
+  us: /saɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: trích dẫn, viện dẫn
+  id: cite-1
+examples:
+- en: The report cites several studies to support its main conclusion.
+  vi: Báo cáo trích dẫn nhiều nghiên cứu để chứng minh kết luận chính của mình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2277. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

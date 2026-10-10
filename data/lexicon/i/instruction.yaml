@@ -1,0 +1,26 @@
+schema_version: 3
+id: instruction
+lemma: instruction
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈstrʌkʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: hướng dẫn, chỉ dẫn
+  id: instruction-1
+examples:
+- en: Please read the instructions carefully before you assemble the desk.
+  vi: Vui lòng đọc kỹ hướng dẫn trước khi lắp ráp chiếc bàn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1672. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

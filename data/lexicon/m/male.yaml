@@ -1,0 +1,27 @@
+schema_version: 3
+id: male
+lemma: male
+pos:
+- adjective
+- noun
+ipa:
+  us: /meɪl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nam, giống đực
+  id: male-1
+examples:
+- en: The survey included both male and female customers from several different cities.
+  vi: Cuộc khảo sát bao gồm cả khách hàng nam và nữ từ nhiều thành phố khác nhau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 914. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

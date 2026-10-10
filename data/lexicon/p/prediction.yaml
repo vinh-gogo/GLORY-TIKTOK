@@ -1,0 +1,26 @@
+schema_version: 3
+id: prediction
+lemma: prediction
+pos:
+- noun
+ipa:
+  us: /priˈdɪkʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự dự đoán, dự báo
+  id: prediction-1
+examples:
+- en: Analysts made a prediction that prices would rise next year.
+  vi: Các nhà phân tích đưa ra dự đoán rằng giá sẽ tăng vào năm sau.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 349. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

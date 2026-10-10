@@ -1,0 +1,26 @@
+schema_version: 3
+id: gas
+lemma: gas
+pos:
+- noun
+ipa:
+  us: /ɡæs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: khí đốt; xăng (Mỹ)
+  id: gas-1
+examples:
+- en: The factory switched to natural gas to lower its heating costs.
+  vi: Nhà máy đã chuyển sang dùng khí tự nhiên để giảm chi phí sưởi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1189. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

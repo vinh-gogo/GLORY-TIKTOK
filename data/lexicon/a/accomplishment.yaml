@@ -1,0 +1,26 @@
+schema_version: 3
+id: accomplishment
+lemma: accomplishment
+pos:
+- noun
+ipa:
+  us: /əˈkɑmplɪʃmənt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: thành tựu, thành tích
+  id: accomplishment-1
+examples:
+- en: Completing the project early was a great accomplishment for the team.
+  vi: Hoàn thành dự án sớm là một thành tựu lớn của cả nhóm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 400. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

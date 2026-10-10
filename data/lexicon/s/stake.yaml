@@ -1,0 +1,26 @@
+schema_version: 3
+id: stake
+lemma: stake
+pos:
+- noun
+ipa:
+  us: /steɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: cổ phần, phần lợi ích; cọc
+  id: stake-1
+examples:
+- en: The investor bought a ten percent stake in the growing software firm.
+  vi: Nhà đầu tư đã mua mười phần trăm cổ phần trong hãng phần mềm đang phát triển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2525. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: explanation
+lemma: explanation
+pos:
+- noun
+ipa:
+  us: /ˌɛkspləˈneɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: lời giải thích
+  id: explanation-1
+examples:
+- en: The customer asked for a clear explanation of the extra charges.
+  vi: Khách hàng yêu cầu một lời giải thích rõ ràng về các khoản phí phát sinh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1628. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

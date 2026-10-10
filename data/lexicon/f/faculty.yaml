@@ -1,0 +1,26 @@
+schema_version: 3
+id: faculty
+lemma: faculty
+pos:
+- noun
+ipa:
+  us: /ˈfækəlti/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: đội ngũ giảng viên, khoa
+  id: faculty-1
+examples:
+- en: The university faculty will meet to discuss changes to the curriculum.
+  vi: Đội ngũ giảng viên của trường đại học sẽ họp để thảo luận về những thay đổi trong chương trình học.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 767. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

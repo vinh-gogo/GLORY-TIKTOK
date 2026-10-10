@@ -1,0 +1,26 @@
+schema_version: 3
+id: excessive
+lemma: excessive
+pos:
+- adjective
+ipa:
+  us: /ɪkˈsɛsɪv/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: quá mức, thái quá
+  id: excessive-1
+examples:
+- en: The manager complained about the excessive cost of printing the brochures.
+  vi: Người quản lý phàn nàn về chi phí in tờ rơi quá cao.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 634. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

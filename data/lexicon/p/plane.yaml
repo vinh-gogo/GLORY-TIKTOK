@@ -1,0 +1,26 @@
+schema_version: 3
+id: plane
+lemma: plane
+pos:
+- noun
+ipa:
+  us: /pleɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: máy bay
+  id: plane-1
+examples:
+- en: The plane landed on time despite the strong winds.
+  vi: Máy bay hạ cánh đúng giờ mặc dù gió mạnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1259. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

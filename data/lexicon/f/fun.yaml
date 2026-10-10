@@ -1,0 +1,27 @@
+schema_version: 3
+id: fun
+lemma: fun
+pos:
+- noun
+- adjective
+ipa:
+  us: /fʌn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: niềm vui; vui vẻ
+  id: fun-1
+examples:
+- en: The company picnic was great fun for employees and their families.
+  vi: Buổi dã ngoại của công ty rất vui đối với nhân viên và gia đình họ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 902. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

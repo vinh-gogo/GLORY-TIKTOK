@@ -1,0 +1,28 @@
+schema_version: 3
+id: focus
+lemma: focus
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈfoʊkəs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tập trung; trọng tâm
+  id: focus-1
+examples:
+- en: We should focus on improving customer service this quarter.
+  vi: Chúng ta nên tập trung cải thiện dịch vụ khách hàng trong quý này.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈfoʊkəs/; /ˈfoʊkɪs/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 550. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: creativity
+lemma: creativity
+pos:
+- noun
+ipa:
+  us: /ˌkrieɪˈtɪvəti/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự sáng tạo
+  id: creativity-1
+examples:
+- en: The design team's creativity helped us win several important advertising contracts.
+  vi: Sự sáng tạo của nhóm thiết kế đã giúp chúng tôi giành được vài hợp đồng quảng cáo quan trọng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 762. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

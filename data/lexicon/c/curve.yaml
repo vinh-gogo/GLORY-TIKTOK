@@ -1,0 +1,26 @@
+schema_version: 3
+id: curve
+lemma: curve
+pos:
+- noun
+ipa:
+  us: /kɝv/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: đường cong; khúc cua
+  id: curve-1
+examples:
+- en: The road makes a sharp curve just before the bridge.
+  vi: Con đường có một khúc cua gấp ngay trước cây cầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2220. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

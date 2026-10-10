@@ -1,0 +1,28 @@
+schema_version: 3
+id: internationally
+lemma: internationally
+pos:
+- adverb
+ipa:
+  us: /ˌɪntɚˈnæʃənəli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: trên phạm vi quốc tế
+  id: internationally-1
+examples:
+- en: The brand is now sold internationally through more than fifty distributors.
+  vi: Thương hiệu này hiện được bán trên toàn thế giới qua hơn năm mươi nhà phân phối.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɪntɚˈnæʃənəli/; /ˌɪntɚˈnæʃnəli/; /ˌɪnɚˈnæʃənəli/;
+    /ˌɪnɚˈnæʃnəli/); IPA đang ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ
+    TSL hạng 867. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

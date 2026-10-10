@@ -1,0 +1,27 @@
+schema_version: 3
+id: specialist
+lemma: specialist
+pos:
+- noun
+ipa:
+  us: /ˈspɛʃələst/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: chuyên gia
+  id: specialist-1
+examples:
+- en: We hired a specialist to repair the network security problems.
+  vi: Chúng tôi thuê một chuyên gia để khắc phục các vấn đề bảo mật mạng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈspɛʃələst/; /ˈspɛʃəlɪst/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2063. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

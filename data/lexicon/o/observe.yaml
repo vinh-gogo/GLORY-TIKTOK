@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: observe
 lemma: observe
 pos:
@@ -9,13 +9,11 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- legal-compliance
-- management-operations
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
+- offices
 senses:
 - id: observe-1
   meaning_vi: Tuân thủ, chấp hành (luật pháp, thỏa thuận); cử hành (ngày lễ kỷ niệm)
@@ -23,23 +21,25 @@ senses:
 - id: observe-2
   meaning_vi: Quan sát kỹ lưỡng bằng mắt để theo dõi hiện tượng
   note_vi: Như trong observe customer behavior.
-confused_words:
-- word: absorb
-  ipa: /əbˈzɔːrb/
-  difference_vi: Absorb là hấp thụ, thấm hút (/ɔːr/); observe là quan sát hoặc tuân thủ (/ɜːr/).
-confusing_meanings:
-- difference_vi: Observe the law = tuân thủ pháp luật; observe a holiday = nghỉ lễ kỷ niệm; observe behavior = quan sát hành
-    vi.
 collocations:
 - phrase: observe the law
   meaning_vi: tuân thủ luật pháp
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: observe strict confidentiality
   meaning_vi: tuân thủ nguyên tắc bảo mật nghiêm ngặt
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: observe customer behavior
   meaning_vi: quan sát hành vi khách mua hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: abide by
   meaning_vi: tuân theo
@@ -47,6 +47,13 @@ synonyms:
   meaning_vi: theo dõi
 - word: celebrate
   meaning_vi: kỷ niệm ngày lễ
+confused_words:
+- word: absorb
+  ipa: /əbˈzɔːrb/
+  difference_vi: Absorb là hấp thụ, thấm hút (/ɔːr/); observe là quan sát hoặc tuân thủ (/ɜːr/).
+confusing_meanings:
+- difference_vi: Observe the law = tuân thủ pháp luật; observe a holiday = nghỉ lễ kỷ niệm; observe behavior = quan sát hành
+    vi.
 examples:
 - en: All employees are expected to observe strict confidentiality regarding trade secrets.
   vi: Mọi nhân viên đều được kỳ vọng sẽ tuân thủ nghiêm ngặt chế độ bảo mật đối với các bí mật kinh doanh.
@@ -57,6 +64,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,0 +1,26 @@
+schema_version: 3
+id: probability
+lemma: probability
+pos:
+- noun
+ipa:
+  us: /ˌprɑbəˈbɪləˌti/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: xác suất, khả năng xảy ra
+  id: probability-1
+examples:
+- en: There is a high probability that the shipment will arrive on time.
+  vi: Có xác suất cao là lô hàng sẽ đến đúng hạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2732. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

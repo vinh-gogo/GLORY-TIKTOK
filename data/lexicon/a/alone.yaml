@@ -1,0 +1,27 @@
+schema_version: 3
+id: alone
+lemma: alone
+pos:
+- adjective
+- adverb
+ipa:
+  us: /əˈloʊn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: một mình, đơn độc
+  id: alone-1
+examples:
+- en: She prefers to work alone when she writes long reports.
+  vi: Cô ấy thích làm việc một mình khi viết các báo cáo dài.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 719. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

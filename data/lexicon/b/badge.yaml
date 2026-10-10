@@ -1,0 +1,26 @@
+schema_version: 3
+id: badge
+lemma: badge
+pos:
+- noun
+ipa:
+  us: /bædʒ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: thẻ nhân viên, huy hiệu
+  id: badge-1
+examples:
+- en: All employees must wear a badge when they enter the main building.
+  vi: Tất cả nhân viên phải đeo thẻ khi vào tòa nhà chính.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 457. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

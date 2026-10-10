@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: revenue
 lemma: revenue
 pos:
@@ -6,16 +6,13 @@ pos:
 ipa:
   us: /ˈrevənuː/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- budget
-- sales
-- business
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- finance-budgeting
+- general-business
 senses:
 - id: revenue-1
   meaning_vi: Doanh thu (tổng số tiền công ty thu về từ bán hàng/dịch vụ)
@@ -23,40 +20,47 @@ senses:
 collocations:
 - phrase: annual revenue
   meaning_vi: tổng doanh thu hàng năm
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: boost revenue
   meaning_vi: thúc đẩy gia tăng doanh thu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: generate revenue
   meaning_vi: tạo ra nguồn doanh thu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: revenue growth
   meaning_vi: sự tăng trưởng doanh thu
-  evidence: corpus
-confused_words:
-- word: avenue
-  ipa: /ˈævənuː/
-  meaning: đại lộ, con đường lớn
-  kind: spelling-sound
-  difference_vi: Revenue là doanh thu tiền bạc; avenue là đại lộ giao thông hoặc con
-    đường tiếp cận.
-confusing_meanings:
-- word: profit
-  meaning: tiền lãi ròng
-  difference_vi: Revenue là tổng thu nhập gộp ban đầu; profit là tiền lãi sau khi
-    trừ đi tất cả chi phí sản xuất và thuế.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: turnover
   meaning_vi: doanh số quay vòng
 - word: income
   meaning_vi: thu nhập
+confused_words:
+- word: avenue
+  ipa: /ˈævənuː/
+  meaning: đại lộ, con đường lớn
+  kind: spelling-sound
+  difference_vi: Revenue là doanh thu tiền bạc; avenue là đại lộ giao thông hoặc con đường tiếp cận.
+confusing_meanings:
+- word: profit
+  meaning: tiền lãi ròng
+  difference_vi: Revenue là tổng thu nhập gộp ban đầu; profit là tiền lãi sau khi trừ đi tất cả chi phí sản xuất và thuế.
 examples:
-- en: The company's annual revenue surpassed ten million dollars for the first time
-    in its history.
-  vi: Doanh thu hàng năm của công ty đã lần đầu tiên trong lịch sử vượt qua mốc mười
-    triệu đô la.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈrev-/. Giọng Mỹ đọc đuôi là
-  /-nuː/ (âm 'u' dài), không đọc thành 'n-iu'.
+- en: The company's annual revenue surpassed ten million dollars for the first time in its history.
+  vi: Doanh thu hàng năm của công ty đã lần đầu tiên trong lịch sử vượt qua mốc mười triệu đô la.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈrev-/. Giọng Mỹ đọc đuôi là /-nuː/ (âm 'u' dài), không đọc thành 'n-iu'.
 review:
   status: ai_cross_checked
   checked_by:

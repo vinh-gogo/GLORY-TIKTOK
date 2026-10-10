@@ -1,0 +1,26 @@
+schema_version: 3
+id: loyalty
+lemma: loyalty
+pos:
+- noun
+ipa:
+  us: /ˈlɔɪəlti/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: lòng trung thành
+  id: loyalty-1
+examples:
+- en: The store rewards customer loyalty with points that can be used for discounts.
+  vi: Cửa hàng thưởng cho lòng trung thành của khách bằng điểm có thể dùng để giảm giá.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 994. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

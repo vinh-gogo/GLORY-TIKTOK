@@ -1,0 +1,26 @@
+schema_version: 3
+id: compare
+lemma: compare
+pos:
+- verb
+ipa:
+  us: /kəmˈpɛr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: so sánh
+  id: compare-1
+examples:
+- en: It is wise to compare prices before buying a new laptop.
+  vi: Nên so sánh giá trước khi mua một chiếc máy tính xách tay mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 614. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

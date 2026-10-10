@@ -1,0 +1,26 @@
+schema_version: 3
+id: confidence
+lemma: confidence
+pos:
+- noun
+ipa:
+  us: /ˈkɑnfədəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: sự tự tin; lòng tin
+  id: confidence-1
+examples:
+- en: The training gave new employees more confidence when speaking to customers.
+  vi: Khóa đào tạo giúp nhân viên mới tự tin hơn khi nói chuyện với khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1493. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

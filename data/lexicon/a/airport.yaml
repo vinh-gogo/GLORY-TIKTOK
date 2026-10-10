@@ -1,0 +1,26 @@
+schema_version: 3
+id: airport
+lemma: airport
+pos:
+- noun
+ipa:
+  us: /ˈɛrˌpɔrt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: sân bay
+  id: airport-1
+examples:
+- en: A shuttle bus takes passengers from the hotel to the airport every hour.
+  vi: Xe đưa đón chở hành khách từ khách sạn ra sân bay mỗi giờ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 5. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.
+  checked_at: '2026-10-11'

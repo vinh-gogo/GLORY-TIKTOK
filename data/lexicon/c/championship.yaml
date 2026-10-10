@@ -1,0 +1,26 @@
+schema_version: 3
+id: championship
+lemma: championship
+pos:
+- noun
+ipa:
+  us: /ˈtʃæmpiənˌʃɪp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: giải vô địch
+  id: championship-1
+examples:
+- en: Our local team will play in the national championship next month.
+  vi: Đội địa phương của chúng tôi sẽ thi đấu ở giải vô địch quốc gia vào tháng tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2640. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

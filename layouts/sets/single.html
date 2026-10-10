@@ -1,0 +1,32 @@
+{{- /* Nút xem video chỉ hiện khi liên kết TikTok là thật. Link mẫu dạng .../video/1234567xxx là placeholder (validator V3 cảnh báo) → trỏ về kênh. */ -}}
+{{- define "main" }}
+{{- $tt := .Params.tiktok | default "" -}}
+{{- $placeholder := or (eq $tt "") (findRE `/video/1234567\d+$` $tt) -}}
+<article class="set">
+  <p class="crumb"><a href="/sets/">← Bộ từ theo video</a></p>
+  <header class="page-head">
+    <h1>{{ .Title }}</h1>
+    {{- with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
+    {{- if $placeholder }}
+    <a class="btn" target="_blank" rel="noopener noreferrer" href="{{ site.Params.tiktokProfile }}">Xem kênh TikTok @wbk.lqv</a>
+    {{- else }}
+    <a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="{{ $tt }}">Xem video TikTok</a>
+    {{- end }}
+  </header>
+  <div class="wlist">
+    {{- range .Params.words }}
+      {{- $id := . }}
+      {{- $d := (index site.Data.lexicon (substr $id 0 1)) | default dict }}
+      {{- with index $d $id }}
+        {{- if site.GetPage (printf "/words/%s" $id) }}
+          {{- partial "wcard.html" . }}
+        {{- else }}
+      <span class="wcard wcard-missing"><strong class="wcard-lemma">{{ $id }}</strong><span class="wcard-mean muted">Đang chờ duyệt</span></span>
+        {{- end }}
+      {{- else }}
+      <span class="wcard wcard-missing"><strong class="wcard-lemma">{{ $id }}</strong><span class="wcard-mean muted">Chưa có mục từ</span></span>
+      {{- end }}
+    {{- end }}
+  </div>
+</article>
+{{- end }}

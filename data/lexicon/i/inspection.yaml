@@ -1,0 +1,26 @@
+schema_version: 3
+id: inspection
+lemma: inspection
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈspɛkʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: sự kiểm tra, thanh tra
+  id: inspection-1
+examples:
+- en: The factory passed the safety inspection without any problems.
+  vi: Nhà máy đã vượt qua đợt kiểm tra an toàn mà không gặp vấn đề nào.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 136. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

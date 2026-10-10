@@ -1,0 +1,26 @@
+schema_version: 3
+id: course
+lemma: course
+pos:
+- noun
+ipa:
+  us: /kɔrs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: khóa học; món ăn trong bữa; lộ trình
+  id: course-1
+examples:
+- en: She enrolled in an evening course on business accounting last fall.
+  vi: Cô ấy đã đăng ký một khóa học buổi tối về kế toán doanh nghiệp vào mùa thu năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 164. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: news
+lemma: news
+pos:
+- noun
+ipa:
+  us: /nuz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tin tức
+  id: news-1
+examples:
+- en: The manager shared good news about the new contract this morning.
+  vi: Người quản lý đã chia sẻ tin tốt về hợp đồng mới sáng nay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/nuz/; /njuz/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 546. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

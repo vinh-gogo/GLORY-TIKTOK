@@ -1,0 +1,27 @@
+schema_version: 3
+id: taste
+lemma: taste
+pos:
+- noun
+- verb
+ipa:
+  us: /teɪst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: vị, khẩu vị; nếm
+  id: taste-1
+examples:
+- en: The soup has a rich taste that many customers enjoy.
+  vi: Món súp có hương vị đậm đà mà nhiều khách hàng yêu thích.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1413. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

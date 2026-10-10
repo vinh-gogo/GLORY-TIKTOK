@@ -1,0 +1,26 @@
+schema_version: 3
+id: chamber
+lemma: chamber
+pos:
+- noun
+ipa:
+  us: /ˈtʃeɪmbɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: phòng họp; viện, hội (chamber of commerce)
+  id: chamber-1
+examples:
+- en: The local chamber of commerce meets on the first Monday of each month.
+  vi: Phòng thương mại địa phương họp vào thứ Hai đầu tiên của mỗi tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2531. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

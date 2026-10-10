@@ -1,0 +1,27 @@
+schema_version: 3
+id: eventually
+lemma: eventually
+pos:
+- adverb
+ipa:
+  us: /ɪˈvɛntʃəwəli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cuối cùng, rốt cuộc
+  id: eventually-1
+examples:
+- en: The delayed shipment eventually arrived at the warehouse on Thursday morning.
+  vi: Lô hàng bị chậm cuối cùng cũng đã đến kho vào sáng thứ Năm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɪˈvɛntʃəwəli/; /ɪˈvɛnʃəli/; /iˈvɛntʃəwəli/; /iˈvɛnʃəli/);
+    IPA đang ghi là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1140.
+    IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo
+    hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

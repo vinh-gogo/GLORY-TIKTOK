@@ -1,0 +1,26 @@
+schema_version: 3
+id: rail
+lemma: rail
+pos:
+- noun
+ipa:
+  us: /reɪl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: đường ray; đường sắt
+  id: rail-1
+examples:
+- en: Many commuters prefer rail travel because it avoids heavy traffic on the highway.
+  vi: Nhiều người đi làm thích đi bằng đường sắt vì tránh được kẹt xe trên đường cao tốc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2440. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

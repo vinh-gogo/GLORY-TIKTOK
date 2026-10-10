@@ -1,0 +1,27 @@
+schema_version: 3
+id: filter
+lemma: filter
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈfɪltɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: bộ lọc; lọc
+  id: filter-1
+examples:
+- en: You should replace the air filter in the office every three months.
+  vi: Bạn nên thay bộ lọc không khí trong văn phòng ba tháng một lần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2719. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

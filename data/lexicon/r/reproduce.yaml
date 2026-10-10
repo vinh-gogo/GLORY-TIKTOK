@@ -1,0 +1,26 @@
+schema_version: 3
+id: reproduce
+lemma: reproduce
+pos:
+- verb
+ipa:
+  us: /ˌriprəˈdus/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- offices
+senses:
+- meaning_vi: sao chép, tái tạo
+  id: reproduce-1
+examples:
+- en: You may not reproduce any part of this report without written permission.
+  vi: Bạn không được sao chép bất kỳ phần nào của báo cáo này khi chưa có sự cho phép bằng văn bản.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 873. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

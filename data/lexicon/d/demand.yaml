@@ -1,0 +1,26 @@
+schema_version: 3
+id: demand
+lemma: demand
+pos:
+- noun
+ipa:
+  us: /dɪˈmænd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: nhu cầu; yêu cầu
+  id: demand-1
+examples:
+- en: Demand for electric cars has risen sharply over the past year.
+  vi: Nhu cầu về xe điện đã tăng mạnh trong năm qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 570. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

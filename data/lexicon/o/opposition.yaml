@@ -1,0 +1,26 @@
+schema_version: 3
+id: opposition
+lemma: opposition
+pos:
+- noun
+ipa:
+  us: /ˌɑpəˈzɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự phản đối, phe đối lập
+  id: opposition-1
+examples:
+- en: There was strong opposition to the plan to move the office.
+  vi: Có sự phản đối mạnh mẽ đối với kế hoạch chuyển văn phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1622. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

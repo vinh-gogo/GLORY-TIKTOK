@@ -1,0 +1,26 @@
+schema_version: 3
+id: gold
+lemma: gold
+pos:
+- noun
+ipa:
+  us: /ɡoʊld/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: vàng
+  id: gold-1
+examples:
+- en: The company gave him a gold watch when he retired.
+  vi: Công ty tặng ông một chiếc đồng hồ vàng khi ông nghỉ hưu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1453. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

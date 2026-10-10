@@ -1,0 +1,26 @@
+schema_version: 3
+id: man
+lemma: man
+pos:
+- noun
+ipa:
+  us: /mæn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: người đàn ông
+  id: man-1
+examples:
+- en: The man at the front desk gave us directions to the station.
+  vi: Người đàn ông ở quầy lễ tân đã chỉ đường cho chúng tôi đến nhà ga.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 112. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

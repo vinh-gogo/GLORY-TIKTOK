@@ -1,0 +1,27 @@
+schema_version: 3
+id: oval
+lemma: oval
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈoʊvəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: hình bầu dục
+  id: oval-1
+examples:
+- en: The conference room has a large oval table in the center.
+  vi: Phòng hội nghị có một chiếc bàn hình bầu dục lớn ở giữa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 59. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

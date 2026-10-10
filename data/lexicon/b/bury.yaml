@@ -1,0 +1,26 @@
+schema_version: 3
+id: bury
+lemma: bury
+pos:
+- verb
+ipa:
+  us: /ˈbɛri/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: chôn, vùi lấp
+  id: bury-1
+examples:
+- en: The old cables were buried underground several years ago.
+  vi: Các dây cáp cũ đã được chôn dưới lòng đất từ vài năm trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2406. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

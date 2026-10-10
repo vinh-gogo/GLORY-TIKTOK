@@ -1,0 +1,26 @@
+schema_version: 3
+id: win
+lemma: win
+pos:
+- verb
+ipa:
+  us: /wɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: thắng, giành được
+  id: win-1
+examples:
+- en: Our team hopes to win the award for best customer service.
+  vi: Đội của chúng tôi hy vọng giành được giải thưởng về dịch vụ khách hàng tốt nhất.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 377. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

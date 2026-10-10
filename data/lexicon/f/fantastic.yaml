@@ -1,0 +1,26 @@
+schema_version: 3
+id: fantastic
+lemma: fantastic
+pos:
+- adjective
+ipa:
+  us: /fænˈtæstɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: tuyệt vời, xuất sắc
+  id: fantastic-1
+examples:
+- en: The team did a fantastic job organizing the annual conference this year.
+  vi: Nhóm đã làm rất xuất sắc trong việc tổ chức hội nghị thường niên năm nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2492. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

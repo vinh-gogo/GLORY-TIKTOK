@@ -1,0 +1,26 @@
+schema_version: 3
+id: therefore
+lemma: therefore
+pos:
+- adverb
+ipa:
+  us: /ˈðɛrˌfɔr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: do đó, vì vậy
+  id: therefore-1
+examples:
+- en: Sales dropped sharply; therefore, we must reduce our monthly expenses.
+  vi: Doanh số giảm mạnh; do đó chúng ta phải giảm chi phí hằng tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 525. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

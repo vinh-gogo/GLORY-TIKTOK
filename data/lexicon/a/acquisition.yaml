@@ -1,0 +1,26 @@
+schema_version: 3
+id: acquisition
+lemma: acquisition
+pos:
+- noun
+ipa:
+  us: /ˌækwəˈzɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự mua lại, thâu tóm; sự đạt được
+  id: acquisition-1
+examples:
+- en: The acquisition of the smaller firm was completed last month.
+  vi: Việc mua lại công ty nhỏ hơn đã hoàn tất vào tháng trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2010. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

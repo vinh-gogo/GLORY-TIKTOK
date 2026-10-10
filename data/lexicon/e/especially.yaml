@@ -1,0 +1,27 @@
+schema_version: 3
+id: especially
+lemma: especially
+pos:
+- adverb
+ipa:
+  us: /əˈspɛʃli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đặc biệt là, nhất là
+  id: especially-1
+examples:
+- en: Traffic is heavy downtown, especially during the morning rush hour.
+  vi: Giao thông trung tâm thành phố rất đông, đặc biệt vào giờ cao điểm buổi sáng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/əˈspɛʃli/; /əˈspɛʃəli/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 460. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

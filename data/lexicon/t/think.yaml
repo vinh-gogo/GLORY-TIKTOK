@@ -1,0 +1,26 @@
+schema_version: 3
+id: think
+lemma: think
+pos:
+- verb
+ipa:
+  us: /θɪŋk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nghĩ, cho rằng
+  id: think-1
+examples:
+- en: I think we should postpone the product launch until next month.
+  vi: Tôi nghĩ chúng ta nên hoãn việc ra mắt sản phẩm đến tháng sau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 47. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: departure
+lemma: departure
+pos:
+- noun
+ipa:
+  us: /dɪˈpɑrtʃɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: sự khởi hành, giờ khởi hành
+  id: departure-1
+examples:
+- en: Please arrive at the gate thirty minutes before departure.
+  vi: Vui lòng đến cổng trước giờ khởi hành ba mươi phút.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 113. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

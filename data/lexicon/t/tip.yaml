@@ -1,0 +1,26 @@
+schema_version: 3
+id: tip
+lemma: tip
+pos:
+- noun
+ipa:
+  us: /tɪp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: tiền boa; lời khuyên hữu ích
+  id: tip-1
+examples:
+- en: We left a generous tip for the waiter after dinner.
+  vi: Chúng tôi để lại khoản tiền boa hậu hĩnh cho người phục vụ sau bữa tối.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1659. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

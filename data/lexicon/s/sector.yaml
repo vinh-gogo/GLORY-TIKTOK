@@ -1,0 +1,26 @@
+schema_version: 3
+id: sector
+lemma: sector
+pos:
+- noun
+ipa:
+  us: /ˈsɛktɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: lĩnh vực, khu vực kinh tế
+  id: sector-1
+examples:
+- en: The technology sector has created thousands of new jobs in recent years.
+  vi: Lĩnh vực công nghệ đã tạo ra hàng nghìn việc làm mới trong những năm gần đây.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1151. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

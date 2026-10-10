@@ -1,0 +1,26 @@
+schema_version: 3
+id: portrait
+lemma: portrait
+pos:
+- noun
+ipa:
+  us: /ˈpɔrtrət/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: bức chân dung
+  id: portrait-1
+examples:
+- en: A large portrait of the company's founder hangs in the main lobby.
+  vi: Một bức chân dung lớn của người sáng lập công ty treo ở sảnh chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2713. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

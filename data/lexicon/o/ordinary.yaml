@@ -1,0 +1,26 @@
+schema_version: 3
+id: ordinary
+lemma: ordinary
+pos:
+- adjective
+ipa:
+  us: /ˈɔrdəˌnɛri/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bình thường, thông thường
+  id: ordinary-1
+examples:
+- en: It was an ordinary day at the office until the power failed.
+  vi: Đó là một ngày bình thường ở văn phòng cho đến khi mất điện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1646. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

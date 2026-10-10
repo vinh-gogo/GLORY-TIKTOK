@@ -1,0 +1,26 @@
+schema_version: 3
+id: poverty
+lemma: poverty
+pos:
+- noun
+ipa:
+  us: /ˈpɑvɚti/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự nghèo đói
+  id: poverty-1
+examples:
+- en: The charity works to reduce poverty in rural communities.
+  vi: Tổ chức từ thiện hoạt động để giảm nghèo ở các cộng đồng nông thôn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2275. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

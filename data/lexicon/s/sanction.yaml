@@ -1,0 +1,28 @@
+schema_version: 3
+id: sanction
+lemma: sanction
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈsæŋkʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: lệnh trừng phạt, cấm vận; sự phê chuẩn
+  id: sanction-1
+examples:
+- en: The country faced economic sanctions after it broke the trade agreement.
+  vi: Quốc gia đó phải chịu các lệnh trừng phạt kinh tế sau khi vi phạm thỏa thuận thương mại.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Từ có hai nghĩa đối lập (trừng phạt / cho phép); chọn nghĩa phổ biến là trừng
+    phạt — Mục từ NGSL hạng 2616. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

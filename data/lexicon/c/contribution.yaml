@@ -1,0 +1,26 @@
+schema_version: 3
+id: contribution
+lemma: contribution
+pos:
+- noun
+ipa:
+  us: /ˌkɑntrəˈbjuʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự đóng góp
+  id: contribution-1
+examples:
+- en: Her contribution to the project was recognized at the annual dinner.
+  vi: Sự đóng góp của cô ấy cho dự án được ghi nhận tại bữa tiệc thường niên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1273. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

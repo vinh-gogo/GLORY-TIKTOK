@@ -1,0 +1,26 @@
+schema_version: 3
+id: decision
+lemma: decision
+pos:
+- noun
+ipa:
+  us: /dɪˈsɪʒən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: quyết định
+  id: decision-1
+examples:
+- en: The board will make a final decision about the merger next week.
+  vi: Hội đồng quản trị sẽ đưa ra quyết định cuối cùng về vụ sáp nhập vào tuần tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 449. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

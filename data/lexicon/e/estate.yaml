@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: estate
 lemma: estate
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- real-estate-construction
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- housing-property
 senses:
 - id: estate-1
   meaning_vi: Bất động sản, khu đất xây dựng; toàn bộ tài sản thừa kế của một người
   note_vi: 'Collocation cực kỳ quan trọng: real estate (ngành bất động sản), real estate agent (nhà môi giới nhà đất).'
+collocations:
+- phrase: real estate agent
+  meaning_vi: môi giới viên bất động sản
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: real estate market
+  meaning_vi: thị trường bất động sản
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: industrial estate
+  meaning_vi: khu đất công nghiệp
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: property
+  meaning_vi: tài sản bất động sản
+- word: landholding
+  meaning_vi: khu đất sở hữu
 confused_words:
 - word: state
   ipa: /steɪt/
   difference_vi: State là bang hoặc trạng thái; estate là điền trang hoặc bất động sản nhà đất.
 confusing_meanings:
 - difference_vi: Real estate = thị trường bất động sản; industrial estate = khu công nghiệp tập trung.
-collocations:
-- phrase: real estate agent
-  meaning_vi: môi giới viên bất động sản
-  evidence: corpus
-- phrase: real estate market
-  meaning_vi: thị trường bất động sản
-  evidence: corpus
-- phrase: industrial estate
-  meaning_vi: khu đất công nghiệp
-  evidence: corpus
-synonyms:
-- word: property
-  meaning_vi: tài sản bất động sản
-- word: landholding
-  meaning_vi: khu đất sở hữu
 examples:
 - en: Commercial real estate prices in the financial district have reached an all-time high.
   vi: Giá bất động sản thương mại tại khu tài chính đã chạm mức cao nhất mọi thời đại.
@@ -50,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

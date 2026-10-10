@@ -1,0 +1,26 @@
+schema_version: 3
+id: capable
+lemma: capable
+pos:
+- adjective
+ipa:
+  us: /ˈkeɪpəbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: có năng lực, có khả năng
+  id: capable-1
+examples:
+- en: She is a capable manager who can lead large teams well.
+  vi: Cô ấy là một quản lý có năng lực, có thể dẫn dắt tốt những nhóm lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1885. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

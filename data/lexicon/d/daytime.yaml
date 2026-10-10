@@ -1,0 +1,26 @@
+schema_version: 3
+id: daytime
+lemma: daytime
+pos:
+- noun
+ipa:
+  us: /ˈdeɪˌtaɪm/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: ban ngày
+  id: daytime-1
+examples:
+- en: Our office is busiest during the daytime, so please call before noon.
+  vi: Văn phòng chúng tôi bận nhất vào ban ngày nên vui lòng gọi trước buổi trưa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1207. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

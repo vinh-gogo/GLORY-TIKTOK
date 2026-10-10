@@ -1,0 +1,26 @@
+schema_version: 3
+id: moment
+lemma: moment
+pos:
+- noun
+ipa:
+  us: /ˈmoʊmənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: khoảnh khắc, lúc
+  id: moment-1
+examples:
+- en: Please wait a moment while I check the availability of the room.
+  vi: Vui lòng chờ một lát trong khi tôi kiểm tra xem phòng còn trống không.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 397. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

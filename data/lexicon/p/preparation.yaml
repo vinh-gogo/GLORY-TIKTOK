@@ -1,0 +1,26 @@
+schema_version: 3
+id: preparation
+lemma: preparation
+pos:
+- noun
+ipa:
+  us: /ˌprɛpɚˈeɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự chuẩn bị
+  id: preparation-1
+examples:
+- en: Careful preparation is important before every client presentation.
+  vi: Sự chuẩn bị cẩn thận rất quan trọng trước mỗi buổi thuyết trình với khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2028. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,46 @@
+schema_version: 3
+id: service
+lemma: service
+pos:
+- noun
+ipa:
+  us: /ˈsɜːrvɪs/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- general-business
+senses:
+- meaning_vi: Dịch vụ; sự phục vụ dành cho khách hàng
+  id: service-1
+collocations:
+- phrase: customer service
+  meaning_vi: dịch vụ chăm sóc khách hàng
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: room service
+  meaning_vi: dịch vụ phòng (khách sạn)
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: service charge
+  meaning_vi: phí dịch vụ
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: The hotel is known for its excellent service.
+  vi: Khách sạn này nổi tiếng nhờ dịch vụ xuất sắc.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

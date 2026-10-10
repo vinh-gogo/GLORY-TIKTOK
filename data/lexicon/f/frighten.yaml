@@ -1,0 +1,26 @@
+schema_version: 3
+id: frighten
+lemma: frighten
+pos:
+- verb
+ipa:
+  us: /ˈfraɪtən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: làm sợ hãi
+  id: frighten-1
+examples:
+- en: The sudden alarm frightened several people in the waiting area.
+  vi: Tiếng chuông báo động đột ngột làm một vài người trong khu chờ sợ hãi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2196. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

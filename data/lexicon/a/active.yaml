@@ -1,0 +1,26 @@
+schema_version: 3
+id: active
+lemma: active
+pos:
+- adjective
+ipa:
+  us: /ˈæktɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tích cực, năng động
+  id: active-1
+examples:
+- en: She is an active member of the local business association.
+  vi: Cô ấy là một thành viên tích cực của hiệp hội doanh nghiệp địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1354. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

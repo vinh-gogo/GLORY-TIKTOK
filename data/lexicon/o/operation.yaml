@@ -1,0 +1,26 @@
+schema_version: 3
+id: operation
+lemma: operation
+pos:
+- noun
+ipa:
+  us: /ˌɑpɚˈeɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: hoạt động, sự vận hành
+  id: operation-1
+examples:
+- en: The factory will begin full operation once the new machines are installed.
+  vi: Nhà máy sẽ bắt đầu vận hành hết công suất khi các máy mới được lắp đặt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 849. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

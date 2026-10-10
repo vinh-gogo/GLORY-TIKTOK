@@ -1,0 +1,26 @@
+schema_version: 3
+id: breathe
+lemma: breathe
+pos:
+- verb
+ipa:
+  us: /brið/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: thở, hít thở
+  id: breathe-1
+examples:
+- en: Workers in the dusty area must wear masks to breathe safely.
+  vi: Công nhân trong khu vực nhiều bụi phải đeo khẩu trang để hít thở an toàn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1914. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

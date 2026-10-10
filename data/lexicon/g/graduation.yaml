@@ -1,0 +1,27 @@
+schema_version: 3
+id: graduation
+lemma: graduation
+pos:
+- noun
+ipa:
+  us: /ˌɡrædʒuˈeɪʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: lễ tốt nghiệp, sự tốt nghiệp
+  id: graduation-1
+examples:
+- en: Her family traveled from another city to attend her graduation ceremony.
+  vi: Gia đình cô ấy đã từ thành phố khác đến dự lễ tốt nghiệp của cô.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɡrædʒuˈeɪʃən/; /ˌɡrædʒəˈweɪʃən/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 522. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

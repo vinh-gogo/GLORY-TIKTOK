@@ -1,0 +1,26 @@
+schema_version: 3
+id: role
+lemma: role
+pos:
+- noun
+ipa:
+  us: /roʊl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: vai trò
+  id: role-1
+examples:
+- en: Her role in the project is to coordinate with suppliers.
+  vi: Vai trò của cô ấy trong dự án là phối hợp với các nhà cung cấp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 468. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

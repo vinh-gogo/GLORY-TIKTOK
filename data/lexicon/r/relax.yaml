@@ -1,0 +1,27 @@
+schema_version: 3
+id: relax
+lemma: relax
+pos:
+- verb
+ipa:
+  us: /rɪˈlæks/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: thư giãn
+  id: relax-1
+examples:
+- en: After a long week, many employees like to relax at the beach.
+  vi: Sau một tuần dài, nhiều nhân viên thích thư giãn ở bãi biển.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈlæks/; /riˈlæks/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1485. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

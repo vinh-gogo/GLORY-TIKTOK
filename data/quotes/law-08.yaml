@@ -1,0 +1,22 @@
+schema_version: 1
+id: law-08
+title_vi: Tiên đề về Kỳ vọng Vượt trội
+title_en: The Expectation Axiom
+topic: offices
+band: core
+quote_en: Meeting expectations merely keeps you in the game; consistently exceeding expectations is what builds reputation
+  and commands respect.
+quote_vi: Đáp ứng kỳ vọng chỉ giúp bạn trụ lại cuộc chơi; liên tục vượt trên cả kỳ vọng mới là điều xây dựng danh tiếng và
+  tạo dựng vị thế.
+highlights:
+- phrase: meet expectations
+  meaning_vi: đáp ứng đúng kỳ vọng đặt ra
+- phrase: exceed expectations
+  meaning_vi: vượt xa sự mong đợi ban đầu
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

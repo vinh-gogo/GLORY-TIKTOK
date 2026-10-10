@@ -1,0 +1,26 @@
+schema_version: 3
+id: bulb
+lemma: bulb
+pos:
+- noun
+ipa:
+  us: /bʌlb/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: bóng đèn; củ (hoa)
+  id: bulb-1
+examples:
+- en: The maintenance team replaced the broken bulb in the hallway lamp.
+  vi: Đội bảo trì đã thay bóng đèn hỏng ở đèn hành lang.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1202. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

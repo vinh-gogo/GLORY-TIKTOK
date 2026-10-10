@@ -1,0 +1,26 @@
+schema_version: 3
+id: leadership
+lemma: leadership
+pos:
+- noun
+ipa:
+  us: /ˈlidɚˌʃɪp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: khả năng lãnh đạo, ban lãnh đạo
+  id: leadership-1
+examples:
+- en: Under her leadership, the sales team doubled its yearly results.
+  vi: Dưới sự lãnh đạo của cô ấy, nhóm bán hàng đã tăng gấp đôi kết quả hằng năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1506. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

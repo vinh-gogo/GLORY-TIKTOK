@@ -1,0 +1,26 @@
+schema_version: 3
+id: bus
+lemma: bus
+pos:
+- noun
+ipa:
+  us: /bʌs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: xe buýt
+  id: bus-1
+examples:
+- en: The shuttle bus leaves the hotel every thirty minutes.
+  vi: Xe buýt đưa đón rời khách sạn cứ ba mươi phút một chuyến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 810. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: remuneration
 lemma: remuneration
 pos:
@@ -9,38 +9,45 @@ ipa:
 level:
   band: advanced
   cefr: C1
-  basis: TOEIC 800+
+  basis:
+  - editorial
 topics:
-- salary-benefits
-- contracts-negotiation
-speaking_use:
-- respond-with-info
-- express-opinion
+- personnel
+- general-business
 senses:
 - id: remuneration-1
   meaning_vi: Khoản thù lao, tiền công và các đãi ngộ tài chính trả cho công việc
   note_vi: Thuật ngữ trang trọng bao hàm cả tiền lương, tiền thưởng và các quyền lợi đãi ngộ khác.
+collocations:
+- phrase: remuneration package
+  meaning_vi: gói thù lao đãi ngộ tổng thể
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: adequate remuneration
+  meaning_vi: mức thù lao xứng đáng, thỏa đáng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: remuneration committee
+  meaning_vi: ủy ban thẩm định lương thưởng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: compensation
+  meaning_vi: tiền thù lao, bồi hoàn
+- word: earnings
+  meaning_vi: thu nhập
 confused_words:
 - word: renovation
   ipa: /ˌrenəˈveɪʃn/
   difference_vi: Renovation là sự cải tạo nâng cấp công trình; remuneration là tiền thù lao đãi ngộ lao động.
 confusing_meanings:
 - difference_vi: Remuneration là thuật ngữ tài chính/pháp lý chính thức, rộng hơn từ pay hoặc salary.
-collocations:
-- phrase: remuneration package
-  meaning_vi: gói thù lao đãi ngộ tổng thể
-  evidence: corpus
-- phrase: adequate remuneration
-  meaning_vi: mức thù lao xứng đáng, thỏa đáng
-  evidence: corpus
-- phrase: remuneration committee
-  meaning_vi: ủy ban thẩm định lương thưởng
-  evidence: corpus
-synonyms:
-- word: compensation
-  meaning_vi: tiền thù lao, bồi hoàn
-- word: earnings
-  meaning_vi: thu nhập
 examples:
 - en: The executive remuneration package includes base salary, stock options, and private medical cover.
   vi: Gói thù lao dành cho cấp quản lý bao gồm lương cơ bản, quyền mua cổ phiếu và bảo hiểm y tế tư nhân.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

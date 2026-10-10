@@ -1,0 +1,26 @@
+schema_version: 3
+id: absolute
+lemma: absolute
+pos:
+- adjective
+ipa:
+  us: /ˈæbsəˌlut/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tuyệt đối, hoàn toàn
+  id: absolute-1
+examples:
+- en: The safety of our customers is of absolute importance to us.
+  vi: An toàn của khách hàng là điều tối quan trọng đối với chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2398. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

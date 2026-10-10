@@ -1,0 +1,28 @@
+schema_version: 3
+id: dial
+lemma: dial
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈdaɪəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: quay số (điện thoại)
+  id: dial-1
+examples:
+- en: Dial nine first if you want to call an outside number.
+  vi: Hãy bấm số chín trước nếu bạn muốn gọi một số bên ngoài.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdaɪəl/; /daɪl/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 153. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

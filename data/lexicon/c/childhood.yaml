@@ -1,0 +1,26 @@
+schema_version: 3
+id: childhood
+lemma: childhood
+pos:
+- noun
+ipa:
+  us: /ˈtʃaɪldˌhʊd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: thời thơ ấu
+  id: childhood-1
+examples:
+- en: He spent his childhood in a small village near the sea.
+  vi: Anh ấy trải qua thời thơ ấu ở một ngôi làng nhỏ gần biển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1808. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

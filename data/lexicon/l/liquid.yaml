@@ -1,0 +1,28 @@
+schema_version: 3
+id: liquid
+lemma: liquid
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈlɪkwəd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: chất lỏng; dạng lỏng
+  id: liquid-1
+examples:
+- en: Do not store the liquid near any source of heat or flame.
+  vi: Không để chất lỏng này gần bất kỳ nguồn nhiệt hay lửa nào.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈlɪkwəd/; /ˈlɪkwɪd/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2692. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: pharmaceutical
+lemma: pharmaceutical
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˌfɑrməˈsutɪkəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: thuộc dược phẩm; thuốc, dược phẩm
+  id: pharmaceutical-1
+examples:
+- en: She works for a large pharmaceutical company that develops new medicines.
+  vi: Cô ấy làm việc cho một công ty dược phẩm lớn chuyên phát triển thuốc mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 582. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: renew
 lemma: renew
 pos:
@@ -9,38 +9,44 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- contracts-negotiation
-- sales-customer-service
-speaking_use:
-- respond-to-questions
-- respond-with-info
+- general-business
 senses:
 - id: renew-1
   meaning_vi: Gia hạn hợp đồng, đổi mới gói dịch vụ thuê bao hoặc giấy phép
   note_vi: Kéo dài hiệu lực của một văn bản hoặc thỏa thuận sẵn có thêm một kỳ hạn mới.
+collocations:
+- phrase: renew a contract
+  meaning_vi: gia hạn hợp đồng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: renew a subscription
+  meaning_vi: gia hạn gói đăng ký dịch vụ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: automatically renew
+  meaning_vi: tự động gia hạn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: extend
+  meaning_vi: kéo dài kỳ hạn
+- word: continue
+  meaning_vi: tiếp tục duy trì
 confused_words:
 - word: resume
   ipa: /rɪˈzuːm/
   difference_vi: Resume là tiếp tục lại sau khi tạm dừng; renew là gia hạn hiệu lực hợp đồng hoặc giấy phép.
 confusing_meanings:
 - difference_vi: Renew a contract (gia hạn hợp đồng) khác với renewable energy (năng lượng tái tạo).
-collocations:
-- phrase: renew a contract
-  meaning_vi: gia hạn hợp đồng
-  evidence: corpus
-- phrase: renew a subscription
-  meaning_vi: gia hạn gói đăng ký dịch vụ
-  evidence: corpus
-- phrase: automatically renew
-  meaning_vi: tự động gia hạn
-  evidence: corpus
-synonyms:
-- word: extend
-  meaning_vi: kéo dài kỳ hạn
-- word: continue
-  meaning_vi: tiếp tục duy trì
 examples:
 - en: The tenant decided to renew the office lease for another two years.
   vi: Bên thuê đã quyết định gia hạn hợp đồng thuê văn phòng thêm hai năm nữa.
@@ -51,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

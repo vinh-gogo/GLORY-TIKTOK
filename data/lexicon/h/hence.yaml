@@ -1,0 +1,26 @@
+schema_version: 3
+id: hence
+lemma: hence
+pos:
+- adverb
+ipa:
+  us: /hɛns/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: do đó, vì vậy
+  id: hence-1
+examples:
+- en: Sales fell sharply; hence the company reduced its production.
+  vi: Doanh số giảm mạnh; do đó công ty đã cắt giảm sản lượng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2094. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: electric
+lemma: electric
+pos:
+- adjective
+ipa:
+  us: /ɪˈlɛktrɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: chạy bằng điện, thuộc điện
+  id: electric-1
+examples:
+- en: The company plans to buy electric cars for its sales team.
+  vi: Công ty dự định mua xe điện cho đội ngũ bán hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2420. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

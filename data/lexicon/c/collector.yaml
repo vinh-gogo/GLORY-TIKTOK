@@ -1,0 +1,26 @@
+schema_version: 3
+id: collector
+lemma: collector
+pos:
+- noun
+ipa:
+  us: /kəˈlɛktɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: người sưu tầm; người thu (tiền)
+  id: collector-1
+examples:
+- en: A private collector bought the painting at the gallery last weekend.
+  vi: Một nhà sưu tầm tư nhân đã mua bức tranh tại phòng tranh cuối tuần trước.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 809. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

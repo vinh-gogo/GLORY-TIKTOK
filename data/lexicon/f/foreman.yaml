@@ -1,0 +1,26 @@
+schema_version: 3
+id: foreman
+lemma: foreman
+pos:
+- noun
+ipa:
+  us: /ˈfɔrmən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: quản đốc, đốc công
+  id: foreman-1
+examples:
+- en: The foreman checked each section of the assembly line before the shift began.
+  vi: Quản đốc kiểm tra từng khu vực dây chuyền lắp ráp trước khi ca làm bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 769. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

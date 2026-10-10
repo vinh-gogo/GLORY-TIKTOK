@@ -1,0 +1,27 @@
+schema_version: 3
+id: escape
+lemma: escape
+pos:
+- verb
+- noun
+ipa:
+  us: /ɪˈskeɪp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: trốn thoát; thoát khỏi
+  id: escape-1
+examples:
+- en: Everyone escaped safely from the building when the alarm went off.
+  vi: Mọi người đã thoát ra khỏi tòa nhà an toàn khi chuông báo động vang lên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1482. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: late
+lemma: late
+pos:
+- adjective
+- adverb
+ipa:
+  us: /leɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: muộn, trễ
+  id: late-1
+examples:
+- en: The train was late, so I missed the beginning of the meeting.
+  vi: Chuyến tàu bị trễ, nên tôi lỡ phần đầu của cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 147. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

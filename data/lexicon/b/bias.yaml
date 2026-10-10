@@ -1,0 +1,26 @@
+schema_version: 3
+id: bias
+lemma: bias
+pos:
+- noun
+ipa:
+  us: /ˈbaɪəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự thiên vị, thành kiến
+  id: bias-1
+examples:
+- en: The survey results may show bias because only a few people answered.
+  vi: Kết quả khảo sát có thể bị thiên lệch vì chỉ có vài người trả lời.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2649. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

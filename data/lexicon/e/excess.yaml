@@ -1,0 +1,27 @@
+schema_version: 3
+id: excess
+lemma: excess
+pos:
+- noun
+ipa:
+  us: /ˈɛkˌsɛs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự dư thừa, phần vượt quá
+  id: excess-1
+examples:
+- en: Passengers must pay a fee for any baggage in excess of twenty kilograms.
+  vi: Hành khách phải trả phí cho hành lý vượt quá hai mươi ki-lô-gam.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛkˌsɛs/; /ɪkˈsɛs/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2643. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

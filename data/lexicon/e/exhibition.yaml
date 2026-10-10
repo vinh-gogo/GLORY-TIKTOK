@@ -1,0 +1,26 @@
+schema_version: 3
+id: exhibition
+lemma: exhibition
+pos:
+- noun
+ipa:
+  us: /ˌɛksəˈbɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: cuộc triển lãm
+  id: exhibition-1
+examples:
+- en: The art exhibition opens at the city museum on Saturday.
+  vi: Triển lãm nghệ thuật khai mạc tại bảo tàng thành phố vào thứ Bảy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1803. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: player
+lemma: player
+pos:
+- noun
+ipa:
+  us: /ˈpleɪɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: người chơi, cầu thủ; máy phát
+  id: player-1
+examples:
+- en: The best player on the team received an award at the dinner.
+  vi: Cầu thủ xuất sắc nhất đội đã nhận giải thưởng tại bữa tối.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 715. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

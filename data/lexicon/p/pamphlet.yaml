@@ -1,0 +1,26 @@
+schema_version: 3
+id: pamphlet
+lemma: pamphlet
+pos:
+- noun
+ipa:
+  us: /ˈpæmflət/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: tờ rơi, sách mỏng
+  id: pamphlet-1
+examples:
+- en: Take a pamphlet at the front desk to learn about our services.
+  vi: Hãy lấy một tờ rơi ở quầy lễ tân để tìm hiểu về dịch vụ của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1066. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

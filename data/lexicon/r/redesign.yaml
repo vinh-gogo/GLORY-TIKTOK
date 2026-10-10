@@ -1,0 +1,27 @@
+schema_version: 3
+id: redesign
+lemma: redesign
+pos:
+- verb
+- noun
+ipa:
+  us: /ˌridɪˈzaɪn/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- manufacturing
+senses:
+- meaning_vi: thiết kế lại
+  id: redesign-1
+examples:
+- en: The company decided to redesign its packaging to reduce plastic waste.
+  vi: Công ty quyết định thiết kế lại bao bì để giảm rác thải nhựa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1167. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: efficiently
+lemma: efficiently
+pos:
+- adverb
+ipa:
+  us: /ɪˈfɪʃəntli/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: một cách hiệu quả
+  id: efficiently-1
+examples:
+- en: The new system helps us process orders more efficiently.
+  vi: Hệ thống mới giúp chúng tôi xử lý đơn hàng hiệu quả hơn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 366. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

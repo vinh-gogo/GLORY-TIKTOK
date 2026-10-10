@@ -1,0 +1,26 @@
+schema_version: 3
+id: establishment
+lemma: establishment
+pos:
+- noun
+ipa:
+  us: /ɪˈstæblɪʃmənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: cơ sở, tổ chức; sự thành lập
+  id: establishment-1
+examples:
+- en: This dining establishment has been serving local customers for many years.
+  vi: Cơ sở ăn uống này đã phục vụ khách địa phương trong nhiều năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2317. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

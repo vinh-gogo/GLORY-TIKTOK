@@ -1,0 +1,27 @@
+schema_version: 3
+id: just
+lemma: just
+pos:
+- adverb
+ipa:
+  us: /dʒʌst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: vừa mới; chỉ, đúng là
+  id: just-1
+examples:
+- en: The shipment just arrived, so we can start the inspection now.
+  vi: Lô hàng vừa mới đến, nên chúng ta có thể bắt đầu kiểm tra ngay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/dʒʌst/; /dʒɪst/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 64. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

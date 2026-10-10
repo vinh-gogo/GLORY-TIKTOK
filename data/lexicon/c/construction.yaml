@@ -1,0 +1,26 @@
+schema_version: 3
+id: construction
+lemma: construction
+pos:
+- noun
+ipa:
+  us: /kənˈstrʌkʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: xây dựng, công trình
+  id: construction-1
+examples:
+- en: Construction of the new office tower will finish next spring.
+  vi: Việc xây dựng tòa tháp văn phòng mới sẽ hoàn tất vào mùa xuân tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1400. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

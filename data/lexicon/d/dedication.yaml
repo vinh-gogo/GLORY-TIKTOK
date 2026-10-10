@@ -1,0 +1,26 @@
+schema_version: 3
+id: dedication
+lemma: dedication
+pos:
+- noun
+ipa:
+  us: /ˌdɛdəˈkeɪʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: sự cống hiến, tận tụy
+  id: dedication-1
+examples:
+- en: The director praised the staff for their dedication during the busy season.
+  vi: Giám đốc khen ngợi nhân viên vì sự tận tụy trong mùa cao điểm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 708. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

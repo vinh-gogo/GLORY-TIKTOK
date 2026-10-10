@@ -1,0 +1,26 @@
+schema_version: 3
+id: leg
+lemma: leg
+pos:
+- noun
+ipa:
+  us: /lɛɡ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: cái chân
+  id: leg-1
+examples:
+- en: The patient injured his leg while playing football on the weekend.
+  vi: Bệnh nhân bị thương ở chân khi chơi bóng đá vào cuối tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1097. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

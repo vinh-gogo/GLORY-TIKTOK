@@ -1,0 +1,27 @@
+schema_version: 3
+id: more
+lemma: more
+pos:
+- determiner
+- adverb
+ipa:
+  us: /mɔr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nhiều hơn, thêm nữa
+  id: more-1
+examples:
+- en: We need more time to finish the inspection before the deadline.
+  vi: Chúng tôi cần thêm thời gian để hoàn tất việc kiểm tra trước hạn chót.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 42. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

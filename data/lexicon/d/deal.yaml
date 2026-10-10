@@ -1,0 +1,27 @@
+schema_version: 3
+id: deal
+lemma: deal
+pos:
+- noun
+- verb
+ipa:
+  us: /dil/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: thỏa thuận, giao dịch; xử lý
+  id: deal-1
+examples:
+- en: The two companies signed a deal to share their delivery networks.
+  vi: Hai công ty đã ký một thỏa thuận chia sẻ mạng lưới giao hàng của họ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 321. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

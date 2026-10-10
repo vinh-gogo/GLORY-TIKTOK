@@ -1,0 +1,26 @@
+schema_version: 3
+id: organization
+lemma: organization
+pos:
+- noun
+ipa:
+  us: /ˌɔrɡənəˈzeɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: tổ chức
+  id: organization-1
+examples:
+- en: Our organization hires about fifty new employees every year.
+  vi: Tổ chức của chúng tôi tuyển khoảng năm mươi nhân viên mới mỗi năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 512. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

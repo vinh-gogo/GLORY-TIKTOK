@@ -1,0 +1,26 @@
+schema_version: 3
+id: suggest
+lemma: suggest
+pos:
+- verb
+ipa:
+  us: /səˈdʒɛst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: đề xuất, gợi ý
+  id: suggest-1
+examples:
+- en: I suggest that we postpone the launch until the testing is complete.
+  vi: Tôi đề xuất chúng ta hoãn việc ra mắt cho đến khi hoàn tất thử nghiệm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 329. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

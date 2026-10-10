@@ -1,0 +1,26 @@
+schema_version: 3
+id: ocean
+lemma: ocean
+pos:
+- noun
+ipa:
+  us: /ˈoʊʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: đại dương
+  id: ocean-1
+examples:
+- en: Our hotel room has a wonderful view of the ocean.
+  vi: Phòng khách sạn của chúng tôi có tầm nhìn tuyệt đẹp ra đại dương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2671. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

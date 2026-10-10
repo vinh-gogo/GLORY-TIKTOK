@@ -1,0 +1,27 @@
+schema_version: 3
+id: command
+lemma: command
+pos:
+- noun
+- verb
+ipa:
+  us: /kəˈmænd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: lệnh; chỉ huy; khả năng thành thạo
+  id: command-1
+examples:
+- en: Type this command to restart the server without losing any data.
+  vi: Hãy gõ lệnh này để khởi động lại máy chủ mà không mất dữ liệu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1714. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

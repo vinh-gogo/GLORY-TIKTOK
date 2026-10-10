@@ -1,0 +1,26 @@
+schema_version: 3
+id: tax
+lemma: tax
+pos:
+- noun
+ipa:
+  us: /tæks/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: thuế
+  id: tax-1
+examples:
+- en: The price of the laptop includes sales tax and delivery.
+  vi: Giá của chiếc máy tính xách tay đã bao gồm thuế bán hàng và phí giao hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 787. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: free
+lemma: free
+pos:
+- adjective
+ipa:
+  us: /fri/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: miễn phí; rảnh, tự do
+  id: free-1
+examples:
+- en: Guests receive free parking when they dine at the hotel restaurant.
+  vi: Khách được đỗ xe miễn phí khi dùng bữa tại nhà hàng của khách sạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 395. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

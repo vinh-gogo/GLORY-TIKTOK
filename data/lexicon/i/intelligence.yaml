@@ -1,0 +1,26 @@
+schema_version: 3
+id: intelligence
+lemma: intelligence
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈtɛlədʒəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: trí thông minh; thông tin tình báo
+  id: intelligence-1
+examples:
+- en: Artificial intelligence is changing how many companies handle customer questions.
+  vi: Trí tuệ nhân tạo đang thay đổi cách nhiều công ty xử lý câu hỏi của khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1673. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

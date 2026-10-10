@@ -1,0 +1,28 @@
+schema_version: 3
+id: exit
+lemma: exit
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈɛɡzɪt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: lối ra; rời khỏi
+  id: exit-1
+examples:
+- en: The nearest exit is at the end of the hallway on your left.
+  vi: Lối ra gần nhất ở cuối hành lang bên tay trái của bạn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛɡzɪt/; /ˈɛksət/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 101. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

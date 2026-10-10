@@ -1,0 +1,26 @@
+schema_version: 3
+id: abortion
+lemma: abortion
+pos:
+- noun
+ipa:
+  us: /əˈbɔrʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: sự phá thai
+  id: abortion-1
+examples:
+- en: The national debate over abortion remains a sensitive issue in many countries.
+  vi: Cuộc tranh luận quốc gia về phá thai vẫn là vấn đề nhạy cảm ở nhiều nước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2542. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

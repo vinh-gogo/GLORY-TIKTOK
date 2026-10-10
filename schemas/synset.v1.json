@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SynsetV1",
+  "description": "Nhóm từ đồng nghĩa có ghi chú sắc thái (data/synsets/).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "head_vi", "pos", "members", "review"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 1 },
+    "id": { "type": "string", "pattern": "^syn-[a-z0-9-]+$" },
+    "head_vi": { "type": "string", "minLength": 1 },
+    "pos": { "type": "string" },
+    "members": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["word", "nuance_vi"],
+        "properties": {
+          "word": { "type": "string", "minLength": 1 },
+          "ref": { "type": "string" },
+          "register": { "enum": ["neutral", "formal", "informal"] },
+          "nuance_vi": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "not_interchangeable_vi": { "type": "string" },
+    "examples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["en", "vi"],
+        "properties": { "en": { "type": "string" }, "vi": { "type": "string" } }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status"],
+      "properties": {
+        "status": { "enum": ["ai_draft", "ai_cross_checked", "human_verified", "needs_review"] },
+        "checked_by": { "type": "array", "items": { "type": "string" } },
+        "checked_at": { "type": "string" },
+        "sources": { "type": "array", "items": { "type": "string" } },
+        "reason": { "type": "string" }
+      }
+    }
+  }
+}

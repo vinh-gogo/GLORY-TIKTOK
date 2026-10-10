@@ -1,0 +1,26 @@
+schema_version: 3
+id: sea
+lemma: sea
+pos:
+- noun
+ipa:
+  us: /si/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: biển
+  id: sea-1
+examples:
+- en: The hotel offers a wonderful view of the sea from every room.
+  vi: Khách sạn có tầm nhìn ra biển tuyệt đẹp từ mọi phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 987. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

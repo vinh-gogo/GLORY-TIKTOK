@@ -1,0 +1,27 @@
+schema_version: 3
+id: digital
+lemma: digital
+pos:
+- adjective
+ipa:
+  us: /ˈdɪdʒətəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: kỹ thuật số
+  id: digital-1
+examples:
+- en: We are switching from paper files to a digital filing system.
+  vi: Chúng tôi đang chuyển từ hồ sơ giấy sang hệ thống lưu trữ kỹ thuật số.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdɪdʒətəl/; /ˈdɪdʒɪtəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2309. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

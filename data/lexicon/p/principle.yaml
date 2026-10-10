@@ -1,0 +1,26 @@
+schema_version: 3
+id: principle
+lemma: principle
+pos:
+- noun
+ipa:
+  us: /ˈprɪnsəpəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nguyên tắc
+  id: principle-1
+examples:
+- en: Honesty is a basic principle that guides every decision our company makes.
+  vi: Sự trung thực là nguyên tắc cơ bản dẫn dắt mọi quyết định của công ty chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1071. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

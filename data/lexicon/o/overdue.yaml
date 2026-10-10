@@ -1,0 +1,26 @@
+schema_version: 3
+id: overdue
+lemma: overdue
+pos:
+- adjective
+ipa:
+  us: /ˈoʊvɚˈdu/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: quá hạn
+  id: overdue-1
+examples:
+- en: Your account is overdue, so please make a payment soon.
+  vi: Tài khoản của bạn đã quá hạn, vì vậy vui lòng thanh toán sớm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 348. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

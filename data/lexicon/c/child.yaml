@@ -1,0 +1,26 @@
+schema_version: 3
+id: child
+lemma: child
+pos:
+- noun
+ipa:
+  us: /tʃaɪld/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đứa trẻ, trẻ em
+  id: child-1
+examples:
+- en: Each child under twelve may enter the museum free of charge.
+  vi: Mỗi trẻ em dưới mười hai tuổi được vào bảo tàng miễn phí.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 102. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

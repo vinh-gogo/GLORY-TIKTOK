@@ -1,0 +1,27 @@
+schema_version: 3
+id: require
+lemma: require
+pos:
+- verb
+ipa:
+  us: /ˌriˈkwaɪɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: yêu cầu, đòi hỏi
+  id: require-1
+examples:
+- en: The position requires at least three years of experience in marketing.
+  vi: Vị trí này đòi hỏi ít nhất ba năm kinh nghiệm trong lĩnh vực tiếp thị.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌriˈkwaɪɚ/; /riˈkwaɪr/; /rɪˈkwaɪɚ/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 402. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

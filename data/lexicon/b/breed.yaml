@@ -1,0 +1,27 @@
+schema_version: 3
+id: breed
+lemma: breed
+pos:
+- noun
+- verb
+ipa:
+  us: /brid/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: giống (vật nuôi); nhân giống
+  id: breed-1
+examples:
+- en: This breed of dog is friendly and easy to train.
+  vi: Giống chó này thân thiện và dễ huấn luyện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2198. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

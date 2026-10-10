@@ -1,0 +1,26 @@
+schema_version: 3
+id: divide
+lemma: divide
+pos:
+- verb
+ipa:
+  us: /dɪˈvaɪd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: chia, phân chia
+  id: divide-1
+examples:
+- en: We will divide the work equally among the five team members.
+  vi: Chúng tôi sẽ chia đều công việc cho năm thành viên trong nhóm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1316. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

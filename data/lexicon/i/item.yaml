@@ -1,0 +1,26 @@
+schema_version: 3
+id: item
+lemma: item
+pos:
+- noun
+ipa:
+  us: /ˈaɪtəm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: món hàng; mục
+  id: item-1
+examples:
+- en: Each item on the shelf is marked with a clear price tag.
+  vi: Mỗi món hàng trên kệ đều được dán nhãn giá rõ ràng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 747. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

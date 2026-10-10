@@ -1,0 +1,28 @@
+schema_version: 3
+id: reform
+lemma: reform
+pos:
+- noun
+- verb
+ipa:
+  us: /rəˈfɔrm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cải cách
+  id: reform-1
+examples:
+- en: The government announced a major reform of the national tax system.
+  vi: Chính phủ đã công bố một cuộc cải cách lớn đối với hệ thống thuế quốc gia.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rəˈfɔrm/; /rɪˈfɔrm/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1215. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

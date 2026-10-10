@@ -1,0 +1,28 @@
+schema_version: 3
+id: tender
+lemma: tender
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈtɛndɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: mềm, dịu dàng; hồ sơ đấu thầu
+  id: tender-1
+examples:
+- en: The city invited companies to submit a tender for the road project.
+  vi: Thành phố mời các công ty nộp hồ sơ dự thầu cho dự án làm đường.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Nhiều nghĩa: tính từ ''mềm/dịu dàng'', danh từ/động từ ''đấu thầu'' (TOEIC);
+    chọn nghĩa đấu thầu — Mục từ NGSL hạng 2787. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí
+    dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ
+    đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

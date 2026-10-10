@@ -1,0 +1,27 @@
+schema_version: 3
+id: hourly
+lemma: hourly
+pos:
+- adjective
+- adverb
+ipa:
+  us: /ˈaʊrli/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: tính theo giờ; mỗi giờ
+  id: hourly-1
+examples:
+- en: Part-time staff are paid an hourly wage plus overtime.
+  vi: Nhân viên bán thời gian được trả lương theo giờ cộng tiền làm thêm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 419. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

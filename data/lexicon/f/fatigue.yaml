@@ -1,0 +1,26 @@
+schema_version: 3
+id: fatigue
+lemma: fatigue
+pos:
+- noun
+ipa:
+  us: /fəˈtiɡ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: sự mệt mỏi, kiệt sức
+  id: fatigue-1
+examples:
+- en: Long working hours can cause fatigue and reduce your concentration.
+  vi: Làm việc nhiều giờ có thể gây mệt mỏi và làm giảm sự tập trung của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 979. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

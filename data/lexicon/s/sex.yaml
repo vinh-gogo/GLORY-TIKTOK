@@ -1,0 +1,26 @@
+schema_version: 3
+id: sex
+lemma: sex
+pos:
+- noun
+ipa:
+  us: /sɛks/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: giới tính
+  id: sex-1
+examples:
+- en: Please indicate your age and sex on the registration form below.
+  vi: Vui lòng ghi rõ tuổi và giới tính của bạn vào mẫu đăng ký bên dưới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1063. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

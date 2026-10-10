@@ -1,0 +1,26 @@
+schema_version: 3
+id: illustration
+lemma: illustration
+pos:
+- noun
+ipa:
+  us: /ˌɪləˈstreɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: hình minh họa; ví dụ minh họa
+  id: illustration-1
+examples:
+- en: The manual includes an illustration of each step in the process.
+  vi: Cuốn hướng dẫn có hình minh họa cho từng bước trong quy trình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2435. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

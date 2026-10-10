@@ -1,0 +1,27 @@
+schema_version: 3
+id: acclaim
+lemma: acclaim
+pos:
+- noun
+- verb
+ipa:
+  us: /əˈkleɪm/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: sự hoan nghênh, lời khen ngợi; ca ngợi
+  id: acclaim-1
+examples:
+- en: The new film received wide acclaim from critics around the world.
+  vi: Bộ phim mới nhận được sự hoan nghênh rộng rãi từ giới phê bình trên thế giới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1243. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: enthusiast
+lemma: enthusiast
+pos:
+- noun
+ipa:
+  us: /ɛnˈθuziˌæst/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: người đam mê
+  id: enthusiast-1
+examples:
+- en: As a camera enthusiast, he visits every photography exhibition in town.
+  vi: Là người đam mê máy ảnh, anh ấy đến mọi triển lãm nhiếp ảnh trong thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 908. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

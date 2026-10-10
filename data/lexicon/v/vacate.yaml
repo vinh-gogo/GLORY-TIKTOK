@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: vacate
 lemma: vacate
 pos:
@@ -9,34 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- real-estate-construction
-- hospitality-travel
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- housing-property
+- travel
 senses:
 - id: vacate-1
   meaning_vi: Bàn giao lại mặt bằng, dọn sạch đồ đạc rời đi khỏi phòng hoặc chức vụ
   note_vi: Thường dùng khi hết hạn thuê nhà hoặc thời hạn trả phòng khách sạn (check-out).
-confused_words:
-- word: vacation
-  ipa: /veɪˈkeɪʃn/
-  difference_vi: Vacation là kỳ nghỉ phép dưỡng sức; vacate là hành động dọn đồ rời khỏi phòng hoặc văn phòng.
-confusing_meanings:
-- difference_vi: Vacate the premises = dọn khỏi khu nhà mặt bằng; vacate an office = rời khỏi phòng làm việc/từ bỏ vị trí
-    chức danh.
 collocations:
 - phrase: vacate the premises
   meaning_vi: dọn sạch đồ rời khỏi mặt bằng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: vacate a hotel room
   meaning_vi: trả phòng khách sạn đúng giờ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: notice to vacate
   meaning_vi: thông báo yêu cầu chuyển đi
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: leave
   meaning_vi: rời đi
@@ -44,6 +44,13 @@ synonyms:
   meaning_vi: sơ tán, di tản khỏi
 - word: clear out
   meaning_vi: dọn sạch sẽ ra ngoài
+confused_words:
+- word: vacation
+  ipa: /veɪˈkeɪʃn/
+  difference_vi: Vacation là kỳ nghỉ phép dưỡng sức; vacate là hành động dọn đồ rời khỏi phòng hoặc văn phòng.
+confusing_meanings:
+- difference_vi: Vacate the premises = dọn khỏi khu nhà mặt bằng; vacate an office = rời khỏi phòng làm việc/từ bỏ vị trí
+    chức danh.
 examples:
 - en: Guests are kindly requested to vacate their rooms by 11:00 AM on the day of departure.
   vi: Kính đề nghị quý khách dọn đồ trả phòng trước 11:00 trưa vào ngày khởi hành.
@@ -54,6 +61,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

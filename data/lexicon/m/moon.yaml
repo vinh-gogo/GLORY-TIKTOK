@@ -1,0 +1,26 @@
+schema_version: 3
+id: moon
+lemma: moon
+pos:
+- noun
+ipa:
+  us: /mun/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: mặt trăng
+  id: moon-1
+examples:
+- en: The moon was bright, so we walked home along the river.
+  vi: Trăng sáng nên chúng tôi đi bộ về nhà dọc bờ sông.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2599. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

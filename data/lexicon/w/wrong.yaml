@@ -1,0 +1,26 @@
+schema_version: 3
+id: wrong
+lemma: wrong
+pos:
+- adjective
+ipa:
+  us: /rɔŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sai, nhầm
+  id: wrong-1
+examples:
+- en: The package was sent to the wrong address by mistake.
+  vi: Gói hàng bị gửi nhầm đến sai địa chỉ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 575. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

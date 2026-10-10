@@ -1,0 +1,27 @@
+schema_version: 3
+id: set
+lemma: set
+pos:
+- verb
+- noun
+ipa:
+  us: /sɛt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đặt, thiết lập; bộ
+  id: set-1
+examples:
+- en: We need to set a date for the next board meeting.
+  vi: Chúng ta cần ấn định một ngày cho cuộc họp hội đồng quản trị tiếp theo.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 185. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

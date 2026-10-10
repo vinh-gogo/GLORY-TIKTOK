@@ -1,0 +1,27 @@
+schema_version: 3
+id: stop
+lemma: stop
+pos:
+- verb
+- noun
+ipa:
+  us: /stɑp/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: dừng, ngừng; điểm dừng
+  id: stop-1
+examples:
+- en: The bus stops in front of the museum every twenty minutes.
+  vi: Xe buýt dừng trước bảo tàng cứ hai mươi phút một lần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 347. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

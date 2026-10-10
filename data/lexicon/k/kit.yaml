@@ -1,0 +1,26 @@
+schema_version: 3
+id: kit
+lemma: kit
+pos:
+- noun
+ipa:
+  us: /kɪt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bộ dụng cụ, bộ đồ nghề
+  id: kit-1
+examples:
+- en: Every office should keep a first aid kit near the reception desk.
+  vi: Mỗi văn phòng nên để một bộ sơ cứu gần quầy lễ tân.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 605. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

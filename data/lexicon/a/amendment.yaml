@@ -1,0 +1,26 @@
+schema_version: 3
+id: amendment
+lemma: amendment
+pos:
+- noun
+ipa:
+  us: /əˈmɛndmənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự sửa đổi, điều khoản bổ sung
+  id: amendment-1
+examples:
+- en: The board approved an amendment to the contract at yesterday's meeting.
+  vi: Hội đồng đã phê duyệt một điều khoản sửa đổi hợp đồng trong cuộc họp hôm qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2603. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

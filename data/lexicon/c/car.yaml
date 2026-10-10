@@ -1,0 +1,26 @@
+schema_version: 3
+id: car
+lemma: car
+pos:
+- noun
+ipa:
+  us: /kɑr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: xe hơi, ô tô
+  id: car-1
+examples:
+- en: Employees who drive a car to work can use the parking garage.
+  vi: Nhân viên lái ô tô đi làm có thể sử dụng nhà để xe.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 260. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

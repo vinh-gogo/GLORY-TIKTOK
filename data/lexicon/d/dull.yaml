@@ -1,0 +1,26 @@
+schema_version: 3
+id: dull
+lemma: dull
+pos:
+- adjective
+ipa:
+  us: /dʌl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: tẻ nhạt; cùn, xỉn màu
+  id: dull-1
+examples:
+- en: The speaker was so dull that several people left the room early.
+  vi: Diễn giả nhàm chán đến mức nhiều người rời phòng sớm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 973. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

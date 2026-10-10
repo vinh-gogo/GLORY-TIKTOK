@@ -1,0 +1,26 @@
+schema_version: 3
+id: abandon
+lemma: abandon
+pos:
+- verb
+ipa:
+  us: /əˈbændən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: từ bỏ, bỏ rơi
+  id: abandon-1
+examples:
+- en: The firm decided to abandon the project because of high costs.
+  vi: Công ty quyết định từ bỏ dự án vì chi phí cao.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1965. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

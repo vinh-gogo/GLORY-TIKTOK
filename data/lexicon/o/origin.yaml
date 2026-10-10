@@ -1,0 +1,26 @@
+schema_version: 3
+id: origin
+lemma: origin
+pos:
+- noun
+ipa:
+  us: /ˈɔrədʒən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nguồn gốc, xuất xứ
+  id: origin-1
+examples:
+- en: The label must show the country of origin of the product.
+  vi: Nhãn phải ghi rõ nước xuất xứ của sản phẩm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1988. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: rehearsal
+lemma: rehearsal
+pos:
+- noun
+ipa:
+  us: /rɪˈhɝsəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: buổi diễn tập, buổi tập dượt
+  id: rehearsal-1
+examples:
+- en: The final rehearsal for the ceremony will take place on Thursday evening.
+  vi: Buổi tập dượt cuối cùng cho buổi lễ sẽ diễn ra vào tối thứ Năm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈhɝsəl/; /riˈhɝsəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1168. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

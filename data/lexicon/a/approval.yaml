@@ -1,0 +1,26 @@
+schema_version: 3
+id: approval
+lemma: approval
+pos:
+- noun
+ipa:
+  us: /əˈpruvəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự chấp thuận, phê duyệt
+  id: approval-1
+examples:
+- en: The proposal needs approval from the director before we can begin.
+  vi: Đề xuất cần được giám đốc phê duyệt trước khi chúng ta có thể bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2302. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

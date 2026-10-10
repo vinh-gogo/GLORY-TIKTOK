@@ -1,0 +1,26 @@
+schema_version: 3
+id: window
+lemma: window
+pos:
+- noun
+ipa:
+  us: /ˈwɪndoʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: cửa sổ
+  id: window-1
+examples:
+- en: Please close the window because the rain is coming into the room.
+  vi: Vui lòng đóng cửa sổ vì mưa đang tạt vào phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 734. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: sharp
+lemma: sharp
+pos:
+- adjective
+ipa:
+  us: /ʃɑrp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sắc, nhọn; đột ngột; chính xác (giờ)
+  id: sharp-1
+examples:
+- en: There was a sharp rise in fuel prices last month.
+  vi: Giá nhiên liệu tăng mạnh vào tháng trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1846. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: shine
+lemma: shine
+pos:
+- verb
+ipa:
+  us: /ʃaɪn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: chiếu sáng, tỏa sáng
+  id: shine-1
+examples:
+- en: The sun began to shine through the large windows of the office.
+  vi: Mặt trời bắt đầu chiếu sáng qua những ô cửa sổ lớn của văn phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2632. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

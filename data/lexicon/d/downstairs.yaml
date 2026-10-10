@@ -1,0 +1,26 @@
+schema_version: 3
+id: downstairs
+lemma: downstairs
+pos:
+- adverb
+ipa:
+  us: /ˈdaʊnˈstɛrz/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: ở tầng dưới, xuống tầng dưới
+  id: downstairs-1
+examples:
+- en: The reception desk is downstairs, right next to the main entrance.
+  vi: Quầy lễ tân ở tầng dưới, ngay cạnh lối vào chính.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 545. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

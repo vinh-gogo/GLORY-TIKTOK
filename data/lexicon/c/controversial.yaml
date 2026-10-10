@@ -1,0 +1,26 @@
+schema_version: 3
+id: controversial
+lemma: controversial
+pos:
+- adjective
+ipa:
+  us: /ˌkɑntrəˈvɝʃəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: gây tranh cãi
+  id: controversial-1
+examples:
+- en: The controversial proposal led to a long discussion at the board meeting.
+  vi: Đề xuất gây tranh cãi đã dẫn đến một cuộc thảo luận dài tại cuộc họp hội đồng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2685. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

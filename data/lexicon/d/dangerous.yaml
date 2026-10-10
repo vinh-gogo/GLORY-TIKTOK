@@ -1,0 +1,26 @@
+schema_version: 3
+id: dangerous
+lemma: dangerous
+pos:
+- adjective
+ipa:
+  us: /ˈdeɪndʒɚəs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: nguy hiểm
+  id: dangerous-1
+examples:
+- en: It is dangerous to operate this machine without proper training.
+  vi: Vận hành chiếc máy này mà không được đào tạo đúng cách là nguy hiểm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1419. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

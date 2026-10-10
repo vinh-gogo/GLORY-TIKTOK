@@ -1,0 +1,26 @@
+schema_version: 3
+id: outfit
+lemma: outfit
+pos:
+- noun
+ipa:
+  us: /ˈaʊtˌfɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: bộ trang phục
+  id: outfit-1
+examples:
+- en: She chose a simple outfit for her first day at the new job.
+  vi: Cô ấy chọn một bộ trang phục đơn giản cho ngày đầu đi làm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1000. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

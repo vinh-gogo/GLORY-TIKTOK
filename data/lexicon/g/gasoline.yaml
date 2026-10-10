@@ -1,0 +1,26 @@
+schema_version: 3
+id: gasoline
+lemma: gasoline
+pos:
+- noun
+ipa:
+  us: /ˈɡæsəˌlin/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: xăng
+  id: gasoline-1
+examples:
+- en: The price of gasoline has risen sharply since the beginning of the year.
+  vi: Giá xăng đã tăng mạnh kể từ đầu năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 575. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

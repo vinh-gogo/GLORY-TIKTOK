@@ -1,0 +1,27 @@
+schema_version: 3
+id: why
+lemma: why
+pos:
+- adverb
+ipa:
+  us: /waɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tại sao, vì sao
+  id: why-1
+examples:
+- en: Could you explain why the shipment was delayed by three days?
+  vi: Bạn có thể giải thích vì sao lô hàng bị trễ ba ngày không?
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/waɪ/; /hwaɪ/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 154. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

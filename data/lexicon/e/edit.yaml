@@ -1,0 +1,26 @@
+schema_version: 3
+id: edit
+lemma: edit
+pos:
+- verb
+ipa:
+  us: /ˈɛdət/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: biên tập, chỉnh sửa
+  id: edit-1
+examples:
+- en: Please edit the report carefully before sending it to the client.
+  vi: Vui lòng chỉnh sửa báo cáo cẩn thận trước khi gửi cho khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2311. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

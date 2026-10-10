@@ -1,0 +1,27 @@
+schema_version: 3
+id: unit
+lemma: unit
+pos:
+- noun
+ipa:
+  us: /ˈjunət/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: đơn vị; bộ phận; căn hộ
+  id: unit-1
+examples:
+- en: Each unit is tested carefully before it leaves the factory.
+  vi: Mỗi sản phẩm đều được kiểm tra cẩn thận trước khi rời nhà máy.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈjunət/; /ˈjunɪt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 780. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

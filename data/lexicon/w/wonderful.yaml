@@ -1,0 +1,26 @@
+schema_version: 3
+id: wonderful
+lemma: wonderful
+pos:
+- adjective
+ipa:
+  us: /ˈwʌndɚfəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: tuyệt vời
+  id: wonderful-1
+examples:
+- en: The hotel staff provided wonderful service during our entire stay in Paris.
+  vi: Nhân viên khách sạn đã phục vụ tuyệt vời trong suốt thời gian chúng tôi ở Paris.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1076. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

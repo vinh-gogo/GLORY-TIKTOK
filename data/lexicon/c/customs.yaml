@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: customs
 lemma: customs
 pos:
@@ -9,38 +9,45 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- shipping-logistics
-- hospitality-travel
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- purchasing
+- travel
 senses:
 - id: customs-1
   meaning_vi: Cơ quan hải quan; thủ tục kiểm tra hàng hóa xuất nhập cảnh tại sân bay hoặc cửa khẩu
   note_vi: Luôn có đuôi -s khi chỉ cơ quan hải quan hoặc thủ tục thông quan.
+collocations:
+- phrase: clear customs
+  meaning_vi: thông quan hải quan thành công
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: customs declaration
+  meaning_vi: tờ khai báo hải quan
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: customs inspection
+  meaning_vi: sự kiểm tra hàng hóa của hải quan
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: border control
+  meaning_vi: kiểm soát biên giới
+- word: port authority
+  meaning_vi: cơ quan quản lý cảng
 confused_words:
 - word: custom
   ipa: /ˈkʌstəm/
   difference_vi: Custom (không có -s) là phong tục tập quán; customs (có -s) là cơ quan hải quan hoặc hàng rào thông quan.
 confusing_meanings:
 - difference_vi: Clear customs = hoàn tất thủ tục thông quan; customs officer = viên chức hải quan.
-collocations:
-- phrase: clear customs
-  meaning_vi: thông quan hải quan thành công
-  evidence: corpus
-- phrase: customs declaration
-  meaning_vi: tờ khai báo hải quan
-  evidence: corpus
-- phrase: customs inspection
-  meaning_vi: sự kiểm tra hàng hóa của hải quan
-  evidence: corpus
-synonyms:
-- word: border control
-  meaning_vi: kiểm soát biên giới
-- word: port authority
-  meaning_vi: cơ quan quản lý cảng
 examples:
 - en: All overseas shipments must clear customs before they can be released for domestic transport.
   vi: Tất cả các lô hàng gửi từ nước ngoài đều phải thông quan hải quan trước khi được giải phóng để vận chuyển nội địa.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,0 +1,26 @@
+schema_version: 3
+id: dinner
+lemma: dinner
+pos:
+- noun
+ipa:
+  us: /ˈdɪnɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: bữa tối
+  id: dinner-1
+examples:
+- en: The director invited the visiting clients to dinner at a nice restaurant.
+  vi: Giám đốc đã mời các khách hàng đến thăm dùng bữa tối tại một nhà hàng sang trọng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1117. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

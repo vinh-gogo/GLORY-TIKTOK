@@ -1,0 +1,26 @@
+schema_version: 3
+id: lady
+lemma: lady
+pos:
+- noun
+ipa:
+  us: /ˈleɪdi/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: quý bà, phụ nữ
+  id: lady-1
+examples:
+- en: The lady at the front desk gave me a map of the city.
+  vi: Người phụ nữ ở quầy lễ tân đưa cho tôi một bản đồ thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1261. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

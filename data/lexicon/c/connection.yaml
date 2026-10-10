@@ -1,0 +1,26 @@
+schema_version: 3
+id: connection
+lemma: connection
+pos:
+- noun
+ipa:
+  us: /kəˈnɛkʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: kết nối, mối liên hệ
+  id: connection-1
+examples:
+- en: The internet connection in the conference room was very slow this morning.
+  vi: Kết nối internet trong phòng hội nghị rất chậm sáng nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1066. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

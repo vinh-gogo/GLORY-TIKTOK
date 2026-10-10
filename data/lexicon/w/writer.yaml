@@ -1,0 +1,26 @@
+schema_version: 3
+id: writer
+lemma: writer
+pos:
+- noun
+ipa:
+  us: /ˈraɪtɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: nhà văn, người viết
+  id: writer-1
+examples:
+- en: The company hired a freelance writer to create content for its website.
+  vi: Công ty đã thuê một người viết tự do để tạo nội dung cho trang web.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1024. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

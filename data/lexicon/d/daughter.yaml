@@ -1,0 +1,26 @@
+schema_version: 3
+id: daughter
+lemma: daughter
+pos:
+- noun
+ipa:
+  us: /ˈdɔtɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: con gái
+  id: daughter-1
+examples:
+- en: His daughter just started working at the same company as her father.
+  vi: Con gái ông ấy vừa bắt đầu làm việc ở cùng công ty với cha mình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 927. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

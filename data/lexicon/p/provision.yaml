@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: provision
 lemma: provision
 pos:
@@ -9,13 +9,10 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- contracts-negotiation
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: provision-1
   meaning_vi: Điều khoản trong hợp đồng hoặc thỏa thuận pháp lý
@@ -23,22 +20,25 @@ senses:
 - id: provision-2
   meaning_vi: Sự cung cấp, sự dự phòng chuẩn bị trước
   note_vi: Cụm 'make provision for' có nghĩa là chuẩn bị trước cho tình huống tương lai.
-confused_words:
-- word: provide
-  ipa: /prəˈvaɪd/
-  difference_vi: Provide là động từ (cung cấp), còn provision là danh từ chỉ điều khoản hoặc sự chuẩn bị.
-confusing_meanings:
-- difference_vi: Provision vừa có nghĩa là 'điều khoản hợp đồng', vừa có nghĩa là 'sự cung ứng/dự phòng tài chính'.
 collocations:
 - phrase: under the provisions of
   meaning_vi: theo các điều khoản của
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: contractual provision
   meaning_vi: điều khoản trong hợp đồng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: make provision for
   meaning_vi: chuẩn bị trước / dự phòng cho
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: clause
   meaning_vi: điều khoản
@@ -46,6 +46,12 @@ synonyms:
   meaning_vi: quy định ràng buộc
 - word: term
   meaning_vi: điều khoản
+confused_words:
+- word: provide
+  ipa: /prəˈvaɪd/
+  difference_vi: Provide là động từ (cung cấp), còn provision là danh từ chỉ điều khoản hoặc sự chuẩn bị.
+confusing_meanings:
+- difference_vi: Provision vừa có nghĩa là 'điều khoản hợp đồng', vừa có nghĩa là 'sự cung ứng/dự phòng tài chính'.
 examples:
 - en: Under the provisions of the agreement, both parties must give 30 days' notice before termination.
   vi: Theo các điều khoản của thỏa thuận, cả hai bên phải thông báo trước 30 ngày trước khi chấm dứt hợp đồng.
@@ -58,6 +64,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

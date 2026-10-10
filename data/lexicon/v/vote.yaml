@@ -1,0 +1,27 @@
+schema_version: 3
+id: vote
+lemma: vote
+pos:
+- noun
+- verb
+ipa:
+  us: /voʊt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: cuộc bỏ phiếu; bỏ phiếu
+  id: vote-1
+examples:
+- en: The board will vote on the new budget at Friday's meeting.
+  vi: Hội đồng quản trị sẽ bỏ phiếu về ngân sách mới trong cuộc họp thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 548. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

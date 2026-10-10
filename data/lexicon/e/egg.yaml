@@ -1,0 +1,26 @@
+schema_version: 3
+id: egg
+lemma: egg
+pos:
+- noun
+ipa:
+  us: /ɛɡ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: trứng
+  id: egg-1
+examples:
+- en: The hotel serves eggs, toast, and fresh fruit for breakfast.
+  vi: Khách sạn phục vụ trứng, bánh mì nướng và trái cây tươi cho bữa sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1381. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

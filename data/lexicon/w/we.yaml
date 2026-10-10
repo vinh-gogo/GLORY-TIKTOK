@@ -1,0 +1,26 @@
+schema_version: 3
+id: we
+lemma: we
+pos:
+- pronoun
+ipa:
+  us: /wi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chúng tôi, chúng ta (đại từ ngôi thứ nhất số nhiều)
+  id: we-1
+examples:
+- en: We moved the weekly meeting to Thursday so everyone could attend.
+  vi: Chúng tôi đã dời cuộc họp hằng tuần sang thứ Năm để mọi người đều có thể tham dự.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 16. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

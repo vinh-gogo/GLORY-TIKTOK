@@ -1,0 +1,28 @@
+schema_version: 3
+id: use
+lemma: use
+pos:
+- verb
+- noun
+ipa:
+  us: /jus/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sử dụng; việc sử dụng
+  id: use-1
+examples:
+- en: Employees may use the conference room only with prior approval.
+  vi: Nhân viên chỉ được sử dụng phòng hội nghị khi đã được phê duyệt trước.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/jus/; /juz/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 68. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

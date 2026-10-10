@@ -1,0 +1,27 @@
+schema_version: 3
+id: image
+lemma: image
+pos:
+- noun
+ipa:
+  us: /ˈɪmədʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: hình ảnh; hình ảnh thương hiệu
+  id: image-1
+examples:
+- en: The company wants to improve its public image through community work.
+  vi: Công ty muốn cải thiện hình ảnh trước công chúng thông qua các hoạt động cộng đồng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɪmədʒ/; /ˈɪmɪdʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 704. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

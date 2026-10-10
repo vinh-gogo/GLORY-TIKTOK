@@ -1,0 +1,27 @@
+schema_version: 3
+id: adventure
+lemma: adventure
+pos:
+- noun
+ipa:
+  us: /ædˈvɛntʃɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: cuộc phiêu lưu, chuyến mạo hiểm
+  id: adventure-1
+examples:
+- en: They booked an adventure tour that included hiking and camping in the mountains.
+  vi: Họ đặt một tour phiêu lưu gồm đi bộ đường dài và cắm trại trên núi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ædˈvɛntʃɚ/; /ədˈvɛntʃɚ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2667. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

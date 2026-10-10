@@ -1,0 +1,26 @@
+schema_version: 3
+id: appreciate
+lemma: appreciate
+pos:
+- verb
+ipa:
+  us: /əˈpriʃiˌeɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: trân trọng, cảm kích
+  id: appreciate-1
+examples:
+- en: We really appreciate your quick reply to our inquiry.
+  vi: Chúng tôi thực sự cảm kích phản hồi nhanh chóng của bạn cho yêu cầu của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1274. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

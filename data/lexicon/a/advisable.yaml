@@ -1,0 +1,26 @@
+schema_version: 3
+id: advisable
+lemma: advisable
+pos:
+- adjective
+ipa:
+  us: /ədˈvaɪzəbəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: nên làm, đáng khuyên
+  id: advisable-1
+examples:
+- en: It is advisable to book your tickets early during the holiday season.
+  vi: Nên đặt vé sớm trong mùa lễ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1024. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

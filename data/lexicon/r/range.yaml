@@ -1,0 +1,26 @@
+schema_version: 3
+id: range
+lemma: range
+pos:
+- noun
+ipa:
+  us: /reɪndʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: phạm vi; dải sản phẩm
+  id: range-1
+examples:
+- en: The store offers a wide range of office furniture at fair prices.
+  vi: Cửa hàng cung cấp nhiều loại đồ nội thất văn phòng với giá hợp lý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 516. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

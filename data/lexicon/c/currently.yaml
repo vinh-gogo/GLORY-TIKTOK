@@ -1,0 +1,26 @@
+schema_version: 3
+id: currently
+lemma: currently
+pos:
+- adverb
+ipa:
+  us: /ˈkɝəntli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: hiện tại, hiện nay
+  id: currently-1
+examples:
+- en: We are currently looking for a new marketing assistant.
+  vi: Hiện nay chúng tôi đang tìm một trợ lý marketing mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1293. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

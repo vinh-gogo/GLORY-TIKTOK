@@ -1,0 +1,26 @@
+schema_version: 3
+id: lie
+lemma: lie
+pos:
+- verb
+ipa:
+  us: /laɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nằm; nói dối
+  id: lie-1
+examples:
+- en: The old documents lie in a box under the stairs.
+  vi: Các tài liệu cũ nằm trong một cái hộp dưới cầu thang.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Hai nghĩa khác nhau (nằm / nói dối); chọn nghĩa ''nằm'' làm chính — Mục từ NGSL
+    hạng 582. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band
+    TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

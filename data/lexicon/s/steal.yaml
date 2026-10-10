@@ -1,0 +1,26 @@
+schema_version: 3
+id: steal
+lemma: steal
+pos:
+- verb
+ipa:
+  us: /stil/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: ăn cắp, trộm
+  id: steal-1
+examples:
+- en: Someone tried to steal a laptop from the conference room yesterday.
+  vi: Hôm qua có người cố trộm một chiếc laptop trong phòng họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1707. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

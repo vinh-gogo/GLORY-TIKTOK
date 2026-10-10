@@ -1,0 +1,27 @@
+schema_version: 3
+id: auto
+lemma: auto
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈɔtoʊ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: ô tô; thuộc về ô tô
+  id: auto-1
+examples:
+- en: The auto parts store opens at eight every morning.
+  vi: Cửa hàng phụ tùng ô tô mở cửa lúc tám giờ mỗi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 361. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

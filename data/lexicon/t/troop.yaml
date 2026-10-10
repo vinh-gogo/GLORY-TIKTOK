@@ -1,0 +1,26 @@
+schema_version: 3
+id: troop
+lemma: troop
+pos:
+- noun
+ipa:
+  us: /trup/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đội quân, binh lính
+  id: troop-1
+examples:
+- en: The troops returned to their base after the training exercise.
+  vi: Các binh lính trở về căn cứ sau cuộc diễn tập.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1457. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: mine
+lemma: mine
+pos:
+- pronoun
+ipa:
+  us: /maɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: của tôi
+  id: mine-1
+examples:
+- en: That blue folder on the desk is mine, not Mr. Lee's.
+  vi: Cặp tài liệu xanh trên bàn là của tôi, không phải của ông Lee.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] đồng âm: đại từ ''của tôi'' / danh từ ''mỏ''; chọn nghĩa đại từ — Mục từ NGSL
+    hạng 937. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band
+    TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

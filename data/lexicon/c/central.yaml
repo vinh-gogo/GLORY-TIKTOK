@@ -1,0 +1,26 @@
+schema_version: 3
+id: central
+lemma: central
+pos:
+- adjective
+ipa:
+  us: /ˈsɛntrəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- housing-property
+senses:
+- meaning_vi: trung tâm, chính
+  id: central-1
+examples:
+- en: Our headquarters are in a central location, close to the train station.
+  vi: Trụ sở của chúng tôi ở vị trí trung tâm, gần nhà ga xe lửa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 891. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

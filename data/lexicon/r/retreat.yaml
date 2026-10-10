@@ -1,0 +1,27 @@
+schema_version: 3
+id: retreat
+lemma: retreat
+pos:
+- noun
+- verb
+ipa:
+  us: /riˈtrit/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- corporate-development
+senses:
+- meaning_vi: kỳ nghỉ tập trung của nhóm; rút lui
+  id: retreat-1
+examples:
+- en: The managers attended a weekend retreat to plan next year's strategy.
+  vi: Các quản lý tham dự một kỳ nghỉ tập trung cuối tuần để lập chiến lược năm tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1171. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

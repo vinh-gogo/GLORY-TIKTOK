@@ -1,0 +1,27 @@
+schema_version: 3
+id: satisfactory
+lemma: satisfactory
+pos:
+- adjective
+ipa:
+  us: /ˌsætəsˈfæktri/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: thỏa đáng, đạt yêu cầu
+  id: satisfactory-1
+examples:
+- en: The inspector found the quality of the finished product satisfactory.
+  vi: Thanh tra thấy chất lượng của sản phẩm hoàn thiện đạt yêu cầu.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌsætəsˈfæktri/; /ˌsætɪsˈfæktɚi/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 617. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: pig
+lemma: pig
+pos:
+- noun
+ipa:
+  us: /pɪɡ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: con lợn, con heo
+  id: pig-1
+examples:
+- en: The farmer keeps a few pigs and chickens behind his small house.
+  vi: Người nông dân nuôi vài con lợn và gà phía sau ngôi nhà nhỏ của ông.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2519. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

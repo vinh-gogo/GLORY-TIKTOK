@@ -1,0 +1,27 @@
+schema_version: 3
+id: or
+lemma: or
+pos:
+- conjunction
+ipa:
+  us: /ɔr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: hoặc, hay
+  id: or-1
+examples:
+- en: Would you like to pay by credit card or in cash?
+  vi: Bạn muốn thanh toán bằng thẻ tín dụng hay tiền mặt?
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɔr/; /ɚ/); IPA đang ghi là cách đầu tiên, cần kiểm
+    tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 29. IPA lấy từ CMUdict (đổi sang IPA bằng quy
+    tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

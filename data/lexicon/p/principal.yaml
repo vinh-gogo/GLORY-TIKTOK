@@ -1,0 +1,27 @@
+schema_version: 3
+id: principal
+lemma: principal
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈprɪnsəpəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: chính, chủ yếu; hiệu trưởng
+  id: principal-1
+examples:
+- en: The principal reason for the delay was a shortage of materials.
+  vi: Lý do chính của sự chậm trễ là thiếu nguyên vật liệu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1555. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

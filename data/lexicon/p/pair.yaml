@@ -1,0 +1,26 @@
+schema_version: 3
+id: pair
+lemma: pair
+pos:
+- noun
+ipa:
+  us: /pɛr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: một cặp, một đôi
+  id: pair-1
+examples:
+- en: I bought a new pair of shoes for the business conference.
+  vi: Tôi đã mua một đôi giày mới cho hội nghị kinh doanh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1092. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

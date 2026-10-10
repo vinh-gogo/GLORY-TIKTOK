@@ -1,0 +1,27 @@
+schema_version: 3
+id: buffet
+lemma: buffet
+pos:
+- noun
+ipa:
+  us: /ˈbʌfət/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: tiệc buffet, bữa ăn tự chọn
+  id: buffet-1
+examples:
+- en: Breakfast is served as a buffet from seven to ten.
+  vi: Bữa sáng được phục vụ dưới dạng buffet từ bảy đến mười giờ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈbʌfət/; /bəˈfeɪ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 289. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

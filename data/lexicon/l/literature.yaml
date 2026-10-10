@@ -1,0 +1,26 @@
+schema_version: 3
+id: literature
+lemma: literature
+pos:
+- noun
+ipa:
+  us: /ˈlɪtɚətʃɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: văn học; tài liệu
+  id: literature-1
+examples:
+- en: She studied English literature at university before becoming an editor.
+  vi: Cô ấy học văn học Anh ở đại học trước khi trở thành biên tập viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1519. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

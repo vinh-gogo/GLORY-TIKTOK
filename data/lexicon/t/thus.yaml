@@ -1,0 +1,26 @@
+schema_version: 3
+id: thus
+lemma: thus
+pos:
+- adverb
+ipa:
+  us: /ðʌs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: do đó, vì vậy
+  id: thus-1
+examples:
+- en: The supplier raised its prices; thus, our costs have increased.
+  vi: Nhà cung cấp đã tăng giá; do đó chi phí của chúng ta tăng lên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 684. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

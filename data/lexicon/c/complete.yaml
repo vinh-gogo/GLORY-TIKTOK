@@ -1,0 +1,27 @@
+schema_version: 3
+id: complete
+lemma: complete
+pos:
+- verb
+- adjective
+ipa:
+  us: /kəmˈplit/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: hoàn thành; đầy đủ
+  id: complete-1
+examples:
+- en: Please complete the application form and return it by Friday.
+  vi: Vui lòng điền đầy đủ đơn đăng ký và nộp lại trước thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 581. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

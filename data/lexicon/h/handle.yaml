@@ -1,0 +1,26 @@
+schema_version: 3
+id: handle
+lemma: handle
+pos:
+- verb
+ipa:
+  us: /ˈhændəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: xử lý, giải quyết
+  id: handle-1
+examples:
+- en: The customer service team will handle all complaints within two business days.
+  vi: Đội chăm sóc khách hàng sẽ xử lý mọi khiếu nại trong vòng hai ngày làm việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1041. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

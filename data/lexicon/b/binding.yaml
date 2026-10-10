@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: binding
 lemma: binding
 pos:
@@ -9,38 +9,44 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- contracts-negotiation
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: binding-1
   meaning_vi: Có tính ràng buộc về mặt pháp lý hoặc nghĩa vụ
   note_vi: Các bên bắt buộc phải tuân theo và chịu trách nhiệm trước pháp luật nếu vi phạm.
+collocations:
+- phrase: legally binding
+  meaning_vi: ràng buộc về mặt pháp lý
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: binding agreement
+  meaning_vi: thỏa thuận có tính ràng buộc
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: binding arbitration
+  meaning_vi: phán quyết trọng tài có tính ràng buộc
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: obligatory
+  meaning_vi: mang tính bắt buộc
+- word: enforceable
+  meaning_vi: có thể thực thi theo luật
 confused_words:
 - word: blind
   ipa: /blaɪnd/
   difference_vi: Blind nghĩa là khiếm thị/mù quáng; binding là có tính ràng buộc pháp lý.
 confusing_meanings:
 - difference_vi: Binding là tính từ 'ràng buộc pháp lý', nhưng danh từ binding lại là 'gáy sách/bìa đóng sách'.
-collocations:
-- phrase: legally binding
-  meaning_vi: ràng buộc về mặt pháp lý
-  evidence: corpus
-- phrase: binding agreement
-  meaning_vi: thỏa thuận có tính ràng buộc
-  evidence: corpus
-- phrase: binding arbitration
-  meaning_vi: phán quyết trọng tài có tính ràng buộc
-  evidence: corpus
-synonyms:
-- word: obligatory
-  meaning_vi: mang tính bắt buộc
-- word: enforceable
-  meaning_vi: có thể thực thi theo luật
 examples:
 - en: Once signed by both parties, this document becomes a legally binding agreement.
   vi: Sau khi được cả hai bên ký kết, văn bản này trở thành một thỏa thuận có tính ràng buộc pháp lý.
@@ -51,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

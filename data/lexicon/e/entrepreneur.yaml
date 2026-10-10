@@ -1,0 +1,27 @@
+schema_version: 3
+id: entrepreneur
+lemma: entrepreneur
+pos:
+- noun
+ipa:
+  us: /ˌɑntrəprəˈnɝ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: doanh nhân khởi nghiệp
+  id: entrepreneur-1
+examples:
+- en: The young entrepreneur started her own company with a small loan.
+  vi: Nữ doanh nhân trẻ đã lập công ty riêng với một khoản vay nhỏ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɑntrəprəˈnɝ/; /ˌɑntrəprəˈnʊr/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 676. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

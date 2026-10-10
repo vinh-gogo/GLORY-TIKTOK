@@ -1,0 +1,28 @@
+schema_version: 3
+id: cost
+lemma: cost
+pos:
+- noun
+- verb
+ipa:
+  us: /kɑst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: chi phí; tốn (bao nhiêu tiền)
+  id: cost-1
+examples:
+- en: The total cost of the renovation was lower than we expected.
+  vi: Tổng chi phí cải tạo thấp hơn so với dự kiến của chúng tôi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/kɑst/; /kɔst/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 252. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

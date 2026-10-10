@@ -1,0 +1,27 @@
+schema_version: 3
+id: monitor
+lemma: monitor
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈmɑnətɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: giám sát; màn hình
+  id: monitor-1
+examples:
+- en: The system will monitor the temperature of the machines all day.
+  vi: Hệ thống sẽ giám sát nhiệt độ của các máy móc suốt cả ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1377. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,22 @@
+schema_version: 1
+id: law-10
+title_vi: Định luật Đối chuẩn Đo lường
+title_en: The Benchmark Principle
+topic: offices
+band: advanced
+quote_en: You cannot improve what you refuse to quantify. Establish a rigorous benchmark to measure performance without bias.
+quote_vi: Bạn không thể cải thiện điều bạn từ chối định lượng. Hãy thiết lập một cột mốc chuẩn mực để đo lường hiệu suất một
+  cách khách quan.
+highlights:
+- phrase: establish a benchmark
+  meaning_vi: thiết lập cột mốc tiêu chuẩn đối sánh
+  word: benchmark
+- phrase: measure performance
+  meaning_vi: đo lường đánh giá hiệu suất công việc
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

@@ -1,0 +1,26 @@
+schema_version: 3
+id: automotive
+lemma: automotive
+pos:
+- adjective
+ipa:
+  us: /ˌɔtəˈmoʊtɪv/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- manufacturing
+senses:
+- meaning_vi: thuộc ô tô, ngành ô tô
+  id: automotive-1
+examples:
+- en: She has worked in the automotive industry for more than fifteen years.
+  vi: Cô ấy đã làm việc trong ngành ô tô hơn mười lăm năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1199. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

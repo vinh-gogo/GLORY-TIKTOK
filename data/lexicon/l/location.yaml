@@ -1,0 +1,26 @@
+schema_version: 3
+id: location
+lemma: location
+pos:
+- noun
+ipa:
+  us: /loʊˈkeɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: vị trí, địa điểm
+  id: location-1
+examples:
+- en: The new store has a great location near the central station.
+  vi: Cửa hàng mới có vị trí tuyệt vời gần ga trung tâm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1365. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

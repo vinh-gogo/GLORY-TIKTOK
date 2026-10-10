@@ -1,0 +1,26 @@
+schema_version: 3
+id: arrive
+lemma: arrive
+pos:
+- verb
+ipa:
+  us: /ɚˈaɪv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: đến nơi
+  id: arrive-1
+examples:
+- en: Our flight will arrive at the airport at half past six.
+  vi: Chuyến bay của chúng tôi sẽ đến sân bay lúc sáu giờ rưỡi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 588. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

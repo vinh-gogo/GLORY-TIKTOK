@@ -1,0 +1,26 @@
+schema_version: 3
+id: warm
+lemma: warm
+pos:
+- adjective
+ipa:
+  us: /wɔrm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: ấm áp
+  id: warm-1
+examples:
+- en: The staff gave the new employees a warm welcome on their first day.
+  vi: Nhân viên đã dành cho các đồng nghiệp mới một sự chào đón ấm áp vào ngày đầu tiên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1021. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

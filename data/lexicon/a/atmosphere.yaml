@@ -1,0 +1,26 @@
+schema_version: 3
+id: atmosphere
+lemma: atmosphere
+pos:
+- noun
+ipa:
+  us: /ˈætməsˌfɪr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: bầu không khí
+  id: atmosphere-1
+examples:
+- en: The restaurant has a warm atmosphere that guests really enjoy.
+  vi: Nhà hàng có bầu không khí ấm cúng mà khách rất thích.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1579. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

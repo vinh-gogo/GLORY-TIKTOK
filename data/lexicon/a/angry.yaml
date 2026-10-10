@@ -1,0 +1,26 @@
+schema_version: 3
+id: angry
+lemma: angry
+pos:
+- adjective
+ipa:
+  us: /ˈæŋɡri/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: tức giận
+  id: angry-1
+examples:
+- en: The customer was angry because his package arrived two weeks late.
+  vi: Khách hàng tức giận vì gói hàng của ông ấy đến trễ hai tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1813. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

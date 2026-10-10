@@ -1,0 +1,26 @@
+schema_version: 3
+id: flexibility
+lemma: flexibility
+pos:
+- noun
+ipa:
+  us: /ˌflɛksəˈbɪləti/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: sự linh hoạt
+  id: flexibility-1
+examples:
+- en: The job offers flexibility, so you can choose your own working hours.
+  vi: Công việc này có sự linh hoạt nên bạn có thể tự chọn giờ làm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 910. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

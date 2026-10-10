@@ -1,0 +1,26 @@
+schema_version: 3
+id: select
+lemma: select
+pos:
+- verb
+ipa:
+  us: /səˈlɛkt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: chọn, lựa chọn
+  id: select-1
+examples:
+- en: Please select one of the three payment options shown on the screen.
+  vi: Vui lòng chọn một trong ba phương thức thanh toán hiển thị trên màn hình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1173. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

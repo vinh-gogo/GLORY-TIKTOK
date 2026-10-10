@@ -1,0 +1,26 @@
+schema_version: 3
+id: local
+lemma: local
+pos:
+- adjective
+ipa:
+  us: /ˈloʊkəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: địa phương
+  id: local-1
+examples:
+- en: The restaurant buys its vegetables from local farmers every morning.
+  vi: Nhà hàng mua rau từ những nông dân địa phương vào mỗi buổi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 300. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

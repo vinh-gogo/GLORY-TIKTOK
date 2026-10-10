@@ -1,0 +1,26 @@
+schema_version: 3
+id: imply
+lemma: imply
+pos:
+- verb
+ipa:
+  us: /ˌɪmˈplaɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: ngụ ý, hàm ý
+  id: imply-1
+examples:
+- en: His email seemed to imply that the project might be cancelled.
+  vi: Email của anh ấy dường như ngụ ý rằng dự án có thể bị hủy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1818. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

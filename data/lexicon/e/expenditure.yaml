@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: expenditure
 lemma: expenditure
 pos:
@@ -9,33 +9,33 @@ ipa:
 level:
   band: advanced
   cefr: C1
-  basis: TOEIC 750+
+  basis:
+  - editorial
 topics:
-- finance-accounting
-speaking_use:
-- respond-with-info
-- express-opinion
+- finance-budgeting
 senses:
 - id: expenditure-1
   meaning_vi: Khoản chi tiêu, tổng số tiền bỏ ra cho một mục đích cụ thể
   note_vi: Thuật ngữ chính thống trong bảng cân đối kế toán và báo cáo ngân sách.
-confused_words:
-- word: expense
-  ipa: /ɪkˈspens/
-  difference_vi: Expense thường chỉ chi phí phát sinh hàng ngày; expenditure mang tính tổng chi tiêu quy mô lớn của tổ chức.
-confusing_meanings:
-- difference_vi: Capital expenditure (CapEx) là chi đầu tư tài sản cố định; operational expenditure (OpEx) là chi phí vận
-    hành thường xuyên.
 collocations:
 - phrase: reduce overall expenditure
   meaning_vi: cắt giảm tổng mức chi tiêu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: capital expenditure
   meaning_vi: chi phí đầu tư tài sản cố định
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: public expenditure
   meaning_vi: chi tiêu công của nhà nước
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: spending
   meaning_vi: sự chi tiêu
@@ -43,6 +43,13 @@ synonyms:
   meaning_vi: khoản kinh phí bỏ ra
 - word: cost
   meaning_vi: chi phí
+confused_words:
+- word: expense
+  ipa: /ɪkˈspens/
+  difference_vi: Expense thường chỉ chi phí phát sinh hàng ngày; expenditure mang tính tổng chi tiêu quy mô lớn của tổ chức.
+confusing_meanings:
+- difference_vi: Capital expenditure (CapEx) là chi đầu tư tài sản cố định; operational expenditure (OpEx) là chi phí vận
+    hành thường xuyên.
 examples:
 - en: The board approved a 10% increase in research and development expenditure for next year.
   vi: Hội đồng quản trị đã phê duyệt mức tăng 10% chi tiêu cho nghiên cứu và phát triển vào năm tới.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

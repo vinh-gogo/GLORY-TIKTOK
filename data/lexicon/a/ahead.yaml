@@ -1,0 +1,26 @@
+schema_version: 3
+id: ahead
+lemma: ahead
+pos:
+- adverb
+ipa:
+  us: /əˈhɛd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: phía trước, trước
+  id: ahead-1
+examples:
+- en: Please call the restaurant ahead of time to reserve a large table.
+  vi: Vui lòng gọi trước cho nhà hàng để đặt một bàn lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 974. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

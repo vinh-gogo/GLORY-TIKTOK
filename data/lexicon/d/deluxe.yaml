@@ -1,0 +1,26 @@
+schema_version: 3
+id: deluxe
+lemma: deluxe
+pos:
+- adjective
+ipa:
+  us: /dəˈlʌks/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- travel
+senses:
+- meaning_vi: cao cấp, sang trọng
+  id: deluxe-1
+examples:
+- en: We booked a deluxe room with a view of the harbor.
+  vi: Chúng tôi đã đặt một phòng cao cấp có tầm nhìn ra bến cảng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 968. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

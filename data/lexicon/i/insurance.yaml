@@ -1,0 +1,26 @@
+schema_version: 3
+id: insurance
+lemma: insurance
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈʃʊrəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: bảo hiểm
+  id: insurance-1
+examples:
+- en: The company provides health insurance for all full-time employees.
+  vi: Công ty cung cấp bảo hiểm y tế cho tất cả nhân viên toàn thời gian.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1314. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

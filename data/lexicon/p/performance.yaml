@@ -1,0 +1,26 @@
+schema_version: 3
+id: performance
+lemma: performance
+pos:
+- noun
+ipa:
+  us: /pɚˈfɔrməns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: hiệu suất; buổi biểu diễn
+  id: performance-1
+examples:
+- en: Her performance during the first year earned her a promotion.
+  vi: Hiệu suất làm việc trong năm đầu đã giúp cô ấy được thăng chức.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 559. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

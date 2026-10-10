@@ -1,0 +1,26 @@
+schema_version: 3
+id: renovation
+lemma: renovation
+pos:
+- noun
+ipa:
+  us: /ˌrɛnəˈveɪʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: việc cải tạo, tu sửa
+  id: renovation-1
+examples:
+- en: The renovation of the lobby will be completed by the end of June.
+  vi: Việc cải tạo sảnh sẽ hoàn thành vào cuối tháng Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 79. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

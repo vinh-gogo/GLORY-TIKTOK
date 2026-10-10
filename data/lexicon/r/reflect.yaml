@@ -1,0 +1,26 @@
+schema_version: 3
+id: reflect
+lemma: reflect
+pos:
+- verb
+ipa:
+  us: /rɪˈflɛkt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: phản ánh; suy ngẫm
+  id: reflect-1
+examples:
+- en: The final report should reflect the opinions of all department members.
+  vi: Báo cáo cuối cùng nên phản ánh ý kiến của tất cả thành viên phòng ban.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 916. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

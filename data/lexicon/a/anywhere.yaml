@@ -1,0 +1,27 @@
+schema_version: 3
+id: anywhere
+lemma: anywhere
+pos:
+- adverb
+ipa:
+  us: /ˈɛniˌwɛr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bất cứ nơi đâu
+  id: anywhere-1
+examples:
+- en: With a laptop, you can work from anywhere with an internet connection.
+  vi: Với một chiếc laptop, bạn có thể làm việc ở bất cứ đâu có internet.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛniˌwɛr/; /ˈɛnihˌwɛr/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1648. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

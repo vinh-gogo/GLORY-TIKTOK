@@ -1,0 +1,26 @@
+schema_version: 3
+id: extra
+lemma: extra
+pos:
+- adjective
+ipa:
+  us: /ˈɛkstrə/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thêm, phụ
+  id: extra-1
+examples:
+- en: We ordered extra chairs because more guests than expected will attend.
+  vi: Chúng tôi đã đặt thêm ghế vì sẽ có nhiều khách tham dự hơn dự kiến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1058. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

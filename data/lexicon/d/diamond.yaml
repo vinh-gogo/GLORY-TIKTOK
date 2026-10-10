@@ -1,0 +1,26 @@
+schema_version: 3
+id: diamond
+lemma: diamond
+pos:
+- noun
+ipa:
+  us: /ˈdaɪmənd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: kim cương
+  id: diamond-1
+examples:
+- en: The jeweler showed the couple a ring with a small diamond.
+  vi: Thợ kim hoàn cho cặp đôi xem một chiếc nhẫn có viên kim cương nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1123. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

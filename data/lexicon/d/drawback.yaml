@@ -1,0 +1,26 @@
+schema_version: 3
+id: drawback
+lemma: drawback
+pos:
+- noun
+ipa:
+  us: /ˈdrɔˌbæk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: nhược điểm, mặt hạn chế
+  id: drawback-1
+examples:
+- en: The main drawback of this laptop is its short battery life.
+  vi: Nhược điểm chính của chiếc máy tính xách tay này là pin dùng ngắn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 972. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

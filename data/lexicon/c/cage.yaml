@@ -1,0 +1,26 @@
+schema_version: 3
+id: cage
+lemma: cage
+pos:
+- noun
+ipa:
+  us: /keɪdʒ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: cái lồng, chuồng
+  id: cage-1
+examples:
+- en: The bird escaped when someone left the door of the cage open.
+  vi: Con chim thoát ra khi ai đó để cửa lồng mở.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 962. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: wing
+lemma: wing
+pos:
+- noun
+ipa:
+  us: /wɪŋ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: cánh (chim, máy bay); khu nhà phụ
+  id: wing-1
+examples:
+- en: The new conference rooms are located in the east wing of the building.
+  vi: Các phòng họp mới nằm ở cánh phía đông của tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2009. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

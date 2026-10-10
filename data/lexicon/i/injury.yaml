@@ -1,0 +1,26 @@
+schema_version: 3
+id: injury
+lemma: injury
+pos:
+- noun
+ipa:
+  us: /ˈɪndʒɚi/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: chấn thương, thương tích
+  id: injury-1
+examples:
+- en: He missed two weeks of work because of a back injury.
+  vi: Anh ấy nghỉ làm hai tuần vì bị chấn thương lưng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1801. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

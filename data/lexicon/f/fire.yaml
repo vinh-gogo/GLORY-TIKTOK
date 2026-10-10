@@ -1,0 +1,28 @@
+schema_version: 3
+id: fire
+lemma: fire
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈfaɪɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: lửa, hỏa hoạn; sa thải
+  id: fire-1
+examples:
+- en: Everyone must leave the building quickly if the fire alarm rings.
+  vi: Mọi người phải rời tòa nhà nhanh chóng nếu chuông báo cháy reo.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈfaɪɚ/; /faɪr/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 613. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: derive
+lemma: derive
+pos:
+- verb
+ipa:
+  us: /dɚˈaɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: bắt nguồn, thu được
+  id: derive-1
+examples:
+- en: Most of our income is derived from monthly subscriptions.
+  vi: Phần lớn thu nhập của chúng tôi đến từ các gói đăng ký hàng tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1982. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

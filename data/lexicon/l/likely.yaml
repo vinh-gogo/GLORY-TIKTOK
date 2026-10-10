@@ -1,0 +1,26 @@
+schema_version: 3
+id: likely
+lemma: likely
+pos:
+- adjective
+ipa:
+  us: /ˈlaɪkli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: có khả năng, có thể xảy ra
+  id: likely-1
+examples:
+- en: It is likely that the flight will be delayed by the storm.
+  vi: Chuyến bay có khả năng sẽ bị hoãn do cơn bão.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 535. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

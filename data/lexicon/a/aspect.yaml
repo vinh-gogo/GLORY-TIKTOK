@@ -1,0 +1,26 @@
+schema_version: 3
+id: aspect
+lemma: aspect
+pos:
+- noun
+ipa:
+  us: /ˈæˌspɛkt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: khía cạnh
+  id: aspect-1
+examples:
+- en: We reviewed every aspect of the project before making a decision.
+  vi: Chúng tôi đã xem xét mọi khía cạnh của dự án trước khi đưa ra quyết định.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 186. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

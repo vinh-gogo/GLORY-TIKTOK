@@ -1,0 +1,26 @@
+schema_version: 3
+id: soul
+lemma: soul
+pos:
+- noun
+ipa:
+  us: /soʊl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: tâm hồn, linh hồn
+  id: soul-1
+examples:
+- en: The singer put her whole soul into the final performance.
+  vi: Ca sĩ đặt cả tâm hồn mình vào màn biểu diễn cuối cùng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1884. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

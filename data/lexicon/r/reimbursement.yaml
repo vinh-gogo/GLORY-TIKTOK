@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: reimbursement
 lemma: reimbursement
 pos:
@@ -9,17 +9,39 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- finance-accounting
-- salary-benefits
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- finance-budgeting
+- personnel
 senses:
 - id: reimbursement-1
   meaning_vi: Khoản hoàn trả chi phí công tác hoặc thanh toán bồi hoàn số tiền đã ứng trước
   note_vi: Quy trình nhân viên nộp hóa đơn công tác để kế toán trả lại tiền túi đã bỏ ra.
+collocations:
+- phrase: seek reimbursement
+  meaning_vi: nộp đơn yêu cầu thanh toán bồi hoàn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: travel reimbursement
+  meaning_vi: khoản bồi hoàn công tác phí
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: reimbursement claim
+  meaning_vi: hồ sơ đề nghị bồi hoàn chi phí
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: repayment
+  meaning_vi: sự trả lại tiền
+- word: compensation
+  meaning_vi: khoản đền bù bồi hoàn
 confused_words:
 - word: refund
   ipa: /ˈriːfʌnd/
@@ -27,21 +49,6 @@ confused_words:
 confusing_meanings:
 - difference_vi: Travel expense reimbursement = bồi hoàn chi phí đi lại; tuition reimbursement = hỗ trợ hoàn trả học phí nâng
     cao nghiệp vụ.
-collocations:
-- phrase: seek reimbursement
-  meaning_vi: nộp đơn yêu cầu thanh toán bồi hoàn
-  evidence: corpus
-- phrase: travel reimbursement
-  meaning_vi: khoản bồi hoàn công tác phí
-  evidence: corpus
-- phrase: reimbursement claim
-  meaning_vi: hồ sơ đề nghị bồi hoàn chi phí
-  evidence: corpus
-synonyms:
-- word: repayment
-  meaning_vi: sự trả lại tiền
-- word: compensation
-  meaning_vi: khoản đền bù bồi hoàn
 examples:
 - en: Staff members must submit original itemized receipts within thirty days to receive travel reimbursement.
   vi: Nhân viên phải nộp hóa đơn chi tiết bản gốc trong vòng 30 ngày để nhận bồi hoàn công tác phí.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

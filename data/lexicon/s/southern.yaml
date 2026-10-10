@@ -1,0 +1,26 @@
+schema_version: 3
+id: southern
+lemma: southern
+pos:
+- adjective
+ipa:
+  us: /ˈsʌðɚn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: thuộc phía nam
+  id: southern-1
+examples:
+- en: The southern part of the country has warm weather all year.
+  vi: Phía nam của đất nước có thời tiết ấm áp quanh năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1920. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

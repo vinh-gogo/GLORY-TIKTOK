@@ -1,0 +1,27 @@
+schema_version: 3
+id: perfectly
+lemma: perfectly
+pos:
+- adverb
+ipa:
+  us: /ˈpɝfəktli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: một cách hoàn hảo, hoàn toàn
+  id: perfectly-1
+examples:
+- en: The new printer works perfectly and prints very quickly.
+  vi: Chiếc máy in mới hoạt động hoàn hảo và in rất nhanh.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈpɝfəktli/; /ˈpɝfəkli/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1888. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

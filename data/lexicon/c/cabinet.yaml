@@ -1,0 +1,27 @@
+schema_version: 3
+id: cabinet
+lemma: cabinet
+pos:
+- noun
+ipa:
+  us: /ˈkæbənət/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: tủ (đựng hồ sơ, đồ đạc)
+  id: cabinet-1
+examples:
+- en: All client files are kept in the cabinet next to my desk.
+  vi: Tất cả hồ sơ khách hàng được cất trong chiếc tủ cạnh bàn làm việc của tôi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkæbənət/; /ˈkæbnət/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 87. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

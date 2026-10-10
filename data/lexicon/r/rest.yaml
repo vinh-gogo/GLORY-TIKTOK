@@ -1,0 +1,27 @@
+schema_version: 3
+id: rest
+lemma: rest
+pos:
+- noun
+- verb
+ipa:
+  us: /rɛst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự nghỉ ngơi; phần còn lại
+  id: rest-1
+examples:
+- en: You should take a rest after working on this project all week.
+  vi: Bạn nên nghỉ ngơi sau khi làm dự án này cả tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 528. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

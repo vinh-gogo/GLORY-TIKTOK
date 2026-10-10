@@ -1,0 +1,26 @@
+schema_version: 3
+id: passion
+lemma: passion
+pos:
+- noun
+ipa:
+  us: /ˈpæʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: niềm đam mê
+  id: passion-1
+examples:
+- en: She has a real passion for teaching and spends weekends helping young students.
+  vi: Cô ấy có niềm đam mê thật sự với việc dạy học và dành cuối tuần giúp học sinh nhỏ tuổi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2445. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

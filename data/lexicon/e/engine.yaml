@@ -1,0 +1,27 @@
+schema_version: 3
+id: engine
+lemma: engine
+pos:
+- noun
+ipa:
+  us: /ˈɛndʒən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: động cơ
+  id: engine-1
+examples:
+- en: The mechanic found a problem with the engine of the delivery van.
+  vi: Thợ máy tìm thấy sự cố ở động cơ của chiếc xe giao hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛndʒən/; /ˈɪndʒən/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1617. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

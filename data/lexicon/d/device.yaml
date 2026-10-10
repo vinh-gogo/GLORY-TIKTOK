@@ -1,0 +1,26 @@
+schema_version: 3
+id: device
+lemma: device
+pos:
+- noun
+ipa:
+  us: /dɪˈvaɪs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: thiết bị
+  id: device-1
+examples:
+- en: Please turn off every electronic device before the plane takes off.
+  vi: Vui lòng tắt mọi thiết bị điện tử trước khi máy bay cất cánh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1525. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

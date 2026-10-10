@@ -1,0 +1,26 @@
+schema_version: 3
+id: residential
+lemma: residential
+pos:
+- adjective
+ipa:
+  us: /ˌrɛzɪˈdɛnʃəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: thuộc khu dân cư, để ở
+  id: residential-1
+examples:
+- en: The company is building a new residential area near the river.
+  vi: Công ty đang xây dựng một khu dân cư mới gần bờ sông.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 426. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

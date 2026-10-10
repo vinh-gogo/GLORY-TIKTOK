@@ -1,0 +1,26 @@
+schema_version: 3
+id: functional
+lemma: functional
+pos:
+- adjective
+ipa:
+  us: /ˈfʌŋkʃənəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: có chức năng, thiết thực; hoạt động được
+  id: functional-1
+examples:
+- en: The new desk is simple, but it is comfortable and functional.
+  vi: Chiếc bàn mới đơn giản nhưng thoải mái và thiết thực.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2755. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

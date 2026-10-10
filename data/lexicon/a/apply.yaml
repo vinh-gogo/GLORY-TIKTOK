@@ -1,0 +1,26 @@
+schema_version: 3
+id: apply
+lemma: apply
+pos:
+- verb
+ipa:
+  us: /əˈplaɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: nộp đơn; áp dụng
+  id: apply-1
+examples:
+- en: Many graduates apply for jobs at our company every spring.
+  vi: Nhiều sinh viên mới tốt nghiệp nộp đơn xin việc tại công ty chúng tôi mỗi mùa xuân.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 611. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

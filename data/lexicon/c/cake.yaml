@@ -1,0 +1,26 @@
+schema_version: 3
+id: cake
+lemma: cake
+pos:
+- noun
+ipa:
+  us: /keɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: bánh ngọt
+  id: cake-1
+examples:
+- en: The staff shared a chocolate cake to celebrate her promotion.
+  vi: Nhân viên chia nhau một chiếc bánh sô-cô-la để mừng cô ấy được thăng chức.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2173. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

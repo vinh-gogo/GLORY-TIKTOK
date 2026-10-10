@@ -1,0 +1,26 @@
+schema_version: 3
+id: accumulate
+lemma: accumulate
+pos:
+- verb
+ipa:
+  us: /əˈkjumjəˌleɪt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tích lũy, tích tụ
+  id: accumulate-1
+examples:
+- en: Customers accumulate points every time they shop at our online store.
+  vi: Khách hàng tích lũy điểm mỗi lần mua sắm tại cửa hàng trực tuyến của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 563. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: monthly
+lemma: monthly
+pos:
+- adjective
+- adverb
+ipa:
+  us: /ˈmʌnθli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: hằng tháng
+  id: monthly-1
+examples:
+- en: Monthly payments are due on the first day of each month.
+  vi: Các khoản thanh toán hằng tháng đến hạn vào ngày đầu tiên của mỗi tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2738. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

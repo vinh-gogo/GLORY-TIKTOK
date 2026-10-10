@@ -1,0 +1,26 @@
+schema_version: 3
+id: bacteria
+lemma: bacteria
+pos:
+- noun
+ipa:
+  us: /bækˈtɪriə/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: vi khuẩn
+  id: bacteria-1
+examples:
+- en: Washing your hands often helps stop the spread of harmful bacteria.
+  vi: Rửa tay thường xuyên giúp ngăn sự lây lan của vi khuẩn có hại.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1200. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

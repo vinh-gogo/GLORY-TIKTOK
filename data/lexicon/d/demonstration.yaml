@@ -1,0 +1,26 @@
+schema_version: 3
+id: demonstration
+lemma: demonstration
+pos:
+- noun
+ipa:
+  us: /ˌdɛmənˈstreɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: buổi trình diễn; cuộc biểu tình
+  id: demonstration-1
+examples:
+- en: The salesperson gave a live demonstration of the new blender.
+  vi: Nhân viên bán hàng đã trình diễn trực tiếp chiếc máy xay mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2169. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

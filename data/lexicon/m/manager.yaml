@@ -1,0 +1,47 @@
+schema_version: 3
+id: manager
+lemma: manager
+pos:
+- noun
+ipa:
+  us: /ˈmænɪdʒər/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- offices
+- personnel
+senses:
+- meaning_vi: Quản lý, người điều hành một bộ phận hoặc nhóm
+  id: manager-1
+collocations:
+- phrase: sales manager
+  meaning_vi: trưởng phòng kinh doanh
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: project manager
+  meaning_vi: quản lý dự án
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: general manager
+  meaning_vi: tổng giám đốc / giám đốc điều hành
+  pattern: ADJ+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: The manager approved the schedule this morning.
+  vi: Quản lý đã phê duyệt lịch trình vào sáng nay.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

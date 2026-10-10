@@ -2,14 +2,14 @@
 
 ## 1. Core Operating Rules (Strictly Enforced)
 
-1. **Mandatory Reading:** Always consult `PLAN_MO_RONG_Glory01_TOEIC_Speaking.md` (specifically sections 2, 3, and 6) and the Memory Bank (`memory-bank/*`) before modifying code or data.
+1. **Mandatory Reading:** Always consult `PLAN_NEN_MONG_Tu_Vung_TOEIC.md` (specifically sections 2, 3, and 6) and the Memory Bank (`memory-bank/*`) before modifying code or data.
 2. **Zero Hallucination:** Never guess or hallucinate IPA phonetics, definitions, or collocations. If unverified, mark with `review.status: needs_review` and document the reason.
 3. **Original Content Only:** Never copy official ETS test questions or verbatim copyright dictionary entries (Cambridge, Oxford, Longman). Write original "ETS-style" content.
 4. **URL Immutability:** Never modify existing slugs, aliases, or URLs (e.g. `/013`, `/words/<lemma>`). If a redirection is unavoidable, register it in `static/_redirects` and write an ADR in `docs/adr/`.
 5. **Mandatory Verification Gate:** Every change to data or templates must pass:
    - `python scripts/validate/validate.py` (Must report 0 errors)
    - `hugo --gc --minify` (Must build cleanly with 0 errors)
-6. **Single Source of Truth for Exam Parameters:** All exam timings (preparation seconds, speaking seconds) and question structures must be read from `data/exam/toeic-speaking.yaml`. Never hardcode seconds or question counts elsewhere.
+6. **Single Source of Truth for Levels & Scores:** All band definitions, CEFR mapping and TOEIC score ranges must be read from `data/levels.yaml` (and exam parameters from `data/exam/*.yaml` if such files are added). Never hardcode scores or thresholds in templates or content.
 7. **Vietnamese Language Standards:** Always use full, correct Vietnamese diacritics. Keep standardized English technical terms intact (e.g. *collocation*, *shadowing*, *prompt*, *schema*).
 8. **Task Reporting:** Each task must address a clear single objective, documenting what was done, how it was verified, and any remaining questions or uncertainties.
 9. **Architectural Decisions:** New architectural choices or paradigm shifts must be documented as an ADR in `docs/adr/`.

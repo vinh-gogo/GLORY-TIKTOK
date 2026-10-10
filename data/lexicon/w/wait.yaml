@@ -1,0 +1,26 @@
+schema_version: 3
+id: wait
+lemma: wait
+pos:
+- verb
+ipa:
+  us: /weɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chờ, đợi
+  id: wait-1
+examples:
+- en: Customers had to wait about twenty minutes for a table at the restaurant.
+  vi: Khách hàng phải chờ khoảng hai mươi phút để có bàn ở nhà hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 403. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

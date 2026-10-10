@@ -1,0 +1,27 @@
+schema_version: 3
+id: tuna
+lemma: tuna
+pos:
+- noun
+ipa:
+  us: /ˈtunə/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: cá ngừ
+  id: tuna-1
+examples:
+- en: She ordered a tuna sandwich and a glass of orange juice.
+  vi: Cô ấy gọi một chiếc bánh sandwich cá ngừ và một ly nước cam.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈtunə/; /ˈtjunə/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1189. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

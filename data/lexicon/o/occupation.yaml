@@ -1,0 +1,26 @@
+schema_version: 3
+id: occupation
+lemma: occupation
+pos:
+- noun
+ipa:
+  us: /ˌɑkjəˈpeɪʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: nghề nghiệp
+  id: occupation-1
+examples:
+- en: Please write your name, address, and occupation on the form.
+  vi: Vui lòng ghi tên, địa chỉ và nghề nghiệp của bạn vào biểu mẫu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 64. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

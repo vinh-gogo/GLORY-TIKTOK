@@ -1,0 +1,26 @@
+schema_version: 3
+id: picture
+lemma: picture
+pos:
+- noun
+ipa:
+  us: /ˈpɪktʃɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bức ảnh, bức tranh
+  id: picture-1
+examples:
+- en: She hung a large picture of the city above her desk.
+  vi: Cô ấy treo một bức tranh lớn về thành phố phía trên bàn làm việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 509. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: hesitate
+lemma: hesitate
+pos:
+- verb
+ipa:
+  us: /ˈhɛzəˌteɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: do dự, ngập ngừng
+  id: hesitate-1
+examples:
+- en: Please do not hesitate to contact us if you have any questions.
+  vi: Xin đừng ngần ngại liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2631. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

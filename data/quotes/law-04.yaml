@@ -1,0 +1,22 @@
+schema_version: 1
+id: law-04
+title_vi: Nguyên tắc Trao đổi Nhanh
+title_en: The Touch-Base Principle
+topic: offices
+band: target
+quote_en: Never assume silence means agreement. Touch base frequently to keep expectations aligned before the project diverges.
+quote_vi: Đừng bao giờ mặc định im lặng là đồng ý. Hãy thường xuyên trao đổi nhanh để mọi kỳ vọng luôn được thống nhất trước
+  khi dự án lệch hướng.
+highlights:
+- phrase: touch base
+  meaning_vi: liên hệ nhanh để nắm tình hình
+  word: touch-base
+- phrase: aligned expectations
+  meaning_vi: kỳ vọng được thống nhất đồng bộ
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

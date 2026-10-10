@@ -1,0 +1,27 @@
+schema_version: 3
+id: dramatically
+lemma: dramatically
+pos:
+- adverb
+ipa:
+  us: /drəˈmætɪkli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: một cách đáng kể, đột ngột
+  id: dramatically-1
+examples:
+- en: Online sales have increased dramatically since the company redesigned its website.
+  vi: Doanh số trực tuyến đã tăng mạnh kể từ khi công ty thiết kế lại trang web.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/drəˈmætɪkli/; /drəˈmætɪkəli/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2524. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

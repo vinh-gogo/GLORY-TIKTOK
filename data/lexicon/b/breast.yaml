@@ -1,0 +1,26 @@
+schema_version: 3
+id: breast
+lemma: breast
+pos:
+- noun
+ipa:
+  us: /brɛst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: ngực; vú
+  id: breast-1
+examples:
+- en: The clinic offers free breast cancer screening every October.
+  vi: Phòng khám cung cấp dịch vụ tầm soát ung thư vú miễn phí vào mỗi tháng Mười.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1900. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

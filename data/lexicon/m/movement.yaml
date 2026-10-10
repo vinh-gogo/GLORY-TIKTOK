@@ -1,0 +1,26 @@
+schema_version: 3
+id: movement
+lemma: movement
+pos:
+- noun
+ipa:
+  us: /ˈmuvmənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: sự di chuyển; phong trào
+  id: movement-1
+examples:
+- en: The graph shows the movement of oil prices over the past year.
+  vi: Biểu đồ cho thấy diễn biến giá dầu trong năm qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 803. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

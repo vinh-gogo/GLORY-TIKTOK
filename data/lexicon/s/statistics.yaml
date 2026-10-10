@@ -1,0 +1,26 @@
+schema_version: 3
+id: statistics
+lemma: statistics
+pos:
+- noun
+ipa:
+  us: /stəˈtɪstɪks/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: số liệu thống kê, môn thống kê
+  id: statistics-1
+examples:
+- en: The latest statistics show that online sales are growing faster than expected.
+  vi: Số liệu thống kê mới nhất cho thấy doanh số trực tuyến tăng nhanh hơn dự kiến.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 510. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

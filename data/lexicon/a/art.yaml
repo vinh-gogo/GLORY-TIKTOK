@@ -1,0 +1,26 @@
+schema_version: 3
+id: art
+lemma: art
+pos:
+- noun
+ipa:
+  us: /ɑrt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: nghệ thuật
+  id: art-1
+examples:
+- en: The city museum has a large collection of modern art.
+  vi: Bảo tàng thành phố có bộ sưu tập nghệ thuật hiện đại lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 646. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

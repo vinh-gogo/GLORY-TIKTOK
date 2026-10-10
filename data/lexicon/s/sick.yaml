@@ -1,0 +1,26 @@
+schema_version: 3
+id: sick
+lemma: sick
+pos:
+- adjective
+ipa:
+  us: /sɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: ốm, bệnh
+  id: sick-1
+examples:
+- en: She called the office to say she was sick today.
+  vi: Cô ấy gọi đến văn phòng để báo hôm nay mình bị ốm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1716. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

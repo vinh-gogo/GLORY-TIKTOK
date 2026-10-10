@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: inventory
 lemma: inventory
 pos:
@@ -6,16 +6,13 @@ pos:
 ipa:
   us: /ˈɪnvəntɔːri/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- logistics
-- shopping
-- sales
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- purchasing
+- general-business
 senses:
 - id: inventory-1
   meaning_vi: Hàng tồn kho, danh mục kiểm kê hàng hóa
@@ -23,40 +20,48 @@ senses:
 collocations:
 - phrase: take inventory
   meaning_vi: tiến hành kiểm kê hàng hóa
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: in inventory
   meaning_vi: còn hàng trong kho
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: inventory management
   meaning_vi: việc quản lý hàng tồn kho
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: out of inventory
   meaning_vi: hết sạch hàng trong kho
-  evidence: corpus
-confused_words:
-- word: invention
-  ipa: /ɪnˈvenʃn/
-  meaning: sáng chế, phát minh
-  kind: spelling-sound
-  difference_vi: Inventory là việc kiểm kê hoặc lượng hàng tồn kho; invention là sáng
-    chế phát minh mới.
-confusing_meanings:
-- word: stock
-  meaning: lượng hàng hóa sẵn có để bán
-  difference_vi: Stock là hàng hóa trưng bày sẵn sàng bán; inventory là toàn bộ danh
-    mục tài sản hàng hóa bao gồm cả vật liệu lưu kho.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: stock
   meaning_vi: kho hàng
 - word: merchandise
   meaning_vi: hàng hóa
+confused_words:
+- word: invention
+  ipa: /ɪnˈvenʃn/
+  meaning: sáng chế, phát minh
+  kind: spelling-sound
+  difference_vi: Inventory là việc kiểm kê hoặc lượng hàng tồn kho; invention là sáng chế phát minh mới.
+confusing_meanings:
+- word: stock
+  meaning: lượng hàng hóa sẵn có để bán
+  difference_vi: Stock là hàng hóa trưng bày sẵn sàng bán; inventory là toàn bộ danh mục tài sản hàng hóa bao gồm cả vật liệu
+    lưu kho.
 examples:
-- en: The store will temporarily close early this evening so staff can take the annual
-    inventory.
-  vi: Cửa hàng sẽ tạm thời đóng cửa sớm vào tối nay để nhân viên có thể tiến hành
-    kiểm kê hàng hóa thường niên.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈɪn-/. Giọng Mỹ đọc rõ âm /-tɔːri/,
-  không nuốt âm.
+- en: The store will temporarily close early this evening so staff can take the annual inventory.
+  vi: Cửa hàng sẽ tạm thời đóng cửa sớm vào tối nay để nhân viên có thể tiến hành kiểm kê hàng hóa thường niên.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈɪn-/. Giọng Mỹ đọc rõ âm /-tɔːri/, không nuốt âm.
 review:
   status: ai_cross_checked
   checked_by:

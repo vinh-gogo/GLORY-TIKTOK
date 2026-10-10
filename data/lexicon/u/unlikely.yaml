@@ -1,0 +1,26 @@
+schema_version: 3
+id: unlikely
+lemma: unlikely
+pos:
+- adjective
+ipa:
+  us: /ənˈlaɪkli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: không chắc xảy ra
+  id: unlikely-1
+examples:
+- en: It is unlikely that the shipment will arrive before Friday.
+  vi: Lô hàng khó có khả năng đến trước thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2039. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

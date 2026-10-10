@@ -1,0 +1,27 @@
+schema_version: 3
+id: plus
+lemma: plus
+pos:
+- preposition
+- noun
+ipa:
+  us: /plʌs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cộng với; điểm cộng
+  id: plus-1
+examples:
+- en: The monthly fee is fifty dollars, plus a small service charge.
+  vi: Phí hằng tháng là năm mươi đô la, cộng thêm một khoản phí dịch vụ nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1256. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: growth
+lemma: growth
+pos:
+- noun
+ipa:
+  us: /ɡroʊθ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự tăng trưởng
+  id: growth-1
+examples:
+- en: The company expects steady growth in revenue over the next five years.
+  vi: Công ty kỳ vọng doanh thu tăng trưởng ổn định trong năm năm tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 678. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

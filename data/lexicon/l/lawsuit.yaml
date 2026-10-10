@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: lawsuit
 lemma: lawsuit
 pos:
@@ -9,32 +9,33 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: lawsuit-1
   meaning_vi: Vụ kiện cáo, việc khởi kiện dân sự trước tòa án
   note_vi: 'Collocation kinh điển: file a lawsuit against sb (đâm đơn kiện ai ra tòa).'
-confused_words:
-- word: suit
-  ipa: /suːt/
-  difference_vi: Suit là bộ comple âu phục; lawsuit là vụ kiện tụng pháp đình.
-confusing_meanings:
-- difference_vi: File a lawsuit = đệ đơn kiện; settle a lawsuit = hòa giải giàn xếp vụ kiện ngoài tòa.
 collocations:
 - phrase: file a lawsuit
   meaning_vi: đâm đơn khởi kiện ra tòa
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: settle a lawsuit
   meaning_vi: dàn xếp hòa giải một vụ kiện
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: threat of a lawsuit
   meaning_vi: nguy cơ bị khởi kiện trước pháp luật
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: litigation
   meaning_vi: quá trình tố tụng kiện cáo
@@ -42,6 +43,12 @@ synonyms:
   meaning_vi: hành động pháp lý
 - word: court case
   meaning_vi: vụ án tại tòa
+confused_words:
+- word: suit
+  ipa: /suːt/
+  difference_vi: Suit là bộ comple âu phục; lawsuit là vụ kiện tụng pháp đình.
+confusing_meanings:
+- difference_vi: File a lawsuit = đệ đơn kiện; settle a lawsuit = hòa giải giàn xếp vụ kiện ngoài tòa.
 examples:
 - en: The corporation filed a lawsuit against its former supplier for breach of confidentiality.
   vi: Tập đoàn đã đệ đơn kiện nhà cung cấp cũ ra tòa vì vi phạm thỏa thuận bảo mật.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

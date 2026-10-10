@@ -1,0 +1,27 @@
+schema_version: 3
+id: ship
+lemma: ship
+pos:
+- verb
+- noun
+ipa:
+  us: /ʃɪp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: vận chuyển, giao hàng; con tàu
+  id: ship-1
+examples:
+- en: We will ship your order within two business days of payment.
+  vi: Chúng tôi sẽ giao đơn hàng của bạn trong vòng hai ngày làm việc sau khi thanh toán.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1093. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

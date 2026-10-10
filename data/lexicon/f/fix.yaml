@@ -1,0 +1,26 @@
+schema_version: 3
+id: fix
+lemma: fix
+pos:
+- verb
+ipa:
+  us: /fɪks/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: sửa chữa
+  id: fix-1
+examples:
+- en: A technician came to fix the broken printer on the second floor.
+  vi: Một kỹ thuật viên đã đến sửa chiếc máy in hỏng ở tầng hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 973. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

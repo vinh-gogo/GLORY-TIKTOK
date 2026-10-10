@@ -1,0 +1,26 @@
+schema_version: 3
+id: ward
+lemma: ward
+pos:
+- noun
+ipa:
+  us: /wɔrd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: khu điều trị, phòng bệnh (trong bệnh viện)
+  id: ward-1
+examples:
+- en: The nurse in the children's ward checks every patient twice a day.
+  vi: Y tá ở khoa nhi kiểm tra từng bệnh nhân hai lần mỗi ngày.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1021. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

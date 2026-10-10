@@ -1,0 +1,26 @@
+schema_version: 3
+id: god
+lemma: god
+pos:
+- noun
+ipa:
+  us: /ɡɑd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: Thượng đế; vị thần
+  id: god-1
+examples:
+- en: Many ancient cultures worshipped a god of the sun.
+  vi: Nhiều nền văn hóa cổ đại thờ một vị thần mặt trời.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2228. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: escalator
+lemma: escalator
+pos:
+- noun
+ipa:
+  us: /ˈɛskəˌleɪtɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- offices
+senses:
+- meaning_vi: thang cuốn
+  id: escalator-1
+examples:
+- en: Take the escalator to the second floor to reach the main hall.
+  vi: Hãy đi thang cuốn lên tầng hai để đến sảnh chính.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 819. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

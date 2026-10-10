@@ -1,0 +1,26 @@
+schema_version: 3
+id: make
+lemma: make
+pos:
+- verb
+ipa:
+  us: /meɪk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: làm, tạo ra; thực hiện
+  id: make-1
+examples:
+- en: The factory can make about five hundred units in a single day.
+  vi: Nhà máy có thể làm ra khoảng năm trăm sản phẩm trong một ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 48. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

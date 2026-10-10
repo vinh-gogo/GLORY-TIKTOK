@@ -1,0 +1,26 @@
+schema_version: 3
+id: sorry
+lemma: sorry
+pos:
+- adjective
+ipa:
+  us: /ˈsɑri/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: xin lỗi; lấy làm tiếc
+  id: sorry-1
+examples:
+- en: We are sorry for the delay in processing your refund.
+  vi: Chúng tôi xin lỗi vì sự chậm trễ trong việc xử lý hoàn tiền của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 765. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

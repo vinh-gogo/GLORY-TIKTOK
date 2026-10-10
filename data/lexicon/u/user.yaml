@@ -1,0 +1,26 @@
+schema_version: 3
+id: user
+lemma: user
+pos:
+- noun
+ipa:
+  us: /ˈjuzɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: người dùng
+  id: user-1
+examples:
+- en: Each user must create a secure password before accessing the system.
+  vi: Mỗi người dùng phải tạo mật khẩu an toàn trước khi truy cập hệ thống.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1115. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

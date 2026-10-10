@@ -1,0 +1,27 @@
+schema_version: 3
+id: dress
+lemma: dress
+pos:
+- noun
+- verb
+ipa:
+  us: /drɛs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: váy, đầm; ăn mặc
+  id: dress-1
+examples:
+- en: Employees must dress formally when they meet clients at our main office.
+  vi: Nhân viên phải ăn mặc trang trọng khi gặp khách hàng tại văn phòng chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 899. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

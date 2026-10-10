@@ -1,0 +1,26 @@
+schema_version: 3
+id: examination
+lemma: examination
+pos:
+- noun
+ipa:
+  us: /ɪɡˌzæməˈneɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: kỳ thi; sự kiểm tra, khám
+  id: examination-1
+examples:
+- en: All employees must complete a medical examination every year.
+  vi: Mọi nhân viên phải hoàn thành một cuộc khám sức khỏe mỗi năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1966. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

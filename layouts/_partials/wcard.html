@@ -1,0 +1,9 @@
+{{- /* Thẻ từ gọn: context = một mục từ (map). Markup phải khớp với renderCard() trong assets/js/glossary.js */ -}}
+{{- $w := . -}}
+{{- $band := $w.level.band -}}
+{{- $label := (index site.Data.levels.bands $band).label_vi -}}
+<a class="wcard" href="/words/{{ $w.id }}/">
+  <span class="wcard-head"><strong class="wcard-lemma">{{ $w.lemma }}</strong><span class="wcard-ipa">{{ $w.ipa.us }}</span></span>
+  <span class="wcard-meta"><span class="wcard-pos">{{ delimit $w.pos ", " }}</span><span class="band band-{{ $band }}">{{ $label }}</span></span>
+  <span class="wcard-mean">{{ (index $w.senses 0).meaning_vi }}</span>
+</a>

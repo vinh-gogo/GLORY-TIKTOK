@@ -1,0 +1,26 @@
+schema_version: 3
+id: pattern
+lemma: pattern
+pos:
+- noun
+ipa:
+  us: /ˈpætɚn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: mẫu, khuôn mẫu, xu hướng
+  id: pattern-1
+examples:
+- en: Analysts noticed a clear pattern in the way customers shop online.
+  vi: Các nhà phân tích nhận thấy một khuôn mẫu rõ ràng trong cách khách hàng mua sắm trực tuyến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 883. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: inflation
+lemma: inflation
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈfleɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: lạm phát
+  id: inflation-1
+examples:
+- en: Rising inflation has made it harder for families to afford basic goods.
+  vi: Lạm phát gia tăng khiến các gia đình khó mua nổi hàng hóa thiết yếu hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2494. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

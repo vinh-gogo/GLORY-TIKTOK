@@ -1,0 +1,26 @@
+schema_version: 3
+id: former
+lemma: former
+pos:
+- adjective
+ipa:
+  us: /ˈfɔrmɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: trước đây, cựu
+  id: former-1
+examples:
+- en: Our former manager now works for a competitor downtown.
+  vi: Người quản lý trước đây của chúng tôi hiện làm cho một đối thủ ở trung tâm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 599. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: beverage
+lemma: beverage
+pos:
+- noun
+ipa:
+  us: /ˈbɛvɚɪdʒ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: đồ uống
+  id: beverage-1
+examples:
+- en: Hot and cold beverages are served during the break.
+  vi: Đồ uống nóng và lạnh được phục vụ trong giờ giải lao.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈbɛvɚɪdʒ/; /ˈbɛvrɪdʒ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 134. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

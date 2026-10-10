@@ -1,0 +1,26 @@
+schema_version: 3
+id: cinema
+lemma: cinema
+pos:
+- noun
+ipa:
+  us: /ˈsɪnəmə/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: rạp chiếu phim; điện ảnh
+  id: cinema-1
+examples:
+- en: The new cinema downtown shows both local and foreign films every week.
+  vi: Rạp chiếu phim mới ở trung tâm chiếu cả phim trong nước và nước ngoài mỗi tuần.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 963. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

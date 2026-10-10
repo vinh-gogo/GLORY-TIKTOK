@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: clerical
 lemma: clerical
 pos:
@@ -9,17 +9,39 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- meetings-office
-- human-resources
-speaking_use:
-- respond-to-questions
-- express-opinion
+- offices
+- personnel
 senses:
 - id: clerical-1
   meaning_vi: Thuộc công việc bàn giấy, văn thư hành chính tổng hợp
   note_vi: Bao gồm soạn thảo, lưu trữ hồ sơ, nhập liệu và trực điện thoại văn phòng.
+collocations:
+- phrase: clerical error
+  meaning_vi: sai sót trong quá trình đánh máy / ghi chép sổ sách
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: clerical duties
+  meaning_vi: các nhiệm vụ hành chính bàn giấy
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: clerical staff
+  meaning_vi: đội ngũ nhân viên văn thư
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: administrative
+  meaning_vi: thuộc về hành chính
+- word: secretarial
+  meaning_vi: thuộc công việc thư ký
 confused_words:
 - word: clerk
   ipa: /klɜːrk/
@@ -27,21 +49,6 @@ confused_words:
     chính.
 confusing_meanings:
 - difference_vi: Clerical error = sai sót do sơ suất đánh máy/ghi chép sổ sách; clerical duties = nghiệp vụ hành chính.
-collocations:
-- phrase: clerical error
-  meaning_vi: sai sót trong quá trình đánh máy / ghi chép sổ sách
-  evidence: corpus
-- phrase: clerical duties
-  meaning_vi: các nhiệm vụ hành chính bàn giấy
-  evidence: corpus
-- phrase: clerical staff
-  meaning_vi: đội ngũ nhân viên văn thư
-  evidence: corpus
-synonyms:
-- word: administrative
-  meaning_vi: thuộc về hành chính
-- word: secretarial
-  meaning_vi: thuộc công việc thư ký
 examples:
 - en: The wrong invoice total was simply due to an unintended clerical error during data entry.
   vi: Tổng số tiền trên hóa đơn bị sai chỉ đơn giản là do lỗi đánh máy vô ý trong quá trình nhập dữ liệu.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

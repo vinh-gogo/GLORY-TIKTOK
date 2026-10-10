@@ -1,0 +1,26 @@
+schema_version: 3
+id: wooden
+lemma: wooden
+pos:
+- adjective
+ipa:
+  us: /ˈwʊdən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: bằng gỗ
+  id: wooden-1
+examples:
+- en: They installed a wooden floor in the living room last summer.
+  vi: Họ đã lắp sàn gỗ trong phòng khách vào mùa hè năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2544. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

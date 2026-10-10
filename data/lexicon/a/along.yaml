@@ -1,0 +1,27 @@
+schema_version: 3
+id: along
+lemma: along
+pos:
+- preposition
+- adverb
+ipa:
+  us: /əˈlɔŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: dọc theo; cùng với
+  id: along-1
+examples:
+- en: There are several cafés along the river near our office.
+  vi: Có vài quán cà phê dọc theo bờ sông gần văn phòng chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 388. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: magic
+lemma: magic
+pos:
+- noun
+ipa:
+  us: /ˈmædʒɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: ma thuật, phép thuật
+  id: magic-1
+examples:
+- en: The children laughed at the magic tricks performed at the party.
+  vi: Bọn trẻ cười vui với những trò ảo thuật được biểu diễn trong bữa tiệc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2592. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: tape
+lemma: tape
+pos:
+- noun
+ipa:
+  us: /teɪp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: băng dính; băng ghi âm
+  id: tape-1
+examples:
+- en: Could you pass me the tape so I can seal this box?
+  vi: Bạn đưa giúp tôi cuộn băng dính để tôi dán thùng này được không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1371. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

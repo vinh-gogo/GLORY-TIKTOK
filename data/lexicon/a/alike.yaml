@@ -1,0 +1,26 @@
+schema_version: 3
+id: alike
+lemma: alike
+pos:
+- adjective
+ipa:
+  us: /əˈlaɪk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: giống nhau
+  id: alike-1
+examples:
+- en: The two offices look alike, so visitors often get confused.
+  vi: Hai văn phòng trông giống nhau nên khách thường bị nhầm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 207. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

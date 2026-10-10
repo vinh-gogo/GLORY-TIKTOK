@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: tenant
 lemma: tenant
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- real-estate-construction
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- housing-property
 senses:
 - id: tenant-1
   meaning_vi: Người thuê nhà, người hoặc công ty thuê mặt bằng kinh doanh
   note_vi: Đối tác ký kết hợp đồng thuê với chủ nhà (landlord).
+collocations:
+- phrase: prospective tenant
+  meaning_vi: người thuê nhà tiềm năng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: commercial tenant
+  meaning_vi: đơn vị thuê mặt bằng thương mại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: tenant rights
+  meaning_vi: quyền lợi của người đi thuê nhà
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: renter
+  meaning_vi: người thuê nhà
+- word: occupant
+  meaning_vi: người cư ngụ, sử dụng
 confused_words:
 - word: landlord
   ipa: /ˈlændlɔːrd/
   difference_vi: Tenant là người đi thuê; landlord là chủ nhà cho thuê.
 confusing_meanings:
 - difference_vi: Prospective tenant = người thuê tiềm năng; commercial tenant = doanh nghiệp thuê mặt bằng.
-collocations:
-- phrase: prospective tenant
-  meaning_vi: người thuê nhà tiềm năng
-  evidence: corpus
-- phrase: commercial tenant
-  meaning_vi: đơn vị thuê mặt bằng thương mại
-  evidence: corpus
-- phrase: tenant rights
-  meaning_vi: quyền lợi của người đi thuê nhà
-  evidence: corpus
-synonyms:
-- word: renter
-  meaning_vi: người thuê nhà
-- word: occupant
-  meaning_vi: người cư ngụ, sử dụng
 examples:
 - en: All prospective tenants must undergo credit checks before the lease can be finalized.
   vi: Tất cả những người thuê tiềm năng đều phải trải qua kiểm tra tín dụng trước khi hợp đồng thuê có thể được chốt.
@@ -50,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

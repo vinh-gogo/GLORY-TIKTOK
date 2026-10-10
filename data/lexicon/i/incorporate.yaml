@@ -1,0 +1,26 @@
+schema_version: 3
+id: incorporate
+lemma: incorporate
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈkɔrpɚˌeɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: kết hợp, đưa vào; thành lập công ty
+  id: incorporate-1
+examples:
+- en: We will incorporate your suggestions into the final design.
+  vi: Chúng tôi sẽ đưa các đề xuất của bạn vào bản thiết kế cuối cùng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2134. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

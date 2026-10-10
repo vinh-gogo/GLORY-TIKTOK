@@ -1,0 +1,26 @@
+schema_version: 3
+id: quite
+lemma: quite
+pos:
+- adverb
+ipa:
+  us: /kwaɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: khá, hoàn toàn
+  id: quite-1
+examples:
+- en: The seminar was quite useful, and many attendees took detailed notes.
+  vi: Buổi hội thảo khá hữu ích, và nhiều người tham dự đã ghi chép chi tiết.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 277. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

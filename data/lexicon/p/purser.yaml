@@ -1,0 +1,26 @@
+schema_version: 3
+id: purser
+lemma: purser
+pos:
+- noun
+ipa:
+  us: /ˈpɝsɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- travel
+senses:
+- meaning_vi: trưởng tiếp viên, nhân viên phụ trách hành khách (trên tàu, máy bay)
+  id: purser-1
+examples:
+- en: The purser announced that the flight would land about ten minutes early.
+  vi: Trưởng tiếp viên thông báo chuyến bay sẽ hạ cánh sớm khoảng mười phút.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1005. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

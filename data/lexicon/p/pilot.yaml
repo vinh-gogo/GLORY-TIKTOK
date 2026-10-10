@@ -1,0 +1,27 @@
+schema_version: 3
+id: pilot
+lemma: pilot
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈpaɪlət/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: phi công; thí điểm
+  id: pilot-1
+examples:
+- en: The pilot announced that the flight would land ten minutes early.
+  vi: Phi công thông báo chuyến bay sẽ hạ cánh sớm mười phút.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1796. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

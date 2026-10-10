@@ -1,0 +1,26 @@
+schema_version: 3
+id: negative
+lemma: negative
+pos:
+- adjective
+ipa:
+  us: /ˈnɛɡətɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tiêu cực, âm
+  id: negative-1
+examples:
+- en: The article had a negative effect on the company's public image.
+  vi: Bài báo đã có tác động tiêu cực đến hình ảnh công chúng của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1086. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

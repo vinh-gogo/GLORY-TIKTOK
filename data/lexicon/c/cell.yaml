@@ -1,0 +1,27 @@
+schema_version: 3
+id: cell
+lemma: cell
+pos:
+- noun
+ipa:
+  us: /sɛl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: tế bào; ô (bảng tính); pin
+  id: cell-1
+examples:
+- en: Click on the cell in the spreadsheet where you want the total.
+  vi: Nhấp vào ô trong bảng tính nơi bạn muốn hiển thị tổng số.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Nhiều nghĩa (tế bào, ô bảng tính, phòng giam); chọn nghĩa phổ thông — Mục từ
+    NGSL hạng 629. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

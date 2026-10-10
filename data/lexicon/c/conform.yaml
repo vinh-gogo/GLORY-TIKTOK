@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: conform
 lemma: conform
 pos:
@@ -9,34 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- legal-compliance
-- production-quality-control
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
+- manufacturing
 senses:
 - id: conform-1
   meaning_vi: Phù hợp với, ăn khớp với quy chuẩn kỹ thuật hoặc thông lệ xã hội
   note_vi: 'Đi kèm giới từ to/with: conform to specifications / international standards.'
-confused_words:
-- word: confirm
-  ipa: /kənˈfɜːrm/
-  difference_vi: Confirm là xác nhận kiểm tra lại thông tin (/ɜːr/); conform là tuân thủ phù hợp với tiêu chuẩn (/ɔːr/).
-confusing_meanings:
-- difference_vi: Conform to safety standards = phù hợp tiêu chuẩn an toàn; conform to social norms = thuận theo chuẩn mực
-    xã hội.
 collocations:
 - phrase: conform to safety standards
   meaning_vi: phù hợp với các tiêu chuẩn an toàn
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: conform with specifications
   meaning_vi: ăn khớp với thông số kỹ thuật
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: fail to conform
   meaning_vi: không đáp ứng chuẩn mực quy định
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: match
   meaning_vi: khớp với
@@ -44,6 +44,13 @@ synonyms:
   meaning_vi: vừa vặn, phù hợp
 - word: comply
   meaning_vi: tuân theo
+confused_words:
+- word: confirm
+  ipa: /kənˈfɜːrm/
+  difference_vi: Confirm là xác nhận kiểm tra lại thông tin (/ɜːr/); conform là tuân thủ phù hợp với tiêu chuẩn (/ɔːr/).
+confusing_meanings:
+- difference_vi: Conform to safety standards = phù hợp tiêu chuẩn an toàn; conform to social norms = thuận theo chuẩn mực
+    xã hội.
 examples:
 - en: All manufactured parts must conform to rigorous international quality specifications.
   vi: Tất cả các bộ phận được sản xuất phải đáp ứng phù hợp với các thông số kỹ thuật chất lượng quốc tế khắt khe.
@@ -55,6 +62,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

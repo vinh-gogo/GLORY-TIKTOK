@@ -1,0 +1,26 @@
+schema_version: 3
+id: air
+lemma: air
+pos:
+- noun
+ipa:
+  us: /ɛr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: không khí
+  id: air-1
+examples:
+- en: The new system keeps the air in the office clean and fresh.
+  vi: Hệ thống mới giữ cho không khí trong văn phòng sạch và trong lành.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 542. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

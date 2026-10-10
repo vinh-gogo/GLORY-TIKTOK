@@ -1,0 +1,26 @@
+schema_version: 3
+id: piece
+lemma: piece
+pos:
+- noun
+ipa:
+  us: /pis/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mảnh, miếng; một món
+  id: piece-1
+examples:
+- en: The shop sells each piece of furniture at a reasonable price.
+  vi: Cửa hàng bán từng món đồ nội thất với giá hợp lý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 608. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

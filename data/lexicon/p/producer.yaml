@@ -1,0 +1,26 @@
+schema_version: 3
+id: producer
+lemma: producer
+pos:
+- noun
+ipa:
+  us: /prəˈdusɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: nhà sản xuất
+  id: producer-1
+examples:
+- en: The country is one of the largest coffee producers in the world.
+  vi: Đất nước này là một trong những nhà sản xuất cà phê lớn nhất thế giới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1804. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

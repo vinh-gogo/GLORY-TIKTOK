@@ -1,0 +1,26 @@
+schema_version: 3
+id: obvious
+lemma: obvious
+pos:
+- adjective
+ipa:
+  us: /ˈɑbviəs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: rõ ràng, hiển nhiên
+  id: obvious-1
+examples:
+- en: It was obvious from the results that the new plan was working.
+  vi: Từ kết quả có thể thấy rõ rằng kế hoạch mới đang hiệu quả.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1323. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

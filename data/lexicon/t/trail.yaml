@@ -1,0 +1,26 @@
+schema_version: 3
+id: trail
+lemma: trail
+pos:
+- noun
+ipa:
+  us: /treɪl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: đường mòn; dấu vết
+  id: trail-1
+examples:
+- en: We followed a narrow trail through the forest to the lake.
+  vi: Chúng tôi đi theo một con đường mòn hẹp xuyên rừng đến hồ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2183. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,44 @@
+# Nguồn duy nhất cho thang điểm & phân tầng từ vựng (PLAN_NEN_MONG Mục 5.6, 6).
+# Quy tắc: KHÔNG viết cứng số điểm ở template/nội dung — luôn đọc từ file này.
+schema_version: 1
+
+framework:
+  name: "TOEIC Listening & Reading — hướng dẫn ánh xạ điểm sang CEFR của ETS"
+  official_source: "https://www.ets.org/toeic"
+  # TRẠNG THÁI XÁC MINH (AGENTS.md quy tắc 2 & 11):
+  # Bảng điểm bên dưới được đối chiếu qua các nguồn thứ cấp (kết quả tìm kiếm), CHƯA đối chiếu được
+  # văn bản gốc trên ets.org (các URL thử truy cập trả 404 ngày 2026-10-10).
+  # Khi đã đối chiếu bản gốc: đổi verified_primary thành true, điền verified_date và URL cụ thể.
+  verified_primary: false
+  verified_date: null
+  checked_secondary_date: "2026-10-10"
+  disclaimer_vi: "ETS không công bố danh sách từ vựng theo từng mức điểm. Các tầng bên dưới là phân loại biên tập của Glory 01; khoảng điểm chỉ mang tính tham khảo theo hướng dẫn ánh xạ CEFR của ETS (số liệu đang chờ đối chiếu văn bản gốc)."
+
+# Ngưỡng tối thiểu theo hướng dẫn ánh xạ CEFR (tham khảo – xem trạng thái xác minh ở trên).
+cefr_reference:
+  A1: { total: [120, 224], listening_min: 60,  reading_min: 60 }
+  A2: { total: [225, 549], listening_min: 110, reading_min: 115 }
+  B1: { total: [550, 784], listening_min: 275, reading_min: 275 }
+  B2: { total: [785, 944], listening_min: 400, reading_min: 385 }
+  C1: { total: [945, 990], listening_min: 490, reading_min: 455 }
+
+# Hugo duyệt map theo thứ tự chữ cái, nên thứ tự hiển thị được khai báo riêng ở đây.
+band_order: [foundation, core, target, advanced]
+
+bands:
+  foundation:
+    label_vi: "Nền tảng"
+    cefr: A2
+    summary_vi: "Từ thông dụng, xuất hiện dày đặc trong bài thi; người mới cần nắm chắc trước."
+  core:
+    label_vi: "Cốt lõi"
+    cefr: B1
+    summary_vi: "Từ kinh doanh phổ biến nhất trong bối cảnh công sở."
+  target:
+    label_vi: "Mục tiêu"
+    cefr: B2
+    summary_vi: "Từ giúp xử lý các câu khó và đoạn đọc dài."
+  advanced:
+    label_vi: "Nâng cao"
+    cefr: C1
+    summary_vi: "Từ ít gặp hơn, sắc thái tinh tế, thường là bẫy trong bài thi."

@@ -1,0 +1,26 @@
+schema_version: 3
+id: underlie
+lemma: underlie
+pos:
+- verb
+ipa:
+  us: /ˌʌndɚˈlaɪ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: làm nền tảng cho, nằm dưới
+  id: underlie-1
+examples:
+- en: Several key principles underlie our company's customer service policy.
+  vi: Một số nguyên tắc then chốt làm nền tảng cho chính sách chăm sóc khách hàng của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2130. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

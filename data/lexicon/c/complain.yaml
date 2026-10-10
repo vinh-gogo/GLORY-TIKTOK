@@ -1,0 +1,26 @@
+schema_version: 3
+id: complain
+lemma: complain
+pos:
+- verb
+ipa:
+  us: /kəmˈpleɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: phàn nàn, khiếu nại
+  id: complain-1
+examples:
+- en: Several customers complained about the slow service at the restaurant.
+  vi: Một số khách hàng phàn nàn về dịch vụ chậm ở nhà hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1495. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

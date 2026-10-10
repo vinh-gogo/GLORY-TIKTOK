@@ -1,0 +1,26 @@
+schema_version: 3
+id: terrific
+lemma: terrific
+pos:
+- adjective
+ipa:
+  us: /tɚˈɪfɪk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: tuyệt vời, rất tốt
+  id: terrific-1
+examples:
+- en: You did a terrific job organizing the conference this year.
+  vi: Bạn đã làm rất tốt việc tổ chức hội nghị năm nay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1090. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

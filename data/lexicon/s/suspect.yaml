@@ -1,0 +1,28 @@
+schema_version: 3
+id: suspect
+lemma: suspect
+pos:
+- verb
+- noun
+ipa:
+  us: /səˈspɛkt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nghi ngờ; nghi phạm
+  id: suspect-1
+examples:
+- en: We suspect that the error was caused by a faulty program.
+  vi: Chúng tôi nghi rằng lỗi này do một chương trình bị hỏng gây ra.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/səˈspɛkt/; /ˈsʌˌspɛkt/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1490. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

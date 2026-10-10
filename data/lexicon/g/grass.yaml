@@ -1,0 +1,26 @@
+schema_version: 3
+id: grass
+lemma: grass
+pos:
+- noun
+ipa:
+  us: /ɡræs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cỏ
+  id: grass-1
+examples:
+- en: The gardener cuts the grass behind the office every week.
+  vi: Người làm vườn cắt cỏ phía sau văn phòng mỗi tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2193. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: hat
+lemma: hat
+pos:
+- noun
+ipa:
+  us: /hæt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: cái mũ
+  id: hat-1
+examples:
+- en: He wore a hat to protect himself from the strong sun.
+  vi: Anh ấy đội mũ để tránh cái nắng gắt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1750. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

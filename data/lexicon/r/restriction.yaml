@@ -1,0 +1,26 @@
+schema_version: 3
+id: restriction
+lemma: restriction
+pos:
+- noun
+ipa:
+  us: /riˈstrɪkʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự hạn chế, quy định giới hạn
+  id: restriction-1
+examples:
+- en: There is a restriction on the number of guests per room.
+  vi: Có quy định giới hạn số lượng khách trong mỗi phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2176. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

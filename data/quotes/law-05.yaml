@@ -1,0 +1,21 @@
+schema_version: 1
+id: law-05
+title_vi: Quy tắc Kế hoạch Dự phòng
+title_en: The Contingency Rule
+topic: offices
+band: core
+quote_en: Amateurs hope everything goes smoothly; seasoned professionals devise a solid contingency plan to mitigate risks.
+quote_vi: Người non trẻ hy vọng mọi thứ suôn sẻ; chuyên gia dày dạn luôn thiết lập phương án dự phòng vững chắc để giảm thiểu
+  rủi ro.
+highlights:
+- phrase: contingency plan
+  meaning_vi: kế hoạch dự phòng cho tình huống bất ngờ
+- phrase: mitigate risks
+  meaning_vi: giảm thiểu các mối nguy cơ rủi ro
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

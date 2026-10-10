@@ -1,0 +1,26 @@
+schema_version: 3
+id: election
+lemma: election
+pos:
+- noun
+ipa:
+  us: /ɪˈlɛkʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cuộc bầu cử
+  id: election-1
+examples:
+- en: The union will hold an election for a new leader in March.
+  vi: Công đoàn sẽ tổ chức bầu cử người lãnh đạo mới vào tháng Ba.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 757. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

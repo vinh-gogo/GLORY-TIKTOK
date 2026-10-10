@@ -1,0 +1,2 @@
+TOEIC Service List 1.2 (Browne, C. & Culligan, B.) và New General Service List 1.2 (Browne, C., Culligan, B. & Phillips, J.), https://www.newgeneralservicelist.com/ — Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/).
+Giấy phép đọc trực tiếp trên trang TSL và NGSL ngày 2026-10-11. Các tệp CSV không được commit; tải lại bằng `python scripts/levels/wordlists.py fetch`.

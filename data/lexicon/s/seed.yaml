@@ -1,0 +1,26 @@
+schema_version: 3
+id: seed
+lemma: seed
+pos:
+- noun
+ipa:
+  us: /sid/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: hạt giống
+  id: seed-1
+examples:
+- en: The farmer planted the seeds early in the spring.
+  vi: Người nông dân đã gieo hạt vào đầu mùa xuân.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1815. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

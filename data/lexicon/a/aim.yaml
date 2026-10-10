@@ -1,0 +1,27 @@
+schema_version: 3
+id: aim
+lemma: aim
+pos:
+- noun
+- verb
+ipa:
+  us: /eɪm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: mục tiêu; nhắm tới
+  id: aim-1
+examples:
+- en: Our aim is to reduce delivery times by twenty percent.
+  vi: Mục tiêu của chúng tôi là giảm thời gian giao hàng hai mươi phần trăm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 794. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: town
+lemma: town
+pos:
+- noun
+ipa:
+  us: /taʊn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thị trấn
+  id: town-1
+examples:
+- en: The company has opened a small branch office in a nearby town.
+  vi: Công ty đã mở một văn phòng chi nhánh nhỏ ở một thị trấn gần đó.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 364. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

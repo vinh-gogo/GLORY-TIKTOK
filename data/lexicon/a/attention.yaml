@@ -1,0 +1,26 @@
+schema_version: 3
+id: attention
+lemma: attention
+pos:
+- noun
+ipa:
+  us: /əˈtɛnʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: sự chú ý
+  id: attention-1
+examples:
+- en: Please pay attention to the new safety rules posted in the lobby.
+  vi: Vui lòng chú ý các quy tắc an toàn mới được dán ở sảnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 578. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: closet
+lemma: closet
+pos:
+- noun
+ipa:
+  us: /ˈklɑzət/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: tủ quần áo âm tường, tủ đồ
+  id: closet-1
+examples:
+- en: Each bedroom in the apartment has a large closet.
+  vi: Mỗi phòng ngủ trong căn hộ đều có một tủ quần áo lớn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 118. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

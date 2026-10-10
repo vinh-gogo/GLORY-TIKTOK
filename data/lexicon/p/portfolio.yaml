@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: portfolio
 lemma: portfolio
 pos:
@@ -9,17 +9,39 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- finance-accounting
-- marketing-advertising
-speaking_use:
-- respond-with-info
-- express-opinion
+- finance-budgeting
+- general-business
 senses:
 - id: portfolio-1
   meaning_vi: Danh mục đầu tư tài chính; danh mục các sản phẩm / dịch vụ của công ty
   note_vi: Tập hợp các tài sản đầu tư như cổ phiếu, trái phiếu hoặc bộ sản phẩm chủ lực.
+collocations:
+- phrase: investment portfolio
+  meaning_vi: danh mục đầu tư tài chính
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: product portfolio
+  meaning_vi: danh mục các sản phẩm kinh doanh
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: diversify one's portfolio
+  meaning_vi: đa dạng hóa danh mục đầu tư
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: range of products
+  meaning_vi: chuỗi các sản phẩm
+- word: collection
+  meaning_vi: bộ sưu tập
 confused_words:
 - word: profile
   ipa: /ˈproʊfaɪl/
@@ -28,21 +50,6 @@ confused_words:
 confusing_meanings:
 - difference_vi: Investment portfolio là danh mục đầu tư tài chính; design portfolio là tập tài liệu tổng hợp các dự án thiết
     kế đã làm.
-collocations:
-- phrase: investment portfolio
-  meaning_vi: danh mục đầu tư tài chính
-  evidence: corpus
-- phrase: product portfolio
-  meaning_vi: danh mục các sản phẩm kinh doanh
-  evidence: corpus
-- phrase: diversify one's portfolio
-  meaning_vi: đa dạng hóa danh mục đầu tư
-  evidence: corpus
-synonyms:
-- word: range of products
-  meaning_vi: chuỗi các sản phẩm
-- word: collection
-  meaning_vi: bộ sưu tập
 examples:
 - en: Financial advisors recommend diversifying your investment portfolio to minimize market risks.
   vi: Các chuyên gia tư vấn tài chính khuyên bạn nên đa dạng hóa danh mục đầu tư để giảm thiểu rủi ro thị trường.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,0 +1,26 @@
+schema_version: 3
+id: race
+lemma: race
+pos:
+- noun
+ipa:
+  us: /reɪs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: cuộc đua; chủng tộc
+  id: race-1
+examples:
+- en: Thousands of people joined the city charity race last Sunday.
+  vi: Hàng nghìn người đã tham gia cuộc đua từ thiện của thành phố vào Chủ nhật tuần trước.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Nhiều nghĩa (cuộc đua / chủng tộc); chọn nghĩa ''cuộc đua'' — Mục từ NGSL hạng
+    732. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM
+    theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

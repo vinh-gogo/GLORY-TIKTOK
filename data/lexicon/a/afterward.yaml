@@ -1,0 +1,26 @@
+schema_version: 3
+id: afterward
+lemma: afterward
+pos:
+- adverb
+ipa:
+  us: /ˈæftɚwɚd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sau đó
+  id: afterward-1
+examples:
+- en: We will hold a short meeting and have lunch afterward.
+  vi: Chúng tôi sẽ họp ngắn và ăn trưa sau đó.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 433. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: salesperson
+lemma: salesperson
+pos:
+- noun
+ipa:
+  us: /ˈseɪlzˌpɝsən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: nhân viên bán hàng
+  id: salesperson-1
+examples:
+- en: The salesperson showed us several models of the printer.
+  vi: Nhân viên bán hàng đã giới thiệu cho chúng tôi vài mẫu máy in.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 275. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

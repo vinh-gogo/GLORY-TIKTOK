@@ -1,0 +1,27 @@
+schema_version: 3
+id: enjoy
+lemma: enjoy
+pos:
+- verb
+ipa:
+  us: /ˌɛnˈdʒɔɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: thích thú, tận hưởng
+  id: enjoy-1
+examples:
+- en: Guests can enjoy live music in the hotel garden every evening.
+  vi: Khách có thể thưởng thức nhạc sống trong vườn khách sạn mỗi tối.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɛnˈdʒɔɪ/; /ɪnˈdʒɔɪ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 504. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

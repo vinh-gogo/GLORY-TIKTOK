@@ -1,0 +1,26 @@
+schema_version: 3
+id: i
+lemma: i
+pos:
+- pronoun
+ipa:
+  us: /aɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tôi (đại từ ngôi thứ nhất số ít)
+  id: i-1
+examples:
+- en: I will send you the revised report before noon today.
+  vi: Tôi sẽ gửi cho bạn bản báo cáo đã chỉnh sửa trước trưa nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 20. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

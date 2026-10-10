@@ -1,0 +1,27 @@
+schema_version: 3
+id: golf
+lemma: golf
+pos:
+- noun
+ipa:
+  us: /ɡɑlf/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: môn đánh gôn
+  id: golf-1
+examples:
+- en: Our director invited the clients to play golf after the long meeting.
+  vi: Giám đốc của chúng tôi mời các khách hàng chơi gôn sau cuộc họp dài.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɡɑlf/; /ɡɔlf/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2478. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

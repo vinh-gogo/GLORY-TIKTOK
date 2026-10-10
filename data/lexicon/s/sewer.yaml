@@ -1,0 +1,26 @@
+schema_version: 3
+id: sewer
+lemma: sewer
+pos:
+- noun
+ipa:
+  us: /ˈsuɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: cống thoát nước thải
+  id: sewer-1
+examples:
+- en: Workers are repairing a broken sewer pipe under the main street.
+  vi: Công nhân đang sửa một đường ống cống bị vỡ dưới con phố chính.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 944. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

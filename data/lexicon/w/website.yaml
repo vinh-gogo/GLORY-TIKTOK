@@ -1,0 +1,26 @@
+schema_version: 3
+id: website
+lemma: website
+pos:
+- noun
+ipa:
+  us: /ˈwɛbˌsaɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: trang web
+  id: website-1
+examples:
+- en: You can download the application form from our company website.
+  vi: Bạn có thể tải mẫu đơn đăng ký từ trang web của công ty chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2764. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

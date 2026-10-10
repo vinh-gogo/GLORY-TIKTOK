@@ -1,0 +1,26 @@
+schema_version: 3
+id: short
+lemma: short
+pos:
+- adjective
+ipa:
+  us: /ʃɔrt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: ngắn; thấp; thiếu
+  id: short-1
+examples:
+- en: Our manager asked for a short summary of the quarterly results.
+  vi: Quản lý của chúng tôi yêu cầu một bản tóm tắt ngắn về kết quả quý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 419. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

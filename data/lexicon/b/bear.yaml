@@ -1,0 +1,27 @@
+schema_version: 3
+id: bear
+lemma: bear
+pos:
+- verb
+ipa:
+  us: /bɛr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chịu đựng; mang, chịu (trách nhiệm)
+  id: bear-1
+examples:
+- en: The company will bear the cost of your travel expenses.
+  vi: Công ty sẽ chịu chi phí đi lại của bạn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Từ nhiều nghĩa (con gấu/chịu đựng/sinh ra); chọn nghĩa động từ phổ biến nhất
+    — Mục từ NGSL hạng 455. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

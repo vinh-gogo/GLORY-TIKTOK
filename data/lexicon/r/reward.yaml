@@ -1,0 +1,28 @@
+schema_version: 3
+id: reward
+lemma: reward
+pos:
+- noun
+- verb
+ipa:
+  us: /rɪˈwɔrd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: phần thưởng; thưởng
+  id: reward-1
+examples:
+- en: The company will reward employees who meet their yearly sales targets.
+  vi: Công ty sẽ thưởng cho những nhân viên đạt chỉ tiêu doanh số hằng năm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈwɔrd/; /riˈwɔrd/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1748. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

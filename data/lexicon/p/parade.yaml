@@ -1,0 +1,26 @@
+schema_version: 3
+id: parade
+lemma: parade
+pos:
+- noun
+ipa:
+  us: /pɚˈeɪd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: cuộc diễu hành
+  id: parade-1
+examples:
+- en: Thousands of people gathered downtown to watch the holiday parade on Saturday.
+  vi: Hàng nghìn người tụ tập ở trung tâm để xem cuộc diễu hành ngày lễ vào thứ Bảy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 610. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

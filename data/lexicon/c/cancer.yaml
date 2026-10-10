@@ -1,0 +1,26 @@
+schema_version: 3
+id: cancer
+lemma: cancer
+pos:
+- noun
+ipa:
+  us: /ˈkænsɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: bệnh ung thư
+  id: cancer-1
+examples:
+- en: Regular check-ups can help doctors find cancer at an early stage.
+  vi: Khám sức khỏe định kỳ có thể giúp bác sĩ phát hiện ung thư ở giai đoạn sớm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1357. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

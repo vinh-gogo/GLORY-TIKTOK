@@ -1,0 +1,27 @@
+schema_version: 3
+id: vice
+lemma: vice
+pos:
+- noun
+ipa:
+  us: /vaɪs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: phó (trong chức danh); thói xấu
+  id: vice-1
+examples:
+- en: The vice president will lead tomorrow's budget meeting.
+  vi: Phó chủ tịch sẽ chủ trì cuộc họp ngân sách ngày mai.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] ''vice'' đứng riêng nghĩa là ''thói xấu/tệ nạn''; nghĩa ''phó'' là tiền tố (vice-president)
+    - cần kiểm tra từ loại — Mục từ NGSL hạng 2245. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị
+    trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại,
+    chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

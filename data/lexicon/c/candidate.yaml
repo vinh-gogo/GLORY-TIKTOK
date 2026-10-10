@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: candidate
 lemma: candidate
 pos:
@@ -6,16 +6,13 @@ pos:
 ipa:
   us: /ˈkændɪdət/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- hiring
-- work
-speaking_use:
-- respond-with-info
-- respond-to-questions
-- express-opinion
+- personnel
+- offices
 senses:
 - id: candidate-1
   meaning_vi: Ứng viên sáng giá (đã được chọn vào danh sách phỏng vấn)
@@ -23,40 +20,48 @@ senses:
 collocations:
 - phrase: ideal candidate
   meaning_vi: ứng viên lý tưởng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: qualified candidate
   meaning_vi: ứng viên đủ tiêu chuẩn năng lực
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: prospective candidate
   meaning_vi: ứng viên tiềm năng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: shortlist candidates
   meaning_vi: chọn lọc ứng viên vào danh sách rút gọn
-  evidence: corpus
-confused_words:
-- word: candid
-  ipa: /ˈkændɪd/
-  meaning: thẳng thắn, bộc trực
-  kind: spelling-sound
-  difference_vi: Candidate là danh từ chỉ ứng viên; candid là tính từ mang nghĩa thành
-    thật, bộc trực.
-confusing_meanings:
-- word: applicant
-  meaning: người mới nộp hồ sơ bước đầu
-  difference_vi: Applicant là người nộp đơn đăng ký ban đầu; candidate là người đã
-    qua sàng lọc để vào vòng tuyển chọn chính thức.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: applicant
   meaning_vi: người xin việc
 - word: nominee
   meaning_vi: người được đề cử
+confused_words:
+- word: candid
+  ipa: /ˈkændɪd/
+  meaning: thẳng thắn, bộc trực
+  kind: spelling-sound
+  difference_vi: Candidate là danh từ chỉ ứng viên; candid là tính từ mang nghĩa thành thật, bộc trực.
+confusing_meanings:
+- word: applicant
+  meaning: người mới nộp hồ sơ bước đầu
+  difference_vi: Applicant là người nộp đơn đăng ký ban đầu; candidate là người đã qua sàng lọc để vào vòng tuyển chọn chính
+    thức.
 examples:
-- en: She is considered the most qualified candidate for the senior project manager
-    vacancy.
-  vi: Cô ấy được đánh giá là ứng viên đủ tiêu chuẩn nhất cho vị trí trưởng nhóm quản
-    lý dự án còn trống.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈkæn/. Âm đuôi là schwa /-dət/
-  ngắn gọn, bật nhẹ âm /t/ cuối.
+- en: She is considered the most qualified candidate for the senior project manager vacancy.
+  vi: Cô ấy được đánh giá là ứng viên đủ tiêu chuẩn nhất cho vị trí trưởng nhóm quản lý dự án còn trống.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈkæn/. Âm đuôi là schwa /-dət/ ngắn gọn, bật nhẹ âm /t/ cuối.
 review:
   status: ai_cross_checked
   checked_by:

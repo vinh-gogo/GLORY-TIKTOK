@@ -1,0 +1,26 @@
+schema_version: 3
+id: slope
+lemma: slope
+pos:
+- noun
+ipa:
+  us: /sloʊp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: dốc, sườn dốc
+  id: slope-1
+examples:
+- en: The hotel stands on a gentle slope overlooking the valley.
+  vi: Khách sạn nằm trên một sườn dốc thoai thoải nhìn ra thung lũng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2696. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

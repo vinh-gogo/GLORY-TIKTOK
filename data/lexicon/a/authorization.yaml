@@ -1,0 +1,26 @@
+schema_version: 3
+id: authorization
+lemma: authorization
+pos:
+- noun
+ipa:
+  us: /ˌɔθɚəˈzeɪʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự cho phép, sự ủy quyền
+  id: authorization-1
+examples:
+- en: You need written authorization from your supervisor to order new equipment.
+  vi: Bạn cần có sự ủy quyền bằng văn bản từ người giám sát để đặt thiết bị mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 661. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

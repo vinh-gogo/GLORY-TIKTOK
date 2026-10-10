@@ -1,0 +1,26 @@
+schema_version: 3
+id: colorful
+lemma: colorful
+pos:
+- adjective
+ipa:
+  us: /ˈkʌlɚfəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: nhiều màu sắc, sặc sỡ
+  id: colorful-1
+examples:
+- en: The colorful posters on the wall made the waiting room more cheerful.
+  vi: Những tấm áp phích nhiều màu trên tường làm phòng chờ vui tươi hơn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 568. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

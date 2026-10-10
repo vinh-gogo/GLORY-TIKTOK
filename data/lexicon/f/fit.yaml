@@ -1,0 +1,27 @@
+schema_version: 3
+id: fit
+lemma: fit
+pos:
+- verb
+- adjective
+ipa:
+  us: /fɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: vừa vặn; phù hợp; khỏe mạnh
+  id: fit-1
+examples:
+- en: These shoes do not fit me, so I want to exchange them.
+  vi: Đôi giày này không vừa với tôi nên tôi muốn đổi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 700. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

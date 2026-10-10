@@ -1,0 +1,26 @@
+schema_version: 3
+id: shopper
+lemma: shopper
+pos:
+- noun
+ipa:
+  us: /ˈʃɑpɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: người mua sắm
+  id: shopper-1
+examples:
+- en: Shoppers lined up outside the store before it opened.
+  vi: Những người mua sắm xếp hàng bên ngoài cửa hàng trước giờ mở cửa.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 183. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

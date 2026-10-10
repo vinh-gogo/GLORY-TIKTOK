@@ -1,0 +1,26 @@
+schema_version: 3
+id: pan
+lemma: pan
+pos:
+- noun
+ipa:
+  us: /pæn/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: cái chảo, xoong
+  id: pan-1
+examples:
+- en: The chef heated a large pan before adding the vegetables and oil.
+  vi: Đầu bếp làm nóng một chiếc chảo lớn trước khi cho rau và dầu vào.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 728. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

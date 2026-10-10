@@ -1,0 +1,26 @@
+schema_version: 3
+id: idea
+lemma: idea
+pos:
+- noun
+ipa:
+  us: /aɪˈdiə/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: ý tưởng, ý kiến
+  id: idea-1
+examples:
+- en: She presented a creative idea for reducing our packaging costs.
+  vi: Cô ấy đã trình bày một ý tưởng sáng tạo để giảm chi phí đóng gói của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 251. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

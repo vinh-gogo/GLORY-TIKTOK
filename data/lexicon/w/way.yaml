@@ -1,0 +1,26 @@
+schema_version: 3
+id: way
+lemma: way
+pos:
+- noun
+ipa:
+  us: /weɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cách, phương pháp; con đường
+  id: way-1
+examples:
+- en: What is the quickest way to get to the convention center?
+  vi: Cách nhanh nhất để đến trung tâm hội nghị là gì?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 80. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

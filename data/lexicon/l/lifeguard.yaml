@@ -1,0 +1,26 @@
+schema_version: 3
+id: lifeguard
+lemma: lifeguard
+pos:
+- noun
+ipa:
+  us: /ˈlaɪfˌɡɑrd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: nhân viên cứu hộ (bể bơi, bãi biển)
+  id: lifeguard-1
+examples:
+- en: A lifeguard watched the swimmers closely at the hotel pool.
+  vi: Một nhân viên cứu hộ theo dõi sát những người bơi ở hồ bơi khách sạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1148. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

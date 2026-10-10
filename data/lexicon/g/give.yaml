@@ -1,0 +1,26 @@
+schema_version: 3
+id: give
+lemma: give
+pos:
+- verb
+ipa:
+  us: /ɡɪv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đưa, cho; trao
+  id: give-1
+examples:
+- en: The receptionist will give you a map of the building.
+  vi: Nhân viên lễ tân sẽ đưa cho bạn một bản đồ của tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 77. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

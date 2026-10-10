@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: attorney
 lemma: attorney
 pos:
@@ -9,32 +9,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- legal-compliance
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- general-business
 senses:
 - id: attorney-1
   meaning_vi: Luật sư đại diện pháp lý, người được ủy quyền hành động trước pháp luật
   note_vi: Từ thông dụng tại Mỹ tương đương lawyer (lawyer là người có bằng luật; attorney là người đại diện trước tòa).
-confused_words:
-- word: lawyer
-  ipa: /ˈlɔːjər/
-  difference_vi: Lawyer là danh từ chung chỉ giới luật gia; attorney là luật sư đại diện thân chủ trong vụ việc cụ thể.
-confusing_meanings:
-- difference_vi: Corporate attorney = luật sư doanh nghiệp; power of attorney = giấy ủy quyền pháp lý.
 collocations:
 - phrase: consult an attorney
   meaning_vi: tham vấn ý kiến luật sư
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: corporate attorney
   meaning_vi: luật sư đại diện cho doanh nghiệp
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: power of attorney
   meaning_vi: giấy ủy quyền pháp lý
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: lawyer
   meaning_vi: luật sư
@@ -42,6 +43,12 @@ synonyms:
   meaning_vi: cố vấn pháp luật
 - word: barrister
   meaning_vi: luật sư tranh tụng (Anh)
+confused_words:
+- word: lawyer
+  ipa: /ˈlɔːjər/
+  difference_vi: Lawyer là danh từ chung chỉ giới luật gia; attorney là luật sư đại diện thân chủ trong vụ việc cụ thể.
+confusing_meanings:
+- difference_vi: Corporate attorney = luật sư doanh nghiệp; power of attorney = giấy ủy quyền pháp lý.
 examples:
 - en: We consulted a specialized corporate attorney before signing the international licensing agreement.
   vi: Chúng tôi đã tham vấn một luật sư doanh nghiệp chuyên ngành trước khi ký thỏa thuận cấp phép quốc tế.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

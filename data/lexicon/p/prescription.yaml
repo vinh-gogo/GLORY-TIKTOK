@@ -1,0 +1,26 @@
+schema_version: 3
+id: prescription
+lemma: prescription
+pos:
+- noun
+ipa:
+  us: /prəˈskrɪpʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: đơn thuốc
+  id: prescription-1
+examples:
+- en: You need a prescription from a doctor to buy this medicine.
+  vi: Bạn cần có đơn thuốc của bác sĩ để mua loại thuốc này.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 270. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

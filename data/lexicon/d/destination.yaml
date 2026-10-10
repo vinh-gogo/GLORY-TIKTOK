@@ -1,0 +1,27 @@
+schema_version: 3
+id: destination
+lemma: destination
+pos:
+- noun
+ipa:
+  us: /ˌdɛstəˈneɪʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: điểm đến
+  id: destination-1
+examples:
+- en: Paris is one of the most popular tourist destinations in Europe.
+  vi: Paris là một trong những điểm đến du lịch phổ biến nhất ở châu Âu.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌdɛstəˈneɪʃən/; /ˌdɛstɪˈneɪʃən/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 63. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

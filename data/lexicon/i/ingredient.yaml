@@ -1,0 +1,26 @@
+schema_version: 3
+id: ingredient
+lemma: ingredient
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈɡridiənt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: nguyên liệu, thành phần
+  id: ingredient-1
+examples:
+- en: The chef uses only fresh ingredients from local farms.
+  vi: Đầu bếp chỉ dùng nguyên liệu tươi từ các nông trại địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 144. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

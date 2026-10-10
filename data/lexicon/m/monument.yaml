@@ -1,0 +1,27 @@
+schema_version: 3
+id: monument
+lemma: monument
+pos:
+- noun
+ipa:
+  us: /ˈmɑnjumənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- travel
+senses:
+- meaning_vi: tượng đài, công trình tưởng niệm
+  id: monument-1
+examples:
+- en: Tourists visit the old monument in the main square every day.
+  vi: Du khách đến thăm tượng đài cổ ở quảng trường chính mỗi ngày.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈmɑnjumənt/; /ˈmɑnjəmənt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1150. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

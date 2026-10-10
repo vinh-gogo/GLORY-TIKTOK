@@ -1,0 +1,26 @@
+schema_version: 3
+id: star
+lemma: star
+pos:
+- noun
+ipa:
+  us: /stɑr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: ngôi sao
+  id: star-1
+examples:
+- en: The famous film star attended the opening of the new theater downtown.
+  vi: Ngôi sao điện ảnh nổi tiếng đã tham dự lễ khai trương rạp hát mới ở trung tâm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 846. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

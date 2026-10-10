@@ -1,0 +1,26 @@
+schema_version: 3
+id: intern
+lemma: intern
+pos:
+- noun
+ipa:
+  us: /ˈɪntɚn/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: thực tập sinh
+  id: intern-1
+examples:
+- en: The marketing team hired a summer intern to help with research.
+  vi: Nhóm tiếp thị đã thuê một thực tập sinh hè để hỗ trợ nghiên cứu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 307. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

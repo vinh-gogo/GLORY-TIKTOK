@@ -1,0 +1,26 @@
+schema_version: 3
+id: motivate
+lemma: motivate
+pos:
+- verb
+ipa:
+  us: /ˈmoʊtəˌveɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: thúc đẩy, tạo động lực
+  id: motivate-1
+examples:
+- en: A fair bonus system can motivate employees to reach their sales targets.
+  vi: Một hệ thống thưởng công bằng có thể thúc đẩy nhân viên đạt chỉ tiêu bán hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2441. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: keen
+lemma: keen
+pos:
+- adjective
+ipa:
+  us: /kin/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: nhiệt tình, say mê
+  id: keen-1
+examples:
+- en: She is keen to learn new skills and take on more responsibility.
+  vi: Cô ấy rất háo hức học kỹ năng mới và nhận thêm trách nhiệm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2364. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

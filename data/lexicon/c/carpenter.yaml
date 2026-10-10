@@ -1,0 +1,26 @@
+schema_version: 3
+id: carpenter
+lemma: carpenter
+pos:
+- noun
+ipa:
+  us: /ˈkɑrpəntɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: thợ mộc
+  id: carpenter-1
+examples:
+- en: The carpenter built new shelves for the storage room.
+  vi: Người thợ mộc đã làm các kệ mới cho phòng kho.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 438. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

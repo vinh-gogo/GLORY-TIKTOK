@@ -1,0 +1,26 @@
+schema_version: 3
+id: influential
+lemma: influential
+pos:
+- adjective
+ipa:
+  us: /ˌɪnfluˈɛnʃəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: có ảnh hưởng lớn
+  id: influential-1
+examples:
+- en: She is an influential leader whose opinions are respected throughout the industry.
+  vi: Bà là một nhà lãnh đạo có ảnh hưởng lớn, ý kiến của bà được tôn trọng trong ngành.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 778. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

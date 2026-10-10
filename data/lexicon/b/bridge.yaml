@@ -1,0 +1,26 @@
+schema_version: 3
+id: bridge
+lemma: bridge
+pos:
+- noun
+ipa:
+  us: /brɪdʒ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: cây cầu
+  id: bridge-1
+examples:
+- en: The new bridge will reduce travel time between the two cities.
+  vi: Cây cầu mới sẽ giảm thời gian đi lại giữa hai thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1546. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

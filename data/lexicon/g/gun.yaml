@@ -1,0 +1,26 @@
+schema_version: 3
+id: gun
+lemma: gun
+pos:
+- noun
+ipa:
+  us: /ɡʌn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: súng
+  id: gun-1
+examples:
+- en: Guards at the building are not allowed to carry a gun.
+  vi: Các nhân viên bảo vệ ở tòa nhà không được phép mang súng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1442. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: wish
+lemma: wish
+pos:
+- verb
+- noun
+ipa:
+  us: /wɪʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mong muốn, ước
+  id: wish-1
+examples:
+- en: We wish to thank all our customers for their continued support.
+  vi: Chúng tôi xin cảm ơn tất cả khách hàng đã tiếp tục ủng hộ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 524. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

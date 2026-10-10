@@ -1,0 +1,26 @@
+schema_version: 3
+id: basement
+lemma: basement
+pos:
+- noun
+ipa:
+  us: /ˈbeɪsmənt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: tầng hầm
+  id: basement-1
+examples:
+- en: We store old documents in the basement of the main office building.
+  vi: Chúng tôi cất tài liệu cũ ở tầng hầm của tòa nhà văn phòng chính.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 627. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

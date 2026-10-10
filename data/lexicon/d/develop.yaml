@@ -1,0 +1,26 @@
+schema_version: 3
+id: develop
+lemma: develop
+pos:
+- verb
+ipa:
+  us: /dɪˈvɛləp/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: phát triển; xây dựng
+  id: develop-1
+examples:
+- en: Our engineers are developing a new mobile app for customers.
+  vi: Các kỹ sư của chúng tôi đang phát triển một ứng dụng di động mới cho khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 350. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

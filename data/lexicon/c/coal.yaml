@@ -1,0 +1,26 @@
+schema_version: 3
+id: coal
+lemma: coal
+pos:
+- noun
+ipa:
+  us: /koʊl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: than đá
+  id: coal-1
+examples:
+- en: The power station still burns coal to produce electricity.
+  vi: Nhà máy điện vẫn đốt than đá để sản xuất điện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2430. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

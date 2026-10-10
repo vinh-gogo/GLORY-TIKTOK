@@ -1,0 +1,26 @@
+schema_version: 3
+id: poetry
+lemma: poetry
+pos:
+- noun
+ipa:
+  us: /ˈpoʊətri/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: thơ ca
+  id: poetry-1
+examples:
+- en: She enjoys reading poetry in the quiet hours before she goes to bed.
+  vi: Cô ấy thích đọc thơ vào những giờ yên tĩnh trước khi đi ngủ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2533. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

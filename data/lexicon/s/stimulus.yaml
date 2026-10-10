@@ -1,0 +1,26 @@
+schema_version: 3
+id: stimulus
+lemma: stimulus
+pos:
+- noun
+ipa:
+  us: /ˈstɪmjələs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sự kích thích, yếu tố thúc đẩy
+  id: stimulus-1
+examples:
+- en: Lower interest rates provided a stimulus to the housing market this year.
+  vi: Lãi suất thấp hơn đã tạo động lực kích thích thị trường nhà ở năm nay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1180. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

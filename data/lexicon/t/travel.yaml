@@ -1,0 +1,27 @@
+schema_version: 3
+id: travel
+lemma: travel
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈtrævəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: đi lại, du lịch
+  id: travel-1
+examples:
+- en: Our sales team must travel to several cities every month.
+  vi: Đội kinh doanh của chúng tôi phải đi đến nhiều thành phố mỗi tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 503. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

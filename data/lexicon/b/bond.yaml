@@ -1,0 +1,27 @@
+schema_version: 3
+id: bond
+lemma: bond
+pos:
+- noun
+ipa:
+  us: /bɑnd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: trái phiếu; mối liên kết
+  id: bond-1
+examples:
+- en: The government issued a new bond to raise money for the project.
+  vi: Chính phủ đã phát hành một trái phiếu mới để huy động vốn cho dự án.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa (trái phiếu, mối gắn kết, keo dán); cần xác nhận nghĩa chính — Mục
+    từ NGSL hạng 1513. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

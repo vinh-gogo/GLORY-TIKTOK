@@ -1,0 +1,24 @@
+schema_version: 1
+id: law-12
+title_vi: Quy tắc Trách nhiệm Toàn diện
+title_en: The Ownership Law
+topic: offices
+band: core
+quote_en: When an operation encounters a setback, mediocre minds assign blame; true professionals take full responsibility
+  and troubleshoot immediately.
+quote_vi: Khi hoạt động gặp phải trở ngại, kẻ tầm thường sẽ tìm người để đổ lỗi; chuyên gia chân chính sẽ nhận trọn trách
+  nhiệm và bắt tay vào khắc phục ngay.
+highlights:
+- phrase: take full responsibility
+  meaning_vi: chịu hoàn toàn trách nhiệm
+- phrase: troubleshoot
+  meaning_vi: rà soát và xử lý sự cố kỹ thuật
+- phrase: encounter a setback
+  meaning_vi: gặp phải trở ngại, sự cố bất ngờ
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

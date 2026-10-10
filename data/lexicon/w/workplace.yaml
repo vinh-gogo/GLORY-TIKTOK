@@ -1,0 +1,26 @@
+schema_version: 3
+id: workplace
+lemma: workplace
+pos:
+- noun
+ipa:
+  us: /ˈwɝkˌpleɪs/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: nơi làm việc
+  id: workplace-1
+examples:
+- en: The company wants to create a safe and friendly workplace.
+  vi: Công ty muốn tạo ra một nơi làm việc an toàn và thân thiện.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 147. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

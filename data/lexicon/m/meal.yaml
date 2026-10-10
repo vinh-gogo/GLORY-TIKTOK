@@ -1,0 +1,26 @@
+schema_version: 3
+id: meal
+lemma: meal
+pos:
+- noun
+ipa:
+  us: /mil/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: bữa ăn
+  id: meal-1
+examples:
+- en: The hotel offers a free meal to guests staying more than three nights.
+  vi: Khách sạn tặng một bữa ăn miễn phí cho khách ở hơn ba đêm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1250. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

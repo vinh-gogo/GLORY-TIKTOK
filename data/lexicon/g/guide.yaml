@@ -1,0 +1,27 @@
+schema_version: 3
+id: guide
+lemma: guide
+pos:
+- noun
+- verb
+ipa:
+  us: /ɡaɪd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: hướng dẫn viên; hướng dẫn
+  id: guide-1
+examples:
+- en: Our tour guide explained the history of the old castle very clearly.
+  vi: Hướng dẫn viên của chúng tôi giải thích lịch sử của tòa lâu đài cổ rất rõ ràng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1146. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

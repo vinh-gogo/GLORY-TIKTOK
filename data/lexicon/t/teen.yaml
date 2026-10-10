@@ -1,0 +1,26 @@
+schema_version: 3
+id: teen
+lemma: teen
+pos:
+- noun
+ipa:
+  us: /tin/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: thanh thiếu niên (13–19 tuổi)
+  id: teen-1
+examples:
+- en: The store has a special section for teens who like fashion.
+  vi: Cửa hàng có một khu riêng cho thanh thiếu niên thích thời trang.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 878. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

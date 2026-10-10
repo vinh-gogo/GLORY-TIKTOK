@@ -1,0 +1,26 @@
+schema_version: 3
+id: ball
+lemma: ball
+pos:
+- noun
+ipa:
+  us: /bɔl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: quả bóng
+  id: ball-1
+examples:
+- en: The children played with a ball in the garden during the picnic.
+  vi: Bọn trẻ chơi với một quả bóng trong vườn trong buổi dã ngoại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1201. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

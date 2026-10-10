@@ -1,0 +1,26 @@
+schema_version: 3
+id: burden
+lemma: burden
+pos:
+- noun
+ipa:
+  us: /ˈbɝdən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: gánh nặng
+  id: burden-1
+examples:
+- en: Rising rent is a heavy burden for many small businesses.
+  vi: Tiền thuê tăng cao là gánh nặng lớn đối với nhiều doanh nghiệp nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2286. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

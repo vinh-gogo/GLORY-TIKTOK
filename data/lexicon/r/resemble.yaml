@@ -1,0 +1,27 @@
+schema_version: 3
+id: resemble
+lemma: resemble
+pos:
+- verb
+ipa:
+  us: /rɪˈzɛmbəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: giống, trông giống
+  id: resemble-1
+examples:
+- en: The new model does not resemble any of our earlier products.
+  vi: Mẫu mới không giống bất kỳ sản phẩm trước đây nào của chúng tôi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈzɛmbəl/; /riˈzɛmbəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1246. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

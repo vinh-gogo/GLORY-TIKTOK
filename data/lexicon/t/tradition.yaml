@@ -1,0 +1,26 @@
+schema_version: 3
+id: tradition
+lemma: tradition
+pos:
+- noun
+ipa:
+  us: /trəˈdɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: truyền thống
+  id: tradition-1
+examples:
+- en: It is a company tradition to hold a party at the end of the year.
+  vi: Tổ chức tiệc vào cuối năm là một truyền thống của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1338. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

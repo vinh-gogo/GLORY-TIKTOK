@@ -1,0 +1,26 @@
+schema_version: 3
+id: govern
+lemma: govern
+pos:
+- verb
+ipa:
+  us: /ˈɡʌvɚn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: cai trị, điều hành, chi phối
+  id: govern-1
+examples:
+- en: Strict rules govern how the company can use customer information.
+  vi: Những quy định nghiêm ngặt chi phối cách công ty được sử dụng thông tin khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2471. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

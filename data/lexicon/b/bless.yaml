@@ -1,0 +1,26 @@
+schema_version: 3
+id: bless
+lemma: bless
+pos:
+- verb
+ipa:
+  us: /blɛs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: ban phúc, chúc phúc
+  id: bless-1
+examples:
+- en: The priest asked the guests to bless the newly married couple.
+  vi: Vị linh mục mời các vị khách chúc phúc cho cặp vợ chồng mới cưới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2601. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

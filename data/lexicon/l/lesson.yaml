@@ -1,0 +1,26 @@
+schema_version: 3
+id: lesson
+lemma: lesson
+pos:
+- noun
+ipa:
+  us: /ˈlɛsən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bài học, buổi học
+  id: lesson-1
+examples:
+- en: She takes an English lesson every Tuesday evening after work.
+  vi: Cô ấy học một buổi tiếng Anh vào mỗi tối thứ Ba sau giờ làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1234. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

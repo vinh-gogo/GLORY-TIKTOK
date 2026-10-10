@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: discard
 lemma: discard
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- production-quality-control
-- management-operations
-speaking_use:
-- respond-to-questions
-- express-opinion
+- manufacturing
+- offices
 senses:
 - id: discard-1
   meaning_vi: Vứt bỏ, loại bỏ các vật phẩm phế liệu hoặc tài liệu không còn dùng được
   note_vi: Bỏ đi những thứ không còn giá trị sử dụng.
-confused_words:
-- word: discount
-  ipa: /ˈdɪskaʊnt/
-  difference_vi: Discount là giảm giá; discard là vứt bỏ, thải loại đi.
-confusing_meanings:
-- difference_vi: Discard damaged materials = loại bỏ vật liệu hư hỏng; discard an idea = từ bỏ một ý tưởng.
 collocations:
 - phrase: discard damaged goods
   meaning_vi: vứt bỏ hàng hóa đã bị hư hại
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: properly discard
   meaning_vi: thải bỏ đúng cách theo quy định
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: discard waste
   meaning_vi: vứt bỏ rác thải sản xuất
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: throw away
   meaning_vi: vứt đi
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: tiêu hủy, xử lý rác
 - word: get rid of
   meaning_vi: loại trừ, dẹp bỏ
+confused_words:
+- word: discount
+  ipa: /ˈdɪskaʊnt/
+  difference_vi: Discount là giảm giá; discard là vứt bỏ, thải loại đi.
+confusing_meanings:
+- difference_vi: Discard damaged materials = loại bỏ vật liệu hư hỏng; discard an idea = từ bỏ một ý tưởng.
 examples:
 - en: Hazardous chemicals must be discarded in designated containment barrels according to safety laws.
   vi: Hóa chất nguy hại phải được thải bỏ vào các thùng chứa chuyên dụng theo đúng luật an toàn.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,0 +1,27 @@
+schema_version: 3
+id: break
+lemma: break
+pos:
+- noun
+- verb
+ipa:
+  us: /breɪk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: giờ nghỉ; làm vỡ, hỏng
+  id: break-1
+examples:
+- en: The staff take a short break at ten thirty every morning.
+  vi: Nhân viên nghỉ giải lao ngắn vào lúc mười giờ ba mươi mỗi buổi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 368. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

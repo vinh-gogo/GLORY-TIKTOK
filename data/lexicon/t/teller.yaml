@@ -1,0 +1,26 @@
+schema_version: 3
+id: teller
+lemma: teller
+pos:
+- noun
+ipa:
+  us: /ˈtɛlɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: nhân viên giao dịch ngân hàng
+  id: teller-1
+examples:
+- en: The bank teller counted the cash and gave me a receipt.
+  vi: Nhân viên giao dịch ngân hàng đếm tiền mặt và đưa cho tôi biên lai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 795. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

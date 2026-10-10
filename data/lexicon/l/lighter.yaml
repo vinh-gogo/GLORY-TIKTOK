@@ -1,0 +1,27 @@
+schema_version: 3
+id: lighter
+lemma: lighter
+pos:
+- noun
+ipa:
+  us: /ˈlaɪtɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: cái bật lửa
+  id: lighter-1
+examples:
+- en: He could not find his lighter to light the candles on the cake.
+  vi: Anh ấy không tìm thấy cái bật lửa để thắp nến trên bánh.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Dạng ''lighter'' cũng là so sánh hơn của light (nhẹ hơn); chọn nghĩa danh từ
+    bật lửa, cần xác nhận. — Mục từ TSL hạng 992. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí
+    dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ
+    đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: unpaid
+lemma: unpaid
+pos:
+- adjective
+ipa:
+  us: /ənˈpeɪd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: chưa thanh toán; không được trả lương
+  id: unpaid-1
+examples:
+- en: We sent a reminder about the unpaid invoice from last month.
+  vi: Chúng tôi đã gửi lời nhắc về hóa đơn chưa thanh toán từ tháng trước.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1092. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

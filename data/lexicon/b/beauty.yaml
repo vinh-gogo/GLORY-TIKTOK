@@ -1,0 +1,26 @@
+schema_version: 3
+id: beauty
+lemma: beauty
+pos:
+- noun
+ipa:
+  us: /ˈbjuti/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: vẻ đẹp, sắc đẹp
+  id: beauty-1
+examples:
+- en: Visitors come to the island for its natural beauty and quiet beaches.
+  vi: Du khách đến hòn đảo vì vẻ đẹp tự nhiên và những bãi biển yên tĩnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1922. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

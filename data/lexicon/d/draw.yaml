@@ -1,0 +1,26 @@
+schema_version: 3
+id: draw
+lemma: draw
+pos:
+- verb
+ipa:
+  us: /drɔ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: vẽ; thu hút
+  id: draw-1
+examples:
+- en: The engineer used a pencil to draw a plan of the new office.
+  vi: Kỹ sư dùng bút chì để vẽ sơ đồ của văn phòng mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 481. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

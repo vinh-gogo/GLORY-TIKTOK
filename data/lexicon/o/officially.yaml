@@ -1,0 +1,26 @@
+schema_version: 3
+id: officially
+lemma: officially
+pos:
+- adverb
+ipa:
+  us: /əˈfɪʃəli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: một cách chính thức
+  id: officially-1
+examples:
+- en: The new branch will officially open to the public next Friday.
+  vi: Chi nhánh mới sẽ chính thức mở cửa đón khách vào thứ Sáu tới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 999. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

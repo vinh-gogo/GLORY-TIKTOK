@@ -1,0 +1,27 @@
+schema_version: 3
+id: entertain
+lemma: entertain
+pos:
+- verb
+ipa:
+  us: /ˌɛntɚˈteɪn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: giải trí; chiêu đãi
+  id: entertain-1
+examples:
+- en: The company will entertain its overseas clients at a dinner on Friday.
+  vi: Công ty sẽ chiêu đãi các khách hàng nước ngoài trong một bữa tối vào thứ Sáu.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɛntɚˈteɪn/; /ˌɛnɚˈteɪn/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2491. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

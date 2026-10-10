@@ -1,0 +1,26 @@
+schema_version: 3
+id: seat
+lemma: seat
+pos:
+- noun
+ipa:
+  us: /sit/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: chỗ ngồi
+  id: seat-1
+examples:
+- en: I reserved a window seat on the morning flight to Tokyo.
+  vi: Tôi đã đặt một chỗ ngồi cạnh cửa sổ trên chuyến bay buổi sáng đến Tokyo.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 852. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

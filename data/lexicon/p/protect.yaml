@@ -1,0 +1,26 @@
+schema_version: 3
+id: protect
+lemma: protect
+pos:
+- verb
+ipa:
+  us: /prəˈtɛkt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: bảo vệ
+  id: protect-1
+examples:
+- en: Strong passwords help protect customer information from unauthorized access.
+  vi: Mật khẩu mạnh giúp bảo vệ thông tin khách hàng khỏi truy cập trái phép.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 903. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

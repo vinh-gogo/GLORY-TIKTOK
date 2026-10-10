@@ -1,0 +1,26 @@
+schema_version: 3
+id: pressure
+lemma: pressure
+pos:
+- noun
+ipa:
+  us: /ˈprɛʃɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: áp lực
+  id: pressure-1
+examples:
+- en: Many employees feel pressure when deadlines are close and tasks pile up.
+  vi: Nhiều nhân viên cảm thấy áp lực khi hạn chót đến gần và công việc dồn lại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 809. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

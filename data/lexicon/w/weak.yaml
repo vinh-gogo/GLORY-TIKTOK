@@ -1,0 +1,26 @@
+schema_version: 3
+id: weak
+lemma: weak
+pos:
+- adjective
+ipa:
+  us: /wik/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: yếu, kém
+  id: weak-1
+examples:
+- en: Weak demand caused the company's profits to fall last quarter.
+  vi: Nhu cầu yếu khiến lợi nhuận của công ty giảm trong quý trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1685. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

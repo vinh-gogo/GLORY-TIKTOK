@@ -1,0 +1,26 @@
+schema_version: 3
+id: mile
+lemma: mile
+pos:
+- noun
+ipa:
+  us: /maɪl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: dặm (đơn vị đo khoảng cách)
+  id: mile-1
+examples:
+- en: The airport is about ten miles from the city center.
+  vi: Sân bay cách trung tâm thành phố khoảng mười dặm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 777. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

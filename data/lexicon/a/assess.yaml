@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: assess
 lemma: assess
 pos:
@@ -6,58 +6,64 @@ pos:
 ipa:
   us: /əˈses/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- business
-- management
-- education
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
+- offices
+- personnel
 senses:
 - id: assess-1
   meaning_vi: Đánh giá, thẩm định (tình hình, hiệu quả, thiệt hại)
-  note_vi: Rất hay gặp khi nói về thẩm định hiệu quả dự án, đánh giá năng lực nhân
-    viên.
+  note_vi: Rất hay gặp khi nói về thẩm định hiệu quả dự án, đánh giá năng lực nhân viên.
 collocations:
 - phrase: assess performance
   meaning_vi: đánh giá hiệu quả làm việc
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: assess the damage
   meaning_vi: ước tính/thẩm định thiệt hại
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: assess the impact
   meaning_vi: đánh giá mức độ ảnh hưởng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: thoroughly assess
   meaning_vi: đánh giá một cách kỹ lưỡng
-  evidence: corpus
-confused_words:
-- word: access
-  ipa: /ˈækses/
-  meaning: sự truy cập, lối vào
-  kind: spelling-sound
-  difference_vi: Assess (động từ) nhấn âm hai mang nghĩa đánh giá; access (danh từ/động
-    từ) nhấn âm đầu mang nghĩa truy cập.
-confusing_meanings:
-- word: evaluate
-  meaning: đánh giá toàn diện dựa trên hệ thống tiêu chí
-  difference_vi: Assess thường dùng khi đo lường mức độ, quy mô hoặc giá trị thiệt
-    hại; evaluate mang tính phân tích tổng hợp chất lượng.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: evaluate
   meaning_vi: đánh giá
 - word: estimate
   meaning_vi: ước lượng
+confused_words:
+- word: access
+  ipa: /ˈækses/
+  meaning: sự truy cập, lối vào
+  kind: spelling-sound
+  difference_vi: Assess (động từ) nhấn âm hai mang nghĩa đánh giá; access (danh từ/động từ) nhấn âm đầu mang nghĩa truy cập.
+confusing_meanings:
+- word: evaluate
+  meaning: đánh giá toàn diện dựa trên hệ thống tiêu chí
+  difference_vi: Assess thường dùng khi đo lường mức độ, quy mô hoặc giá trị thiệt hại; evaluate mang tính phân tích tổng
+    hợp chất lượng.
 examples:
-- en: The supervisor will assess each employee's annual performance at the end of
-    this quarter.
-  vi: Người giám sát sẽ đánh giá hiệu quả công việc hàng năm của từng nhân viên vào
-    cuối quý này.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈses/. Âm đầu là schwa /ə/
-  nhẹ, tránh nhầm với danh từ 'access' nhấn âm đầu /ˈæk/.
+- en: The supervisor will assess each employee's annual performance at the end of this quarter.
+  vi: Người giám sát sẽ đánh giá hiệu quả công việc hàng năm của từng nhân viên vào cuối quý này.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈses/. Âm đầu là schwa /ə/ nhẹ, tránh nhầm với danh từ 'access'
+  nhấn âm đầu /ˈæk/.
 review:
   status: ai_cross_checked
   checked_by:

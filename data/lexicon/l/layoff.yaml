@@ -1,0 +1,26 @@
+schema_version: 3
+id: layoff
+lemma: layoff
+pos:
+- noun
+ipa:
+  us: /ˈleɪˌɔf/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: sự sa thải, cho nghỉ việc
+  id: layoff-1
+examples:
+- en: The company announced a layoff of fifty workers because of falling demand.
+  vi: Công ty thông báo sa thải năm mươi công nhân do nhu cầu giảm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1060. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

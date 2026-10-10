@@ -1,0 +1,26 @@
+schema_version: 3
+id: popcorn
+lemma: popcorn
+pos:
+- noun
+ipa:
+  us: /ˈpɑpˌkɔrn/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: bắp rang
+  id: popcorn-1
+examples:
+- en: We bought a large bucket of popcorn before the movie started.
+  vi: Chúng tôi mua một thùng bắp rang lớn trước khi bộ phim bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 932. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

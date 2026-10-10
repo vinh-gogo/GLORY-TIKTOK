@@ -1,0 +1,26 @@
+schema_version: 3
+id: darkness
+lemma: darkness
+pos:
+- noun
+ipa:
+  us: /ˈdɑrknəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bóng tối
+  id: darkness-1
+examples:
+- en: The power cut left the whole office in complete darkness.
+  vi: Vụ mất điện khiến cả văn phòng chìm trong bóng tối hoàn toàn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2780. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

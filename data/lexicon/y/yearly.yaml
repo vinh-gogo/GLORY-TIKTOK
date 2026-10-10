@@ -1,0 +1,27 @@
+schema_version: 3
+id: yearly
+lemma: yearly
+pos:
+- adjective
+- adverb
+ipa:
+  us: /ˈjɪrli/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: hằng năm
+  id: yearly-1
+examples:
+- en: The firm holds a yearly meeting for all shareholders in May.
+  vi: Công ty tổ chức cuộc họp hằng năm cho tất cả cổ đông vào tháng Năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 411. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

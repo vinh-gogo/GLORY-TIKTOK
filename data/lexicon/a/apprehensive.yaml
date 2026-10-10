@@ -1,0 +1,27 @@
+schema_version: 3
+id: apprehensive
+lemma: apprehensive
+pos:
+- adjective
+ipa:
+  us: /ˌæprɪˈhɛnsɪv/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: lo lắng, e ngại
+  id: apprehensive-1
+examples:
+- en: Many staff were apprehensive about the changes announced by the new owner.
+  vi: Nhiều nhân viên lo lắng về những thay đổi do chủ mới công bố.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌæprɪˈhɛnsɪv/; /ˌæpriˈhɛnsɪv/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1198. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

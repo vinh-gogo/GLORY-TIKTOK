@@ -1,0 +1,26 @@
+schema_version: 3
+id: composition
+lemma: composition
+pos:
+- noun
+ipa:
+  us: /ˌkɑmpəˈzɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: thành phần, cấu tạo; bài sáng tác
+  id: composition-1
+examples:
+- en: The chemical composition of the new material is still being tested.
+  vi: Thành phần hóa học của vật liệu mới vẫn đang được kiểm tra.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2608. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

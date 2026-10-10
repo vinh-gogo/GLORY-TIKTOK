@@ -1,0 +1,26 @@
+schema_version: 3
+id: council
+lemma: council
+pos:
+- noun
+ipa:
+  us: /ˈkaʊnsəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: hội đồng
+  id: council-1
+examples:
+- en: The city council voted to approve the new park project.
+  vi: Hội đồng thành phố đã bỏ phiếu thông qua dự án công viên mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1422. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: new
+lemma: new
+pos:
+- adjective
+ipa:
+  us: /nu/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mới
+  id: new-1
+examples:
+- en: We will introduce a new line of kitchen appliances this fall.
+  vi: Chúng tôi sẽ giới thiệu một dòng đồ gia dụng nhà bếp mới vào mùa thu này.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/nu/; /nju/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 79. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: pregnant
+lemma: pregnant
+pos:
+- adjective
+ipa:
+  us: /ˈprɛɡnənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: mang thai
+  id: pregnant-1
+examples:
+- en: Pregnant employees are entitled to take paid leave before the baby is born.
+  vi: Nhân viên mang thai được quyền nghỉ có lương trước khi em bé chào đời.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2511. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

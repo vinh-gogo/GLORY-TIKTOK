@@ -1,0 +1,26 @@
+schema_version: 3
+id: anniversary
+lemma: anniversary
+pos:
+- noun
+ipa:
+  us: /ˌænəˈvɝsɚi/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: ngày kỷ niệm
+  id: anniversary-1
+examples:
+- en: The firm will celebrate its twentieth anniversary next month.
+  vi: Công ty sẽ kỷ niệm hai mươi năm thành lập vào tháng sau.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 288. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

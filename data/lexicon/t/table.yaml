@@ -1,0 +1,26 @@
+schema_version: 3
+id: table
+lemma: table
+pos:
+- noun
+ipa:
+  us: /ˈteɪbəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- dining-out
+senses:
+- meaning_vi: cái bàn; bảng biểu
+  id: table-1
+examples:
+- en: We reserved a table for six people at the new restaurant.
+  vi: Chúng tôi đã đặt một bàn cho sáu người tại nhà hàng mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 450. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

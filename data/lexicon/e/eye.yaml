@@ -1,0 +1,26 @@
+schema_version: 3
+id: eye
+lemma: eye
+pos:
+- noun
+ipa:
+  us: /aɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- health
+senses:
+- meaning_vi: con mắt
+  id: eye-1
+examples:
+- en: Staff who use computers all day should have regular eye checkups.
+  vi: Nhân viên dùng máy tính cả ngày nên kiểm tra mắt thường xuyên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 391. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

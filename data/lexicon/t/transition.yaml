@@ -1,0 +1,26 @@
+schema_version: 3
+id: transition
+lemma: transition
+pos:
+- noun
+ipa:
+  us: /trænˈzɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự chuyển đổi, giai đoạn chuyển tiếp
+  id: transition-1
+examples:
+- en: The transition to the new software went smoothly for most staff.
+  vi: Việc chuyển sang phần mềm mới diễn ra suôn sẻ với hầu hết nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2195. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

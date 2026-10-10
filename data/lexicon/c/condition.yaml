@@ -1,0 +1,26 @@
+schema_version: 3
+id: condition
+lemma: condition
+pos:
+- noun
+ipa:
+  us: /kənˈdɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: điều kiện; tình trạng
+  id: condition-1
+examples:
+- en: The used laptop is in excellent condition and comes with a charger.
+  vi: Chiếc máy tính xách tay cũ này trong tình trạng tuyệt vời và kèm bộ sạc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 445. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

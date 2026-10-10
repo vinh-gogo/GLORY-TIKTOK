@@ -1,0 +1,26 @@
+schema_version: 3
+id: comprise
+lemma: comprise
+pos:
+- verb
+ipa:
+  us: /kəmˈpraɪz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: bao gồm, gồm có
+  id: comprise-1
+examples:
+- en: The committee comprises five members from different departments in the company.
+  vi: Ủy ban gồm năm thành viên đến từ các phòng ban khác nhau trong công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2739. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

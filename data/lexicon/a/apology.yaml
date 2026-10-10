@@ -1,0 +1,26 @@
+schema_version: 3
+id: apology
+lemma: apology
+pos:
+- noun
+ipa:
+  us: /əˈpɑləˌdʒi/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: lời xin lỗi
+  id: apology-1
+examples:
+- en: The airline sent an apology to passengers for the long delay.
+  vi: Hãng hàng không đã gửi lời xin lỗi đến hành khách vì sự chậm trễ kéo dài.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 434. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

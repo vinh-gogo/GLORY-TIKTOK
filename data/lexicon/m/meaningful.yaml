@@ -1,0 +1,26 @@
+schema_version: 3
+id: meaningful
+lemma: meaningful
+pos:
+- adjective
+ipa:
+  us: /ˈminɪŋfəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: có ý nghĩa
+  id: meaningful-1
+examples:
+- en: She wants a meaningful job where she can help other people.
+  vi: Cô ấy muốn một công việc có ý nghĩa để có thể giúp đỡ người khác.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 923. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

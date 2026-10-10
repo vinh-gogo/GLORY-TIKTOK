@@ -1,0 +1,26 @@
+schema_version: 3
+id: go
+lemma: go
+pos:
+- verb
+ipa:
+  us: /ɡoʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đi; diễn ra
+  id: go-1
+examples:
+- en: Many employees go to the cafeteria together at noon every day.
+  vi: Nhiều nhân viên cùng nhau đi đến căng tin vào buổi trưa mỗi ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 31. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

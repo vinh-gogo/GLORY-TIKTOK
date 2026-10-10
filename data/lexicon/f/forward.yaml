@@ -1,0 +1,27 @@
+schema_version: 3
+id: forward
+lemma: forward
+pos:
+- adverb
+- verb
+ipa:
+  us: /ˈfɔrwɚd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: về phía trước; chuyển tiếp
+  id: forward-1
+examples:
+- en: Please forward the email to everyone in the marketing department.
+  vi: Vui lòng chuyển tiếp email này cho mọi người trong phòng marketing.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 452. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

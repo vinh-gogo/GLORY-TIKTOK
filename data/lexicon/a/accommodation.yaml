@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: accommodation
 lemma: accommodation
 pos:
@@ -9,33 +9,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- hospitality-travel
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- travel
 senses:
 - id: accommodation-1
   meaning_vi: Chỗ ở, phòng nghỉ lưu trú (khách sạn, nhà nghỉ, căn hộ du lịch)
   note_vi: Trong tiếng Anh-Anh thường dùng không đếm được (accommodation), tiếng Anh-Mỹ có thể dùng số nhiều (accommodations).
-confused_words:
-- word: accommodate
-  ipa: /əˈkɑːmədeɪt/
-  difference_vi: Accommodate là động từ chứa được, đáp ứng; accommodation là danh từ chỗ ở lưu trú.
-confusing_meanings:
-- difference_vi: Hotel accommodation = chỗ nghỉ khách sạn; reasonable accommodation trong luật lao động = việc điều chỉnh
-    điều kiện làm việc hợp lý cho người khuyết tật.
 collocations:
 - phrase: hotel accommodation
   meaning_vi: chỗ nghỉ ngơi tại khách sạn
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: book accommodation
   meaning_vi: đặt chỗ ở lưu trú trước
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: temporary accommodation
   meaning_vi: chỗ ở tạm thời
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: lodging
   meaning_vi: nơi ăn chốn ở
@@ -43,6 +43,13 @@ synonyms:
   meaning_vi: nhà ở
 - word: living quarters
   meaning_vi: khu cư xá
+confused_words:
+- word: accommodate
+  ipa: /əˈkɑːmədeɪt/
+  difference_vi: Accommodate là động từ chứa được, đáp ứng; accommodation là danh từ chỗ ở lưu trú.
+confusing_meanings:
+- difference_vi: Hotel accommodation = chỗ nghỉ khách sạn; reasonable accommodation trong luật lao động = việc điều chỉnh
+    điều kiện làm việc hợp lý cho người khuyết tật.
 examples:
 - en: The conference package includes luxury hotel accommodation and daily breakfast buffet.
   vi: Gói hội nghị bao gồm chỗ ở khách sạn sang trọng và tiệc buffet bữa sáng hàng ngày.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

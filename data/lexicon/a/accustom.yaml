@@ -1,0 +1,26 @@
+schema_version: 3
+id: accustom
+lemma: accustom
+pos:
+- verb
+ipa:
+  us: /əˈkʌstəm/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: làm cho quen (thường dùng 'be accustomed to')
+  id: accustom-1
+examples:
+- en: It takes time to accustom yourself to a new work schedule.
+  vi: Cần thời gian để làm quen với lịch làm việc mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 401. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: dream
+lemma: dream
+pos:
+- noun
+- verb
+ipa:
+  us: /drim/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: giấc mơ; mơ ước
+  id: dream-1
+examples:
+- en: Her dream is to open a small restaurant in her hometown.
+  vi: Ước mơ của cô ấy là mở một nhà hàng nhỏ ở quê nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 966. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

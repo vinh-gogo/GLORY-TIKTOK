@@ -1,0 +1,27 @@
+schema_version: 3
+id: any
+lemma: any
+pos:
+- determiner
+- pronoun
+ipa:
+  us: /ˈɛni/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bất kỳ, nào đó (trong câu hỏi/phủ định)
+  id: any-1
+examples:
+- en: Please contact me if you have any questions about the schedule.
+  vi: Vui lòng liên hệ với tôi nếu bạn có bất kỳ câu hỏi nào về lịch trình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 83. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

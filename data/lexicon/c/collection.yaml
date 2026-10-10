@@ -1,0 +1,26 @@
+schema_version: 3
+id: collection
+lemma: collection
+pos:
+- noun
+ipa:
+  us: /kəˈlɛkʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: bộ sưu tập
+  id: collection-1
+examples:
+- en: The museum has a large collection of paintings from several different countries.
+  vi: Bảo tàng có một bộ sưu tập lớn các bức tranh từ nhiều quốc gia khác nhau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1084. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

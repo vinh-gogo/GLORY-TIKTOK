@@ -1,0 +1,26 @@
+schema_version: 3
+id: attractive
+lemma: attractive
+pos:
+- adjective
+ipa:
+  us: /əˈtræktɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: hấp dẫn, thu hút
+  id: attractive-1
+examples:
+- en: The company offers an attractive salary and flexible working hours.
+  vi: Công ty đưa ra mức lương hấp dẫn và giờ làm việc linh hoạt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1715. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

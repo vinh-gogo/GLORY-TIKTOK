@@ -1,0 +1,26 @@
+schema_version: 3
+id: gap
+lemma: gap
+pos:
+- noun
+ipa:
+  us: /ɡæp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: khoảng trống, khoảng cách, chênh lệch
+  id: gap-1
+examples:
+- en: There is a gap between what customers expect and what we offer.
+  vi: Có một khoảng cách giữa điều khách hàng mong đợi và điều chúng tôi cung cấp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1767. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

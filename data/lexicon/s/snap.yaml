@@ -1,0 +1,27 @@
+schema_version: 3
+id: snap
+lemma: snap
+pos:
+- verb
+- noun
+ipa:
+  us: /snæp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: gãy tách; búng tay; chụp nhanh
+  id: snap-1
+examples:
+- en: The old plastic handle might snap if you pull it too hard.
+  vi: Tay cầm nhựa cũ có thể gãy nếu bạn kéo quá mạnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2731. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

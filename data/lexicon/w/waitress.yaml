@@ -1,0 +1,26 @@
+schema_version: 3
+id: waitress
+lemma: waitress
+pos:
+- noun
+ipa:
+  us: /ˈweɪtrəs/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: nữ phục vụ bàn
+  id: waitress-1
+examples:
+- en: The waitress recommended the fish special to our guests.
+  vi: Cô phục vụ bàn đã giới thiệu món cá đặc biệt cho khách của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 200. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

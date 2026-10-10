@@ -1,0 +1,26 @@
+schema_version: 3
+id: harbor
+lemma: harbor
+pos:
+- noun
+ipa:
+  us: /ˈhɑrbɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: bến cảng, cảng
+  id: harbor-1
+examples:
+- en: Several fishing boats were waiting in the harbor for the storm to pass.
+  vi: Nhiều thuyền đánh cá đang chờ trong bến cảng cho cơn bão đi qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2704. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

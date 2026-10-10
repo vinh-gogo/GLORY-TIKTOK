@@ -1,0 +1,26 @@
+schema_version: 3
+id: reader
+lemma: reader
+pos:
+- noun
+ipa:
+  us: /ˈridɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: độc giả, người đọc
+  id: reader-1
+examples:
+- en: The magazine asked its readers to send suggestions for future articles.
+  vi: Tạp chí đã đề nghị độc giả gửi gợi ý cho các bài viết trong tương lai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1143. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: volunteer
+lemma: volunteer
+pos:
+- noun
+- verb
+ipa:
+  us: /ˌvɑlənˈtɪr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: tình nguyện viên; tình nguyện
+  id: volunteer-1
+examples:
+- en: Several employees volunteer at the community center on weekends.
+  vi: Một số nhân viên tình nguyện tại trung tâm cộng đồng vào cuối tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1962. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: find
+lemma: find
+pos:
+- verb
+ipa:
+  us: /faɪnd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tìm thấy, nhận thấy
+  id: find-1
+examples:
+- en: I could not find the invoice in my email inbox.
+  vi: Tôi không thể tìm thấy hóa đơn trong hộp thư email của mình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 81. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

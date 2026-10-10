@@ -1,0 +1,26 @@
+schema_version: 3
+id: weakness
+lemma: weakness
+pos:
+- noun
+ipa:
+  us: /ˈwiknəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: điểm yếu
+  id: weakness-1
+examples:
+- en: During the interview, he named public speaking as his main weakness.
+  vi: Trong buổi phỏng vấn, anh ấy nêu kỹ năng nói trước đám đông là điểm yếu chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2457. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

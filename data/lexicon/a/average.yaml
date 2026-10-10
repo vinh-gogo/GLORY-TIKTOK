@@ -1,0 +1,28 @@
+schema_version: 3
+id: average
+lemma: average
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈævɚɪdʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: trung bình
+  id: average-1
+examples:
+- en: The average cost of a business trip is about five hundred dollars.
+  vi: Chi phí trung bình của một chuyến công tác khoảng năm trăm đô la.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈævɚɪdʒ/; /ˈævrədʒ/; /ˈævrɪdʒ/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 690. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

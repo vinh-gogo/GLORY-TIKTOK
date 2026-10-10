@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: implement
 lemma: implement
 pos:
@@ -6,16 +6,13 @@ pos:
 ipa:
   us: /ˈɪmplɪment/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- work
-- management
-- technology
-speaking_use:
-- respond-to-questions
-- express-opinion
+- offices
+- technical-areas
 senses:
 - id: implement-1
   meaning_vi: Triển khai thực hiện, áp dụng (kế hoạch, chính sách, phần mềm mới)
@@ -23,39 +20,47 @@ senses:
 collocations:
 - phrase: implement a policy
   meaning_vi: áp dụng một chính sách
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: implement changes
   meaning_vi: thực thi các thay đổi
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: successfully implement
   meaning_vi: triển khai thành công tốt đẹp
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: implement a plan
   meaning_vi: thực hiện một kế hoạch
-  evidence: corpus
-confused_words:
-- word: compliment
-  ipa: /ˈkɑːmplɪmənt/
-  meaning: lời khen ngợi
-  kind: spelling-sound
-  difference_vi: Implement là triển khai thực thi kế hoạch; compliment là lời khen
-    ngợi hoặc tán dương.
-confusing_meanings:
-- word: plan
-  meaning: lập kế hoạch dự kiến
-  difference_vi: Plan là vạch ra ý định trên giấy; implement là bắt tay vào thực hiện
-    cụ thể trong thực tế.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: carry out
   meaning_vi: tiến hành
 - word: execute
   meaning_vi: thi hành
+confused_words:
+- word: compliment
+  ipa: /ˈkɑːmplɪmənt/
+  meaning: lời khen ngợi
+  kind: spelling-sound
+  difference_vi: Implement là triển khai thực thi kế hoạch; compliment là lời khen ngợi hoặc tán dương.
+confusing_meanings:
+- word: plan
+  meaning: lập kế hoạch dự kiến
+  difference_vi: Plan là vạch ra ý định trên giấy; implement là bắt tay vào thực hiện cụ thể trong thực tế.
 examples:
 - en: The management decided to implement a hybrid working policy starting next month.
-  vi: Ban lãnh đạo đã quyết định triển khai chính sách làm việc kết hợp (tại nhà và
-    văn phòng) bắt đầu từ tháng tới.
-pronunciation_tips_vi: Khi là động từ, trọng âm rơi vào âm tiết đầu /ˈɪm-/. Âm cuối
-  /-ment/ bật rõ âm /t/ dứt khoát.
+  vi: Ban lãnh đạo đã quyết định triển khai chính sách làm việc kết hợp (tại nhà và văn phòng) bắt đầu từ tháng tới.
+pronunciation_tips_vi: Khi là động từ, trọng âm rơi vào âm tiết đầu /ˈɪm-/. Âm cuối /-ment/ bật rõ âm /t/ dứt khoát.
 review:
   status: ai_cross_checked
   checked_by:

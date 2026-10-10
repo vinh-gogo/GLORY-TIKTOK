@@ -1,0 +1,26 @@
+schema_version: 3
+id: restore
+lemma: restore
+pos:
+- verb
+ipa:
+  us: /rɪˈstɔr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: khôi phục, phục hồi
+  id: restore-1
+examples:
+- en: Technicians restored power to the building within two hours.
+  vi: Các kỹ thuật viên đã khôi phục điện cho tòa nhà trong vòng hai giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2100. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: above
+lemma: above
+pos:
+- preposition
+- adverb
+ipa:
+  us: /əˈbʌv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: ở trên, phía trên
+  id: above-1
+examples:
+- en: The notice above the door lists the opening hours of the library.
+  vi: Thông báo phía trên cửa liệt kê giờ mở cửa của thư viện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 440. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

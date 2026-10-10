@@ -1,0 +1,27 @@
+schema_version: 3
+id: convert
+lemma: convert
+pos:
+- verb
+ipa:
+  us: /ˈkɑnvɚt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: chuyển đổi
+  id: convert-1
+examples:
+- en: You can convert the document into a PDF file easily.
+  vi: Bạn có thể dễ dàng chuyển tài liệu thành tệp PDF.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkɑnvɚt/; /kənˈvɝt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2110. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: impress
+lemma: impress
+pos:
+- verb
+ipa:
+  us: /ˌɪmˈprɛs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: gây ấn tượng
+  id: impress-1
+examples:
+- en: She hoped to impress the interviewers with her detailed portfolio.
+  vi: Cô ấy hy vọng gây ấn tượng với người phỏng vấn bằng hồ sơ năng lực chi tiết.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɪmˈprɛs/; /ˈɪmˌprɛs/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2243. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

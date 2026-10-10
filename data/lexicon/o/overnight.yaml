@@ -1,0 +1,27 @@
+schema_version: 3
+id: overnight
+lemma: overnight
+pos:
+- adverb
+- adjective
+ipa:
+  us: /ˈoʊvɚˈnaɪt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: qua đêm; trong một đêm
+  id: overnight-1
+examples:
+- en: The package will arrive overnight if you choose express shipping.
+  vi: Gói hàng sẽ đến trong một đêm nếu bạn chọn giao hàng nhanh.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 174. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

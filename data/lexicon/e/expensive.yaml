@@ -1,0 +1,26 @@
+schema_version: 3
+id: expensive
+lemma: expensive
+pos:
+- adjective
+ipa:
+  us: /ɪkˈspɛnsɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: đắt tiền
+  id: expensive-1
+examples:
+- en: The restaurant is expensive, but the food and service are excellent.
+  vi: Nhà hàng này đắt nhưng đồ ăn và dịch vụ rất xuất sắc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1061. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: hint
+lemma: hint
+pos:
+- noun
+- verb
+ipa:
+  us: /hɪnt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: gợi ý, lời nhắc khéo
+  id: hint-1
+examples:
+- en: She gave us a hint about the surprise announcement planned for Friday.
+  vi: Cô ấy gợi ý cho chúng tôi về thông báo bất ngờ dự kiến vào thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2689. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

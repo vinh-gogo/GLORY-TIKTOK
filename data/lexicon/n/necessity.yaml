@@ -1,0 +1,27 @@
+schema_version: 3
+id: necessity
+lemma: necessity
+pos:
+- noun
+ipa:
+  us: /nəˈsɛsəti/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự cần thiết, nhu yếu phẩm
+  id: necessity-1
+examples:
+- en: For many families, a reliable car is a necessity rather than a luxury.
+  vi: Với nhiều gia đình, một chiếc xe đáng tin cậy là nhu cầu thiết yếu chứ không phải xa xỉ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/nəˈsɛsəti/; /nəˈsɛsɪti/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 529. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

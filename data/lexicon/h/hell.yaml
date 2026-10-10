@@ -1,0 +1,27 @@
+schema_version: 3
+id: hell
+lemma: hell
+pos:
+- noun
+ipa:
+  us: /hɛl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: địa ngục
+  id: hell-1
+examples:
+- en: The long commute felt like hell after a tiring day at work.
+  vi: Quãng đường đi làm dài như địa ngục sau một ngày làm việc mệt mỏi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Từ nhạy cảm/thông tục, ít dùng trong TOEIC; nên xem xét có giữ không — Mục từ
+    NGSL hạng 1743. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: competition
+lemma: competition
+pos:
+- noun
+ipa:
+  us: /ˌkɑmpəˈtɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự cạnh tranh, cuộc thi
+  id: competition-1
+examples:
+- en: Competition between local bakeries has led to lower prices for customers.
+  vi: Sự cạnh tranh giữa các tiệm bánh địa phương đã dẫn đến giá thấp hơn cho khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 875. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

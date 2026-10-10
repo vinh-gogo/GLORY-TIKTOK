@@ -1,0 +1,26 @@
+schema_version: 3
+id: enemy
+lemma: enemy
+pos:
+- noun
+ipa:
+  us: /ˈɛnəmi/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: kẻ thù, đối thủ
+  id: enemy-1
+examples:
+- en: Wasted time is the enemy of every successful project.
+  vi: Thời gian bị lãng phí là kẻ thù của mọi dự án thành công.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1787. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

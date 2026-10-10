@@ -1,0 +1,28 @@
+schema_version: 3
+id: protest
+lemma: protest
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈproʊˌtɛst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: cuộc biểu tình; phản đối
+  id: protest-1
+examples:
+- en: Workers organized a peaceful protest against the planned factory closure.
+  vi: Công nhân tổ chức một cuộc biểu tình ôn hòa chống lại kế hoạch đóng cửa nhà máy.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈproʊˌtɛst/; /prəˈtɛst/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1708. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

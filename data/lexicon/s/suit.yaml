@@ -1,0 +1,27 @@
+schema_version: 3
+id: suit
+lemma: suit
+pos:
+- noun
+- verb
+ipa:
+  us: /sut/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: bộ com-lê; phù hợp với
+  id: suit-1
+examples:
+- en: He wore a dark suit to the interview at the bank.
+  vi: Anh ấy mặc một bộ com-lê tối màu đến buổi phỏng vấn tại ngân hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1122. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

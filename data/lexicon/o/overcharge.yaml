@@ -1,0 +1,26 @@
+schema_version: 3
+id: overcharge
+lemma: overcharge
+pos:
+- verb
+ipa:
+  us: /ˈoʊvɚˌtʃɑrdʒ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: tính giá quá cao, thu quá tiền
+  id: overcharge-1
+examples:
+- en: The customer complained that the shop tried to overcharge him for repairs.
+  vi: Khách hàng phàn nàn rằng cửa hàng cố tính giá sửa chữa quá cao cho anh ấy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 928. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

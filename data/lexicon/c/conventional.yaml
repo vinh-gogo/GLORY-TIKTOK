@@ -1,0 +1,26 @@
+schema_version: 3
+id: conventional
+lemma: conventional
+pos:
+- adjective
+ipa:
+  us: /kənˈvɛnʃənəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: thông thường, theo lối truyền thống
+  id: conventional-1
+examples:
+- en: The firm prefers conventional methods over new and untested ideas.
+  vi: Công ty thích các phương pháp truyền thống hơn những ý tưởng mới chưa được kiểm chứng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2308. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

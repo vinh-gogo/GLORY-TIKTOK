@@ -1,0 +1,26 @@
+schema_version: 3
+id: elevate
+lemma: elevate
+pos:
+- verb
+ipa:
+  us: /ˈɛləˌveɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- corporate-development
+senses:
+- meaning_vi: nâng lên, nâng cao
+  id: elevate-1
+examples:
+- en: The training program aims to elevate the skills of our entire staff.
+  vi: Chương trình đào tạo nhằm nâng cao kỹ năng của toàn bộ nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1129. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

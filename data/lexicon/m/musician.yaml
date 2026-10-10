@@ -1,0 +1,26 @@
+schema_version: 3
+id: musician
+lemma: musician
+pos:
+- noun
+ipa:
+  us: /mjuˈzɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: nhạc sĩ, nhạc công
+  id: musician-1
+examples:
+- en: A young musician played the piano during the opening ceremony.
+  vi: Một nhạc công trẻ đã chơi piano trong lễ khai mạc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2350. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,167 +1,67 @@
-# Glory 01 – Website Đồng Hành Kênh TikTok TOEIC Speaking 🎙️
+# Glory 01 – Website từ vựng TOEIC (mobile-first) 📖
 
-Website chính thức: **[https://glory-tiktok.pages.dev](https://glory-tiktok.pages.dev)**  
-Kênh TikTok: **[@wbk.lqv](https://www.tiktok.com/@wbk.lqv)**
+Website: **[https://glory-tiktok.pages.dev](https://glory-tiktok.pages.dev)** · Kênh TikTok: **[@wbk.lqv](https://www.tiktok.com/@wbk.lqv)**
 
-Nền tảng lưu trữ, tra cứu và luyện phản xạ từ vựng TOEIC Speaking theo từng video TikTok, xây dựng trên **Hugo (bản extended)** cùng giao diện **PaperMod**.
+Nơi tra cứu và học tiếp sau mỗi video TikTok: **từ vựng**, **collocations**, **từ đồng nghĩa** và **câu nói hay** theo cấp độ, thiết kế cho điện thoại trước, desktop sau. Xây dựng bằng **Hugo (extended)** + **PaperMod** (không sửa theme; mọi tùy biến nằm trong `layouts/`, `assets/`).
 
----
+> Định hướng và kế hoạch: [`PLAN_NEN_MONG_Tu_Vung_TOEIC.md`](PLAN_NEN_MONG_Tu_Vung_TOEIC.md). Quy tắc làm việc: [`AGENTS.md`](AGENTS.md). Kế hoạch cũ (TOEIC Speaking) đã lưu ở `docs/archive/`.
 
-## 🌟 Điểm nổi bật
+## Cấu trúc nội dung
 
-- **Tối ưu Mobile (Link Bio TikTok):** Giao diện ProfileMode tại trang chủ hoạt động hoàn hảo khi người xem bấm vào link bio từ TikTok.
-- **Thẻ từ vựng chuẩn thi (`{{< words >}}`):**
-  - **Từ chính & Loại từ (POS):** Danh từ, Động từ, Tính từ,... kèm tiếng Việt.
-  - **Phiên âm quốc tế IPA:** Chuẩn giọng Mỹ / Anh.
-  - **Level mục tiêu trong TOEIC:** Phân cấp rõ ràng (550+, 650+, 700+, 850+).
-  - **Từ dễ nhầm (Mặt chữ / Phát âm):** Cảnh báo các cặp từ phát âm hoặc viết na ná nhau (vd: *deadline* vs *timeline*, *commute* vs *compute*).
-  - **Phân biệt sắc thái nghĩa:** Tránh nhầm lẫn ngữ cảnh sử dụng (vd: *deadline* vs *due date*, *reschedule* vs *postpone*).
-  - **Collocations ghi điểm:** Mọi cụm từ đều có dịch nghĩa tiếng Việt chi tiết (vd: *meet a deadline* ➔ *kịp hạn chót*).
-  - **Ví dụ phản xạ song ngữ (EN - VI):** Câu ví dụ thực tế kèm bản dịch tiếng Việt chuẩn xác.
-- **Phân loại thông minh (Taxonomies):**
-  - **Chủ đề (`/topics/`):** Gom nhóm từ vựng theo chủ đề (công việc, đời sống, du lịch, mua sắm,...).
-  - **Dạng bài (`/parts/`):** Phân loại theo 5 dạng câu hỏi TOEIC Speaking chuẩn ETS (`read-aloud`, `describe-picture`, `respond-to-questions`, `respond-with-info`, `express-opinion`).
-- **Tìm kiếm tức thì (`/search/`):** Tìm kiếm không cần server (PaperMod + Fuse.js), tra cứu nhanh từ vựng, collocations và bài học.
-- **Tốc độ cực nhanh & Chi phí 0đ:** Tĩnh hoàn toàn, build siêu nhanh với Hugo và deploy miễn phí qua Cloudflare Pages.
+| URL | Nội dung | Nguồn dữ liệu |
+| :--- | :--- | :--- |
+| `/glossary/` | Từ vựng A–Z, lọc theo cấp độ/chủ đề, tìm nhanh | `data/lexicon/<chữ>/<id>.yaml` |
+| `/words/<id>/` | Trang từ: nghĩa, IPA, collocations, ví dụ, đồng nghĩa, từ dễ nhầm | như trên |
+| `/collocations/` | Collocations gom theo chủ đề | sinh từ lexicon |
+| `/synonyms/` | Nhóm đồng nghĩa có sắc thái + đồng nghĩa theo từng từ | `data/synsets/` (chưa có nhóm nào) + lexicon |
+| `/quotes/` | Câu nói hay (câu chưa duyệt có nhãn) | `data/quotes/*.yaml` |
+| `/levels/<band>/`, `/topics/<slug>/` | Từ theo cấp độ / chủ đề | `data/levels.yaml`, `data/topics.yaml` |
+| `/sets/…`, `/001`… | Bộ từ theo video TikTok | `content/sets/*.md` |
+| `/search/` | Tìm kiếm không dấu/có dấu, không cần server | `/search-index.json` (sinh khi build) |
+| `/methodology/` | Nguồn, trạng thái duyệt, cách phân cấp độ | `data/sources.yaml`, `data/levels.yaml` |
 
----
+Cấp độ (`foundation / core / target / advanced`) là **phân loại biên tập** của Glory 01 quy chiếu CEFR để tham khảo — ETS không công bố danh sách từ theo mức điểm. Mọi con số điểm đọc từ `data/levels.yaml`, không viết cứng.
 
-## 🚀 Hướng dẫn phát triển cục bộ (Local Development)
+## Phát triển cục bộ
 
-### 1. Yêu cầu cài đặt
-- **Hugo Extended** phiên bản >= `0.160.0` (Khuyên dùng `0.167.0`).
-- **Git**.
+Yêu cầu: **Hugo Extended** ≥ 0.146 (Cloudflare Pages hiện build bằng 0.146.0; CI cũng dùng 0.146.0; đã thử thêm 0.147.7 và 0.167.0; template dùng site.Data để chạy được trên cả bản cũ — bản ≥ 0.156 chỉ in cảnh báo deprecated), **Python 3.12** (`pip install pyyaml jsonschema`), **Git**.
 
-### 2. Tải mã nguồn kèm Submodules
 ```bash
 git clone --recurse-submodules https://github.com/vinh-gogo/GLORY-TIKTOK.git
 cd GLORY-TIKTOK
+hugo server -D          # http://localhost:1313/
 ```
 
-Nếu đã clone repo mà chưa tải theme:
-```bash
-git submodule update --init --recursive
-```
-
-### 3. Chạy server phát triển
-```bash
-hugo server -D
-```
-Truy cập trình duyệt tại địa chỉ: `http://localhost:1313/`
-
----
-
-## ✍️ Quy trình thêm bài học mới (Chỉ 1 phút)
-
-Mỗi bài học tương ứng với một video TikTok. Để tạo bài học mới, chạy lệnh:
+## Cổng kiểm tra bắt buộc trước khi báo hoàn thành
 
 ```bash
-hugo new sets/set-014.md
+python scripts/validate/validate.py        # 0 lỗi (cảnh báo được liệt kê, không chặn)
+hugo --gc --minify                          # build sạch
+python scripts/build/gen_redirects.py --check
+python scripts/validate/check_urls.py       # mọi URL trong docs/url-inventory-*.txt còn sống (trực tiếp hoặc qua redirect)
+python scripts/validate/test_validate.py    # bộ test của validator (22 test, ~1 phút)
+python scripts/levels/wordlists.py report      # đối chiếu lexicon với TSL/NGSL (cần `fetch` trước; chỉ báo cáo)
 ```
 
-Hệ thống sẽ tự động tạo file tại `content/sets/set-014.md` với khung chuẩn đầy đủ các trường:
+## Thêm nội dung
 
-```yaml
----
-title: "Set 014 – Từ vựng chủ đề mua sắm & hoàn tiền"
-date: 2026-10-10
-draft: false
-summary: "Các từ vựng và collocations về mua sắm, đổi trả và hoàn tiền trong TOEIC Speaking."
-topics: ["shopping"]
-parts: ["respond-to-questions"]
-tags: ["shopping", "speaking-part-3"]
-tiktok: "https://www.tiktok.com/@glory01/video/1234567890"
-aliases: ["/014"] # Người xem gõ nhanh: glory-tiktok.pages.dev/014
-words:
-  - word: "refund"
-    pos: "Danh từ (n.) / Động từ (v.)"
-    ipa: "/ˈriːfʌnd/"
-    level: "TOEIC 550+"
-    meaning: "Khoản tiền hoàn lại; (v) hoàn tiền cho khách hàng"
-    confused_words:
-      - word: "refuse"
-        ipa: "/rɪˈfjuːz/"
-        meaning: "Từ chối"
-        difference: "Tránh nhầm âm đuôi -fund /fʌnd/ và -fuse /fjuːz/"
-    confusing_meanings:
-      - word: "exchange"
-        meaning: "Đổi sang món hàng khác (không nhận lại tiền mặt)"
-        difference: "Refund là lấy lại tiền; exchange là đổi lấy sản phẩm thay thế"
-    collocations:
-      - phrase: "full refund"
-        meaning: "Hoàn lại toàn bộ 100% số tiền"
-      - phrase: "request a refund"
-        meaning: "Yêu cầu được hoàn tiền"
-      - phrase: "eligible for a refund"
-        meaning: "Đủ điều kiện nhận lại tiền"
-    example:
-      en: "Customers are eligible for a full refund within 30 days of purchase."
-      vi: "Khách hàng đủ điều kiện nhận lại toàn bộ tiền trong vòng 30 ngày kể từ ngày mua."
----
+- **Mục từ mới:** viết lô `sources/batches/NNN-<chủ-đề>.yaml` theo `sources/batches/_template.yaml` rồi chạy `python scripts/import/import_batch.py <file>`. Mục mới mặc định `ai_draft` (không hiện trên web) cho tới khi được đối chiếu. IPA/nghĩa/collocation chưa chắc → `needs_review` + lý do. **Không bịa dữ liệu, không chép từ điển/đề thi.**
+- **Bộ từ theo video:** `hugo new sets/set-014.md`, điền `words:` (id có trong lexicon) và link TikTok **thật** (link dạng `.../video/1234567xxx` bị coi là placeholder).
+- **Redirect:** đổi/bỏ URL phải thêm quy tắc vào `scripts/build/gen_redirects.py` (sinh `static/_redirects`) và viết ADR trong `docs/adr/`.
 
-{{< tiktok >}}
-
-{{< words >}}
-
-## 🎙️ Luyện tập phản xạ Speaking (Practice)
-
-### Câu hỏi mẫu (Prompt)
-> **Question:** ...
-
-### Gợi ý phản xạ (Sample Response)
-> **Response:** ...
-```
-
----
-
-## ☁️ Hướng dẫn Triển khai lên Cloudflare Pages (`glory-tiktok.pages.dev`)
-
-1. **Đẩy mã nguồn lên GitHub:**
-   ```bash
-   git add .
-   git commit -m "feat: complete website setup for TikTok Glory 01"
-   git push origin main
-   ```
-
-2. **Kết nối Cloudflare Pages:**
-   - Đăng nhập vào [Cloudflare Dashboard](https://dash.cloudflare.com/) > **Workers & Pages** > **Create application** > tab **Pages** > **Connect to Git**.
-   - Chọn kho lưu trữ `vinh-gogo/GLORY-TIKTOK`.
-
-3. **Cài đặt thông số Build (Build settings):**
-   - **Project name:** `glory-tiktok`
-   - **Framework preset:** `Hugo`
-   - **Build command:** `hugo --gc --minify`
-   - **Build output directory:** `public`
-
-4. **Biến môi trường (Environment variables):**
-   Thêm biến môi trường:
-   - `HUGO_VERSION`: `0.146.0` (hoặc `0.167.0`)
-
-5. **Trang web trực tiếp:**
-   - Sau khi hoàn thành build, trang web hoạt động tại: **`https://glory-tiktok.pages.dev`**
-
----
-
-## 📂 Cấu trúc thư mục
+## Cấu trúc thư mục chính
 
 ```
-GLORY-TIKTOK/
-├── archetypes/
-│   └── sets.md                     # Khung mẫu sinh tự động cho set bài học mới
-├── assets/
-│   └── css/extended/custom.css     # CSS tùy biến thẻ từ vựng & tối ưu di động
-├── content/
-│   ├── about.md                    # Giới thiệu kênh Glory 01 & lưu ý bản quyền ETS
-│   ├── search.md                   # Trang tìm kiếm tức thì
-│   ├── sets/                       # Các set bài học từ vựng theo video TikTok
-│   └── guides/                     # Cẩm nang 5 dạng bài thi TOEIC Speaking
-├── layouts/
-│   └── shortcodes/
-│       ├── words.html              # Shortcode render thẻ từ vựng chi tiết
-│       └── tiktok.html             # Shortcode nhúng video & liên kết mở app TikTok
-├── static/
-│   └── images/avatar.svg           # Ảnh đại diện kênh Glory 01
-├── themes/PaperMod/                # Git submodule theme PaperMod
-├── hugo.yaml                       # File cấu hình trung tâm (baseURL: glory-tiktok.pages.dev)
-└── README.md                       # Tài liệu hướng dẫn sử dụng
+data/            levels.yaml, topics.yaml, sources.yaml, lexicon/, quotes/, synsets/ (khi có)
+schemas/         word.v3.json, synset.v1.json, quote.v1.json, set.v3.json
+content/         trang tĩnh + sets/ + bộ điều hợp nội dung (_content.gotmpl) sinh trang từ dữ liệu
+layouts/         template dự án (ghi đè PaperMod); _partials/ gồm head, wcard, words-visible, extend_footer
+assets/          css/extended/00-tokens … 30-components, js/search.js, glossary.js, ui.js
+scripts/         validate/, migrate/, build/, import/, levels/, ipa/
+sources/         batches/ (lô nhập), raw/ (danh sách ứng viên nội bộ — không phải nguồn kiểm chứng)
+docs/            adr/, audit-*, changelog-data.md, archive/ (nội dung Speaking cũ), design/
 ```
+
+## Triển khai Cloudflare Pages
+
+Build command `hugo --gc --minify`, output `public`, không cần đặt `HUGO_VERSION` (mặc định hiện là 0.146.0; template tương thích 0.146.0 → 0.167.0, nếu nâng `HUGO_VERSION` thì thử build trước). File `static/_redirects` được sinh bởi script, **không sửa tay**.

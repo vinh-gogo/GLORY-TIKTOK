@@ -1,0 +1,26 @@
+schema_version: 3
+id: dust
+lemma: dust
+pos:
+- noun
+ipa:
+  us: /dʌst/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bụi
+  id: dust-1
+examples:
+- en: A thick layer of dust covered the old furniture in the storage room.
+  vi: Một lớp bụi dày phủ lên đồ nội thất cũ trong phòng kho.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2448. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

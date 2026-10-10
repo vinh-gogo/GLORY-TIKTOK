@@ -1,0 +1,26 @@
+schema_version: 3
+id: proficiency
+lemma: proficiency
+pos:
+- noun
+ipa:
+  us: /prəˈfɪʃənsi/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: trình độ thành thạo
+  id: proficiency-1
+examples:
+- en: Applicants must show proficiency in English and basic computer skills.
+  vi: Ứng viên phải chứng minh trình độ thành thạo tiếng Anh và kỹ năng máy tính cơ bản.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 294. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: resume-verb
+lemma: resume
+pos:
+- verb
+ipa:
+  us: /rɪˈzum/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: tiếp tục lại, bắt đầu lại
+  id: resume-verb-1
+examples:
+- en: The meeting will resume at two o'clock after a short lunch break.
+  vi: Cuộc họp sẽ tiếp tục lúc hai giờ sau giờ nghỉ trưa ngắn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈzum/; /riˈzum/; /ˈrɛzəˌmeɪ/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1007. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: sing
+lemma: sing
+pos:
+- verb
+ipa:
+  us: /sɪŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: hát
+  id: sing-1
+examples:
+- en: Several employees will sing at the company party on Saturday evening.
+  vi: Một số nhân viên sẽ hát tại buổi tiệc công ty vào tối thứ Bảy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 873. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

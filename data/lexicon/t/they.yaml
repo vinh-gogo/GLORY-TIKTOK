@@ -1,0 +1,26 @@
+schema_version: 3
+id: they
+lemma: they
+pos:
+- pronoun
+ipa:
+  us: /ðeɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: họ, bọn họ, chúng nó
+  id: they-1
+examples:
+- en: They will announce the results of the survey at the next meeting.
+  vi: Họ sẽ công bố kết quả khảo sát tại cuộc họp tiếp theo.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 13. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: application
+lemma: application
+pos:
+- noun
+ipa:
+  us: /ˌæpləˈkeɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: đơn xin việc, ứng dụng
+  id: application-1
+examples:
+- en: Her application for the marketing position arrived before the final deadline.
+  vi: Đơn xin vào vị trí tiếp thị của cô ấy đã đến trước hạn chót.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 884. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

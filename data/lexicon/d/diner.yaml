@@ -1,0 +1,26 @@
+schema_version: 3
+id: diner
+lemma: diner
+pos:
+- noun
+ipa:
+  us: /ˈdaɪnɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: thực khách; quán ăn bình dân
+  id: diner-1
+examples:
+- en: Every diner at the restaurant received a free dessert on opening night.
+  vi: Mỗi thực khách tại nhà hàng đều nhận được một món tráng miệng miễn phí trong đêm khai trương.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 596. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

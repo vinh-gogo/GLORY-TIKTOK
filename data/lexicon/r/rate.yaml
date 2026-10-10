@@ -1,0 +1,27 @@
+schema_version: 3
+id: rate
+lemma: rate
+pos:
+- noun
+- verb
+ipa:
+  us: /reɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: mức giá, tỷ lệ; đánh giá
+  id: rate-1
+examples:
+- en: The hotel offers a special rate for guests attending the conference.
+  vi: Khách sạn đưa ra mức giá đặc biệt cho khách tham dự hội nghị.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 312. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

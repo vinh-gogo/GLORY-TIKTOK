@@ -1,0 +1,26 @@
+schema_version: 3
+id: reconsider
+lemma: reconsider
+pos:
+- verb
+ipa:
+  us: /ˌrikənˈsɪdɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: xem xét lại, cân nhắc lại
+  id: reconsider-1
+examples:
+- en: We ask you to reconsider your decision before the offer expires on Friday.
+  vi: Chúng tôi đề nghị bạn cân nhắc lại quyết định trước khi lời đề nghị hết hạn vào thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1166. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

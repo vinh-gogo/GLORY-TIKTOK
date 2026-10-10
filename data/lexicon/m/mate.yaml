@@ -1,0 +1,26 @@
+schema_version: 3
+id: mate
+lemma: mate
+pos:
+- noun
+ipa:
+  us: /meɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bạn bè, bạn cùng (phòng, nhóm)
+  id: mate-1
+examples:
+- en: She shares an apartment with a mate from her old university.
+  vi: Cô ấy ở chung căn hộ với một người bạn từ trường đại học cũ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2288. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

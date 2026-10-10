@@ -1,0 +1,26 @@
+schema_version: 3
+id: revolution
+lemma: revolution
+pos:
+- noun
+ipa:
+  us: /ˌrɛvəˈluʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: cuộc cách mạng
+  id: revolution-1
+examples:
+- en: The internet brought a revolution in the way people shop.
+  vi: Internet đã mang đến một cuộc cách mạng trong cách mọi người mua sắm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1970. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

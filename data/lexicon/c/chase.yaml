@@ -1,0 +1,26 @@
+schema_version: 3
+id: chase
+lemma: chase
+pos:
+- verb
+ipa:
+  us: /tʃeɪs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: đuổi theo, truy đuổi
+  id: chase-1
+examples:
+- en: The security guard had to chase the thief down the street.
+  vi: Bảo vệ phải đuổi theo tên trộm dọc con phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2706. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

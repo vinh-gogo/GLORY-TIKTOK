@@ -1,0 +1,26 @@
+schema_version: 3
+id: wide
+lemma: wide
+pos:
+- adjective
+ipa:
+  us: /waɪd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: rộng
+  id: wide-1
+examples:
+- en: The store offers a wide selection of shoes at reasonable prices.
+  vi: Cửa hàng cung cấp nhiều lựa chọn giày với giá hợp lý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 753. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,28 @@
+schema_version: 3
+id: bore
+lemma: bore
+pos:
+- verb
+- noun
+ipa:
+  us: /bɔr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: làm cho chán; người/việc nhàm chán
+  id: bore-1
+examples:
+- en: Long meetings with no clear agenda tend to bore everyone.
+  vi: Những cuộc họp dài không có chương trình rõ ràng thường làm mọi người chán.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Có thể là dạng quá khứ của bear; lemma bore chủ yếu nghĩa ''làm chán'', cần
+    xác nhận — Mục từ NGSL hạng 1690. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng
+    âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví
+    dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: contact
+lemma: contact
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈkɑnˌtækt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: liên lạc; sự liên hệ
+  id: contact-1
+examples:
+- en: Please contact our customer service team if you have any questions.
+  vi: Vui lòng liên hệ nhóm dịch vụ khách hàng nếu bạn có bất kỳ câu hỏi nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 600. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: frequently
+lemma: frequently
+pos:
+- adverb
+ipa:
+  us: /ˈfrikwəntli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thường xuyên
+  id: frequently-1
+examples:
+- en: Our clients frequently ask about extended warranty options.
+  vi: Khách hàng của chúng tôi thường xuyên hỏi về các lựa chọn bảo hành mở rộng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈfrikwəntli/; /ˈfrikwɛntli/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1711. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

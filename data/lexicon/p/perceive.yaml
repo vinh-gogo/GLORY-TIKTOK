@@ -1,0 +1,26 @@
+schema_version: 3
+id: perceive
+lemma: perceive
+pos:
+- verb
+ipa:
+  us: /pɚˈsiv/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: nhận thức, cảm nhận
+  id: perceive-1
+examples:
+- en: Customers perceive the new brand as modern and reliable.
+  vi: Khách hàng nhìn nhận thương hiệu mới là hiện đại và đáng tin cậy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2103. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

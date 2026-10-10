@@ -1,0 +1,26 @@
+schema_version: 3
+id: curious
+lemma: curious
+pos:
+- adjective
+ipa:
+  us: /ˈkjʊriəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: tò mò, hiếu kỳ
+  id: curious-1
+examples:
+- en: The students were curious about how the new machine actually worked.
+  vi: Các học sinh tò mò về cách chiếc máy mới thực sự hoạt động.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2543. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

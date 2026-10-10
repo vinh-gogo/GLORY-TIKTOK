@@ -1,0 +1,27 @@
+schema_version: 3
+id: admission
+lemma: admission
+pos:
+- noun
+ipa:
+  us: /ædˈmɪʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: vé vào cửa; sự cho vào
+  id: admission-1
+examples:
+- en: Admission to the museum is free for children under twelve.
+  vi: Vé vào bảo tàng miễn phí cho trẻ em dưới mười hai tuổi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ædˈmɪʃən/; /ədˈmɪʃən/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 95. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

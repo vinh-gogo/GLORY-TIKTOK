@@ -1,0 +1,27 @@
+schema_version: 3
+id: mobile
+lemma: mobile
+pos:
+- adjective
+- noun
+ipa:
+  us: /ˈmoʊbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: di động
+  id: mobile-1
+examples:
+- en: Customers can now check their account balance on our mobile app.
+  vi: Khách hàng giờ đây có thể kiểm tra số dư tài khoản trên ứng dụng di động của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1738. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

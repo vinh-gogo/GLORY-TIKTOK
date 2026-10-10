@@ -1,0 +1,26 @@
+schema_version: 3
+id: behavior
+lemma: behavior
+pos:
+- noun
+ipa:
+  us: /bɪˈheɪvjɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: hành vi, cách cư xử
+  id: behavior-1
+examples:
+- en: Professional behavior is expected from all employees at client events.
+  vi: Hành vi chuyên nghiệp được mong đợi ở mọi nhân viên tại các sự kiện với khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 706. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

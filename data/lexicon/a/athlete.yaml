@@ -1,0 +1,26 @@
+schema_version: 3
+id: athlete
+lemma: athlete
+pos:
+- noun
+ipa:
+  us: /ˈæθˌlit/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: vận động viên
+  id: athlete-1
+examples:
+- en: The famous athlete will appear in the company's next television advertisement.
+  vi: Vận động viên nổi tiếng sẽ xuất hiện trong quảng cáo truyền hình tiếp theo của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2759. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

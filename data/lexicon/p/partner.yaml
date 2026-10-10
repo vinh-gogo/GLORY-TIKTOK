@@ -1,0 +1,26 @@
+schema_version: 3
+id: partner
+lemma: partner
+pos:
+- noun
+ipa:
+  us: /ˈpɑrtnɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: đối tác
+  id: partner-1
+examples:
+- en: Our company signed an agreement with a new business partner in Vietnam.
+  vi: Công ty chúng tôi đã ký một thỏa thuận với một đối tác kinh doanh mới ở Việt Nam.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1136. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: archive
+lemma: archive
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈɑrˌkaɪv/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- offices
+senses:
+- meaning_vi: kho lưu trữ; lưu trữ
+  id: archive-1
+examples:
+- en: Old documents are kept in the archive on the second floor.
+  vi: Các tài liệu cũ được cất giữ trong kho lưu trữ ở tầng hai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1025. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: reluctant
+lemma: reluctant
+pos:
+- adjective
+ipa:
+  us: /rɪˈlʌktənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: miễn cưỡng, ngần ngại
+  id: reluctant-1
+examples:
+- en: He was reluctant to change jobs because he liked his colleagues.
+  vi: Anh ấy ngần ngại đổi việc vì anh ấy quý đồng nghiệp của mình.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈlʌktənt/; /riˈlʌktənt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 943. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: power
+lemma: power
+pos:
+- noun
+ipa:
+  us: /ˈpaʊɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: quyền lực; điện, năng lượng
+  id: power-1
+examples:
+- en: The power went out in the building for about an hour last night.
+  vi: Điện trong tòa nhà bị mất khoảng một tiếng đêm qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 331. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

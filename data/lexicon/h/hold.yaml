@@ -1,0 +1,26 @@
+schema_version: 3
+id: hold
+lemma: hold
+pos:
+- verb
+ipa:
+  us: /hoʊld/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: tổ chức; giữ, cầm
+  id: hold-1
+examples:
+- en: The company will hold its annual meeting in the downtown conference center.
+  vi: Công ty sẽ tổ chức cuộc họp thường niên tại trung tâm hội nghị trong thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 222. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

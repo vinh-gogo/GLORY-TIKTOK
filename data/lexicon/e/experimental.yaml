@@ -1,0 +1,26 @@
+schema_version: 3
+id: experimental
+lemma: experimental
+pos:
+- adjective
+ipa:
+  us: /ɪkˌspɛrɪˈmɛntəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: thuộc thí nghiệm, mang tính thử nghiệm
+  id: experimental-1
+examples:
+- en: The company is testing an experimental engine that uses much less fuel.
+  vi: Công ty đang thử nghiệm một loại động cơ mới tiêu thụ ít nhiên liệu hơn nhiều.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2744. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

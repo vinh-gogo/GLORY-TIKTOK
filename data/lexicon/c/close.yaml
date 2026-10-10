@@ -1,0 +1,28 @@
+schema_version: 3
+id: close
+lemma: close
+pos:
+- verb
+- adjective
+ipa:
+  us: /kloʊs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đóng; gần
+  id: close-1
+examples:
+- en: The bank will close early on Friday for a staff meeting.
+  vi: Ngân hàng sẽ đóng cửa sớm vào thứ Sáu để họp nhân viên.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/kloʊs/; /kloʊz/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 239. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

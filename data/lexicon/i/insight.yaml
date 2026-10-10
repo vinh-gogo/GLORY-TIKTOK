@@ -1,0 +1,26 @@
+schema_version: 3
+id: insight
+lemma: insight
+pos:
+- noun
+ipa:
+  us: /ˈɪnˌsaɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự thấu hiểu, hiểu biết sâu sắc
+  id: insight-1
+examples:
+- en: The survey gave us valuable insight into what customers expect from us.
+  vi: Cuộc khảo sát giúp chúng tôi hiểu sâu sắc điều khách hàng mong đợi ở mình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2505. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

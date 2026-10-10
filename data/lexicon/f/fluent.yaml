@@ -1,0 +1,26 @@
+schema_version: 3
+id: fluent
+lemma: fluent
+pos:
+- adjective
+ipa:
+  us: /ˈfluənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: trôi chảy, thông thạo
+  id: fluent-1
+examples:
+- en: The ideal candidate should be fluent in both English and Spanish.
+  vi: Ứng viên lý tưởng cần thông thạo cả tiếng Anh và tiếng Tây Ban Nha.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1051. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

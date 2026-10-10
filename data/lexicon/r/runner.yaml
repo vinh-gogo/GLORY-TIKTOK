@@ -1,0 +1,26 @@
+schema_version: 3
+id: runner
+lemma: runner
+pos:
+- noun
+ipa:
+  us: /ˈrʌnɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: vận động viên chạy, người chạy bộ
+  id: runner-1
+examples:
+- en: Every runner in the marathon received a medal at the finish line.
+  vi: Mỗi vận động viên chạy marathon đều nhận được huy chương ở vạch đích.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 649. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

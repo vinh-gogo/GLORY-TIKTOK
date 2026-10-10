@@ -1,0 +1,26 @@
+schema_version: 3
+id: unexpected
+lemma: unexpected
+pos:
+- adjective
+ipa:
+  us: /ˌʌnɪkˈspɛktɪd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: bất ngờ, không lường trước
+  id: unexpected-1
+examples:
+- en: The unexpected delay forced us to postpone the product launch until Friday.
+  vi: Sự chậm trễ bất ngờ buộc chúng tôi hoãn buổi ra mắt sản phẩm đến thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 589. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

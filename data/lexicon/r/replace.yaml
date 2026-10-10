@@ -1,0 +1,27 @@
+schema_version: 3
+id: replace
+lemma: replace
+pos:
+- verb
+ipa:
+  us: /ˌriˈpleɪs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: thay thế
+  id: replace-1
+examples:
+- en: We need to replace the old computers with faster and newer models.
+  vi: Chúng ta cần thay những chiếc máy tính cũ bằng các mẫu mới và nhanh hơn.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌriˈpleɪs/; /ɚˈpleɪs/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 994. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

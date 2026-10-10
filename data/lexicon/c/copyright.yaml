@@ -1,0 +1,26 @@
+schema_version: 3
+id: copyright
+lemma: copyright
+pos:
+- noun
+ipa:
+  us: /ˈkɑpiˌraɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: bản quyền, quyền tác giả
+  id: copyright-1
+examples:
+- en: The author holds the copyright to all the photographs in this book.
+  vi: Tác giả giữ bản quyền của tất cả các bức ảnh trong cuốn sách này.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1115. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

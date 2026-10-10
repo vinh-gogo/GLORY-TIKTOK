@@ -1,0 +1,26 @@
+schema_version: 3
+id: thunderstorm
+lemma: thunderstorm
+pos:
+- noun
+ipa:
+  us: /ˈθʌndɚˌstɔrm/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: cơn giông có sấm sét
+  id: thunderstorm-1
+examples:
+- en: A heavy thunderstorm forced the airline to cancel several evening flights.
+  vi: Một cơn giông lớn buộc hãng hàng không hủy nhiều chuyến bay buổi tối.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 951. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

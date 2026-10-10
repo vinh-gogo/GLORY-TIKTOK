@@ -1,0 +1,26 @@
+schema_version: 3
+id: deteriorate
+lemma: deteriorate
+pos:
+- verb
+ipa:
+  us: /dɪˈtɪriɚˌeɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: xấu đi, suy giảm
+  id: deteriorate-1
+examples:
+- en: Service quality began to deteriorate after the company reduced its staff.
+  vi: Chất lượng dịch vụ bắt đầu xấu đi sau khi công ty cắt giảm nhân sự.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1245. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

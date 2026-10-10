@@ -1,0 +1,27 @@
+schema_version: 3
+id: bid
+lemma: bid
+pos:
+- noun
+- verb
+ipa:
+  us: /bɪd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: giá thầu; đấu thầu, đặt giá
+  id: bid-1
+examples:
+- en: Our company submitted a bid for the new airport construction contract.
+  vi: Công ty chúng tôi đã nộp hồ sơ dự thầu hợp đồng xây dựng sân bay mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2197. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: challenge
+lemma: challenge
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈtʃæləndʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- corporate-development
+senses:
+- meaning_vi: thách thức
+  id: challenge-1
+examples:
+- en: Hiring skilled workers is the biggest challenge for our company.
+  vi: Tuyển dụng lao động có tay nghề là thách thức lớn nhất đối với công ty chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 766. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

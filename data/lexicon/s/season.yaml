@@ -1,0 +1,26 @@
+schema_version: 3
+id: season
+lemma: season
+pos:
+- noun
+ipa:
+  us: /ˈsizən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mùa; mùa vụ
+  id: season-1
+examples:
+- en: Our busiest season starts in November and ends in January.
+  vi: Mùa bận rộn nhất của chúng tôi bắt đầu vào tháng Mười Một và kết thúc vào tháng Một.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 750. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

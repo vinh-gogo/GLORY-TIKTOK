@@ -1,0 +1,26 @@
+schema_version: 3
+id: recommendation
+lemma: recommendation
+pos:
+- noun
+ipa:
+  us: /ˌrɛkəmənˈdeɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: lời giới thiệu, đề xuất
+  id: recommendation-1
+examples:
+- en: She asked her former manager for a recommendation letter.
+  vi: Cô ấy nhờ người quản lý cũ viết một thư giới thiệu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1534. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

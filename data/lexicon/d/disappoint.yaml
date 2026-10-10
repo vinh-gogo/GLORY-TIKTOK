@@ -1,0 +1,26 @@
+schema_version: 3
+id: disappoint
+lemma: disappoint
+pos:
+- verb
+ipa:
+  us: /ˌdɪsəˈpɔɪnt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: làm thất vọng
+  id: disappoint-1
+examples:
+- en: We never want to disappoint our loyal customers with poor service.
+  vi: Chúng tôi không bao giờ muốn làm khách hàng trung thành thất vọng vì dịch vụ kém.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1853. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: pleasure
+lemma: pleasure
+pos:
+- noun
+ipa:
+  us: /ˈplɛʒɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: niềm vui, sự hài lòng
+  id: pleasure-1
+examples:
+- en: It was a pleasure to meet you at the conference last week.
+  vi: Thật vui khi được gặp bạn tại hội nghị tuần trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1283. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

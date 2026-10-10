@@ -1,0 +1,26 @@
+schema_version: 3
+id: heater
+lemma: heater
+pos:
+- noun
+ipa:
+  us: /ˈhitɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: máy sưởi, lò sưởi
+  id: heater-1
+examples:
+- en: Please turn off the heater before you leave the office tonight.
+  vi: Vui lòng tắt máy sưởi trước khi bạn rời văn phòng tối nay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 988. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

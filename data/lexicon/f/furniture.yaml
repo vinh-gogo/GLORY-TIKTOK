@@ -1,0 +1,26 @@
+schema_version: 3
+id: furniture
+lemma: furniture
+pos:
+- noun
+ipa:
+  us: /ˈfɝnɪtʃɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: đồ nội thất
+  id: furniture-1
+examples:
+- en: The new office furniture will be delivered on Tuesday morning.
+  vi: Đồ nội thất văn phòng mới sẽ được giao vào sáng thứ Ba.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2166. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

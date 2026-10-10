@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: allowance
 lemma: allowance
 pos:
@@ -9,13 +9,10 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- salary-benefits
-- human-resources
-speaking_use:
-- respond-to-questions
-- respond-with-info
+- personnel
 senses:
 - id: allowance-1
   meaning_vi: Khoản phụ cấp hỗ trợ cho các chi phí cụ thể (đi lại, ăn ở, công tác)
@@ -23,27 +20,36 @@ senses:
 - id: allowance-2
   meaning_vi: Định mức tiêu chuẩn cho phép (như hành lý mang theo)
   note_vi: 'Thường gặp trong ngành du lịch/hàng không: baggage allowance (định mức hành lý miễn cước).'
+collocations:
+- phrase: travel allowance
+  meaning_vi: phụ cấp công tác / đi lại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: meal allowance
+  meaning_vi: phụ cấp tiền ăn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: baggage allowance
+  meaning_vi: định mức hành lý được mang theo
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: stipend
+  meaning_vi: khoản sinh hoạt phí, phụ cấp
+- word: subsidy
+  meaning_vi: tiền trợ cấp, hỗ trợ giá
 confused_words:
 - word: allow
   ipa: /əˈlaʊ/
   difference_vi: Allow là động từ (cho phép); allowance là danh từ (khoản tiền phụ cấp hoặc định mức cho phép).
 confusing_meanings:
 - difference_vi: Allowance cho nhân viên là phụ cấp tiền tệ; baggage allowance trong sân bay là hạn mức cân nặng hành lý.
-collocations:
-- phrase: travel allowance
-  meaning_vi: phụ cấp công tác / đi lại
-  evidence: corpus
-- phrase: meal allowance
-  meaning_vi: phụ cấp tiền ăn
-  evidence: corpus
-- phrase: baggage allowance
-  meaning_vi: định mức hành lý được mang theo
-  evidence: corpus
-synonyms:
-- word: stipend
-  meaning_vi: khoản sinh hoạt phí, phụ cấp
-- word: subsidy
-  meaning_vi: tiền trợ cấp, hỗ trợ giá
 examples:
 - en: Engineers working on remote construction sites are entitled to a daily housing allowance.
   vi: Các kỹ sư làm việc tại các công trường vùng xa được hưởng khoản phụ cấp nhà ở hàng ngày.
@@ -54,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

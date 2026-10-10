@@ -1,0 +1,26 @@
+schema_version: 3
+id: even
+lemma: even
+pos:
+- adverb
+ipa:
+  us: /ˈivɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thậm chí; ngay cả
+  id: even-1
+examples:
+- en: Even the most experienced technicians found the new machine difficult to operate.
+  vi: Ngay cả những kỹ thuật viên giàu kinh nghiệm nhất cũng thấy máy mới khó vận hành.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 96. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

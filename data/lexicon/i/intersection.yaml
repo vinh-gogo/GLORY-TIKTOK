@@ -1,0 +1,26 @@
+schema_version: 3
+id: intersection
+lemma: intersection
+pos:
+- noun
+ipa:
+  us: /ˌɪntɚˈsɛkʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- travel
+senses:
+- meaning_vi: ngã tư, giao lộ
+  id: intersection-1
+examples:
+- en: Turn left at the next intersection and the hotel is on your right.
+  vi: Rẽ trái ở ngã tư tiếp theo, khách sạn nằm bên phải bạn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1143. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

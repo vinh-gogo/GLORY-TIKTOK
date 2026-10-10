@@ -1,0 +1,26 @@
+schema_version: 3
+id: absent
+lemma: absent
+pos:
+- adjective
+ipa:
+  us: /ˈæbsənt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: vắng mặt
+  id: absent-1
+examples:
+- en: Three team members were absent from the training session because of illness.
+  vi: Ba thành viên trong nhóm vắng mặt ở buổi tập huấn vì bị ốm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 562. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

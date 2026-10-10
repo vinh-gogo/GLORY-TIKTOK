@@ -1,0 +1,26 @@
+schema_version: 3
+id: critical
+lemma: critical
+pos:
+- adjective
+ipa:
+  us: /ˈkrɪtɪkəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: quan trọng then chốt; chỉ trích
+  id: critical-1
+examples:
+- en: It is critical that we finish the report before the deadline.
+  vi: Điều then chốt là chúng ta phải hoàn thành báo cáo trước hạn chót.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1285. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

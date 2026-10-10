@@ -2,9 +2,9 @@ name: CI Quality Gate
 
 on:
   push:
-    branches: [main]
+    branches: [main, dev]
   pull_request:
-    branches: [main]
+    branches: [main, dev]
 
 jobs:
   validate-and-build:
@@ -30,12 +30,24 @@ jobs:
         run: |
           python scripts/validate/validate.py
 
+      - name: Validator test suite
+        run: |
+          python scripts/validate/test_validate.py
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.167.0"
+          hugo-version: "0.146.0"
           extended: true
 
       - name: Build Hugo Site
         run: |
           hugo --gc --minify
+
+      - name: Check redirects are up to date
+        run: |
+          python scripts/build/gen_redirects.py --check
+
+      - name: Check legacy URLs still resolve
+        run: |
+          python scripts/validate/check_urls.py

@@ -1,0 +1,26 @@
+schema_version: 3
+id: weekday
+lemma: weekday
+pos:
+- noun
+ipa:
+  us: /ˈwikˌdeɪ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: ngày trong tuần (từ thứ Hai đến thứ Sáu)
+  id: weekday-1
+examples:
+- en: The library is open from nine to six on weekdays.
+  vi: Thư viện mở cửa từ chín giờ đến sáu giờ vào các ngày trong tuần.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 194. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

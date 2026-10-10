@@ -1,0 +1,24 @@
+schema_version: 1
+id: law-07
+title_vi: Quy tắc Dịch vụ Khách hàng
+title_en: The Customer Resolution Rule
+topic: general-business
+band: core
+quote_en: The most effective way to address customer concerns is not with excuses, but with a prompt response and a cost-effective
+  solution.
+quote_vi: Cách hiệu quả nhất để giải tỏa bức xúc của khách hàng không phải là lời bào chữa, mà là phản hồi tức thì cùng một
+  giải pháp tối ưu chi phí.
+highlights:
+- phrase: address customer concerns
+  meaning_vi: giải tỏa nỗi băn khoăn, khiếu nại của khách hàng
+- phrase: cost-effective solution
+  meaning_vi: giải pháp tiết kiệm chi phí mà vẫn hiệu quả
+- phrase: prompt response
+  meaning_vi: phản hồi nhanh chóng, kịp thời
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

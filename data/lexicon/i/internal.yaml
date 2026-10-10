@@ -1,0 +1,26 @@
+schema_version: 3
+id: internal
+lemma: internal
+pos:
+- adjective
+ipa:
+  us: /ˌɪnˈtɝnəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nội bộ, bên trong
+  id: internal-1
+examples:
+- en: This is an internal memo and should not be shared outside the company.
+  vi: Đây là một bản ghi nhớ nội bộ và không nên chia sẻ ra ngoài công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1517. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

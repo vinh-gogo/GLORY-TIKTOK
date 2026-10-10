@@ -1,0 +1,26 @@
+schema_version: 3
+id: together
+lemma: together
+pos:
+- adverb
+ipa:
+  us: /təˈɡɛðɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cùng nhau
+  id: together-1
+examples:
+- en: The two departments will work together on the upcoming product launch.
+  vi: Hai phòng ban sẽ cùng nhau làm việc cho đợt ra mắt sản phẩm sắp tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 294. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

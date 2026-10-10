@@ -1,0 +1,26 @@
+schema_version: 3
+id: stomach
+lemma: stomach
+pos:
+- noun
+ipa:
+  us: /ˈstʌmək/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: dạ dày, bụng
+  id: stomach-1
+examples:
+- en: He had a pain in his stomach after eating lunch too quickly.
+  vi: Anh ấy bị đau bụng sau khi ăn trưa quá nhanh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2637. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

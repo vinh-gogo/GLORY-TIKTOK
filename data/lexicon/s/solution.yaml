@@ -1,0 +1,26 @@
+schema_version: 3
+id: solution
+lemma: solution
+pos:
+- noun
+ipa:
+  us: /səˈluʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: giải pháp
+  id: solution-1
+examples:
+- en: The engineers are working on a solution to the network problem.
+  vi: Các kỹ sư đang tìm giải pháp cho sự cố mạng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 788. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

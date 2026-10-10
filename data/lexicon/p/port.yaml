@@ -1,0 +1,26 @@
+schema_version: 3
+id: port
+lemma: port
+pos:
+- noun
+ipa:
+  us: /pɔrt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: cảng
+  id: port-1
+examples:
+- en: The cargo ship will dock at the port early tomorrow morning.
+  vi: Tàu chở hàng sẽ cập cảng vào sáng sớm ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2056. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

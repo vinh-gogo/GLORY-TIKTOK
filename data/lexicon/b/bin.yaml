@@ -1,0 +1,26 @@
+schema_version: 3
+id: bin
+lemma: bin
+pos:
+- noun
+ipa:
+  us: /bɪn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: thùng rác; thùng đựng
+  id: bin-1
+examples:
+- en: Please put all used paper into the recycling bin next to the printer.
+  vi: Vui lòng bỏ toàn bộ giấy đã dùng vào thùng tái chế cạnh máy in.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2556. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

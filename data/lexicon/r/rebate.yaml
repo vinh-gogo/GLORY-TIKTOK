@@ -1,0 +1,26 @@
+schema_version: 3
+id: rebate
+lemma: rebate
+pos:
+- noun
+ipa:
+  us: /ˈriˌbeɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: khoản hoàn tiền, chiết khấu sau mua
+  id: rebate-1
+examples:
+- en: Customers can claim a rebate if they send the receipt within thirty days.
+  vi: Khách hàng có thể nhận hoàn tiền nếu gửi biên lai trong vòng ba mươi ngày.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 871. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

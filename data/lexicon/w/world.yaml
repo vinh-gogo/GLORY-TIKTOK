@@ -1,0 +1,26 @@
+schema_version: 3
+id: world
+lemma: world
+pos:
+- noun
+ipa:
+  us: /wɝld/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thế giới
+  id: world-1
+examples:
+- en: Our company ships its products to customers all over the world.
+  vi: Công ty chúng tôi vận chuyển sản phẩm đến khách hàng trên khắp thế giới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 156. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

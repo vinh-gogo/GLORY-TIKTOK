@@ -1,0 +1,26 @@
+schema_version: 3
+id: responsible
+lemma: responsible
+pos:
+- adjective
+ipa:
+  us: /riˈspɑnsəbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: chịu trách nhiệm
+  id: responsible-1
+examples:
+- en: Ms. Park is responsible for training all new members of the sales team.
+  vi: Cô Park chịu trách nhiệm đào tạo mọi thành viên mới của nhóm bán hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1082. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

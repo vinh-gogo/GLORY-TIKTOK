@@ -1,0 +1,26 @@
+schema_version: 3
+id: compensate
+lemma: compensate
+pos:
+- verb
+ipa:
+  us: /ˈkɑmpənˌseɪt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: bồi thường, đền bù
+  id: compensate-1
+examples:
+- en: The airline will compensate passengers whose flights were canceled without notice.
+  vi: Hãng hàng không sẽ bồi thường cho hành khách có chuyến bay bị hủy không báo trước.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 569. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: 'yes'
+lemma: 'yes'
+pos:
+- interjection
+ipa:
+  us: /jɛs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: vâng, có, đúng vậy
+  id: yes-1
+examples:
+- en: Yes, the meeting has been moved to three o'clock this afternoon.
+  vi: Vâng, cuộc họp đã được dời sang ba giờ chiều nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 228. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

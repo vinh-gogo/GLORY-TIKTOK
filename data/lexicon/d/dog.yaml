@@ -1,0 +1,26 @@
+schema_version: 3
+id: dog
+lemma: dog
+pos:
+- noun
+ipa:
+  us: /dɔɡ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: con chó
+  id: dog-1
+examples:
+- en: My neighbor walks her dog in the park every morning before work.
+  vi: Hàng xóm của tôi dắt chó đi dạo trong công viên mỗi sáng trước giờ làm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 895. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

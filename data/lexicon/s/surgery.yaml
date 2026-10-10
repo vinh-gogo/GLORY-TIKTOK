@@ -1,0 +1,26 @@
+schema_version: 3
+id: surgery
+lemma: surgery
+pos:
+- noun
+ipa:
+  us: /ˈsɝdʒɚi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: ca phẫu thuật
+  id: surgery-1
+examples:
+- en: He will return to work two weeks after his knee surgery.
+  vi: Anh ấy sẽ đi làm lại hai tuần sau ca phẫu thuật đầu gối.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2349. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

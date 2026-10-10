@@ -1,0 +1,26 @@
+schema_version: 3
+id: negotiation
+lemma: negotiation
+pos:
+- noun
+ipa:
+  us: /nɪˌɡoʊʃiˈeɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cuộc đàm phán
+  id: negotiation-1
+examples:
+- en: The negotiation between the union and management lasted all night.
+  vi: Cuộc đàm phán giữa công đoàn và ban quản lý kéo dài suốt đêm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1861. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

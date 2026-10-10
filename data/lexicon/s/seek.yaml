@@ -1,0 +1,26 @@
+schema_version: 3
+id: seek
+lemma: seek
+pos:
+- verb
+ipa:
+  us: /sik/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: tìm kiếm; tìm cách
+  id: seek-1
+examples:
+- en: The firm is seeking an experienced accountant to join its team.
+  vi: Công ty đang tìm kiếm một kế toán có kinh nghiệm để gia nhập nhóm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 778. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

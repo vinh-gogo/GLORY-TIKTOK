@@ -1,0 +1,26 @@
+schema_version: 3
+id: morale
+lemma: morale
+pos:
+- noun
+ipa:
+  us: /mɚˈæl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: tinh thần làm việc
+  id: morale-1
+examples:
+- en: The bonus helped improve staff morale after a difficult year.
+  vi: Khoản thưởng đã giúp nâng cao tinh thần nhân viên sau một năm khó khăn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 831. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: emphasis
+lemma: emphasis
+pos:
+- noun
+ipa:
+  us: /ˈɛmfəsəs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự nhấn mạnh, trọng tâm
+  id: emphasis-1
+examples:
+- en: The company puts great emphasis on customer service and quality.
+  vi: Công ty đặc biệt nhấn mạnh vào dịch vụ khách hàng và chất lượng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɛmfəsəs/; /ˈɛmfəsɪs/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2031. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

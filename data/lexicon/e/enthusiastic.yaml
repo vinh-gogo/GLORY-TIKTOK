@@ -1,0 +1,26 @@
+schema_version: 3
+id: enthusiastic
+lemma: enthusiastic
+pos:
+- adjective
+ipa:
+  us: /ɪnˌθuziˈæstɪk/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: nhiệt tình, hăng hái
+  id: enthusiastic-1
+examples:
+- en: The interviewer was impressed by how enthusiastic the young applicant seemed.
+  vi: Người phỏng vấn ấn tượng vì ứng viên trẻ tỏ ra rất nhiệt tình.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 521. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

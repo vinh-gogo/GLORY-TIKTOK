@@ -1,0 +1,26 @@
+schema_version: 3
+id: few
+lemma: few
+pos:
+- determiner
+ipa:
+  us: /fju/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: một vài, ít
+  id: few-1
+examples:
+- en: Only a few tickets for the evening concert are still available.
+  vi: Chỉ còn một vài vé cho buổi hòa nhạc tối nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 195. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

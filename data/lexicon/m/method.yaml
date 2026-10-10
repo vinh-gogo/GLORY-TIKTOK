@@ -1,0 +1,26 @@
+schema_version: 3
+id: method
+lemma: method
+pos:
+- noun
+ipa:
+  us: /ˈmɛθəd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: phương pháp
+  id: method-1
+examples:
+- en: We tested a new method for training customer service staff.
+  vi: Chúng tôi đã thử một phương pháp mới để đào tạo nhân viên chăm sóc khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 755. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

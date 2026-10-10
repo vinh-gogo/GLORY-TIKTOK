@@ -1,0 +1,26 @@
+schema_version: 3
+id: nail
+lemma: nail
+pos:
+- noun
+ipa:
+  us: /neɪl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cái đinh; móng tay
+  id: nail-1
+examples:
+- en: Use a hammer and a long nail to hang the picture on the wall.
+  vi: Hãy dùng búa và một cây đinh dài để treo bức tranh lên tường.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 549. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

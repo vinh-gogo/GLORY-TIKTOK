@@ -1,0 +1,26 @@
+schema_version: 3
+id: do
+lemma: do
+pos:
+- verb
+ipa:
+  us: /du/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: làm, thực hiện; trợ động từ trong câu hỏi/phủ định
+  id: do-1
+examples:
+- en: What do you need me to do before the client arrives?
+  vi: Bạn cần tôi làm gì trước khi khách hàng đến?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 21. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

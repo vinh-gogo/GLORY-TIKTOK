@@ -1,0 +1,26 @@
+schema_version: 3
+id: strict
+lemma: strict
+pos:
+- adjective
+ipa:
+  us: /strɪkt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: nghiêm ngặt, nghiêm khắc
+  id: strict-1
+examples:
+- en: The factory follows strict safety rules to protect all of its workers.
+  vi: Nhà máy tuân theo các quy tắc an toàn nghiêm ngặt để bảo vệ mọi công nhân.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2568. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

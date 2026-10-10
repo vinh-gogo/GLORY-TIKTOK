@@ -1,0 +1,26 @@
+schema_version: 3
+id: distance
+lemma: distance
+pos:
+- noun
+ipa:
+  us: /ˈdɪstəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: khoảng cách
+  id: distance-1
+examples:
+- en: The hotel is within walking distance of the convention center and station.
+  vi: Khách sạn nằm trong khoảng cách đi bộ đến trung tâm hội nghị và nhà ga.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1145. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: dealership
+lemma: dealership
+pos:
+- noun
+ipa:
+  us: /ˈdilɚˌʃɪp/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: đại lý bán xe, đại lý phân phối
+  id: dealership-1
+examples:
+- en: The car dealership is offering a discount on all models this weekend.
+  vi: Đại lý xe ô tô đang giảm giá mọi mẫu xe vào cuối tuần này.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 857. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

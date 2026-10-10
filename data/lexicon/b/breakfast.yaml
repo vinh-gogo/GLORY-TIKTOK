@@ -1,0 +1,26 @@
+schema_version: 3
+id: breakfast
+lemma: breakfast
+pos:
+- noun
+ipa:
+  us: /ˈbrɛkfəst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: bữa sáng
+  id: breakfast-1
+examples:
+- en: The hotel serves a free breakfast from six to ten every day.
+  vi: Khách sạn phục vụ bữa sáng miễn phí từ sáu đến mười giờ mỗi ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1819. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

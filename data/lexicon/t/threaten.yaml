@@ -1,0 +1,26 @@
+schema_version: 3
+id: threaten
+lemma: threaten
+pos:
+- verb
+ipa:
+  us: /ˈθrɛtən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đe dọa
+  id: threaten-1
+examples:
+- en: Rising costs threaten the future of many small businesses.
+  vi: Chi phí tăng cao đe dọa tương lai của nhiều doanh nghiệp nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1521. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

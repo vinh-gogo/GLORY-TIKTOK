@@ -1,0 +1,26 @@
+schema_version: 3
+id: altogether
+lemma: altogether
+pos:
+- adverb
+ipa:
+  us: /ˌɔltəˈɡɛðɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: hoàn toàn; tổng cộng
+  id: altogether-1
+examples:
+- en: The trip will cost about two thousand dollars altogether for the whole group.
+  vi: Chuyến đi sẽ tốn tổng cộng khoảng hai nghìn đô la cho cả nhóm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2678. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

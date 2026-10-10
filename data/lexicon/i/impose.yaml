@@ -1,0 +1,26 @@
+schema_version: 3
+id: impose
+lemma: impose
+pos:
+- verb
+ipa:
+  us: /ˌɪmˈpoʊz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: áp đặt, bắt phải chịu
+  id: impose-1
+examples:
+- en: The government decided to impose a new tax on imported goods.
+  vi: Chính phủ quyết định áp đặt một loại thuế mới lên hàng nhập khẩu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1723. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

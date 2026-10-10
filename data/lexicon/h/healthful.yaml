@@ -1,0 +1,26 @@
+schema_version: 3
+id: healthful
+lemma: healthful
+pos:
+- adjective
+ipa:
+  us: /ˈhɛlθfəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: tốt cho sức khỏe, bổ dưỡng
+  id: healthful-1
+examples:
+- en: The cafeteria now offers more healthful meals with vegetables and whole grains.
+  vi: Căng tin hiện có thêm nhiều bữa ăn tốt cho sức khỏe với rau và ngũ cốc nguyên hạt.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1237. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

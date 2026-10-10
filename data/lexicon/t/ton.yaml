@@ -1,0 +1,26 @@
+schema_version: 3
+id: ton
+lemma: ton
+pos:
+- noun
+ipa:
+  us: /tʌn/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: tấn (đơn vị khối lượng)
+  id: ton-1
+examples:
+- en: The factory produces about fifty tons of steel parts every single month.
+  vi: Nhà máy sản xuất khoảng năm mươi tấn linh kiện thép mỗi tháng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 747. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

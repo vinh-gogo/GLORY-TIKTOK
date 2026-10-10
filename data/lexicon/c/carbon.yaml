@@ -1,0 +1,26 @@
+schema_version: 3
+id: carbon
+lemma: carbon
+pos:
+- noun
+ipa:
+  us: /ˈkɑrbən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: các-bon (nguyên tố cacbon)
+  id: carbon-1
+examples:
+- en: The factory plans to cut its carbon emissions by half within five years.
+  vi: Nhà máy dự định cắt giảm một nửa lượng khí thải các-bon trong vòng năm năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2583. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

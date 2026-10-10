@@ -1,0 +1,27 @@
+schema_version: 3
+id: plot
+lemma: plot
+pos:
+- noun
+- verb
+ipa:
+  us: /plɑt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: cốt truyện; mảnh đất
+  id: plot-1
+examples:
+- en: The plot of the new film is simple but very entertaining.
+  vi: Cốt truyện của bộ phim mới đơn giản nhưng rất giải trí.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1951. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

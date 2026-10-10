@@ -1,0 +1,27 @@
+schema_version: 3
+id: tech
+lemma: tech
+pos:
+- noun
+- adjective
+ipa:
+  us: /tɛk/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: công nghệ (cách nói tắt)
+  id: tech-1
+examples:
+- en: Several tech companies have opened new offices in this part of the city.
+  vi: Nhiều công ty công nghệ đã mở văn phòng mới ở khu vực này của thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 588. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

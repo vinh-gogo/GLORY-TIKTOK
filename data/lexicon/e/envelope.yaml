@@ -1,0 +1,26 @@
+schema_version: 3
+id: envelope
+lemma: envelope
+pos:
+- noun
+ipa:
+  us: /ˈɛnvəˌloʊp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: phong bì
+  id: envelope-1
+examples:
+- en: She placed the signed contract in an envelope and sealed it.
+  vi: Cô ấy đặt hợp đồng đã ký vào một phong bì và dán kín lại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2656. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

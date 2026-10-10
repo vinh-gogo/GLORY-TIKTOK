@@ -1,0 +1,27 @@
+schema_version: 3
+id: against
+lemma: against
+pos:
+- preposition
+ipa:
+  us: /əˈɡɛnst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chống lại; dựa vào, tựa vào
+  id: against-1
+examples:
+- en: Many residents voted against the proposal to widen the main road.
+  vi: Nhiều cư dân đã bỏ phiếu chống lại đề xuất mở rộng con đường chính.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/əˈɡɛnst/; /əˈɡeɪnst/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 224. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

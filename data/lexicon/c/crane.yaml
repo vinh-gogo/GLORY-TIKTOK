@@ -1,0 +1,26 @@
+schema_version: 3
+id: crane
+lemma: crane
+pos:
+- noun
+ipa:
+  us: /kreɪn/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- manufacturing
+senses:
+- meaning_vi: cần cẩu; con sếu
+  id: crane-1
+examples:
+- en: A large crane lifted the steel beams onto the top of the building.
+  vi: Một cần cẩu lớn nâng các dầm thép lên đỉnh tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 856. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

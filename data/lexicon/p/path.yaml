@@ -1,0 +1,26 @@
+schema_version: 3
+id: path
+lemma: path
+pos:
+- noun
+ipa:
+  us: /pæθ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: lối đi; con đường
+  id: path-1
+examples:
+- en: A narrow path leads from the hotel to the beach.
+  vi: Một lối đi hẹp dẫn từ khách sạn ra bãi biển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1295. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

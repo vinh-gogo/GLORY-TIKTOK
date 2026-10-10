@@ -1,0 +1,26 @@
+schema_version: 3
+id: greet
+lemma: greet
+pos:
+- verb
+ipa:
+  us: /ɡrit/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- offices
+senses:
+- meaning_vi: chào hỏi, đón tiếp
+  id: greet-1
+examples:
+- en: The receptionist will greet visitors and ask them to sign in.
+  vi: Nhân viên lễ tân sẽ chào khách và đề nghị họ ký tên đăng ký.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2614. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

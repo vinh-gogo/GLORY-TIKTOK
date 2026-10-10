@@ -1,0 +1,26 @@
+schema_version: 3
+id: specifically
+lemma: specifically
+pos:
+- adverb
+ipa:
+  us: /spəˈsɪfɪkli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: một cách cụ thể, đặc biệt là
+  id: specifically-1
+examples:
+- en: This software was designed specifically for small accounting firms.
+  vi: Phần mềm này được thiết kế đặc biệt cho các công ty kế toán nhỏ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1653. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

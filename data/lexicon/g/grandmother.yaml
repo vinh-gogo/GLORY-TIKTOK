@@ -1,0 +1,26 @@
+schema_version: 3
+id: grandmother
+lemma: grandmother
+pos:
+- noun
+ipa:
+  us: /ˈɡrændˌmʌðɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bà (nội, ngoại)
+  id: grandmother-1
+examples:
+- en: My grandmother lives in a small village and grows her own vegetables.
+  vi: Bà tôi sống ở một ngôi làng nhỏ và tự trồng rau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2604. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

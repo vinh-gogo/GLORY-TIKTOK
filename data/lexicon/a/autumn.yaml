@@ -1,0 +1,26 @@
+schema_version: 3
+id: autumn
+lemma: autumn
+pos:
+- noun
+ipa:
+  us: /ˈɔtəm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: mùa thu
+  id: autumn-1
+examples:
+- en: The company holds its annual trade fair every autumn in the capital.
+  vi: Công ty tổ chức hội chợ thương mại thường niên vào mỗi mùa thu tại thủ đô.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2792. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

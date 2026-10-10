@@ -1,0 +1,26 @@
+schema_version: 3
+id: memory
+lemma: memory
+pos:
+- noun
+ipa:
+  us: /ˈmɛmɚi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: trí nhớ, bộ nhớ
+  id: memory-1
+examples:
+- en: The computer ran slowly because it did not have enough memory installed.
+  vi: Máy tính chạy chậm vì không được lắp đủ bộ nhớ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 939. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

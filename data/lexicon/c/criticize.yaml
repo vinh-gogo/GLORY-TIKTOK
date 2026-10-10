@@ -1,0 +1,26 @@
+schema_version: 3
+id: criticize
+lemma: criticize
+pos:
+- verb
+ipa:
+  us: /ˈkrɪtɪˌsaɪz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: chỉ trích, phê bình
+  id: criticize-1
+examples:
+- en: Customers criticized the company for its slow response to complaints.
+  vi: Khách hàng chỉ trích công ty vì phản hồi chậm các khiếu nại.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2296. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

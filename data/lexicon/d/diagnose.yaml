@@ -1,0 +1,26 @@
+schema_version: 3
+id: diagnose
+lemma: diagnose
+pos:
+- verb
+ipa:
+  us: /ˌdaɪəɡˈnoʊs/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: chẩn đoán
+  id: diagnose-1
+examples:
+- en: The doctor needs more tests before she can diagnose the problem correctly.
+  vi: Bác sĩ cần thêm xét nghiệm trước khi có thể chẩn đoán đúng vấn đề.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 709. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

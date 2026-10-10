@@ -1,0 +1,26 @@
+schema_version: 3
+id: amaze
+lemma: amaze
+pos:
+- verb
+ipa:
+  us: /əˈmeɪz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: làm kinh ngạc
+  id: amaze-1
+examples:
+- en: The speed of the new machine amazed everyone in the factory.
+  vi: Tốc độ của chiếc máy mới đã làm mọi người trong nhà máy kinh ngạc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1524. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,41 @@
+{{- define "main" }}
+{{- $topics := site.Data.topics.topics -}}
+{{- $quotes := slice }}
+{{- range $k, $q := site.Data.quotes }}{{ $quotes = $quotes | append $q }}{{ end }}
+{{- $quotes = sort $quotes "id" "asc" }}
+{{- $used := slice }}
+{{- range $quotes }}{{ $used = $used | append .topic }}{{ end }}
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  <p class="muted">{{ .Params.summary }} Các câu có nhãn “chưa kiểm duyệt” là bản nháp, đang chờ biên tập viên đối chiếu.</p>
+</header>
+
+<div class="chips" id="q-filter" data-filter-group="quotes">
+  <button type="button" class="chip" data-filter="" aria-pressed="true">Tất cả</button>
+  {{- range $slug, $t := $topics }}
+    {{- if in $used $slug }}<button type="button" class="chip" data-filter="{{ $slug }}" aria-pressed="false">{{ $t.name_vi }}</button>{{ end }}
+  {{- end }}
+</div>
+
+<div class="qlist" data-filter-items="quotes">
+  {{- range $quotes }}
+  {{- $draft := not (in (slice "ai_cross_checked" "human_verified") .review.status) }}
+  <article class="qcard" id="{{ .id }}" data-topic="{{ .topic }}">
+    <h2 class="qcard-title">{{ .title_vi }} <span class="muted">· {{ .title_en }}</span></h2>
+    {{- if $draft }}<span class="badge badge-draft">Chưa kiểm duyệt</span>{{ end }}
+    <blockquote class="qcard-quote">
+      <p class="q-en">{{ .quote_en }}</p>
+      <p class="q-vi">{{ .quote_vi }}</p>
+    </blockquote>
+    {{- with .highlights }}
+    <ul class="colloc">
+      {{- range . }}
+      <li><span class="colloc-en">{{ if and .word (site.GetPage (printf "/words/%s" .word)) }}<a href="/words/{{ .word }}/">{{ .phrase }}</a>{{ else }}{{ .phrase }}{{ end }}</span><span class="colloc-vi">{{ .meaning_vi }}</span></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    <p class="qcard-actions"><button type="button" class="btn btn-sm" data-share data-title="{{ .title_en }}" data-url="{{ $.Permalink }}#{{ .id }}">Chia sẻ</button></p>
+  </article>
+  {{- end }}
+</div>
+{{- end }}

@@ -1,0 +1,26 @@
+schema_version: 3
+id: science
+lemma: science
+pos:
+- noun
+ipa:
+  us: /ˈsaɪəns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: khoa học
+  id: science-1
+examples:
+- en: She studied computer science at university before joining our research team.
+  vi: Cô ấy học khoa học máy tính ở đại học trước khi gia nhập nhóm nghiên cứu của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 905. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

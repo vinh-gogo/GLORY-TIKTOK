@@ -1,0 +1,26 @@
+schema_version: 3
+id: motor
+lemma: motor
+pos:
+- noun
+ipa:
+  us: /ˈmoʊtɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: động cơ, mô-tơ
+  id: motor-1
+examples:
+- en: The motor in this machine needs to be replaced soon.
+  vi: Động cơ của chiếc máy này cần sớm được thay thế.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2410. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

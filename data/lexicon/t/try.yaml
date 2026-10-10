@@ -1,0 +1,26 @@
+schema_version: 3
+id: try
+lemma: try
+pos:
+- verb
+ipa:
+  us: /traɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thử, cố gắng
+  id: try-1
+examples:
+- en: Please try restarting the computer before calling the technical support team.
+  vi: Vui lòng thử khởi động lại máy tính trước khi gọi đội hỗ trợ kỹ thuật.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 125. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

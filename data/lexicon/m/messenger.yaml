@@ -1,0 +1,27 @@
+schema_version: 3
+id: messenger
+lemma: messenger
+pos:
+- noun
+ipa:
+  us: /ˈmɛsəndʒɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- offices
+senses:
+- meaning_vi: người đưa tin, nhân viên chuyển thư
+  id: messenger-1
+examples:
+- en: A messenger delivered the signed contract to our office before noon.
+  vi: Một nhân viên chuyển thư đã giao hợp đồng đã ký đến văn phòng chúng tôi trước buổi trưa.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈmɛsəndʒɚ/; /ˈmɛsɪndʒɚ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 869. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

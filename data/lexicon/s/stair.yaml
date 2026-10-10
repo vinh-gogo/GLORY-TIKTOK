@@ -1,0 +1,26 @@
+schema_version: 3
+id: stair
+lemma: stair
+pos:
+- noun
+ipa:
+  us: /stɛr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: bậc cầu thang
+  id: stair-1
+examples:
+- en: The elevator was out of order, so we took the stairs.
+  vi: Thang máy hỏng nên chúng tôi đi cầu thang bộ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2630. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

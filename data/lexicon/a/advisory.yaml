@@ -1,0 +1,27 @@
+schema_version: 3
+id: advisory
+lemma: advisory
+pos:
+- adjective
+- noun
+ipa:
+  us: /ædˈvaɪzɚi/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: mang tính tư vấn; bản thông báo khuyến cáo
+  id: advisory-1
+examples:
+- en: She serves on an advisory board that guides the company's long-term strategy.
+  vi: Cô ấy tham gia một hội đồng tư vấn định hướng chiến lược dài hạn của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 751. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

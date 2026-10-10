@@ -1,0 +1,26 @@
+schema_version: 3
+id: bag
+lemma: bag
+pos:
+- noun
+ipa:
+  us: /bæɡ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: túi, cặp
+  id: bag-1
+examples:
+- en: Please keep your bag with you at all times in the airport.
+  vi: Vui lòng luôn mang túi bên mình khi ở sân bay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1252. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

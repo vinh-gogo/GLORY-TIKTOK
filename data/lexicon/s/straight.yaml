@@ -1,0 +1,27 @@
+schema_version: 3
+id: straight
+lemma: straight
+pos:
+- adjective
+- adverb
+ipa:
+  us: /streɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: thẳng; ngay lập tức
+  id: straight-1
+examples:
+- en: Go straight along this road and turn left at the traffic light.
+  vi: Hãy đi thẳng dọc con đường này và rẽ trái ở đèn giao thông.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1072. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

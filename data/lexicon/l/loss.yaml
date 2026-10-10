@@ -1,0 +1,26 @@
+schema_version: 3
+id: loss
+lemma: loss
+pos:
+- noun
+ipa:
+  us: /lɔs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sự thua lỗ; sự mất mát
+  id: loss-1
+examples:
+- en: The company reported a small loss in the second quarter.
+  vi: Công ty báo cáo một khoản lỗ nhỏ trong quý hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 806. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SetV3",
+  "description": "Bộ từ theo video TikTok (content/sets/*.md front matter). v3 đã bỏ practice, series, parts, learning_objectives.",
+  "type": "object",
+  "required": ["schema_version", "title", "words"],
+  "properties": {
+    "schema_version": { "type": "integer", "const": 3 },
+    "title": { "type": "string", "minLength": 1 },
+    "date": { "type": "string" },
+    "draft": { "type": "boolean" },
+    "summary": { "type": "string" },
+    "topics": { "type": "array", "items": { "type": "string" } },
+    "tiktok": { "type": "string" },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "words": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[a-z0-9-]+$" } },
+    "review": { "type": "object" }
+  },
+  "not": {
+    "anyOf": [
+      { "required": ["practice"] },
+      { "required": ["series"] },
+      { "required": ["parts"] },
+      { "required": ["learning_objectives"] },
+      { "required": ["level_band"] },
+      { "required": ["tags"] }
+    ]
+  }
+}

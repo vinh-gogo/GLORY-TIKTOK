@@ -1,0 +1,26 @@
+schema_version: 3
+id: appearance
+lemma: appearance
+pos:
+- noun
+ipa:
+  us: /əˈpɪrəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: vẻ bề ngoài; sự xuất hiện
+  id: appearance-1
+examples:
+- en: A neat appearance is important when you meet new clients.
+  vi: Vẻ ngoài gọn gàng rất quan trọng khi bạn gặp khách hàng mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1568. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

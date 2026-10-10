@@ -1,0 +1,26 @@
+schema_version: 3
+id: energy
+lemma: energy
+pos:
+- noun
+ipa:
+  us: /ˈɛnɚdʒi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: năng lượng
+  id: energy-1
+examples:
+- en: The new office building uses solar panels to reduce its energy costs.
+  vi: Tòa nhà văn phòng mới dùng tấm pin mặt trời để giảm chi phí năng lượng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 831. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: physics
+lemma: physics
+pos:
+- noun
+ipa:
+  us: /ˈfɪzɪks/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: vật lý học
+  id: physics-1
+examples:
+- en: He studied physics at university before becoming a research engineer.
+  vi: Anh ấy học vật lý ở đại học trước khi trở thành kỹ sư nghiên cứu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 835. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

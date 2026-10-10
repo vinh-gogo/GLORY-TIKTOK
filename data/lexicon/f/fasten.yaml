@@ -1,0 +1,26 @@
+schema_version: 3
+id: fasten
+lemma: fasten
+pos:
+- verb
+ipa:
+  us: /ˈfæsən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: thắt chặt, cài, buộc chặt
+  id: fasten-1
+examples:
+- en: Passengers must fasten their seat belts before the plane takes off.
+  vi: Hành khách phải thắt dây an toàn trước khi máy bay cất cánh.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 601. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

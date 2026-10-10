@@ -1,0 +1,26 @@
+schema_version: 3
+id: rare
+lemma: rare
+pos:
+- adjective
+ipa:
+  us: /rɛr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: hiếm, ít có
+  id: rare-1
+examples:
+- en: It is rare for our trains to arrive late.
+  vi: Rất hiếm khi tàu của chúng tôi đến trễ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1763. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

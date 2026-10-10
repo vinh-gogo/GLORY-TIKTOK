@@ -1,0 +1,26 @@
+schema_version: 3
+id: literary
+lemma: literary
+pos:
+- adjective
+ipa:
+  us: /ˈlɪtɚˌɛri/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: thuộc văn học
+  id: literary-1
+examples:
+- en: The magazine publishes literary reviews and interviews with famous novelists every month.
+  vi: Tạp chí đăng các bài phê bình văn học và phỏng vấn tiểu thuyết gia nổi tiếng mỗi tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2470. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

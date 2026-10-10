@@ -1,0 +1,26 @@
+schema_version: 3
+id: tall
+lemma: tall
+pos:
+- adjective
+ipa:
+  us: /tɔl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: cao
+  id: tall-1
+examples:
+- en: The tall building across the street houses our main office.
+  vi: Tòa nhà cao bên kia đường là nơi đặt văn phòng chính của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1785. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

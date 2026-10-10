@@ -1,0 +1,26 @@
+schema_version: 3
+id: worth
+lemma: worth
+pos:
+- adjective
+ipa:
+  us: /wɝθ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: đáng giá, có giá trị
+  id: worth-1
+examples:
+- en: This software is worth the price because it saves our staff many hours.
+  vi: Phần mềm này đáng với số tiền bỏ ra vì nó giúp nhân viên tiết kiệm nhiều giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 816. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

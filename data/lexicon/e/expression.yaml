@@ -1,0 +1,26 @@
+schema_version: 3
+id: expression
+lemma: expression
+pos:
+- noun
+ipa:
+  us: /ɪkˈsprɛʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: biểu hiện; cách diễn đạt
+  id: expression-1
+examples:
+- en: The expression on her face showed that she was pleased with the offer.
+  vi: Nét mặt của cô ấy cho thấy cô hài lòng với lời đề nghị.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1255. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

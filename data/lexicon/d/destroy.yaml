@@ -1,0 +1,26 @@
+schema_version: 3
+id: destroy
+lemma: destroy
+pos:
+- verb
+ipa:
+  us: /dɪˈstrɔɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: phá hủy
+  id: destroy-1
+examples:
+- en: The fire destroyed most of the documents stored in the warehouse.
+  vi: Đám cháy đã phá hủy phần lớn tài liệu lưu trữ trong nhà kho.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1447. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: cater
 lemma: cater
 pos:
@@ -9,12 +9,10 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- hospitality-travel
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- travel
 senses:
 - id: cater-1
   meaning_vi: Cung cấp dịch vụ nấu cỗ và đồ ăn thức uống cho các sự kiện
@@ -22,22 +20,25 @@ senses:
 - id: cater-2
   meaning_vi: Đáp ứng, phục vụ theo nhu cầu hoặc thị hiếu riêng biệt (cater to)
   note_vi: 'Cấu trúc: cater to the needs of...'
-confused_words:
-- word: caterpillar
-  ipa: /ˈkætərpɪlər/
-  difference_vi: Caterpillar là con sâu bướm; cater là cung cấp dịch vụ ẩm thực hoặc phục vụ thị hiếu.
-confusing_meanings:
-- difference_vi: Cater a party = nấu tiệc cho bữa tiệc; cater to tourists = chuyên phục vụ đối tượng du khách.
 collocations:
 - phrase: cater a wedding reception
   meaning_vi: phục vụ tiệc cưới
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: cater to customer needs
   meaning_vi: đáp ứng các nhu cầu của khách hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: outside catering service
   meaning_vi: dịch vụ đặt tiệc nấu từ bên ngoài
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: provide food
   meaning_vi: cung cấp đồ ăn
@@ -45,6 +46,12 @@ synonyms:
   meaning_vi: phục vụ
 - word: accommodate
   meaning_vi: đáp ứng thị hiếu
+confused_words:
+- word: caterpillar
+  ipa: /ˈkætərpɪlər/
+  difference_vi: Caterpillar là con sâu bướm; cater là cung cấp dịch vụ ẩm thực hoặc phục vụ thị hiếu.
+confusing_meanings:
+- difference_vi: Cater a party = nấu tiệc cho bữa tiệc; cater to tourists = chuyên phục vụ đối tượng du khách.
 examples:
 - en: A prestigious local restaurant was hired to cater the corporate anniversary dinner.
   vi: Một nhà hàng địa phương danh tiếng đã được thuê để phục vụ tiệc tối kỷ niệm thành lập công ty.
@@ -55,6 +62,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

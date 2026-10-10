@@ -1,0 +1,26 @@
+schema_version: 3
+id: payable
+lemma: payable
+pos:
+- adjective
+ipa:
+  us: /ˈpeɪəbəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: phải trả, có thể thanh toán
+  id: payable-1
+examples:
+- en: The full amount is payable within thirty days of receiving the invoice.
+  vi: Toàn bộ số tiền phải thanh toán trong vòng ba mươi ngày kể từ khi nhận hóa đơn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 686. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

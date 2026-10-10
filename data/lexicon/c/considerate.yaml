@@ -1,0 +1,26 @@
+schema_version: 3
+id: considerate
+lemma: considerate
+pos:
+- adjective
+ipa:
+  us: /kənˈsɪdɚət/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: chu đáo, biết quan tâm người khác
+  id: considerate-1
+examples:
+- en: It was considerate of him to turn down the music at night.
+  vi: Anh ấy thật chu đáo khi vặn nhỏ nhạc vào ban đêm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1206. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: change
+lemma: change
+pos:
+- noun
+- verb
+ipa:
+  us: /tʃeɪndʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: thay đổi; sự thay đổi; tiền thừa
+  id: change-1
+examples:
+- en: We need to change the meeting time because the manager is traveling.
+  vi: Chúng ta cần đổi giờ họp vì người quản lý đang đi công tác.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 113. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

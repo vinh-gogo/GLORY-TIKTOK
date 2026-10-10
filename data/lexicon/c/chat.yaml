@@ -1,0 +1,27 @@
+schema_version: 3
+id: chat
+lemma: chat
+pos:
+- verb
+- noun
+ipa:
+  us: /tʃæt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: trò chuyện, nói chuyện phiếm
+  id: chat-1
+examples:
+- en: The colleagues stopped to chat for a few minutes in the hallway.
+  vi: Các đồng nghiệp dừng lại trò chuyện vài phút ngoài hành lang.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2534. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

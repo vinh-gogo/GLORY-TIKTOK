@@ -1,0 +1,26 @@
+schema_version: 3
+id: mess
+lemma: mess
+pos:
+- noun
+ipa:
+  us: /mɛs/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự bừa bộn, tình trạng lộn xộn
+  id: mess-1
+examples:
+- en: Please clean up the mess in the kitchen before you leave.
+  vi: Vui lòng dọn dẹp chỗ bừa bộn trong bếp trước khi bạn ra về.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2382. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

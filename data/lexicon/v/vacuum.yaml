@@ -1,0 +1,27 @@
+schema_version: 3
+id: vacuum
+lemma: vacuum
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈvækjum/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: máy hút bụi; hút bụi
+  id: vacuum-1
+examples:
+- en: The cleaner will vacuum the carpet in the hallway tonight.
+  vi: Nhân viên dọn dẹp sẽ hút bụi tấm thảm ở hành lang tối nay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 409. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

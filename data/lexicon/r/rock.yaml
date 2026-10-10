@@ -1,0 +1,26 @@
+schema_version: 3
+id: rock
+lemma: rock
+pos:
+- noun
+ipa:
+  us: /rɑk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: đá; nhạc rock
+  id: rock-1
+examples:
+- en: The band plays classic rock music at the weekend festival every year.
+  vi: Ban nhạc chơi nhạc rock cổ điển tại lễ hội cuối tuần mỗi năm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa (tảng đá, nhạc rock, động từ lắc); chọn danh từ — Mục từ NGSL hạng
+    965. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM
+    theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

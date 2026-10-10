@@ -1,0 +1,27 @@
+schema_version: 3
+id: victory
+lemma: victory
+pos:
+- noun
+ipa:
+  us: /ˈvɪktɚi/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: chiến thắng
+  id: victory-1
+examples:
+- en: The team celebrated its victory with a dinner downtown.
+  vi: Đội đã ăn mừng chiến thắng bằng một bữa tối ở trung tâm thành phố.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈvɪktɚi/; /ˈvɪktri/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1776. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

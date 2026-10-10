@@ -1,0 +1,26 @@
+schema_version: 3
+id: administration
+lemma: administration
+pos:
+- noun
+ipa:
+  us: /ædˌmɪnɪˈstreɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: hành chính, sự quản lý
+  id: administration-1
+examples:
+- en: The administration office handles all paperwork for new employees and visitors.
+  vi: Văn phòng hành chính xử lý toàn bộ giấy tờ cho nhân viên mới và khách đến thăm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1046. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

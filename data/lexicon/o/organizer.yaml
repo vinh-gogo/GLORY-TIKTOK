@@ -1,0 +1,26 @@
+schema_version: 3
+id: organizer
+lemma: organizer
+pos:
+- noun
+ipa:
+  us: /ˈɔrɡəˌnaɪzɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: người tổ chức; sổ tay sắp xếp
+  id: organizer-1
+examples:
+- en: The event organizer arranged seating for two hundred guests.
+  vi: Người tổ chức sự kiện đã sắp xếp chỗ ngồi cho hai trăm khách.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 347. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

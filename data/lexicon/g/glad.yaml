@@ -1,0 +1,26 @@
+schema_version: 3
+id: glad
+lemma: glad
+pos:
+- adjective
+ipa:
+  us: /ɡlæd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: vui mừng
+  id: glad-1
+examples:
+- en: We are glad to inform you that your application was accepted.
+  vi: Chúng tôi vui mừng thông báo rằng đơn của bạn đã được chấp nhận.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1370. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

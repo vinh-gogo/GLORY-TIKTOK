@@ -1,0 +1,26 @@
+schema_version: 3
+id: institute
+lemma: institute
+pos:
+- noun
+ipa:
+  us: /ˈɪnstəˌtut/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: viện, học viện, cơ sở nghiên cứu
+  id: institute-1
+examples:
+- en: She studied design at a well-known institute before joining our company.
+  vi: Cô ấy học thiết kế tại một học viện nổi tiếng trước khi vào công ty chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 604. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

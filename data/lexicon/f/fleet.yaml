@@ -1,0 +1,26 @@
+schema_version: 3
+id: fleet
+lemma: fleet
+pos:
+- noun
+ipa:
+  us: /flit/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: đội xe, đội tàu
+  id: fleet-1
+examples:
+- en: The delivery company is adding ten electric vans to its fleet.
+  vi: Công ty giao hàng đang bổ sung mười xe tải điện vào đội xe của mình.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 981. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

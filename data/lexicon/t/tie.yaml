@@ -1,0 +1,27 @@
+schema_version: 3
+id: tie
+lemma: tie
+pos:
+- noun
+- verb
+ipa:
+  us: /taɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: cà vạt; buộc, gắn kết
+  id: tie-1
+examples:
+- en: He wore a blue tie to the job interview this morning.
+  vi: Sáng nay anh ấy đeo một chiếc cà vạt xanh đến buổi phỏng vấn xin việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1516. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

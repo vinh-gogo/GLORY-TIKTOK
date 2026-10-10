@@ -1,0 +1,27 @@
+schema_version: 3
+id: ideal
+lemma: ideal
+pos:
+- adjective
+- noun
+ipa:
+  us: /aɪˈdil/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: lý tưởng
+  id: ideal-1
+examples:
+- en: This location is ideal for a new restaurant near the university.
+  vi: Địa điểm này lý tưởng cho một nhà hàng mới gần trường đại học.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1674. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

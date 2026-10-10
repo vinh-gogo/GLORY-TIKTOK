@@ -1,0 +1,27 @@
+schema_version: 3
+id: gentleman
+lemma: gentleman
+pos:
+- noun
+ipa:
+  us: /ˈdʒɛntəlmən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: quý ông, người đàn ông lịch thiệp
+  id: gentleman-1
+examples:
+- en: The gentleman at the front desk helped us find our room.
+  vi: Người đàn ông ở quầy lễ tân đã giúp chúng tôi tìm phòng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdʒɛntəlmən/; /ˈdʒɛnəlmən/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1990. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

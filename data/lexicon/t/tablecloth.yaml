@@ -1,0 +1,26 @@
+schema_version: 3
+id: tablecloth
+lemma: tablecloth
+pos:
+- noun
+ipa:
+  us: /ˈteɪbəlˌklɔθ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: khăn trải bàn
+  id: tablecloth-1
+examples:
+- en: The waiter spread a clean white tablecloth over the round table.
+  vi: Người phục vụ trải một chiếc khăn trải bàn trắng sạch lên bàn tròn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1182. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

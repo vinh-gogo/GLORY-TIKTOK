@@ -1,0 +1,26 @@
+schema_version: 3
+id: real
+lemma: real
+pos:
+- adjective
+ipa:
+  us: /ril/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thật, thực tế
+  id: real-1
+examples:
+- en: The real cause of the delay was a mistake in the shipping order.
+  vi: Nguyên nhân thực sự của sự chậm trễ là một sai sót trong đơn vận chuyển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 354. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

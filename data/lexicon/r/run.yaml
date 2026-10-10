@@ -1,0 +1,26 @@
+schema_version: 3
+id: run
+lemma: run
+pos:
+- verb
+ipa:
+  us: /rʌn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: chạy; điều hành, quản lý
+  id: run-1
+examples:
+- en: She runs a small consulting firm that specializes in marketing.
+  vi: Cô ấy điều hành một công ty tư vấn nhỏ chuyên về tiếp thị.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 192. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: crosswalk
 lemma: crosswalk
 pos:
@@ -6,43 +6,49 @@ pos:
 ipa:
   us: /ˈkrɔːswɑːk/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
 - daily-life
-speaking_use:
-- describe-picture
 senses:
 - id: crosswalk-1
   meaning_vi: Vạch kẻ đường dành cho người đi bộ sang đường
+collocations:
+- phrase: use the crosswalk
+  meaning_vi: Đi đúng vạch kẻ đường để sang đường
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: paint a crosswalk
+  meaning_vi: Sơn vạch kẻ sang đường
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: stop before the crosswalk
+  meaning_vi: Dừng xe phía trước vạch qua đường
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: zebra crossing
+  meaning_vi: vạch kẻ sọc qua đường (tiếng Anh - Anh)
 confused_words:
 - ref: sidewalk
   word: sidewalk
   ipa: /ˈsaɪdwɑːk/
   meaning: Vỉa hè, lề đường
   kind: spelling-sound
-  difference_vi: Sidewalk là vỉa hè dọc theo lòng đường; crosswalk là vạch kẻ cắt
-    ngang đường để sang bờ bên kia
+  difference_vi: Sidewalk là vỉa hè dọc theo lòng đường; crosswalk là vạch kẻ cắt ngang đường để sang bờ bên kia
 confusing_meanings:
 - ref: overpass
   word: overpass
   meaning: Cầu vượt trên cao
-  difference_vi: Crosswalk là lối đi trực tiếp dưới mặt đất; overpass là cầu đi bộ
-    bắc trên không
-collocations:
-- phrase: use the crosswalk
-  meaning_vi: Đi đúng vạch kẻ đường để sang đường
-  evidence: corpus
-- phrase: paint a crosswalk
-  meaning_vi: Sơn vạch kẻ sang đường
-  evidence: corpus
-- phrase: stop before the crosswalk
-  meaning_vi: Dừng xe phía trước vạch qua đường
-  evidence: corpus
-synonyms:
-- word: zebra crossing
-  meaning_vi: vạch kẻ sọc qua đường (tiếng Anh - Anh)
+  difference_vi: Crosswalk là lối đi trực tiếp dưới mặt đất; overpass là cầu đi bộ bắc trên không
 examples:
 - en: A woman with an umbrella is walking across the busy street at the marked crosswalk.
   vi: Một người phụ nữ cầm ô đang đi qua con phố đông đúc tại lối vạch kẻ sang đường.

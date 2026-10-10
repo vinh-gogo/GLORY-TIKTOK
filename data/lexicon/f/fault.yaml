@@ -1,0 +1,26 @@
+schema_version: 3
+id: fault
+lemma: fault
+pos:
+- noun
+ipa:
+  us: /fɔlt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: lỗi, khuyết điểm
+  id: fault-1
+examples:
+- en: The technician found a fault in the electrical system.
+  vi: Kỹ thuật viên đã tìm thấy một lỗi trong hệ thống điện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1995. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

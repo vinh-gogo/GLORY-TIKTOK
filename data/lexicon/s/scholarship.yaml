@@ -1,0 +1,26 @@
+schema_version: 3
+id: scholarship
+lemma: scholarship
+pos:
+- noun
+ipa:
+  us: /ˈskɑlɚˌʃɪp/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: học bổng
+  id: scholarship-1
+examples:
+- en: She won a scholarship to study business at a foreign university.
+  vi: Cô ấy giành được học bổng để học kinh doanh tại một trường đại học nước ngoài.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 427. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

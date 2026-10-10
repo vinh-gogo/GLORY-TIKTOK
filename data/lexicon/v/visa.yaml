@@ -1,0 +1,26 @@
+schema_version: 3
+id: visa
+lemma: visa
+pos:
+- noun
+ipa:
+  us: /ˈvizə/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: thị thực, visa
+  id: visa-1
+examples:
+- en: You must apply for a business visa before traveling to that country.
+  vi: Bạn phải xin thị thực công tác trước khi đi đến quốc gia đó.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 559. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

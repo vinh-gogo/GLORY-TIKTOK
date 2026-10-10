@@ -1,0 +1,26 @@
+schema_version: 3
+id: rule
+lemma: rule
+pos:
+- noun
+ipa:
+  us: /rul/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: quy tắc, quy định
+  id: rule-1
+examples:
+- en: Every employee must follow the safety rules inside the factory.
+  vi: Mọi nhân viên phải tuân thủ các quy tắc an toàn trong nhà máy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 415. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

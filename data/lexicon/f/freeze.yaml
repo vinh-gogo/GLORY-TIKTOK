@@ -1,0 +1,27 @@
+schema_version: 3
+id: freeze
+lemma: freeze
+pos:
+- verb
+- noun
+ipa:
+  us: /friz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: đóng băng, làm đông; ngừng (tuyển dụng, giá)
+  id: freeze-1
+examples:
+- en: The company decided to freeze hiring until the end of the year.
+  vi: Công ty quyết định tạm ngừng tuyển dụng cho đến cuối năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1856. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

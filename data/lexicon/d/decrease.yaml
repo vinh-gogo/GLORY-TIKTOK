@@ -1,0 +1,28 @@
+schema_version: 3
+id: decrease
+lemma: decrease
+pos:
+- verb
+- noun
+ipa:
+  us: /dɪˈkris/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: giảm, sự giảm
+  id: decrease-1
+examples:
+- en: Our monthly expenses decreased by ten percent after we changed suppliers.
+  vi: Chi phí hằng tháng của chúng tôi giảm mười phần trăm sau khi đổi nhà cung cấp.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/dɪˈkris/; /ˈdiˌkris/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1420. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: pastry
+lemma: pastry
+pos:
+- noun
+ipa:
+  us: /ˈpeɪstri/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: bánh ngọt, bánh nướng
+  id: pastry-1
+examples:
+- en: The café serves fresh coffee and a variety of pastries every morning.
+  vi: Quán cà phê phục vụ cà phê tươi và nhiều loại bánh ngọt mỗi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1001. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

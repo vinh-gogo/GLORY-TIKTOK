@@ -1,0 +1,26 @@
+schema_version: 3
+id: willingness
+lemma: willingness
+pos:
+- noun
+ipa:
+  us: /ˈwɪlɪŋnəs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: sự sẵn lòng, thiện chí
+  id: willingness-1
+examples:
+- en: Her willingness to learn new skills impressed the whole hiring committee.
+  vi: Sự sẵn lòng học kỹ năng mới của cô ấy gây ấn tượng với cả hội đồng tuyển dụng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1193. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

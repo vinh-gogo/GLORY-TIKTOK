@@ -1,0 +1,26 @@
+schema_version: 3
+id: formally
+lemma: formally
+pos:
+- adverb
+ipa:
+  us: /ˈfɔrməli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: một cách chính thức, trang trọng
+  id: formally-1
+examples:
+- en: The two companies will formally announce their partnership at tomorrow's press conference.
+  vi: Hai công ty sẽ chính thức công bố quan hệ đối tác tại buổi họp báo ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 984. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

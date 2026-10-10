@@ -1,0 +1,26 @@
+schema_version: 3
+id: baker
+lemma: baker
+pos:
+- noun
+ipa:
+  us: /ˈbeɪkɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: thợ làm bánh
+  id: baker-1
+examples:
+- en: The baker starts work at four in the morning to prepare fresh bread.
+  vi: Thợ làm bánh bắt đầu làm việc lúc bốn giờ sáng để chuẩn bị bánh mì tươi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 960. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

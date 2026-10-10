@@ -1,0 +1,26 @@
+schema_version: 3
+id: participation
+lemma: participation
+pos:
+- noun
+ipa:
+  us: /pɑrˌtɪsəˈpeɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự tham gia
+  id: participation-1
+examples:
+- en: Active participation from every member will make the workshop more successful.
+  vi: Sự tham gia tích cực của mọi thành viên sẽ giúp buổi hội thảo thành công hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2528. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

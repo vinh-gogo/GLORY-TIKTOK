@@ -1,0 +1,26 @@
+schema_version: 3
+id: authority
+lemma: authority
+pos:
+- noun
+ipa:
+  us: /əˈθɔrəti/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: quyền hạn; cơ quan chức năng
+  id: authority-1
+examples:
+- en: Only the manager has the authority to approve these expenses.
+  vi: Chỉ có quản lý mới có quyền phê duyệt các khoản chi này.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 224. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

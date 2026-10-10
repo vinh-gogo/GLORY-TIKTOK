@@ -1,0 +1,27 @@
+schema_version: 3
+id: retain
+lemma: retain
+pos:
+- verb
+ipa:
+  us: /rɪˈteɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: giữ lại, duy trì
+  id: retain-1
+examples:
+- en: The firm offers bonuses to retain its most skilled employees.
+  vi: Công ty trả thưởng để giữ chân những nhân viên có kỹ năng nhất.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈteɪn/; /riˈteɪn/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1959. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

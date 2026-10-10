@@ -1,0 +1,26 @@
+schema_version: 3
+id: motion
+lemma: motion
+pos:
+- noun
+ipa:
+  us: /ˈmoʊʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự chuyển động; kiến nghị (trong họp)
+  id: motion-1
+examples:
+- en: The committee voted to approve the motion to extend the deadline.
+  vi: Ủy ban đã bỏ phiếu thông qua kiến nghị gia hạn thời hạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1848. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

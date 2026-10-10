@@ -1,0 +1,27 @@
+schema_version: 3
+id: uniform
+lemma: uniform
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈjunəˌfɔrm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: đồng phục; đồng nhất
+  id: uniform-1
+examples:
+- en: All kitchen staff must wear a clean uniform during their shift.
+  vi: Mọi nhân viên bếp phải mặc đồng phục sạch trong ca làm việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2055. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: pipe
+lemma: pipe
+pos:
+- noun
+ipa:
+  us: /paɪp/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: ống dẫn
+  id: pipe-1
+examples:
+- en: A leaking pipe in the basement flooded part of the storage area.
+  vi: Một đường ống bị rò rỉ ở tầng hầm làm ngập một phần khu vực kho.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2587. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

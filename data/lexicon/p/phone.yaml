@@ -1,0 +1,26 @@
+schema_version: 3
+id: phone
+lemma: phone
+pos:
+- noun
+ipa:
+  us: /foʊn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: điện thoại
+  id: phone-1
+examples:
+- en: Please turn off your phone during the presentation, thank you.
+  vi: Vui lòng tắt điện thoại trong lúc thuyết trình, xin cảm ơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 479. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

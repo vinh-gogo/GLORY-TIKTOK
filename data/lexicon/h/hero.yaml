@@ -1,0 +1,27 @@
+schema_version: 3
+id: hero
+lemma: hero
+pos:
+- noun
+ipa:
+  us: /ˈhɪroʊ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: anh hùng
+  id: hero-1
+examples:
+- en: The firefighter was praised as a hero by the whole town.
+  vi: Người lính cứu hỏa được cả thị trấn ca ngợi là một anh hùng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈhɪroʊ/; /ˈhiroʊ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2108. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

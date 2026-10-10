@@ -1,0 +1,27 @@
+schema_version: 3
+id: individually
+lemma: individually
+pos:
+- adverb
+ipa:
+  us: /ˌɪndɪˈvɪdʒuəli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: riêng lẻ, từng người một
+  id: individually-1
+examples:
+- en: The manager met with each team member individually to discuss goals.
+  vi: Quản lý gặp riêng từng thành viên trong nhóm để thảo luận mục tiêu.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɪndɪˈvɪdʒuəli/; /ˌɪndɪˈvɪdʒəli/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 827. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: opinion
+lemma: opinion
+pos:
+- noun
+ipa:
+  us: /əˈpɪnjən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: ý kiến, quan điểm
+  id: opinion-1
+examples:
+- en: I would like to hear your opinion about the new design.
+  vi: Tôi muốn nghe ý kiến của bạn về thiết kế mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 656. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

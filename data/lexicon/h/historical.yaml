@@ -1,0 +1,26 @@
+schema_version: 3
+id: historical
+lemma: historical
+pos:
+- adjective
+ipa:
+  us: /hɪˈstɔrɪkəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: thuộc lịch sử
+  id: historical-1
+examples:
+- en: We visited several historical sites during our trip to Hanoi.
+  vi: Chúng tôi đã thăm nhiều di tích lịch sử trong chuyến đi Hà Nội.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1405. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: cycle
+lemma: cycle
+pos:
+- noun
+ipa:
+  us: /ˈsaɪkəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: chu kỳ, vòng
+  id: cycle-1
+examples:
+- en: The product life cycle is getting shorter in the technology industry.
+  vi: Vòng đời sản phẩm đang ngắn dần trong ngành công nghệ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1394. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

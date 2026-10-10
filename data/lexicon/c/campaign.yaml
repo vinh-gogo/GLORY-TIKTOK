@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: campaign
 lemma: campaign
 pos:
@@ -6,16 +6,12 @@ pos:
 ipa:
   us: /kæmˈpeɪn/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- marketing
-- business
-speaking_use:
-- read-aloud
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: campaign-1
   meaning_vi: Chiến dịch (quảng cáo, tiếp thị, nâng cao nhận thức)
@@ -23,40 +19,49 @@ senses:
 collocations:
 - phrase: marketing campaign
   meaning_vi: chiến dịch tiếp thị
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: advertising campaign
   meaning_vi: chiến dịch quảng cáo
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: launch a campaign
   meaning_vi: tung ra / khởi động một chiến dịch
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: successful campaign
   meaning_vi: chiến dịch thành công vang dội
-  evidence: corpus
-confused_words:
-- word: champion
-  ipa: /ˈtʃæmpiən/
-  meaning: nhà vô địch, quán quân
-  kind: spelling-sound
-  difference_vi: Campaign phát âm /kæmˈpeɪn/ là chiến dịch; champion phát âm /ˈtʃæmpiən/
-    là nhà vô địch.
-confusing_meanings:
-- word: promotion
-  meaning: chương trình khuyến mãi giảm giá ngắn hạn
-  difference_vi: Promotion là đợt giảm giá kích cầu ngắn hạn; campaign là chiến dịch
-    truyền thông toàn diện có kế hoạch dài hơi.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: marketing drive
   meaning_vi: đợt xúc tiến tiếp thị
 - word: promotional effort
   meaning_vi: nỗ lực quảng bá
+confused_words:
+- word: champion
+  ipa: /ˈtʃæmpiən/
+  meaning: nhà vô địch, quán quân
+  kind: spelling-sound
+  difference_vi: Campaign phát âm /kæmˈpeɪn/ là chiến dịch; champion phát âm /ˈtʃæmpiən/ là nhà vô địch.
+confusing_meanings:
+- word: promotion
+  meaning: chương trình khuyến mãi giảm giá ngắn hạn
+  difference_vi: Promotion là đợt giảm giá kích cầu ngắn hạn; campaign là chiến dịch truyền thông toàn diện có kế hoạch dài
+    hơi.
 examples:
-- en: The company plans to launch a nationwide advertising campaign for its new smartphone
-    next month.
-  vi: Công ty có kế hoạch triển khai một chiến dịch quảng cáo trên toàn quốc cho chiếc
-    điện thoại thông minh mới vào tháng tới.
-pronunciation_tips_vi: Chữ cái 'g' là ÂM CÂM! Phát âm là /kæmˈpeɪn/, trọng âm rơi
-  vào âm tiết hai với nguyên âm đôi /eɪ/.
+- en: The company plans to launch a nationwide advertising campaign for its new smartphone next month.
+  vi: Công ty có kế hoạch triển khai một chiến dịch quảng cáo trên toàn quốc cho chiếc điện thoại thông minh mới vào tháng
+    tới.
+pronunciation_tips_vi: Chữ cái 'g' là ÂM CÂM! Phát âm là /kæmˈpeɪn/, trọng âm rơi vào âm tiết hai với nguyên âm đôi /eɪ/.
 review:
   status: ai_cross_checked
   checked_by:

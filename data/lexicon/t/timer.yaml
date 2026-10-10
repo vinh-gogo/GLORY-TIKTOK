@@ -1,0 +1,26 @@
+schema_version: 3
+id: timer
+lemma: timer
+pos:
+- noun
+ipa:
+  us: /ˈtaɪmɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: đồng hồ hẹn giờ, bộ đếm giờ
+  id: timer-1
+examples:
+- en: Set the timer for ten minutes and start the presentation when it rings.
+  vi: Hãy đặt hẹn giờ mười phút và bắt đầu bài thuyết trình khi chuông reo.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 880. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

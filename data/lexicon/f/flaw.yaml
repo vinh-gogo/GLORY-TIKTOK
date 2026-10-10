@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: flaw
 lemma: flaw
 pos:
@@ -10,32 +10,33 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- production-quality-control
-speaking_use:
-- respond-with-info
-- express-opinion
+- manufacturing
 senses:
 - id: flaw-1
   meaning_vi: Tì vết, vết nứt, lỗi khiếm khuyết trong thiết kế hoặc sản phẩm
   note_vi: Điểm thiếu sót làm giảm giá trị hoặc độ bền của sản phẩm.
-confused_words:
-- word: floor
-  ipa: /flɔːr/
-  difference_vi: Floor là sàn nhà hoặc tầng nhà (có âm /r/); flaw là lỗi khiếm khuyết (không có âm r).
-confusing_meanings:
-- difference_vi: Design flaw = lỗi trong khâu thiết kế bản vẽ; fatal flaw = khiếm khuyết chết người phá hủy toàn bộ hệ thống.
 collocations:
 - phrase: design flaw
   meaning_vi: lỗi trong thiết kế
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: minor flaw
   meaning_vi: tì vết / khuyết điểm nhỏ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: fatal flaw
   meaning_vi: khiếm khuyết chí mạng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: defect
   meaning_vi: khuyết tật, lỗi
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: thiếu sót, điểm yếu
 - word: imperfection
   meaning_vi: điểm không hoàn hảo
+confused_words:
+- word: floor
+  ipa: /flɔːr/
+  difference_vi: Floor là sàn nhà hoặc tầng nhà (có âm /r/); flaw là lỗi khiếm khuyết (không có âm r).
+confusing_meanings:
+- difference_vi: Design flaw = lỗi trong khâu thiết kế bản vẽ; fatal flaw = khiếm khuyết chết người phá hủy toàn bộ hệ thống.
 examples:
 - en: Engineers redesigned the cooling system after identifying a critical design flaw.
   vi: Các kỹ sư đã thiết kế lại hệ thống làm mát sau khi xác định được một lỗi thiết kế nghiêm trọng.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

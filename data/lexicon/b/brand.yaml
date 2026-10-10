@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: brand
 lemma: brand
 pos:
@@ -10,16 +10,38 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: brand-1
   meaning_vi: Thương hiệu, nhãn hiệu sản phẩm; (v) xây dựng nhận thức thương hiệu
   note_vi: Khái niệm cốt lõi trong marketing bao gồm cả tên gọi, logo, uy tín và cảm nhận người dùng.
+collocations:
+- phrase: brand awareness
+  meaning_vi: độ nhận diện thương hiệu
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: brand loyalty
+  meaning_vi: lòng trung thành của người dùng với nhãn hiệu
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: build a strong brand
+  meaning_vi: xây dựng thương hiệu vững mạnh
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: trademark
+  meaning_vi: nhãn hiệu đã đăng ký bản quyền
+- word: label
+  meaning_vi: nhãn mác
 confused_words:
 - word: blend
   ipa: /blend/
@@ -27,21 +49,6 @@ confused_words:
 confusing_meanings:
 - difference_vi: Brand loyalty = lòng trung thành với thương hiệu; brand awareness = mức độ nhận biết thương hiệu của công
     chúng.
-collocations:
-- phrase: brand awareness
-  meaning_vi: độ nhận diện thương hiệu
-  evidence: corpus
-- phrase: brand loyalty
-  meaning_vi: lòng trung thành của người dùng với nhãn hiệu
-  evidence: corpus
-- phrase: build a strong brand
-  meaning_vi: xây dựng thương hiệu vững mạnh
-  evidence: corpus
-synonyms:
-- word: trademark
-  meaning_vi: nhãn hiệu đã đăng ký bản quyền
-- word: label
-  meaning_vi: nhãn mác
 examples:
 - en: Investing in quality packaging helps build a strong brand image in the retail market.
   vi: Đầu tư vào bao bì chất lượng giúp xây dựng hình ảnh thương hiệu vững chắc trên thị trường bán lẻ.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

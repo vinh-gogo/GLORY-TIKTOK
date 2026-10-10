@@ -1,0 +1,26 @@
+schema_version: 3
+id: quality
+lemma: quality
+pos:
+- noun
+ipa:
+  us: /ˈkwɑləti/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: chất lượng
+  id: quality-1
+examples:
+- en: Our inspectors check the quality of every product before shipping.
+  vi: Các nhân viên kiểm tra của chúng tôi kiểm tra chất lượng mọi sản phẩm trước khi vận chuyển.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 517. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

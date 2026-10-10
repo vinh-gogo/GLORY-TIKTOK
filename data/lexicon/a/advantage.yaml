@@ -1,0 +1,26 @@
+schema_version: 3
+id: advantage
+lemma: advantage
+pos:
+- noun
+ipa:
+  us: /ædˈvæntɪdʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: lợi thế, ưu điểm
+  id: advantage-1
+examples:
+- en: Speaking two languages is a big advantage in international sales.
+  vi: Nói được hai ngôn ngữ là một lợi thế lớn trong bán hàng quốc tế.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 773. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

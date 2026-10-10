@@ -1,0 +1,26 @@
+schema_version: 3
+id: version
+lemma: version
+pos:
+- noun
+ipa:
+  us: /ˈvɝʒən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: phiên bản
+  id: version-1
+examples:
+- en: Please download the latest version of the software before you begin.
+  vi: Vui lòng tải xuống phiên bản mới nhất của phần mềm trước khi bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 981. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

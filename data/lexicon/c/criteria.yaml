@@ -1,0 +1,26 @@
+schema_version: 3
+id: criteria
+lemma: criteria
+pos:
+- noun
+ipa:
+  us: /kraɪˈtɪriə/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: các tiêu chí (số nhiều của criterion)
+  id: criteria-1
+examples:
+- en: All applicants must meet the criteria listed in the job notice.
+  vi: Mọi ứng viên phải đáp ứng các tiêu chí nêu trong thông báo tuyển dụng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1953. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

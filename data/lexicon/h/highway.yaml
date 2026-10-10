@@ -1,0 +1,26 @@
+schema_version: 3
+id: highway
+lemma: highway
+pos:
+- noun
+ipa:
+  us: /ˈhaɪˌweɪ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: đường cao tốc
+  id: highway-1
+examples:
+- en: Traffic on the highway was slow because of the construction.
+  vi: Giao thông trên đường cao tốc chậm vì có công trình thi công.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 161. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

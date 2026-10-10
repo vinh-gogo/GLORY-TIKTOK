@@ -1,0 +1,28 @@
+schema_version: 3
+id: separate
+lemma: separate
+pos:
+- adjective
+- verb
+ipa:
+  us: /ˈsɛpɚˌeɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: riêng biệt; tách ra
+  id: separate-1
+examples:
+- en: Please submit the two reports in separate envelopes to the main office.
+  vi: Vui lòng nộp hai bản báo cáo trong các phong bì riêng cho văn phòng chính.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈsɛpɚˌeɪt/; /ˈsɛpɚɪt/; /ˈsɛprət/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 890. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

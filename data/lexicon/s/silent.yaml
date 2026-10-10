@@ -1,0 +1,26 @@
+schema_version: 3
+id: silent
+lemma: silent
+pos:
+- adjective
+ipa:
+  us: /ˈsaɪlənt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: im lặng, yên lặng
+  id: silent-1
+examples:
+- en: Please keep your phones silent during the presentation to avoid any interruptions.
+  vi: Vui lòng để điện thoại ở chế độ im lặng trong buổi thuyết trình để tránh làm gián đoạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2474. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

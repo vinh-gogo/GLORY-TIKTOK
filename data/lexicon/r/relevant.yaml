@@ -1,0 +1,26 @@
+schema_version: 3
+id: relevant
+lemma: relevant
+pos:
+- adjective
+ipa:
+  us: /ˈrɛləvənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: liên quan, thích hợp
+  id: relevant-1
+examples:
+- en: Please attach all relevant documents to your application form.
+  vi: Vui lòng đính kèm tất cả tài liệu liên quan vào đơn của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1504. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

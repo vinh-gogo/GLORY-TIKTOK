@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: workload
 lemma: workload
 pos:
@@ -6,16 +6,43 @@ pos:
 ipa:
   us: /ˈwɜːrkloʊd/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- work
-speaking_use:
-- respond-to-questions
+- offices
 senses:
 - id: workload-1
   meaning_vi: Khối lượng công việc cần xử lý trong một khoảng thời gian
+collocations:
+- phrase: heavy workload
+  meaning_vi: Khối lượng công việc lớn, dồn dập
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: manage workload
+  meaning_vi: Sắp xếp, quản lý khối lượng công việc
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: reduce workload
+  meaning_vi: Giảm tải lượng việc cho nhân viên
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: cope with workload
+  meaning_vi: Xoay xở, đối phó với áp lực công việc
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: volume of work
+  meaning_vi: lượng việc
 confused_words:
 - ref: workplace
   word: workplace
@@ -33,29 +60,10 @@ confusing_meanings:
 - ref: duty
   word: duty
   meaning: Nhiệm vụ, bổn phận theo chức danh
-  difference_vi: Workload là khối lượng thực tế phải làm; duty là phạm vi trách nhiệm
-    theo hợp đồng
-collocations:
-- phrase: heavy workload
-  meaning_vi: Khối lượng công việc lớn, dồn dập
-  evidence: corpus
-- phrase: manage workload
-  meaning_vi: Sắp xếp, quản lý khối lượng công việc
-  evidence: corpus
-- phrase: reduce workload
-  meaning_vi: Giảm tải lượng việc cho nhân viên
-  evidence: corpus
-- phrase: cope with workload
-  meaning_vi: Xoay xở, đối phó với áp lực công việc
-  evidence: corpus
-synonyms:
-- word: volume of work
-  meaning_vi: lượng việc
+  difference_vi: Workload là khối lượng thực tế phải làm; duty là phạm vi trách nhiệm theo hợp đồng
 examples:
-- en: To handle a heavy workload effectively, I usually prioritize urgent tasks first
-    thing in the morning.
-  vi: Để xử lý khối lượng công việc lớn một cách hiệu quả, tôi thường ưu tiên các
-    nhiệm vụ khẩn cấp vào đầu buổi sáng.
+- en: To handle a heavy workload effectively, I usually prioritize urgent tasks first thing in the morning.
+  vi: Để xử lý khối lượng công việc lớn một cách hiệu quả, tôi thường ưu tiên các nhiệm vụ khẩn cấp vào đầu buổi sáng.
 review:
   status: ai_cross_checked
   checked_by:

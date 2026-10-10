@@ -1,0 +1,26 @@
+schema_version: 3
+id: conversation
+lemma: conversation
+pos:
+- noun
+ipa:
+  us: /ˌkɑnvɚˈseɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cuộc trò chuyện
+  id: conversation-1
+examples:
+- en: I had a long conversation with the director about my future plans.
+  vi: Tôi đã có một cuộc trò chuyện dài với giám đốc về kế hoạch tương lai của mình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 982. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

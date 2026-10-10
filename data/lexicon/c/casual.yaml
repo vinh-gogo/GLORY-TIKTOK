@@ -1,0 +1,27 @@
+schema_version: 3
+id: casual
+lemma: casual
+pos:
+- adjective
+ipa:
+  us: /ˈkæʒəwəl/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: thoải mái, thân mật (trang phục)
+  id: casual-1
+examples:
+- en: Employees may wear casual clothes to the office on Fridays.
+  vi: Nhân viên có thể mặc quần áo thoải mái đến văn phòng vào các ngày thứ Sáu.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkæʒəwəl/; /ˈkæʒwəl/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 330. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

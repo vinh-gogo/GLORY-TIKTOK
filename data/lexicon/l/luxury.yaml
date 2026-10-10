@@ -1,0 +1,26 @@
+schema_version: 3
+id: luxury
+lemma: luxury
+pos:
+- noun
+ipa:
+  us: /ˈlʌɡʒɚi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: sự sang trọng, xa xỉ
+  id: luxury-1
+examples:
+- en: The hotel offers luxury rooms with a private view of the ocean.
+  vi: Khách sạn có các phòng sang trọng với tầm nhìn riêng ra đại dương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2660. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

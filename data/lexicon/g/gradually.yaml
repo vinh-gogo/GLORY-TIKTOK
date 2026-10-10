@@ -1,0 +1,27 @@
+schema_version: 3
+id: gradually
+lemma: gradually
+pos:
+- adverb
+ipa:
+  us: /ˈɡrædʒuəli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: dần dần
+  id: gradually-1
+examples:
+- en: Sales have gradually improved since we launched the new product.
+  vi: Doanh số đã dần được cải thiện kể từ khi chúng tôi ra mắt sản phẩm mới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɡrædʒuəli/; /ˈɡrædʒuli/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2188. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

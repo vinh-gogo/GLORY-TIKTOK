@@ -1,0 +1,27 @@
+schema_version: 3
+id: mineral
+lemma: mineral
+pos:
+- noun
+ipa:
+  us: /ˈmɪnɚəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: khoáng chất, khoáng sản
+  id: mineral-1
+examples:
+- en: This drink contains important minerals that help the body stay healthy.
+  vi: Thức uống này chứa các khoáng chất quan trọng giúp cơ thể khỏe mạnh.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈmɪnɚəl/; /ˈmɪnrəl/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 527. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: victim
+lemma: victim
+pos:
+- noun
+ipa:
+  us: /ˈvɪktəm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: nạn nhân
+  id: victim-1
+examples:
+- en: The company offered help to the victims of the flood.
+  vi: Công ty đã đề nghị giúp đỡ các nạn nhân của trận lũ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈvɪktəm/; /ˈvɪktɪm/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1520. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: shall
+lemma: shall
+pos:
+- modal
+ipa:
+  us: /ʃæl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: sẽ; phải (trang trọng, đề nghị)
+  id: shall-1
+examples:
+- en: Shall we begin the meeting now, or wait for the director?
+  vi: Chúng ta bắt đầu cuộc họp ngay bây giờ hay đợi giám đốc?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 807. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

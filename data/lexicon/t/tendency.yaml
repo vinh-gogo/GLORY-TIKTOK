@@ -1,0 +1,26 @@
+schema_version: 3
+id: tendency
+lemma: tendency
+pos:
+- noun
+ipa:
+  us: /ˈtɛndənsi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: xu hướng, khuynh hướng
+  id: tendency-1
+examples:
+- en: There is a tendency for prices to rise in the summer.
+  vi: Có xu hướng giá tăng vào mùa hè.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2408. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

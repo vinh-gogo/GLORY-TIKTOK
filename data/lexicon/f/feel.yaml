@@ -1,0 +1,26 @@
+schema_version: 3
+id: feel
+lemma: feel
+pos:
+- verb
+ipa:
+  us: /fil/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cảm thấy, cảm nhận
+  id: feel-1
+examples:
+- en: Please feel free to ask questions at any point during the talk.
+  vi: Cứ thoải mái đặt câu hỏi bất cứ lúc nào trong buổi nói chuyện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 117. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

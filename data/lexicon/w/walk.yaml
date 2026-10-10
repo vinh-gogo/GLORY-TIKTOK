@@ -1,0 +1,27 @@
+schema_version: 3
+id: walk
+lemma: walk
+pos:
+- verb
+ipa:
+  us: /wɔk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đi bộ
+  id: walk-1
+examples:
+- en: Many employees walk to the office because it is close to home.
+  vi: Nhiều nhân viên đi bộ đến văn phòng vì nó gần nhà.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/wɔk/; /wɑk/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 339. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

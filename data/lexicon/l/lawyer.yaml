@@ -1,0 +1,27 @@
+schema_version: 3
+id: lawyer
+lemma: lawyer
+pos:
+- noun
+ipa:
+  us: /ˈlɔjɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: luật sư
+  id: lawyer-1
+examples:
+- en: Our lawyer reviewed the contract carefully before we signed it.
+  vi: Luật sư của chúng tôi đã xem xét kỹ hợp đồng trước khi chúng tôi ký.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈlɔjɚ/; /ˈlɔɪɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1489. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

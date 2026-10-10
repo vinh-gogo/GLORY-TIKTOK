@@ -1,0 +1,26 @@
+schema_version: 3
+id: circus
+lemma: circus
+pos:
+- noun
+ipa:
+  us: /ˈsɝkəs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: rạp xiếc, đoàn xiếc
+  id: circus-1
+examples:
+- en: The circus is coming to town next month with new performers.
+  vi: Đoàn xiếc sẽ đến thành phố vào tháng tới cùng các nghệ sĩ mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1111. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

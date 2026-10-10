@@ -1,0 +1,27 @@
+schema_version: 3
+id: paint
+lemma: paint
+pos:
+- noun
+- verb
+ipa:
+  us: /peɪnt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- housing-property
+senses:
+- meaning_vi: sơn; sơn (tường)
+  id: paint-1
+examples:
+- en: The workers will paint the lobby walls during the weekend.
+  vi: Các công nhân sẽ sơn tường sảnh trong dịp cuối tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 672. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

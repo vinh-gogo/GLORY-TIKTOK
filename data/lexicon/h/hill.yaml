@@ -1,0 +1,26 @@
+schema_version: 3
+id: hill
+lemma: hill
+pos:
+- noun
+ipa:
+  us: /hɪl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đồi
+  id: hill-1
+examples:
+- en: Our new resort is located on a green hill above the town.
+  vi: Khu nghỉ dưỡng mới của chúng tôi nằm trên một ngọn đồi xanh phía trên thị trấn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1670. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: wound
+lemma: wound
+pos:
+- noun
+ipa:
+  us: /waʊnd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: vết thương
+  id: wound-1
+examples:
+- en: The nurse cleaned the wound and covered it with a bandage.
+  vi: Y tá đã làm sạch vết thương và băng lại.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] IPA trong file /waʊnd/ là quá khứ của ''wind''; nghĩa ''vết thương'' phát âm
+    /wuːnd/ - cần kiểm tra IPA — Mục từ NGSL hạng 2175. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc,
+    vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại,
+    chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

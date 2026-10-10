@@ -1,0 +1,26 @@
+schema_version: 3
+id: quantity
+lemma: quantity
+pos:
+- noun
+ipa:
+  us: /ˈkwɑntəti/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: số lượng
+  id: quantity-1
+examples:
+- en: Please state the quantity you want on the order form.
+  vi: Vui lòng ghi số lượng bạn muốn trên đơn đặt hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2267. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

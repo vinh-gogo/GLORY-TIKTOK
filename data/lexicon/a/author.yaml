@@ -1,0 +1,26 @@
+schema_version: 3
+id: author
+lemma: author
+pos:
+- noun
+ipa:
+  us: /ˈɔθɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: tác giả
+  id: author-1
+examples:
+- en: The author will sign copies of her new book at the bookstore.
+  vi: Tác giả sẽ ký tặng những cuốn sách mới của cô ấy tại hiệu sách.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 910. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

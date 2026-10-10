@@ -1,0 +1,27 @@
+schema_version: 3
+id: function
+lemma: function
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈfʌŋkʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: chức năng; hoạt động
+  id: function-1
+examples:
+- en: This button has a function that saves your work automatically.
+  vi: Nút này có chức năng tự động lưu công việc của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 702. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

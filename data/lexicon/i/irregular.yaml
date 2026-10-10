@@ -1,0 +1,26 @@
+schema_version: 3
+id: irregular
+lemma: irregular
+pos:
+- adjective
+ipa:
+  us: /ˌɪˈrɛɡjəlɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: không đều, bất thường
+  id: irregular-1
+examples:
+- en: The accountant noticed irregular payments in the company's bank records last week.
+  vi: Kế toán nhận thấy các khoản thanh toán bất thường trong sổ sách ngân hàng của công ty tuần trước.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 524. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

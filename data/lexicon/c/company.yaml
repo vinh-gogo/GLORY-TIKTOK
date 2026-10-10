@@ -1,0 +1,26 @@
+schema_version: 3
+id: company
+lemma: company
+pos:
+- noun
+ipa:
+  us: /ˈkʌmpəˌni/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: công ty
+  id: company-1
+examples:
+- en: Our company will open a second branch in the city center next year.
+  vi: Công ty chúng tôi sẽ mở chi nhánh thứ hai ở trung tâm thành phố vào năm tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 107. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: risk
+lemma: risk
+pos:
+- noun
+ipa:
+  us: /rɪsk/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: rủi ro
+  id: risk-1
+examples:
+- en: Investing all your savings in one company carries a serious risk.
+  vi: Đầu tư toàn bộ tiền tiết kiệm vào một công ty có rủi ro nghiêm trọng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 545. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

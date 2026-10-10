@@ -1,0 +1,26 @@
+schema_version: 3
+id: reckon
+lemma: reckon
+pos:
+- verb
+ipa:
+  us: /ˈrɛkən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cho rằng, nghĩ rằng (khẩu ngữ); tính toán
+  id: reckon-1
+examples:
+- en: I reckon the meeting will finish earlier than we expected today.
+  vi: Tôi nghĩ cuộc họp hôm nay sẽ kết thúc sớm hơn chúng ta dự kiến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2701. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

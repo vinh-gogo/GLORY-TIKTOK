@@ -1,0 +1,26 @@
+schema_version: 3
+id: fail
+lemma: fail
+pos:
+- verb
+ipa:
+  us: /feɪl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: thất bại; không đạt
+  id: fail-1
+examples:
+- en: Several projects fail because of poor planning and weak communication.
+  vi: Nhiều dự án thất bại vì lập kế hoạch kém và giao tiếp yếu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 711. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: antique
+lemma: antique
+pos:
+- noun
+- adjective
+ipa:
+  us: /ænˈtik/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: đồ cổ; cổ xưa
+  id: antique-1
+examples:
+- en: She bought an antique clock at the market for her new office.
+  vi: Cô ấy mua một chiếc đồng hồ cổ ở chợ cho văn phòng mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 804. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

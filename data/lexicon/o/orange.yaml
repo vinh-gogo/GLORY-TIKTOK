@@ -1,0 +1,28 @@
+schema_version: 3
+id: orange
+lemma: orange
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈɔrəndʒ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: quả cam; màu cam
+  id: orange-1
+examples:
+- en: He ordered a glass of fresh orange juice with his breakfast.
+  vi: Anh ấy gọi một ly nước cam tươi cho bữa sáng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɔrəndʒ/; /ˈɔrɪndʒ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2499. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

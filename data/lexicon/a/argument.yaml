@@ -1,0 +1,26 @@
+schema_version: 3
+id: argument
+lemma: argument
+pos:
+- noun
+ipa:
+  us: /ˈɑrɡjəmənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: lập luận; cuộc tranh cãi
+  id: argument-1
+examples:
+- en: Her argument for hiring more staff convinced the entire management committee.
+  vi: Lập luận của cô ấy về việc tuyển thêm nhân viên đã thuyết phục toàn bộ ban quản lý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 879. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

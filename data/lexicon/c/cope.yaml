@@ -1,0 +1,26 @@
+schema_version: 3
+id: cope
+lemma: cope
+pos:
+- verb
+ipa:
+  us: /koʊp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đối phó, xoay xở
+  id: cope-1
+examples:
+- en: Our staff had to cope with a sudden increase in orders.
+  vi: Nhân viên của chúng tôi phải đối phó với sự gia tăng đơn hàng đột ngột.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1901. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

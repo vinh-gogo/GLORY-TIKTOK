@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: reject
 lemma: reject
 pos:
@@ -9,38 +9,45 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- human-resources
-- production-quality-control
-speaking_use:
-- respond-to-questions
-- express-opinion
+- personnel
+- manufacturing
 senses:
 - id: reject-1
   meaning_vi: Từ chối, bác bỏ (đơn xin việc, đề xuất, sản phẩm lỗi)
   note_vi: Khi là danh từ, trọng âm đổi thành /ˈriːdʒekt/ (sản phẩm phế phẩm bị loại bỏ).
+collocations:
+- phrase: reject an application
+  meaning_vi: từ chối hồ sơ ứng tuyển
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: reject a proposal
+  meaning_vi: bác bỏ bản đề xuất
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: reject rate
+  meaning_vi: tỷ lệ phế phẩm bị loại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: turn down
+  meaning_vi: khước từ, từ chối
+- word: decline
+  meaning_vi: từ chối lịch sự
 confused_words:
 - word: refuse
   ipa: /rɪˈfjuːz/
   difference_vi: Refuse là từ chối làm gì (refuse to do); reject thường đi với danh từ (reject an offer/proposal).
 confusing_meanings:
 - difference_vi: Động từ /rɪˈdʒekt/ (từ chối) khác với danh từ /ˈriːdʒekt/ (sản phẩm lỗi bị trả về).
-collocations:
-- phrase: reject an application
-  meaning_vi: từ chối hồ sơ ứng tuyển
-  evidence: corpus
-- phrase: reject a proposal
-  meaning_vi: bác bỏ bản đề xuất
-  evidence: corpus
-- phrase: reject rate
-  meaning_vi: tỷ lệ phế phẩm bị loại
-  evidence: corpus
-synonyms:
-- word: turn down
-  meaning_vi: khước từ, từ chối
-- word: decline
-  meaning_vi: từ chối lịch sự
 examples:
 - en: The board rejected the merger proposal due to excessive financial risks.
   vi: Hội đồng quản trị đã bác bỏ đề xuất sáp nhập do rủi ro tài chính quá lớn.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

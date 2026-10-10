@@ -1,0 +1,26 @@
+schema_version: 3
+id: brain
+lemma: brain
+pos:
+- noun
+ipa:
+  us: /breɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: não, bộ não
+  id: brain-1
+examples:
+- en: Regular exercise can improve the memory and health of your brain.
+  vi: Tập thể dục đều đặn có thể cải thiện trí nhớ và sức khỏe của não.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1235. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

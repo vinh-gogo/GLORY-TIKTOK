@@ -1,0 +1,26 @@
+schema_version: 3
+id: pain
+lemma: pain
+pos:
+- noun
+ipa:
+  us: /peɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: cơn đau
+  id: pain-1
+examples:
+- en: He visited the clinic because of a sharp pain in his back.
+  vi: Anh ấy đến phòng khám vì bị đau nhói ở lưng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1150. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

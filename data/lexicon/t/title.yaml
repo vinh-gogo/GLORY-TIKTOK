@@ -1,0 +1,26 @@
+schema_version: 3
+id: title
+lemma: title
+pos:
+- noun
+ipa:
+  us: /ˈtaɪtəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: chức danh; tiêu đề
+  id: title-1
+examples:
+- en: Her job title changed from assistant to senior manager after the promotion.
+  vi: Chức danh của cô ấy đã đổi từ trợ lý thành quản lý cấp cao sau khi thăng chức.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1057. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: picnic
+lemma: picnic
+pos:
+- noun
+ipa:
+  us: /ˈpɪkˌnɪk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: buổi dã ngoại, picnic
+  id: picnic-1
+examples:
+- en: The annual company picnic will be held at the city park.
+  vi: Buổi dã ngoại thường niên của công ty sẽ diễn ra ở công viên thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 209. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

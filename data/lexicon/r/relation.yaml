@@ -1,0 +1,26 @@
+schema_version: 3
+id: relation
+lemma: relation
+pos:
+- noun
+ipa:
+  us: /riˈleɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: mối quan hệ, sự liên quan
+  id: relation-1
+examples:
+- en: The company works hard to maintain good relations with its suppliers.
+  vi: Công ty nỗ lực duy trì mối quan hệ tốt với các nhà cung cấp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 833. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

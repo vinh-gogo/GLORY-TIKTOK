@@ -1,0 +1,26 @@
+schema_version: 3
+id: foot
+lemma: foot
+pos:
+- noun
+ipa:
+  us: /fʊt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- health
+senses:
+- meaning_vi: bàn chân; foot (đơn vị đo)
+  id: foot-1
+examples:
+- en: He hurt his foot while carrying boxes up the stairs.
+  vi: Anh ấy bị đau chân khi bê các thùng hàng lên cầu thang.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 576. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

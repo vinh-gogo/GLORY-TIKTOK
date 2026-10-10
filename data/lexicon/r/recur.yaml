@@ -1,0 +1,27 @@
+schema_version: 3
+id: recur
+lemma: recur
+pos:
+- verb
+ipa:
+  us: /rɪˈkɝ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: tái diễn, lặp lại
+  id: recur-1
+examples:
+- en: The software error continues to recur every time we restart the server.
+  vi: Lỗi phần mềm cứ tái diễn mỗi khi chúng tôi khởi động lại máy chủ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈkɝ/; /riˈkɝ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 872. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

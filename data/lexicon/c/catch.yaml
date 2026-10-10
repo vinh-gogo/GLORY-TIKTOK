@@ -1,0 +1,26 @@
+schema_version: 3
+id: catch
+lemma: catch
+pos:
+- verb
+ipa:
+  us: /kætʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: bắt, đón; kịp (xe)
+  id: catch-1
+examples:
+- en: We need to leave early to catch the morning train.
+  vi: Chúng ta cần đi sớm để kịp chuyến tàu buổi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 683. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

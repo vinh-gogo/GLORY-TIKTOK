@@ -1,0 +1,26 @@
+schema_version: 3
+id: contribute
+lemma: contribute
+pos:
+- verb
+ipa:
+  us: /kənˈtrɪbjut/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đóng góp
+  id: contribute-1
+examples:
+- en: Every team member is expected to contribute ideas during the meeting.
+  vi: Mỗi thành viên trong nhóm được kỳ vọng đóng góp ý tưởng trong cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1238. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

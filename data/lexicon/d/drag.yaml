@@ -1,0 +1,26 @@
+schema_version: 3
+id: drag
+lemma: drag
+pos:
+- verb
+ipa:
+  us: /dræɡ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: kéo lê; kéo (chuột)
+  id: drag-1
+examples:
+- en: You can drag the file into the folder with your mouse.
+  vi: Bạn có thể kéo tệp vào thư mục bằng chuột.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2332. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: baby
+lemma: baby
+pos:
+- noun
+ipa:
+  us: /ˈbeɪbi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: em bé
+  id: baby-1
+examples:
+- en: Our colleague brought her new baby to visit the office yesterday.
+  vi: Đồng nghiệp của chúng tôi hôm qua đã mang em bé mới sinh đến thăm văn phòng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 871. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

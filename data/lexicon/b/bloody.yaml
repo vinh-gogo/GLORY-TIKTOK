@@ -1,0 +1,27 @@
+schema_version: 3
+id: bloody
+lemma: bloody
+pos:
+- adjective
+ipa:
+  us: /ˈblʌdi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: đẫm máu, dính máu
+  id: bloody-1
+examples:
+- en: The nurse wrapped the bloody towel and threw it away.
+  vi: Y tá gói chiếc khăn dính máu lại và vứt đi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Cũng là từ chửi thề trong tiếng Anh Anh (bloody hell); nghĩa chính ''dính máu''
+    cần xác nhận khi dùng trong giáo trình — Mục từ NGSL hạng 2265. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

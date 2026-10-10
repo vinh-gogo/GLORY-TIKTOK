@@ -1,0 +1,26 @@
+schema_version: 3
+id: spend
+lemma: spend
+pos:
+- verb
+ipa:
+  us: /spɛnd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tiêu (tiền); dành (thời gian)
+  id: spend-1
+examples:
+- en: The company plans to spend more on advertising next year.
+  vi: Công ty dự định chi nhiều hơn cho quảng cáo vào năm tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 258. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

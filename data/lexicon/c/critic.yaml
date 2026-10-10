@@ -1,0 +1,26 @@
+schema_version: 3
+id: critic
+lemma: critic
+pos:
+- noun
+ipa:
+  us: /ˈkrɪtɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: nhà phê bình
+  id: critic-1
+examples:
+- en: A film critic praised the new movie in the local newspaper.
+  vi: Một nhà phê bình phim đã khen bộ phim mới trên tờ báo địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1778. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

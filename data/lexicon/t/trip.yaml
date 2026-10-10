@@ -1,0 +1,26 @@
+schema_version: 3
+id: trip
+lemma: trip
+pos:
+- noun
+ipa:
+  us: /trɪp/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- travel
+senses:
+- meaning_vi: chuyến đi
+  id: trip-1
+examples:
+- en: She booked a business trip to Singapore for the end of the month.
+  vi: Cô ấy đã đặt một chuyến công tác đến Singapore vào cuối tháng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 825. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

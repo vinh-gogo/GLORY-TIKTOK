@@ -1,0 +1,26 @@
+schema_version: 3
+id: observation
+lemma: observation
+pos:
+- noun
+ipa:
+  us: /ˌɑbzɚˈveɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: sự quan sát, nhận xét
+  id: observation-1
+examples:
+- en: Her careful observation helped the team find the cause of the error.
+  vi: Sự quan sát cẩn thận của cô ấy giúp nhóm tìm ra nguyên nhân của lỗi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1868. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

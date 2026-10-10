@@ -1,0 +1,26 @@
+schema_version: 3
+id: anxiety
+lemma: anxiety
+pos:
+- noun
+ipa:
+  us: /æŋˈzaɪəti/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: sự lo âu
+  id: anxiety-1
+examples:
+- en: Many people feel anxiety before an important job interview.
+  vi: Nhiều người cảm thấy lo âu trước một buổi phỏng vấn xin việc quan trọng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2340. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

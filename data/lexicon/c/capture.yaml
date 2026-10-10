@@ -1,0 +1,27 @@
+schema_version: 3
+id: capture
+lemma: capture
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈkæptʃɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: nắm bắt, ghi lại, chiếm lấy
+  id: capture-1
+examples:
+- en: The new camera can capture clear images even in low light.
+  vi: Máy ảnh mới có thể ghi lại hình ảnh rõ nét ngay cả khi thiếu sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1658. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

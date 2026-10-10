@@ -1,0 +1,28 @@
+schema_version: 3
+id: that
+lemma: that
+pos:
+- determiner
+- conjunction
+ipa:
+  us: /ðæt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đó, kia; rằng (nối mệnh đề)
+  id: that-1
+examples:
+- en: I think that the proposal is good, but that budget is too high.
+  vi: Tôi nghĩ rằng đề xuất này tốt nhưng ngân sách đó quá cao.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ðæt/; /ðət/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 15. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

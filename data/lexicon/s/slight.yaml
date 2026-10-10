@@ -1,0 +1,26 @@
+schema_version: 3
+id: slight
+lemma: slight
+pos:
+- adjective
+ipa:
+  us: /slaɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: nhỏ, nhẹ, không đáng kể
+  id: slight-1
+examples:
+- en: There was a slight delay because of heavy traffic this morning.
+  vi: Có một chút chậm trễ vì giao thông đông đúc sáng nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2042. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

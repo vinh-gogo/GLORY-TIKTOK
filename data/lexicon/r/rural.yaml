@@ -1,0 +1,26 @@
+schema_version: 3
+id: rural
+lemma: rural
+pos:
+- adjective
+ipa:
+  us: /ˈrʊrəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: thuộc nông thôn
+  id: rural-1
+examples:
+- en: The company plans to expand its internet service to rural areas.
+  vi: Công ty dự định mở rộng dịch vụ internet đến các vùng nông thôn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1963. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

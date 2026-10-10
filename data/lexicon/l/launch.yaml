@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: launch
 lemma: launch
 pos:
@@ -10,34 +10,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-- sales-customer-service
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
 senses:
 - id: launch-1
   meaning_vi: Ra mắt, tung ra thị trường (sản phẩm, dịch vụ, chiến dịch mới); (n) lễ ra mắt
   note_vi: Xuất hiện với tần suất cực cao trong phần quảng bá sản phẩm mới.
-confused_words:
-- word: lunch
-  ipa: /lʌntʃ/
-  difference_vi: Lunch là bữa ăn trưa (nguyên âm /ʌ/); launch là ra mắt sản phẩm mới (nguyên âm dài /ɔː/). Phải phân biệt
-    rõ ràng khi nói.
-confusing_meanings:
-- difference_vi: Product launch = buổi ra mắt giới thiệu sản phẩm mới; launch a rocket = phóng tên lửa.
 collocations:
 - phrase: launch a new product
   meaning_vi: tung sản phẩm mới ra thị trường
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: official launch date
   meaning_vi: ngày ra mắt chính thức
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: launch a marketing campaign
   meaning_vi: phát động chiến dịch tiếp thị
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: introduce
   meaning_vi: giới thiệu ra thị trường
@@ -45,6 +44,13 @@ synonyms:
   meaning_vi: phát hành
 - word: initiate
   meaning_vi: khởi xướng
+confused_words:
+- word: lunch
+  ipa: /lʌntʃ/
+  difference_vi: Lunch là bữa ăn trưa (nguyên âm /ʌ/); launch là ra mắt sản phẩm mới (nguyên âm dài /ɔː/). Phải phân biệt
+    rõ ràng khi nói.
+confusing_meanings:
+- difference_vi: Product launch = buổi ra mắt giới thiệu sản phẩm mới; launch a rocket = phóng tên lửa.
 examples:
 - en: The tech start-up plans to launch its flagship mobile application next month.
   vi: Công ty khởi nghiệp công nghệ dự định ra mắt ứng dụng di động chủ lực của mình vào tháng tới.
@@ -55,6 +61,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

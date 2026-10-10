@@ -1,0 +1,26 @@
+schema_version: 3
+id: humidity
+lemma: humidity
+pos:
+- noun
+ipa:
+  us: /hjuˈmɪdəti/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: độ ẩm
+  id: humidity-1
+examples:
+- en: High humidity in the warehouse can damage paper products stored there.
+  vi: Độ ẩm cao trong nhà kho có thể làm hỏng các sản phẩm giấy được cất ở đó.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 777. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

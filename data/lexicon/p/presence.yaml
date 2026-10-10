@@ -1,0 +1,26 @@
+schema_version: 3
+id: presence
+lemma: presence
+pos:
+- noun
+ipa:
+  us: /ˈprɛzəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự có mặt, sự hiện diện
+  id: presence-1
+examples:
+- en: Your presence at the meeting on Monday is required by the director.
+  vi: Giám đốc yêu cầu bạn có mặt tại cuộc họp vào thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1186. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

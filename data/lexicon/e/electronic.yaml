@@ -1,0 +1,26 @@
+schema_version: 3
+id: electronic
+lemma: electronic
+pos:
+- adjective
+ipa:
+  us: /ˌɪˌlɛkˈtrɑnɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: điện tử
+  id: electronic-1
+examples:
+- en: You can submit the electronic version of the form online.
+  vi: Bạn có thể nộp bản điện tử của biểu mẫu trực tuyến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1722. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

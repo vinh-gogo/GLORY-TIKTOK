@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: promote
 lemma: promote
 pos:
@@ -6,58 +6,63 @@ pos:
 ipa:
   us: /prəˈmoʊt/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- hiring
-- marketing
-- business
-speaking_use:
-- respond-to-questions
-- express-opinion
+- personnel
+- general-business
 senses:
 - id: promote-1
   meaning_vi: Thăng chức cho nhân viên / Quảng bá, tiếp thị sản phẩm
-  note_vi: 'Có hai tầng nghĩa quan trọng bậc nhất trong TOEIC: thăng tiến sự nghiệp
-    và tiếp thị thương hiệu.'
+  note_vi: 'Có hai tầng nghĩa quan trọng bậc nhất trong TOEIC: thăng tiến sự nghiệp và tiếp thị thương hiệu.'
 collocations:
 - phrase: promoted to manager
   meaning_vi: được thăng chức lên vị trí quản lý
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: promote a product
   meaning_vi: quảng bá một sản phẩm
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: promote teamwork
   meaning_vi: thúc đẩy tinh thần làm việc nhóm
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: heavily promote
   meaning_vi: quảng bá rầm rộ trên diện rộng
-  evidence: corpus
-confused_words:
-- word: prompt
-  ipa: /prɑːmpt/
-  meaning: nhanh chóng, ngay tức thì
-  kind: spelling-sound
-  difference_vi: Promote là thăng chức hoặc quảng bá; prompt là tính từ mau lẹ hoặc
-    lời nhắc nhở.
-confusing_meanings:
-- word: advertise
-  meaning: đăng quảng cáo
-  difference_vi: Advertise chỉ đơn thuần là mua quảng cáo trên truyền thông; promote
-    là hoạt động xúc tiến tiếp thị đa kênh rộng hơn.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: advance
   meaning_vi: tiến cử, thăng tiến
 - word: endorse
   meaning_vi: ủng hộ, quảng bá
+confused_words:
+- word: prompt
+  ipa: /prɑːmpt/
+  meaning: nhanh chóng, ngay tức thì
+  kind: spelling-sound
+  difference_vi: Promote là thăng chức hoặc quảng bá; prompt là tính từ mau lẹ hoặc lời nhắc nhở.
+confusing_meanings:
+- word: advertise
+  meaning: đăng quảng cáo
+  difference_vi: Advertise chỉ đơn thuần là mua quảng cáo trên truyền thông; promote là hoạt động xúc tiến tiếp thị đa kênh
+    rộng hơn.
 examples:
-- en: Because of her exceptional leadership, she was recently promoted to regional
-    sales director.
-  vi: Nhờ năng lực lãnh đạo xuất sắc của mình, cô ấy gần đây đã được thăng chức lên
-    vị trí giám đốc kinh doanh khu vực.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈmoʊt/. Âm đầu là schwa
-  /prə-/, âm tiết hai có nguyên âm đôi /oʊ/ và bật nhẹ âm /t/ cuối.
+- en: Because of her exceptional leadership, she was recently promoted to regional sales director.
+  vi: Nhờ năng lực lãnh đạo xuất sắc của mình, cô ấy gần đây đã được thăng chức lên vị trí giám đốc kinh doanh khu vực.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết thứ hai /-ˈmoʊt/. Âm đầu là schwa /prə-/, âm tiết hai có nguyên âm đôi /oʊ/
+  và bật nhẹ âm /t/ cuối.
 review:
   status: ai_cross_checked
   checked_by:

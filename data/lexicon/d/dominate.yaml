@@ -1,0 +1,26 @@
+schema_version: 3
+id: dominate
+lemma: dominate
+pos:
+- verb
+ipa:
+  us: /ˈdɑməˌneɪt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: thống trị, chi phối
+  id: dominate-1
+examples:
+- en: Two large firms dominate the market for mobile phones.
+  vi: Hai công ty lớn thống trị thị trường điện thoại di động.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2003. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

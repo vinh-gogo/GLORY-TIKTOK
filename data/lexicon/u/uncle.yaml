@@ -1,0 +1,26 @@
+schema_version: 3
+id: uncle
+lemma: uncle
+pos:
+- noun
+ipa:
+  us: /ˈʌŋkəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: chú, bác, cậu, dượng
+  id: uncle-1
+examples:
+- en: My uncle owns a small bakery in the center of town.
+  vi: Chú tôi sở hữu một tiệm bánh nhỏ ở trung tâm thị trấn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2694. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

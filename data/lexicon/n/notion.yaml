@@ -1,0 +1,26 @@
+schema_version: 3
+id: notion
+lemma: notion
+pos:
+- noun
+ipa:
+  us: /ˈnoʊʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: khái niệm, ý niệm
+  id: notion-1
+examples:
+- en: The notion that customers always want the cheapest option is not true.
+  vi: Quan niệm rằng khách hàng luôn muốn lựa chọn rẻ nhất là không đúng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1619. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,21 @@
+{{- define "main" }}
+{{- $slug := .Params.topic -}}
+{{- $words := partial "words-visible.html" . -}}
+<header class="page-head">
+  <p class="crumb"><a href="/collocations/">← Collocations</a></p>
+  <h1>{{ .Params.topic_name }}</h1>
+  <p class="muted">{{ with index site.Data.topics.topics $slug }}{{ .description_vi }}{{ end }}</p>
+</header>
+{{- range $words }}
+  {{- if and (in .topics $slug) .collocations }}
+<section class="wsec colgroup">
+  <h2 class="colgroup-head"><a href="/words/{{ .id }}/">{{ .lemma }}</a> <span class="word-ipa-inline">{{ .ipa.us }}</span></h2>
+  <ul class="colloc">
+    {{- range .collocations }}
+    <li><span class="colloc-en">{{ .phrase }}</span><span class="colloc-vi">{{ .meaning_vi }}</span></li>
+    {{- end }}
+  </ul>
+</section>
+  {{- end }}
+{{- end }}
+{{- end }}

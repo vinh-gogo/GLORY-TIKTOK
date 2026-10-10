@@ -1,0 +1,26 @@
+schema_version: 3
+id: chain
+lemma: chain
+pos:
+- noun
+ipa:
+  us: /tʃeɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: chuỗi, dây xích
+  id: chain-1
+examples:
+- en: The company owns a chain of coffee shops across the country.
+  vi: Công ty sở hữu một chuỗi quán cà phê trên khắp đất nước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1518. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

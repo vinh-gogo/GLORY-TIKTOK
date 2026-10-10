@@ -1,0 +1,27 @@
+schema_version: 3
+id: advice
+lemma: advice
+pos:
+- noun
+ipa:
+  us: /ædˈvaɪs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: lời khuyên
+  id: advice-1
+examples:
+- en: She asked her supervisor for advice about handling the difficult customer.
+  vi: Cô ấy xin lời khuyên của người giám sát về cách xử lý vị khách khó tính.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ædˈvaɪs/; /ədˈvaɪs/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1040. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

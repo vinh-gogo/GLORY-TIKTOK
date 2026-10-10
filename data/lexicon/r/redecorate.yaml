@@ -1,0 +1,26 @@
+schema_version: 3
+id: redecorate
+lemma: redecorate
+pos:
+- verb
+ipa:
+  us: /riˈdɛkɚˌeɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: trang trí lại, sơn sửa lại
+  id: redecorate-1
+examples:
+- en: They plan to redecorate the lobby before the hotel reopens in May.
+  vi: Họ dự định trang trí lại sảnh trước khi khách sạn mở cửa trở lại vào tháng Năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 937. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

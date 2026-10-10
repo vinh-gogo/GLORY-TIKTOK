@@ -1,0 +1,27 @@
+schema_version: 3
+id: note
+lemma: note
+pos:
+- noun
+- verb
+ipa:
+  us: /noʊt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: ghi chú; lưu ý
+  id: note-1
+examples:
+- en: Please note that the office will be closed on Monday.
+  vi: Xin lưu ý rằng văn phòng sẽ đóng cửa vào thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 384. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

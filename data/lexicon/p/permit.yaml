@@ -1,0 +1,28 @@
+schema_version: 3
+id: permit
+lemma: permit
+pos:
+- verb
+- noun
+ipa:
+  us: /pɚˈmɪt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cho phép; giấy phép
+  id: permit-1
+examples:
+- en: Visitors are not permitted to take photos inside the factory.
+  vi: Khách tham quan không được phép chụp ảnh bên trong nhà máy.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/pɚˈmɪt/; /ˈpɝˌmɪt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1589. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

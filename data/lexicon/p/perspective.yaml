@@ -1,0 +1,26 @@
+schema_version: 3
+id: perspective
+lemma: perspective
+pos:
+- noun
+ipa:
+  us: /pɚˈspɛktɪv/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: quan điểm, góc nhìn
+  id: perspective-1
+examples:
+- en: A new employee can offer a fresh perspective on our old processes.
+  vi: Một nhân viên mới có thể đem lại góc nhìn mới về các quy trình cũ của chúng ta.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1496. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

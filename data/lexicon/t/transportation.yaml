@@ -1,0 +1,26 @@
+schema_version: 3
+id: transportation
+lemma: transportation
+pos:
+- noun
+ipa:
+  us: /ˌtrænspɚˈteɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: giao thông vận tải, phương tiện đi lại
+  id: transportation-1
+examples:
+- en: The company provides free transportation to the factory for all employees.
+  vi: Công ty cung cấp phương tiện đi lại miễn phí đến nhà máy cho tất cả nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2703. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

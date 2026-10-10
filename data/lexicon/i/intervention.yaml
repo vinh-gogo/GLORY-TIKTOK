@@ -1,0 +1,26 @@
+schema_version: 3
+id: intervention
+lemma: intervention
+pos:
+- noun
+ipa:
+  us: /ˌɪntɚˈvɛnʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự can thiệp
+  id: intervention-1
+examples:
+- en: The dispute was settled without any intervention from senior management.
+  vi: Tranh chấp được giải quyết mà không cần sự can thiệp của ban lãnh đạo cấp cao.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2242. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

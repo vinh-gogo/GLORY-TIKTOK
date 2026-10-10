@@ -1,0 +1,26 @@
+schema_version: 3
+id: coworker
+lemma: coworker
+pos:
+- noun
+ipa:
+  us: /ˈkoʊˈwɝkɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: đồng nghiệp
+  id: coworker-1
+examples:
+- en: My coworker offered to cover my shift on Saturday.
+  vi: Đồng nghiệp của tôi đề nghị làm thay ca của tôi vào thứ Bảy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 85. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

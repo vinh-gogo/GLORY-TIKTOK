@@ -1,0 +1,27 @@
+schema_version: 3
+id: effect
+lemma: effect
+pos:
+- noun
+ipa:
+  us: /ɪˈfɛkt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: ảnh hưởng, tác động; hiệu quả
+  id: effect-1
+examples:
+- en: The price increase had a clear effect on monthly sales figures.
+  vi: Việc tăng giá đã có tác động rõ rệt đến doanh số hằng tháng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɪˈfɛkt/; /ˈifɛkt/; /əˈfɛkt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 315. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

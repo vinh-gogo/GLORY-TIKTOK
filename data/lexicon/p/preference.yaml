@@ -1,0 +1,27 @@
+schema_version: 3
+id: preference
+lemma: preference
+pos:
+- noun
+ipa:
+  us: /ˈprɛfɚəns/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự ưa thích, sở thích
+  id: preference-1
+examples:
+- en: Please tell us your seating preference when booking the flight.
+  vi: Vui lòng cho chúng tôi biết chỗ ngồi bạn thích khi đặt chuyến bay.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈprɛfɚəns/; /ˈprɛfrəns/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2383. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

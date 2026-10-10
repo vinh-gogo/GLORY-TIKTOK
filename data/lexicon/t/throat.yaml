@@ -1,0 +1,26 @@
+schema_version: 3
+id: throat
+lemma: throat
+pos:
+- noun
+ipa:
+  us: /θroʊt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: cổ họng
+  id: throat-1
+examples:
+- en: She went to see a doctor because of a sore throat.
+  vi: Cô ấy đi khám bác sĩ vì bị đau họng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2504. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: famous
+lemma: famous
+pos:
+- adjective
+ipa:
+  us: /ˈfeɪməs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: nổi tiếng
+  id: famous-1
+examples:
+- en: The hotel is famous for its excellent service and beautiful garden.
+  vi: Khách sạn nổi tiếng nhờ dịch vụ xuất sắc và khu vườn đẹp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1017. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

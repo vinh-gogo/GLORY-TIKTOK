@@ -1,0 +1,26 @@
+schema_version: 3
+id: fact
+lemma: fact
+pos:
+- noun
+ipa:
+  us: /fækt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sự thật, sự việc
+  id: fact-1
+examples:
+- en: The report presents the facts clearly without any personal opinions.
+  vi: Báo cáo trình bày các sự thật một cách rõ ràng mà không có ý kiến cá nhân nào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 202. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

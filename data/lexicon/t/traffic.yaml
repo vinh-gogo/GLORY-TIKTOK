@@ -1,0 +1,26 @@
+schema_version: 3
+id: traffic
+lemma: traffic
+pos:
+- noun
+ipa:
+  us: /ˈtræfɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: giao thông, lưu lượng xe
+  id: traffic-1
+examples:
+- en: Heavy traffic on the highway made me late for the meeting.
+  vi: Giao thông đông đúc trên đường cao tốc khiến tôi trễ cuộc họp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1225. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

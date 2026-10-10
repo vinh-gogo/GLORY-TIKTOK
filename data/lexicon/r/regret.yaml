@@ -1,0 +1,28 @@
+schema_version: 3
+id: regret
+lemma: regret
+pos:
+- verb
+- noun
+ipa:
+  us: /rəˈɡrɛt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tiếc, hối tiếc
+  id: regret-1
+examples:
+- en: We regret to inform you that your order has been delayed.
+  vi: Chúng tôi rất tiếc phải báo cho bạn rằng đơn hàng của bạn đã bị chậm.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rəˈɡrɛt/; /rɪˈɡrɛt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2391. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

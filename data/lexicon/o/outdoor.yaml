@@ -1,0 +1,26 @@
+schema_version: 3
+id: outdoor
+lemma: outdoor
+pos:
+- adjective
+ipa:
+  us: /ˈaʊtˌdɔr/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: ngoài trời
+  id: outdoor-1
+examples:
+- en: The company is planning an outdoor event for all employees.
+  vi: Công ty đang lên kế hoạch cho một sự kiện ngoài trời dành cho toàn thể nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 61. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

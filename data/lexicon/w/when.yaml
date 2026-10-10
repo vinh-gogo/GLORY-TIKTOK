@@ -1,0 +1,28 @@
+schema_version: 3
+id: when
+lemma: when
+pos:
+- adverb
+- conjunction
+ipa:
+  us: /wɛn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: khi nào; khi, vào lúc
+  id: when-1
+examples:
+- en: Please let me know when the new equipment is installed.
+  vi: Vui lòng cho tôi biết khi nào thiết bị mới được lắp đặt.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/wɛn/; /hwɛn/; /wɪn/; /hwɪn/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 46. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

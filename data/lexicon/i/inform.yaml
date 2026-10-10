@@ -1,0 +1,26 @@
+schema_version: 3
+id: inform
+lemma: inform
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈfɔrm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thông báo cho
+  id: inform-1
+examples:
+- en: Please inform the front desk if you plan to leave early.
+  vi: Vui lòng báo cho quầy lễ tân nếu bạn dự định về sớm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1070. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

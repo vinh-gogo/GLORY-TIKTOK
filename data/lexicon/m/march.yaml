@@ -1,0 +1,28 @@
+schema_version: 3
+id: march
+lemma: march
+pos:
+- noun
+- verb
+ipa:
+  us: /mɑrtʃ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cuộc diễu hành; hành quân, đi diễu hành
+  id: march-1
+examples:
+- en: Thousands of people joined the peaceful march through the center of the city.
+  vi: Hàng nghìn người đã tham gia cuộc diễu hành ôn hòa qua trung tâm thành phố.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Từ viết thường có thể là danh từ/động từ (diễu hành); ''March'' là tháng 3 —
+    chọn nghĩa diễu hành — Mục từ NGSL hạng 2453. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí
+    dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ
+    đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: full
+lemma: full
+pos:
+- adjective
+ipa:
+  us: /fʊl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đầy, đầy đủ
+  id: full-1
+examples:
+- en: The parking lot is full, so please use the garage across the street.
+  vi: Bãi đỗ xe đã đầy, nên vui lòng dùng nhà để xe bên kia đường.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 410. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

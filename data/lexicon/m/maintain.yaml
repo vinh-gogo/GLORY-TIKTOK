@@ -1,0 +1,26 @@
+schema_version: 3
+id: maintain
+lemma: maintain
+pos:
+- verb
+ipa:
+  us: /meɪnˈteɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- technical-areas
+senses:
+- meaning_vi: duy trì, bảo trì
+  id: maintain-1
+examples:
+- en: Technicians maintain the equipment regularly to prevent unexpected breakdowns in production.
+  vi: Kỹ thuật viên bảo trì thiết bị thường xuyên để ngăn các sự cố bất ngờ trong sản xuất.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 943. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

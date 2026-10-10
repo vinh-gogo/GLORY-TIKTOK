@@ -1,0 +1,26 @@
+schema_version: 3
+id: fold
+lemma: fold
+pos:
+- verb
+ipa:
+  us: /foʊld/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: gấp, xếp lại
+  id: fold-1
+examples:
+- en: Please fold the letter in half before putting it into the envelope.
+  vi: Vui lòng gấp đôi lá thư trước khi cho vào phong bì.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2555. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

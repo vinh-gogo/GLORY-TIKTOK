@@ -1,0 +1,28 @@
+schema_version: 3
+id: polish
+lemma: polish
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈpɑlɪʃ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: đánh bóng; chất đánh bóng
+  id: polish-1
+examples:
+- en: The cleaners polish the floors in the lobby every Tuesday evening.
+  vi: Nhân viên vệ sinh đánh bóng sàn sảnh vào mỗi tối thứ Ba.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈpɑlɪʃ/; /ˈpoʊlɪʃ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 612. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

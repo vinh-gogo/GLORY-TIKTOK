@@ -1,0 +1,26 @@
+schema_version: 3
+id: historian
+lemma: historian
+pos:
+- noun
+ipa:
+  us: /hɪˈstɔriən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: nhà sử học
+  id: historian-1
+examples:
+- en: A local historian gave a talk at the museum yesterday.
+  vi: Một nhà sử học địa phương đã có bài nói chuyện tại bảo tàng hôm qua.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2360. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

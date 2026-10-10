@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: brochure
 lemma: brochure
 pos:
@@ -9,34 +9,34 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- marketing-advertising
-- hospitality-travel
-speaking_use:
-- describe-picture
-- respond-to-questions
+- general-business
+- travel
 senses:
 - id: brochure-1
   meaning_vi: Tập tài liệu quảng cáo gấp nhiều trang (giới thiệu sản phẩm, tour du lịch)
   note_vi: Ấn phẩm tiếp thị in màu giới thiệu chi tiết sản phẩm, dịch vụ hoặc tour tham quan.
-confused_words:
-- word: pamphlet
-  ipa: /ˈpæmflət/
-  difference_vi: Pamphlet là tập tài liệu mỏng thường dùng tuyên truyền quan điểm; brochure thường dày dặn in màu bóng bẩy
-    để quảng cáo thương mại.
-confusing_meanings:
-- difference_vi: Travel brochure = cẩm nang du lịch quảng bá; product brochure = sách giới thiệu sản phẩm.
 collocations:
 - phrase: promotional brochure
   meaning_vi: tập tài liệu quảng cáo xúc tiến
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: print brochures
   meaning_vi: in ấn các tập tài liệu giới thiệu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: distribute brochures
   meaning_vi: phát tài liệu quảng cáo
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: booklet
   meaning_vi: tập sách nhỏ
@@ -44,6 +44,13 @@ synonyms:
   meaning_vi: tờ gấp tài liệu
 - word: catalog
   meaning_vi: danh mục sản phẩm
+confused_words:
+- word: pamphlet
+  ipa: /ˈpæmflət/
+  difference_vi: Pamphlet là tập tài liệu mỏng thường dùng tuyên truyền quan điểm; brochure thường dày dặn in màu bóng bẩy
+    để quảng cáo thương mại.
+confusing_meanings:
+- difference_vi: Travel brochure = cẩm nang du lịch quảng bá; product brochure = sách giới thiệu sản phẩm.
 examples:
 - en: You can pick up a promotional brochure at the front desk for detailed package pricing.
   vi: Bạn có thể lấy một tập tài liệu quảng cáo tại quầy lễ tân để xem chi tiết giá các gói dịch vụ.
@@ -54,6 +61,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

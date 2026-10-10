@@ -1,0 +1,26 @@
+schema_version: 3
+id: lake
+lemma: lake
+pos:
+- noun
+ipa:
+  us: /leɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: hồ
+  id: lake-1
+examples:
+- en: The resort sits beside a beautiful lake surrounded by mountains.
+  vi: Khu nghỉ dưỡng nằm cạnh một hồ nước tuyệt đẹp được núi non bao quanh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1822. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

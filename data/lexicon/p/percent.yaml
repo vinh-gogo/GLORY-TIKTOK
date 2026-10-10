@@ -1,0 +1,26 @@
+schema_version: 3
+id: percent
+lemma: percent
+pos:
+- noun
+ipa:
+  us: /pɚˈsɛnt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: phần trăm
+  id: percent-1
+examples:
+- en: Sales increased by twelve percent compared with the same month last year.
+  vi: Doanh số tăng mười hai phần trăm so với cùng tháng năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 549. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

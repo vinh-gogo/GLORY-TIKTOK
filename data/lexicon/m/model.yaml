@@ -1,0 +1,26 @@
+schema_version: 3
+id: model
+lemma: model
+pos:
+- noun
+ipa:
+  us: /ˈmɑdəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: mẫu, kiểu; mô hình
+  id: model-1
+examples:
+- en: The latest model of this printer is faster and much quieter.
+  vi: Mẫu máy in mới nhất này nhanh hơn và êm hơn nhiều.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 485. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: cab
+lemma: cab
+pos:
+- noun
+ipa:
+  us: /kæb/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: xe taxi
+  id: cab-1
+examples:
+- en: We took a cab to the airport because we were running late.
+  vi: Chúng tôi đi taxi ra sân bay vì đã sắp trễ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 283. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

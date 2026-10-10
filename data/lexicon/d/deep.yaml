@@ -1,0 +1,26 @@
+schema_version: 3
+id: deep
+lemma: deep
+pos:
+- adjective
+ipa:
+  us: /dip/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sâu
+  id: deep-1
+examples:
+- en: The lake behind the resort is very deep and perfect for swimming.
+  vi: Cái hồ phía sau khu nghỉ dưỡng rất sâu và phù hợp để bơi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 840. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

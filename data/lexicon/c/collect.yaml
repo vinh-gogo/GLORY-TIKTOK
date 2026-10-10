@@ -1,0 +1,26 @@
+schema_version: 3
+id: collect
+lemma: collect
+pos:
+- verb
+ipa:
+  us: /kəˈlɛkt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: thu thập, thu gom
+  id: collect-1
+examples:
+- en: The survey team will collect feedback from customers at the store.
+  vi: Nhóm khảo sát sẽ thu thập phản hồi từ khách hàng tại cửa hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1069. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

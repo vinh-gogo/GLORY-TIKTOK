@@ -1,0 +1,26 @@
+schema_version: 3
+id: main
+lemma: main
+pos:
+- adjective
+ipa:
+  us: /meɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: chính, chủ yếu
+  id: main-1
+examples:
+- en: The main entrance of the building is closed for repairs today.
+  vi: Lối vào chính của tòa nhà hôm nay đóng cửa để sửa chữa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 453. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

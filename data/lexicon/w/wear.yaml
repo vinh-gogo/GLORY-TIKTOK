@@ -1,0 +1,26 @@
+schema_version: 3
+id: wear
+lemma: wear
+pos:
+- verb
+ipa:
+  us: /wɛr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mặc, đeo
+  id: wear-1
+examples:
+- en: Workers must wear safety helmets while entering the construction area.
+  vi: Công nhân phải đội mũ bảo hộ khi vào khu vực xây dựng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 526. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

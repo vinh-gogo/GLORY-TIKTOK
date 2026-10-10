@@ -1,0 +1,26 @@
+schema_version: 3
+id: shelter
+lemma: shelter
+pos:
+- noun
+ipa:
+  us: /ˈʃɛltɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: nơi trú ẩn, chỗ che chắn
+  id: shelter-1
+examples:
+- en: The group found shelter in an old barn when the storm began.
+  vi: Cả nhóm tìm được nơi trú ẩn trong một nhà kho cũ khi cơn bão bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2581. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

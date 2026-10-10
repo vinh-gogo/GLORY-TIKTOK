@@ -1,0 +1,28 @@
+schema_version: 3
+id: transport
+lemma: transport
+pos:
+- noun
+- verb
+ipa:
+  us: /trænˈspɔrt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: giao thông, vận tải; vận chuyển
+  id: transport-1
+examples:
+- en: Public transport in the city is cheap, fast, and very reliable.
+  vi: Giao thông công cộng trong thành phố rẻ, nhanh và rất đáng tin cậy.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/trænˈspɔrt/; /ˈtrænspɔrt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1210. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

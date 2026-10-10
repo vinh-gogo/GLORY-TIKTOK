@@ -1,0 +1,26 @@
+schema_version: 3
+id: slowly
+lemma: slowly
+pos:
+- adverb
+ipa:
+  us: /ˈsloʊli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: chậm rãi
+  id: slowly-1
+examples:
+- en: Please speak slowly so that everyone can follow your explanation.
+  vi: Vui lòng nói chậm để mọi người đều có thể theo kịp lời giải thích của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1512. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

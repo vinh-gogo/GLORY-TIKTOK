@@ -1,0 +1,27 @@
+schema_version: 3
+id: refuse
+lemma: refuse
+pos:
+- verb
+ipa:
+  us: /rəˈfjuz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: từ chối
+  id: refuse-1
+examples:
+- en: The bank refused to approve the loan because of missing documents.
+  vi: Ngân hàng từ chối phê duyệt khoản vay vì thiếu giấy tờ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rəˈfjuz/; /ˈrɛˌfjuz/; /rɪˈfjuz/); IPA đang ghi là
+    cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1209. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

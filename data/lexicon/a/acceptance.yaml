@@ -1,0 +1,27 @@
+schema_version: 3
+id: acceptance
+lemma: acceptance
+pos:
+- noun
+ipa:
+  us: /ækˈsɛptəns/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự chấp nhận, sự đồng ý
+  id: acceptance-1
+examples:
+- en: Please confirm your acceptance of the job offer by the end of this week.
+  vi: Vui lòng xác nhận chấp nhận lời mời làm việc trước cuối tuần này.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ækˈsɛptəns/; /əkˈsɛptəns/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 698. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

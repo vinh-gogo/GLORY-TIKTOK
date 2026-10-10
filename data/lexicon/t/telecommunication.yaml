@@ -1,0 +1,26 @@
+schema_version: 3
+id: telecommunication
+lemma: telecommunication
+pos:
+- noun
+ipa:
+  us: /ˌtɛləkəˌmjunɪˈkeɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: viễn thông
+  id: telecommunication-1
+examples:
+- en: She works in the telecommunication industry and travels often for business.
+  vi: Cô ấy làm trong ngành viễn thông và thường xuyên đi công tác.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 842. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

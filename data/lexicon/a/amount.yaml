@@ -1,0 +1,26 @@
+schema_version: 3
+id: amount
+lemma: amount
+pos:
+- noun
+ipa:
+  us: /əˈmaʊnt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: số lượng; số tiền
+  id: amount-1
+examples:
+- en: Please check that the total amount on the invoice is correct.
+  vi: Vui lòng kiểm tra xem tổng số tiền trên hóa đơn có đúng không.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 507. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

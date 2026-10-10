@@ -1,0 +1,26 @@
+schema_version: 3
+id: agency
+lemma: agency
+pos:
+- noun
+ipa:
+  us: /ˈeɪdʒənsi/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: công ty đại lý, cơ quan
+  id: agency-1
+examples:
+- en: We hired a travel agency to organize the company trip abroad.
+  vi: Chúng tôi đã thuê một công ty du lịch để tổ chức chuyến đi nước ngoài của công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 970. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

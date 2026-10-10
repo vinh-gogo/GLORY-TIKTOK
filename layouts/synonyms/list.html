@@ -1,0 +1,40 @@
+{{- define "main" }}
+{{- $words := partial "words-visible.html" . -}}
+<header class="page-head">
+  <h1>{{ .Title }}</h1>
+  <p class="muted">{{ .Params.summary | default .Summary }}</p>
+</header>
+
+{{- /* Nhóm đồng nghĩa có ghi chú sắc thái (chỉ nhóm đã duyệt — ADR-008) */ -}}
+{{- with .Pages.ByTitle }}
+<section class="wsec">
+  <h2>Nhóm đồng nghĩa có ghi chú sắc thái</h2>
+  <div class="cardgrid">
+    {{- range . }}<a class="topiccard" href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>{{ end }}
+  </div>
+</section>
+{{- else }}
+<div class="notice" role="note">Các nhóm đồng nghĩa có ghi chú sắc thái đang được biên soạn và sẽ hiện ở đây sau khi được duyệt.</div>
+{{- end }}
+
+<section class="wsec">
+  <h2>Đồng nghĩa theo từng từ</h2>
+  <p class="muted">Danh sách tham khảo ở mỗi từ; chưa phải nhóm đã đối chiếu sắc thái.</p>
+  {{- $letters := slice }}
+  {{- range $words }}{{ if .synonyms }}{{ $letters = $letters | append (substr .lemma 0 1 | lower) }}{{ end }}{{ end }}
+  {{- range $l := $letters | uniq | sort }}
+  <details class="fold">
+    <summary>{{ $l | upper }}</summary>
+    {{- range $words }}
+      {{- if and .synonyms (eq (substr .lemma 0 1 | lower) $l) }}
+    <div class="synrow">
+      <a href="/words/{{ .id }}/"><strong>{{ .lemma }}</strong></a>
+      <span class="muted">≈</span>
+      {{- range .synonyms }}<span class="chip">{{ .word }}</span>{{ end }}
+    </div>
+      {{- end }}
+    {{- end }}
+  </details>
+  {{- end }}
+</section>
+{{- end }}

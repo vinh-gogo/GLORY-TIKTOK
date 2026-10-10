@@ -1,0 +1,26 @@
+schema_version: 3
+id: clothing
+lemma: clothing
+pos:
+- noun
+ipa:
+  us: /ˈkloʊðɪŋ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: quần áo, trang phục
+  id: clothing-1
+examples:
+- en: The store sells affordable clothing for men, women, and children of all ages.
+  vi: Cửa hàng bán quần áo giá phải chăng cho nam, nữ và trẻ em mọi lứa tuổi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2535. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

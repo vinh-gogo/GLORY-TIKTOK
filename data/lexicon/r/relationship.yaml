@@ -1,0 +1,26 @@
+schema_version: 3
+id: relationship
+lemma: relationship
+pos:
+- noun
+ipa:
+  us: /riˈleɪʃənˌʃɪp/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: mối quan hệ
+  id: relationship-1
+examples:
+- en: We have built a strong relationship with our overseas suppliers.
+  vi: Chúng tôi đã xây dựng mối quan hệ vững chắc với các nhà cung cấp nước ngoài.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 502. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

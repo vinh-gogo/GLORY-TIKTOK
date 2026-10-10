@@ -1,0 +1,26 @@
+schema_version: 3
+id: dispose
+lemma: dispose
+pos:
+- verb
+ipa:
+  us: /dɪˈspoʊz/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: vứt bỏ, xử lý (dispose of)
+  id: dispose-1
+examples:
+- en: Please dispose of used batteries in the special container near the exit.
+  vi: Vui lòng bỏ pin đã qua sử dụng vào thùng chuyên dụng gần lối ra.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 860. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

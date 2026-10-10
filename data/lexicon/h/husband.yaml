@@ -1,0 +1,26 @@
+schema_version: 3
+id: husband
+lemma: husband
+pos:
+- noun
+ipa:
+  us: /ˈhʌzbənd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chồng
+  id: husband-1
+examples:
+- en: She invited her husband to the opening of the new store.
+  vi: Cô ấy mời chồng đến lễ khai trương cửa hàng mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 801. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

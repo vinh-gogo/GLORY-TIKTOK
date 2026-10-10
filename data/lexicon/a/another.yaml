@@ -1,0 +1,27 @@
+schema_version: 3
+id: another
+lemma: another
+pos:
+- determiner
+- pronoun
+ipa:
+  us: /əˈnʌðɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: một cái khác, thêm một
+  id: another-1
+examples:
+- en: We will need another week to finish testing the new software.
+  vi: Chúng tôi sẽ cần thêm một tuần nữa để hoàn tất việc thử nghiệm phần mềm mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 140. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

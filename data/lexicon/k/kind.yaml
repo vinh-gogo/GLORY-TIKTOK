@@ -1,0 +1,27 @@
+schema_version: 3
+id: kind
+lemma: kind
+pos:
+- noun
+- adjective
+ipa:
+  us: /kaɪnd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: loại, kiểu; tốt bụng
+  id: kind-1
+examples:
+- en: What kind of software does your team use for project management?
+  vi: Nhóm của bạn dùng loại phần mềm nào để quản lý dự án?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 176. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

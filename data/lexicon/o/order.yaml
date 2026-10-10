@@ -1,0 +1,47 @@
+schema_version: 3
+id: order
+lemma: order
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈɔːrdər/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- purchasing
+senses:
+- meaning_vi: Đơn đặt hàng; (động từ) đặt hàng
+  id: order-1
+collocations:
+- phrase: place an order
+  meaning_vi: đặt hàng
+  pattern: V+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: cancel an order
+  meaning_vi: hủy đơn hàng
+  pattern: V+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: order confirmation
+  meaning_vi: xác nhận đơn hàng
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: We placed an order for new office chairs.
+  vi: Chúng tôi đã đặt hàng một lô ghế văn phòng mới.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

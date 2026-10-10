@@ -1,0 +1,26 @@
+schema_version: 3
+id: characterize
+lemma: characterize
+pos:
+- verb
+ipa:
+  us: /ˈkɛrəktɚˌaɪz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: mô tả đặc điểm; là đặc trưng của
+  id: characterize-1
+examples:
+- en: Rapid growth and strong teamwork characterize our company culture.
+  vi: Tăng trưởng nhanh và tinh thần đồng đội mạnh là đặc trưng của văn hóa công ty chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2325. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

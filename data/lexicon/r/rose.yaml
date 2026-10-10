@@ -1,0 +1,27 @@
+schema_version: 3
+id: rose
+lemma: rose
+pos:
+- noun
+ipa:
+  us: /roʊz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: hoa hồng; (quá khứ của rise) đã tăng
+  id: rose-1
+examples:
+- en: He gave her a single red rose on their anniversary.
+  vi: Anh ấy tặng cô một bông hồng đỏ nhân ngày kỷ niệm của họ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Có thể là danh từ (hoa hồng) hoặc quá khứ của ''rise''; chọn nghĩa hoa hồng
+    — Mục từ NGSL hạng 2798. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

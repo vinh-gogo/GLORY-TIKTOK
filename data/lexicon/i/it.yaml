@@ -1,0 +1,26 @@
+schema_version: 3
+id: it
+lemma: it
+pos:
+- pronoun
+ipa:
+  us: /ɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: nó (chỉ vật, sự việc)
+  id: it-1
+examples:
+- en: The printer is old, so it often stops working during the day.
+  vi: Máy in đã cũ nên nó thường ngừng hoạt động vào ban ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 9. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

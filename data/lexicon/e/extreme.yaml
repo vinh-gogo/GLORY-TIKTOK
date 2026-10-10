@@ -1,0 +1,26 @@
+schema_version: 3
+id: extreme
+lemma: extreme
+pos:
+- adjective
+ipa:
+  us: /ɛkˈstrim/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cực độ, khắc nghiệt
+  id: extreme-1
+examples:
+- en: Extreme weather forced the airline to cancel several flights.
+  vi: Thời tiết khắc nghiệt buộc hãng hàng không hủy một số chuyến bay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1857. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: orientation
+lemma: orientation
+pos:
+- noun
+ipa:
+  us: /ˌɔriɛnˈteɪʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: buổi định hướng cho nhân viên mới
+  id: orientation-1
+examples:
+- en: New employees attend an orientation on their first day.
+  vi: Nhân viên mới tham dự buổi định hướng vào ngày đầu tiên.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 356. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

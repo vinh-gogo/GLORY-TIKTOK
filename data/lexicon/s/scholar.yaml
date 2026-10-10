@@ -1,0 +1,26 @@
+schema_version: 3
+id: scholar
+lemma: scholar
+pos:
+- noun
+ipa:
+  us: /ˈskɑlɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: học giả, nhà nghiên cứu
+  id: scholar-1
+examples:
+- en: The university invited a respected scholar to give a lecture on economics.
+  vi: Trường đại học mời một học giả được kính trọng đến giảng về kinh tế học.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2522. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

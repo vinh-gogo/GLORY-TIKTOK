@@ -1,0 +1,26 @@
+schema_version: 3
+id: pull
+lemma: pull
+pos:
+- verb
+ipa:
+  us: /pʊl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: kéo
+  id: pull-1
+examples:
+- en: Please pull the door gently because the hinge is loose.
+  vi: Vui lòng kéo cửa nhẹ nhàng vì bản lề bị lỏng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 799. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

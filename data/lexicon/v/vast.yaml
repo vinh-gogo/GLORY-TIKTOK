@@ -1,0 +1,26 @@
+schema_version: 3
+id: vast
+lemma: vast
+pos:
+- adjective
+ipa:
+  us: /væst/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: rộng lớn, bao la
+  id: vast-1
+examples:
+- en: The company stores a vast amount of customer data on its servers.
+  vi: Công ty lưu trữ một lượng lớn dữ liệu khách hàng trên máy chủ của mình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1802. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

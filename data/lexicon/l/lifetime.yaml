@@ -1,0 +1,26 @@
+schema_version: 3
+id: lifetime
+lemma: lifetime
+pos:
+- noun
+ipa:
+  us: /ˈlaɪfˌtaɪm/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: cả đời, tuổi thọ, thời gian sử dụng
+  id: lifetime-1
+examples:
+- en: This product comes with a lifetime warranty against manufacturing defects.
+  vi: Sản phẩm này có bảo hành trọn đời đối với lỗi sản xuất.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 637. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

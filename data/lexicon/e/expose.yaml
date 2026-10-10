@@ -1,0 +1,26 @@
+schema_version: 3
+id: expose
+lemma: expose
+pos:
+- verb
+ipa:
+  us: /ɪkˈspoʊz/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: để lộ ra, phơi bày
+  id: expose-1
+examples:
+- en: Do not expose this device to water or extreme heat.
+  vi: Không để thiết bị này tiếp xúc với nước hoặc nhiệt độ quá cao.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1773. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

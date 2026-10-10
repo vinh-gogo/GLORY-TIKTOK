@@ -1,0 +1,27 @@
+schema_version: 3
+id: shout
+lemma: shout
+pos:
+- verb
+- noun
+ipa:
+  us: /ʃaʊt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: hét lên, la lớn
+  id: shout-1
+examples:
+- en: There is no need to shout; I can hear you clearly.
+  vi: Không cần phải hét lên, tôi nghe bạn rất rõ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1666. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

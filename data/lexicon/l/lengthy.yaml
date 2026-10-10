@@ -1,0 +1,26 @@
+schema_version: 3
+id: lengthy
+lemma: lengthy
+pos:
+- adjective
+ipa:
+  us: /ˈlɛŋθi/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: dài dòng, kéo dài
+  id: lengthy-1
+examples:
+- en: After a lengthy discussion, the board finally approved the new marketing plan.
+  vi: Sau cuộc thảo luận kéo dài, hội đồng cuối cùng đã phê duyệt kế hoạch tiếp thị mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 466. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: productivity
+lemma: productivity
+pos:
+- noun
+ipa:
+  us: /ˌproʊdəkˈtɪvəti/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: năng suất
+  id: productivity-1
+examples:
+- en: The new software has greatly improved our team's productivity.
+  vi: Phần mềm mới đã cải thiện đáng kể năng suất của nhóm chúng tôi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌproʊdəkˈtɪvəti/; /ˌproʊdəkˈtɪvɪti/); IPA đang ghi
+    là cách đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 234. IPA lấy từ CMUdict
+    (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005
+    chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

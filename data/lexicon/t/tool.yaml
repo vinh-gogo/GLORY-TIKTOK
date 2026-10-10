@@ -1,0 +1,26 @@
+schema_version: 3
+id: tool
+lemma: tool
+pos:
+- noun
+ipa:
+  us: /tul/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: dụng cụ, công cụ
+  id: tool-1
+examples:
+- en: This software is a useful tool for tracking project deadlines.
+  vi: Phần mềm này là một công cụ hữu ích để theo dõi hạn chót của dự án.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1227. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

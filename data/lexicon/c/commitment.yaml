@@ -1,0 +1,26 @@
+schema_version: 3
+id: commitment
+lemma: commitment
+pos:
+- noun
+ipa:
+  us: /kəˈmɪtmənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự cam kết
+  id: commitment-1
+examples:
+- en: The firm showed a strong commitment to improving customer service.
+  vi: Công ty thể hiện cam kết mạnh mẽ trong việc cải thiện dịch vụ khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1507. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

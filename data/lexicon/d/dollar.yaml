@@ -1,0 +1,27 @@
+schema_version: 3
+id: dollar
+lemma: dollar
+pos:
+- noun
+ipa:
+  us: /ˈdɑlɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: đô la
+  id: dollar-1
+examples:
+- en: The price of the monthly subscription is twenty dollars for each user.
+  vi: Giá thuê bao hằng tháng là hai mươi đô la cho mỗi người dùng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈdɑlɚ/; /ˈdɔlɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 971. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

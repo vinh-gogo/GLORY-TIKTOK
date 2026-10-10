@@ -1,62 +1,74 @@
-schema_version: 2
+schema_version: 3
 id: warranty
 lemma: warranty
 pos:
-  - noun
+- noun
 ipa:
-  us: "/ˈwɔːrənti/"
+  us: /ˈwɔːrənti/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - sales
-  - shopping
-  - equipment
-speaking_use:
-  - respond-to-questions
-  - read-aloud
+- general-business
+- purchasing
+- offices
 senses:
-  - id: warranty-1
-    meaning_vi: "Chế độ bảo hành, giấy bảo hành sản phẩm"
-    note_vi: "Thường gặp trong bối cảnh mua thiết bị điện tử, khiếu nại sản phẩm lỗi cần sửa chữa (Part 1, 3, 5)."
+- id: warranty-1
+  meaning_vi: Chế độ bảo hành, giấy bảo hành sản phẩm
+  note_vi: Thường gặp trong bối cảnh mua thiết bị điện tử, khiếu nại sản phẩm lỗi cần sửa chữa (Part 1, 3, 5).
 collocations:
-  - phrase: "under warranty"
-    meaning_vi: "còn trong thời hạn bảo hành"
-    evidence: "corpus"
-  - phrase: "extended warranty"
-    meaning_vi: "gói bảo hành mở rộng (mua thêm thời gian)"
-    evidence: "corpus"
-  - phrase: "two-year warranty"
-    meaning_vi: "chế độ bảo hành hai năm"
-    evidence: "corpus"
-  - phrase: "warranty period"
-    meaning_vi: "thời hạn bảo hành"
-    evidence: "corpus"
-confused_words:
-  - word: "warrant"
-    ipa: "/ˈwɔːrənt/"
-    meaning: "lệnh bắt giữ, sự đảm bảo pháp lý"
-    kind: "spelling-sound"
-    difference_vi: "Warranty là giấy bảo hành hàng hóa; warrant là trát lệnh của tòa án hoặc sự cho phép chính thức."
-confusing_meanings:
-  - word: "guarantee"
-    meaning: "sự cam kết chắc chắn về chất lượng"
-    difference_vi: "Warranty là văn bản bảo hành pháp lý cụ thể quy định sửa chữa/thay thế; guarantee là lời cam kết bằng miệng hoặc văn bản rộng hơn."
+- phrase: under warranty
+  meaning_vi: còn trong thời hạn bảo hành
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: extended warranty
+  meaning_vi: gói bảo hành mở rộng (mua thêm thời gian)
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: two-year warranty
+  meaning_vi: chế độ bảo hành hai năm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: warranty period
+  meaning_vi: thời hạn bảo hành
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "guarantee"
-    meaning_vi: "sự bảo đảm"
+- word: guarantee
+  meaning_vi: sự bảo đảm
+confused_words:
+- word: warrant
+  ipa: /ˈwɔːrənt/
+  meaning: lệnh bắt giữ, sự đảm bảo pháp lý
+  kind: spelling-sound
+  difference_vi: Warranty là giấy bảo hành hàng hóa; warrant là trát lệnh của tòa án hoặc sự cho phép chính thức.
+confusing_meanings:
+- word: guarantee
+  meaning: sự cam kết chắc chắn về chất lượng
+  difference_vi: Warranty là văn bản bảo hành pháp lý cụ thể quy định sửa chữa/thay thế; guarantee là lời cam kết bằng miệng
+    hoặc văn bản rộng hơn.
 examples:
-  - en: "You don't have to pay for the laptop repair because it is still covered under the manufacturer's warranty."
-    vi: "Bạn không phải trả tiền sửa máy tính xách tay vì nó vẫn còn trong thời hạn bảo hành của nhà sản xuất."
-pronunciation_tips_vi: "Trọng âm rơi vào âm tiết đầu /ˈwɔːr-/. Âm cuối /-ti/ dứt khoát, lưu ý phát âm rõ âm /r/ trong giọng Mỹ."
+- en: You don't have to pay for the laptop repair because it is still covered under the manufacturer's warranty.
+  vi: Bạn không phải trả tiền sửa máy tính xách tay vì nó vẫn còn trong thời hạn bảo hành của nhà sản xuất.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈwɔːr-/. Âm cuối /-ti/ dứt khoát, lưu ý phát âm rõ âm /r/ trong giọng
+  Mỹ.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

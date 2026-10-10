@@ -1,0 +1,26 @@
+schema_version: 3
+id: suitcase
+lemma: suitcase
+pos:
+- noun
+ipa:
+  us: /ˈsutˌkeɪs/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: va-li
+  id: suitcase-1
+examples:
+- en: He packed his suitcase the night before the business trip.
+  vi: Anh ấy xếp va-li vào đêm trước chuyến công tác.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 62. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

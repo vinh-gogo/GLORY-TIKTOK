@@ -1,0 +1,26 @@
+schema_version: 3
+id: margin
+lemma: margin
+pos:
+- noun
+ipa:
+  us: /ˈmɑrdʒən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: biên lợi nhuận; lề giấy
+  id: margin-1
+examples:
+- en: The profit margin on this product is only five percent.
+  vi: Biên lợi nhuận của sản phẩm này chỉ là năm phần trăm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2393. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

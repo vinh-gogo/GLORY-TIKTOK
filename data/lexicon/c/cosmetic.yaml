@@ -1,0 +1,27 @@
+schema_version: 3
+id: cosmetic
+lemma: cosmetic
+pos:
+- adjective
+- noun
+ipa:
+  us: /kɑzˈmɛtɪk/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: thuộc mỹ phẩm; mỹ phẩm, chỉ làm đẹp bề ngoài
+  id: cosmetic-1
+examples:
+- en: The cosmetic company will launch a new line of skin products in spring.
+  vi: Công ty mỹ phẩm sẽ ra mắt dòng sản phẩm chăm sóc da mới vào mùa xuân.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 760. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

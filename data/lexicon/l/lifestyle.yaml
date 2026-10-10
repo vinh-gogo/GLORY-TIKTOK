@@ -1,0 +1,26 @@
+schema_version: 3
+id: lifestyle
+lemma: lifestyle
+pos:
+- noun
+ipa:
+  us: /ˈlaɪfˌstaɪl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: lối sống
+  id: lifestyle-1
+examples:
+- en: Many people choose a healthier lifestyle after reading about regular exercise.
+  vi: Nhiều người chọn lối sống lành mạnh hơn sau khi đọc về việc tập thể dục đều đặn.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 829. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: passport
+lemma: passport
+pos:
+- noun
+ipa:
+  us: /ˈpæˌspɔrt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: hộ chiếu
+  id: passport-1
+examples:
+- en: Make sure your passport is valid for at least six months.
+  vi: Hãy chắc chắn hộ chiếu của bạn còn hiệu lực ít nhất sáu tháng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 84. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

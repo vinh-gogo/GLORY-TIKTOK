@@ -1,0 +1,28 @@
+schema_version: 3
+id: hike
+lemma: hike
+pos:
+- noun
+- verb
+ipa:
+  us: /haɪk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: cuộc đi bộ đường dài; (giá) tăng mạnh
+  id: hike-1
+examples:
+- en: We went on a long hike in the mountains last weekend.
+  vi: Cuối tuần trước chúng tôi đã đi bộ đường dài trên núi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Nghĩa ''đi bộ đường dài'' và nghĩa ''tăng giá'' đều phổ biến; chưa rõ nghĩa
+    ưu tiên cho TOEIC — Mục từ TSL hạng 232. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu
+    trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề,
+    câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

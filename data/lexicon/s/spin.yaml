@@ -1,0 +1,26 @@
+schema_version: 3
+id: spin
+lemma: spin
+pos:
+- verb
+ipa:
+  us: /spɪn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: quay, xoay tròn
+  id: spin-1
+examples:
+- en: The washing machine began to spin faster at the end.
+  vi: Máy giặt bắt đầu quay nhanh hơn ở giai đoạn cuối.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2328. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

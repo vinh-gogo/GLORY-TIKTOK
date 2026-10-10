@@ -1,0 +1,26 @@
+schema_version: 3
+id: hospital
+lemma: hospital
+pos:
+- noun
+ipa:
+  us: /ˈhɑˌspɪtəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- health
+senses:
+- meaning_vi: bệnh viện
+  id: hospital-1
+examples:
+- en: The new hospital will open next year and hire fifty nurses.
+  vi: Bệnh viện mới sẽ mở cửa vào năm tới và tuyển năm mươi y tá.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 782. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

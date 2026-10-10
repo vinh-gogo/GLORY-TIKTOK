@@ -1,0 +1,26 @@
+schema_version: 3
+id: freighter
+lemma: freighter
+pos:
+- noun
+ipa:
+  us: /ˈfreɪtɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: tàu chở hàng, máy bay chở hàng
+  id: freighter-1
+examples:
+- en: A large freighter carried the machinery across the ocean to our port.
+  vi: Một tàu chở hàng lớn đã chở máy móc băng qua đại dương đến cảng của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 913. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

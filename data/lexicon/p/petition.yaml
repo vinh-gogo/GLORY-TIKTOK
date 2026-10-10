@@ -1,0 +1,27 @@
+schema_version: 3
+id: petition
+lemma: petition
+pos:
+- noun
+- verb
+ipa:
+  us: /pəˈtɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: đơn kiến nghị; kiến nghị
+  id: petition-1
+examples:
+- en: Residents signed a petition asking the city to build a new park.
+  vi: Cư dân đã ký một bản kiến nghị yêu cầu thành phố xây công viên mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 930. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

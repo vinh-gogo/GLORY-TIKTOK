@@ -1,0 +1,26 @@
+schema_version: 3
+id: dealer
+lemma: dealer
+pos:
+- noun
+ipa:
+  us: /ˈdilɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: đại lý, nhà buôn
+  id: dealer-1
+examples:
+- en: The car dealer offered us a discount on the company vehicles.
+  vi: Đại lý ô tô đã giảm giá cho chúng tôi khi mua xe công ty.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2284. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

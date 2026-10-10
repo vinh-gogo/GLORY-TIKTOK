@@ -1,0 +1,27 @@
+schema_version: 3
+id: stream
+lemma: stream
+pos:
+- noun
+- verb
+ipa:
+  us: /strim/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: dòng suối; phát trực tuyến
+  id: stream-1
+examples:
+- en: You can stream the live concert on our website tonight.
+  vi: Bạn có thể xem trực tuyến buổi hòa nhạc trực tiếp trên trang web của chúng tôi tối nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2148. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

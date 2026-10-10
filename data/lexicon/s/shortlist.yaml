@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: shortlist
 lemma: shortlist
 pos:
@@ -10,37 +10,44 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- human-resources
-speaking_use:
-- respond-to-questions
-- express-opinion
+- personnel
 senses:
 - id: shortlist-1
   meaning_vi: Danh sách rút gọn các ứng viên xuất sắc nhất; (v) chọn vào danh sách vòng sau
   note_vi: Bước lọc hồ sơ cuối cùng trước khi phỏng vấn trực tiếp hoặc bỏ phiếu tuyển dụng.
+collocations:
+- phrase: shortlist candidates
+  meaning_vi: lọc ứng viên vào danh sách rút gọn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: on the shortlist
+  meaning_vi: nằm trong danh sách rút gọn
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: make the shortlist
+  meaning_vi: lọt vào danh sách chung kết
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: select
+  meaning_vi: lựa chọn
+- word: filter
+  meaning_vi: sàng lọc
 confused_words:
 - word: blacklist
   ipa: /ˈblæklɪst/
   difference_vi: Blacklist là sổ đen (danh sách loại trừ/cấm), còn shortlist là danh sách ứng viên sáng giá nhất được chọn.
 confusing_meanings:
 - difference_vi: Shortlist có thể làm danh từ (the shortlist) hoặc động từ chủ động (we shortlisted five candidates).
-collocations:
-- phrase: shortlist candidates
-  meaning_vi: lọc ứng viên vào danh sách rút gọn
-  evidence: corpus
-- phrase: on the shortlist
-  meaning_vi: nằm trong danh sách rút gọn
-  evidence: corpus
-- phrase: make the shortlist
-  meaning_vi: lọt vào danh sách chung kết
-  evidence: corpus
-synonyms:
-- word: select
-  meaning_vi: lựa chọn
-- word: filter
-  meaning_vi: sàng lọc
 examples:
 - en: Out of fifty applicants, only five were shortlisted for the managerial position.
   vi: Trong số năm mươi ứng viên, chỉ có năm người được đưa vào danh sách rút gọn cho vị trí quản lý.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

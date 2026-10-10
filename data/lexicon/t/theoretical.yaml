@@ -1,0 +1,26 @@
+schema_version: 3
+id: theoretical
+lemma: theoretical
+pos:
+- adjective
+ipa:
+  us: /ˌθiɚˈɛtɪkəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: thuộc lý thuyết
+  id: theoretical-1
+examples:
+- en: The course covers both theoretical knowledge and practical engineering skills.
+  vi: Khóa học bao gồm cả kiến thức lý thuyết và kỹ năng kỹ thuật thực hành.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2777. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

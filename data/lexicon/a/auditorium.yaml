@@ -1,0 +1,26 @@
+schema_version: 3
+id: auditorium
+lemma: auditorium
+pos:
+- noun
+ipa:
+  us: /ˌɔdəˈtɔriəm/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: khán phòng, hội trường lớn
+  id: auditorium-1
+examples:
+- en: The annual meeting will be held in the main auditorium at nine o'clock.
+  vi: Cuộc họp thường niên sẽ được tổ chức tại hội trường lớn lúc chín giờ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 516. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

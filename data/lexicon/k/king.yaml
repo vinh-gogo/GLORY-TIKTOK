@@ -1,0 +1,26 @@
+schema_version: 3
+id: king
+lemma: king
+pos:
+- noun
+ipa:
+  us: /kɪŋ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: vua, quốc vương
+  id: king-1
+examples:
+- en: The old king ruled the country for more than forty years.
+  vi: Vị vua già cai trị đất nước hơn bốn mươi năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1876. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

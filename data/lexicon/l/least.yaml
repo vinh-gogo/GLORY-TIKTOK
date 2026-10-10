@@ -1,0 +1,27 @@
+schema_version: 3
+id: least
+lemma: least
+pos:
+- determiner
+- adverb
+ipa:
+  us: /list/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: ít nhất
+  id: least-1
+examples:
+- en: Applicants must have at least two years of experience in accounting.
+  vi: Ứng viên phải có ít nhất hai năm kinh nghiệm trong lĩnh vực kế toán.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 281. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: deficit
 lemma: deficit
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- finance-accounting
-speaking_use:
-- respond-with-info
-- express-opinion
+- finance-budgeting
 senses:
 - id: deficit-1
   meaning_vi: Sự thâm hụt tài chính (khi chi phí vượt quá số thu)
   note_vi: Trái nghĩa trực tiếp với surplus (thặng dư).
+collocations:
+- phrase: budget deficit
+  meaning_vi: thâm hụt ngân sách
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: trade deficit
+  meaning_vi: thâm hụt thương mại (nhập siêu)
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: reduce the deficit
+  meaning_vi: cắt giảm mức thâm hụt
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: shortfall
+  meaning_vi: khoản thiếu hụt
+- word: loss
+  meaning_vi: khoản thua lỗ
 confused_words:
 - word: deficient
   ipa: /dɪˈfɪʃnt/
   difference_vi: Deficient là tính từ (thiếu hụt chất lượng/dưỡng chất); deficit là danh từ chỉ số tiền thâm hụt.
 confusing_meanings:
 - difference_vi: Budget deficit là thâm hụt ngân sách nhà nước/doanh nghiệp; trade deficit là thâm hụt cán cân thương mại.
-collocations:
-- phrase: budget deficit
-  meaning_vi: thâm hụt ngân sách
-  evidence: corpus
-- phrase: trade deficit
-  meaning_vi: thâm hụt thương mại (nhập siêu)
-  evidence: corpus
-- phrase: reduce the deficit
-  meaning_vi: cắt giảm mức thâm hụt
-  evidence: corpus
-synonyms:
-- word: shortfall
-  meaning_vi: khoản thiếu hụt
-- word: loss
-  meaning_vi: khoản thua lỗ
 examples:
 - en: Measures were implemented immediately to cut overhead and curb the growing budget deficit.
   vi: Các biện pháp đã được thực thi ngay lập tức nhằm cắt giảm chi phí gián tiếp và kiềm chế thâm hụt ngân sách gia tăng.
@@ -50,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

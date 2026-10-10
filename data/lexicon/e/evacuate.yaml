@@ -1,0 +1,27 @@
+schema_version: 3
+id: evacuate
+lemma: evacuate
+pos:
+- verb
+ipa:
+  us: /ɪˈvækjəˌeɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: sơ tán, di tản
+  id: evacuate-1
+examples:
+- en: Staff had to evacuate the building when the fire alarm went off.
+  vi: Nhân viên phải sơ tán khỏi tòa nhà khi chuông báo cháy vang lên.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɪˈvækjəˌeɪt/; /iˈvækjəˌeɪt/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1045. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

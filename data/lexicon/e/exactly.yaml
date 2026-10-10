@@ -1,0 +1,26 @@
+schema_version: 3
+id: exactly
+lemma: exactly
+pos:
+- adverb
+ipa:
+  us: /ɪɡˈzæktli/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chính xác, đúng như vậy
+  id: exactly-1
+examples:
+- en: The meeting starts at exactly ten o'clock, so please be on time.
+  vi: Cuộc họp bắt đầu đúng mười giờ nên vui lòng đến đúng giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 670. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

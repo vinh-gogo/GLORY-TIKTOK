@@ -1,0 +1,27 @@
+schema_version: 3
+id: satisfy
+lemma: satisfy
+pos:
+- verb
+ipa:
+  us: /ˈsætəsˌfaɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: làm hài lòng, đáp ứng
+  id: satisfy-1
+examples:
+- en: Our goal is to satisfy every customer who visits our store.
+  vi: Mục tiêu của chúng tôi là làm hài lòng mọi khách hàng đến cửa hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈsætəsˌfaɪ/; /ˈsætɪsˌfaɪ/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1154. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

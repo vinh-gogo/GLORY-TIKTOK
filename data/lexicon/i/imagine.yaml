@@ -1,0 +1,26 @@
+schema_version: 3
+id: imagine
+lemma: imagine
+pos:
+- verb
+ipa:
+  us: /ˌɪˈmædʒən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tưởng tượng
+  id: imagine-1
+examples:
+- en: Imagine how much time we could save with a faster computer system.
+  vi: Hãy tưởng tượng chúng ta có thể tiết kiệm bao nhiêu thời gian với hệ thống máy tính nhanh hơn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 924. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

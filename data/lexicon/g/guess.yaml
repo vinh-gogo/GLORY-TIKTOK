@@ -1,0 +1,27 @@
+schema_version: 3
+id: guess
+lemma: guess
+pos:
+- verb
+- noun
+ipa:
+  us: /ɡɛs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đoán, phỏng đoán
+  id: guess-1
+examples:
+- en: I guess the meeting will finish late because there are many topics.
+  vi: Tôi đoán cuộc họp sẽ kết thúc muộn vì có nhiều chủ đề.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 901. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

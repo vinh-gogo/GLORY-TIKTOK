@@ -1,0 +1,27 @@
+schema_version: 3
+id: need
+lemma: need
+pos:
+- verb
+- noun
+ipa:
+  us: /nid/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cần; nhu cầu
+  id: need-1
+examples:
+- en: Visitors need to sign in at the front desk upon arrival.
+  vi: Khách đến thăm cần ký tên đăng ký ở quầy lễ tân khi đến nơi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 90. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

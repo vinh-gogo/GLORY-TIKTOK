@@ -1,0 +1,22 @@
+schema_version: 1
+id: law-01
+title_vi: Định luật về Hạn chót
+title_en: The Law of Deadlines
+topic: offices
+band: core
+quote_en: If you fail to prioritize tasks early, you will always sacrifice quality just to meet a tight deadline.
+quote_vi: Nếu bạn không chủ động ưu tiên công việc từ sớm, bạn sẽ luôn phải đánh đổi chất lượng chỉ để kịp một hạn chót gấp
+  gáp.
+highlights:
+- phrase: meet a tight deadline
+  meaning_vi: kịp hạn chót gấp gáp
+  word: deadline
+- phrase: prioritize tasks
+  meaning_vi: sắp xếp thứ tự ưu tiên công việc
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

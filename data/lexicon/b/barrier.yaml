@@ -1,0 +1,27 @@
+schema_version: 3
+id: barrier
+lemma: barrier
+pos:
+- noun
+ipa:
+  us: /ˈbæriɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: rào cản, hàng rào chắn
+  id: barrier-1
+examples:
+- en: Language can be a barrier when doing business in other countries.
+  vi: Ngôn ngữ có thể là rào cản khi làm ăn ở các nước khác.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈbæriɚ/; /ˈbɛriɚ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2402. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: struggle
+lemma: struggle
+pos:
+- verb
+- noun
+ipa:
+  us: /ˈstrʌɡəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: vật lộn, đấu tranh
+  id: struggle-1
+examples:
+- en: Many small businesses struggle to compete with large international companies.
+  vi: Nhiều doanh nghiệp nhỏ vật lộn để cạnh tranh với các công ty quốc tế lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1171. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

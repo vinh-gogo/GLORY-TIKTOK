@@ -1,0 +1,26 @@
+schema_version: 3
+id: disagree
+lemma: disagree
+pos:
+- verb
+ipa:
+  us: /dɪsəˈɡri/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: không đồng ý, bất đồng
+  id: disagree-1
+examples:
+- en: Some board members disagree with the proposal to close the downtown branch.
+  vi: Một số thành viên hội đồng không đồng ý với đề xuất đóng chi nhánh trung tâm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2503. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

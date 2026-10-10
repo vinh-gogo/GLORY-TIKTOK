@@ -1,0 +1,26 @@
+schema_version: 3
+id: spam
+lemma: spam
+pos:
+- noun
+ipa:
+  us: /spæm/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: thư rác
+  id: spam-1
+examples:
+- en: The email filter blocks most spam before it reaches our inboxes.
+  vi: Bộ lọc email chặn phần lớn thư rác trước khi đến hộp thư của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 651. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: shipment
 lemma: shipment
 pos:
@@ -6,59 +6,63 @@ pos:
 ipa:
   us: /ˈʃɪpmənt/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- logistics
-- transport
+- purchasing
+- travel
 - manufacturing
-speaking_use:
-- read-aloud
-- respond-with-info
-- respond-to-questions
 senses:
 - id: shipment-1
   meaning_vi: Lô hàng vận chuyển, chuyến hàng được gửi đi
-  note_vi: Rất hay gặp trong Part 1 và Part 4 khi thông báo trạng thái hàng hóa gửi
-    đi hoặc hàng bị chậm trễ.
+  note_vi: Rất hay gặp trong Part 1 và Part 4 khi thông báo trạng thái hàng hóa gửi đi hoặc hàng bị chậm trễ.
 collocations:
 - phrase: track a shipment
   meaning_vi: theo dõi hành trình đơn hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: receive a shipment
   meaning_vi: tiếp nhận một lô hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: delay the shipment
   meaning_vi: hoãn chuyến giao hàng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: incoming shipment
   meaning_vi: lô hàng đang được chuyển tới
-  evidence: corpus
-confused_words:
-- word: shipyard
-  ipa: /ˈʃɪpjɑːrd/
-  meaning: xưởng đóng tàu
-  kind: spelling-sound
-  difference_vi: Shipment là lô hàng bưu kiện được gửi đi; shipyard là xưởng đóng
-    tàu thủy.
-confusing_meanings:
-- word: cargo
-  meaning: hàng hóa chở trên tàu xe
-  difference_vi: Cargo là hàng hóa chở khối lượng lớn trên tàu/máy bay; shipment là
-    một kiện hàng hoặc chuyến hàng cụ thể đã lên đơn gửi đi.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: delivery
   meaning_vi: kiện hàng giao
 - word: consignment
   meaning_vi: lô hàng ủy gửi
+confused_words:
+- word: shipyard
+  ipa: /ˈʃɪpjɑːrd/
+  meaning: xưởng đóng tàu
+  kind: spelling-sound
+  difference_vi: Shipment là lô hàng bưu kiện được gửi đi; shipyard là xưởng đóng tàu thủy.
+confusing_meanings:
+- word: cargo
+  meaning: hàng hóa chở trên tàu xe
+  difference_vi: Cargo là hàng hóa chở khối lượng lớn trên tàu/máy bay; shipment là một kiện hàng hoặc chuyến hàng cụ thể
+    đã lên đơn gửi đi.
 examples:
-- en: You can track the real-time status of your international shipment by entering
-    the tracking number online.
-  vi: Bạn có thể theo dõi trạng thái theo thời gian thực của lô hàng quốc tế bằng
-    cách nhập mã vận đơn trực tuyến.
-pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈʃɪp-/. Âm đầu là /ʃ/ cong môi,
-  đuôi /-mənt/ dứt khoát.
+- en: You can track the real-time status of your international shipment by entering the tracking number online.
+  vi: Bạn có thể theo dõi trạng thái theo thời gian thực của lô hàng quốc tế bằng cách nhập mã vận đơn trực tuyến.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết đầu /ˈʃɪp-/. Âm đầu là /ʃ/ cong môi, đuôi /-mənt/ dứt khoát.
 review:
   status: ai_cross_checked
   checked_by:

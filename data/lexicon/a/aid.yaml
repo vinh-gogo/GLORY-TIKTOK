@@ -1,0 +1,27 @@
+schema_version: 3
+id: aid
+lemma: aid
+pos:
+- noun
+- verb
+ipa:
+  us: /eɪd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự giúp đỡ, viện trợ
+  id: aid-1
+examples:
+- en: The organization provides financial aid to students from poor families.
+  vi: Tổ chức cung cấp hỗ trợ tài chính cho sinh viên từ các gia đình nghèo.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1305. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

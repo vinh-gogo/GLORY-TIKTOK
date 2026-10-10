@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: liability
 lemma: liability
 pos:
@@ -9,38 +9,45 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- finance-accounting
-- legal-compliance
-speaking_use:
-- respond-with-info
-- express-opinion
+- finance-budgeting
+- general-business
 senses:
 - id: liability-1
   meaning_vi: Khoản nợ phải trả trên bảng cân đối kế toán; trách nhiệm pháp lý
   note_vi: Đối nghịch với asset (tài sản).
+collocations:
+- phrase: total liabilities
+  meaning_vi: tổng nợ phải trả
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: legal liability
+  meaning_vi: trách nhiệm pháp lý trước pháp luật
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: accept liability
+  meaning_vi: nhận trách nhiệm bồi thường
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: obligation
+  meaning_vi: nghĩa vụ thanh toán
+- word: debt
+  meaning_vi: khoản nợ
 confused_words:
 - word: reliable
   ipa: /rɪˈlaɪəbl/
   difference_vi: Reliable là tính từ đáng tin cậy; liability là danh từ gánh nặng nợ nần hoặc trách nhiệm pháp lý.
 confusing_meanings:
 - difference_vi: Trong tài chính, liabilities là các khoản nợ phải trả; trong đời sống, liability là gánh nặng gây cản trở.
-collocations:
-- phrase: total liabilities
-  meaning_vi: tổng nợ phải trả
-  evidence: corpus
-- phrase: legal liability
-  meaning_vi: trách nhiệm pháp lý trước pháp luật
-  evidence: corpus
-- phrase: accept liability
-  meaning_vi: nhận trách nhiệm bồi thường
-  evidence: corpus
-synonyms:
-- word: obligation
-  meaning_vi: nghĩa vụ thanh toán
-- word: debt
-  meaning_vi: khoản nợ
 examples:
 - en: The airline denied any legal liability for the damage caused by severe weather delays.
   vi: Hãng hàng không từ chối mọi trách nhiệm pháp lý đối với thiệt hại gây ra bởi sự chậm trễ do thời tiết xấu.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

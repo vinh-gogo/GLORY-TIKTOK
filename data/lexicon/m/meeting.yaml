@@ -1,0 +1,46 @@
+schema_version: 3
+id: meeting
+lemma: meeting
+pos:
+- noun
+ipa:
+  us: /ˈmiːtɪŋ/
+level:
+  band: foundation
+  cefr: A2
+  basis:
+  - editorial
+topics:
+- offices
+senses:
+- meaning_vi: Cuộc họp
+  id: meeting-1
+collocations:
+- phrase: attend a meeting
+  meaning_vi: tham dự cuộc họp
+  pattern: V+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: schedule a meeting
+  meaning_vi: lên lịch một cuộc họp
+  pattern: V+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+- phrase: board meeting
+  meaning_vi: cuộc họp hội đồng quản trị
+  pattern: N+N
+  evidence:
+    source: unverified
+    checked_at: '2026-10-11'
+    note: mục mới từ lô nhập, chưa kiểm tra
+examples:
+- en: The meeting starts at nine thirty.
+  vi: Cuộc họp bắt đầu lúc chín giờ ba mươi.
+review:
+  status: ai_draft
+  checked_at: '2026-10-11'
+  reason: Mục mới từ lô 001-foundation-pilot (antigravity-ai); chưa đối chiếu độc lập.

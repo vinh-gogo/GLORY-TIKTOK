@@ -1,0 +1,26 @@
+schema_version: 3
+id: tough
+lemma: tough
+pos:
+- adjective
+ipa:
+  us: /tʌf/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: khó khăn; cứng rắn
+  id: tough-1
+examples:
+- en: It was a tough year for the company, but profits are recovering.
+  vi: Đó là một năm khó khăn đối với công ty, nhưng lợi nhuận đang phục hồi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1469. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

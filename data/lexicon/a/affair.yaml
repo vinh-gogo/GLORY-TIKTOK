@@ -1,0 +1,26 @@
+schema_version: 3
+id: affair
+lemma: affair
+pos:
+- noun
+ipa:
+  us: /əˈfɛr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: vụ việc, công việc
+  id: affair-1
+examples:
+- en: The minister discussed the affairs of the nation with the committee.
+  vi: Bộ trưởng đã thảo luận các công việc của quốc gia với ủy ban.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1448. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

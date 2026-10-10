@@ -1,0 +1,27 @@
+schema_version: 3
+id: aunt
+lemma: aunt
+pos:
+- noun
+ipa:
+  us: /ænt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: dì, cô, bác gái, mợ
+  id: aunt-1
+examples:
+- en: My aunt is visiting us next week from another city.
+  vi: Dì tôi sẽ đến thăm chúng tôi vào tuần tới từ một thành phố khác.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ænt/; /ɔnt/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2781. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

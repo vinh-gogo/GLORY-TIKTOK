@@ -1,0 +1,27 @@
+schema_version: 3
+id: desirable
+lemma: desirable
+pos:
+- adjective
+ipa:
+  us: /dɪˈzaɪrəbəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: đáng mong muốn, hấp dẫn
+  id: desirable-1
+examples:
+- en: Good communication skills are a desirable quality in any new employee.
+  vi: Kỹ năng giao tiếp tốt là phẩm chất đáng mong muốn ở mọi nhân viên mới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/dɪˈzaɪrəbəl/; /dɪˈzaɪɚəbəl/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 969. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

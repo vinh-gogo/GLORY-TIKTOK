@@ -1,0 +1,27 @@
+schema_version: 3
+id: shot
+lemma: shot
+pos:
+- noun
+ipa:
+  us: /ʃɑt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: mũi tiêm; phát bắn; cú sút
+  id: shot-1
+examples:
+- en: The nurse gave him a flu shot before the winter season.
+  vi: Y tá đã tiêm cho anh ấy một mũi tiêm cúm trước mùa đông.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa (mũi tiêm, phát bắn, cú sút, ảnh chụp); cần xác nhận nghĩa chính
+    — Mục từ NGSL hạng 1567. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

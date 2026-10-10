@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: transit
 lemma: transit
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- shipping-logistics
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- purchasing
 senses:
 - id: transit-1
   meaning_vi: Quá trình vận chuyển trên đường; việc quá cảnh qua một địa điểm trung gian
   note_vi: Cụm 'in transit' rất phổ biến, có nghĩa là đang trên đường vận chuyển.
+collocations:
+- phrase: in transit
+  meaning_vi: đang trong quá trình vận chuyển trên đường
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: transit time
+  meaning_vi: thời gian vận chuyển hàng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: damaged in transit
+  meaning_vi: bị hư hại trong lúc vận chuyển
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: transportation
+  meaning_vi: việc chuyên chở
+- word: passage
+  meaning_vi: sự đi qua
 confused_words:
 - word: transition
   ipa: /trænˈzɪʃn/
   difference_vi: Transition là sự biến đổi giai đoạn; transit là việc chuyên chở hoặc quá cảnh.
 confusing_meanings:
 - difference_vi: In transit = đang trên đường giao hàng; public transit = hệ thống giao thông công cộng.
-collocations:
-- phrase: in transit
-  meaning_vi: đang trong quá trình vận chuyển trên đường
-  evidence: corpus
-- phrase: transit time
-  meaning_vi: thời gian vận chuyển hàng
-  evidence: corpus
-- phrase: damaged in transit
-  meaning_vi: bị hư hại trong lúc vận chuyển
-  evidence: corpus
-synonyms:
-- word: transportation
-  meaning_vi: việc chuyên chở
-- word: passage
-  meaning_vi: sự đi qua
 examples:
 - en: Estimated transit time for standard overland shipping is three to five business days.
   vi: Thời gian vận chuyển ước tính cho dịch vụ giao hàng đường bộ tiêu chuẩn là từ ba đến năm ngày làm việc.
@@ -50,6 +57,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

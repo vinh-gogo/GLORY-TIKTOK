@@ -1,0 +1,26 @@
+schema_version: 3
+id: respectively
+lemma: respectively
+pos:
+- adverb
+ipa:
+  us: /rɪˈspɛktɪvli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: lần lượt, tương ứng
+  id: respectively-1
+examples:
+- en: Sales in March and April were 20 and 30 percent, respectively.
+  vi: Doanh số tháng Ba và tháng Tư lần lượt là 20 và 30 phần trăm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2018. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

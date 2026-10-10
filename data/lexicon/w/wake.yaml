@@ -1,0 +1,26 @@
+schema_version: 3
+id: wake
+lemma: wake
+pos:
+- verb
+ipa:
+  us: /weɪk/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: thức dậy, đánh thức
+  id: wake-1
+examples:
+- en: I usually wake up at six to catch the early train.
+  vi: Tôi thường thức dậy lúc sáu giờ để kịp chuyến tàu sớm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1508. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: analyst
+lemma: analyst
+pos:
+- noun
+ipa:
+  us: /ˈænəlɪst/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: nhà phân tích
+  id: analyst-1
+examples:
+- en: A financial analyst will review the quarterly results next week.
+  vi: Một nhà phân tích tài chính sẽ xem xét kết quả quý vào tuần tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2170. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

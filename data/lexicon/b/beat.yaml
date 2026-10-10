@@ -1,0 +1,26 @@
+schema_version: 3
+id: beat
+lemma: beat
+pos:
+- verb
+ipa:
+  us: /bit/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đánh bại, vượt qua
+  id: beat-1
+examples:
+- en: Our team hopes to beat last year's sales record this quarter.
+  vi: Nhóm của chúng tôi hy vọng sẽ vượt qua kỷ lục doanh số năm ngoái trong quý này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1035. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

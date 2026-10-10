@@ -1,0 +1,26 @@
+schema_version: 3
+id: apart
+lemma: apart
+pos:
+- adverb
+ipa:
+  us: /əˈpɑrt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: cách xa, tách rời
+  id: apart-1
+examples:
+- en: Our two offices are about fifty kilometers apart from each other.
+  vi: Hai văn phòng của chúng tôi cách nhau khoảng năm mươi ki-lô-mét.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1121. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: attain
+lemma: attain
+pos:
+- verb
+ipa:
+  us: /əˈteɪn/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- corporate-development
+senses:
+- meaning_vi: đạt được, giành được
+  id: attain-1
+examples:
+- en: The company hopes to attain its sales target by the end of the year.
+  vi: Công ty hy vọng đạt được mục tiêu doanh số vào cuối năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 890. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

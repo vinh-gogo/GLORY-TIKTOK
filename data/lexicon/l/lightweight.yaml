@@ -1,0 +1,26 @@
+schema_version: 3
+id: lightweight
+lemma: lightweight
+pos:
+- adjective
+ipa:
+  us: /ˈlaɪˈtweɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- purchasing
+senses:
+- meaning_vi: nhẹ, trọng lượng nhẹ
+  id: lightweight-1
+examples:
+- en: This lightweight laptop is perfect for employees who travel often.
+  vi: Chiếc máy tính xách tay nhẹ này rất phù hợp cho nhân viên hay đi công tác.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1061. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

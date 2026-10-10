@@ -1,0 +1,26 @@
+schema_version: 3
+id: uncertainty
+lemma: uncertainty
+pos:
+- noun
+ipa:
+  us: /ənˈsɝtənti/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: sự không chắc chắn
+  id: uncertainty-1
+examples:
+- en: Economic uncertainty has made many companies delay their investment plans.
+  vi: Sự bất ổn kinh tế khiến nhiều công ty trì hoãn kế hoạch đầu tư.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2734. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

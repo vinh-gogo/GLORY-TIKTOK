@@ -1,0 +1,27 @@
+schema_version: 3
+id: burst
+lemma: burst
+pos:
+- verb
+- noun
+ipa:
+  us: /bɝst/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: nổ tung, vỡ tung
+  id: burst-1
+examples:
+- en: A water pipe burst in the basement during the night.
+  vi: Một đường ống nước bị vỡ ở tầng hầm trong đêm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2436. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

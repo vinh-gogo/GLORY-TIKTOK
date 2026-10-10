@@ -1,0 +1,26 @@
+schema_version: 3
+id: winner
+lemma: winner
+pos:
+- noun
+ipa:
+  us: /ˈwɪnɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: người chiến thắng
+  id: winner-1
+examples:
+- en: The winner of the contest will receive a free trip to Paris.
+  vi: Người chiến thắng cuộc thi sẽ nhận được chuyến đi Paris miễn phí.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1911. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

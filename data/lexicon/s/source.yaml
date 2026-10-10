@@ -1,0 +1,26 @@
+schema_version: 3
+id: source
+lemma: source
+pos:
+- noun
+ipa:
+  us: /sɔrs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: nguồn
+  id: source-1
+examples:
+- en: Please state the source of the information in your final report.
+  vi: Vui lòng nêu nguồn thông tin trong báo cáo cuối cùng của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 623. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

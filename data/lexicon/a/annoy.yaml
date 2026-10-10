@@ -1,0 +1,26 @@
+schema_version: 3
+id: annoy
+lemma: annoy
+pos:
+- verb
+ipa:
+  us: /əˈnɔɪ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: làm phiền, gây khó chịu
+  id: annoy-1
+examples:
+- en: The loud noise from the street began to annoy the staff.
+  vi: Tiếng ồn lớn từ ngoài đường bắt đầu làm nhân viên khó chịu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 219. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

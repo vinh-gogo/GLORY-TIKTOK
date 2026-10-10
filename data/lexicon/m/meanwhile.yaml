@@ -1,0 +1,26 @@
+schema_version: 3
+id: meanwhile
+lemma: meanwhile
+pos:
+- adverb
+ipa:
+  us: /ˈminˌwaɪl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: trong khi đó, trong lúc ấy
+  id: meanwhile-1
+examples:
+- en: Please wait here; meanwhile, I will prepare the documents for you.
+  vi: Vui lòng chờ ở đây; trong lúc đó tôi sẽ chuẩn bị tài liệu cho bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1753. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

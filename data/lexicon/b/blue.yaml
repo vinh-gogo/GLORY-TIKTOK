@@ -1,0 +1,26 @@
+schema_version: 3
+id: blue
+lemma: blue
+pos:
+- adjective
+ipa:
+  us: /blu/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: màu xanh dương
+  id: blue-1
+examples:
+- en: The company logo is a simple blue circle on a white background.
+  vi: Biểu trưng của công ty là một hình tròn xanh dương đơn giản trên nền trắng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 858. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

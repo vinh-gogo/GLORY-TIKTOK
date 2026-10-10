@@ -1,0 +1,22 @@
+schema_version: 1
+id: law-09
+title_vi: Định luật Tinh gọn Quy trình
+title_en: The Streamline Law
+topic: offices
+band: core
+quote_en: Productivity is never about working overtime; it is about streamlining the process and allocating resources where
+  value is created.
+quote_vi: Năng suất không bao giờ đo bằng số giờ làm thêm; mà đo bằng việc tinh gọn quy trình và phân bổ nguồn lực vào nơi
+  sinh ra giá trị cao.
+highlights:
+- phrase: streamline the process
+  meaning_vi: tinh giản quy trình làm việc cho hiệu quả hơn
+- phrase: allocate resources
+  meaning_vi: phân bổ nhân lực và tài nguyên hợp lý
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

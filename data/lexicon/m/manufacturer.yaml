@@ -1,0 +1,26 @@
+schema_version: 3
+id: manufacturer
+lemma: manufacturer
+pos:
+- noun
+ipa:
+  us: /ˌmænjəˈfæktʃɚɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- manufacturing
+senses:
+- meaning_vi: nhà sản xuất
+  id: manufacturer-1
+examples:
+- en: Contact the manufacturer if the product is still under warranty.
+  vi: Hãy liên hệ nhà sản xuất nếu sản phẩm vẫn còn bảo hành.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1896. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

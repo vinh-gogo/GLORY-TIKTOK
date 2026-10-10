@@ -1,0 +1,26 @@
+schema_version: 3
+id: beneficial
+lemma: beneficial
+pos:
+- adjective
+ipa:
+  us: /ˌbɛnəˈfɪʃəl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: có lợi, hữu ích
+  id: beneficial-1
+examples:
+- en: The partnership will be beneficial to both companies in the long term.
+  vi: Mối quan hệ đối tác sẽ có lợi cho cả hai công ty về lâu dài.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1105. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

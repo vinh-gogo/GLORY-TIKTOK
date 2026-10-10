@@ -1,0 +1,26 @@
+schema_version: 3
+id: put
+lemma: put
+pos:
+- verb
+ipa:
+  us: /pʊt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đặt, để
+  id: put-1
+examples:
+- en: Please put the signed contracts in the folder on my desk.
+  vi: Vui lòng để các hợp đồng đã ký vào tập hồ sơ trên bàn tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 139. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

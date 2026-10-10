@@ -1,0 +1,26 @@
+schema_version: 3
+id: shoot
+lemma: shoot
+pos:
+- verb
+ipa:
+  us: /ʃut/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: quay (phim), chụp ảnh; bắn
+  id: shoot-1
+examples:
+- en: The film crew will shoot several scenes in the old harbor district.
+  vi: Đoàn làm phim sẽ quay một số cảnh ở khu bến cảng cũ.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa (bắn, quay phim, chụp); chọn nghĩa quay phim — Mục từ NGSL hạng
+    1003. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM
+    theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

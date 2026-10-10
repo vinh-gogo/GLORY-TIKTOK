@@ -1,0 +1,26 @@
+schema_version: 3
+id: rider
+lemma: rider
+pos:
+- noun
+ipa:
+  us: /ˈraɪdɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- travel
+senses:
+- meaning_vi: người đi (xe đạp, xe máy, ngựa); hành khách
+  id: rider-1
+examples:
+- en: Every rider on the shuttle bus must show a valid pass.
+  vi: Mọi hành khách trên xe đưa đón phải xuất trình thẻ hợp lệ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1077. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

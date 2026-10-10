@@ -1,0 +1,27 @@
+schema_version: 3
+id: smile
+lemma: smile
+pos:
+- verb
+- noun
+ipa:
+  us: /smaɪl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mỉm cười; nụ cười
+  id: smile-1
+examples:
+- en: The receptionist greeted every visitor with a friendly smile at the entrance.
+  vi: Nhân viên lễ tân chào mỗi vị khách bằng nụ cười thân thiện ở lối vào.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 990. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

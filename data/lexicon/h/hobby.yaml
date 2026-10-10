@@ -1,0 +1,26 @@
+schema_version: 3
+id: hobby
+lemma: hobby
+pos:
+- noun
+ipa:
+  us: /ˈhɑbi/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: sở thích
+  id: hobby-1
+examples:
+- en: Photography started as a hobby, but now it is her full-time job.
+  vi: Nhiếp ảnh bắt đầu là sở thích, nhưng giờ là công việc toàn thời gian của cô ấy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 498. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

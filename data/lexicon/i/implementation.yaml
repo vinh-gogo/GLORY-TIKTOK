@@ -1,0 +1,26 @@
+schema_version: 3
+id: implementation
+lemma: implementation
+pos:
+- noun
+ipa:
+  us: /ˌɪmpləmɛnˈteɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự thực hiện, triển khai
+  id: implementation-1
+examples:
+- en: The implementation of the new system will begin in the spring.
+  vi: Việc triển khai hệ thống mới sẽ bắt đầu vào mùa xuân.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2648. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

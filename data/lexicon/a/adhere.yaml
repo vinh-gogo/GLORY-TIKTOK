@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: adhere
 lemma: adhere
 pos:
@@ -9,13 +9,11 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- legal-compliance
-- management-operations
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
+- offices
 senses:
 - id: adhere-1
   meaning_vi: Bám sát, tuân thủ nghiêm ngặt nguyên tắc, lịch trình hoặc chính sách đề ra
@@ -23,22 +21,25 @@ senses:
 - id: adhere-2
   meaning_vi: Dính chặt vào bề mặt (vật lý)
   note_vi: Như chất keo dán (adhesive).
-confused_words:
-- word: adhesion
-  ipa: /ədˈhiːʒn/
-  difference_vi: Adhesion là độ bám dính vật lý; adhere là động từ tuân thủ bám sát.
-confusing_meanings:
-- difference_vi: Adhere to the policy = tuân thủ chính sách; adhere to the surface = dính chặt vào bề mặt.
 collocations:
 - phrase: adhere to guidelines
   meaning_vi: bám sát các chỉ dẫn quy chế
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: adhere to the schedule
   meaning_vi: tuân thủ đúng lịch trình đã định
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: strictly adhere
   meaning_vi: tuân thủ một cách nghiêm ngặt
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: stick to
   meaning_vi: bám lấy, không rời
@@ -46,6 +47,12 @@ synonyms:
   meaning_vi: làm theo
 - word: observe
   meaning_vi: tuân thủ chấp hành
+confused_words:
+- word: adhesion
+  ipa: /ədˈhiːʒn/
+  difference_vi: Adhesion là độ bám dính vật lý; adhere là động từ tuân thủ bám sát.
+confusing_meanings:
+- difference_vi: Adhere to the policy = tuân thủ chính sách; adhere to the surface = dính chặt vào bề mặt.
 examples:
 - en: Staff members are required to strictly adhere to the company dress code policy.
   vi: Nhân viên bắt buộc phải tuân thủ nghiêm ngặt chính sách về trang phục của công ty.
@@ -56,6 +63,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

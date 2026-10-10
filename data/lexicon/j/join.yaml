@@ -1,0 +1,26 @@
+schema_version: 3
+id: join
+lemma: join
+pos:
+- verb
+ipa:
+  us: /dʒɔɪn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: tham gia, gia nhập
+  id: join-1
+examples:
+- en: Several new engineers will join our team at the start of June.
+  vi: Một số kỹ sư mới sẽ gia nhập nhóm chúng tôi vào đầu tháng Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 469. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

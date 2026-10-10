@@ -1,0 +1,26 @@
+schema_version: 3
+id: cookbook
+lemma: cookbook
+pos:
+- noun
+ipa:
+  us: /ˈkʊkˌbʊk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- dining-out
+senses:
+- meaning_vi: sách dạy nấu ăn
+  id: cookbook-1
+examples:
+- en: She found a new pasta recipe in her favorite cookbook.
+  vi: Cô ấy tìm thấy một công thức mì ống mới trong cuốn sách nấu ăn yêu thích.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1040. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

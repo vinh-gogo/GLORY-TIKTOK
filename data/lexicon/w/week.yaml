@@ -1,0 +1,26 @@
+schema_version: 3
+id: week
+lemma: week
+pos:
+- noun
+ipa:
+  us: /wik/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tuần
+  id: week-1
+examples:
+- en: The new employees will begin their orientation next week.
+  vi: Các nhân viên mới sẽ bắt đầu buổi định hướng vào tuần tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 157. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

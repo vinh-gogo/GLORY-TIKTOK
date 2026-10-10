@@ -1,0 +1,12 @@
+{{- define "main" }}
+{{- $lv := site.Data.levels -}}
+<header class="page-head">
+  <h1>Cấp độ từ vựng</h1>
+  <p class="muted">{{ $lv.framework.disclaimer_vi }}</p>
+</header>
+<div class="cardgrid">
+  {{- range $key := $lv.band_order }}{{ $b := index $lv.bands $key }}
+  <a class="topiccard band-{{ $key }}" href="/levels/{{ $key }}/"><strong>{{ $b.label_vi }} · {{ $b.cefr }}</strong><span class="muted">{{ $b.summary_vi }}</span></a>
+  {{- end }}
+</div>
+{{- end }}

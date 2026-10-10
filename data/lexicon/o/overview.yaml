@@ -1,0 +1,26 @@
+schema_version: 3
+id: overview
+lemma: overview
+pos:
+- noun
+ipa:
+  us: /ˈoʊvɚˌvju/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: cái nhìn tổng quan
+  id: overview-1
+examples:
+- en: The first slide gives a brief overview of the project.
+  vi: Trang chiếu đầu tiên đưa ra cái nhìn tổng quan ngắn gọn về dự án.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 396. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

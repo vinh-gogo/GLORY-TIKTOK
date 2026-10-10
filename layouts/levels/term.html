@@ -1,0 +1,19 @@
+{{- define "main" }}
+{{- $key := .Data.Term -}}
+{{- $lv := site.Data.levels -}}
+{{- $b := index $lv.bands $key -}}
+{{- $ref := index $lv.cefr_reference $b.cefr -}}
+<header class="page-head">
+  <p class="crumb"><a href="/glossary/">← Từ vựng A–Z</a></p>
+  <h1>{{ $b.label_vi }} <span class="muted">· {{ $b.cefr }}</span></h1>
+  <p class="muted">{{ $b.summary_vi }}</p>
+  {{- with $ref }}
+  <p class="muted level-hint">Tham khảo theo hướng dẫn ánh xạ CEFR của ETS: tổng điểm Listening &amp; Reading khoảng {{ index .total 0 }}–{{ index .total 1 }}{{ if not $lv.framework.verified_primary }} <em>(số liệu chưa đối chiếu văn bản gốc của ETS)</em>{{ end }}. Đây không phải điều kiện để học từng từ.</p>
+  {{- end }}
+</header>
+<div class="wlist">
+  {{- range .Pages.ByTitle }}
+    {{- if in (slice "ai_cross_checked" "human_verified") .Params.review_status }}{{ partial "wcard.html" .Params.word_data }}{{ end }}
+  {{- end }}
+</div>
+{{- end }}

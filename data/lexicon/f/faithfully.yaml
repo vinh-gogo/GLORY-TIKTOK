@@ -1,0 +1,26 @@
+schema_version: 3
+id: faithfully
+lemma: faithfully
+pos:
+- adverb
+ipa:
+  us: /ˈfeɪθfəli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: một cách trung thành, tận tụy
+  id: faithfully-1
+examples:
+- en: He has served the company faithfully for more than twenty years.
+  vi: Ông ấy đã phục vụ công ty một cách tận tụy hơn hai mươi năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2791. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

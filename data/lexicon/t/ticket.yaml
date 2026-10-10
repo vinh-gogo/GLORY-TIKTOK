@@ -1,0 +1,27 @@
+schema_version: 3
+id: ticket
+lemma: ticket
+pos:
+- noun
+ipa:
+  us: /ˈtɪkət/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: vé
+  id: ticket-1
+examples:
+- en: You can buy a train ticket online or at the station.
+  vi: Bạn có thể mua vé tàu trực tuyến hoặc tại nhà ga.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈtɪkət/; /ˈtɪkɪt/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1249. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

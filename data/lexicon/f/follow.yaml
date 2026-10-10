@@ -1,0 +1,26 @@
+schema_version: 3
+id: follow
+lemma: follow
+pos:
+- verb
+ipa:
+  us: /ˈfɑloʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đi theo; tuân theo; theo dõi
+  id: follow-1
+examples:
+- en: Please follow the signs to the conference room on the second floor.
+  vi: Vui lòng đi theo các biển chỉ dẫn đến phòng hội nghị trên tầng hai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 188. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

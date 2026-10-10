@@ -1,0 +1,27 @@
+schema_version: 3
+id: accent
+lemma: accent
+pos:
+- noun
+ipa:
+  us: /əkˈsɛnt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: giọng nói, trọng âm
+  id: accent-1
+examples:
+- en: The new manager has a slight accent, but she speaks very clearly.
+  vi: Quản lý mới có giọng nhẹ, nhưng cô ấy nói rất rõ ràng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/əkˈsɛnt/; /ˈækˌsɛnt/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 750. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

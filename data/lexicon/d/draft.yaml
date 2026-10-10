@@ -1,0 +1,27 @@
+schema_version: 3
+id: draft
+lemma: draft
+pos:
+- noun
+- verb
+ipa:
+  us: /dræft/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: bản nháp; soạn thảo
+  id: draft-1
+examples:
+- en: I sent the first draft of the contract to our lawyer.
+  vi: Tôi đã gửi bản nháp đầu tiên của hợp đồng cho luật sư của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1809. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

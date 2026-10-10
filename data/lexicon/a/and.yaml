@@ -1,0 +1,27 @@
+schema_version: 3
+id: and
+lemma: and
+pos:
+- conjunction
+ipa:
+  us: /ənd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: và, nối các từ hoặc mệnh đề
+  id: and-1
+examples:
+- en: She sent the invoice and called the client the next morning.
+  vi: Cô ấy gửi hóa đơn và gọi cho khách hàng vào sáng hôm sau.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ənd/; /ænd/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 3. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

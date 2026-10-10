@@ -1,0 +1,27 @@
+schema_version: 3
+id: expansion
+lemma: expansion
+pos:
+- noun
+ipa:
+  us: /ɪkˈspænʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự mở rộng
+  id: expansion-1
+examples:
+- en: The expansion of our factory will create fifty new jobs.
+  vi: Việc mở rộng nhà máy của chúng tôi sẽ tạo ra năm mươi việc làm mới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɪkˈspænʃən/; /ɪkˈspæntʃən/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2153. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

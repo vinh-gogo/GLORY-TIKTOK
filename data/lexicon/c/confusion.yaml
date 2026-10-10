@@ -1,0 +1,26 @@
+schema_version: 3
+id: confusion
+lemma: confusion
+pos:
+- noun
+ipa:
+  us: /kənˈfjuʒən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự nhầm lẫn, sự bối rối
+  id: confusion-1
+examples:
+- en: The unclear instructions caused confusion among the new employees on their first day.
+  vi: Những hướng dẫn không rõ ràng gây ra sự bối rối cho nhân viên mới vào ngày đầu tiên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2682. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

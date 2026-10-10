@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: restrict
 lemma: restrict
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- legal-compliance
-- management-operations
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
+- offices
 senses:
 - id: restrict-1
   meaning_vi: Hạn chế, giới hạn quyền truy cập, số lượng hoặc phạm vi áp dụng
   note_vi: Đặt ra ranh giới ngăn cấm sự bành trướng hoặc xâm nhập tự do.
-confused_words:
-- word: strict
-  ipa: /strɪkt/
-  difference_vi: Strict là tính từ nghiêm ngặt; restrict là động từ hạn chế, giới hạn.
-confusing_meanings:
-- difference_vi: Restricted area = khu vực giới hạn ra vào; restrict access = hạn chế quyền truy cập.
 collocations:
 - phrase: restrict access to
   meaning_vi: hạn chế quyền tiếp cận tới
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: restricted area
   meaning_vi: khu vực giới hạn ra vào
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: restrict spending
   meaning_vi: thắt chặt chi tiêu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: limit
   meaning_vi: giới hạn
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: giam hãm, thu hẹp
 - word: constrain
   meaning_vi: ràng buộc
+confused_words:
+- word: strict
+  ipa: /strɪkt/
+  difference_vi: Strict là tính từ nghiêm ngặt; restrict là động từ hạn chế, giới hạn.
+confusing_meanings:
+- difference_vi: Restricted area = khu vực giới hạn ra vào; restrict access = hạn chế quyền truy cập.
 examples:
 - en: Access to the server room is strictly restricted to certified network administrators.
   vi: Việc ra vào phòng máy chủ bị hạn chế nghiêm ngặt, chỉ dành cho các quản trị viên mạng đã được cấp chứng chỉ.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

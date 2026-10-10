@@ -1,0 +1,26 @@
+schema_version: 3
+id: rubber
+lemma: rubber
+pos:
+- noun
+ipa:
+  us: /ˈrʌbɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- manufacturing
+senses:
+- meaning_vi: cao su
+  id: rubber-1
+examples:
+- en: The factory makes tires from natural rubber imported from Thailand.
+  vi: Nhà máy sản xuất lốp xe từ cao su tự nhiên nhập khẩu từ Thái Lan.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1078. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

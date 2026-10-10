@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: satisfaction
 lemma: satisfaction
 pos:
@@ -9,37 +9,44 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- sales-customer-service
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: satisfaction-1
   meaning_vi: Sự hài lòng, sự thỏa mãn về chất lượng dịch vụ hoặc sản phẩm
   note_vi: Mục tiêu hàng đầu trong quản trị trải nghiệm khách hàng.
+collocations:
+- phrase: customer satisfaction
+  meaning_vi: sự hài lòng của khách hàng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: satisfaction guarantee
+  meaning_vi: cam kết bảo đảm làm khách hài lòng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: express satisfaction
+  meaning_vi: bày tỏ sự hài lòng
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: contentment
+  meaning_vi: sự bằng lòng
+- word: pleasure
+  meaning_vi: sự vui vẻ, hài lòng
 confused_words:
 - word: satisfy
   ipa: /ˈsætɪsfaɪ/
   difference_vi: Satisfy là động từ làm thỏa mãn; satisfaction là danh từ sự hài lòng.
 confusing_meanings:
 - difference_vi: Customer satisfaction = sự hài lòng của khách; job satisfaction = sự thỏa mãn với công việc hiện tại.
-collocations:
-- phrase: customer satisfaction
-  meaning_vi: sự hài lòng của khách hàng
-  evidence: corpus
-- phrase: satisfaction guarantee
-  meaning_vi: cam kết bảo đảm làm khách hài lòng
-  evidence: corpus
-- phrase: express satisfaction
-  meaning_vi: bày tỏ sự hài lòng
-  evidence: corpus
-synonyms:
-- word: contentment
-  meaning_vi: sự bằng lòng
-- word: pleasure
-  meaning_vi: sự vui vẻ, hài lòng
 examples:
 - en: Recent surveys show an 85% rate of customer satisfaction with our online banking services.
   vi: Các cuộc khảo sát gần đây cho thấy tỷ lệ hài lòng của khách hàng đạt 85% đối với các dịch vụ ngân hàng trực tuyến của
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

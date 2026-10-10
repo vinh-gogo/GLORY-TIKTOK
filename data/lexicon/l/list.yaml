@@ -1,0 +1,27 @@
+schema_version: 3
+id: list
+lemma: list
+pos:
+- noun
+- verb
+ipa:
+  us: /lɪst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: danh sách; liệt kê
+  id: list-1
+examples:
+- en: Please check the list of supplies before placing the new order.
+  vi: Vui lòng kiểm tra danh sách vật tư trước khi đặt đơn hàng mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 523. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

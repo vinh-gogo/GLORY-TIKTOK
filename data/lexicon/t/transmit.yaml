@@ -1,0 +1,26 @@
+schema_version: 3
+id: transmit
+lemma: transmit
+pos:
+- verb
+ipa:
+  us: /trænzˈmɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: truyền, gửi đi (dữ liệu, tín hiệu)
+  id: transmit-1
+examples:
+- en: The system will transmit the data to our main server every night.
+  vi: Hệ thống sẽ truyền dữ liệu đến máy chủ chính của chúng tôi mỗi đêm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 953. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

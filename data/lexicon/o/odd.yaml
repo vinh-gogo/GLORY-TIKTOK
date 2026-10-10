@@ -1,0 +1,26 @@
+schema_version: 3
+id: odd
+lemma: odd
+pos:
+- adjective
+ipa:
+  us: /ɑd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: kỳ lạ; lẻ (số)
+  id: odd-1
+examples:
+- en: It is odd that nobody answered the phone at the main office.
+  vi: Thật lạ là không ai trả lời điện thoại ở văn phòng chính.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1574. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

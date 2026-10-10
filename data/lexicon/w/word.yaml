@@ -1,0 +1,26 @@
+schema_version: 3
+id: word
+lemma: word
+pos:
+- noun
+ipa:
+  us: /wɝd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: từ, lời nói
+  id: word-1
+examples:
+- en: Please use a few words to describe your previous work experience.
+  vi: Vui lòng dùng vài từ để mô tả kinh nghiệm làm việc trước đây của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 217. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

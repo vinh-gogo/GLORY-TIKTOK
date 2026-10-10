@@ -1,0 +1,26 @@
+schema_version: 3
+id: plausible
+lemma: plausible
+pos:
+- adjective
+ipa:
+  us: /ˈplɔzəbəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: có vẻ hợp lý, đáng tin
+  id: plausible-1
+examples:
+- en: The manager asked for a plausible explanation for the sudden drop in sales.
+  vi: Người quản lý yêu cầu một lời giải thích hợp lý cho việc doanh số sụt giảm đột ngột.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 583. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

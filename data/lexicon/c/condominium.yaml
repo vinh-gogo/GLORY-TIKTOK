@@ -1,0 +1,26 @@
+schema_version: 3
+id: condominium
+lemma: condominium
+pos:
+- noun
+ipa:
+  us: /ˌkɑndəˈmɪniəm/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: căn hộ chung cư (thuộc sở hữu riêng)
+  id: condominium-1
+examples:
+- en: They bought a condominium near the beach as a vacation home.
+  vi: Họ mua một căn hộ chung cư gần bãi biển làm nhà nghỉ dưỡng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 965. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

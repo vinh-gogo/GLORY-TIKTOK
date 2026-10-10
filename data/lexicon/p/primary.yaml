@@ -1,0 +1,26 @@
+schema_version: 3
+id: primary
+lemma: primary
+pos:
+- adjective
+ipa:
+  us: /ˈpraɪˌmɛri/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: chính, chủ yếu
+  id: primary-1
+examples:
+- en: Our primary goal is to improve customer satisfaction throughout the coming year.
+  vi: Mục tiêu chính của chúng tôi là nâng cao sự hài lòng của khách hàng trong năm tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1067. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

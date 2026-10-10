@@ -1,0 +1,26 @@
+schema_version: 3
+id: intense
+lemma: intense
+pos:
+- adjective
+ipa:
+  us: /ˌɪnˈtɛns/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: mạnh, dữ dội, căng thẳng
+  id: intense-1
+examples:
+- en: There is intense competition between the two companies in the mobile phone market.
+  vi: Có sự cạnh tranh gay gắt giữa hai công ty trên thị trường điện thoại di động.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2564. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

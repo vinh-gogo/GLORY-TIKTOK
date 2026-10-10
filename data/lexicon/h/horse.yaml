@@ -1,0 +1,26 @@
+schema_version: 3
+id: horse
+lemma: horse
+pos:
+- noun
+ipa:
+  us: /hɔrs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: con ngựa
+  id: horse-1
+examples:
+- en: The tourists rode a horse along the beach during the afternoon tour.
+  vi: Các du khách đã cưỡi ngựa dọc bãi biển trong chuyến tham quan buổi chiều.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1139. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

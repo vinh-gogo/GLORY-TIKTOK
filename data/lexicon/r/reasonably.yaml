@@ -1,0 +1,26 @@
+schema_version: 3
+id: reasonably
+lemma: reasonably
+pos:
+- adverb
+ipa:
+  us: /ˈrizənəbli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: một cách hợp lý; khá
+  id: reasonably-1
+examples:
+- en: The hotel is reasonably priced and located close to the station.
+  vi: Khách sạn có giá hợp lý và nằm gần nhà ga.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2718. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: organic
+lemma: organic
+pos:
+- adjective
+ipa:
+  us: /ɔrˈɡænɪk/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: hữu cơ
+  id: organic-1
+examples:
+- en: The café only uses organic vegetables grown on local farms.
+  vi: Quán cà phê chỉ dùng rau hữu cơ trồng tại các trang trại địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2760. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

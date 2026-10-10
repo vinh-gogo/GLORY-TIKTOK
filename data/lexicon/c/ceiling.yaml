@@ -1,0 +1,26 @@
+schema_version: 3
+id: ceiling
+lemma: ceiling
+pos:
+- noun
+ipa:
+  us: /ˈsilɪŋ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: trần nhà
+  id: ceiling-1
+examples:
+- en: The painters are repairing the damaged ceiling in the conference room today.
+  vi: Thợ sơn đang sửa phần trần bị hư hỏng trong phòng hội nghị hôm nay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 567. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

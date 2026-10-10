@@ -1,0 +1,26 @@
+schema_version: 3
+id: patent
+lemma: patent
+pos:
+- noun
+ipa:
+  us: /ˈpætənt/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: bằng sáng chế
+  id: patent-1
+examples:
+- en: The engineer applied for a patent to protect his new design.
+  vi: Kỹ sư đã nộp đơn xin bằng sáng chế để bảo vệ thiết kế mới của mình.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 685. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

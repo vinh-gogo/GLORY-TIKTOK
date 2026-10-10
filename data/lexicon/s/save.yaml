@@ -1,0 +1,26 @@
+schema_version: 3
+id: save
+lemma: save
+pos:
+- verb
+ipa:
+  us: /seɪv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: tiết kiệm; lưu
+  id: save-1
+examples:
+- en: You can save money by ordering your office supplies in bulk.
+  vi: Bạn có thể tiết kiệm tiền bằng cách đặt văn phòng phẩm với số lượng lớn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 566. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

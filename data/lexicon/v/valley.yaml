@@ -1,0 +1,26 @@
+schema_version: 3
+id: valley
+lemma: valley
+pos:
+- noun
+ipa:
+  us: /ˈvæli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: thung lũng
+  id: valley-1
+examples:
+- en: The hotel has a beautiful view of the green valley.
+  vi: Khách sạn có tầm nhìn đẹp ra thung lũng xanh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2415. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

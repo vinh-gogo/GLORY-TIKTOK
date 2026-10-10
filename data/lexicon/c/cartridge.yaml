@@ -1,0 +1,27 @@
+schema_version: 3
+id: cartridge
+lemma: cartridge
+pos:
+- noun
+ipa:
+  us: /ˈkɑrtrədʒ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: hộp mực (máy in)
+  id: cartridge-1
+examples:
+- en: We need to replace the ink cartridge in the printer.
+  vi: Chúng ta cần thay hộp mực trong máy in.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkɑrtrədʒ/; /ˈkɑrtrɪdʒ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 180. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: shop
+lemma: shop
+pos:
+- noun
+- verb
+ipa:
+  us: /ʃɑp/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: cửa hàng; mua sắm
+  id: shop-1
+examples:
+- en: The little shop on the corner sells fresh bread every morning.
+  vi: Cửa hàng nhỏ ở góc phố bán bánh mì tươi mỗi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 437. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

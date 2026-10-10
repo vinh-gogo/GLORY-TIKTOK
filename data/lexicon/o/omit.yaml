@@ -1,0 +1,26 @@
+schema_version: 3
+id: omit
+lemma: omit
+pos:
+- verb
+ipa:
+  us: /oʊˈmɪt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: bỏ sót, lược bỏ
+  id: omit-1
+examples:
+- en: Please do not omit any details when you fill out the form.
+  vi: Vui lòng đừng bỏ sót chi tiết nào khi điền biểu mẫu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 280. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

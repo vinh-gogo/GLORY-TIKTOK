@@ -1,0 +1,26 @@
+schema_version: 3
+id: pray
+lemma: pray
+pos:
+- verb
+ipa:
+  us: /preɪ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cầu nguyện
+  id: pray-1
+examples:
+- en: Many people gather at the temple to pray every morning.
+  vi: Nhiều người tụ họp ở ngôi đền để cầu nguyện mỗi buổi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2639. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

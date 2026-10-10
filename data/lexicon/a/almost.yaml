@@ -1,0 +1,26 @@
+schema_version: 3
+id: almost
+lemma: almost
+pos:
+- adverb
+ipa:
+  us: /ˈɔlˌmoʊst/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: gần như, hầu như
+  id: almost-1
+examples:
+- en: The report is almost finished, and I will send it tomorrow.
+  vi: Bản báo cáo gần như đã xong, và tôi sẽ gửi nó vào ngày mai.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 307. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: found
+lemma: found
+pos:
+- verb
+ipa:
+  us: /faʊnd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: thành lập, sáng lập
+  id: found-1
+examples:
+- en: She plans to found a small consulting firm after leaving her job.
+  vi: Cô ấy dự định thành lập một công ty tư vấn nhỏ sau khi nghỉ việc.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Dạng ''found'' có thể là quá khứ của ''find'' hoặc động từ ''thành lập''; chọn
+    nghĩa thành lập — Mục từ NGSL hạng 2807. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu
+    trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề,
+    câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

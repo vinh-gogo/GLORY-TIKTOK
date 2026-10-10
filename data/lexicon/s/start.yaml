@@ -1,0 +1,27 @@
+schema_version: 3
+id: start
+lemma: start
+pos:
+- verb
+- noun
+ipa:
+  us: /stɑrt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bắt đầu; sự khởi đầu
+  id: start-1
+examples:
+- en: The training program will start on the first Monday of next month.
+  vi: Chương trình tập huấn sẽ bắt đầu vào thứ Hai đầu tiên của tháng tới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 136. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

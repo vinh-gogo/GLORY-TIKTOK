@@ -1,0 +1,26 @@
+schema_version: 3
+id: indoor
+lemma: indoor
+pos:
+- adjective
+ipa:
+  us: /ˈɪnˌdɔr/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: trong nhà
+  id: indoor-1
+examples:
+- en: The hotel has an indoor swimming pool open all year.
+  vi: Khách sạn có một hồ bơi trong nhà mở cửa quanh năm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 151. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

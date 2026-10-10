@@ -1,0 +1,26 @@
+schema_version: 3
+id: grain
+lemma: grain
+pos:
+- noun
+ipa:
+  us: /ɡreɪn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- manufacturing
+senses:
+- meaning_vi: ngũ cốc; hạt
+  id: grain-1
+examples:
+- en: The country exports a large amount of grain to neighboring markets each year.
+  vi: Đất nước này xuất khẩu một lượng lớn ngũ cốc sang các thị trường lân cận mỗi năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2727. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

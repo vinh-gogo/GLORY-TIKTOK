@@ -1,0 +1,26 @@
+schema_version: 3
+id: unemployed
+lemma: unemployed
+pos:
+- adjective
+ipa:
+  us: /ˌʌnɛmˈplɔɪd/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: thất nghiệp
+  id: unemployed-1
+examples:
+- en: The program helps unemployed workers find new jobs in the technology sector.
+  vi: Chương trình giúp người lao động thất nghiệp tìm việc mới trong lĩnh vực công nghệ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1190. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

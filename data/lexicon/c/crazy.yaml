@@ -1,0 +1,26 @@
+schema_version: 3
+id: crazy
+lemma: crazy
+pos:
+- adjective
+ipa:
+  us: /ˈkreɪzi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: điên rồ; rất bận rộn (nghĩa bóng)
+  id: crazy-1
+examples:
+- en: It has been a crazy week with three deadlines in a row.
+  vi: Đó là một tuần điên rồ với ba hạn chót liên tiếp.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2276. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

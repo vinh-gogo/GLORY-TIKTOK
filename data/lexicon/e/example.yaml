@@ -1,0 +1,26 @@
+schema_version: 3
+id: example
+lemma: example
+pos:
+- noun
+ipa:
+  us: /ɪɡˈzæmpəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: ví dụ, mẫu
+  id: example-1
+examples:
+- en: Please give an example of a project you completed successfully.
+  vi: Vui lòng nêu một ví dụ về một dự án mà bạn đã hoàn thành thành công.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 235. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

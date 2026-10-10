@@ -1,0 +1,26 @@
+schema_version: 3
+id: improvement
+lemma: improvement
+pos:
+- noun
+ipa:
+  us: /ˌɪmˈpruvmənt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự cải thiện, sự tiến bộ
+  id: improvement-1
+examples:
+- en: The manager noticed a clear improvement in the team's sales results.
+  vi: Người quản lý nhận thấy sự cải thiện rõ rệt trong doanh số của nhóm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1226. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

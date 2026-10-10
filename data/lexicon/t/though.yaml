@@ -1,0 +1,27 @@
+schema_version: 3
+id: though
+lemma: though
+pos:
+- conjunction
+- adverb
+ipa:
+  us: /ðoʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mặc dù; tuy vậy
+  id: though-1
+examples:
+- en: Though the weather was bad, most guests arrived on time.
+  vi: Mặc dù thời tiết xấu, hầu hết khách vẫn đến đúng giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 227. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

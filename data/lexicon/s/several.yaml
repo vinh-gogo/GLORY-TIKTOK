@@ -1,0 +1,27 @@
+schema_version: 3
+id: several
+lemma: several
+pos:
+- determiner
+ipa:
+  us: /ˈsɛvrəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: một vài, vài
+  id: several-1
+examples:
+- en: Several employees have already signed up for the weekend workshop.
+  vi: Một vài nhân viên đã đăng ký tham gia hội thảo cuối tuần.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈsɛvrəl/; /ˈsɛvɚəl/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 348. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: borrow
+lemma: borrow
+pos:
+- verb
+ipa:
+  us: /ˈbɑˌroʊ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: vay, mượn
+  id: borrow-1
+examples:
+- en: The company had to borrow money from the bank to expand.
+  vi: Công ty phải vay tiền ngân hàng để mở rộng quy mô.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1880. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

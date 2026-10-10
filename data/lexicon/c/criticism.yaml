@@ -1,0 +1,26 @@
+schema_version: 3
+id: criticism
+lemma: criticism
+pos:
+- noun
+ipa:
+  us: /ˈkrɪtɪˌsɪzəm/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự chỉ trích, phê bình
+  id: criticism-1
+examples:
+- en: The manager accepted the criticism and promised to improve the process.
+  vi: Người quản lý chấp nhận lời phê bình và hứa cải thiện quy trình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1956. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

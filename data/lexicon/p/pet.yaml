@@ -1,0 +1,26 @@
+schema_version: 3
+id: pet
+lemma: pet
+pos:
+- noun
+ipa:
+  us: /pɛt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: thú cưng
+  id: pet-1
+examples:
+- en: Pets are not allowed in this apartment building.
+  vi: Thú cưng không được phép nuôi trong tòa nhà chung cư này.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 301. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

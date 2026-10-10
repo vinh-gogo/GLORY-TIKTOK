@@ -1,0 +1,26 @@
+schema_version: 3
+id: guidance
+lemma: guidance
+pos:
+- noun
+ipa:
+  us: /ˈɡaɪdəns/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- personnel
+senses:
+- meaning_vi: sự hướng dẫn, chỉ dẫn
+  id: guidance-1
+examples:
+- en: New employees receive guidance from a senior colleague during their first month.
+  vi: Nhân viên mới nhận được sự hướng dẫn từ một đồng nghiệp cấp cao trong tháng đầu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 823. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

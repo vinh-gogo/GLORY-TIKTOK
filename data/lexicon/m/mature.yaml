@@ -1,0 +1,27 @@
+schema_version: 3
+id: mature
+lemma: mature
+pos:
+- adjective
+ipa:
+  us: /məˈtʃʊr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: trưởng thành, chín chắn
+  id: mature-1
+examples:
+- en: The market for smartphones is now mature in most countries.
+  vi: Thị trường điện thoại thông minh hiện đã bão hòa ở hầu hết các nước.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/məˈtʃʊr/; /məˈtjʊr/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2269. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

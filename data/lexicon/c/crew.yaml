@@ -1,0 +1,26 @@
+schema_version: 3
+id: crew
+lemma: crew
+pos:
+- noun
+ipa:
+  us: /kru/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: đội, nhóm làm việc; phi hành đoàn
+  id: crew-1
+examples:
+- en: The construction crew will finish the roof by Friday.
+  vi: Đội xây dựng sẽ hoàn thành mái nhà vào thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2095. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

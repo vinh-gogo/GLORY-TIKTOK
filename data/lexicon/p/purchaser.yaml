@@ -1,0 +1,26 @@
+schema_version: 3
+id: purchaser
+lemma: purchaser
+pos:
+- noun
+ipa:
+  us: /ˈpɝtʃəsɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- purchasing
+senses:
+- meaning_vi: người mua
+  id: purchaser-1
+examples:
+- en: The purchaser has thirty days to return the item for a full refund.
+  vi: Người mua có ba mươi ngày để trả lại món hàng và được hoàn tiền đầy đủ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 485. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

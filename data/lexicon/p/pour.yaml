@@ -1,0 +1,26 @@
+schema_version: 3
+id: pour
+lemma: pour
+pos:
+- verb
+ipa:
+  us: /pɔr/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: rót, đổ
+  id: pour-1
+examples:
+- en: She poured coffee for everyone before the meeting started.
+  vi: Cô ấy rót cà phê cho mọi người trước khi cuộc họp bắt đầu.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2135. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

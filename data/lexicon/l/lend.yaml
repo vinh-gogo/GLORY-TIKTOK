@@ -1,0 +1,26 @@
+schema_version: 3
+id: lend
+lemma: lend
+pos:
+- verb
+ipa:
+  us: /lɛnd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: cho mượn, cho vay
+  id: lend-1
+examples:
+- en: The bank agreed to lend us money to expand the factory.
+  vi: Ngân hàng đồng ý cho chúng tôi vay tiền để mở rộng nhà máy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2305. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

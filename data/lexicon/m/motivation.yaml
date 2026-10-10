@@ -1,0 +1,26 @@
+schema_version: 3
+id: motivation
+lemma: motivation
+pos:
+- noun
+ipa:
+  us: /ˌmoʊtəˈveɪʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: động lực, sự thúc đẩy
+  id: motivation-1
+examples:
+- en: Clear goals and regular feedback can improve employee motivation significantly.
+  vi: Mục tiêu rõ ràng và phản hồi thường xuyên có thể cải thiện đáng kể động lực của nhân viên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2633. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

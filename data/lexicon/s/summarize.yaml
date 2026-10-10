@@ -1,0 +1,26 @@
+schema_version: 3
+id: summarize
+lemma: summarize
+pos:
+- verb
+ipa:
+  us: /ˈsʌmɚˌaɪz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: tóm tắt
+  id: summarize-1
+examples:
+- en: Could you summarize the main points of the report for our manager?
+  vi: Bạn có thể tóm tắt những điểm chính của báo cáo cho quản lý của chúng ta không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2729. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

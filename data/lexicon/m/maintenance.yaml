@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: maintenance
 lemma: maintenance
 pos:
@@ -6,59 +6,63 @@ pos:
 ipa:
   us: /ˈmeɪntənəns/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- equipment
+- offices
 - manufacturing
-- technology
-speaking_use:
-- read-aloud
-- respond-with-info
-- respond-to-questions
+- technical-areas
 senses:
 - id: maintenance-1
   meaning_vi: Sự bảo trì, bảo dưỡng định kỳ máy móc/thiết bị
-  note_vi: Rất hay gặp trong Part 1 (thông báo máy in/thang máy bảo trì) và Part 4
-    (lịch bảo trì hệ thống).
+  note_vi: Rất hay gặp trong Part 1 (thông báo máy in/thang máy bảo trì) và Part 4 (lịch bảo trì hệ thống).
 collocations:
 - phrase: routine maintenance
   meaning_vi: bảo trì định kỳ thường xuyên
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: maintenance schedule
   meaning_vi: lịch trình bảo dưỡng định kỳ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: under maintenance
   meaning_vi: đang trong quá trình bảo trì
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: maintenance worker
   meaning_vi: nhân viên bảo trì
-  evidence: corpus
-confused_words:
-- word: maintain
-  ipa: /meɪnˈteɪn/
-  meaning: duy trì, bảo dưỡng (động từ)
-  kind: spelling-sound
-  difference_vi: Động từ maintain nhấn âm hai /meɪnˈteɪn/; danh từ maintenance nhấn
-    âm đầu /ˈmeɪntənəns/.
-confusing_meanings:
-- word: repair
-  meaning: sửa chữa đồ đã hỏng
-  difference_vi: Repair là khắc phục khi đồ vật đã bị hỏng; maintenance là chăm sóc
-    bảo dưỡng định kỳ để ngăn ngừa hư hỏng.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: upkeep
   meaning_vi: sự gìn giữ bảo dưỡng
 - word: servicing
   meaning_vi: sự bảo trì máy móc
+confused_words:
+- word: maintain
+  ipa: /meɪnˈteɪn/
+  meaning: duy trì, bảo dưỡng (động từ)
+  kind: spelling-sound
+  difference_vi: Động từ maintain nhấn âm hai /meɪnˈteɪn/; danh từ maintenance nhấn âm đầu /ˈmeɪntənəns/.
+confusing_meanings:
+- word: repair
+  meaning: sửa chữa đồ đã hỏng
+  difference_vi: Repair là khắc phục khi đồ vật đã bị hỏng; maintenance là chăm sóc bảo dưỡng định kỳ để ngăn ngừa hư hỏng.
 examples:
-- en: The office elevator will be temporarily out of service this Saturday for scheduled
-    maintenance.
-  vi: Thang máy văn phòng sẽ tạm thời ngừng hoạt động vào thứ Bảy này để tiến hành
-    bảo trì theo kế hoạch.
-pronunciation_tips_vi: 'LƯU Ý TRỌNG ÂM: Khác với động từ maintain nhấn âm hai, danh
-  từ maintenance nhấn âm ĐẦU /ˈmeɪn-/, hai âm sau là schwa /-tənəns/.'
+- en: The office elevator will be temporarily out of service this Saturday for scheduled maintenance.
+  vi: Thang máy văn phòng sẽ tạm thời ngừng hoạt động vào thứ Bảy này để tiến hành bảo trì theo kế hoạch.
+pronunciation_tips_vi: 'LƯU Ý TRỌNG ÂM: Khác với động từ maintain nhấn âm hai, danh từ maintenance nhấn âm ĐẦU /ˈmeɪn-/, hai
+  âm sau là schwa /-tənəns/.'
 review:
   status: ai_cross_checked
   checked_by:

@@ -1,0 +1,26 @@
+schema_version: 3
+id: o-clock
+lemma: o'clock
+pos:
+- adverb
+ipa:
+  us: /əˈklɑk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: giờ (chỉ giờ tròn)
+  id: o-clock-1
+examples:
+- en: The train to the city leaves at nine o'clock sharp.
+  vi: Chuyến tàu vào thành phố khởi hành đúng chín giờ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 10. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

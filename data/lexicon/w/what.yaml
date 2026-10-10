@@ -1,0 +1,28 @@
+schema_version: 3
+id: what
+lemma: what
+pos:
+- pronoun
+- determiner
+ipa:
+  us: /wʌt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cái gì, điều gì
+  id: what-1
+examples:
+- en: What time does the presentation begin on the second day?
+  vi: Bài thuyết trình bắt đầu lúc mấy giờ vào ngày thứ hai?
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/wʌt/; /hwʌt/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 51. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

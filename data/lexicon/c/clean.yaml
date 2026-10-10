@@ -1,0 +1,27 @@
+schema_version: 3
+id: clean
+lemma: clean
+pos:
+- adjective
+- verb
+ipa:
+  us: /klin/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sạch; làm sạch
+  id: clean-1
+examples:
+- en: The cleaning staff keeps the office kitchen clean throughout the working week.
+  vi: Nhân viên vệ sinh giữ cho bếp văn phòng sạch sẽ suốt tuần làm việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 842. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

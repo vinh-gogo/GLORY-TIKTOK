@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: obligation
 lemma: obligation
 pos:
@@ -6,58 +6,61 @@ pos:
 ipa:
   us: /ˌɑːblɪˈɡeɪʃn/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- contracts
-- business
-- legal
-speaking_use:
-- respond-to-questions
-- express-opinion
+- general-business
 senses:
 - id: obligation-1
   meaning_vi: Nghĩa vụ pháp lý, bổn phận bắt buộc theo hợp đồng
-  note_vi: Dùng khi nói về trách nhiệm pháp lý phải thực hiện theo thỏa thuận hợp
-    tác.
+  note_vi: Dùng khi nói về trách nhiệm pháp lý phải thực hiện theo thỏa thuận hợp tác.
 collocations:
 - phrase: fulfill an obligation
   meaning_vi: hoàn thành nghĩa vụ cam kết
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: contractual obligation
   meaning_vi: nghĩa vụ theo điều khoản hợp đồng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: under no obligation
   meaning_vi: hoàn toàn không bị ràng buộc bắt buộc
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: legal obligation
   meaning_vi: nghĩa vụ pháp lý
-  evidence: corpus
-confused_words:
-- word: allegation
-  ipa: /ˌæləˈɡeɪʃn/
-  meaning: lời cáo buộc
-  kind: spelling-sound
-  difference_vi: Obligation là nghĩa vụ bổn phận; allegation là lời cáo buộc chưa
-    được chứng minh.
-confusing_meanings:
-- word: duty
-  meaning: trách nhiệm bổn phận nói chung
-  difference_vi: Duty là nhiệm vụ chung theo lương tâm hoặc chức vụ; obligation nhấn
-    mạnh nghĩa vụ có tính ràng buộc pháp lý cụ thể.
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: responsibility
   meaning_vi: trách nhiệm
 - word: commitment
   meaning_vi: sự cam kết
+confused_words:
+- word: allegation
+  ipa: /ˌæləˈɡeɪʃn/
+  meaning: lời cáo buộc
+  kind: spelling-sound
+  difference_vi: Obligation là nghĩa vụ bổn phận; allegation là lời cáo buộc chưa được chứng minh.
+confusing_meanings:
+- word: duty
+  meaning: trách nhiệm bổn phận nói chung
+  difference_vi: Duty là nhiệm vụ chung theo lương tâm hoặc chức vụ; obligation nhấn mạnh nghĩa vụ có tính ràng buộc pháp
+    lý cụ thể.
 examples:
-- en: Both parties have a clear contractual obligation to maintain strict confidentiality
-    of project data.
-  vi: Cả hai bên đều có nghĩa vụ rõ ràng theo hợp đồng là phải giữ bí mật nghiêm ngặt
-    đối với dữ liệu dự án.
-pronunciation_tips_vi: Trọng âm chính rơi vào âm tiết thứ ba /-ˈɡeɪ-/. Âm đầu là /ɑː/
-  mở rộng, đuôi /-ʃn/ dứt khoát.
+- en: Both parties have a clear contractual obligation to maintain strict confidentiality of project data.
+  vi: Cả hai bên đều có nghĩa vụ rõ ràng theo hợp đồng là phải giữ bí mật nghiêm ngặt đối với dữ liệu dự án.
+pronunciation_tips_vi: Trọng âm chính rơi vào âm tiết thứ ba /-ˈɡeɪ-/. Âm đầu là /ɑː/ mở rộng, đuôi /-ʃn/ dứt khoát.
 review:
   status: ai_cross_checked
   checked_by:

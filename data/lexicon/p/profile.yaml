@@ -1,0 +1,26 @@
+schema_version: 3
+id: profile
+lemma: profile
+pos:
+- noun
+ipa:
+  us: /ˈproʊˌfaɪl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: hồ sơ cá nhân; tiểu sử tóm tắt
+  id: profile-1
+examples:
+- en: Update your online profile before applying for the new job.
+  vi: Hãy cập nhật hồ sơ trực tuyến của bạn trước khi ứng tuyển công việc mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2065. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

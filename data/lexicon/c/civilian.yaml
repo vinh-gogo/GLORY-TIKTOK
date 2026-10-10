@@ -1,0 +1,26 @@
+schema_version: 3
+id: civilian
+lemma: civilian
+pos:
+- noun
+ipa:
+  us: /səˈvɪljən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: dân thường
+  id: civilian-1
+examples:
+- en: The airport hired a civilian company to handle its security checks.
+  vi: Sân bay thuê một công ty dân sự để lo việc kiểm tra an ninh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2607. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

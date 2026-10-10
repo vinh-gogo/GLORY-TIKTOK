@@ -1,0 +1,26 @@
+schema_version: 3
+id: glass
+lemma: glass
+pos:
+- noun
+ipa:
+  us: /ɡlæs/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: ly, thủy tinh
+  id: glass-1
+examples:
+- en: The waiter brought a glass of water to every guest at the table.
+  vi: Người phục vụ mang một ly nước đến cho mỗi vị khách ở bàn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1042. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

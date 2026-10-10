@@ -1,0 +1,26 @@
+schema_version: 3
+id: careless
+lemma: careless
+pos:
+- adjective
+ipa:
+  us: /ˈkɛrləs/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: cẩu thả, bất cẩn
+  id: careless-1
+examples:
+- en: A careless mistake in the invoice cost the company several hundred dollars.
+  vi: Một lỗi bất cẩn trong hóa đơn đã khiến công ty mất vài trăm đô la.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 808. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: head
+lemma: head
+pos:
+- noun
+- verb
+ipa:
+  us: /hɛd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- personnel
+senses:
+- meaning_vi: người đứng đầu; cái đầu; đi về hướng
+  id: head-1
+examples:
+- en: She was appointed head of the research department last spring.
+  vi: Cô ấy được bổ nhiệm làm trưởng phòng nghiên cứu vào mùa xuân năm ngoái.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 259. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

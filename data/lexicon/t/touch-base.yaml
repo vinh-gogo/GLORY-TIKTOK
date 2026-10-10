@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: touch-base
 lemma: touch base
 pos:
@@ -7,40 +7,43 @@ pos:
 ipa:
   us: /tʌtʃ beɪs/
 level:
-  cefr: B2
   band: target
-  basis: editorial
+  cefr: B2
+  basis:
+  - editorial
 topics:
-- work
-speaking_use:
-- respond-to-questions
+- offices
 senses:
 - id: touch-base-1
   meaning_vi: Liên lạc ngắn, trao đổi nhanh vài phút để cập nhật tình hình
+collocations:
+- phrase: touch base with someone
+  meaning_vi: Liên lạc nhanh với ai đó
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: touch base later today
+  meaning_vi: Trao đổi cập nhật tình hình vào cuối ngày
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: check in with
+  meaning_vi: hỏi thăm tiến độ
 confused_words:
 - ref: touch-down
   word: touch down
   ipa: /tʌtʃ daʊn/
   meaning: Máy bay tiếp đất / hạ cánh
   kind: spelling-sound
-  difference_vi: Touch down là thuật ngữ hàng không; touch base là thuật ngữ giao
-    tiếp công sở
+  difference_vi: Touch down là thuật ngữ hàng không; touch base là thuật ngữ giao tiếp công sở
 confusing_meanings:
 - ref: negotiate
   word: negotiate
   meaning: Đàm phán, thương lượng hợp đồng
-  difference_vi: Touch base chỉ là cuộc trao đổi cập nhật ngắn gọn, thân mật; không
-    phải cuộc đàm phán chính thức
-collocations:
-- phrase: touch base with someone
-  meaning_vi: Liên lạc nhanh với ai đó
-  evidence: corpus
-- phrase: touch base later today
-  meaning_vi: Trao đổi cập nhật tình hình vào cuối ngày
-  evidence: corpus
-synonyms:
-- word: check in with
-  meaning_vi: hỏi thăm tiến độ
+  difference_vi: Touch base chỉ là cuộc trao đổi cập nhật ngắn gọn, thân mật; không phải cuộc đàm phán chính thức
 examples:
 - en: Let's touch base tomorrow morning to finalize the presentation slides.
   vi: Hãy trao đổi nhanh vào sáng mai để hoàn tất các trang trình chiếu nhé.

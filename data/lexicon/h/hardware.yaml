@@ -1,0 +1,26 @@
+schema_version: 3
+id: hardware
+lemma: hardware
+pos:
+- noun
+ipa:
+  us: /ˈhɑrˌdwɛr/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- technical-areas
+senses:
+- meaning_vi: phần cứng; đồ ngũ kim
+  id: hardware-1
+examples:
+- en: The IT team will replace the old computer hardware next month.
+  vi: Nhóm IT sẽ thay phần cứng máy tính cũ vào tháng sau.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 444. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

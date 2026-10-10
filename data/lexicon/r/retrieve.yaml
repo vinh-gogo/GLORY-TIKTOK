@@ -1,0 +1,27 @@
+schema_version: 3
+id: retrieve
+lemma: retrieve
+pos:
+- verb
+ipa:
+  us: /rɪˈtriv/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- technical-areas
+senses:
+- meaning_vi: lấy lại, truy xuất
+  id: retrieve-1
+examples:
+- en: The technician managed to retrieve all the files from the damaged drive.
+  vi: Kỹ thuật viên đã lấy lại được toàn bộ tệp từ ổ đĩa bị hỏng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/rɪˈtriv/; /riˈtriv/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1076. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

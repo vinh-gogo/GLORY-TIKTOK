@@ -1,0 +1,26 @@
+schema_version: 3
+id: inflate
+lemma: inflate
+pos:
+- verb
+ipa:
+  us: /ɪnˈfleɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: bơm phồng; làm tăng giá
+  id: inflate-1
+examples:
+- en: Rising fuel costs have caused prices to inflate across the whole industry.
+  vi: Chi phí nhiên liệu tăng đã làm giá cả leo thang trong toàn ngành.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 920. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

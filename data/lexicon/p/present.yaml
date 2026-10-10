@@ -1,0 +1,28 @@
+schema_version: 3
+id: present
+lemma: present
+pos:
+- verb
+- adjective
+ipa:
+  us: /ˈprɛzənt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: trình bày, giới thiệu; hiện tại
+  id: present-1
+examples:
+- en: She will present the quarterly sales results to the board on Monday.
+  vi: Cô ấy sẽ trình bày kết quả bán hàng quý cho hội đồng quản trị vào thứ Hai.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] Có hai nghĩa/từ loại phổ biến (động từ trình bày, tính từ hiện tại, danh từ
+    món quà) cần xác nhận pos chính — Mục từ NGSL hạng 275. IPA lấy từ CMUdict (đổi sang IPA bằng quy
+    tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

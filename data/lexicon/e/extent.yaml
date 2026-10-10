@@ -1,0 +1,26 @@
+schema_version: 3
+id: extent
+lemma: extent
+pos:
+- noun
+ipa:
+  us: /ɪkˈstɛnt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: mức độ, phạm vi
+  id: extent-1
+examples:
+- en: The inspector examined the full extent of the damage to the roof.
+  vi: Thanh tra đã xem xét toàn bộ mức độ hư hại của mái nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1175. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

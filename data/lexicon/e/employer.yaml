@@ -1,0 +1,27 @@
+schema_version: 3
+id: employer
+lemma: employer
+pos:
+- noun
+ipa:
+  us: /ɛmˈplɔɪɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: nhà tuyển dụng, người sử dụng lao động
+  id: employer-1
+examples:
+- en: Her employer offers free training courses to all new staff.
+  vi: Nhà tuyển dụng của cô ấy cung cấp các khóa đào tạo miễn phí cho mọi nhân viên mới.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɛmˈplɔɪɚ/; /ɪmˈplɔɪɚ/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1702. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

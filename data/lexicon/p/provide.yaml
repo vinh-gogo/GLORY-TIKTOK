@@ -1,0 +1,26 @@
+schema_version: 3
+id: provide
+lemma: provide
+pos:
+- verb
+ipa:
+  us: /prəˈvaɪd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: cung cấp
+  id: provide-1
+examples:
+- en: The hotel will provide free breakfast for all conference attendees.
+  vi: Khách sạn sẽ cung cấp bữa sáng miễn phí cho tất cả người dự hội nghị.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 205. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: dead
+lemma: dead
+pos:
+- adjective
+ipa:
+  us: /dɛd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: chết; hết (pin)
+  id: dead-1
+examples:
+- en: My phone battery is dead, so I cannot check the schedule.
+  vi: Pin điện thoại của tôi hết sạch nên tôi không thể xem lịch trình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 947. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

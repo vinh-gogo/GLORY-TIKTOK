@@ -1,0 +1,26 @@
+schema_version: 3
+id: decoration
+lemma: decoration
+pos:
+- noun
+ipa:
+  us: /ˌdɛkɚˈeɪʃən/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: đồ trang trí, sự trang trí
+  id: decoration-1
+examples:
+- en: The staff put up festive decorations in the lobby for the holiday.
+  vi: Nhân viên treo đồ trang trí lễ hội ở sảnh nhân dịp nghỉ lễ.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1208. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: infer
+lemma: infer
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈfɝ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: suy ra, suy luận
+  id: infer-1
+examples:
+- en: From the report, we can infer that sales will continue to rise.
+  vi: Từ bản báo cáo, chúng ta có thể suy ra rằng doanh số sẽ tiếp tục tăng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 39. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

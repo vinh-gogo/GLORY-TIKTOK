@@ -1,0 +1,26 @@
+schema_version: 3
+id: reimburse
+lemma: reimburse
+pos:
+- verb
+ipa:
+  us: /ˌriɪmˈbɝs/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: hoàn trả (chi phí)
+  id: reimburse-1
+examples:
+- en: The company will reimburse you for all travel expenses.
+  vi: Công ty sẽ hoàn trả cho bạn toàn bộ chi phí đi lại.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 375. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: wholesale
 lemma: wholesale
 pos:
@@ -11,38 +11,45 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- sales-customer-service
-- shipping-logistics
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
+- purchasing
 senses:
 - id: wholesale-1
   meaning_vi: Bán buôn, bán sỉ số lượng lớn với mức chiết khấu cao
   note_vi: Ngược nghĩa trực tiếp với retail (bán lẻ).
+collocations:
+- phrase: wholesale price
+  meaning_vi: giá bán buôn / bán sỉ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: wholesale distributor
+  meaning_vi: nhà phân phối bán sỉ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: buy at wholesale
+  meaning_vi: mua với giá sỉ
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: bulk selling
+  meaning_vi: bán theo lô lớn
+- word: volume distribution
+  meaning_vi: phân phối số lượng lớn
 confused_words:
 - word: retail
   ipa: /ˈriːteɪl/
   difference_vi: Wholesale là bán sỉ cho các đại lý; retail là bán lẻ trực tiếp tới tay người tiêu dùng.
 confusing_meanings:
 - difference_vi: Wholesale price là đơn giá bán sỉ; buy at wholesale nghĩa là mua với giá buôn sỉ.
-collocations:
-- phrase: wholesale price
-  meaning_vi: giá bán buôn / bán sỉ
-  evidence: corpus
-- phrase: wholesale distributor
-  meaning_vi: nhà phân phối bán sỉ
-  evidence: corpus
-- phrase: buy at wholesale
-  meaning_vi: mua với giá sỉ
-  evidence: corpus
-synonyms:
-- word: bulk selling
-  meaning_vi: bán theo lô lớn
-- word: volume distribution
-  meaning_vi: phân phối số lượng lớn
 examples:
 - en: Retail stores purchase goods from the wholesale distributor at a 40% discount.
   vi: Các cửa hàng bán lẻ mua hàng hóa từ nhà phân phối bán sỉ với mức chiết khấu 40%.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

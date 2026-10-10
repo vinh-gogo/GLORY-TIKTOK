@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: renovate
 lemma: renovate
 pos:
@@ -9,32 +9,33 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- real-estate-construction
-speaking_use:
-- respond-to-questions
-- express-opinion
+- housing-property
 senses:
 - id: renovate-1
   meaning_vi: Cải tạo, nâng cấp, tu bổ lại công trình nhà ở hoặc tòa nhà cũ
   note_vi: Làm mới và sửa sang để phục hồi tình trạng ban đầu hoặc hiện đại hóa cơ sở.
-confused_words:
-- word: innovate
-  ipa: /ˈɪnəveɪt/
-  difference_vi: Innovate là đổi mới sáng tạo công nghệ/phương pháp; renovate là cải tạo tu bổ công trình xây dựng.
-confusing_meanings:
-- difference_vi: Renovate a building = nâng cấp sửa chữa tòa nhà; completely renovated = được đại tu làm mới hoàn toàn.
 collocations:
 - phrase: renovate an old building
   meaning_vi: cải tạo một tòa nhà cổ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: completely renovated
   meaning_vi: được tu bổ nâng cấp toàn diện
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: renovation project
   meaning_vi: dự án cải tạo sửa chữa
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: refurbish
   meaning_vi: tân trang lại
@@ -42,6 +43,12 @@ synonyms:
   meaning_vi: sửa đổi cấu trúc không gian
 - word: upgrade
   meaning_vi: nâng cấp
+confused_words:
+- word: innovate
+  ipa: /ˈɪnəveɪt/
+  difference_vi: Innovate là đổi mới sáng tạo công nghệ/phương pháp; renovate là cải tạo tu bổ công trình xây dựng.
+confusing_meanings:
+- difference_vi: Renovate a building = nâng cấp sửa chữa tòa nhà; completely renovated = được đại tu làm mới hoàn toàn.
 examples:
 - en: The downtown branch will close for two weeks while the lobby is being thoroughly renovated.
   vi: Chi nhánh trung tâm sẽ đóng cửa trong hai tuần trong khi sảnh chờ đang được cải tạo toàn diện.
@@ -52,6 +59,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

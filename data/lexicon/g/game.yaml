@@ -1,0 +1,26 @@
+schema_version: 3
+id: game
+lemma: game
+pos:
+- noun
+ipa:
+  us: /ɡeɪm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: trò chơi; trận đấu
+  id: game-1
+examples:
+- en: Many fans lined up early to buy tickets for the championship game.
+  vi: Nhiều người hâm mộ xếp hàng sớm để mua vé cho trận đấu chung kết.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 393. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

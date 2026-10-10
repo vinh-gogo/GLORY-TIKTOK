@@ -1,0 +1,26 @@
+schema_version: 3
+id: bend
+lemma: bend
+pos:
+- verb
+ipa:
+  us: /bɛnd/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: cúi, uốn cong
+  id: bend-1
+examples:
+- en: Always bend your knees when lifting heavy boxes from the floor.
+  vi: Luôn gập đầu gối khi nâng các thùng nặng từ sàn nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2268. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

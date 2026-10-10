@@ -1,0 +1,26 @@
+schema_version: 3
+id: validate
+lemma: validate
+pos:
+- verb
+ipa:
+  us: /ˈvælədeɪt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: xác nhận, thẩm định tính hợp lệ
+  id: validate-1
+examples:
+- en: Please validate your parking ticket at the reception desk before leaving.
+  vi: Vui lòng xác nhận vé đỗ xe của bạn tại quầy lễ tân trước khi rời đi.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1191. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

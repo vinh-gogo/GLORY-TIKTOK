@@ -1,0 +1,27 @@
+schema_version: 3
+id: hand
+lemma: hand
+pos:
+- noun
+- verb
+ipa:
+  us: /hænd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bàn tay; trao tay
+  id: hand-1
+examples:
+- en: Please hand the signed form to the receptionist at the front desk.
+  vi: Vui lòng trao mẫu đơn đã ký cho nhân viên lễ tân ở quầy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 198. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

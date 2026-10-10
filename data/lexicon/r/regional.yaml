@@ -1,0 +1,26 @@
+schema_version: 3
+id: regional
+lemma: regional
+pos:
+- adjective
+ipa:
+  us: /ˈridʒənəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: thuộc khu vực, vùng
+  id: regional-1
+examples:
+- en: The regional manager visits each store once a month.
+  vi: Quản lý khu vực đến thăm từng cửa hàng mỗi tháng một lần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1805. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

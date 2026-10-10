@@ -1,0 +1,26 @@
+schema_version: 3
+id: drama
+lemma: drama
+pos:
+- noun
+ipa:
+  us: /ˈdrɑmə/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: phim truyền hình, kịch
+  id: drama-1
+examples:
+- en: The new television drama has become popular with young viewers.
+  vi: Bộ phim truyền hình mới trở nên được khán giả trẻ yêu thích.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1991. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

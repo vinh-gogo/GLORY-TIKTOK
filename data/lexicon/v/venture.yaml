@@ -1,0 +1,26 @@
+schema_version: 3
+id: venture
+lemma: venture
+pos:
+- noun
+ipa:
+  us: /ˈvɛntʃɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: dự án kinh doanh mạo hiểm
+  id: venture-1
+examples:
+- en: The two companies announced a joint venture in renewable energy.
+  vi: Hai công ty công bố một liên doanh trong lĩnh vực năng lượng tái tạo.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2379. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

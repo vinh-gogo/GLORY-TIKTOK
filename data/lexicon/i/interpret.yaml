@@ -1,0 +1,26 @@
+schema_version: 3
+id: interpret
+lemma: interpret
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈtɝprət/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: giải thích; phiên dịch
+  id: interpret-1
+examples:
+- en: It can be hard to interpret these figures without more context.
+  vi: Có thể khó giải thích những con số này nếu thiếu thêm bối cảnh.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2232. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

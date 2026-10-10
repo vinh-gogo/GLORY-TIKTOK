@@ -1,0 +1,26 @@
+schema_version: 3
+id: describe
+lemma: describe
+pos:
+- verb
+ipa:
+  us: /dɪˈskraɪb/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: mô tả, miêu tả
+  id: describe-1
+examples:
+- en: Could you describe the problem you had with the printer?
+  vi: Bạn có thể mô tả vấn đề bạn gặp với máy in không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 457. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

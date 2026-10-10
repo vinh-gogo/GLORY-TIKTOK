@@ -1,0 +1,26 @@
+schema_version: 3
+id: jump
+lemma: jump
+pos:
+- verb
+ipa:
+  us: /dʒʌmp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: nhảy; tăng vọt
+  id: jump-1
+examples:
+- en: Sales jumped by twenty percent after the new advertising campaign.
+  vi: Doanh số tăng vọt hai mươi phần trăm sau chiến dịch quảng cáo mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1324. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

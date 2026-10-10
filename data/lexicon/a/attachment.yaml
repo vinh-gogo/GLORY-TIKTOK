@@ -1,62 +1,72 @@
-schema_version: 2
+schema_version: 3
 id: attachment
 lemma: attachment
 pos:
-  - noun
+- noun
 ipa:
-  us: "/əˈtætʃmənt/"
+  us: /əˈtætʃmənt/
 level:
-  cefr: B1
   band: core
-  basis: "editorial"
+  cefr: B1
+  basis:
+  - editorial
 topics:
-  - email
-  - technology
-  - work
-speaking_use:
-  - read-aloud
-  - respond-to-questions
+- offices
+- technical-areas
 senses:
-  - id: attachment-1
-    meaning_vi: "Tệp đính kèm (trong email hoặc tài liệu)"
-    note_vi: "Cực kỳ phổ biến trong giao tiếp công sở, xử lý thư điện tử và thông báo văn phòng."
+- id: attachment-1
+  meaning_vi: Tệp đính kèm (trong email hoặc tài liệu)
+  note_vi: Cực kỳ phổ biến trong giao tiếp công sở, xử lý thư điện tử và thông báo văn phòng.
 collocations:
-  - phrase: "email attachment"
-    meaning_vi: "tệp đính kèm thư điện tử"
-    evidence: "corpus"
-  - phrase: "open an attachment"
-    meaning_vi: "mở tệp đính kèm"
-    evidence: "corpus"
-  - phrase: "send as an attachment"
-    meaning_vi: "gửi dưới dạng tệp đính kèm"
-    evidence: "corpus"
-  - phrase: "see the attachment"
-    meaning_vi: "vui lòng xem tệp đính kèm"
-    evidence: "corpus"
-confused_words:
-  - word: "attainment"
-    ipa: "/əˈteɪnmənt/"
-    meaning: "sự đạt được, thành tựu"
-    kind: "spelling-sound"
-    difference_vi: "Attachment có âm /æt/ chỉ tệp đính kèm; attainment có âm /eɪ/ chỉ thành tích học tập/công việc."
-confusing_meanings:
-  - word: "enclosure"
-    meaning: "tài liệu gửi kèm trong phong bì thư giấy"
-    difference_vi: "Attachment dùng cho email/tài liệu kỹ thuật số; enclosure dùng cho văn bản giấy đóng kèm trong phong bì thư truyền thống."
+- phrase: email attachment
+  meaning_vi: tệp đính kèm thư điện tử
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: open an attachment
+  meaning_vi: mở tệp đính kèm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: send as an attachment
+  meaning_vi: gửi dưới dạng tệp đính kèm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: see the attachment
+  meaning_vi: vui lòng xem tệp đính kèm
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
-  - word: "enclosed file"
-    meaning_vi: "tập tin gửi kèm"
+- word: enclosed file
+  meaning_vi: tập tin gửi kèm
+confused_words:
+- word: attainment
+  ipa: /əˈteɪnmənt/
+  meaning: sự đạt được, thành tựu
+  kind: spelling-sound
+  difference_vi: Attachment có âm /æt/ chỉ tệp đính kèm; attainment có âm /eɪ/ chỉ thành tích học tập/công việc.
+confusing_meanings:
+- word: enclosure
+  meaning: tài liệu gửi kèm trong phong bì thư giấy
+  difference_vi: Attachment dùng cho email/tài liệu kỹ thuật số; enclosure dùng cho văn bản giấy đóng kèm trong phong bì thư
+    truyền thống.
 examples:
-  - en: "Please review the updated project proposal in the email attachment before our meeting."
-    vi: "Vui lòng xem lại bản đề xuất dự án cập nhật trong tệp đính kèm email trước cuộc họp của chúng ta."
-pronunciation_tips_vi: "Trọng âm rơi vào âm tiết giữa /-tætʃ-/. Lưu ý âm /tʃ/ ('ch') bật rõ môi trước khi sang đuôi /-mənt/."
+- en: Please review the updated project proposal in the email attachment before our meeting.
+  vi: Vui lòng xem lại bản đề xuất dự án cập nhật trong tệp đính kèm email trước cuộc họp của chúng ta.
+pronunciation_tips_vi: Trọng âm rơi vào âm tiết giữa /-tætʃ-/. Lưu ý âm /tʃ/ ('ch') bật rõ môi trước khi sang đuôi /-mənt/.
 review:
   status: ai_cross_checked
   checked_by:
-    - model-b
-    - cmudict
-  checked_at: "2026-10-10"
+  - model-b
+  - cmudict
+  checked_at: '2026-10-10'
   sources:
-    - oxford-ref
-    - cambridge-ref
-    - cmudict
+  - oxford-ref
+  - cambridge-ref
+  - cmudict

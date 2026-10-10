@@ -1,0 +1,27 @@
+schema_version: 3
+id: soft
+lemma: soft
+pos:
+- adjective
+ipa:
+  us: /sɑft/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: mềm; nhẹ nhàng
+  id: soft-1
+examples:
+- en: The hotel rooms have soft beds and quiet air conditioning.
+  vi: Các phòng khách sạn có giường mềm và máy điều hòa yên tĩnh.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/sɑft/; /sɔft/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1601. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

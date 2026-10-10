@@ -1,0 +1,26 @@
+schema_version: 3
+id: serve
+lemma: serve
+pos:
+- verb
+ipa:
+  us: /sɝv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- dining-out
+senses:
+- meaning_vi: phục vụ; dọn món
+  id: serve-1
+examples:
+- en: The café will serve breakfast and lunch to hotel guests daily.
+  vi: Quán cà phê sẽ phục vụ bữa sáng và bữa trưa cho khách khách sạn mỗi ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 534. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

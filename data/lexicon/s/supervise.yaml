@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: supervise
 lemma: supervise
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: core
   cefr: B1
-  basis: TOEIC 650
+  basis:
+  - editorial
 topics:
-- management-operations
-- human-resources
-speaking_use:
-- respond-to-questions
-- express-opinion
+- offices
+- personnel
 senses:
 - id: supervise-1
   meaning_vi: Giám sát, quản lý và theo dõi công việc của cấp dưới
   note_vi: Đảm bảo công việc được thực hiện đúng quy trình và tiêu chuẩn.
-confused_words:
-- word: supervisor
-  ipa: /ˈsuːpərvaɪzər/
-  difference_vi: Supervisor là danh từ chỉ người giám sát; supervise là động từ thực hiện việc giám sát.
-confusing_meanings:
-- difference_vi: Supervise là theo dõi trực tiếp hàng ngày; manage là quản lý chiến lược và tài nguyên tổng thể.
 collocations:
 - phrase: supervise daily operations
   meaning_vi: giám sát các hoạt động hàng ngày
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: supervise staff members
   meaning_vi: giám sát đội ngũ nhân viên
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: closely supervise
   meaning_vi: giám sát chặt chẽ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: oversee
   meaning_vi: quan sát, giám sát
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: theo dõi
 - word: manage
   meaning_vi: quản lý
+confused_words:
+- word: supervisor
+  ipa: /ˈsuːpərvaɪzər/
+  difference_vi: Supervisor là danh từ chỉ người giám sát; supervise là động từ thực hiện việc giám sát.
+confusing_meanings:
+- difference_vi: Supervise là theo dõi trực tiếp hàng ngày; manage là quản lý chiến lược và tài nguyên tổng thể.
 examples:
 - en: The shift leader is responsible for supervising all warehouse operations.
   vi: Trưởng ca chịu trách nhiệm giám sát toàn bộ hoạt động vận hành trong kho.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

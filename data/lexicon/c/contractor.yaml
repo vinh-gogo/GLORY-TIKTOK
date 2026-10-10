@@ -1,0 +1,26 @@
+schema_version: 3
+id: contractor
+lemma: contractor
+pos:
+- noun
+ipa:
+  us: /ˈkɑnˌtræktɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: nhà thầu
+  id: contractor-1
+examples:
+- en: The contractor promised to finish the repairs by next Friday.
+  vi: Nhà thầu hứa sẽ hoàn thành việc sửa chữa trước thứ Sáu tuần sau.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 188. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

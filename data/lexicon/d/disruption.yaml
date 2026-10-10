@@ -1,0 +1,26 @@
+schema_version: 3
+id: disruption
+lemma: disruption
+pos:
+- noun
+ipa:
+  us: /dɪsˈrʌpʃən/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: sự gián đoạn, sự rối loạn
+  id: disruption-1
+examples:
+- en: The power outage caused a serious disruption to production at the factory.
+  vi: Sự cố mất điện đã gây gián đoạn nghiêm trọng cho sản xuất tại nhà máy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 519. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

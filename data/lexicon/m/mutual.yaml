@@ -1,0 +1,26 @@
+schema_version: 3
+id: mutual
+lemma: mutual
+pos:
+- adjective
+ipa:
+  us: /ˈmjutʃuəl/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: chung, lẫn nhau, hai bên cùng có
+  id: mutual-1
+examples:
+- en: Both companies signed the contract after reaching a mutual agreement on the price.
+  vi: Hai công ty đã ký hợp đồng sau khi đạt được thỏa thuận chung về giá.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2439. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

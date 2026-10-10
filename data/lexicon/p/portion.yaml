@@ -1,0 +1,26 @@
+schema_version: 3
+id: portion
+lemma: portion
+pos:
+- noun
+ipa:
+  us: /ˈpɔrʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: phần (ăn); một phần
+  id: portion-1
+examples:
+- en: The restaurant serves generous portions at very reasonable prices.
+  vi: Nhà hàng phục vụ những phần ăn đầy đặn với giá rất hợp lý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2229. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

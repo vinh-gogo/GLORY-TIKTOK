@@ -1,0 +1,27 @@
+schema_version: 3
+id: standard
+lemma: standard
+pos:
+- noun
+- adjective
+ipa:
+  us: /ˈstændɚd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- manufacturing
+senses:
+- meaning_vi: tiêu chuẩn; thông dụng
+  id: standard-1
+examples:
+- en: All our products meet the international safety standards for electronics.
+  vi: Mọi sản phẩm của chúng tôi đều đạt tiêu chuẩn an toàn quốc tế về đồ điện tử.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 547. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: union
+lemma: union
+pos:
+- noun
+ipa:
+  us: /ˈjunjən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: công đoàn; sự liên minh
+  id: union-1
+examples:
+- en: The union met with management to discuss the workers' wages.
+  vi: Công đoàn đã gặp ban quản lý để bàn về tiền lương của công nhân.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1279. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

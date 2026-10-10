@@ -1,0 +1,26 @@
+schema_version: 3
+id: widely
+lemma: widely
+pos:
+- adverb
+ipa:
+  us: /ˈwaɪdli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: rộng rãi, phổ biến
+  id: widely-1
+examples:
+- en: This software is widely used by accountants around the world.
+  vi: Phần mềm này được kế toán viên trên khắp thế giới sử dụng rộng rãi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1768. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

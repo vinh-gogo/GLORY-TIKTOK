@@ -1,0 +1,26 @@
+schema_version: 3
+id: airplane
+lemma: airplane
+pos:
+- noun
+ipa:
+  us: /ˈɛrˌpleɪn/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: máy bay
+  id: airplane-1
+examples:
+- en: The airplane landed ten minutes ahead of schedule.
+  vi: Máy bay đã hạ cánh sớm hơn lịch trình mười phút.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 99. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

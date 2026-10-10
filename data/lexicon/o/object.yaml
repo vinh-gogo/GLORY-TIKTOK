@@ -1,0 +1,28 @@
+schema_version: 3
+id: object
+lemma: object
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈɑbdʒɛkt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: đồ vật, mục tiêu; phản đối
+  id: object-1
+examples:
+- en: The main object of the meeting is to approve next year's budget.
+  vi: Mục tiêu chính của cuộc họp là phê duyệt ngân sách năm sau.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa: danh từ (vật, mục đích) / động từ (phản đối) với phát âm khác nhau
+    — Mục từ NGSL hạng 942. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic);
+    band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa
+    duyệt.'
+  checked_at: '2026-10-11'

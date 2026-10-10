@@ -1,0 +1,26 @@
+schema_version: 3
+id: mother
+lemma: mother
+pos:
+- noun
+ipa:
+  us: /ˈmʌðɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mẹ
+  id: mother-1
+examples:
+- en: Her mother founded the bakery more than thirty years ago.
+  vi: Mẹ của cô ấy đã sáng lập tiệm bánh cách đây hơn ba mươi năm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 338. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

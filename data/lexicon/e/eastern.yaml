@@ -1,0 +1,26 @@
+schema_version: 3
+id: eastern
+lemma: eastern
+pos:
+- adjective
+ipa:
+  us: /ˈistɚn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: thuộc phía đông; phương Đông
+  id: eastern-1
+examples:
+- en: The factory is located in the eastern part of the city.
+  vi: Nhà máy nằm ở phía đông của thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2368. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

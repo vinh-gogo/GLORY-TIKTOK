@@ -1,0 +1,26 @@
+schema_version: 3
+id: couple
+lemma: couple
+pos:
+- noun
+ipa:
+  us: /ˈkʌpəl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cặp đôi; một vài
+  id: couple-1
+examples:
+- en: I will be back in a couple of minutes after the call.
+  vi: Tôi sẽ quay lại trong vài phút nữa sau cuộc gọi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 514. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

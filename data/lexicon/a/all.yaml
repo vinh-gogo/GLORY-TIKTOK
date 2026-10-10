@@ -1,0 +1,27 @@
+schema_version: 3
+id: all
+lemma: all
+pos:
+- determiner
+- pronoun
+ipa:
+  us: /ɔl/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: tất cả, toàn bộ
+  id: all-1
+examples:
+- en: All staff members must wear their identification badges inside the building.
+  vi: Tất cả nhân viên phải đeo thẻ nhận dạng khi ở trong tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 33. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

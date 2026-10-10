@@ -1,0 +1,26 @@
+schema_version: 3
+id: chance
+lemma: chance
+pos:
+- noun
+ipa:
+  us: /tʃæns/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: cơ hội; khả năng
+  id: chance-1
+examples:
+- en: There is a good chance that the shipment will arrive early.
+  vi: Có nhiều khả năng lô hàng sẽ đến sớm.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 560. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

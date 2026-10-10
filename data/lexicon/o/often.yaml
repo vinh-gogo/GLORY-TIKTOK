@@ -1,0 +1,27 @@
+schema_version: 3
+id: often
+lemma: often
+pos:
+- adverb
+ipa:
+  us: /ˈɔfən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: thường, thường xuyên
+  id: often-1
+examples:
+- en: Our sales team often travels abroad to meet overseas clients.
+  vi: Đội bán hàng của chúng tôi thường đi nước ngoài để gặp khách hàng quốc tế.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɔfən/; /ˈɔftən/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 288. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

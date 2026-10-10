@@ -1,0 +1,26 @@
+schema_version: 3
+id: assumption
+lemma: assumption
+pos:
+- noun
+ipa:
+  us: /əˈsʌmpʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: giả định, sự cho rằng
+  id: assumption-1
+examples:
+- en: The forecast is based on the assumption that demand will stay high.
+  vi: Dự báo dựa trên giả định rằng nhu cầu sẽ vẫn cao.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1855. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

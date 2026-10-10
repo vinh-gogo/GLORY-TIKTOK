@@ -1,0 +1,27 @@
+schema_version: 3
+id: translator
+lemma: translator
+pos:
+- noun
+ipa:
+  us: /trænˈsleɪtɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: người phiên dịch, biên dịch viên
+  id: translator-1
+examples:
+- en: We hired a translator to help us during the negotiations in Seoul.
+  vi: Chúng tôi thuê một người phiên dịch để giúp trong các cuộc đàm phán ở Seoul.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/trænˈsleɪtɚ/; /trænzˈleɪtɚ/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 693. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

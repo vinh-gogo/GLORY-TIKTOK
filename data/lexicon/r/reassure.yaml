@@ -1,0 +1,26 @@
+schema_version: 3
+id: reassure
+lemma: reassure
+pos:
+- verb
+ipa:
+  us: /ˌriəˈʃʊr/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: trấn an, làm yên lòng
+  id: reassure-1
+examples:
+- en: The manager tried to reassure customers that the problem would be fixed soon.
+  vi: Quản lý cố trấn an khách hàng rằng vấn đề sẽ sớm được khắc phục.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1006. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: correspondence
+lemma: correspondence
+pos:
+- noun
+ipa:
+  us: /ˌkɔrəˈspɑndəns/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: thư từ, sự trao đổi thư tín
+  id: correspondence-1
+examples:
+- en: All business correspondence should be kept in the client's file.
+  vi: Mọi thư từ công việc nên được lưu trong hồ sơ của khách hàng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 284. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

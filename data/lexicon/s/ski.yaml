@@ -1,0 +1,27 @@
+schema_version: 3
+id: ski
+lemma: ski
+pos:
+- verb
+- noun
+ipa:
+  us: /ski/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: trượt tuyết; ván trượt tuyết
+  id: ski-1
+examples:
+- en: Every winter, our family drives to the mountains to ski together.
+  vi: Mỗi mùa đông, gia đình chúng tôi lái xe lên núi để cùng trượt tuyết.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2594. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: payroll
+lemma: payroll
+pos:
+- noun
+ipa:
+  us: /ˈpeɪˌroʊl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: bảng lương, hệ thống trả lương
+  id: payroll-1
+examples:
+- en: The payroll department sends salary statements to all employees at the end of the month.
+  vi: Phòng lương gửi bảng lương cho tất cả nhân viên vào cuối tháng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 581. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

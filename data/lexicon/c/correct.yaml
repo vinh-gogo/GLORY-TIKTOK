@@ -1,0 +1,27 @@
+schema_version: 3
+id: correct
+lemma: correct
+pos:
+- adjective
+- verb
+ipa:
+  us: /kɚˈɛkt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đúng, chính xác; sửa
+  id: correct-1
+examples:
+- en: Please make sure the address on the invoice is correct before mailing.
+  vi: Vui lòng bảo đảm địa chỉ trên hóa đơn là chính xác trước khi gửi thư.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1032. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

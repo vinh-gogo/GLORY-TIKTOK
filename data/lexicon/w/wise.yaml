@@ -1,0 +1,26 @@
+schema_version: 3
+id: wise
+lemma: wise
+pos:
+- adjective
+ipa:
+  us: /waɪz/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: khôn ngoan, sáng suốt
+  id: wise-1
+examples:
+- en: It would be wise to back up your files before updating the system.
+  vi: Sẽ là khôn ngoan nếu bạn sao lưu tệp trước khi cập nhật hệ thống.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2577. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

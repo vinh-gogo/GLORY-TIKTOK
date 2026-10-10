@@ -1,0 +1,27 @@
+schema_version: 3
+id: overall
+lemma: overall
+pos:
+- adjective
+- adverb
+ipa:
+  us: /ˈoʊvɚˌɔl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tổng thể, nhìn chung
+  id: overall-1
+examples:
+- en: Overall, the customers were satisfied with the quality of our service.
+  vi: Nhìn chung, khách hàng hài lòng với chất lượng dịch vụ của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1113. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

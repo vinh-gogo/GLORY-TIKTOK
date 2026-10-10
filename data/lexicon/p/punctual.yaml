@@ -1,0 +1,26 @@
+schema_version: 3
+id: punctual
+lemma: punctual
+pos:
+- adjective
+ipa:
+  us: /ˈpʌŋktʃuəl/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: đúng giờ
+  id: punctual-1
+examples:
+- en: Our manager expects every employee to be punctual for the morning meeting.
+  vi: Quản lý của chúng tôi mong mọi nhân viên đúng giờ cho cuộc họp buổi sáng.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 734. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: roughly
+lemma: roughly
+pos:
+- adverb
+ipa:
+  us: /ˈrʌfli/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: khoảng, xấp xỉ
+  id: roughly-1
+examples:
+- en: The trip from the airport to the hotel takes roughly forty minutes.
+  vi: Chuyến đi từ sân bay đến khách sạn mất khoảng bốn mươi phút.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2450. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: journey
+lemma: journey
+pos:
+- noun
+ipa:
+  us: /ˈdʒɝni/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: chuyến đi, hành trình
+  id: journey-1
+examples:
+- en: The journey from the airport to the hotel takes about an hour.
+  vi: Chuyến đi từ sân bay đến khách sạn mất khoảng một giờ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1621. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

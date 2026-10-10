@@ -1,0 +1,26 @@
+schema_version: 3
+id: gardener
+lemma: gardener
+pos:
+- noun
+ipa:
+  us: /ˈɡɑrdənɚ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: người làm vườn
+  id: gardener-1
+examples:
+- en: The gardener plants fresh flowers around the hotel entrance every spring.
+  vi: Người làm vườn trồng hoa tươi quanh lối vào khách sạn mỗi mùa xuân.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 719. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: thing
+lemma: thing
+pos:
+- noun
+ipa:
+  us: /θɪŋ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đồ vật, điều, việc
+  id: thing-1
+examples:
+- en: The most important thing is to submit the form before the deadline.
+  vi: Điều quan trọng nhất là nộp mẫu đơn trước thời hạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 87. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

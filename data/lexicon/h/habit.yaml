@@ -1,0 +1,26 @@
+schema_version: 3
+id: habit
+lemma: habit
+pos:
+- noun
+ipa:
+  us: /ˈhæbət/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: thói quen
+  id: habit-1
+examples:
+- en: Checking email first thing in the morning is a common habit.
+  vi: Kiểm tra email ngay đầu buổi sáng là một thói quen phổ biến.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1828. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

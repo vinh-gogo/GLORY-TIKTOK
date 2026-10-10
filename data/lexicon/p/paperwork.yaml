@@ -1,0 +1,26 @@
+schema_version: 3
+id: paperwork
+lemma: paperwork
+pos:
+- noun
+ipa:
+  us: /ˈpeɪpɚˌwɝk/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- offices
+senses:
+- meaning_vi: giấy tờ, công việc giấy tờ
+  id: paperwork-1
+examples:
+- en: I still have a lot of paperwork to finish before Friday.
+  vi: Tôi vẫn còn nhiều giấy tờ cần hoàn thành trước thứ Sáu.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 222. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

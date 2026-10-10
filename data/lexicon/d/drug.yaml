@@ -1,0 +1,26 @@
+schema_version: 3
+id: drug
+lemma: drug
+pos:
+- noun
+ipa:
+  us: /drʌɡ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- health
+senses:
+- meaning_vi: thuốc; ma túy
+  id: drug-1
+examples:
+- en: The pharmacy must store every drug at the correct temperature.
+  vi: Hiệu thuốc phải bảo quản mọi loại thuốc ở nhiệt độ đúng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 721. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

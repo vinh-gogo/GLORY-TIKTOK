@@ -1,0 +1,24 @@
+schema_version: 1
+id: law-03
+title_vi: Tiên đề về Đồng thuận Công sở
+title_en: The Consensus Axiom
+topic: offices
+band: core
+quote_en: Before you attempt to resolve conflicts, ensure that all stakeholders are truly on the same page regarding the core
+  problem.
+quote_vi: Trước khi cố gắng giải quyết mâu thuẫn, hãy đảm bảo tất cả các bên liên quan thực sự có cùng góc nhìn về gốc rễ
+  vấn đề.
+highlights:
+- phrase: on the same page
+  meaning_vi: cùng chung quan điểm, thấu hiểu như nhau
+- phrase: resolve conflicts
+  meaning_vi: hòa giải, giải quyết xung đột bất đồng
+- phrase: reach a consensus
+  meaning_vi: đạt được sự đồng thuận chung
+origin: original
+review:
+  status: ai_draft
+  checked_by:
+  - glory-editorial
+  checked_at: '2026-10-10'
+  reason: Câu cũ chưa có bản ghi kiểm duyệt trước khi migrate; chưa đối chiếu độc lập.

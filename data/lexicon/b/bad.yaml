@@ -1,0 +1,26 @@
+schema_version: 3
+id: bad
+lemma: bad
+pos:
+- adjective
+ipa:
+  us: /bæd/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: xấu, tệ
+  id: bad-1
+examples:
+- en: Bad weather forced the airline to cancel several flights this morning.
+  vi: Thời tiết xấu buộc hãng hàng không phải hủy một số chuyến bay sáng nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 268. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

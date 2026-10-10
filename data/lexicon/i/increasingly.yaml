@@ -1,0 +1,27 @@
+schema_version: 3
+id: increasingly
+lemma: increasingly
+pos:
+- adverb
+ipa:
+  us: /ɪnˈkrisɪŋli/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: ngày càng
+  id: increasingly-1
+examples:
+- en: Customers are increasingly choosing to shop online instead of in stores.
+  vi: Khách hàng ngày càng chọn mua sắm trực tuyến thay vì ở cửa hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ɪnˈkrisɪŋli/; /ɪnˈkrisɪŋɡli/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1612. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

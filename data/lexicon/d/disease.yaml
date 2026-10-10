@@ -1,0 +1,26 @@
+schema_version: 3
+id: disease
+lemma: disease
+pos:
+- noun
+ipa:
+  us: /dɪˈziz/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- health
+senses:
+- meaning_vi: bệnh, căn bệnh
+  id: disease-1
+examples:
+- en: Regular exercise can help prevent many serious diseases later in life.
+  vi: Tập thể dục đều đặn có thể giúp phòng ngừa nhiều căn bệnh nghiêm trọng về sau.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 906. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

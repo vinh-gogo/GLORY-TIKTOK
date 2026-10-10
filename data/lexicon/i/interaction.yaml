@@ -1,0 +1,27 @@
+schema_version: 3
+id: interaction
+lemma: interaction
+pos:
+- noun
+ipa:
+  us: /ˌɪntɚˈækʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự tương tác
+  id: interaction-1
+examples:
+- en: Good interaction between departments improves the quality of our work.
+  vi: Sự tương tác tốt giữa các phòng ban nâng cao chất lượng công việc của chúng tôi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˌɪntɚˈækʃən/; /ˌɪnɚˈækʃən/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1877. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

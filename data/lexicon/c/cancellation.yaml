@@ -1,0 +1,26 @@
+schema_version: 3
+id: cancellation
+lemma: cancellation
+pos:
+- noun
+ipa:
+  us: /ˌkænsəˈleɪʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: sự hủy bỏ
+  id: cancellation-1
+examples:
+- en: There is no fee for cancellation made at least two days ahead.
+  vi: Không mất phí nếu hủy trước ít nhất hai ngày.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 380. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

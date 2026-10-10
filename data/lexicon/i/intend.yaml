@@ -1,0 +1,26 @@
+schema_version: 3
+id: intend
+lemma: intend
+pos:
+- verb
+ipa:
+  us: /ˌɪnˈtɛnd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: có ý định, dự định
+  id: intend-1
+examples:
+- en: We intend to open two new branches in the northern region.
+  vi: Chúng tôi dự định mở thêm hai chi nhánh mới ở khu vực phía bắc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1114. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

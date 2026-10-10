@@ -1,0 +1,27 @@
+schema_version: 3
+id: leak
+lemma: leak
+pos:
+- noun
+- verb
+ipa:
+  us: /lik/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: chỗ rò rỉ; rò rỉ
+  id: leak-1
+examples:
+- en: A leak in the roof damaged several boxes in the storage room.
+  vi: Một chỗ dột trên mái đã làm hỏng vài thùng hàng trong kho.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 292. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

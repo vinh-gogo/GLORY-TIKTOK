@@ -1,0 +1,26 @@
+schema_version: 3
+id: keyboard
+lemma: keyboard
+pos:
+- noun
+ipa:
+  us: /ˈkiˌbɔrd/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: bàn phím
+  id: keyboard-1
+examples:
+- en: I need a new keyboard because several keys have stopped working.
+  vi: Tôi cần một bàn phím mới vì một vài phím đã không còn hoạt động.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 91. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

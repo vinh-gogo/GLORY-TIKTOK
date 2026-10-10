@@ -1,0 +1,26 @@
+schema_version: 3
+id: physical
+lemma: physical
+pos:
+- adjective
+ipa:
+  us: /ˈfɪzɪkəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: thuộc về thể chất, vật lý
+  id: physical-1
+examples:
+- en: The job requires good physical strength because workers lift heavy boxes daily.
+  vi: Công việc đòi hỏi thể lực tốt vì công nhân nâng các thùng nặng hằng ngày.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1120. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

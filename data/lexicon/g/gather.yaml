@@ -1,0 +1,26 @@
+schema_version: 3
+id: gather
+lemma: gather
+pos:
+- verb
+ipa:
+  us: /ˈɡæðɚ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tập hợp, thu thập
+  id: gather-1
+examples:
+- en: Please gather in the conference room for the announcement at noon.
+  vi: Vui lòng tập trung ở phòng họp để nghe thông báo vào buổi trưa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1286. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: tea
+lemma: tea
+pos:
+- noun
+ipa:
+  us: /ti/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: trà
+  id: tea-1
+examples:
+- en: Would you like tea or coffee with your breakfast?
+  vi: Bạn muốn dùng trà hay cà phê với bữa sáng?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1599. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

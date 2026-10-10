@@ -1,0 +1,27 @@
+schema_version: 3
+id: content
+lemma: content
+pos:
+- noun
+ipa:
+  us: /ˈkɑntɛnt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: nội dung
+  id: content-1
+examples:
+- en: The editor will review the content of the brochure before printing.
+  vi: Biên tập viên sẽ xem lại nội dung của tờ rơi trước khi in.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] đồng tự khác âm: danh từ ''nội dung'' / tính từ ''hài lòng''; chọn danh từ,
+    IPA đầu vào khớp danh từ — Mục từ NGSL hạng 1025. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị
+    trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại,
+    chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

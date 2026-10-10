@@ -1,0 +1,26 @@
+schema_version: 3
+id: boat
+lemma: boat
+pos:
+- noun
+ipa:
+  us: /boʊt/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: thuyền, tàu nhỏ
+  id: boat-1
+examples:
+- en: We took a boat across the river to reach the old town.
+  vi: Chúng tôi đi thuyền qua sông để đến khu phố cổ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1304. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

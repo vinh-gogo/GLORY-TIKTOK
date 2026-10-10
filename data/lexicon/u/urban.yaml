@@ -1,0 +1,26 @@
+schema_version: 3
+id: urban
+lemma: urban
+pos:
+- adjective
+ipa:
+  us: /ˈɝbən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: thuộc đô thị, thành thị
+  id: urban-1
+examples:
+- en: Urban areas are seeing a rise in demand for small apartments.
+  vi: Các khu vực đô thị đang chứng kiến nhu cầu căn hộ nhỏ tăng lên.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1918. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

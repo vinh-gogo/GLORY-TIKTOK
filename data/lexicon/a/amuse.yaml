@@ -1,0 +1,26 @@
+schema_version: 3
+id: amuse
+lemma: amuse
+pos:
+- verb
+ipa:
+  us: /əˈmjuz/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- entertainment
+senses:
+- meaning_vi: làm cho vui, giải trí
+  id: amuse-1
+examples:
+- en: The magician used simple tricks to amuse the children at the party.
+  vi: Ảo thuật gia dùng những trò đơn giản để làm bọn trẻ vui trong buổi tiệc.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 659. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

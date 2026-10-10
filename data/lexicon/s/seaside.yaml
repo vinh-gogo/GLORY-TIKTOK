@@ -1,0 +1,26 @@
+schema_version: 3
+id: seaside
+lemma: seaside
+pos:
+- noun
+ipa:
+  us: /ˈsiˌsaɪd/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- travel
+senses:
+- meaning_vi: vùng ven biển, bờ biển
+  id: seaside-1
+examples:
+- en: We booked a small hotel at the seaside for our team retreat.
+  vi: Chúng tôi đã đặt một khách sạn nhỏ ven biển cho chuyến nghỉ dưỡng của nhóm.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 740. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

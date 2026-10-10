@@ -1,0 +1,27 @@
+schema_version: 3
+id: thrill
+lemma: thrill
+pos:
+- noun
+- verb
+ipa:
+  us: /θrɪl/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: cảm giác hồi hộp, phấn khích
+  id: thrill-1
+examples:
+- en: The roller coaster gives visitors a real thrill at the amusement park.
+  vi: Tàu lượn siêu tốc mang lại cho du khách cảm giác phấn khích thực sự ở công viên giải trí.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1184. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

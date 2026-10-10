@@ -1,0 +1,27 @@
+schema_version: 3
+id: nearby
+lemma: nearby
+pos:
+- adjective
+- adverb
+ipa:
+  us: /ˈnɪrˈbaɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: gần đó, lân cận
+  id: nearby-1
+examples:
+- en: There are several good restaurants nearby if you want lunch.
+  vi: Có vài nhà hàng ngon gần đây nếu bạn muốn ăn trưa.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1895. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

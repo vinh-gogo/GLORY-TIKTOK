@@ -1,0 +1,27 @@
+schema_version: 3
+id: stem
+lemma: stem
+pos:
+- noun
+- verb
+ipa:
+  us: /stɛm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: thân cây; bắt nguồn từ
+  id: stem-1
+examples:
+- en: Many of the delays stem from a shortage of drivers.
+  vi: Nhiều sự chậm trễ bắt nguồn từ tình trạng thiếu tài xế.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2202. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

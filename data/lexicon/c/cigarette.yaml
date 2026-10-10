@@ -1,0 +1,26 @@
+schema_version: 3
+id: cigarette
+lemma: cigarette
+pos:
+- noun
+ipa:
+  us: /ˌsɪɡɚˈɛt/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: thuốc lá điếu
+  id: cigarette-1
+examples:
+- en: Smoking a cigarette is not allowed anywhere inside the building.
+  vi: Không được phép hút thuốc lá ở bất cứ đâu bên trong tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2356. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

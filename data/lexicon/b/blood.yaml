@@ -1,0 +1,26 @@
+schema_version: 3
+id: blood
+lemma: blood
+pos:
+- noun
+ipa:
+  us: /blʌd/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: máu
+  id: blood-1
+examples:
+- en: The clinic will take a blood sample during your annual checkup.
+  vi: Phòng khám sẽ lấy mẫu máu trong lần khám sức khỏe định kỳ của bạn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1018. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

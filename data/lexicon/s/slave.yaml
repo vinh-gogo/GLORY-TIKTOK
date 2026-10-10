@@ -1,0 +1,26 @@
+schema_version: 3
+id: slave
+lemma: slave
+pos:
+- noun
+ipa:
+  us: /sleɪv/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: nô lệ
+  id: slave-1
+examples:
+- en: The museum has an exhibit about the history of the slave trade.
+  vi: Bảo tàng có một cuộc triển lãm về lịch sử buôn bán nô lệ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2425. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

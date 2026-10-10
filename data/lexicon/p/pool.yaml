@@ -1,0 +1,26 @@
+schema_version: 3
+id: pool
+lemma: pool
+pos:
+- noun
+ipa:
+  us: /pul/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- travel
+senses:
+- meaning_vi: hồ bơi
+  id: pool-1
+examples:
+- en: The hotel has a large pool on the roof for guests.
+  vi: Khách sạn có một hồ bơi lớn trên mái dành cho khách.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1336. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

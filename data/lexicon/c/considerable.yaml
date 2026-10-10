@@ -1,0 +1,26 @@
+schema_version: 3
+id: considerable
+lemma: considerable
+pos:
+- adjective
+ipa:
+  us: /kənˈsɪdɚəbəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: đáng kể, to lớn
+  id: considerable-1
+examples:
+- en: The project required a considerable amount of time and money.
+  vi: Dự án đòi hỏi một lượng thời gian và tiền bạc đáng kể.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1671. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

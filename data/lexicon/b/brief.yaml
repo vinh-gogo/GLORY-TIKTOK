@@ -1,0 +1,26 @@
+schema_version: 3
+id: brief
+lemma: brief
+pos:
+- adjective
+ipa:
+  us: /brif/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: ngắn gọn
+  id: brief-1
+examples:
+- en: Please keep your presentation brief because we have limited time.
+  vi: Xin hãy trình bày ngắn gọn vì chúng ta có ít thời gian.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1270. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

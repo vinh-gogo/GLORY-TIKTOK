@@ -1,0 +1,26 @@
+schema_version: 3
+id: suburb
+lemma: suburb
+pos:
+- noun
+ipa:
+  us: /ˈsʌbɚb/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: vùng ngoại ô
+  id: suburb-1
+examples:
+- en: Many employees live in a quiet suburb and commute to the city by train.
+  vi: Nhiều nhân viên sống ở một vùng ngoại ô yên tĩnh và đi tàu vào thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 554. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

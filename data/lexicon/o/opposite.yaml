@@ -1,0 +1,28 @@
+schema_version: 3
+id: opposite
+lemma: opposite
+pos:
+- adjective
+- preposition
+ipa:
+  us: /ˈɑpəzət/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đối diện; ngược lại
+  id: opposite-1
+examples:
+- en: The bank is on the opposite side of the street from our office.
+  vi: Ngân hàng nằm ở phía đối diện đường với văn phòng của chúng tôi.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɑpəzət/; /ˈɑpzət/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1373. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

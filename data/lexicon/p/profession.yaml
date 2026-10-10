@@ -1,0 +1,26 @@
+schema_version: 3
+id: profession
+lemma: profession
+pos:
+- noun
+ipa:
+  us: /prəˈfɛʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- personnel
+senses:
+- meaning_vi: nghề nghiệp, ngành nghề
+  id: profession-1
+examples:
+- en: Teaching is a demanding profession that requires patience and strong communication skills.
+  vi: Giảng dạy là một nghề đòi hỏi nhiều, cần sự kiên nhẫn và kỹ năng giao tiếp tốt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2487. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

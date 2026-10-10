@@ -1,0 +1,26 @@
+schema_version: 3
+id: interpreter
+lemma: interpreter
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈtɝprətɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: thông dịch viên, phiên dịch
+  id: interpreter-1
+examples:
+- en: An interpreter helped both sides understand each other during the negotiation.
+  vi: Một thông dịch viên đã giúp hai bên hiểu nhau trong buổi đàm phán.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1142. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

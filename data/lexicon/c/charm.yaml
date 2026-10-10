@@ -1,0 +1,26 @@
+schema_version: 3
+id: charm
+lemma: charm
+pos:
+- noun
+ipa:
+  us: /tʃɑrm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: sức quyến rũ, nét duyên
+  id: charm-1
+examples:
+- en: The old town has a special charm that attracts many tourists.
+  vi: Khu phố cổ có nét duyên đặc biệt thu hút nhiều du khách.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2376. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

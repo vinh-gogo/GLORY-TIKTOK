@@ -1,0 +1,26 @@
+schema_version: 3
+id: medicine
+lemma: medicine
+pos:
+- noun
+ipa:
+  us: /ˈmɛdəsən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- health
+senses:
+- meaning_vi: thuốc; y học
+  id: medicine-1
+examples:
+- en: Take this medicine twice a day after eating a meal.
+  vi: Hãy uống thuốc này hai lần mỗi ngày sau bữa ăn.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1761. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

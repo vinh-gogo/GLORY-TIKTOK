@@ -1,0 +1,26 @@
+schema_version: 3
+id: expertise
+lemma: expertise
+pos:
+- noun
+ipa:
+  us: /ˌɛkspɚˈtiz/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- personnel
+senses:
+- meaning_vi: chuyên môn, kiến thức chuyên sâu
+  id: expertise-1
+examples:
+- en: We hired her because of her expertise in financial planning.
+  vi: Chúng tôi thuê cô ấy nhờ chuyên môn của cô về lập kế hoạch tài chính.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 311. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: transform
+lemma: transform
+pos:
+- verb
+ipa:
+  us: /trænsˈfɔrm/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- corporate-development
+senses:
+- meaning_vi: biến đổi, chuyển đổi
+  id: transform-1
+examples:
+- en: New technology has transformed the way we serve our customers.
+  vi: Công nghệ mới đã thay đổi hoàn toàn cách chúng tôi phục vụ khách hàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/trænsˈfɔrm/; /ˈtrænsfɔrm/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 2174. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

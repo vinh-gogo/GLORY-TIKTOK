@@ -1,0 +1,26 @@
+schema_version: 3
+id: buy
+lemma: buy
+pos:
+- verb
+ipa:
+  us: /baɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- purchasing
+senses:
+- meaning_vi: mua
+  id: buy-1
+examples:
+- en: Customers can buy tickets online or at the station counter.
+  vi: Khách hàng có thể mua vé trực tuyến hoặc tại quầy ở nhà ga.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 242. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

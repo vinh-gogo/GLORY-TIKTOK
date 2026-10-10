@@ -1,0 +1,26 @@
+schema_version: 3
+id: bar
+lemma: bar
+pos:
+- noun
+ipa:
+  us: /bɑr/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- dining-out
+senses:
+- meaning_vi: quán bar; thanh, thanh chắn
+  id: bar-1
+examples:
+- en: After the seminar, we met at a small bar near the station.
+  vi: Sau buổi hội thảo, chúng tôi gặp nhau ở một quán bar nhỏ gần nhà ga.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] nhiều nghĩa (quán bar, thanh, thanh công cụ); chọn nghĩa quán bar — Mục từ NGSL
+    hạng 837. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band
+    TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

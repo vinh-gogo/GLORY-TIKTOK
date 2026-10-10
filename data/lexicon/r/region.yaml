@@ -1,0 +1,26 @@
+schema_version: 3
+id: region
+lemma: region
+pos:
+- noun
+ipa:
+  us: /ˈridʒən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: vùng, khu vực
+  id: region-1
+examples:
+- en: Our sales in the northern region increased significantly this year.
+  vi: Doanh số của chúng tôi ở khu vực phía bắc tăng đáng kể trong năm nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 677. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

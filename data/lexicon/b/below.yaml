@@ -1,0 +1,28 @@
+schema_version: 3
+id: below
+lemma: below
+pos:
+- preposition
+- adverb
+ipa:
+  us: /bɪˈloʊ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: bên dưới, dưới
+  id: below-1
+examples:
+- en: Please sign your name in the box below the last paragraph.
+  vi: Vui lòng ký tên vào ô bên dưới đoạn văn cuối cùng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/bɪˈloʊ/; /biˈloʊ/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 761. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

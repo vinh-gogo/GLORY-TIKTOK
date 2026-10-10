@@ -1,0 +1,26 @@
+schema_version: 3
+id: institution
+lemma: institution
+pos:
+- noun
+ipa:
+  us: /ˌɪnstɪˈtuʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: tổ chức, cơ quan
+  id: institution-1
+examples:
+- en: The bank is a respected financial institution with branches in many cities.
+  vi: Ngân hàng này là một tổ chức tài chính uy tín có chi nhánh ở nhiều thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1137. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

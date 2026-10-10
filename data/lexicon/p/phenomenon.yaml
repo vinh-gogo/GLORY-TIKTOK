@@ -1,0 +1,26 @@
+schema_version: 3
+id: phenomenon
+lemma: phenomenon
+pos:
+- noun
+ipa:
+  us: /fəˈnɑməˌnɑn/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: hiện tượng
+  id: phenomenon-1
+examples:
+- en: Online shopping has become a worldwide phenomenon in recent years.
+  vi: Mua sắm trực tuyến đã trở thành một hiện tượng toàn cầu trong những năm gần đây.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2096. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: examine
+lemma: examine
+pos:
+- verb
+ipa:
+  us: /ɪɡˈzæmɪn/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: kiểm tra, xem xét kỹ
+  id: examine-1
+examples:
+- en: Inspectors will examine the products carefully before they leave the factory.
+  vi: Thanh tra sẽ kiểm tra kỹ sản phẩm trước khi chúng rời khỏi nhà máy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1104. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

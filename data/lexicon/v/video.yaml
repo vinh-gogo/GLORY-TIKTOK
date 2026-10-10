@@ -1,0 +1,26 @@
+schema_version: 3
+id: video
+lemma: video
+pos:
+- noun
+ipa:
+  us: /ˈvɪdioʊ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: video, đoạn phim
+  id: video-1
+examples:
+- en: The marketing team created a short video to promote the new product.
+  vi: Nhóm tiếp thị đã làm một video ngắn để quảng bá sản phẩm mới.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1065. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

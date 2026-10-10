@@ -1,0 +1,26 @@
+schema_version: 3
+id: day
+lemma: day
+pos:
+- noun
+ipa:
+  us: /deɪ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: ngày
+  id: day-1
+examples:
+- en: The store is open every day except on national holidays.
+  vi: Cửa hàng mở cửa mỗi ngày trừ các ngày lễ quốc gia.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 85. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

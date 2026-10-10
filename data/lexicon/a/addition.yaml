@@ -1,0 +1,26 @@
+schema_version: 3
+id: addition
+lemma: addition
+pos:
+- noun
+ipa:
+  us: /əˈdɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: sự bổ sung; phần thêm vào
+  id: addition-1
+examples:
+- en: In addition to salary, the job offers free health insurance.
+  vi: Ngoài tiền lương, công việc còn cung cấp bảo hiểm sức khỏe miễn phí.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 707. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

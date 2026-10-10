@@ -1,0 +1,26 @@
+schema_version: 3
+id: pharmacy
+lemma: pharmacy
+pos:
+- noun
+ipa:
+  us: /ˈfɑrməsi/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: hiệu thuốc
+  id: pharmacy-1
+examples:
+- en: You can pick up your medicine at the pharmacy next door.
+  vi: Bạn có thể lấy thuốc ở hiệu thuốc bên cạnh.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 423. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

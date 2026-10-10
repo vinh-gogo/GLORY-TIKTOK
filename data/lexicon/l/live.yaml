@@ -1,0 +1,27 @@
+schema_version: 3
+id: live
+lemma: live
+pos:
+- verb
+ipa:
+  us: /laɪv/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: sống; cư trú
+  id: live-1
+examples:
+- en: Many of our employees live within walking distance of the office.
+  vi: Nhiều nhân viên của chúng tôi sống ở khoảng cách đi bộ đến văn phòng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/laɪv/; /lɪv/); IPA đang ghi là cách đầu tiên, cần
+    kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 153. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

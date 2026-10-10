@@ -1,0 +1,26 @@
+schema_version: 3
+id: cup
+lemma: cup
+pos:
+- noun
+ipa:
+  us: /kʌp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: cái tách, cái cốc
+  id: cup-1
+examples:
+- en: She brought a cup of tea to the manager's desk.
+  vi: Cô ấy mang một tách trà đến bàn của người quản lý.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1491. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

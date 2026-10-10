@@ -1,0 +1,25 @@
+{{- define "main" }}
+{{- $s := .Params.synset -}}
+<header class="page-head">
+  <p class="crumb"><a href="/synonyms/">← Đồng nghĩa</a></p>
+  <h1>{{ $s.head_vi }}</h1>
+  <p class="muted">{{ $s.pos }}</p>
+</header>
+<section class="wsec">
+  <h2>Sắc thái từng từ</h2>
+  <ul class="syn">
+    {{- range $s.members }}
+    <li><strong>{{ if and .ref (site.GetPage (printf "/words/%s" .ref)) }}<a href="/words/{{ .ref }}/">{{ .word }}</a>{{ else }}{{ .word }}{{ end }}</strong>
+      {{- with .register }} <span class="chip">{{ . }}</span>{{ end }} — {{ .nuance_vi }}</li>
+    {{- end }}
+  </ul>
+</section>
+{{- with $s.not_interchangeable_vi }}
+<section class="wsec"><h2>Không thay thế được khi nào?</h2><p>{{ . }}</p></section>
+{{- end }}
+{{- with $s.examples }}
+<section class="wsec"><h2>Ví dụ</h2>
+  {{- range . }}<blockquote class="example"><p class="ex-en">{{ .en }}</p><p class="ex-vi">{{ .vi }}</p></blockquote>{{ end }}
+</section>
+{{- end }}
+{{- end }}

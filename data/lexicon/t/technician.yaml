@@ -1,0 +1,26 @@
+schema_version: 3
+id: technician
+lemma: technician
+pos:
+- noun
+ipa:
+  us: /tɛkˈnɪʃən/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: kỹ thuật viên
+  id: technician-1
+examples:
+- en: A technician will visit your office tomorrow to repair the printer.
+  vi: Một kỹ thuật viên sẽ đến văn phòng của bạn vào ngày mai để sửa máy in.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 30. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: occupy
+lemma: occupy
+pos:
+- verb
+ipa:
+  us: /ˈɑkjəˌpaɪ/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- housing-property
+senses:
+- meaning_vi: chiếm, sử dụng (không gian); bận rộn
+  id: occupy-1
+examples:
+- en: Our company will occupy the entire third floor of the building.
+  vi: Công ty chúng tôi sẽ sử dụng toàn bộ tầng ba của tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1930. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

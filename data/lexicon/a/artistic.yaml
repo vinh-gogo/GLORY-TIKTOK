@@ -1,0 +1,26 @@
+schema_version: 3
+id: artistic
+lemma: artistic
+pos:
+- adjective
+ipa:
+  us: /ɑrˈtɪstɪk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- entertainment
+senses:
+- meaning_vi: có tính nghệ thuật, có khiếu nghệ thuật
+  id: artistic-1
+examples:
+- en: The magazine praised the artistic design of the new concert hall.
+  vi: Tạp chí khen ngợi thiết kế đầy tính nghệ thuật của phòng hòa nhạc mới.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1026. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

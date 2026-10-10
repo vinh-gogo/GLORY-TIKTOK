@@ -1,0 +1,27 @@
+schema_version: 3
+id: again
+lemma: again
+pos:
+- adverb
+ipa:
+  us: /əˈɡɛn/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: lại, lần nữa
+  id: again-1
+examples:
+- en: The printer has stopped working again, so please call the technician.
+  vi: Máy in lại ngừng hoạt động, nên vui lòng gọi kỹ thuật viên.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/əˈɡɛn/; /əˈɡeɪn/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 175. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

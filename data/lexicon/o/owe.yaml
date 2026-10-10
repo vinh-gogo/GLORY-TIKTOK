@@ -1,0 +1,26 @@
+schema_version: 3
+id: owe
+lemma: owe
+pos:
+- verb
+ipa:
+  us: /oʊ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: nợ, còn nợ
+  id: owe-1
+examples:
+- en: I still owe the supplier payment for last month's order.
+  vi: Tôi vẫn còn nợ nhà cung cấp khoản thanh toán cho đơn hàng tháng trước.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2053. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

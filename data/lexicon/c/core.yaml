@@ -1,0 +1,27 @@
+schema_version: 3
+id: core
+lemma: core
+pos:
+- noun
+- adjective
+ipa:
+  us: /kɔr/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: lõi, cốt lõi, trọng tâm
+  id: core-1
+examples:
+- en: Quality service is at the core of our business.
+  vi: Dịch vụ chất lượng là cốt lõi của hoạt động kinh doanh của chúng tôi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1830. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

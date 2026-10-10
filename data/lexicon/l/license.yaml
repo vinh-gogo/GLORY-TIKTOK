@@ -1,0 +1,27 @@
+schema_version: 3
+id: license
+lemma: license
+pos:
+- noun
+- verb
+ipa:
+  us: /ˈlaɪsəns/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: giấy phép
+  id: license-1
+examples:
+- en: You need a license to operate a restaurant in this city.
+  vi: Bạn cần có giấy phép để điều hành một nhà hàng ở thành phố này.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1583. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: home
+lemma: home
+pos:
+- noun
+- adverb
+ipa:
+  us: /hoʊm/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- housing-property
+senses:
+- meaning_vi: nhà; về nhà
+  id: home-1
+examples:
+- en: Several employees now work from home two days each week.
+  vi: Một số nhân viên hiện làm việc tại nhà hai ngày mỗi tuần.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 161. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: enthusiastically
+lemma: enthusiastically
+pos:
+- adverb
+ipa:
+  us: /ɪnˌθuziˈæstɪkli/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- daily-life
+senses:
+- meaning_vi: một cách nhiệt tình, hăng hái
+  id: enthusiastically-1
+examples:
+- en: The staff enthusiastically welcomed the new director on her first morning.
+  vi: Nhân viên nhiệt tình chào đón giám đốc mới vào buổi sáng đầu tiên của cô ấy.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 863. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

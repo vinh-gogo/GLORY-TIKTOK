@@ -1,0 +1,26 @@
+schema_version: 3
+id: musical
+lemma: musical
+pos:
+- adjective
+ipa:
+  us: /ˈmjuzɪkəl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- entertainment
+senses:
+- meaning_vi: thuộc về âm nhạc
+  id: musical-1
+examples:
+- en: The school organized a musical performance for the local community.
+  vi: Trường tổ chức một buổi biểu diễn âm nhạc cho cộng đồng địa phương.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1630. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

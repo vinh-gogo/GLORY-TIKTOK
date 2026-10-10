@@ -1,0 +1,26 @@
+schema_version: 3
+id: character
+lemma: character
+pos:
+- noun
+ipa:
+  us: /ˈkɛrɪktɚ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- entertainment
+senses:
+- meaning_vi: tính cách; nhân vật
+  id: character-1
+examples:
+- en: The main character in the novel is a young engineer.
+  vi: Nhân vật chính trong cuốn tiểu thuyết là một kỹ sư trẻ.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 693. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

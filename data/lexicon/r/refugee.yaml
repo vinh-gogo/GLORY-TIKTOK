@@ -1,0 +1,26 @@
+schema_version: 3
+id: refugee
+lemma: refugee
+pos:
+- noun
+ipa:
+  us: /ˈrɛfjudʒi/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: người tị nạn
+  id: refugee-1
+examples:
+- en: The charity provides food and shelter to refugees arriving in the city.
+  vi: Tổ chức từ thiện cung cấp thức ăn và nơi ở cho những người tị nạn đến thành phố.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2736. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

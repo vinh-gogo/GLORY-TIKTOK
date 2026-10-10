@@ -1,0 +1,26 @@
+schema_version: 3
+id: merger
+lemma: merger
+pos:
+- noun
+ipa:
+  us: /ˈmɝdʒɚ/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- corporate-development
+senses:
+- meaning_vi: sự sáp nhập (công ty)
+  id: merger-1
+examples:
+- en: The merger of the two firms was announced on Monday.
+  vi: Việc sáp nhập hai công ty đã được công bố vào thứ Hai.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 141. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

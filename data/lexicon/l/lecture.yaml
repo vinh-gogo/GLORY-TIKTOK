@@ -1,0 +1,26 @@
+schema_version: 3
+id: lecture
+lemma: lecture
+pos:
+- noun
+ipa:
+  us: /ˈlɛktʃɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- daily-life
+senses:
+- meaning_vi: bài giảng, buổi thuyết giảng
+  id: lecture-1
+examples:
+- en: The professor will give a lecture on international trade tonight.
+  vi: Vị giáo sư sẽ có bài giảng về thương mại quốc tế vào tối nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2378. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

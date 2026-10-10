@@ -1,0 +1,26 @@
+schema_version: 3
+id: accountant
+lemma: accountant
+pos:
+- noun
+ipa:
+  us: /əˈkaʊntənt/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: kế toán viên
+  id: accountant-1
+examples:
+- en: The accountant is preparing the annual tax report for the company.
+  vi: Kế toán viên đang chuẩn bị báo cáo thuế hằng năm cho công ty.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 22. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

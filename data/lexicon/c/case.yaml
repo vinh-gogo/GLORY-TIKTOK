@@ -1,0 +1,26 @@
+schema_version: 3
+id: case
+lemma: case
+pos:
+- noun
+ipa:
+  us: /keɪs/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: trường hợp; vụ việc; cái hộp
+  id: case-1
+examples:
+- en: In this case, we will need written approval from the director.
+  vi: Trong trường hợp này, chúng ta sẽ cần sự chấp thuận bằng văn bản từ giám đốc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 168. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: sir
+lemma: sir
+pos:
+- noun
+ipa:
+  us: /sɝ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: ngài (cách xưng hô lịch sự với nam)
+  id: sir-1
+examples:
+- en: Excuse me, sir, your table is ready now.
+  vi: Xin lỗi quý ông, bàn của ngài đã sẵn sàng rồi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2138. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

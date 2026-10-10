@@ -1,0 +1,26 @@
+schema_version: 3
+id: generation
+lemma: generation
+pos:
+- noun
+ipa:
+  us: /ˌdʒɛnɚˈeɪʃən/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- general-business
+senses:
+- meaning_vi: thế hệ
+  id: generation-1
+examples:
+- en: The company is now developing the next generation of mobile devices.
+  vi: Công ty hiện đang phát triển thế hệ thiết bị di động tiếp theo.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 998. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

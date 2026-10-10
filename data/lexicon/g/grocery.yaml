@@ -1,0 +1,27 @@
+schema_version: 3
+id: grocery
+lemma: grocery
+pos:
+- noun
+ipa:
+  us: /ˈɡroʊsɚi/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- purchasing
+senses:
+- meaning_vi: cửa hàng tạp hóa; hàng tạp hóa
+  id: grocery-1
+examples:
+- en: I need to stop at the grocery store to buy milk.
+  vi: Tôi cần ghé cửa hàng tạp hóa để mua sữa.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈɡroʊsɚi/; /ˈɡroʊsri/); IPA đang ghi là cách đầu
+    tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 257. IPA lấy từ CMUdict (đổi sang
+    IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

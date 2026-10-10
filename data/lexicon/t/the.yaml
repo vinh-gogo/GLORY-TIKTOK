@@ -1,0 +1,27 @@
+schema_version: 3
+id: the
+lemma: the
+pos:
+- article
+ipa:
+  us: /ðə/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: mạo từ xác định, chỉ vật/người đã xác định
+  id: the-1
+examples:
+- en: The manager asked the staff to finish the report by noon.
+  vi: Quản lý yêu cầu nhân viên hoàn thành báo cáo trước buổi trưa.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ðə/; /ðʌ/; /ði/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1. IPA lấy từ CMUdict (đổi sang IPA bằng
+    quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa,
+    từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

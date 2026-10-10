@@ -1,0 +1,26 @@
+schema_version: 3
+id: restatement
+lemma: restatement
+pos:
+- noun
+ipa:
+  us: /riˈsteɪtmənt/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sự nhắc lại, sự phát biểu lại
+  id: restatement-1
+examples:
+- en: His restatement of the main goals helped everyone understand the plan.
+  vi: Việc anh ấy nhắc lại các mục tiêu chính giúp mọi người hiểu kế hoạch.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1228. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

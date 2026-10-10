@@ -1,0 +1,27 @@
+schema_version: 3
+id: camera
+lemma: camera
+pos:
+- noun
+ipa:
+  us: /ˈkæmɚə/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: máy ảnh, camera
+  id: camera-1
+examples:
+- en: A security camera was installed at the entrance of the building.
+  vi: Một camera an ninh đã được lắp ở lối vào của tòa nhà.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈkæmɚə/; /ˈkæmrə/); IPA đang ghi là cách đầu tiên,
+    cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ NGSL hạng 1390. IPA lấy từ CMUdict (đổi sang IPA
+    bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt);
+    nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

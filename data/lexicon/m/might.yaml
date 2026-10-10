@@ -1,0 +1,26 @@
+schema_version: 3
+id: might
+lemma: might
+pos:
+- modal
+ipa:
+  us: /maɪt/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: có lẽ, có thể (khả năng thấp hơn may)
+  id: might-1
+examples:
+- en: The flight might be delayed because of the storm tonight.
+  vi: Chuyến bay có thể bị hoãn vì cơn bão tối nay.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 159. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

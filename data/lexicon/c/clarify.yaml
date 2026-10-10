@@ -1,0 +1,26 @@
+schema_version: 3
+id: clarify
+lemma: clarify
+pos:
+- verb
+ipa:
+  us: /ˈklɛrəˌfaɪ/
+level:
+  band: target
+  basis:
+  - tsl
+  cefr: B2
+topics:
+- general-business
+senses:
+- meaning_vi: làm rõ
+  id: clarify-1
+examples:
+- en: Could you clarify the deadline before we assign tasks to the team?
+  vi: Bạn có thể làm rõ thời hạn trước khi chúng tôi giao việc cho nhóm không?
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 703. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: protection
+lemma: protection
+pos:
+- noun
+ipa:
+  us: /prəˈtɛkʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: sự bảo vệ
+  id: protection-1
+examples:
+- en: Workers must wear gloves for protection when handling chemicals.
+  vi: Công nhân phải đeo găng tay để bảo vệ khi xử lý hóa chất.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1563. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: specify
 lemma: specify
 pos:
@@ -9,33 +9,34 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- contracts-negotiation
-- management-operations
-speaking_use:
-- respond-with-info
-- express-opinion
+- general-business
+- offices
 senses:
 - id: specify-1
   meaning_vi: Chỉ rõ, định rõ, nêu rõ chi tiết cụ thể
   note_vi: Thường dùng trong các hướng dẫn, tiêu chuẩn kỹ thuật hoặc điều khoản hợp đồng.
-confused_words:
-- word: specific
-  ipa: /spəˈsɪfɪk/
-  difference_vi: Specific là tính từ (cụ thể), trọng âm 2; specify là động từ (chỉ rõ), trọng âm 1.
-confusing_meanings:
-- difference_vi: Specify là chỉ rõ bằng văn bản hay lời nói; phân biệt với state (phát biểu chung chung).
 collocations:
 - phrase: clearly specify
   meaning_vi: nêu rõ, chỉ định rõ ràng
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: specify the requirements
   meaning_vi: nêu rõ các yêu cầu
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: unless otherwise specified
   meaning_vi: trừ khi có quy định khác
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: state
   meaning_vi: tuyên bố, nêu rõ
@@ -43,6 +44,12 @@ synonyms:
   meaning_vi: quy định cụ thể
 - word: indicate
   meaning_vi: chỉ ra
+confused_words:
+- word: specific
+  ipa: /spəˈsɪfɪk/
+  difference_vi: Specific là tính từ (cụ thể), trọng âm 2; specify là động từ (chỉ rõ), trọng âm 1.
+confusing_meanings:
+- difference_vi: Specify là chỉ rõ bằng văn bản hay lời nói; phân biệt với state (phát biểu chung chung).
 examples:
 - en: The contract clearly specifies delivery deadlines and penalty rates for delays.
   vi: Hợp đồng nêu rõ thời hạn giao hàng và mức phạt đối với sự chậm trễ.
@@ -53,6 +60,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

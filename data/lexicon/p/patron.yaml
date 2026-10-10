@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: patron
 lemma: patron
 pos:
@@ -9,13 +9,11 @@ ipa:
 level:
   band: target
   cefr: B2
-  basis: TOEIC 700
+  basis:
+  - editorial
 topics:
-- hospitality-travel
-- sales-customer-service
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- travel
+- general-business
 senses:
 - id: patron-1
   meaning_vi: Khách quen, người thường xuyên ghé thăm bảo tàng, nhà hàng, thư viện hoặc nhà hát
@@ -23,22 +21,25 @@ senses:
 - id: patron-2
   meaning_vi: Nhà bảo trợ, người bảo trợ tài chính cho các hoạt động nghệ thuật
   note_vi: Như trong 'patron of the arts' (nhà bảo trợ nghệ thuật).
-confused_words:
-- word: pattern
-  ipa: /ˈpætərn/
-  difference_vi: Pattern là hoa văn họa tiết hoặc khuôn mẫu; patron là khách quen hoặc người bảo trợ nghệ thuật.
-confusing_meanings:
-- difference_vi: Library patrons = độc giả thư viện; patron of the arts = nhà tài trợ cho giới nghệ sĩ.
 collocations:
 - phrase: regular patrons
   meaning_vi: những vị khách quen thuộc
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: patrons of the arts
   meaning_vi: những nhà bảo trợ nghệ thuật
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: reserved for patrons
   meaning_vi: dành riêng cho khách quen / khách dùng dịch vụ
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 synonyms:
 - word: customer
   meaning_vi: khách hàng
@@ -46,6 +47,12 @@ synonyms:
   meaning_vi: thân chủ
 - word: supporter
   meaning_vi: người ủng hộ
+confused_words:
+- word: pattern
+  ipa: /ˈpætərn/
+  difference_vi: Pattern là hoa văn họa tiết hoặc khuôn mẫu; patron là khách quen hoặc người bảo trợ nghệ thuật.
+confusing_meanings:
+- difference_vi: Library patrons = độc giả thư viện; patron of the arts = nhà tài trợ cho giới nghệ sĩ.
 examples:
 - en: The museum offers exclusive preview nights for annual members and museum patrons.
   vi: Bảo tàng tổ chức các đêm xem trước đặc quyền dành cho hội viên thường niên và khách bảo trợ bảo tàng.
@@ -56,6 +63,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

@@ -1,0 +1,26 @@
+schema_version: 3
+id: reputation
+lemma: reputation
+pos:
+- noun
+ipa:
+  us: /ˌrɛpjəˈteɪʃən/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: danh tiếng
+  id: reputation-1
+examples:
+- en: The restaurant has a good reputation for fast and friendly service.
+  vi: Nhà hàng có danh tiếng tốt về dịch vụ nhanh và thân thiện.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1859. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

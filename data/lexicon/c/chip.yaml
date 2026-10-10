@@ -1,0 +1,26 @@
+schema_version: 3
+id: chip
+lemma: chip
+pos:
+- noun
+ipa:
+  us: /tʃɪp/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- technical-areas
+senses:
+- meaning_vi: vi mạch, chip; miếng nhỏ
+  id: chip-1
+examples:
+- en: A shortage of computer chips slowed production at the factory.
+  vi: Tình trạng thiếu chip máy tính đã làm chậm sản xuất tại nhà máy.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1910. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

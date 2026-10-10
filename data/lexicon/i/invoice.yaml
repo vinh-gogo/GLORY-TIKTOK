@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: invoice
 lemma: invoice
 pos:
@@ -7,16 +7,13 @@ pos:
 ipa:
   us: /ˈɪnvɔɪs/
 level:
-  cefr: B1
   band: core
-  basis: editorial
+  cefr: B1
+  basis:
+  - editorial
 topics:
-- budget
-- sales
-- business
-speaking_use:
-- respond-with-info
-- respond-to-questions
+- finance-budgeting
+- general-business
 senses:
 - id: invoice-1
   meaning_vi: Hóa đơn yêu cầu thanh toán (gửi cho khách trước khi trả tiền)
@@ -24,38 +21,46 @@ senses:
 collocations:
 - phrase: issue an invoice
   meaning_vi: xuất hóa đơn yêu cầu thanh toán
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: pay an invoice
   meaning_vi: thanh toán hóa đơn
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: invoice number
   meaning_vi: mã số hóa đơn
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
 - phrase: outstanding invoice
   meaning_vi: hóa đơn chưa được thanh toán (còn nợ)
-  evidence: corpus
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: bill
+  meaning_vi: hóa đơn tính tiền
 confused_words:
 - word: invoke
   ipa: /ɪnˈvoʊk/
   meaning: viện dẫn luật, khơi gợi
   kind: spelling-sound
-  difference_vi: Invoice là hóa đơn tính tiền; invoke mang nghĩa viện dẫn điều luật
-    hoặc cầu khẩn.
+  difference_vi: Invoice là hóa đơn tính tiền; invoke mang nghĩa viện dẫn điều luật hoặc cầu khẩn.
 confusing_meanings:
 - word: receipt
   meaning: biên lai đã thanh toán
-  difference_vi: Invoice là chứng từ đòi tiền gửi trước; receipt là bằng chứng xác
-    nhận tiền đã được trả xong.
-synonyms:
-- word: bill
-  meaning_vi: hóa đơn tính tiền
+  difference_vi: Invoice là chứng từ đòi tiền gửi trước; receipt là bằng chứng xác nhận tiền đã được trả xong.
 examples:
-- en: The accounting department will issue an invoice immediately after the goods
-    have been shipped.
-  vi: Phòng kế toán sẽ phát hành hóa đơn thanh toán ngay sau khi hàng hóa được gửi
-    đi.
-pronunciation_tips_vi: 'Trọng âm rơi vào âm tiết đầu /ˈɪn-/. Âm tiết hai có nguyên
-  âm đôi /ɔɪ/ và kết thúc bằng âm /s/ xì nhẹ: /ˈɪnvɔɪs/.'
+- en: The accounting department will issue an invoice immediately after the goods have been shipped.
+  vi: Phòng kế toán sẽ phát hành hóa đơn thanh toán ngay sau khi hàng hóa được gửi đi.
+pronunciation_tips_vi: 'Trọng âm rơi vào âm tiết đầu /ˈɪn-/. Âm tiết hai có nguyên âm đôi /ɔɪ/ và kết thúc bằng âm /s/ xì
+  nhẹ: /ˈɪnvɔɪs/.'
 review:
   status: ai_cross_checked
   checked_by:

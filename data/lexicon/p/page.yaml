@@ -1,0 +1,26 @@
+schema_version: 3
+id: page
+lemma: page
+pos:
+- noun
+ipa:
+  us: /peɪdʒ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- offices
+senses:
+- meaning_vi: trang (giấy, web)
+  id: page-1
+examples:
+- en: Please turn to page ten of the handout for the schedule.
+  vi: Vui lòng mở trang mười của tài liệu phát tay để xem lịch trình.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 652. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

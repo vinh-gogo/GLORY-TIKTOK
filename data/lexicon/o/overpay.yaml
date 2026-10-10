@@ -1,0 +1,26 @@
+schema_version: 3
+id: overpay
+lemma: overpay
+pos:
+- verb
+ipa:
+  us: /ˈoʊvɚˌpeɪ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- finance-budgeting
+senses:
+- meaning_vi: trả quá tiền
+  id: overpay-1
+examples:
+- en: Check the invoice carefully so that you do not overpay the supplier.
+  vi: Hãy kiểm tra hóa đơn kỹ để bạn không trả quá tiền cho nhà cung cấp.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1065. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: shower
+lemma: shower
+pos:
+- noun
+ipa:
+  us: /ˈʃaʊɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- housing-property
+senses:
+- meaning_vi: vòi hoa sen; cơn mưa rào
+  id: shower-1
+examples:
+- en: Each room in the hotel has a private shower and a desk.
+  vi: Mỗi phòng trong khách sạn có vòi sen riêng và một bàn làm việc.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2352. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

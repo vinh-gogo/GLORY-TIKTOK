@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 id: tariff
 lemma: tariff
 pos:
@@ -9,38 +9,45 @@ ipa:
 level:
   band: advanced
   cefr: C1
-  basis: TOEIC 750+
+  basis:
+  - editorial
 topics:
-- shipping-logistics
-- finance-accounting
-speaking_use:
-- respond-with-info
-- express-opinion
+- purchasing
+- finance-budgeting
 senses:
 - id: tariff-1
   meaning_vi: Thuế quan đánh vào hàng hóa xuất nhập khẩu; biểu giá cước phí
   note_vi: Chính sách thuế quan giữa các quốc gia ảnh hưởng trực tiếp đến chi phí giao thương quốc tế.
+collocations:
+- phrase: impose tariffs
+  meaning_vi: áp đặt mức thuế quan lên hàng nhập khẩu
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: protective tariff
+  meaning_vi: thuế quan bảo hộ hàng nội địa
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+- phrase: tariff barriers
+  meaning_vi: các rào cản thuế quan thương mại
+  evidence:
+    source: unverified
+    checked_at: '2026-10-10'
+    note: 'legacy: ghi ''corpus'' chung chung, chưa có bằng chứng cụ thể'
+synonyms:
+- word: duty
+  meaning_vi: thuế xuất nhập khẩu
+- word: customs tax
+  meaning_vi: thuế hải quan
 confused_words:
 - word: traffic
   ipa: /ˈtræfɪk/
   difference_vi: Traffic là giao thông đường xá (/tr/); tariff là biểu thuế quan xuất nhập khẩu (/t/).
 confusing_meanings:
 - difference_vi: Impose tariffs = áp đặt mức thuế quan; customs tariff = biểu thuế hải quan.
-collocations:
-- phrase: impose tariffs
-  meaning_vi: áp đặt mức thuế quan lên hàng nhập khẩu
-  evidence: corpus
-- phrase: protective tariff
-  meaning_vi: thuế quan bảo hộ hàng nội địa
-  evidence: corpus
-- phrase: tariff barriers
-  meaning_vi: các rào cản thuế quan thương mại
-  evidence: corpus
-synonyms:
-- word: duty
-  meaning_vi: thuế xuất nhập khẩu
-- word: customs tax
-  meaning_vi: thuế hải quan
 examples:
 - en: The government decided to lower tariffs on imported raw materials to support local manufacturers.
   vi: Chính phủ đã quyết định hạ thuế quan đối với nguyên liệu thô nhập khẩu để hỗ trợ các nhà sản xuất trong nước.
@@ -51,6 +58,6 @@ review:
   - glory-editorial
   checked_at: '2026-10-10'
   sources:
-  - vocabulary.md
-  - synonyms.md
-  - Oxford Learner's Dictionary
+  - vocabulary-md
+  - synonyms-md
+  - oxford-ref

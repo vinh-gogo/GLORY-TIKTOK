@@ -1,0 +1,26 @@
+schema_version: 3
+id: potato
+lemma: potato
+pos:
+- noun
+ipa:
+  us: /pəˈteɪˌtoʊ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- dining-out
+senses:
+- meaning_vi: khoai tây
+  id: potato-1
+examples:
+- en: The restaurant serves grilled fish with mashed potato and fresh vegetables.
+  vi: Nhà hàng phục vụ cá nướng với khoai tây nghiền và rau tươi.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2623. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

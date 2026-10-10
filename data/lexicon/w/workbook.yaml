@@ -1,0 +1,26 @@
+schema_version: 3
+id: workbook
+lemma: workbook
+pos:
+- noun
+ipa:
+  us: /ˈwɝkˌbʊk/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: sách bài tập
+  id: workbook-1
+examples:
+- en: Each participant will receive a workbook with exercises during the training.
+  vi: Mỗi người tham gia sẽ nhận một cuốn sách bài tập có các bài thực hành trong buổi đào tạo.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1232. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

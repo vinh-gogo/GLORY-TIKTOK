@@ -1,0 +1,27 @@
+schema_version: 3
+id: spell
+lemma: spell
+pos:
+- verb
+- noun
+ipa:
+  us: /spɛl/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- daily-life
+senses:
+- meaning_vi: đánh vần
+  id: spell-1
+examples:
+- en: Could you spell your last name so I can update the record?
+  vi: Bạn có thể đánh vần họ của mình để tôi cập nhật hồ sơ không?
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1972. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

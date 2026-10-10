@@ -1,0 +1,26 @@
+schema_version: 3
+id: infection
+lemma: infection
+pos:
+- noun
+ipa:
+  us: /ˌɪnˈfɛkʃən/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: sự nhiễm trùng
+  id: infection-1
+examples:
+- en: Washing your hands often helps prevent the spread of infection.
+  vi: Rửa tay thường xuyên giúp ngăn ngừa sự lây lan của nhiễm trùng.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2252. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,26 @@
+schema_version: 3
+id: valid
+lemma: valid
+pos:
+- adjective
+ipa:
+  us: /ˈvælɪd/
+level:
+  band: core
+  basis:
+  - tsl
+  cefr: B1
+topics:
+- general-business
+senses:
+- meaning_vi: có hiệu lực, hợp lệ
+  id: valid-1
+examples:
+- en: This ticket is valid for one month from the date of purchase.
+  vi: Vé này có hiệu lực trong một tháng kể từ ngày mua.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 94. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

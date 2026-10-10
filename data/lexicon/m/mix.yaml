@@ -1,0 +1,27 @@
+schema_version: 3
+id: mix
+lemma: mix
+pos:
+- verb
+- noun
+ipa:
+  us: /mɪks/
+level:
+  band: core
+  basis:
+  - ngsl
+  cefr: B1
+topics:
+- dining-out
+senses:
+- meaning_vi: trộn; hỗn hợp
+  id: mix-1
+examples:
+- en: The chef will mix the ingredients carefully before putting them in the oven.
+  vi: Đầu bếp sẽ trộn kỹ các nguyên liệu trước khi cho vào lò.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 1029. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

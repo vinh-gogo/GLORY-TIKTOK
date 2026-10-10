@@ -1,0 +1,26 @@
+schema_version: 3
+id: underway
+lemma: underway
+pos:
+- adjective
+ipa:
+  us: /ˌʌndɚˈweɪ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- general-business
+senses:
+- meaning_vi: đang diễn ra, đang tiến hành
+  id: underway-1
+examples:
+- en: Construction of the new terminal is already underway at the airport.
+  vi: Việc xây dựng nhà ga mới đã được tiến hành tại sân bay.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1018. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

@@ -1,0 +1,27 @@
+schema_version: 3
+id: wheelchair
+lemma: wheelchair
+pos:
+- noun
+ipa:
+  us: /ˈwilˌtʃɛr/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- health
+senses:
+- meaning_vi: xe lăn
+  id: wheelchair-1
+examples:
+- en: The building has a ramp so people in a wheelchair can enter easily.
+  vi: Tòa nhà có lối dốc để người dùng xe lăn có thể vào dễ dàng.
+review:
+  status: ai_draft
+  reason: '[CẦN KIỂM TRA] CMUdict có nhiều cách đọc (/ˈwilˌtʃɛr/; /ˈhwilˌtʃɛr/); IPA đang ghi là cách
+    đầu tiên, cần kiểm tra có khớp nghĩa đã chọn không. — Mục từ TSL hạng 1094. IPA lấy từ CMUdict (đổi
+    sang IPA bằng quy tắc, vị trí dấu trọng âm theo heuristic); band TẠM theo hạng tần suất (ADR-005 chưa
+    chốt); nghĩa, từ loại, chủ đề, câu ví dụ do AI viết, chưa duyệt.'
+  checked_at: '2026-10-11'

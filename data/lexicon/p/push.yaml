@@ -1,0 +1,26 @@
+schema_version: 3
+id: push
+lemma: push
+pos:
+- verb
+ipa:
+  us: /pʊʃ/
+level:
+  band: foundation
+  basis:
+  - ngsl
+  cefr: A2
+topics:
+- daily-life
+senses:
+- meaning_vi: đẩy
+  id: push-1
+examples:
+- en: Push the door firmly to open it, because the handle is stuck.
+  vi: Hãy đẩy cửa mạnh để mở, vì tay nắm bị kẹt.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 868. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

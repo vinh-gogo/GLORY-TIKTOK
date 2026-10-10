@@ -1,0 +1,26 @@
+schema_version: 3
+id: hunger
+lemma: hunger
+pos:
+- noun
+ipa:
+  us: /ˈhʌŋɡɚ/
+level:
+  band: target
+  basis:
+  - ngsl
+  cefr: B2
+topics:
+- health
+senses:
+- meaning_vi: cơn đói, nạn đói
+  id: hunger-1
+examples:
+- en: The charity works to reduce hunger among children in poor communities.
+  vi: Tổ chức từ thiện hoạt động để giảm nạn đói ở trẻ em tại các cộng đồng nghèo.
+review:
+  status: ai_draft
+  reason: Mục từ NGSL hạng 2804. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'

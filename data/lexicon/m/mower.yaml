@@ -1,0 +1,26 @@
+schema_version: 3
+id: mower
+lemma: mower
+pos:
+- noun
+ipa:
+  us: /ˈmoʊɚ/
+level:
+  band: advanced
+  basis:
+  - tsl
+  cefr: C1
+topics:
+- housing-property
+senses:
+- meaning_vi: máy cắt cỏ
+  id: mower-1
+examples:
+- en: The gardener used a mower to cut the grass in front of the building.
+  vi: Người làm vườn dùng máy cắt cỏ để cắt cỏ trước tòa nhà.
+review:
+  status: ai_draft
+  reason: Mục từ TSL hạng 1226. IPA lấy từ CMUdict (đổi sang IPA bằng quy tắc, vị trí dấu trọng âm theo
+    heuristic); band TẠM theo hạng tần suất (ADR-005 chưa chốt); nghĩa, từ loại, chủ đề, câu ví dụ do
+    AI viết, chưa duyệt.
+  checked_at: '2026-10-11'
