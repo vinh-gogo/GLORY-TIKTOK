@@ -12,8 +12,12 @@
   {{- end }}
 </header>
 <div class="wlist">
-  {{- range .Pages.ByTitle }}
-    {{- if in (slice "ai_cross_checked" "human_verified") .Params.review_status }}{{ partial "wcard.html" .Params.word_data }}{{ end }}
-  {{- end }}
+  {{- $verified := slice "ai_cross_checked" "human_verified" }}
+  {{- $cap := 120 }}
+  {{- $pages := .Pages.ByTitle }}
+  {{- $shown := 0 }}
+  {{- range $pages }}{{ if and (in $verified .Params.review_status) (lt $shown $cap) }}{{ partial "wcard.html" .Params.word_data }}{{ $shown = add $shown 1 }}{{ end }}{{ end }}
+  {{- range $pages }}{{ if and (not (in $verified .Params.review_status)) (lt $shown $cap) }}{{ partial "wcard.html" .Params.word_data }}{{ $shown = add $shown 1 }}{{ end }}{{ end }}
 </div>
+<p class="muted">Hiển thị {{ $shown }} / {{ len $pages }} từ (từ đã đối chiếu xếp trước). <a href="/glossary/?band={{ $key }}">Xem và lọc toàn bộ trong từ điển →</a></p>
 {{- end }}

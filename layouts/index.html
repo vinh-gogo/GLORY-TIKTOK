@@ -1,5 +1,6 @@
 {{- define "main" }}
 {{- $words := partial "words-visible.html" . -}}
+{{- $nAll := len (partialCached "words-all.html" .) -}}
 {{- $bands := site.Data.levels.bands -}}
 {{- $nColl := 0 -}}
 {{- range $words }}{{ $nColl = add $nColl (len (.collocations | default slice)) }}{{ end -}}
@@ -14,7 +15,7 @@
   </header>
 
   <nav class="pillars" aria-label="Các mục chính">
-    <a class="pillar" href="/glossary/"><span class="pillar-ico" aria-hidden="true">📖</span><strong>Từ vựng</strong><span class="pillar-sub">{{ len $words }} từ đã duyệt</span></a>
+    <a class="pillar" href="/glossary/"><span class="pillar-ico" aria-hidden="true">📖</span><strong>Từ vựng</strong><span class="pillar-sub">{{ $nAll }} từ · {{ len $words }} đã duyệt</span></a>
     <a class="pillar" href="/collocations/"><span class="pillar-ico" aria-hidden="true">🔗</span><strong>Collocations</strong><span class="pillar-sub">{{ $nColl }} cụm từ</span></a>
     <a class="pillar" href="/synonyms/"><span class="pillar-ico" aria-hidden="true">🔄</span><strong>Đồng nghĩa</strong><span class="pillar-sub">Sắc thái khác nhau</span></a>
     <a class="pillar" href="/quotes/"><span class="pillar-ico" aria-hidden="true">💡</span><strong>Câu hay</strong><span class="pillar-sub">Học qua câu nói</span></a>

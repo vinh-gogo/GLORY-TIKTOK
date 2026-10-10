@@ -1,0 +1,7 @@
+{{- /* TẤT CẢ mục từ (ADR-009), sắp xếp theo lemma. Dùng partialCached để chỉ tính một lần mỗi lần build.
+       Khác words-visible.html (chỉ ai_cross_checked/human_verified): bản nháp cũng có trang nhưng gắn nhãn "chưa kiểm duyệt". */ -}}
+{{- $all := slice }}
+{{- range $letter, $dict := site.Data.lexicon }}
+  {{- range $id, $w := $dict }}{{ $all = $all | append $w }}{{ end }}
+{{- end }}
+{{- return (sort $all "lemma" "asc") }}

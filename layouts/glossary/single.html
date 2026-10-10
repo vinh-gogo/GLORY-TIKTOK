@@ -1,7 +1,7 @@
 {{- /* Trang chữ cái /glossary/<chữ>/ — dùng được khi tắt JS. */ -}}
 {{- define "main" }}
 {{- $l := .Params.letter -}}
-{{- $words := where (partial "words-visible.html" .) "lemma" "ne" "" -}}
+{{- $words := where (partialCached "words-all.html" .) "lemma" "ne" "" -}}
 <header class="page-head">
   <p class="crumb"><a href="/glossary/">← Từ vựng A–Z</a></p>
   <h1>{{ .Title }}</h1>
