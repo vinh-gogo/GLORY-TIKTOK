@@ -8,11 +8,12 @@
 
   <h2>Trạng thái duyệt nội dung</h2>
   <ul>
-    <li><strong>ai_draft</strong>: bản nháp, chưa đối chiếu — không hiện trong danh sách từ vựng.</li>
+    <li><strong>ai_draft</strong>: bản nháp chưa kiểm duyệt — <em>vẫn hiện</em> trên web với nhãn “Nháp”, không được Google lập chỉ mục. Nghĩa, ví dụ do AI viết; IPA sinh từ CMUdict.</li>
     <li><strong>ai_cross_checked</strong>: đã được đối chiếu chéo; hiện trong danh sách.</li>
     <li><strong>human_verified</strong>: biên tập viên đã kiểm tra.</li>
     <li><strong>needs_review</strong>: có điểm chưa chắc chắn; trang vẫn truy cập được kèm cảnh báo.</li>
   </ul>
+  <p>Chúng tôi chọn <strong>công khai bản nháp để cộng đồng cùng đọc và sửa dần</strong> (ADR-009). Mọi bản nháp đều gắn nhãn; nội dung chỉ được nâng trạng thái sau khi có đối chiếu độc lập.</p>
   <p>Chúng tôi không đoán khi chưa chắc: IPA, nghĩa hoặc collocation còn nghi ngờ sẽ được đánh dấu cần duyệt kèm lý do.</p>
 
   <h2>Cấp độ từ vựng</h2>
@@ -36,6 +37,9 @@
       {{- end }}
     </tbody>
   </table>
+
+  <h2>Danh sách từ</h2>
+  <p>Hơn 3.800 từ nháp được lấy từ <a href="https://www.newgeneralservicelist.com/toeic-service-list" rel="noopener noreferrer" target="_blank">TOEIC Service List 1.2</a> (Browne &amp; Culligan) và <a href="https://www.newgeneralservicelist.com/new-general-service-list" rel="noopener noreferrer" target="_blank">New General Service List 1.2</a> (Browne, Culligan &amp; Phillips), theo giấy phép <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener noreferrer license" target="_blank">CC BY-SA 4.0</a>. Đây là danh sách tần suất, <strong>không phải danh sách do ETS công bố</strong>; cấp độ gắn cho các từ nháp chỉ là tạm theo hạng tần suất. Phiên âm lấy từ CMU Pronouncing Dictionary.</p>
 
   <h2>Nguồn đối chiếu</h2>
   <p>Chỉ các nguồn có thể đối chiếu độc lập được liệt kê dưới đây; chúng tôi chỉ đối chiếu, không sao chép câu chữ từ điển hay đề thi.</p>

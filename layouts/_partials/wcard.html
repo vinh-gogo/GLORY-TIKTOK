@@ -4,6 +4,6 @@
 {{- $label := (index site.Data.levels.bands $band).label_vi -}}
 <a class="wcard" href="/words/{{ $w.id }}/">
   <span class="wcard-head"><strong class="wcard-lemma">{{ $w.lemma }}</strong><span class="wcard-ipa">{{ $w.ipa.us }}</span></span>
-  <span class="wcard-meta"><span class="wcard-pos">{{ delimit $w.pos ", " }}</span><span class="band band-{{ $band }}">{{ $label }}</span></span>
+  <span class="wcard-meta"><span class="wcard-pos">{{ delimit $w.pos ", " }}</span><span class="band band-{{ $band }}">{{ $label }}</span>{{ if not (in (slice "ai_cross_checked" "human_verified") $w.review.status) }}<span class="badge-draft" title="Chưa kiểm duyệt">Nháp</span>{{ end }}</span>
   <span class="wcard-mean">{{ (index $w.senses 0).meaning_vi }}</span>
 </a>

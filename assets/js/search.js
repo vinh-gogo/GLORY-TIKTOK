@@ -86,7 +86,7 @@
     var label = BANDS[w.b] || w.b;
     return '<a class="wcard" href="/words/' + esc(w.i) + '/">' +
       '<span class="wcard-head"><strong class="wcard-lemma">' + esc(w.l) + '</strong><span class="wcard-ipa">' + esc(w.p) + '</span></span>' +
-      '<span class="wcard-meta"><span class="wcard-pos">' + esc(w.s) + '</span><span class="band band-' + esc(w.b) + '">' + esc(label) + '</span></span>' +
+      '<span class="wcard-meta"><span class="wcard-pos">' + esc(w.s) + '</span><span class="band band-' + esc(w.b) + '">' + esc(label) + '</span>' + (w.d ? '<span class="badge-draft" title="Chưa kiểm duyệt">Nháp</span>' : '') + '</span>' +
       '<span class="wcard-mean">' + esc(w.m) + '</span></a>';
   }
 

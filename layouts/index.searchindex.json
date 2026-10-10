@@ -1,11 +1,11 @@
 {{- /* /search-index.json — chỉ mục tìm kiếm rút gọn (ADR-007). Khóa ngắn để giảm dung lượng.
-       i=id l=lemma p=IPA s=loại từ b=band t=chủ đề m=nghĩa c=collocations y=từ đồng nghĩa */ -}}
+       i=id l=lemma p=IPA s=loại từ b=band t=chủ đề m=nghĩa c=collocations y=từ đồng nghĩa d=1 nếu là bản nháp chưa kiểm duyệt */ -}}
 {{- $out := slice }}
-{{- range partial "words-visible.html" . }}
+{{- range partialCached "words-all.html" . }}
   {{- $c := slice }}
   {{- range .collocations }}{{ $c = $c | append .phrase }}{{ end }}
   {{- $y := slice }}
   {{- range .synonyms }}{{ $y = $y | append .word }}{{ end }}
-  {{- $out = $out | append (dict "i" .id "l" .lemma "p" .ipa.us "s" (delimit .pos ", ") "b" .level.band "t" .topics "m" (index .senses 0).meaning_vi "c" $c "y" $y) }}
+  {{- $out = $out | append (dict "i" .id "l" .lemma "p" .ipa.us "s" (delimit .pos ", ") "b" .level.band "t" .topics "m" (index .senses 0).meaning_vi "c" $c "y" $y "d" (cond (in (slice "ai_cross_checked" "human_verified") .review.status) 0 1)) }}
 {{- end }}
 {{- $out | jsonify }}

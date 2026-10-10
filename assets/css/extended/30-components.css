@@ -81,3 +81,7 @@ a.wcard:hover, a.setcard:hover, a.topiccard:hover { border-color: var(--accent);
   .colloc-vi { text-align: right; }
   .word-lemma { font-size: 2.4rem; }
 }
+
+/* Nhãn bản nháp chưa kiểm duyệt (ADR-009) */
+.badge-draft { display: inline-block; padding: .05rem .45rem; border-radius: 999px; font-size: .72rem; font-weight: 600; line-height: 1.4; color: #92400e; background: #fef3c7; border: 1px solid #f59e0b; }
+[data-theme="dark"] .badge-draft { color: #fcd34d; background: rgba(245, 158, 11, .15); border-color: rgba(245, 158, 11, .5); }

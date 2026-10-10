@@ -1,5 +1,6 @@
 {{- define "main" }}
-{{- $words := partial "words-visible.html" . -}}
+{{- $words := partialCached "words-all.html" . -}}
+{{- $nVerified := len (partialCached "words-visible.html" .) -}}
 {{- $bands := site.Data.levels.bands -}}
 {{- $topics := site.Data.topics.topics -}}
 {{- /* Chữ cái có từ + chủ đề có từ, để chỉ hiện bộ lọc dùng được */ -}}
@@ -13,7 +14,7 @@
 {{- $usedTopics = $usedTopics | uniq }}
 <header class="page-head">
   <h1>{{ .Title }}</h1>
-  <p class="muted"><span id="gl-total">{{ len $words }}</span> từ đã được duyệt. Chỉ từ ở trạng thái “đã đối chiếu” trở lên mới hiện trong danh sách.</p>
+  <p class="muted"><span id="gl-total">{{ len $words }}</span> từ · <strong>{{ $nVerified }}</strong> đã đối chiếu, còn lại là <strong>bản nháp chưa kiểm duyệt</strong> (có nhãn “Nháp”). Thấy sai? Bấm “Báo lỗi” ở trang từ — <a href="/methodology/">xem cách chúng tôi làm</a>.</p>
 </header>
 
 <div class="gl-tools" id="gl-tools" data-total="{{ len $words }}">

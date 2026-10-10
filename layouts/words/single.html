@@ -4,17 +4,14 @@
 {{- $lemma := $w.lemma -}}
 {{- $band := $w.level.band -}}
 {{- $bandInfo := index site.Data.levels.bands $band -}}
-{{- $visible := partial "words-visible.html" . -}}
+{{- $all := partialCached "words-all.html" . -}}
 {{- $isVisible := in (slice "ai_cross_checked" "human_verified") $w.review.status -}}
 
-{{- /* Từ trước / sau trong danh sách đã duyệt */ -}}
+{{- /* Từ trước / sau theo thứ tự chữ cái: weight của trang = vị trí trong danh sách (xem content/words/_content.gotmpl) */ -}}
+{{- $pos := sub .Weight 1 -}}
 {{- $prev := false }}{{ $next := false }}
-{{- range $i, $x := $visible }}
-  {{- if eq $x.id $id }}
-    {{- if gt $i 0 }}{{ $prev = index $visible (sub $i 1) }}{{ end }}
-    {{- if lt (add $i 1) (len $visible) }}{{ $next = index $visible (add $i 1) }}{{ end }}
-  {{- end }}
-{{- end }}
+{{- if gt $pos 0 }}{{ $prev = index $all (sub $pos 1) }}{{ end }}
+{{- if lt (add $pos 1) (len $all) }}{{ $next = index $all (add $pos 1) }}{{ end }}
 
 <article class="word" data-word="{{ $id }}">
   <p class="crumb"><a href="/glossary/">← Từ vựng A–Z</a></p>
@@ -38,9 +35,10 @@
 
   {{- if not $isVisible }}
   <div class="notice" role="note">
-    <strong>Mục này đang chờ duyệt.</strong>
-    {{- with $w.review.reason }} {{ . }}{{ end }}
-    Nội dung có thể chưa chính xác — vui lòng đối chiếu thêm.
+    <strong>Bản nháp chưa kiểm duyệt.</strong>
+    Nghĩa, ví dụ và phân loại do AI soạn, IPA sinh từ CMUdict; có thể chưa chính xác — hãy đối chiếu thêm với từ điển.
+    Thấy chỗ sai? Bấm <strong>Báo lỗi</strong> bên dưới để cộng đồng cùng sửa.
+    {{- with $w.review.reason }}<br><small class="muted">{{ . }}</small>{{ end }}
   </div>
   {{- end }}
 
@@ -114,7 +112,7 @@
 
   {{- /* Bộ từ theo video có chứa từ này */ -}}
   {{- $sets := slice }}
-  {{- range where site.RegularPages "Section" "sets" }}
+  {{- range (site.GetPage "/sets").RegularPages }}
     {{- if in .Params.words $id }}{{ $sets = $sets | append . }}{{ end }}
   {{- end }}
   {{- with $sets }}

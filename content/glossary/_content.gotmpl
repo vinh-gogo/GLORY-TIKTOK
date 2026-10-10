@@ -1,5 +1,5 @@
 {{- /* Trang tĩnh theo chữ cái: /glossary/a/ ... (dùng được khi tắt JS, nhẹ cho mobile). Chỉ sinh cho chữ có từ hiển thị. */ -}}
-{{- $words := partial "words-visible.html" . }}
+{{- $words := partialCached "words-all.html" . }}
 {{- $letters := slice }}
 {{- range $words }}
   {{- $letters = $letters | append (substr .lemma 0 1 | lower) }}
