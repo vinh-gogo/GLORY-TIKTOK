@@ -24,7 +24,7 @@ Cấp độ (`foundation / core / target / advanced`) là **phân loại biên t
 
 ## Phát triển cục bộ
 
-Yêu cầu: **Hugo Extended** ≥ 0.147 (đã thử 0.147.7 và 0.167.0; template dùng site.Data để chạy được trên cả bản cũ — bản ≥ 0.156 chỉ in cảnh báo deprecated), **Python 3.12** (`pip install pyyaml jsonschema`), **Git**.
+Yêu cầu: **Hugo Extended** ≥ 0.146 (Cloudflare Pages hiện build bằng 0.146.0; CI cũng dùng 0.146.0; đã thử thêm 0.147.7 và 0.167.0; template dùng site.Data để chạy được trên cả bản cũ — bản ≥ 0.156 chỉ in cảnh báo deprecated), **Python 3.12** (`pip install pyyaml jsonschema`), **Git**.
 
 ```bash
 git clone --recurse-submodules https://github.com/vinh-gogo/GLORY-TIKTOK.git
@@ -64,4 +64,4 @@ docs/            adr/, audit-*, changelog-data.md, archive/ (nội dung Speaking
 
 ## Triển khai Cloudflare Pages
 
-Build command `hugo --gc --minify`, output `public`, biến môi trường `HUGO_VERSION=0.167.0`. File `static/_redirects` được sinh bởi script, **không sửa tay**.
+Build command `hugo --gc --minify`, output `public`, không cần đặt `HUGO_VERSION` (mặc định hiện là 0.146.0; template tương thích 0.146.0 → 0.167.0, nếu nâng `HUGO_VERSION` thì thử build trước). File `static/_redirects` được sinh bởi script, **không sửa tay**.
