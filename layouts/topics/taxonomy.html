@@ -6,7 +6,7 @@
 <div class="cardgrid">
   {{- range .Pages.ByTitle }}
     {{- $slug := .Data.Term }}
-    {{- with index hugo.Data.topics.topics $slug }}
+    {{- with index site.Data.topics.topics $slug }}
   <a class="topiccard" href="/topics/{{ $slug }}/"><strong>{{ .name_vi }}</strong><span class="muted">{{ .description_vi }}</span></a>
     {{- end }}
   {{- end }}

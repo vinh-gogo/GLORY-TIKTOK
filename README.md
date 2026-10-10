@@ -24,7 +24,7 @@ Cấp độ (`foundation / core / target / advanced`) là **phân loại biên t
 
 ## Phát triển cục bộ
 
-Yêu cầu: **Hugo Extended** ≥ 0.167, **Python 3.12** (`pip install pyyaml jsonschema`), **Git**.
+Yêu cầu: **Hugo Extended** ≥ 0.147 (đã thử 0.147.7 và 0.167.0; template dùng site.Data để chạy được trên cả bản cũ — bản ≥ 0.156 chỉ in cảnh báo deprecated), **Python 3.12** (`pip install pyyaml jsonschema`), **Git**.
 
 ```bash
 git clone --recurse-submodules https://github.com/vinh-gogo/GLORY-TIKTOK.git

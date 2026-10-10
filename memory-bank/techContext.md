@@ -44,7 +44,7 @@ Before reporting any task complete or committing changes, run the following veri
 ## 3. Technical Constraints & Rules
 - **Levels & Scores:** Band definitions, CEFR mapping and TOEIC score ranges must be read from `data/levels.yaml`. Never hardcode scores/thresholds in templates or JS.
 - **URL Immutability:** Never modify published slugs or aliases (`/013`, `/words/<lemma>`). Any required redirect must be registered in `static/_redirects` with an accompanying ADR.
-- **Hugo Deprecation Awareness (project templates now use `hugo.Data`):** Hugo v0.156.0+ deprecated `.Site.Data` in favor of `hugo.Data`, and `.Language.LanguageDirection` / `.Language.LanguageCode`. Maintain backward and forward template compatibility.
+- **Hugo Deprecation Awareness (project templates use site.Data on purpose (Cloudflare Pages may run an older Hugo without hugo.Data; verified building on 0.147.7 and 0.167.0) Hugo v0.156.0+ deprecated `.Site.Data` in favor of `hugo.Data`, and `.Language.LanguageDirection` / `.Language.LanguageCode`. Maintain backward and forward template compatibility.
 - **Client Privacy:** Do not load remote tracking scripts or upload audio recordings. All user speech practice and settings remain stored strictly in `localStorage` or `IndexedDB`.
 
 - **Extra checks (2026-10):** python scripts/build/gen_redirects.py --check and python scripts/validate/check_urls.py (after hugo --gc --minify).

@@ -4,7 +4,7 @@
 <header class="page-head">
   <p class="crumb"><a href="/collocations/">← Collocations</a></p>
   <h1>{{ .Params.topic_name }}</h1>
-  <p class="muted">{{ with index hugo.Data.topics.topics $slug }}{{ .description_vi }}{{ end }}</p>
+  <p class="muted">{{ with index site.Data.topics.topics $slug }}{{ .description_vi }}{{ end }}</p>
 </header>
 {{- range $words }}
   {{- if and (in .topics $slug) .collocations }}

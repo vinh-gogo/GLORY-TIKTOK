@@ -1,6 +1,6 @@
 {{- /* /collocations/<topic>/: một trang cho mỗi chủ đề có từ hiển thị (PLAN T3.7). Nội dung sinh từ lexicon, không nhập tay. */ -}}
 {{- $words := partial "words-visible.html" . }}
-{{- $topics := hugo.Data.topics.topics }}
+{{- $topics := site.Data.topics.topics }}
 {{- range $slug, $t := $topics }}
   {{- $n := 0 }}
   {{- range $words }}

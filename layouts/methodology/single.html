@@ -1,5 +1,5 @@
 {{- define "main" }}
-{{- $lv := hugo.Data.levels -}}
+{{- $lv := site.Data.levels -}}
 <article class="prose">
   <header class="page-head">
     <h1>{{ .Title }}</h1>
@@ -40,7 +40,7 @@
   <h2>Nguồn đối chiếu</h2>
   <p>Chỉ các nguồn có thể đối chiếu độc lập được liệt kê dưới đây; chúng tôi chỉ đối chiếu, không sao chép câu chữ từ điển hay đề thi.</p>
   <ul>
-    {{- range $k, $s := hugo.Data.sources.sources }}
+    {{- range $k, $s := site.Data.sources.sources }}
       {{- if $s.independent }}
     <li>{{ if $s.url }}<a href="{{ $s.url }}" rel="noopener noreferrer" target="_blank">{{ $s.name }}</a>{{ else }}{{ $s.name }}{{ end }}</li>
       {{- end }}

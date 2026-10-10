@@ -1,6 +1,6 @@
 {{- /* Danh sách từ đã đủ điều kiện hiển thị (PLAN 8.3): chỉ ai_cross_checked trở lên; sắp xếp theo lemma. */ -}}
 {{- $all := slice }}
-{{- range $letter, $dict := hugo.Data.lexicon }}
+{{- range $letter, $dict := site.Data.lexicon }}
   {{- range $id, $w := $dict }}
     {{- if in (slice "ai_cross_checked" "human_verified") $w.review.status }}
       {{- $all = $all | append $w }}

@@ -1,6 +1,6 @@
 {{- define "main" }}
 {{- $words := partial "words-visible.html" . -}}
-{{- $bands := hugo.Data.levels.bands -}}
+{{- $bands := site.Data.levels.bands -}}
 {{- $nColl := 0 -}}
 {{- range $words }}{{ $nColl = add $nColl (len (.collocations | default slice)) }}{{ end -}}
 <section class="home">
@@ -24,7 +24,7 @@
     <h2>Chọn cấp độ</h2>
     <p class="muted">Phân loại biên tập của Glory 01, quy chiếu CEFR để tham khảo — không phải danh sách chính thức của ETS.</p>
     <div class="chips">
-      {{- range $key := hugo.Data.levels.band_order }}{{ $b := index $bands $key }}
+      {{- range $key := site.Data.levels.band_order }}{{ $b := index $bands $key }}
         {{- $n := 0 }}
         {{- range $words }}{{ if eq .level.band $key }}{{ $n = add $n 1 }}{{ end }}{{ end }}
         {{- if gt $n 0 }}

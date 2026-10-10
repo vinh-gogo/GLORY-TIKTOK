@@ -3,7 +3,7 @@
 {{- $id := $w.id -}}
 {{- $lemma := $w.lemma -}}
 {{- $band := $w.level.band -}}
-{{- $bandInfo := index hugo.Data.levels.bands $band -}}
+{{- $bandInfo := index site.Data.levels.bands $band -}}
 {{- $visible := partial "words-visible.html" . -}}
 {{- $isVisible := in (slice "ai_cross_checked" "human_verified") $w.review.status -}}
 
@@ -29,7 +29,7 @@
       <span class="wcard-pos">{{ delimit $w.pos ", " }}</span>
       <a class="chip band band-{{ $band }}" href="/levels/{{ $band }}/" title="Phân loại biên tập; CEFR {{ $bandInfo.cefr }} chỉ để tham khảo">{{ $bandInfo.label_vi }} · {{ $w.level.cefr | default $bandInfo.cefr }}</a>
       {{- range $slug := $w.topics }}
-        {{- with index hugo.Data.topics.topics $slug }}
+        {{- with index site.Data.topics.topics $slug }}
       <a class="chip" href="/topics/{{ $slug }}/">{{ .name_vi }}</a>
         {{- end }}
       {{- end }}

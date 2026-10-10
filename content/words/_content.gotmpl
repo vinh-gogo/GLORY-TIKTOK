@@ -1,6 +1,6 @@
 {{- /* Sinh /words/<id>/ từ data/lexicon (schema v3). Mọi mục từ đều có trang (giữ URL); danh sách chỉ hiện từ đủ điều kiện. */ -}}
 {{- $allWords := slice }}
-{{- range $initial, $words := hugo.Data.lexicon }}
+{{- range $initial, $words := site.Data.lexicon }}
   {{- range $id, $word := $words }}
     {{- $allWords = $allWords | append $word }}
   {{- end }}

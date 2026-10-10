@@ -16,7 +16,7 @@
   <div class="wlist">
     {{- range .Params.words }}
       {{- $id := . }}
-      {{- $d := (index hugo.Data.lexicon (substr $id 0 1)) | default dict }}
+      {{- $d := (index site.Data.lexicon (substr $id 0 1)) | default dict }}
       {{- with index $d $id }}
         {{- if site.GetPage (printf "/words/%s" $id) }}
           {{- partial "wcard.html" . }}

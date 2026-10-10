@@ -1,5 +1,5 @@
 {{- /* /synonyms/<id>/: một trang cho mỗi nhóm đồng nghĩa đã duyệt (data/synsets). Hiện chưa có nhóm nào → không sinh trang. */ -}}
-{{- range $id, $s := hugo.Data.synsets }}
+{{- range $id, $s := site.Data.synsets }}
   {{- if in (slice "ai_cross_checked" "human_verified") $s.review.status }}
     {{- $page := dict
       "path" $s.id

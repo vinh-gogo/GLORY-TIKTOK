@@ -6,7 +6,7 @@
   {{- end }}
 </nav>
 {{- $bandLabels := dict }}
-{{- range $k, $b := hugo.Data.levels.bands }}{{ $bandLabels = merge $bandLabels (dict $k $b.label_vi) }}{{ end }}
+{{- range $k, $b := site.Data.levels.bands }}{{ $bandLabels = merge $bandLabels (dict $k $b.label_vi) }}{{ end }}
 <script type="application/json" id="glory-cfg">{{ dict "bands" $bandLabels | jsonify | safeJS }}</script>
 {{- $search := resources.Get "js/search.js" | resources.Minify | fingerprint }}
 {{- $ui := resources.Get "js/ui.js" | resources.Minify | fingerprint }}

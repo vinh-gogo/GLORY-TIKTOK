@@ -1,6 +1,6 @@
 {{- define "main" }}
 {{- $key := .Data.Term -}}
-{{- $lv := hugo.Data.levels -}}
+{{- $lv := site.Data.levels -}}
 {{- $b := index $lv.bands $key -}}
 {{- $ref := index $lv.cefr_reference $b.cefr -}}
 <header class="page-head">
