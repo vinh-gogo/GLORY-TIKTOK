@@ -9,6 +9,7 @@ V6 (CMUdict) chỉ được kiểm thử khi cài gói `cmudict`; nếu không s
 """
 from __future__ import annotations
 
+import importlib.util
 import json
 import os
 import shutil
@@ -25,12 +26,24 @@ VALIDATE = ROOT / "scripts" / "validate" / "validate.py"
 SAMPLE = "data/lexicon/d/deadline.yaml"
 
 
+def _skip_drafts(directory, names):
+    """Bỏ các mục lexicon `ai_draft` khi sao chép (hàng nghìn bản nháp chỉ làm test chậm; không ảnh hưởng mã được kiểm)."""
+    if Path(directory).parent.name != "lexicon":
+        return []
+    out = []
+    for n in names:
+        p = Path(directory) / n
+        if p.suffix == ".yaml" and "status: ai_draft" in p.read_text(encoding="utf-8"):
+            out.append(n)
+    return out
+
+
 def run(mutator=None):
     """→ (returncode, [mã lỗi], [mã cảnh báo])"""
     with tempfile.TemporaryDirectory() as tmp:
         t = Path(tmp)
         for d in ("data", "schemas", "content", "layouts"):
-            shutil.copytree(ROOT / d, t / d)
+            shutil.copytree(ROOT / d, t / d, ignore=_skip_drafts)
         if mutator:
             mutator(t)
         rep = t / "rep.json"
@@ -176,7 +189,7 @@ class ValidatorErrors(unittest.TestCase):
         self.assertWarn(edit_yaml(SAMPLE, lambda d: d["level"].update(band="core", cefr="C1")), "V13")
 
 
-@unittest.skipUnless(shutil.which("python") and __import__("importlib").util.find_spec("cmudict"), "V6 cần gói cmudict (pip install cmudict) — chưa được kiểm thử")
+@unittest.skipUnless(shutil.which("python") and importlib.util.find_spec("cmudict"), "V6 cần gói cmudict (pip install cmudict) — chưa được kiểm thử")
 class ValidatorV6(unittest.TestCase):
     def test_v6_lemma_missing_in_cmudict(self):
         def fn(d):
